@@ -1,0 +1,54 @@
+<schemalist gettext-domain="gsettings-desktop-schemas">
+  <schema id="org.gnome.desktop.background" path="/desktop/gnome/background/">
+    <key name="draw-background" type="b">
+      <default>true</default>
+      <summary>Draw Desktop Background</summary>
+      <description>Have GNOME draw the desktop background.</description>
+    </key>
+    <key name="picture-options" type="s">
+      <choices>
+       <choice value="none"/>
+       <choice value="wallpaper"/>
+       <choice value="centered"/>
+       <choice value="scaled"/>
+       <choice value="stretched"/>
+       <choice value="zoom"/>
+       <choice value="spanned"/>
+      </choices>
+      <default>'zoom'</default>
+      <summary>Picture Options</summary>
+      <description>Determines how the image set by wallpaper_filename is rendered.  Possible values are "none", "wallpaper", "centered", "scaled", "stretched", "zoom", "spanned".</description>
+    </key>
+    <key name="picture-filename" type="s">
+      <default>'@datadir@/pixmaps/backgrounds/gnome/background-default.jpg'</default>
+      <summary>Picture Filename</summary>
+      <description>File to use for the background image.</description>
+    </key>
+    <key name="picture-opacity" type="i">
+      <range min="0" max="100"/>
+      <default>100</default>
+      <summary>Picture Opacity</summary>
+      <description>Opacity with which to draw the background picture.</description>
+    </key>
+    <key name="primary-color" type="s">
+      <default>'#66ba00'</default>
+      <summary>Primary Color</summary>
+      <description>Left or Top color when drawing gradients, or the solid color.</description>
+    </key>
+    <key name="secondary-color" type="s">
+      <default>'#66ba00'</default>
+      <summary>Secondary Color</summary>
+      <description>Right or Bottom color when drawing gradients, not used for solid color.</description>
+    </key>
+    <key name="color-shading-type" type="s">
+      <choices>
+       <choice value="horizontal-gradient"/>
+       <choice value="vertical-gradient"/>
+       <choice value="solid"/>
+      </choices>
+      <default>'solid'</default>
+      <summary>Color Shading Type</summary>
+      <description>How to shade the background color. Possible values are "horizontal-gradient", "vertical-gradient", and "solid".</description>
+    </key>
+  </schema>
+</schemalist>
