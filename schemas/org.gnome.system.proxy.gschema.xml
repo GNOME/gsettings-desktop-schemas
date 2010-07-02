@@ -4,12 +4,7 @@
     <child name="https" schema="org.gnome.system.proxy.https"/>
     <child name="ftp" schema="org.gnome.system.proxy.ftp"/>
     <child name="socks" schema="org.gnome.system.proxy.socks"/>
-    <key name="mode" type="s">
-      <choices>
-        <choice value="none"/>
-        <choice value="manual"/>
-        <choice value="auto"/>
-      </choices>
+    <key name="mode" enum="org.gnome.desktop.GDesktopProxyMode">
       <default>'none'</default>
       <summary>Proxy configuration mode</summary>
       <description>Select the proxy configuration mode. Supported values are "none", "manual", "auto".</description>

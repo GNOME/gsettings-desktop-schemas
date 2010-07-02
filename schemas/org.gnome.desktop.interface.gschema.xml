@@ -20,13 +20,7 @@
       <summary>Can Change Accels</summary>
       <description>Whether the user can dynamically type a new accelerator when  positioned over an active menuitem.</description>
     </key>
-    <key name="toolbar-style" type="s">
-      <choices>
-       <choice value="both"/>
-       <choice value="both-horiz"/>
-       <choice value="icons"/>
-       <choice value="text"/>
-      </choices>
+    <key name="toolbar-style" enum="org.gnome.desktop.GDesktopToolbarStyle">
       <default>'both-horiz'</default>
       <summary>Toolbar Style</summary>
       <description>Toolbar Style. Valid values are "both", "both-horiz", "icons", and "text".</description>
@@ -51,14 +45,10 @@
       <summary>Toolbar Detachable</summary>
       <description>Whether the user can detach toolbars and move them around.</description>
     </key>
-    <key name="toolbar-icons-size" type="s">
-      <choices>
-       <choice value="small-toolbar"/>
-       <choice value="large-toolbar"/>
-      </choices>
-      <default>'large-toolbar'</default>
+    <key name="toolbar-icons-size" enum="org.gnome.desktop.GDesktopToolbarIconSize">
+      <default>'large'</default>
       <summary>Toolbar Icon Size</summary>
-      <description>Size of icons in toolbars, either "small-toolbar" or "large-toolbar".</description>
+      <description>Size of icons in toolbars, either "small" or "large".</description>
     </key>
     <key name="cursor-blink" type="b">
       <default>true</default>

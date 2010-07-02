@@ -5,16 +5,7 @@
       <summary>Draw Desktop Background</summary>
       <description>Have GNOME draw the desktop background.</description>
     </key>
-    <key name="picture-options" type="s">
-      <choices>
-       <choice value="none"/>
-       <choice value="wallpaper"/>
-       <choice value="centered"/>
-       <choice value="scaled"/>
-       <choice value="stretched"/>
-       <choice value="zoom"/>
-       <choice value="spanned"/>
-      </choices>
+    <key name="picture-options" enum="org.gnome.desktop.GDesktopBackgroundStyle">
       <default>'zoom'</default>
       <summary>Picture Options</summary>
       <description>Determines how the image set by wallpaper_filename is rendered.  Possible values are "none", "wallpaper", "centered", "scaled", "stretched", "zoom", "spanned".</description>
@@ -40,15 +31,10 @@
       <summary>Secondary Color</summary>
       <description>Right or Bottom color when drawing gradients, not used for solid color.</description>
     </key>
-    <key name="color-shading-type" type="s">
-      <choices>
-       <choice value="horizontal-gradient"/>
-       <choice value="vertical-gradient"/>
-       <choice value="solid"/>
-      </choices>
+    <key name="color-shading-type" enum="org.gnome.desktop.GDesktopBackgroundShading">
       <default>'solid'</default>
       <summary>Color Shading Type</summary>
-      <description>How to shade the background color. Possible values are "horizontal-gradient", "vertical-gradient", and "solid".</description>
+      <description>How to shade the background color. Possible values are "horizontal", "vertical", and "solid".</description>
     </key>
   </schema>
 </schemalist>
