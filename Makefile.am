@@ -1,8 +1,10 @@
 NULL =
 
-SUBDIRS = headers schemas po
+SUBDIRS = schemas src docs po
 
 ACLOCAL_AMFLAGS = -I m4
+
+DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
 
 EXTRA_DIST =			\
 	HACKING			\
@@ -15,7 +17,10 @@ MAINTAINERCLEANFILES = \
 	$(srcdir)/aclocal.m4 \
 	$(srcdir)/config.guess \
 	$(srcdir)/config.sub \
+	$(srcdir)/depcomp \
+	$(srcdir)/gtk-doc.make \
 	$(srcdir)/install-sh \
+	$(srcdir)/ltmain.sh \
 	$(srcdir)/missing \
 	$(srcdir)/mkinstalldirs \
 	`find "$(srcdir)" -type f -name Makefile.in -print` \

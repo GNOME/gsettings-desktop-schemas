@@ -1,0 +1,28 @@
+/*** BEGIN file-header ***/
+#if !defined (__GDESKTOP_GDESKTOP_H_INSIDE__) && !defined (GDESKTOP_COMPILATION)
+#error "Only <gsettings-desktop-schemas.h> can be included directly."
+#endif
+
+#ifndef GDESKTOP_TYPE_BUILTINS_H
+#define GDESKTOP_TYPE_BUILTINS_H
+
+#include <glib-object.h>
+
+G_BEGIN_DECLS
+/*** END file-header ***/
+
+/*** BEGIN file-production ***/
+
+/* enumerations from "@filename@" */
+/*** END file-production ***/
+
+/*** BEGIN value-header ***/
+GType @enum_name@_get_type (void);
+#define GDESKTOP_TYPE_@ENUMSHORT@ (@enum_name@_get_type ())
+/*** END value-header ***/
+
+/*** BEGIN file-tail ***/
+G_END_DECLS
+
+#endif /* !GDESKTOP_TYPE_BUILTINS_H */
+/*** END file-tail ***/

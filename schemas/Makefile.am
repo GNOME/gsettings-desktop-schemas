@@ -15,7 +15,7 @@ desktop_gschemas_in =						\
 desktop_gschemas_in_processed = $(desktop_gschemas_in:.gschema.xml.in=.gschema.xml)
 
 gsettings_ENUM_NAMESPACE = org.gnome.desktop
-gsettings_ENUM_FILES = $(top_srcdir)/headers/*.h
+gsettings_ENUM_FILES = $(top_srcdir)/src/gdesktop-enums.h
 
 gsettings_SCHEMAS =				\
 	$(desktop_gschemas)			\
