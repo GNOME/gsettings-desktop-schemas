@@ -33,6 +33,7 @@ EXTRA_DIST =			\
 	$(NULL)
 
 CLEANFILES =					\
+	$(gsettings__enum_file)			\
 	$(desktop_gschemas_in_processed)	\
 	*.gschema.valid				\
 	$(NULL)
