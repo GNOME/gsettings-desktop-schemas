@@ -4,6 +4,9 @@ SUBDIRS = headers schemas po
 
 ACLOCAL_AMFLAGS = -I m4
 
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = gsettings-desktop-schemas.pc
+
 EXTRA_DIST =			\
 	HACKING			\
 	MAINTAINERS		\
@@ -20,8 +23,5 @@ MAINTAINERCLEANFILES = \
 	$(srcdir)/mkinstalldirs \
 	`find "$(srcdir)" -type f -name Makefile.in -print` \
 	$(srcdir)/configure
-
-pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = gsettings-desktop-schemas.pc
 
 -include $(top_srcdir)/git.mk

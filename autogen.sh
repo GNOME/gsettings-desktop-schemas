@@ -6,6 +6,7 @@ test -z "$srcdir" && srcdir=.
 
 PKG_NAME="gsettings-desktop-schemas"
 REQUIRED_AUTOMAKE_VERSION=1.9
+REQUIRED_M4MACROS=
 
 (test -f $srcdir/configure.ac \
   && test -f $srcdir/$PKG_NAME.doap) || {
@@ -18,7 +19,5 @@ which gnome-autogen.sh || {
     echo "You need to install gnome-common."
     exit 1
 }
-
-test -d $srcdir/m4 || mkdir $srcdir/m4
 
 . gnome-autogen.sh
