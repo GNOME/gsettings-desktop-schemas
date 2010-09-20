@@ -1,5 +1,3 @@
-NULL =
-
 SUBDIRS = headers schemas po
 
 ACLOCAL_AMFLAGS = -I m4
@@ -9,8 +7,7 @@ pkgconfig_DATA = gsettings-desktop-schemas.pc
 
 EXTRA_DIST =			\
 	HACKING			\
-	MAINTAINERS		\
-	$(NULL)
+	MAINTAINERS
 
 MAINTAINERCLEANFILES = \
 	$(srcdir)/m4/* \
