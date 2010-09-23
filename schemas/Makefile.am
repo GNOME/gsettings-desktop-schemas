@@ -22,9 +22,13 @@ gsettings_SCHEMAS =				\
 
 @GSETTINGS_RULES@
 
+convertdir=$(datadir)/GConf/gsettings
+convert_DATA=gsettings-desktop-schemas
+
 EXTRA_DIST =			\
 	$(desktop_gschemas)	\
-	$(desktop_gschemas_in)
+	$(desktop_gschemas_in)	\
+	$(convert_DATA)
 
 CLEANFILES =					\
 	$(gsettings__enum_file)			\
