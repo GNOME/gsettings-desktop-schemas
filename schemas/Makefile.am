@@ -2,7 +2,6 @@ desktop_gschemas =						\
 	org.gnome.desktop.default-applications.gschema.xml	\
 	org.gnome.desktop.interface.gschema.xml			\
 	org.gnome.desktop.lockdown.gschema.xml			\
-	org.gnome.desktop.url-handlers.gschema.xml		\
 	org.gnome.system.proxy.gschema.xml
 
 desktop_gschemas_in =						\
