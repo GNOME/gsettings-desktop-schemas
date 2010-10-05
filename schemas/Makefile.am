@@ -23,7 +23,7 @@ gsettings_SCHEMAS =				\
 @GSETTINGS_RULES@
 
 convertdir=$(datadir)/GConf/gsettings
-convert_DATA=gsettings-desktop-schemas
+convert_DATA=gsettings-desktop-schemas.convert
 
 EXTRA_DIST =			\
 	$(desktop_gschemas)	\
