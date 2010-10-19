@@ -199,5 +199,25 @@
       <summary>Cursor size</summary>
       <description>Size of the cursor used as cursor theme.</description>
     </key>
+    <key name="gtk-timeout-initial" type="i">
+      <default>200</default>
+      <summary>Timeout before click repeat</summary>
+      <description>Timeout in milliseconds before a click starts repeating (on spinner buttons for example).</description>
+    </key>
+    <key name="gtk-timeout-repeat" type="i">
+      <default>20</default>
+      <summary>Timeout between click repeats</summary>
+      <description>Timeout in milliseconds between repeated clicks when a button is left pressed.</description>
+    </key>
+    <key name="gtk-color-palette" type="s">
+      <default>''</default>
+      <summary>Palette used in the color selector</summary>
+      <description>Palette used in the color selector as defined by the 'gtk-color-palette' setting</description>
+    </key>
+    <key name="gtk-color-scheme" type="s">
+      <default>''</default>
+      <summary>List of symbolic names and color equivalents</summary>
+      <description>A '\n' separated list of "name:color" as defined by the 'gtk-color-scheme' setting</description>
+    </key>
   </schema>
 </schemalist>
