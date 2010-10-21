@@ -62,5 +62,18 @@ typedef enum
   G_DESKTOP_BACKGROUND_SHADING_HORIZONTAL
 } GDesktopBackgroundShading;
 
+typedef enum
+{
+  G_DESKTOP_MOUSE_DWELL_MODE_WINDOW,
+  G_DESKTOP_MOUSE_DWELL_MODE_GESTURE
+} GDesktopMouseDwellMode;
+
+typedef enum
+{
+  G_DESKTOP_MOUSE_DWELL_DIRECTION_LEFT,
+  G_DESKTOP_MOUSE_DWELL_DIRECTION_RIGHT,
+  G_DESKTOP_MOUSE_DWELL_DIRECTION_UP,
+  G_DESKTOP_MOUSE_DWELL_DIRECTION_DOWN
+} GDesktopMouseDwellDirection;
 
 #endif /* __gdesktop_enums_h__ */
