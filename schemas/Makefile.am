@@ -6,7 +6,8 @@ desktop_gschemas =						\
 	org.gnome.desktop.sound.gschema.xml			\
 	org.gnome.desktop.thumbnail-cache.gschema.xml		\
 	org.gnome.desktop.a11y.keyboard.gschema.xml		\
-	org.gnome.desktop.a11y.applications.gschema.xml
+	org.gnome.desktop.a11y.applications.gschema.xml		\
+	org.gnome.desktop.a11y.mouse.gschema.xml
 
 desktop_gschemas_in =						\
 	org.gnome.desktop.background.gschema.xml.in
