@@ -36,17 +36,22 @@
       <summary>Dwell click mode</summary>
       <description>The active dwell click mode. Possible values are 'window' and 'gesture'.</description>
     </key>
-    <key name="ctw-visible" type="b">
+    <key name="click-type-window-visible" type="b">
       <default>true</default>
       <summary>Show click type window</summary>
       <description>Show click type window.</description>
     </key>
-    <key name="ssc-enable" type="b">
+    <key name="dwell-click-enabled" type="b">
+      <default>false</default>
+      <summary>Enable dwell clicks</summary>
+      <description>Enable dwell clicks.</description>
+    </key>
+    <key name="secondary-click-enabled" type="b">
       <default>false</default>
       <summary>Secondary click enabled</summary>
-      <description>Whether to enable simulated secondary click or not.</description>
+      <description>Enable simulated secondary clicks</description>
     </key>
-    <key name="ssc-time" type="d">
+    <key name="secondary-click-time" type="d">
       <default>1.20</default>
       <summary>Secondary click time</summary>
       <description>Time in seconds before a simulated secondary click is triggered.</description>
