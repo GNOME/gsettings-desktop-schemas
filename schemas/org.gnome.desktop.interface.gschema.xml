@@ -74,7 +74,7 @@
       </description>
     </key>
     <key name="cursor-blink" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Cursor Blink</summary>
       <description>
         Whether the cursor should blink.
@@ -86,6 +86,14 @@
       <summary>Cursor Blink Time</summary>
       <description>
         Length of the cursor blink cycle, in milliseconds.
+      </description>
+    </key>
+    <key name="cursor-blink-timeout" type="i">
+      <range min="1" max="2147483647"/>
+      <default>10</default>
+      <summary>Cursor Blink Timeout</summary>
+      <description>
+        Time after which the cursor stops blinking, in seconds.
       </description>
     </key>
     <key name="icon-theme" type="s">
