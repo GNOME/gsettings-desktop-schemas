@@ -10,7 +10,8 @@ desktop_gschemas =						\
 	org.gnome.desktop.a11y.mouse.gschema.xml
 
 desktop_gschemas_in =						\
-	org.gnome.desktop.background.gschema.xml.in
+	org.gnome.desktop.background.gschema.xml.in		\
+	org.gnome.desktop.media-handling.gschema.xml.in
 
 desktop_gschemas_in_processed = $(desktop_gschemas_in:.gschema.xml.in=.gschema.xml)
 
