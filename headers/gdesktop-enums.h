@@ -76,4 +76,10 @@ typedef enum
   G_DESKTOP_MOUSE_DWELL_DIRECTION_DOWN
 } GDesktopMouseDwellDirection;
 
+typedef enum
+{
+  G_DESKTOP_CLOCK_FORMAT_24H,
+  G_DESKTOP_CLOCK_FORMAT_12H
+} GDesktopClockFormat;
+
 #endif /* __gdesktop_enums_h__ */
