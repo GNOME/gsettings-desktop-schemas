@@ -8,9 +8,6 @@ AC_CONFIG_MACRO_DIR([m4])
 
 AM_MAINTAINER_MODE
 
-dnl make sure we keep ACLOCAL_FLAGS around for maintainer builds to work
-AC_SUBST(ACLOCAL_AMFLAGS, "$ACLOCAL_FLAGS")
-
 AC_PROG_SED
 
 GLIB_GSETTINGS

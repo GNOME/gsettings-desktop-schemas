@@ -1,6 +1,6 @@
 SUBDIRS = headers schemas po
 
-ACLOCAL_AMFLAGS = -I m4
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = gsettings-desktop-schemas.pc
