@@ -82,4 +82,11 @@ typedef enum
   G_DESKTOP_CLOCK_FORMAT_12H
 } GDesktopClockFormat;
 
+typedef enum
+{
+  G_DESKTOP_SCREENSAVER_MODE_BLANK_ONLY,
+  G_DESKTOP_SCREENSAVER_MODE_RANDOM,
+  G_DESKTOP_SCREENSAVER_MODE_SINGLE
+} GDesktopScreensaverMode;
+
 #endif /* __gdesktop_enums_h__ */
