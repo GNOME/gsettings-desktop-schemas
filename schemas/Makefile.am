@@ -13,7 +13,8 @@ desktop_gschemas =						\
 
 desktop_gschemas_in =						\
 	org.gnome.desktop.background.gschema.xml.in		\
-	org.gnome.desktop.media-handling.gschema.xml.in
+	org.gnome.desktop.media-handling.gschema.xml.in		\
+	org.gnome.desktop.screensaver.gschema.xml.in
 
 desktop_gschemas_in_processed = $(desktop_gschemas_in:.gschema.xml.in=.gschema.xml)
 
