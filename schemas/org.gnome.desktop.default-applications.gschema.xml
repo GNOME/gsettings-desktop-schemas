@@ -1,7 +1,6 @@
 <schemalist gettext-domain="gsettings-desktop-schemas">
   <schema id="org.gnome.desktop.default-applications" path="/desktop/gnome/applications/">
     <child name="at" schema="org.gnome.desktop.default-applications.at"/>
-    <child name="browser" schema="org.gnome.desktop.default-applications.browser"/>
     <child name="office" schema="org.gnome.desktop.default-applications.office"/>
     <child name="terminal" schema="org.gnome.desktop.default-applications.terminal"/>
   </schema>
@@ -46,27 +45,6 @@
       <description>
         GNOME to start preferred Visual assistive technology application 
         during login.
-      </description>
-    </key>
-  </schema>
-  <schema id="org.gnome.desktop.default-applications.browser" path="/desktop/gnome/applications/browser/">
-    <key name="exec" type="s">
-      <default>'mozilla'</default>
-      <summary>Default browser</summary>
-      <description>Default browser for all URLs.</description>
-    </key>
-    <key name="needs-term" type="b">
-      <default>false</default>
-      <summary>Browser needs terminal</summary>
-      <description>
-        Whether the default browser needs a terminal to run.
-      </description>
-    </key>
-    <key name="nremote" type="b">
-      <default>true</default>
-      <summary>Browser understands remote</summary>
-      <description>
-        Whether the default browser understands netscape remote.
       </description>
     </key>
   </schema>
