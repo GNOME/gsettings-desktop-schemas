@@ -2,61 +2,61 @@
   <schema id="org.gnome.desktop.background" path="/desktop/gnome/background/">
     <key name="draw-background" type="b">
       <default>true</default>
-      <summary>Draw Desktop Background</summary>
-      <description>Have GNOME draw the desktop background.</description>
+      <_summary>Draw Desktop Background</_summary>
+      <_description>Have GNOME draw the desktop background.</_description>
     </key>
     <key name="picture-options" enum="org.gnome.desktop.GDesktopBackgroundStyle">
       <default>'zoom'</default>
-      <summary>Picture Options</summary>
-      <description>
+      <_summary>Picture Options</_summary>
+      <_description>
         Determines how the image set by wallpaper_filename is rendered.
         Possible values are "none", "wallpaper", "centered", "scaled",
         "stretched", "zoom", "spanned".
-      </description>
+      </_description>
     </key>
     <key name="picture-filename" type="s">
       <default>'@datadir@/themes/Adwaita/backgrounds/stripes.jpg'</default>
-      <summary>Picture Filename</summary>
-      <description>
+      <_summary>Picture Filename</_summary>
+      <_description>
         File to use for the background image.
-      </description>
+      </_description>
     </key>
     <key name="picture-opacity" type="i">
       <range min="0" max="100"/>
       <default>100</default>
-      <summary>Picture Opacity</summary>
-      <description>
+      <_summary>Picture Opacity</_summary>
+      <_description>
         Opacity with which to draw the background picture.
-      </description>
+      </_description>
     </key>
     <key name="primary-color" type="s">
       <default>'#023c88'</default>
-      <summary>Primary Color</summary>
-      <description>
+      <_summary>Primary Color</_summary>
+      <_description>
         Left or Top color when drawing gradients, or the solid color.
-      </description>
+      </_description>
     </key>
     <key name="secondary-color" type="s">
       <default>'#5789ca'</default>
-      <summary>Secondary Color</summary>
-      <description>
+      <_summary>Secondary Color</_summary>
+      <_description>
         Right or Bottom color when drawing gradients, not used for solid color.
-      </description>
+      </_description>
     </key>
     <key name="color-shading-type" enum="org.gnome.desktop.GDesktopBackgroundShading">
       <default>'solid'</default>
-      <summary>Color Shading Type</summary>
-      <description>
+      <_summary>Color Shading Type</_summary>
+      <_description>
         How to shade the background color. Possible values are "horizontal",
         "vertical", and "solid".
-      </description>
+      </_description>
     </key>
     <key name="show-desktop-icons" type="b">
       <default>false</default>
-      <summary>Have file manager handle the desktop</summary>
-      <description>
+      <_summary>Have file manager handle the desktop</_summary>
+      <_description>
         If set to true, then file manager will draw the icons on the desktop.
-      </description>
+      </_description>
     </key>
   </schema>
 </schemalist>
