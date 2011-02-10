@@ -7,6 +7,7 @@ desktop_gschemas_in_in =						\
 	org.gnome.desktop.thumbnail-cache.gschema.xml.in.in		\
 	org.gnome.desktop.a11y.keyboard.gschema.xml.in.in		\
 	org.gnome.desktop.a11y.applications.gschema.xml.in.in		\
+	org.gnome.desktop.a11y.magnifier.gschema.xml.in.in		\
 	org.gnome.desktop.a11y.mouse.gschema.xml.in.in			\
 	org.gnome.desktop.thumbnailers.gschema.xml.in.in		\
 	org.gnome.desktop.session.gschema.xml.in.in			\
