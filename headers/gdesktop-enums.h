@@ -105,6 +105,6 @@ typedef enum
   G_DESKTOP_MAGNIFIER_SCREEN_POSITION_BOTTOM_HALF,
   G_DESKTOP_MAGNIFIER_SCREEN_POSITION_LEFT_HALF,
   G_DESKTOP_MAGNIFIER_SCREEN_POSITION_RIGHT_HALF,
-} GDesktopMagnifierScreenPosition
+} GDesktopMagnifierScreenPosition;
 
 #endif /* __gdesktop_enums_h__ */
