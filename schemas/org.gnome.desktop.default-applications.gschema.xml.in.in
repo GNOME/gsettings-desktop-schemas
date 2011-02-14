@@ -1,18 +1,18 @@
 <schemalist gettext-domain="gsettings-desktop-schemas">
-  <schema id="org.gnome.desktop.default-applications" path="/desktop/gnome/applications/">
+  <schema id="org.gnome.desktop.default-applications" path="/org/gnome/desktop/applications/">
     <child name="at" schema="org.gnome.desktop.default-applications.at"/>
     <child name="office" schema="org.gnome.desktop.default-applications.office"/>
     <child name="terminal" schema="org.gnome.desktop.default-applications.terminal"/>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.at" path="/desktop/gnome/applications/at/">
+  <schema id="org.gnome.desktop.default-applications.at" path="/org/gnome/desktop/applications/at/">
     <child name="mobility" schema="org.gnome.desktop.default-applications.at.mobility"/>
     <child name="visual" schema="org.gnome.desktop.default-applications.at.visual"/>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.office" path="/desktop/gnome/applications/office/">
+  <schema id="org.gnome.desktop.default-applications.office" path="/org/gnome/desktop/applications/office/">
     <child name="calendar" schema="org.gnome.desktop.default-applications.office.calendar"/>
     <child name="tasks" schema="org.gnome.desktop.default-applications.office.tasks"/>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.at.mobility" path="/desktop/gnome/applications/at/mobility/">
+  <schema id="org.gnome.desktop.default-applications.at.mobility" path="/org/gnome/desktop/applications/at/mobility/">
     <key name="exec" type="s">
       <default>'dasher'</default>
       <_summary>Preferred Mobility assistive technology application</_summary>
@@ -30,7 +30,7 @@
       </_description>
     </key>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.at.visual" path="/desktop/gnome/applications/at/visual/">
+  <schema id="org.gnome.desktop.default-applications.at.visual" path="/org/gnome/desktop/applications/at/visual/">
     <key name="exec" type="s">
       <default>'orca'</default>
       <_summary>Preferred Visual assistive technology application</_summary>
@@ -48,7 +48,7 @@
       </_description>
     </key>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.office.calendar" path="/desktop/gnome/applications/office/calendar/">
+  <schema id="org.gnome.desktop.default-applications.office.calendar" path="/org/gnome/desktop/applications/office/calendar/">
     <key name="exec" type="s">
       <default>'evolution'</default>
       <_summary>Default calendar</_summary>
@@ -64,7 +64,7 @@
       </_description>
     </key>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.office.tasks" path="/desktop/gnome/applications/office/tasks/">
+  <schema id="org.gnome.desktop.default-applications.office.tasks" path="/org/gnome/desktop/applications/office/tasks/">
     <key name="exec" type="s">
       <default>'evolution'</default>
       <_summary>Default tasks</_summary>
@@ -80,7 +80,7 @@
       </_description>
     </key>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.terminal" path="/desktop/gnome/applications/terminal/">
+  <schema id="org.gnome.desktop.default-applications.terminal" path="/org/gnome/desktop/applications/terminal/">
     <key name="exec" type="s">
       <default>'gnome-terminal'</default>
       <_summary>Terminal application</_summary>
