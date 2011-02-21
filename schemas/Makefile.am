@@ -31,14 +31,14 @@ gsettings_SCHEMAS = $(desktop_gschemas_in:.xml.in=.xml)
 convertdir=$(datadir)/GConf/gsettings
 convert_DATA=gsettings-desktop-schemas.convert
 
-EXTRA_DIST =			\
-	$(desktop_gschemas)	\
-	$(desktop_gschemas_in)	\
+EXTRA_DIST =				\
+	$(desktop_gschemas_in_in)	\
 	$(convert_DATA)
 
 CLEANFILES =					\
 	$(gsettings__enum_file)			\
-	$(desktop_gschemas_in_processed)	\
+	$(gsettings_SCHEMAS)			\
+	$(desktop_gschemas_in)			\
 	*.gschema.valid
 
 -include $(top_srcdir)/git.mk
