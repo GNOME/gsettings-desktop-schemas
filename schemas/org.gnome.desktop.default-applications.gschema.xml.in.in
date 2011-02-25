@@ -4,23 +4,9 @@
     <child name="office" schema="org.gnome.desktop.default-applications.office"/>
     <child name="terminal" schema="org.gnome.desktop.default-applications.terminal"/>
   </schema>
-  <schema id="org.gnome.desktop.default-applications.at" path="/org/gnome/desktop/applications/at/">
-    <child name="mobility" schema="org.gnome.desktop.default-applications.at.mobility"/>
-    <child name="visual" schema="org.gnome.desktop.default-applications.at.visual"/>
-  </schema>
   <schema id="org.gnome.desktop.default-applications.office" path="/org/gnome/desktop/applications/office/">
     <child name="calendar" schema="org.gnome.desktop.default-applications.office.calendar"/>
     <child name="tasks" schema="org.gnome.desktop.default-applications.office.tasks"/>
-  </schema>
-  <schema id="org.gnome.desktop.default-applications.at.mobility" path="/org/gnome/desktop/applications/at/mobility/">
-    <key name="exec" type="s">
-      <default>'dasher'</default>
-      <_summary>Preferred Mobility assistive technology application</_summary>
-      <_description>
-        Preferred Mobility assistive technology application to be used 
-        for login, menu, or command line.
-      </_description>
-    </key>
   </schema>
   <schema id="org.gnome.desktop.default-applications.office.calendar" path="/org/gnome/desktop/applications/office/calendar/">
     <key name="exec" type="s">
