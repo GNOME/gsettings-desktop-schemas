@@ -2,17 +2,17 @@
 # Spanish translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&component=general\n"
-"POT-Creation-Date: 2011-02-21 14:35+0000\n"
-"PO-Revision-Date: 2011-02-23 20:44+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2011-02-25 17:26+0000\n"
+"PO-Revision-Date: 2011-02-27 21:21+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -545,43 +545,31 @@ msgstr "Tareas predeterminadas"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:6
 msgid "Default tasks application."
-msgstr ""
+msgstr "Aplicación de tareas predeterminada."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:7
 msgid "Exec Arguments"
 msgstr "Argumentos de Exec"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:8
-msgid "Preferred Mobility assistive technology application"
-msgstr "Aplicación de tecnología de asistencia móvil preferida"
-
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:9
-msgid ""
-"Preferred Mobility assistive technology application to be used for login, "
-"menu, or command line."
-msgstr ""
-"Aplicación de tecnología de asistencia móvil preferida para ser usada al "
-"inicio, menú, o línea de comandos."
-
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
 msgid "Tasks needs terminal"
 msgstr "Las tareas necesitan un terminal"
 
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:9
 msgid "Terminal application"
 msgstr "Aplicación de terminal"
 
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
 msgid "Terminal program to use when starting applications that require one."
 msgstr ""
 "Programa de terminal que se usará cuando se inicien aplicaciones que "
 "necesiten uno."
 
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Whether the default calendar application needs a terminal to run."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid "Whether the default tasks application needs a terminal to run."
 msgstr ""
 
@@ -686,7 +674,7 @@ msgstr "Duración del ciclo de parpadeo del cursor, en milisegundos."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
 msgid "List of symbolic names and color equivalents"
-msgstr ""
+msgstr "Lista de nombres simbólicos y equivalentes de color"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
 msgid "Menubar Detachable"
@@ -741,11 +729,11 @@ msgstr "Nombre del módulo del método de entrada usado por GTK+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr ""
+msgstr "Sólo mostrar nemónicos cuando al pulsar la tecla Alt"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Palette used in the color selector"
-msgstr ""
+msgstr "Paleta usada en el selector de color"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid ""
@@ -764,10 +752,12 @@ msgstr "Mostrar el menú de «Carácter de control Unicode»"
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr ""
+"Tamaño de los iconos en las barras de herramientas, puede ser «small» o "
+"«large»."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Size of the cursor used as cursor theme."
-msgstr ""
+msgstr "Tamaño del cursor usado como tema de cursor."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
 msgid "Time after which the cursor stops blinking, in seconds."
@@ -846,7 +836,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
-msgstr ""
+msgstr "Indica si el reloj se muestra en formato de 12h o de 24h"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
 msgid ""
@@ -911,28 +901,33 @@ msgid "Disable lock screen"
 msgstr "Desactivar el bloqueo de la pantalla"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:4
+#| msgid "Disable lock screen"
+msgid "Disable log out"
+msgstr "Desactivar salir de la sesión"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:5
 msgid "Disable print setup"
 msgstr "Desactivar configuración de impresora"
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:6
 msgid "Disable printing"
 msgstr "Desactivar impresión"
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:7
 msgid "Disable saving files to disk"
 msgstr "Desactivar guardado de archivos al disco"
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:8
 msgid "Disable user switching"
 msgstr "Desactivar selección de usuario"
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:9
 msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
 "Prevenir que cualquier aplicación ejecute cualquier manejador URL o tipo "
 "MIME."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:10
 msgid ""
 "Prevent the user from accessing the terminal or specifying a command line to "
 "be executed. For example, this would disable access to the panel's \"Run "
@@ -942,7 +937,12 @@ msgstr ""
 "para ser ejecutada. Por ejemplo, esto podría desactivar el acceso al diálogo "
 "del panel «Ejecutar aplicación»."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:11
+#| msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from logging out."
+msgstr "Previene que el usuario cierre la sesión."
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:12
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications' \"Print Setup\" dialogs."
@@ -951,7 +951,7 @@ msgstr ""
 "esto podría desactivar el acceso a todos los diálogos «Configurar impresión» "
 "de todas las aplicaciones."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:13
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
@@ -959,7 +959,7 @@ msgstr ""
 "Impide que el usuario imprima. Por ejemplo, esto podría desactivar el acceso "
 "a todos los diálogos «Imprimir» de todas las aplicaciones."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:14
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
@@ -968,7 +968,7 @@ msgstr ""
 "podría desactivar el acceso a todos los diálogos «Guardar como» de todas las "
 "aplicaciones."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:15
 msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
@@ -976,7 +976,7 @@ msgstr ""
 "Previene que el usuario seleccione otra cuenta mientras su sesión está "
 "activa."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:16
 msgid "Prevent the user to lock his screen."
 msgstr "Previene que el usuario bloquee su pantalla."
 
@@ -1314,6 +1314,8 @@ msgstr "Desactivar todos los miniaturizadores externos"
 msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
 msgstr ""
+"Lista de tipos MIME para los que los programas externos de miniaturas "
+"estarán desactivados"
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:3
 msgid ""
@@ -1329,6 +1331,8 @@ msgid ""
 "Thumbnails will not be created for files whose mime-type is contained in the "
 "list."
 msgstr ""
+"No se crearán las miniaturas para aquellos archivos cuyo tipo MIME esté en "
+"la lista."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1372,6 +1376,9 @@ msgid ""
 "username/password combo is defined by \"/system/proxy/http/authentication-"
 "user\" and \"/system/proxy/http/authentication-password\"."
 msgstr ""
+"Si es cierto, las conexiones al servidor proxy requieren autenticación. La "
+"combinación usuario/contraseña se define en «/system/proxy/http/"
+"authentication-user» y «/system/proxy/http/authentication-password»."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:11
 msgid "Non-proxy hosts"
@@ -1489,3 +1496,13 @@ msgstr "Usuario que pasar como autenticación al usar el proxy HTTP."
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:32
 msgid "Whether to use the same proxy for all protocols or not."
 msgstr "Indica si se debe usar o no el mismo proxy para todos los protocolos."
+
+#~ msgid "Preferred Mobility assistive technology application"
+#~ msgstr "Aplicación de tecnología de asistencia móvil preferida"
+
+#~ msgid ""
+#~ "Preferred Mobility assistive technology application to be used for login, "
+#~ "menu, or command line."
+#~ msgstr ""
+#~ "Aplicación de tecnología de asistencia móvil preferida para ser usada al "
+#~ "inicio, menú, o línea de comandos."
