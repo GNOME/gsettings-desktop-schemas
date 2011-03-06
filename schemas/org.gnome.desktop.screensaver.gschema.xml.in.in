@@ -10,26 +10,6 @@
       <_summary>Lock on activation</_summary>
       <_description>Set this to TRUE to lock the screen when the screensaver goes active.</_description>
     </key>
-    <key name="mode" enum="org.gnome.desktop.GDesktopScreensaverMode">
-      <default>'blank-only'</default>
-      <_summary>Screensaver theme selection mode</_summary>
-      <_description>The selection mode used by screensaver.  May be "blank-only" to enable the screensaver without using any theme on activation, "single" to enable screensaver using only one theme on activation (specified in "themes" key), and "random" to enable the screensaver using a random theme on activation.</_description>
-    </key>
-    <key name="themes" type="as">
-      <default>[]</default>
-      <_summary>Screensaver themes</_summary>
-      <_description>This key specifies the list of themes to be used by the screensaver. It's ignored when "mode" key is  "blank-only", should provide the theme name when "mode" is "single", and should provide a list of themes when "mode" is "random".</_description>
-    </key>
-    <key name="power-management-delay" type="u">
-      <default>30</default>
-      <_summary>Time before power management baseline</_summary>
-      <_description>The number of seconds of inactivity before signalling to power management.  This key is set and maintained by the session power management agent.</_description>
-    </key>
-    <key name="cycle-delay" type="u">
-      <default>10</default>
-      <_summary>Time before theme change</_summary>
-      <_description>The number of minutes to run before changing the screensaver theme.</_description>
-    </key>
     <key name="lock-delay" type="u">
       <default>0</default>
       <_summary>Time before locking</_summary>
