@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&component=general\n"
-"POT-Creation-Date: 2011-03-03 17:18+0000\n"
-"PO-Revision-Date: 2011-03-05 17:52+0100\n"
-"Last-Translator: Andrej Žnidaršič <andrej.znidarsic@gmail.com>\n"
+"POT-Creation-Date: 2011-03-09 17:45+0000\n"
+"PO-Revision-Date: 2011-03-10 15:00+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 "X-Poedit-Language: Slovenian\n"
 "X-Poedit-Country: SLOVENIA\n"
@@ -378,56 +378,56 @@ msgid "Draw Desktop Background"
 msgstr "Izriši ozadje namizja"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
-msgid "File to use for the background image."
-msgstr "Datoteka, ki naj se uporabi kot slika ozadja."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
 msgid "Have GNOME draw the desktop background."
 msgstr "Naj GNOME izriše ozadje namizja."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
 msgid "Have file manager handle the desktop"
 msgstr "Naj upravljalnik datotek upravlja namizje"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
 msgid "How to shade the background color. Possible values are \"horizontal\", \"vertical\", and \"solid\"."
 msgstr "Kako naj se senči barva ozadja. Mogoče vrednosti so \"horizontal\", \"vertical\", in \"solid\""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "Izbrana možnost določi, da bo upravljalnik datotek na namizju narisal ikone."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Leva ali zgornja barva ob risanju prelivov, ali barva polnjenja."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
 msgid "Opacity with which to draw the background picture."
 msgstr "Prosojnost s katero naj se nariše slika ozadja."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
-msgid "Picture Filename"
-msgstr "Ime slike"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
 msgid "Picture Opacity"
 msgstr "Prosojnost slike"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
 msgid "Picture Options"
 msgstr "Možnosti slike"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+msgid "Picture URI"
+msgstr "Naslov URI slike"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Primary Color"
 msgstr "Prvotna barva"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "Desna ali spodnja barva za risanje prelivov. Ni uporabljena kot barva polnjenja."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
 msgid "Secondary Color"
 msgstr "Drugotna barva"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+msgid "URI to use for the background image. Not that the backend only supports local (file://) URIs."
+msgstr "Naslov URI slike ozadja. Ozadnji program podpira je naslove URI krajevnih datotek (file://)."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Argument used to execute programs in the terminal defined by the 'exec' key."
@@ -898,80 +898,48 @@ msgid "Logout command"
 msgstr "Ukaz za odjavo"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
-msgid "Screensaver theme selection mode"
-msgstr "Način izbire teme ohranjevalnika zaslona"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
-msgid "Screensaver themes"
-msgstr "Teme ohranjevalnika zaslona"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
 msgstr "Izbrana možnost omogoča, da se vključi ohranjevalnik zaslona, ko je seja nedejavna."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Set this to TRUE to allow embedding a keyboard into the window when trying to unlock. The \"keyboard_command\" key must be set with the appropriate command."
 msgstr "Izbrana možnost omogoča vstavitev tipkovnice v okno ob odklepanju. Ključ \"keyboard_command\" mora biti nastavljen z ustreznim ukazom."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr "Izbrana možnost omogoča, da se ob vključitvi ohranjevalnika zaslona zaklene zaslon."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Set this to TRUE to offer an option in the unlock dialog to allow logging out after a delay. The delay is specified in the \"logout_delay\" key."
 msgstr "Izbrana možnost omogoča, da pogovorno okno za odklepanje ponudi možnost odjave po zamiku. Zamik je določen v ključu \"logout_delay\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid "Set this to TRUE to offer an option in the unlock dialog to switch to a different user account."
 msgstr "Izbrana možnost omogoča, da okno za pogovorno odklepanje ponudi možnost preklopa na drug uporabniški račun."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "The command that will be run, if the \"embedded_keyboard_enabled\" key is set to TRUE, to embed a keyboard widget into the window. This command should implement an XEMBED plug interface and output a window XID on the standard output."
 msgstr "Določa uporabljen ukaz, kadar je omogočen ključ \"embedded_keyboard_enabled\" za vstavljanje gradnika tipkovnice v okno. Ta ukaz bi moral izvajati vmesnik vstavka XEMBED in na standardni izhod izpisovati XID okna."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid "The command to invoke when the logout button is clicked. This command should simply log the user out without any interaction. This key has effect only if the \"logout_enable\" key is set to TRUE."
 msgstr "Določa ukaz, ki bo priklican ob kliku na gumb za odjavo. Ta ukaz bi moral le odjaviti uporabnika, brez posegov uporabnika. Ključ ima učinek le, če je omogočen tudi ključ \"logout_enable\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "The number of minutes after screensaver activation before locking the screen."
 msgstr "Število minut po zagonu ohranjevalnika zaslona preden se zaslon zaklene."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid "The number of minutes after the screensaver activation before a logout option will appear in the unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
 msgstr "Število minut po zagonu ohranjevalnika zaslona preden se pojavi možnost za odjavo v pogovornem oknu za odklepanje. Ta ključ ima učinek le, če je ključ \"logout_enable\" nastavljen na PRAV."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
-msgid "The number of minutes to run before changing the screensaver theme."
-msgstr "Število minut pred zamenjavo teme ohranjevalnika zaslona."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
-msgid "The number of seconds of inactivity before signalling to power management. This key is set and maintained by the session power management agent."
-msgstr "Število sekund nedejavnosti pred zagonom upravljalnika porabe. Ključ nadzira in upravlja agent upravljanja porabe seje."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
-msgid "The selection mode used by screensaver. May be \"blank-only\" to enable the screensaver without using any theme on activation, \"single\" to enable screensaver using only one theme on activation (specified in \"themes\" key), and \"random\" to enable the screensaver using a random theme on activation."
-msgstr "Način izbire, ki ga uporablja ohranjevalnik zaslona. Lahko je \"blank-only\", ki omogoči ohranjevalnik zaslona brez uporabe katerekoli teme ob vključitvi, \"single\", ki uporablja le eno temo ob vključitvi (določeno v ključu \"themes\") ali \"random\", ki omogoči ohranjevalnik zaslona z uporabo naključne teme ob vključitvi."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
-msgid "This key specifies the list of themes to be used by the screensaver. It's ignored when \"mode\" key is \"blank-only\", should provide the theme name when \"mode\" is \"single\", and should provide a list of themes when \"mode\" is \"random\"."
-msgstr "Ta ključ določa seznam tem, ki jih uporablja ohranjevalnik zaslona. Ključ je prezrt, ko je ključ \"mode\" nastavljen na \"blank-only\", vsebuje ime teme, ko je ključ \"mode\" nastavljen na \"single\" in vsebuje seznam tem, ko je ključ \"mode\" nastavljen na \"random\"."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Time before locking"
 msgstr "Čas pred zaklepanjem"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid "Time before logout option"
 msgstr "Čas pred možnostjo odjave"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
-msgid "Time before power management baseline"
-msgstr "Čas pred izhodiščem upravljanja porabe"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
-msgid "Time before theme change"
-msgstr "Čas pred spremembo teme"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "The number of minutes of inactivity before the session is considered idle."
@@ -1157,40 +1125,103 @@ msgstr "Uporabniško ime za overitev na HTTP posredniškem strežniku."
 msgid "Whether to use the same proxy for all protocols or not."
 msgstr "Ali naj se za vse protokole uporabi enak posredniški strežnik."
 
+#~ msgid "File to use for the background image."
+#~ msgstr "Datoteka, ki naj se uporabi kot slika ozadja."
+
+#~ msgid "Picture Filename"
+#~ msgstr "Ime slike"
+
+#~ msgid "Screensaver theme selection mode"
+#~ msgstr "Način izbire teme ohranjevalnika zaslona"
+
+#~ msgid "Screensaver themes"
+#~ msgstr "Teme ohranjevalnika zaslona"
+
+#~ msgid "The number of minutes to run before changing the screensaver theme."
+#~ msgstr "Število minut pred zamenjavo teme ohranjevalnika zaslona."
+
+#~ msgid ""
+#~ "The number of seconds of inactivity before signalling to power "
+#~ "management. This key is set and maintained by the session power "
+#~ "management agent."
+#~ msgstr ""
+#~ "Število sekund nedejavnosti pred zagonom upravljalnika porabe. Ključ "
+#~ "nadzira in upravlja agent upravljanja porabe seje."
+
+#~ msgid ""
+#~ "The selection mode used by screensaver. May be \"blank-only\" to enable "
+#~ "the screensaver without using any theme on activation, \"single\" to "
+#~ "enable screensaver using only one theme on activation (specified in "
+#~ "\"themes\" key), and \"random\" to enable the screensaver using a random "
+#~ "theme on activation."
+#~ msgstr ""
+#~ "Način izbire, ki ga uporablja ohranjevalnik zaslona. Lahko je \"blank-only"
+#~ "\", ki omogoči ohranjevalnik zaslona brez uporabe katerekoli teme ob "
+#~ "vključitvi, \"single\", ki uporablja le eno temo ob vključitvi (določeno "
+#~ "v ključu \"themes\") ali \"random\", ki omogoči ohranjevalnik zaslona z "
+#~ "uporabo naključne teme ob vključitvi."
+
+#~ msgid ""
+#~ "This key specifies the list of themes to be used by the screensaver. It's "
+#~ "ignored when \"mode\" key is \"blank-only\", should provide the theme "
+#~ "name when \"mode\" is \"single\", and should provide a list of themes "
+#~ "when \"mode\" is \"random\"."
+#~ msgstr ""
+#~ "Ta ključ določa seznam tem, ki jih uporablja ohranjevalnik zaslona. Ključ "
+#~ "je prezrt, ko je ključ \"mode\" nastavljen na \"blank-only\", vsebuje ime "
+#~ "teme, ko je ključ \"mode\" nastavljen na \"single\" in vsebuje seznam "
+#~ "tem, ko je ključ \"mode\" nastavljen na \"random\"."
+
+#~ msgid "Time before power management baseline"
+#~ msgstr "Čas pred izhodiščem upravljanja porabe"
+
+#~ msgid "Time before theme change"
+#~ msgstr "Čas pred spremembo teme"
+
 #~ msgid "Show or hide the magnifier"
 #~ msgstr "Pokaži ali skrij povečevalo"
+
 #~ msgid "Show or hide the magnifier and all of its zoom regions."
 #~ msgstr "Pokaži ali skrij povečalo in vsa njegova področja približanja."
+
 #~ msgid ""
 #~ "GNOME to start preferred Mobility assistive technology application during "
 #~ "login."
 #~ msgstr "Zagon GNOME Mobility pomožne tehnologije med prijavo."
+
 #~ msgid ""
 #~ "GNOME to start preferred Visual assistive technology application during "
 #~ "login."
 #~ msgstr "Zagon GNOME pomožne tehnologije predočenja med prijavo."
+
 #~ msgid "Preferred Mobility assistive technology application"
 #~ msgstr "Zagon Mobility programov pomožnih tehnologij"
+
 #~ msgid ""
 #~ "Preferred Mobility assistive technology application to be used for login, "
 #~ "menu, or command line."
 #~ msgstr ""
 #~ "Prednostni program pomožnih Mobility tehnologij za prijavo, meni ali "
 #~ "ukazno vrstico."
+
 #~ msgid "Preferred Visual assistive technology application"
 #~ msgstr "Prednostni program pomožnih tehnologij predočenja"
+
 #~ msgid ""
 #~ "Preferred Visual assistive technology application be used for login, "
 #~ "menu, or command line."
 #~ msgstr ""
 #~ "Prednostni program pomožnih tehnologij predočenja za prijavo, meni ali "
 #~ "ukazno vrstico."
+
 #~ msgid "Start preferred Mobility assistive technology application"
 #~ msgstr "Zagon prednostnih Mobility programov pomožnih tehnologij"
+
 #~ msgid "Start preferred Visual assistive technology application"
 #~ msgstr "Zaženi prednostne programe pomožnih tehnologij"
+
 #~ msgid "Use Custom Font"
 #~ msgstr "Uporabi pisavo po meri"
+
 #~ msgid "Whether to use a custom font in gtk+ applications."
 #~ msgstr "Ali naj se v programih gtk+ uporabi pisava po meri."
-
