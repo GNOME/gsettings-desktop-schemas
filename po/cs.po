@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&component=general\n"
-"POT-Creation-Date: 2011-03-01 21:59+0000\n"
-"PO-Revision-Date: 2011-03-02 12:23+0100\n"
+"POT-Creation-Date: 2011-03-09 14:07+0000\n"
+"PO-Revision-Date: 2011-03-12 20:36+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -462,18 +462,14 @@ msgid "Draw Desktop Background"
 msgstr "Vykreslovat pozadí plochy"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
-msgid "File to use for the background image."
-msgstr "Soubor, který se má použít pro obrázek na pozadí."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
 msgid "Have GNOME draw the desktop background."
 msgstr "Zda má GNOME vykreslovat pozadí pracovní plochy."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
 msgid "Have file manager handle the desktop"
 msgstr "Zda má správce souborů obsluhovat plochu"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -481,45 +477,54 @@ msgstr ""
 "Jak se má stínovat barva pozadí. Možné hodnoty jsou "
 "„horizontal“ (vodorovně), „vertical“ (svisle) a „solid“ (jednolitá barva)"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Pokud je zapnuto, bude správce souborů vykreslovat ikony na pracovní ploše."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Levá nebo horní barva při vykreslování přechodu a nebo jednolitá barva."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
 msgid "Opacity with which to draw the background picture."
 msgstr "Úroveň krytí při vykreslování obrázku na pozadí."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
-msgid "Picture Filename"
-msgstr "Název souboru s obrázkem"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
 msgid "Picture Opacity"
 msgstr "Krytí obrázku"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
 msgid "Picture Options"
 msgstr "Možnosti obrázku"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#| msgid "Picture Opacity"
+msgid "Picture URI"
+msgstr "Adresa URI obrázku"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Primary Color"
 msgstr "Primární barva"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Pravá nebo dolní barva při vykreslování přechodu, pro jednolitou barvu se "
 "nepoužije."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
 msgid "Secondary Color"
 msgstr "Sekundární barva"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"Adresa URI, která se má použít pro obrázek na pozadí. Zpracující program ale "
+"podporuje pouze místní URI (file://)."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid ""
@@ -642,101 +647,108 @@ msgid "Enable Toolkit Accessibility"
 msgstr "Povolit sadu nástrojů pro zpřístupnění"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
+msgid ""
+"Factor used to enlarge or reduce text display, without changing font size."
+msgstr ""
+"Faktor použitý ke zvětšení nebo zmenšení zobrazeného textu a to beze změny "
+"velikosti písma."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
 msgid "GTK IM Module"
 msgstr "Modul vstupní metody GTK"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
 msgid "GTK IM Preedit Style"
 msgstr "Přípravný styl vstupní metody GTK"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
 msgid "GTK IM Status Style"
 msgstr "Stavový styl vstupní metody GTK"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
 msgid "Gtk+ Keybinding Theme"
 msgstr "Motiv klávesových zkratek gtk+"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
 msgid "Gtk+ Theme"
 msgstr "Motiv gtk+"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
 msgid "Icon Theme"
 msgstr "Motiv ikon"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
 msgid "Icon theme to use for the panel, nautilus etc."
 msgstr "Motiv ikon pro použití v panelu, aplikaci Nautilus atd."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Klávesová zkratka pro otevírání lišt nabídek."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "Délka cyklu blikání kurzoru, v milisekundách"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
 msgid "List of symbolic names and color equivalents"
 msgstr "Seznam symbolických názvů a ekvivalentů barev"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
 msgid "Menubar Detachable"
 msgstr "Odpojitelná lišta nabídek"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
 msgid "Menubar accelerator"
 msgstr "Klávesová zkratka lišty nabídek"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
 msgid "Menus Have Icons"
 msgstr "Nabídky mají ikony"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
 msgid "Menus Have Tearoff"
 msgstr "Nabídky mají úchyt"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
 msgid "Monospace font"
 msgstr "Písmo s pevnou šířkou"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
 "Název písma s pevnou šířkou (monospaced) pro použití v místech jako jsou "
 "terminály."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "Název přípravného stylu vstupní metody GTK+ použitého gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "Název stavového stylu vstupní metody GTK+ použitého gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "Name of the default font used by gtk+."
 msgstr "Název výchozího písma použitého gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid "Name of the default font used for reading documents."
 msgstr "Název výchozího písma použitého pro čtení dokumentů."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "Name of the input method module used by GTK+."
 msgstr "Název modulu vstupní metody použitého GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr "Zobrazovat mnemotechnické klávesy jen při zmáčknutí Alt"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "Palette used in the color selector"
 msgstr "Paleta použitá ve výběru barvy"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
@@ -744,36 +756,40 @@ msgstr ""
 "Paleta použitá ve výběru barvy, tak jak je definována v nastavení „gtk-color-"
 "palette“."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
 msgid "Show the 'Input Methods' menu"
 msgstr "Zobrazovat nabídku „Vstupní metody“"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "Zobrazovat nabídku „Vložit řídící znak Unikódu“"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr ""
 "Velikost ikon v lištách nástrojů, buďto „small“ (malé) nebo „large“ (velké)"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
 msgid "Size of the cursor used as cursor theme."
 msgstr "Velikost kurzoru použitého jako motiv kurzoru."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+msgid "Text scaling factor"
+msgstr "Faktor škálování textu"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr "Čas, po kterém přestane kurzor blikat, v milisekundách."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
 msgid "Timeout before click repeat"
 msgstr "Časový limit, než se začne kliknutí opakovat"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
 msgid "Timeout between click repeats"
 msgstr "Časový limit mezi opakováním kliknutí"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
@@ -781,7 +797,7 @@ msgstr ""
 "Časový limit v milisekundách, než se začne kliknutí opakovat (například u "
 "tlačítka číselníku)."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
@@ -789,19 +805,19 @@ msgstr ""
 "Časový limit v milisekundách mezi opakováním kliknutí, když je zmáčknuto "
 "levým tlačítkem."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
 msgid "Toolbar Detachable"
 msgstr "Odpojitelná lišta nástrojů"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid "Toolbar Icon Size"
 msgstr "Velikost ikon v liště nástrojů"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
 msgid "Toolbar Style"
 msgstr "Styl lišty nástrojů"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
 msgid ""
 "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
 "\"text\"."
@@ -809,11 +825,7 @@ msgstr ""
 "Styl lišty nástrojů. Platné hodnoty jsou „both“ (ikony i text), „both-"
 "horiz“ (ikony i text vodorovně), „icons“ (jen ikony) a „text“ (jen text)."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
-msgid "Use Custom Font"
-msgstr "Použít vlastní písmo"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
@@ -821,19 +833,19 @@ msgstr ""
 "Zda se mají zobrazovat animace. Poznámka: Jedná se o globální klíč, jeho "
 "změna ovlivní chování okenního správce, panelu atd."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
 msgid "Whether buttons may display an icon in addition to the button text."
 msgstr "Zda tlačítka mohou navíc vedle textu zobrazovat ikonu."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
 msgid "Whether menus may display an icon next to a menu entry."
 msgstr "Zda mohou nabídky vedle položek zobrazovat ikonu."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
 msgid "Whether menus should have a tearoff."
 msgstr "Zda by nabídky měli mít položky pro odpojení."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
@@ -841,11 +853,11 @@ msgstr ""
 "Zda se mají mnemotechnické klávesy automaticky zobrazovat a skrývat podle "
 "toho, jak uživatel mačká klávesu Alt."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Zda hodiny zobrazovat ve 24hodinovém nebo 12hodinovém formátu."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
@@ -853,7 +865,7 @@ msgstr ""
 "Zda by měla kontextová nabídka vstupů a zobrazení textu nabízet změnu "
 "vstupní metody."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
@@ -861,29 +873,25 @@ msgstr ""
 "Zda by měla kontextová nabídka vstupů a zobrazení textu nabízet vložení "
 "řídících znaků."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
 msgid "Whether the cursor should blink."
 msgstr "Zda by měl kurzor blikat."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
 msgid "Whether the user can detach menubars and move them around."
 msgstr "Zda uživatel může odpojit lištu nabídek a posouvat si ji dokola."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
 msgid "Whether the user can detach toolbars and move them around."
 msgstr "Zda uživatel může odpojit lištu nástrojů a posouvat si ji dokola."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
 msgid ""
 "Whether the user can dynamically type a new accelerator when positioned over "
 "an active menuitem."
 msgstr ""
 "Zda uživatel může dynamicky zapisovat novou klávesovou zkratku přes aktivní "
 "položku nabídky."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
-msgid "Whether to use a custom font in gtk+ applications."
-msgstr "Zda použít vlastní písmo v aplikacích gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:67
 msgid "Whether toolkits should load accessibility related modules."
@@ -1100,20 +1108,12 @@ msgid "Logout command"
 msgstr "Odhlašovací příkaz"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
-msgid "Screensaver theme selection mode"
-msgstr "Režim výběru motivu šetřiče obrazovky"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
-msgid "Screensaver themes"
-msgstr "Motivy šetřiče obrazovky"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
 msgstr ""
 "Nastavte na ZAPNUTO, pokud chcete aktivovat šetřič obrazovky při nečinnosti "
 "sezení."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1122,13 +1122,13 @@ msgstr ""
 "Nastavením na ZAPNUTO umožníte vložení klávesnice do okna při pokusu o "
 "odemknutí. V klíči „keyboard_command“ musí být nastaven příslušný příkaz."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
 "Nastavte na ZAPNUTO, pokud chcete zamknout obrazovku, když běží šetřič "
 "obrazovky."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key."
@@ -1136,7 +1136,7 @@ msgstr ""
 "Nastavením na ZAPNUTO nabídnete po určité době v dialogovém okně odemčení "
 "možnost se odhlásit. Doba je definována klíčem „logout_delay“."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1144,7 +1144,7 @@ msgstr ""
 "Nastavením na ZAPNUTO nabídnete v dialogovém okně odemčení možnost se "
 "přepnout na jiný uživatelský účet."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1156,7 +1156,7 @@ msgstr ""
 "měl implementovat zásuvné rozhraní XEMBED a na standardní výstup vypsat XID "
 "okna."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1166,12 +1166,12 @@ msgstr ""
 "by měl prostě odhlásit uživatele bez jakékoliv interakce. Tento klíč má "
 "efekt pouze pokud je klíč „logout_enable“ nastaven na ZAPNUTO."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid ""
 "The number of minutes after screensaver activation before locking the screen."
 msgstr "Počet minut od aktivace šetřiče obrazovky po zamknutí obrazovky."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The number of minutes after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1181,59 +1181,13 @@ msgstr ""
 "dialogovém okně odemknutí. Tento klíč má efekt je když je ZAPNUT klíč "
 "„logout_enable“."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
-msgid "The number of minutes to run before changing the screensaver theme."
-msgstr "Počet minut, po které poběží šetřič obrazovky než se změní jeho motiv."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
-msgid ""
-"The number of seconds of inactivity before signalling to power management. "
-"This key is set and maintained by the session power management agent."
-msgstr ""
-"Počet sekund neaktivity, než se dá signál správě napájení. Tento klíč je "
-"udržován agentem sezení správy napájení."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
-msgid ""
-"The selection mode used by screensaver. May be \"blank-only\" to enable the "
-"screensaver without using any theme on activation, \"single\" to enable "
-"screensaver using only one theme on activation (specified in \"themes\" "
-"key), and \"random\" to enable the screensaver using a random theme on "
-"activation."
-msgstr ""
-"Režim výběru použitý šetřičem obrazovky. Může být „blank-only“ pro zapnutí "
-"šetřiče obrazovky bez jakéhokoliv motivu při aktivaci, „single“ pro zapnutí "
-"šetřiče používajícího jen jeden motiv při aktivaci (určený klíčem „themes“) "
-"a „random“ pro zapnutí šetřiče obrazovky používajícího náhodný motiv při "
-"aktivaci."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
-msgid ""
-"This key specifies the list of themes to be used by the screensaver. It's "
-"ignored when \"mode\" key is \"blank-only\", should provide the theme name "
-"when \"mode\" is \"single\", and should provide a list of themes when \"mode"
-"\" is \"random\"."
-msgstr ""
-"Tento klíč určuje seznam motivů, které má používat šetřič obrazovky. Pokud "
-"je klíč „mode“ nastaven na „blank-only“, je seznam ignorován. Pokud je "
-"„mode“ nastaven na „single“, měl by seznam obsahovat jediný název motivu, a "
-"seznam více motivů, pokud je „mode“ nastaven na „random“."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Time before locking"
 msgstr "Čas do zamknutí"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid "Time before logout option"
 msgstr "Čas do možnosti odhlášení"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
-msgid "Time before power management baseline"
-msgstr "Čas do uvědomění správy napájení"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
-msgid "Time before theme change"
-msgstr "Čas do změny motivu"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid ""
@@ -1472,6 +1426,66 @@ msgstr ""
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:32
 msgid "Whether to use the same proxy for all protocols or not."
 msgstr "Zda použít stejnou proxy pro všechny protokoly nebo ne."
+
+#~ msgid "File to use for the background image."
+#~ msgstr "Soubor, který se má použít pro obrázek na pozadí."
+
+#~ msgid "Picture Filename"
+#~ msgstr "Název souboru s obrázkem"
+
+#~ msgid "Use Custom Font"
+#~ msgstr "Použít vlastní písmo"
+
+#~ msgid "Whether to use a custom font in gtk+ applications."
+#~ msgstr "Zda použít vlastní písmo v aplikacích gtk+."
+
+#~ msgid "Screensaver theme selection mode"
+#~ msgstr "Režim výběru motivu šetřiče obrazovky"
+
+#~ msgid "Screensaver themes"
+#~ msgstr "Motivy šetřiče obrazovky"
+
+#~ msgid "The number of minutes to run before changing the screensaver theme."
+#~ msgstr ""
+#~ "Počet minut, po které poběží šetřič obrazovky než se změní jeho motiv."
+
+#~ msgid ""
+#~ "The number of seconds of inactivity before signalling to power "
+#~ "management. This key is set and maintained by the session power "
+#~ "management agent."
+#~ msgstr ""
+#~ "Počet sekund neaktivity, než se dá signál správě napájení. Tento klíč je "
+#~ "udržován agentem sezení správy napájení."
+
+#~ msgid ""
+#~ "The selection mode used by screensaver. May be \"blank-only\" to enable "
+#~ "the screensaver without using any theme on activation, \"single\" to "
+#~ "enable screensaver using only one theme on activation (specified in "
+#~ "\"themes\" key), and \"random\" to enable the screensaver using a random "
+#~ "theme on activation."
+#~ msgstr ""
+#~ "Režim výběru použitý šetřičem obrazovky. Může být „blank-only“ pro "
+#~ "zapnutí šetřiče obrazovky bez jakéhokoliv motivu při aktivaci, „single“ "
+#~ "pro zapnutí šetřiče používajícího jen jeden motiv při aktivaci (určený "
+#~ "klíčem „themes“) a „random“ pro zapnutí šetřiče obrazovky používajícího "
+#~ "náhodný motiv při aktivaci."
+
+#~ msgid ""
+#~ "This key specifies the list of themes to be used by the screensaver. It's "
+#~ "ignored when \"mode\" key is \"blank-only\", should provide the theme "
+#~ "name when \"mode\" is \"single\", and should provide a list of themes "
+#~ "when \"mode\" is \"random\"."
+#~ msgstr ""
+#~ "Tento klíč určuje seznam motivů, které má používat šetřič obrazovky. "
+#~ "Pokud je klíč „mode“ nastaven na „blank-only“, je seznam ignorován. Pokud "
+#~ "je „mode“ nastaven na „single“, měl by seznam obsahovat jediný název "
+#~ "motivu, a seznam více motivů, pokud je „mode“ nastaven na „random“."
+
+#~ msgid "Time before power management baseline"
+#~ msgstr "Čas do uvědomění správy napájení"
+
+#~ msgid "Time before theme change"
+#~ msgstr "Čas do změny motivu"
 
 #~ msgid "Preferred Mobility assistive technology application"
 #~ msgstr "Upřednostňovaná aplikace technologie usnadnění pohyblivosti"
