@@ -1,13 +1,7 @@
 # From org.gnome.desktop.background.gschema.xml.in
-[org.gnome.desktop.background]
-draw-background = /desktop/gnome/background/draw_background
-picture-options = /desktop/gnome/background/picture_options
-picture-uri = /desktop/gnome/background/picture_filename
-picture-opacity = /desktop/gnome/background/picture_opacity
-primary-color = /desktop/gnome/background/primary_color
-secondary-color = /desktop/gnome/background/secondary_color
-color-shading-type = /desktop/gnome/background/color_shading_type
-show-desktop-icons = /apps/nautilus/preferences/show_desktop
+# [org.gnome.desktop.background]
+# Disabled as we don't want to migrate the default background
+# settings as we can't convert the picture filename
 
 # From org.gnome.desktop-media-handling.gschema.xml.in
 [org.gnome.desktop.media-handling]
@@ -35,14 +29,16 @@ exec-arg = /desktop/gnome/applications/terminal/exec_arg
 [org.gnome.desktop.interface]
 toolkit-accessibility = /desktop/gnome/interface/accessibility
 enable-animations = /desktop/gnome/interface/enable_animations
-menus-have-tearoff = /desktop/gnome/interface/menus_have_tearoff
-can-change-accels = /desktop/gnome/interface/can_change_accels
-toolbar-style = /desktop/gnome/interface/toolbar_style
-menus-have-icons = /desktop/gnome/interface/menus_have_icons
-buttons-have-icons = /desktop/gnome/interface/buttons_have_icons
-menubar-detachable = /desktop/gnome/interface/menubar_detachable
-toolbar-detachable = /desktop/gnome/interface/toolbar_detachable
-toolbar-icons-size = /desktop/gnome/interface/toolbar_icons_size
+# Disabled, as we want users to use the new default:
+# https://bugzilla.gnome.org/show_bug.cgi?id=647039
+#menus-have-tearoff = /desktop/gnome/interface/menus_have_tearoff
+#can-change-accels = /desktop/gnome/interface/can_change_accels
+#toolbar-style = /desktop/gnome/interface/toolbar_style
+#menus-have-icons = /desktop/gnome/interface/menus_have_icons
+#buttons-have-icons = /desktop/gnome/interface/buttons_have_icons
+#menubar-detachable = /desktop/gnome/interface/menubar_detachable
+#toolbar-detachable = /desktop/gnome/interface/toolbar_detachable
+#toolbar-icons-size = /desktop/gnome/interface/toolbar_icons_size
 # Disabled, as we want users to use the new default:
 # https://bugzilla.gnome.org/show_bug.cgi?id=634639
 # cursor-blink = /desktop/gnome/interface/cursor_blink
