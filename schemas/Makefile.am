@@ -2,6 +2,7 @@ desktop_gschemas_in_in =						\
 	org.gnome.desktop.default-applications.gschema.xml.in.in	\
 	org.gnome.desktop.interface.gschema.xml.in.in			\
 	org.gnome.desktop.lockdown.gschema.xml.in.in			\
+	org.gnome.system.locale.gschema.xml.in.in			\
 	org.gnome.system.proxy.gschema.xml.in.in			\
 	org.gnome.desktop.sound.gschema.xml.in.in			\
 	org.gnome.desktop.thumbnail-cache.gschema.xml.in.in		\
