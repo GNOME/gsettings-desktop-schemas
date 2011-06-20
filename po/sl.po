@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&component=general\n"
-"POT-Creation-Date: 2011-03-09 17:45+0000\n"
-"PO-Revision-Date: 2011-03-10 15:00+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-06-19 15:18+0000\n"
+"PO-Revision-Date: 2011-06-20 12:37+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -371,7 +371,7 @@ msgstr "Vrsta senčenja barv"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
 msgid "Determines how the image set by wallpaper_filename is rendered. Possible values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", \"spanned\"."
-msgstr "Določa kako naj se slika nastavljena kot slika ozadja izriše. Mogoče vrednosti so \"none\" (brez), \"wallpaper\" (tapeta), \"centered\" (sredinjeno), \"scaled\" (umerjeno), \"stretched\" (raztegnjeno), \"zoom\" (približano) in \"spanned\" (povezano)."
+msgstr "Določa kako naj se slika nastavljena kot slika ozadja izriše. Mogoče vrednosti so \"none\" (brez), \"wallpaper\" (slika ozadja), \"centered\" (sredinjeno), \"scaled\" (umerjeno), \"stretched\" (raztegnjeno), \"zoom\" (približano) in \"spanned\" (povezano)."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
 msgid "Draw Desktop Background"
@@ -599,7 +599,7 @@ msgstr "Meniji imajo ikone"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
 msgid "Menus Have Tearoff"
-msgstr "Meniji je mogoče odtrgati"
+msgstr "Menije je mogoče odpeti"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
 msgid "Monospace font"
@@ -711,7 +711,7 @@ msgstr "Ali naj meniji kažejo ikono ob predmetu menija."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
 msgid "Whether menus should have a tearoff."
-msgstr "Ali naj imajo meniji gumb za odtrganje."
+msgstr "Ali naj imajo meniji mesto za odpenjanje."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid "Whether mnemonics should be automatically shown and hidden when the user presses the Alt key."
@@ -926,12 +926,12 @@ msgid "The command to invoke when the logout button is clicked. This command sho
 msgstr "Določa ukaz, ki bo priklican ob kliku na gumb za odjavo. Ta ukaz bi moral le odjaviti uporabnika, brez posegov uporabnika. Ključ ima učinek le, če je omogočen tudi ključ \"logout_enable\"."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
-msgid "The number of minutes after screensaver activation before locking the screen."
-msgstr "Število minut po zagonu ohranjevalnika zaslona preden se zaslon zaklene."
+msgid "The number of seconds after screensaver activation before locking the screen."
+msgstr "Število sekund po zagonu ohranjevalnika zaslona preden se zaslon zaklene."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
-msgid "The number of minutes after the screensaver activation before a logout option will appear in the unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
-msgstr "Število minut po zagonu ohranjevalnika zaslona preden se pojavi možnost za odjavo v pogovornem oknu za odklepanje. Ta ključ ima učinek le, če je ključ \"logout_enable\" nastavljen na PRAV."
+msgid "The number of seconds after the screensaver activation before a logout option will appear in the unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
+msgstr "Število sekund po zagonu ohranjevalnika zaslona preden se pojavi možnost za odjavo v pogovornem oknu za odklepanje zaslona. Ta ključ ima učinek le, če je omogočen ključ \"logout_enable\"."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Time before locking"
@@ -942,8 +942,8 @@ msgid "Time before logout option"
 msgstr "Čas pred možnostjo odjave"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
-msgid "The number of minutes of inactivity before the session is considered idle."
-msgstr "Čas nedejavnosti v minutah preden se seja obravnava kot nedejavna."
+msgid "The number of seconds of inactivity before the session is considered idle."
+msgstr "Čas nedejavnosti v sekundah preden se seja obravnava kot nedejavna."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:2
 msgid "Time before session is considered idle"
@@ -996,6 +996,14 @@ msgstr "Izbrana možnost izklopi vse zunanje izdelovalce pomanjšanih sličic, n
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:4
 msgid "Thumbnails will not be created for files whose mime-type is contained in the list."
 msgstr "Sličice ne bodo ustvarjene za datoteke katerih vrsta mime ni na seznamu."
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
+msgid "Specify the locale to be used for displaying dates, times and numbers formats."
+msgstr "jezikovno določilo, ki določa obliko zapisa datuma, časa in številk."
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:2
+msgid "The locale to use for dates / numbers formats"
+msgstr "Jezikovno določilo, ki je uporabljeno za prilagojen zapis datuma in časa"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Authenticate proxy server connections"
