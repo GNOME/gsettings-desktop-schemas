@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gsettings-desktop-schemas&component=general\n"
-"POT-Creation-Date: 2011-03-09 14:07+0000\n"
-"PO-Revision-Date: 2011-03-10 15:08+0100\n"
+"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-06-19 14:15+0000\n"
+"PO-Revision-Date: 2011-06-20 10:44+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -520,7 +520,6 @@ msgid "Picture Options"
 msgstr "Opciones de la imagen"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
-#| msgid "Picture Opacity"
 msgid "Picture URI"
 msgstr "URI de la imagen"
 
@@ -1218,19 +1217,26 @@ msgstr ""
 "activada."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#| msgid ""
+#| "The number of minutes after screensaver activation before locking the "
+#| "screen."
 msgid ""
-"The number of minutes after screensaver activation before locking the screen."
+"The number of seconds after screensaver activation before locking the screen."
 msgstr ""
-"El número de minutos tras la activación del salvapantallas antes de bloquear "
-"la pantalla."
+"El número de segundos tras la activación del salvapantallas antes de "
+"bloquear la pantalla."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#| msgid ""
+#| "The number of minutes after the screensaver activation before a logout "
+#| "option will appear in the unlock dialog. This key has effect only if the "
+#| "\"logout_enable\" key is set to TRUE."
 msgid ""
-"The number of minutes after the screensaver activation before a logout "
+"The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
 "\"logout_enable\" key is set to TRUE."
 msgstr ""
-"El número de minutos después de la activación del salvapantallas y antes de "
+"El número de segundos después de la activación del salvapantallas y antes de "
 "que se muestre la opción de cerrar sesión en el diálogo de desbloqueo. Esta "
 "clave tiene efecto sólo si la clave «logout_enable» está activada."
 
@@ -1243,10 +1249,12 @@ msgid "Time before logout option"
 msgstr "Tiempo antes de la opción de cierre de sesión"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
+#| msgid ""
+#| "The number of minutes of inactivity before the session is considered idle."
 msgid ""
-"The number of minutes of inactivity before the session is considered idle."
+"The number of seconds of inactivity before the session is considered idle."
 msgstr ""
-"El número de minutos de inactividad antes de considerar la sesión inactiva."
+"El número de segundos de inactividad antes de considerar la sesión inactiva."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:2
 msgid "Time before session is considered idle"
@@ -1319,6 +1327,18 @@ msgid ""
 msgstr ""
 "No se crearán las miniaturas para aquellos archivos cuyo tipo MIME esté en "
 "la lista."
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
+msgid ""
+"Specify the locale to be used for displaying dates, times and numbers "
+"formats."
+msgstr ""
+"Especifica la configuración local que usar para mostrar formatos de fechas, "
+"horas y números."
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:2
+msgid "The locale to use for dates / numbers formats"
+msgstr "La configuración local que usar para formatos de fechas / números"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Authenticate proxy server connections"
