@@ -31,6 +31,7 @@
     </key>
     <key name="mag-factor" type="d">
       <default>2.0</default>
+      <range min="0.1" max="32.0"/>
       <_summary>Magnification factor</_summary>
       <_description>
         The power of the magnification. A value of 1.0 means no magnification.
@@ -68,9 +69,9 @@
     </key>
     <key name="cross-hairs-thickness" type="i">
       <default>8</default>
-      <_summary>Thickness of the crosshairs</_summary>
+      <_summary>Thickness of the crosshairs in pixels</_summary>
       <_description>
-        Width of the vertical and horizontal lines that make up the crosshairs.
+        Width in pixels of the vertical and horizontal lines that make up the crosshairs.
       </_description>
     </key>
     <key name="cross-hairs-color" type="s">
@@ -92,10 +93,11 @@
     </key>
     <key name="cross-hairs-length" type="i">
       <default>4096</default>
-      <_summary>Length of the crosshairs</_summary>
+      <range min="20" max="4096"/>
+      <_summary>Length of the crosshairs in pixels</_summary>
       <_description>
-        Determines the length of the vertical and horizontal lines that
-        make up the crosshairs.
+        Determines the length in pixels of the vertical and horizontal
+        lines that make up the crosshairs.
       </_description>
     </key>
     <key name="cross-hairs-clip" type="b">
