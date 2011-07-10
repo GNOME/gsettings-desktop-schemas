@@ -1,15 +1,16 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
+#
 # Marek Černocký <marek@manet.cz>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gsettings-desktop-schemas&component=general\n"
-"POT-Creation-Date: 2011-03-09 14:07+0000\n"
-"PO-Revision-Date: 2011-03-12 20:36+0100\n"
+"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-06-22 15:04+0000\n"
+"PO-Revision-Date: 2011-07-10 09:56+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -216,10 +217,14 @@ msgid "Color of the crosshairs"
 msgstr "Barva nitkového kříže"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
+#| msgid ""
+#| "Determines the length of the vertical and horizontal lines that make up "
+#| "the crosshairs."
 msgid ""
-"Determines the length of the vertical and horizontal lines that make up the "
-"crosshairs."
-msgstr "Určuje délku svislé a vodorovné čáry, které tvoří nitkový kříž."
+"Determines the length in pixels of the vertical and horizontal lines that "
+"make up the crosshairs."
+msgstr ""
+"Určuje v pixelech délku svislé a vodorovné čáry, které tvoří nitkový kříž."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
 msgid ""
@@ -279,8 +284,9 @@ msgstr ""
 "v lupě."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
-msgid "Length of the crosshairs"
-msgstr "Délka nitkového kříže"
+#| msgid "Length of the crosshairs"
+msgid "Length of the crosshairs in pixels"
+msgstr "Délka nitkového kříže v pixelech"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
 msgid "Magnification factor"
@@ -329,8 +335,9 @@ msgstr ""
 "dvojnásobnou velikost."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
-msgid "Thickness of the crosshairs"
-msgstr "Tloušťka nitkového kříže"
+#| msgid "Thickness of the crosshairs"
+msgid "Thickness of the crosshairs in pixels"
+msgstr "Tloušťka nitkového kříže v pixelech"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
 msgid ""
@@ -341,8 +348,12 @@ msgstr ""
 "přesouvat se s ním."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
-msgid "Width of the vertical and horizontal lines that make up the crosshairs."
-msgstr "Tloušťka svislé a vodorovné čáry, které tvoří nitkový kříž."
+#| msgid ""
+#| "Width of the vertical and horizontal lines that make up the crosshairs."
+msgid ""
+"Width in pixels of the vertical and horizontal lines that make up the "
+"crosshairs."
+msgstr "Tloušťka v pixelech svislé a vodorovné čáry, které tvoří nitkový kříž."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
@@ -500,7 +511,6 @@ msgid "Picture Options"
 msgstr "Možnosti obrázku"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
-#| msgid "Picture Opacity"
 msgid "Picture URI"
 msgstr "Adresa URI obrázku"
 
@@ -1167,19 +1177,26 @@ msgstr ""
 "efekt pouze pokud je klíč „logout_enable“ nastaven na ZAPNUTO."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#| msgid ""
+#| "The number of minutes after screensaver activation before locking the "
+#| "screen."
 msgid ""
-"The number of minutes after screensaver activation before locking the screen."
-msgstr "Počet minut od aktivace šetřiče obrazovky po zamknutí obrazovky."
+"The number of seconds after screensaver activation before locking the screen."
+msgstr "Počet sekund od aktivace šetřiče obrazovky po zamknutí obrazovky."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#| msgid ""
+#| "The number of minutes after the screensaver activation before a logout "
+#| "option will appear in the unlock dialog. This key has effect only if the "
+#| "\"logout_enable\" key is set to TRUE."
 msgid ""
-"The number of minutes after the screensaver activation before a logout "
+"The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
 "\"logout_enable\" key is set to TRUE."
 msgstr ""
-"Počet minut od aktivace šetřiče obrazovky po zobrazení možnosti odhlášení v "
-"dialogovém okně odemknutí. Tento klíč má efekt je když je ZAPNUT klíč "
-"„logout_enable“."
+"Počet sekund od aktivace šetřiče obrazovky po zobrazení možnosti odhlášení v "
+"dialogovém okně odemknutí. Tento klíč má efekt, jen když je klíč "
+"„logout_enable“ nastaven na ZAPNUTO."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Time before locking"
@@ -1190,9 +1207,11 @@ msgid "Time before logout option"
 msgstr "Čas do možnosti odhlášení"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
+#| msgid ""
+#| "The number of minutes of inactivity before the session is considered idle."
 msgid ""
-"The number of minutes of inactivity before the session is considered idle."
-msgstr "Počet minut neaktivity, po kterých je sezení považováno za nečinné."
+"The number of seconds of inactivity before the session is considered idle."
+msgstr "Počet sekund neaktivity, po kterých je sezení považováno za nečinné."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:2
 msgid "Time before session is considered idle"
@@ -1263,6 +1282,18 @@ msgid ""
 msgstr ""
 "Náhledy nebudou vytvářeny pro soubory, jejichž typy MIME jsou uvedeny v "
 "tomto seznamu."
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
+msgid ""
+"Specify the locale to be used for displaying dates, times and numbers "
+"formats."
+msgstr ""
+"Určuje národní prostředí, které se má použít k zobrazení formátů dat, časů a "
+"čísel."
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:2
+msgid "The locale to use for dates / numbers formats"
+msgstr "Národní prostředí pro použití ve formátu data/čísla"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1427,72 +1458,3 @@ msgstr ""
 msgid "Whether to use the same proxy for all protocols or not."
 msgstr "Zda použít stejnou proxy pro všechny protokoly nebo ne."
 
-#~ msgid "File to use for the background image."
-#~ msgstr "Soubor, který se má použít pro obrázek na pozadí."
-
-#~ msgid "Picture Filename"
-#~ msgstr "Název souboru s obrázkem"
-
-#~ msgid "Use Custom Font"
-#~ msgstr "Použít vlastní písmo"
-
-#~ msgid "Whether to use a custom font in gtk+ applications."
-#~ msgstr "Zda použít vlastní písmo v aplikacích gtk+."
-
-#~ msgid "Screensaver theme selection mode"
-#~ msgstr "Režim výběru motivu šetřiče obrazovky"
-
-#~ msgid "Screensaver themes"
-#~ msgstr "Motivy šetřiče obrazovky"
-
-#~ msgid "The number of minutes to run before changing the screensaver theme."
-#~ msgstr ""
-#~ "Počet minut, po které poběží šetřič obrazovky než se změní jeho motiv."
-
-#~ msgid ""
-#~ "The number of seconds of inactivity before signalling to power "
-#~ "management. This key is set and maintained by the session power "
-#~ "management agent."
-#~ msgstr ""
-#~ "Počet sekund neaktivity, než se dá signál správě napájení. Tento klíč je "
-#~ "udržován agentem sezení správy napájení."
-
-#~ msgid ""
-#~ "The selection mode used by screensaver. May be \"blank-only\" to enable "
-#~ "the screensaver without using any theme on activation, \"single\" to "
-#~ "enable screensaver using only one theme on activation (specified in "
-#~ "\"themes\" key), and \"random\" to enable the screensaver using a random "
-#~ "theme on activation."
-#~ msgstr ""
-#~ "Režim výběru použitý šetřičem obrazovky. Může být „blank-only“ pro "
-#~ "zapnutí šetřiče obrazovky bez jakéhokoliv motivu při aktivaci, „single“ "
-#~ "pro zapnutí šetřiče používajícího jen jeden motiv při aktivaci (určený "
-#~ "klíčem „themes“) a „random“ pro zapnutí šetřiče obrazovky používajícího "
-#~ "náhodný motiv při aktivaci."
-
-#~ msgid ""
-#~ "This key specifies the list of themes to be used by the screensaver. It's "
-#~ "ignored when \"mode\" key is \"blank-only\", should provide the theme "
-#~ "name when \"mode\" is \"single\", and should provide a list of themes "
-#~ "when \"mode\" is \"random\"."
-#~ msgstr ""
-#~ "Tento klíč určuje seznam motivů, které má používat šetřič obrazovky. "
-#~ "Pokud je klíč „mode“ nastaven na „blank-only“, je seznam ignorován. Pokud "
-#~ "je „mode“ nastaven na „single“, měl by seznam obsahovat jediný název "
-#~ "motivu, a seznam více motivů, pokud je „mode“ nastaven na „random“."
-
-#~ msgid "Time before power management baseline"
-#~ msgstr "Čas do uvědomění správy napájení"
-
-#~ msgid "Time before theme change"
-#~ msgstr "Čas do změny motivu"
-
-#~ msgid "Preferred Mobility assistive technology application"
-#~ msgstr "Upřednostňovaná aplikace technologie usnadnění pohyblivosti"
-
-#~ msgid ""
-#~ "Preferred Mobility assistive technology application to be used for login, "
-#~ "menu, or command line."
-#~ msgstr ""
-#~ "Upřednostňovaná aplikace technologie usnadnění pohyblivosti, která se "
-#~ "použije pro přihlášení, nabídky nebo příkazový řádek."
