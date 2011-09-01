@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-06-22 15:04+0000\n"
-"PO-Revision-Date: 2011-06-23 09:39+0100\n"
+"POT-Creation-Date: 2011-08-30 14:45+0000\n"
+"PO-Revision-Date: 2011-09-01 11:34+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@freenet.de>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1336,123 +1336,139 @@ msgid "Automatic proxy configuration URL"
 msgstr "Adresse für automatische Proxy-Konfiguration"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
-msgid "Enables the proxy settings when accessing HTTP over the Internet."
-msgstr ""
-"Sollen die Proxy-Einstellungen zum HTTP-Zugriff per Internet verwendet werden?"
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:4
 msgid "FTP proxy host name"
 msgstr "Rechnername des FTP-Proxys"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:4
 msgid "FTP proxy port"
 msgstr "Port am FTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:5
 msgid "HTTP proxy host name"
 msgstr "Rechnername für HTTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:6
 msgid "HTTP proxy password"
 msgstr "Passwort für HTTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:7
 msgid "HTTP proxy port"
 msgstr "Port für HTTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:8
 msgid "HTTP proxy username"
 msgstr "Benutzername für HTTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:9
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
 "username/password combo is defined by \"/system/proxy/http/authentication-user"
-"\" and \"/system/proxy/http/authentication-password\"."
+"\" and \"/system/proxy/http/authentication-password\". This applies only to "
+"the http proxy; when using a separate https proxy, there is currently no way "
+"to specify that it should use authentication."
 msgstr ""
 "Legt fest, ob Verbindungen mit dem Proxy-Server legitimiert werden müssen. "
-"Hierbei werden die Werte von »/system/proxy/http/authentication_user« und »/"
-"system/proxy/http/authentication_password« als Benutzername bzw. Passwort "
-"verwendet."
+"Hierbei werden die Werte von »/system/proxy/http/authentication-user« und »/"
+"system/proxy/http/authentication-password« als Benutzername bzw. Passwort "
+"verwendet. Dies wird nur bei einem HTTP-Proxy angewendet. Wenn ein separater "
+"HTTPS-Proxy eingesetzt wird, existiert derzeit keine Möglichkeit, "
+"Legitimierung zu verwenden."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:10
 msgid "Non-proxy hosts"
 msgstr "Nicht-Proxy-Rechner"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:11
 msgid "Password to pass as authentication when doing HTTP proxying."
 msgstr "Zur Legitimation verwendetes Passwort für HTTP-Proxy."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:12
 msgid "Proxy configuration mode"
 msgstr "Proxy-Konfigurationsmodus"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:13
 msgid "SOCKS proxy host name"
 msgstr "Rechnername für SOCKS-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:14
 msgid "SOCKS proxy port"
 msgstr "Port für SOCKS-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:15
 msgid "Secure HTTP proxy host name"
 msgstr "Rechnername für sicheren HTTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:16
 msgid "Secure HTTP proxy port"
 msgstr "Port für sicheren HTTP-Proxy"
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:17
 msgid ""
 "Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
+"\", \"auto\". If this is \"none\", then proxies are not used. If it is \"auto"
+"\", the autoconfiguration URL described by the \"autoconfig-url\" key is "
+"used. If it is \"manual\", then the proxies described by \"/system/proxy/http"
+"\", \"/system/proxy/https\", \"/system/proxy/ftp\" and \"/system/proxy/socks"
+"\" will be used. Each of the 4 proxy types is enabled if its \"host\" key is "
+"non-empty and its \"port\" key is non-0. If an http proxy is configured, but "
+"an https proxy is not, then the http proxy is also used for https. If a SOCKS "
+"proxy is configured, it is used for all protocols, except that the http, "
+"https, and ftp proxy settings override it for those protocols only."
 msgstr ""
-"Legt den Proxy-Konfigurationsmodus fest. Zulässige Werte: »none« (keiner), "
-"»manual« (manuell) sowie »auto« (automatisch)."
+"Wählen Sie den Proxy-Konfigurationsmodus. Verwendbare Werte sind »none«, "
+"»manual« und »auto«. Falls »none«, werden keine Proxys verwendet. Falls "
+"»auto«, wird die im Schlüssel »autoconfig-url« angegebene Adresse verwendet. "
+"Falls »manual«, werden die in »/system/proxy/http«, »/system/proxy/https«, »/"
+"system/proxy/ftp« und »/system/proxy/socks« angegebenen Werte verwendet. "
+"Jeder der vier Proxy-Typen wird aktiviert, wenn dessen »host«-Schlüssel nicht "
+"leer ist und der »port«-Schlüssel nicht 0 ist. Falls ein HTTP-Proxy "
+"eingerichtet ist, aber kein HTTPS-Proxy, dann wird der HTTP-Proxy auch für "
+"HTTPS verwendet. Falls ein SOCKS-Proxy eingerichtet ist, wird dieser für alle "
+"Protokolle verwendet, außer wenn die HTTP-, HTTPS- und FTP-Proxy-"
+"Einstellungen dies für die jeweiligen Protokolle überschreiben."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:18
 msgid "The machine name to proxy FTP through."
 msgstr "Der Rechnername des FTP-Proxys."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:19
 msgid "The machine name to proxy HTTP through."
 msgstr "Der Rechnername des Proxys, durch den HTTP-Anfragen geleitet werden."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:20
 msgid "The machine name to proxy secure HTTP through."
 msgstr ""
 "Der Rechnername des Proxys, durch den sichere HTTP-Anfragen geleitet werden."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:22
-msgid "The machine name to proxy socks through."
-msgstr "Der Rechnername des Proxys, durch den SOCKS-Anfragen geleitet werden."
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:21
+msgid "The machine name to use as a SOCKS proxy."
+msgstr "Der Name des als SOCKS-Proxy zu verwendenden Rechners."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:22
 msgid ""
 "The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
 "through."
 msgstr "Der Proxy-Port am von »/system/proxy/ftp/host« festgelegten Rechner."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:23
 msgid ""
 "The port on the machine defined by \"/system/proxy/http/host\" that you proxy "
 "through."
 msgstr "Der Proxy-Port am von »/system/proxy/http/host« festgelegten Rechner."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:24
 msgid ""
 "The port on the machine defined by \"/system/proxy/https/host\" that you "
 "proxy through."
 msgstr "Der Proxy-Port am von »/system/proxy/https/host« festgelegten Rechner."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr "Der Proxy-Port am von »/system/proxy/socks/host« festgelegten Rechner."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:26
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
@@ -1465,134 +1481,34 @@ msgstr ""
 "Anfang wie *.beispiel.com), IP-Adressen (sowohl IPv4 als auch IPv6) sowie "
 "Netzwerk-Adressen mit einer Netzmaske (z.B. 192.168.0.0/24)."
 
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:27
+msgid "This key is not used, and should not be read or modified."
+msgstr ""
+"Dieser Schlüssel wird nicht verwendet und sollte nicht gelesen oder verändert "
+"werden."
+
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:28
-msgid "URL that provides proxy configuration values."
-msgstr "Adresse, unter der Werte für die Proxy-Konfiguration vorliegen"
+msgid ""
+"This key is not used; HTTP proxying is enabled when the host key is non-empty "
+"and the port is non-0."
+msgstr ""
+"Dieser Schlüssel wird nicht verwendet. HTTP-Proxys werden aktiviert, wenn der "
+"Schlüssel des Rechners nicht leer und der Port nicht 0 ist."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:29
-msgid "Use HTTP proxy"
-msgstr "HTTP-Proxy verwenden"
+msgid ""
+"URL that provides proxy configuration values. When mode is \"auto\", this URL "
+"is used to look up proxy information for all protocols."
+msgstr ""
+"Adresse, unter der die Proxy-Konfigurationsdaten bereitgestellt werden. Wenn "
+"der Modus »auto« ist, dann wird diese Adresse zum Suchen nach Proxy-"
+"Informationen für alle Protokolle verwendet."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:30
-msgid "Use same proxy for all protocols"
-msgstr "Den selben Proxy für alle Protokolle verwenden"
+msgid "Unused; ignore"
+msgstr "Nicht verwendet; ignorieren"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:31
 msgid "User name to pass as authentication when doing HTTP proxying."
 msgstr "Benutzername für Legitimation an HTTP-Proxy."
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:32
-msgid "Whether to use the same proxy for all protocols or not."
-msgstr "Legt fest, ob für alle Protokolle der gleiche Proxy verwendet wird."
-
-#~ msgid "File to use for the background image."
-#~ msgstr "Als Hintergrundbild zu verwendende Datei."
-
-#~ msgid "Picture Filename"
-#~ msgstr "Dateiname des Bildes"
-
-#~ msgid "Use Custom Font"
-#~ msgstr "Benutzerdefinierte Schrift verwenden"
-
-#~ msgid "Whether to use a custom font in gtk+ applications."
-#~ msgstr ""
-#~ "Soll eine benutzerdefinierte Schrift in GTK+-Anwendungen verwendet werden?"
-
-#~ msgid "Screensaver theme selection mode"
-#~ msgstr "Bildschirmschonerauswahlmodus"
-
-#~ msgid "Screensaver themes"
-#~ msgstr "Bildschirmschonerthemen"
-
-#~ msgid "The number of minutes to run before changing the screensaver theme."
-#~ msgstr ""
-#~ "Die Anzahl an Minuten, bis das Bildschirmschonerthema gewechselt wird."
-
-#~ msgid ""
-#~ "The number of seconds of inactivity before signalling to power management. "
-#~ "This key is set and maintained by the session power management agent."
-#~ msgstr ""
-#~ "Die Dauer der Untätigkeit in Sekunden, bevor die Energieverwaltung "
-#~ "benachrichtigt wird. Dieser Schlüssel wird vom Energieverwaltungsdienst "
-#~ "der Sitzung gesteuert."
-
-#~ msgid ""
-#~ "The selection mode used by screensaver. May be \"blank-only\" to enable "
-#~ "the screensaver without using any theme on activation, \"single\" to "
-#~ "enable screensaver using only one theme on activation (specified in "
-#~ "\"themes\" key), and \"random\" to enable the screensaver using a random "
-#~ "theme on activation."
-#~ msgstr ""
-#~ "Der Auswahlmodus des Bildschirmschoners. Mögliche Werte sind »blank-only«, "
-#~ "um den Bildschirm schwarz zu schalten, ohne dass irgendein Thema verwendet "
-#~ "wird, »single«, damit der Bildschirmschoner genau ein Thema verwendet "
-#~ "(dieses wird über den Schlüssel »themes« festgelegt) und »random«, damit "
-#~ "der Bildschirmschoner ein zufälliges Thema auswählt."
-
-#~ msgid ""
-#~ "This key specifies the list of themes to be used by the screensaver. It's "
-#~ "ignored when \"mode\" key is \"blank-only\", should provide the theme name "
-#~ "when \"mode\" is \"single\", and should provide a list of themes when "
-#~ "\"mode\" is \"random\"."
-#~ msgstr ""
-#~ "Dieser Schlüssel legt die vom Bildschirmschoner verwendeten Themen fest. "
-#~ "Der Wert wird ignoriert, wenn der Schlüssel »mode« auf »blank-only« "
-#~ "gesetzt ist. Im Modus »single« enthält der Schlüssel genau einen "
-#~ "Themennamen und im Modus »random« eine Liste von Themennamen."
-
-#~ msgid "Time before power management baseline"
-#~ msgstr "Zeit bis zum Benachrichtigen der Energieverwaltung"
-
-#~ msgid "Time before theme change"
-#~ msgstr "Zeit bis zum Wechsel des Bildschirmschoners"
-
-#~ msgid "Show or hide the magnifier"
-#~ msgstr "Bildschirmlupe anzeigen oder verbergen"
-
-#~ msgid "Show or hide the magnifier and all of its zoom regions."
-#~ msgstr ""
-#~ "Die Bildschirmlupe und alle vergrößerten Bereiche anzeigen oder verbergen."
-
-#~ msgid ""
-#~ "GNOME to start preferred Mobility assistive technology application during "
-#~ "login."
-#~ msgstr ""
-#~ "Bevorzugte Anwendung für Hilfstechnologie bei Mobilitätseinschränkungen "
-#~ "beim Anmelden an GNOME starten."
-
-#~ msgid ""
-#~ "GNOME to start preferred Visual assistive technology application during "
-#~ "login."
-#~ msgstr ""
-#~ "Bevorzugte Anwendung für visuelle Hilfstechnologie beim Anmelden an GNOME "
-#~ "starten."
-
-#~ msgid "Preferred Mobility assistive technology application"
-#~ msgstr ""
-#~ "Bevorzugte Anwendung für Hilfstechnologie bei Mobilitätseinschränkungen"
-
-#~ msgid ""
-#~ "Preferred Mobility assistive technology application to be used for login, "
-#~ "menu, or command line."
-#~ msgstr ""
-#~ "Die bevorzugte Anwendung für die Hilfstechnologie bei "
-#~ "Mobilitätseinschränkungen, die beim Anmelden, in Menüs oder der "
-#~ "Befehlszeile verwendet wird."
-
-#~ msgid "Preferred Visual assistive technology application"
-#~ msgstr "Bevorzugte Anwendung für visuelle Hilfstechnologie"
-
-#~ msgid ""
-#~ "Preferred Visual assistive technology application be used for login, menu, "
-#~ "or command line."
-#~ msgstr ""
-#~ "Die bevorzugte Anwendung für visuelle Hilfstechnologie, die beim Anmelden, "
-#~ "in Menüs oder der Befehlszeile verwendet wird."
-
-#~ msgid "Start preferred Mobility assistive technology application"
-#~ msgstr ""
-#~ "Bevorzugte Anwendung für die Hilfstechnologie bei "
-#~ "Mobilitätseinschränkungen starten"
-
-#~ msgid "Start preferred Visual assistive technology application"
-#~ msgstr "Bevorzugte Anwendung für visuelle Hilfstechnologie starten"
