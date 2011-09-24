@@ -2,22 +2,22 @@
 # Spanish translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-09-04 10:27+0000\n"
-"PO-Revision-Date: 2011-09-18 19:07+0200\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"POT-Creation-Date: 2011-09-18 17:09+0000\n"
+"PO-Revision-Date: 2011-09-24 13:52+0200\n"
+"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
@@ -1386,10 +1386,6 @@ msgid "HTTP proxy username"
 msgstr "Usuario del proxy HTTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:9
-#| msgid ""
-#| "If true, then connections to the proxy server require authentication. The "
-#| "username/password combo is defined by \"/system/proxy/http/authentication-"
-#| "user\" and \"/system/proxy/http/authentication-password\"."
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
 "username/password combo is defined by \"/system/proxy/http/authentication-"
@@ -1444,6 +1440,17 @@ msgid ""
 "SOCKS proxy is configured, it is used for all protocols, except that the "
 "http, https, and ftp proxy settings override it for those protocols only."
 msgstr ""
+"Seleccione el modo de configuración del proxy. Los valores soportados son "
+"«none» (ninguno), «manual» y «auto». Si es «none» entonces no se usa ningún "
+"proxy. Si es «auto» se usa el URL descrito en la clave «autoconfig-url». Si "
+"es «manual» entonces se usan los proxies descritos por «/system/proxy/http», "
+"«/system/proxy/https», «/system/proxy/ftp» y «/system/proxy/socks». Cada uno "
+"de los 4 tipos de proxies está activado si su clave «host» no está vacía y "
+"su clave «port» es distinta de 0. Si se configura un proxy http pero no uno "
+"https, entonces el proxy http también se usa para https. Si se configura un "
+"proxy SOCKS, entonces se usa para todos los protocolos excepto para la "
+"configuración de los proxies http, https y ftp que sobreescribe esa "
+"configuración sólo para esos protocolos."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:18
 msgid "The machine name to proxy FTP through."
@@ -1515,6 +1522,8 @@ msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
 msgstr ""
+"Esta tarea no se usa; el proxy HTTP está activado cuando la clave del "
+"servidor no está vacía y el puerto no es 0."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:29
 msgid ""
