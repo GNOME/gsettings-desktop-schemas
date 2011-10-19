@@ -21,4 +21,6 @@ MAINTAINERCLEANFILES = \
 	`find "$(srcdir)" -type f -name Makefile.in -print` \
 	$(srcdir)/configure
 
+DISTCHECK_CONFIGURE_FLAGS = --enable-introspection
+
 -include $(top_srcdir)/git.mk
