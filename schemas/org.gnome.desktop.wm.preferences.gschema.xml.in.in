@@ -232,18 +232,27 @@
         to allow silent 'beeps'.
       </_description>
     </key>
+    <key name="visual-bell" type="b">
+      <default>false</default>
+      <_summary>Enable Visual Bell</_summary>
+      <_description>
+        Turns on a visual indication when an application or the system issues
+        a 'bell' or 'beep'; useful for the hard-of-hearing and for use
+        in noisy environments.
+      </_description>
+    </key>
     <key name="visual-bell-type"
          enum="org.gnome.desktop.GDesktopVisualBellType">
-      <default>'none'</default>
+      <default>'fullscreen-flash'</default>
       <_summary>Visual Bell Type</_summary>
       <_description>
         Tells the WM how to implement the visual indication that the
         system bell or another application 'bell' indicator has been rung.
 
-        Currently there are three valid values, "none", which disables
-        the visual bell, "fullscreen-flash", which causes a fullscreen
-        white-black flash, and "frame-flash" which causes the titlebar
-        of the application which sent the bell signal to flash.
+        Currently there are two valid values, "fullscreen-flash", which
+        causes a fullscreen white-black flash, and "frame-flash" which
+        causes the titlebar of the application which sent the bell signal
+        to flash.
 
         If the application which sent the bell is unknown (as is usually
         the case for the default "system beep"), the currently focused
