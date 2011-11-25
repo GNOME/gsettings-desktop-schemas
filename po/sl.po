@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-11-20 00:36+0000\n"
-"PO-Revision-Date: 2011-11-24 20:31+0100\n"
+"POT-Creation-Date: 2011-11-24 19:31+0000\n"
+"PO-Revision-Date: 2011-11-25 17:59+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: \n"
@@ -1356,7 +1356,7 @@ msgstr "Trenutna tema"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:12
 msgid "Defines the names that should be assigned to workspaces. If the list is too long for the current number of workspaces, names in excess will be ignored. If the list is too short, or includes empty names, missing values will be replaced with the default (\"Workspace N\")."
-msgstr ""
+msgstr "Določa imena, ki bi morala biti določena delovnim površinam. V kolikor je seznam predolg za trenutno obstoječe število delovnih površin, bo presežno število imen prezrto. Nasprotno pa je v primeru prekratkega seznama ali seznama s praznimi polji, manjkajoča vrednost zamenjana s privzetim napisom (\"Delovna površina N\")."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Delay in milliseconds for the auto raise option"
@@ -1371,102 +1371,110 @@ msgid "Disable misfeatures that are required by old or broken applications"
 msgstr "Onemogoči dodatke, ki jih uporabljajo stari ali pokvarjeni programi"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:16
+msgid "Enable Visual Bell"
+msgstr "Omogoči vidni zvonec"
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:17
 msgid "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then the focused window will be automatically raised after a delay specified by the auto-raise-delay key. This is not related to clicking on a window to raise it, nor to entering a window during drag-and-drop."
 msgstr "Izbrana možnost omogoča, da je način žariščenja \"sloppy\" ali \"mouse\", potem bo okno v žarišču po premoru, določenem v ključu auto_raise_delay, samodejno dvignjeno. To ni povezano s klikanjem za dviganje okna, niti z vstopom v okno z metodo povleci-spusti."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:18
 msgid "If true, ignore the titlebar-font option, and use the standard application font for window titles."
 msgstr "Izbrana možnost omogoča, da se prezre možnost pisave nazivne vrstice okna in uporabi privzeto pisavo programov."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
 msgid "If true, then the WM works in terms of applications rather than windows. The concept is a bit abstract, but in general an application-based setup is more like the Mac and less like Windows. When you focus a window in application-based mode, all the windows in the application will be raised. Also, in application-based mode, focus clicks are not passed through to windows in other applications. Application-based mode is, however, largely unimplemented at the moment."
 msgstr "Izbrana možnost omogoča, da program prednostno obravnava program kot celoto in ne okna programa. Ta možnost je nekoliko abstraktna in je pomensko značilna za okolje Mac in manj za Windows. Ko je okno postavljeno v žarišče v programskem načinu, se vsa okna programa dvignejo. Prav tako se v tem načinu kliki z miško ne prenesejo na okna ostalih programov. Programski način v veliki meri še ni dokončno razvit."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:20
 msgid "Modifier to use for modified window click actions"
 msgstr "Spremenilnik, ki naj se uporabi za dejanja klika na okno"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
 msgid "Number of workspaces"
 msgstr "Število delovnih površin"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:22
 msgid "Number of workspaces. Must be more than zero, and has a fixed maximum to prevent making the desktop unusable by accidentally asking for too many workspaces."
 msgstr "Število delovnih površin. Mora biti več kot nič in ima določeno najvišjo vrednost, da prepreči uničenje namizja z vnosom prevelikega števila delovnih površin."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:23
 msgid "Set this to true to resize with the right button and show a menu with the middle button while holding down the key given in \"mouse-button-modifier\"; set it to false to make it work the opposite way around."
 msgstr "Izbrana možnost omogoča, da se velikost okna spremeni z desnim gumbom in  prikaže meni s srednjim, če je določena tudi tipka tipkovnice."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:24
 msgid "Setting this option to false can lead to buggy behavior, so users are strongly discouraged from changing it from the default of true. Many actions (e.g. clicking in the client area, moving or resizing the window) normally raise the window as a side-effect. Setting this option to false, which is strongly discouraged, will decouple raising from other user actions, and ignore raise requests generated by applications. See http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Even when this option is false, windows can still be raised by an alt-left-click anywhere on the window, a normal click on the window decorations, or by special messages from pagers, such as activation requests from tasklist applets. This option is currently disabled in click-to-focus mode. Note that the list of ways to raise windows when raise-on-click is false does not include programmatic requests from applications to raise windows; such requests will be ignored regardless of the reason for the request. If you are an application developer and have a user complaining that your application does not work with this setting disabled, tell them it is -their- fault for breaking their window manager and that they need to change this option back to true or live with the \"bug\" they requested."
 msgstr "Nastavitev možnosti lahko privede do nestanovitnega delovanja, zato spreminjanje možnosti ni priporočeno. Veliko dejanj (primer: klikanje znotraj oken, premikanje in spreminjanje velikosti oken) običajno privzdigne okno kot stranski učinek dejanja. Z onemogočenjem možnosti bo program preprečil dvig okna drugim programom in bo prezrl zahteve, ki jih ustvarjajo ukazi. Več podrobnosti najdete na http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Tudi z onemogočenjem možnosti je okna mogoče privzdigniti z alt-levi klik kjerkoli na oknu. Možnost je onemogočena le v klik-za-žarišče načinu. Seznam načinov, s katerimi je mogoče privzdigniti okno ne vključuje programskih zahtev programov za dvig okna; take zahteve so prezrte ne glede na vzrok zahteve."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:25
 msgid "Some applications disregard specifications in ways that result in window manager misfeatures. This option puts the WM in a rigorously correct mode, which gives a more consistent user interface, provided one does not need to run any misbehaving applications."
 msgstr "Nekateri programi prezrejo določila, tako da upravljalnik oken ne deluje v celoti pravilno. Ta možnost postavi Metacity v pravilen način, ki daje bolj celovit uporabniški vmesnik, če uporabniku ni treba zaganjati programov, ki ne delujejo pravilno."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:26
 msgid "System Bell is Audible"
 msgstr "Sistemski zvonec je zvočen"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:26
-msgid "Tells the WM how to implement the visual indication that the system bell or another application 'bell' indicator has been rung. Currently there are three valid values, \"none\", which disables the visual bell, \"fullscreen-flash\", which causes a fullscreen white-black flash, and \"frame-flash\" which causes the titlebar of the application which sent the bell signal to flash. If the application which sent the bell is unknown (as is usually the case for the default \"system beep\"), the currently focused window's titlebar is flashed."
-msgstr ""
-
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:27
+msgid "Tells the WM how to implement the visual indication that the system bell or another application 'bell' indicator has been rung. Currently there are two valid values, \"fullscreen-flash\", which causes a fullscreen white-black flash, and \"frame-flash\" which causes the titlebar of the application which sent the bell signal to flash. If the application which sent the bell is unknown (as is usually the case for the default \"system beep\"), the currently focused window's titlebar is flashed."
+msgstr "Možnost določa način izvajanja vidnega opozarjanja sistemskega zvonca ali zvonca drugega programa. Trenutno sta na voljo dve veljavni vrednosti, \"fullscreen-flash\", ki povzroči celozaslonsko črno belo utripanje in \"frame-flash\", ki povzroči utripanje nazivne vrstice programa, ki je sprožil zvonec. V kolikor je slednji neznan (npr. v primeru \"sistemskega zvonca\"), utripa naslovna vrstica okna, ki je trenutno v žarišču."
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:28
 msgid "The names of the workspaces"
 msgstr "ustvarjanje delovnih površin,"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:29
 msgid "The theme determines the appearance of window borders, titlebar, and so forth."
 msgstr "Tema določa videz robov oken, nazivne vrstice oken itd."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:30
 msgid "The time delay before raising a window if auto-raise is set to true. The delay is given in thousandths of a second."
 msgstr "Časovni zamik preden se okno dvigne, kadar je auto_raise omogočen. Zamik je podan v tisočinkah sekunde."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:31
 msgid "The window focus mode indicates how windows are activated. It has three possible values; \"click\" means windows must be clicked in order to focus them, \"sloppy\" means windows are focused when the mouse enters the window, and \"mouse\" means windows are focused when the mouse enters the window and unfocused when the mouse leaves the window."
 msgstr "Način žariščenja določa kako se okna postavijo v žarišče. Možnosti so; \"click\", ki zahteva klik miške na oknu, \"sloppy\", ki omogoča žariščenje s pomikom miške na okno in \"mouse\", ki omogoča žariščenje, ko je kazalka miške v oknu, in sprostitev žarišča, ko okno zapusti."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:32
 msgid "This option determines the effects of double-clicking on the title bar. Current valid options are 'toggle-shade', which will shade/unshade the window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/unmaximize the window in that direction only, 'minimize' which will minimize the window, 'shade' which will roll the window up, 'menu' which will display the window menu, 'lower' which will put the window behind all the others, and 'none' which will not do anything."
 msgstr "Možnost določa učinek dvojnega klika miške na nazivno vrstico okna. Trenutno veljavne možnosti so 'preklop_senčenja', ki spremeni zasenčenost okna, 'preklop razpenjanja', ki razpne ali skrči okno, 'preklop razpenjanja vodoravno' in 'preklop razpenjanja navpično', ki razpneta okna le v eni smeri, 'pomanjšaj', ki pomanjša okno, 'zavij', ki zvije okno na velikost naslovne vrstice', 'meni', ki prikaže meni okna, 'pod', ki skrije okno pod ostala okna in 'brez', ki ne naredi ničesar."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:33
 msgid "This option determines the effects of middle-clicking on the title bar. Current valid options are 'toggle-shade', which will shade/unshade the window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/unmaximize the window in that direction only, 'minimize' which will minimize the window, 'shade' which will roll the window up, 'menu' which will display the window menu, 'lower' which will put the window behind all the others, and 'none' which will not do anything."
 msgstr "Možnost določa učinek srednjega klika miške na nazivno vrstico okna. Trenutno veljavne možnosti so 'preklop_senčenja', ki spremeni zasenčenost okna, 'preklop razpenjanja', ki razpne ali skrči okno, 'preklop razpenjanja vodoravno' in 'preklop razpenjanja navpično', ki razpneta okna le v eni smeri, 'pomanjšaj', ki pomanjša okno, 'zavij', ki zavije okno na velikost naslovne vrstice', 'meni', ki prikaže meni okna, 'pod', ki skrije okno pod ostala okna in 'brez', ki ne naredi ničesar."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:34
 msgid "This option determines the effects of right-clicking on the title bar. Current valid options are 'toggle-shade', which will shade/unshade the window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/unmaximize the window in that direction only, 'minimize' which will minimize the window, 'shade' which will roll the window up, 'menu' which will display the window menu, 'lower' which will put the window behind all the others, and 'none' which will not do anything."
 msgstr "Možnost določa učinek desnega klika miške na nazivno vrstico okna. Trenutno veljavne možnosti so 'preklop_senčenja', ki spremeni zasenčenost okna, 'preklop razpenjanja', ki razpne ali skrči okno, 'preklop razpenjanja vodoravno' in 'preklop razpenjanja navpično', ki razpneta okna le v eni smeri, 'pomanjšaj', ki pomanjša okno, 'zavij', ki zvije okno na velikost naslovne vrstice', 'meni', ki prikaže meni okna, 'pod', ki skrije okno pod ostala okna in 'brez', ki ne naredi ničesar."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:35
 msgid "This option provides additional control over how newly created windows get focus. It has two possible values; \"smart\" applies the user's normal focus mode, and \"strict\" results in windows started from a terminal not being given focus."
 msgstr "Možnost omogoča dodaten nadzor za pridobivanje žarišča novih oken. Na voljo sta možnosti: \"pametno\", ki uveljavi običajen način žariščenja in \"strogo\", ki pa žarišča ne dodeli oknom zagnanim preko terminala."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:36
+msgid "Turns on a visual indication when an application or the system issues a 'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy environments."
+msgstr "Vključi vidna opozorila, ko program ali sistem uporabi 'zvonec' ali 'pisk'. Možnost je uporabna v hrupnih okoljih in pri posameznikih s slabšim sluhom."
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
 msgid "Use standard system font in window titles"
 msgstr "V nazivnih vrsticah oken uporabi običajno sistemsko pisavo"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
 msgid "Visual Bell Type"
 msgstr "Vrsta vidnega zvonca"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "Whether raising should be a side-effect of other user interactions"
 msgstr "Ali naj bo dvigovanje stranski učinek drugih dejanj uporabnika"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
 msgid "Whether to resize with the right button"
 msgstr "Ali je mogoče spreminjati velikost okna z desnim gumbom."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
 msgid "Window focus mode"
 msgstr "Način žariščenja oken"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:42
 msgid "Window title font"
 msgstr "Pisava naziva okna"
 
