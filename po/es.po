@@ -3,6 +3,7 @@
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
+# Nicolás Satragno <nicoymatu9@hotmail.com>, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-11-25 17:05+0000\n"
-"PO-Revision-Date: 2011-12-05 17:21+0100\n"
+"POT-Creation-Date: 2011-12-10 21:11+0000\n"
+"PO-Revision-Date: 2011-12-27 13:38+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1356,7 +1357,7 @@ msgstr "Ocultar todas las ventanas normales"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:5
 msgid "Lower window below other windows"
-msgstr ""
+msgstr "Colocar la ventana debajo de otras ventanas"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:6
 msgid "Maximize window"
@@ -1480,11 +1481,11 @@ msgstr "Mover la ventana al área de trabajo 9"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Raise window above other windows"
-msgstr ""
+msgstr "Elevar la ventana sobre las otras ventanas"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Raise window if covered, otherwise lower it"
-msgstr ""
+msgstr "Elevar la ventana si está cubierta, de lo contrario, bajarla"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Resize window"
@@ -1494,31 +1495,30 @@ msgstr "Redimensionar la ventana"
 msgid "Restore window"
 msgstr "Restaurar la ventana"
 
+# Tengo que suponer que se refiere a retroceder con alt + tab. Nicolás.
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
-#, fuzzy
-#| msgid "Terminal application"
 msgid "Reverse switch applications"
-msgstr "Aplicación de terminal"
+msgstr "Invertir el cambio entre ventanas"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Reverse switch system controls"
-msgstr ""
+msgstr "Invertir el cambio entre controles del sistema"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Reverse switch system controls directly"
-msgstr ""
+msgstr "Invertir el cambio entre controles del sistema directamente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Reverse switch windows directly"
-msgstr ""
+msgstr "Invertir el cambio entre ventanas directamente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Reverse switch windows of an app directly"
-msgstr ""
+msgstr "Invertir el cambio entre ventanas de una aplicación directamente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Reverse switch windows of an application"
-msgstr ""
+msgstr "Invertir el cambio entre ventanas de una aplicación"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Show the activities overview"
@@ -1529,17 +1529,16 @@ msgid "Show the run command prompt"
 msgstr "Mostrar el diálogo de ejecutar comando"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
-#| msgid "Terminal application"
 msgid "Switch applications"
-msgstr "Cambiar aplicaciones"
+msgstr "Cambiar entre aplicaciones"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Switch system controls"
-msgstr ""
+msgstr "Cambiar entre controles del sistema"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Switch system controls directly"
-msgstr ""
+msgstr "Cambiar entre controles del sistema directamente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Switch to workspace 1"
@@ -1607,15 +1606,15 @@ msgstr "Cambiar al área de trabajo de la derecha"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Switch windows directly"
-msgstr ""
+msgstr "Cambiar entre ventanas directamente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Switch windows of an app directly"
-msgstr ""
+msgstr "Cambiar entre ventanas de una aplicación directamente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Switch windows of an application"
-msgstr ""
+msgstr "Cambiar entre ventanas de una aplicación"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Toggle fullscreen mode"
@@ -1627,19 +1626,21 @@ msgstr "Conmutar el estado de maximización"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Toggle shaded state"
-msgstr ""
+msgstr "Conmuntar al estado sombreado"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Toggle window always appearing on top"
-msgstr ""
+msgstr "Conmutar si la ventana siempre aparece encima"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Toggle window on all workspaces or one"
-msgstr ""
+msgstr "Conmutar si la ventana aparece en uno o todos los espacios de trabajo"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "(Not implemented) Navigation works in terms of applications not windows"
 msgstr ""
+"(No implementado) La navegación funciona considerando las aplicaciones, no "
+"las ventanas"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:2
 msgid ""
@@ -1648,6 +1649,10 @@ msgid ""
 "set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
 "option is set to true."
 msgstr ""
+"Una cadena que describe la tipografía de las barras de título de las "
+"ventanas. El tamaño de la descripción se usará únicamente si la opción "
+"«titlebar-font-size» está establecida a 0. Además, se desactiva esta opción "
+"si «titlebar-uses-desktop-font» está establecida a «verdadero»."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Action on title bar double-click"
@@ -1655,15 +1660,15 @@ msgstr "Acción al hacer doble pulsación sobre la barra de título"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:4
 msgid "Action on title bar middle-click"
-msgstr ""
+msgstr "Acción al pulsar con el botón central sobre la barra de título"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:5
 msgid "Action on title bar right-click"
-msgstr ""
+msgstr "Acción al pulsar con el botón derecho sobre la barra de título"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:6
 msgid "Arrangement of buttons on the titlebar"
-msgstr ""
+msgstr "Orden de los botones en la barra de título"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:7
 msgid ""
@@ -1675,11 +1680,20 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"Orden de los botones en la barra de título. El valor es una cadena como «menu:"
+"minimize,maximize,spacer,close»; los dos puntos separan la esquina izquierda "
+"de la ventana de la esquina derecha, y los nombres de los botones van "
+"separados por comas. No se permite duplicar botones. Los nombres "
+"desconocidos se ignoran silenciosamente para poder añadirlos en versiones "
+"futuras de Metacity sin comprometer las versiones anteriores. Se puede usar "
+"una etiqueta espaciadora «spacer» especial para separar dos botones "
+"adyacentes."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:8
 msgid "Automatically raises the focused window"
-msgstr ""
+msgstr "Eleva automáticamente la ventana con el foco"
 
+# Parece ser que se usó CDATA para que el parser ignore los «<» y «>».
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:9
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
@@ -1688,6 +1702,12 @@ msgid ""
 "the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
 "[\"<Alt>\"]]> or <![CDATA[\"<Super>]]>\" for example."
 msgstr ""
+"Pulsar una ventana mientras se pulsa esta tecla modificadora moverá la "
+"ventana (pulsación izquierda), cambiará su tamaño (pulsación central), o "
+"mostrará su menú (pulsación derecha). La pulsación de los botones central y "
+"derecho se pueden modificar usando la clave «resize-with-right-button». El "
+"modificador se expresa como <![CDATA[«<Alt>»]]> o <![CDATA[«<Super>»]]>, por "
+"ejemplo."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:10
 msgid "Control how new windows get focus"
@@ -1704,23 +1724,31 @@ msgid ""
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (\"Workspace N\")."
 msgstr ""
+"Define los nombres que se asignarán a las áreas de trabajo. Si la lista es "
+"demasiado larga para el número actual de áreas de trabajo, los nombres "
+"excedentes se ignorarán. Si la lista es demasiado corta, o incluye nombres "
+"vacíos, los valores que falten ser reemplazarán por el valor predeterminado: "
+"«Área de trabajo N»."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Delay in milliseconds for the auto raise option"
-msgstr ""
+msgstr "Retraso en milisegundos para la opción de elevar automáticamente"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:14
 msgid ""
 "Determines whether applications or the system can generate audible 'beeps'; "
 "may be used in conjunction with 'visual bell' to allow silent 'beeps'."
 msgstr ""
+"Determina si las aplicaciones o el sistema pueden generar pitidos audibles; "
+"se puede usar junto con «Campana visual» para permitir «pitidos silenciosos»."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:15
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
+"Desactiva características obsoletas requeridas por aplicaciones antiguas o "
+"rotas"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:16
-#| msgid "Enable slow keys"
 msgid "Enable Visual Bell"
 msgstr "Activar la campana visual"
 
@@ -1731,12 +1759,18 @@ msgid ""
 "the auto-raise-delay key. This is not related to clicking on a window to "
 "raise it, nor to entering a window during drag-and-drop."
 msgstr ""
+"Si se establece a «verdadero», y el modo de foco es «sloppy» o «mouse», la "
+"ventana enfocada se elevará automáticamente después del tiempo especificado "
+"por la clave «auto-raise-delay». Esto no está relacionado con pulsar una "
+"ventana para elevarla, ni con entrar en una ventana durante el arrastre."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:18
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
+"Si se establece a «verdadero», se ignorará la opción «titlebar-font», y se "
+"usará la fuente estándar de la aplicación para los títulos de ventana."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
 msgid ""
@@ -1748,10 +1782,17 @@ msgid ""
 "other applications. Application-based mode is, however, largely "
 "unimplemented at the moment."
 msgstr ""
+"Si se establece a «verdadero», el gestor de ventanas trabajará en términos de "
+"aplicaciones en lugar de con ventanas. El concepto es abstracto, pero en "
+"general, una configuración basada en aplicaciones se parece más al Mac y "
+"menos a Windows. Cuando enfoca una ventana en este modo, todas las ventanas "
+"de la aplicación se elevarán. Además, las pulsaciones para dar el foco no se "
+"pasan a las ventanas de otras aplicaciones. El modo basado en aplicaciones, "
+"sin embargo, todavía está muy poco implementado."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:20
 msgid "Modifier to use for modified window click actions"
-msgstr ""
+msgstr "Modificador que usar en acciones de pulsación de ventanas modificadas"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
 msgid "Number of workspaces"
@@ -1773,7 +1814,11 @@ msgid ""
 "middle button while holding down the key given in \"mouse-button-modifier\"; "
 "set it to false to make it work the opposite way around."
 msgstr ""
+"Establezca esto a «verdadero» para cambiar el tamaño con el botón derecho y "
+"mostrar un menú con el botón central mientras se presiona la tecla definida "
+"por «mouse-button-modifier»; establézcalo a «falso» que funcione al revés."
 
+# Esta se merece una revisación triple, sobre todo la traducción de «pager». Nicolás.
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:24
 msgid ""
 "Setting this option to false can lead to buggy behavior, so users are "
@@ -1795,6 +1840,26 @@ msgid ""
 "and that they need to change this option back to true or live with the \"bug"
 "\" they requested."
 msgstr ""
+"Establecer esta opción a «falso» puede llevar a comportamiento erróneo, por "
+"lo que se desaconseja a los usuarios modificar el valor predeterminado de "
+"«verdadero». Muchas acciones (como pulsar en el área del cliente, mover, o "
+"modificar el tamaño de la ventana) normalmente elevan la ventana como efecto "
+"colateral. Establecer esta opción a falso, lo que se desaconseja "
+"fuertemente, desacopla la elevación de otras acciones del usuario, e ignora "
+"los pedidos de elevación de las aplicaciones. Consulte http://bugzilla.gnome."
+"org/show_bug.cgi?id=445447#c6. Incluso cuando esta opción se establece a "
+"«falso», las ventanas pueden elevarse con «Alt + pulsación izquierda» en "
+"cualquier parte de la ventana, una pulsación normal en la decoración, o "
+"mensajes especiales de paginadores, como pedidos de activación de "
+"miniaplicaciones de la lista de tareas. Esta opción se encuentra actualmente "
+"desactivada en el modo «Pulsar para enfocar». Tenga en cuenta que la lista de "
+"maneras de elevar ventanas cuando «raise-on-click» es «falso» no incluye "
+"peticiones programadas de aplicaciones para elevar ventanas; estos pedidos "
+"se ignorarán sin importar su razón. Si es un desarrollador de aplicaciones "
+"que tiene a un usuario quejándose de que su aplicación no funciona con esta "
+"opción desactivada, dígale que es su culpa por romper su propio gestor de "
+"ventanas y que debe cambiar esta opción a «verdadero» o vivir con el error "
+"que él pidió."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:25
 msgid ""
@@ -1803,6 +1868,11 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
+"Algunas aplicaciones descuidan especificaciones de formas que dan por "
+"resultado errores del gestor de ventanas. Esta opción pone al gestor de "
+"ventanas en un modo rigurosamente correcto, lo que brinda una interfaz de "
+"usuario más consistente, siempre y cuando no se ejecuten aplicaciones de "
+"comportamiento erróneo."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:26
 msgid "System Bell is Audible"
@@ -1818,6 +1888,13 @@ msgid ""
 "is unknown (as is usually the case for the default \"system beep\"), the "
 "currently focused window's titlebar is flashed."
 msgstr ""
+"Informa al gestor de ventanas cómo implementar la indicación visual de la "
+"campana del sistema o de otra aplicación. Actualmente, hay dos valores "
+"posibles: «fullscreen-flash», que causa un destello blanco-negro, y «frame-"
+"flash», que causa que la barra de título de la aplicación que envió la "
+"campana destelle. Si la aplicación que envió la campana es desconocida (como "
+"es usualmente el caso del pitido del sistema predeterminado), destellará la "
+"ventana que actualmente tenga el foco."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:28
 msgid "The names of the workspaces"
@@ -1828,12 +1905,16 @@ msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth."
 msgstr ""
+"El tema determina la apariencia de los bordes de ventana, barra de título, "
+"etc."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:30
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
 msgstr ""
+"El retardo antes de elevar una ventana si «auto-raise» es «verdadero». El "
+"tiempo se da en milésimas de segundo."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:31
 msgid ""
@@ -1843,6 +1924,11 @@ msgid ""
 "and \"mouse\" means windows are focused when the mouse enters the window and "
 "unfocused when the mouse leaves the window."
 msgstr ""
+"El modo de foco de ventana indica cómo éstas son activadas. Tiene tres "
+"valores posibles: «click», que significa que la ventana debe ser pulsada para "
+"enfocarla, «sloppy», que significa que las ventanas obtienen el foco cuando "
+"el ratón entra en ellas, y «mouse», que signifca que las ventanas son "
+"enfocadas cuando el ratón entra en ellas y desenfocadas cuando las deja."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:32
 msgid ""
@@ -1855,6 +1941,14 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"Esta opción determina los efectos de la pulsación doble en la barra de "
+"título. Actualmente, los valores posibles son «toggle-shade», que enrolla/"
+"desenrolla la ventana; «toggle-maximize», que maximiza o restaura la ventana; "
+"«toggle-maximize-horizontally» y «toggle-maximize-vertically», que maximizan o "
+"restauran la ventana horizontal o verticalmente, respectivamente; «minimize», "
+"que minimiza la ventana; «shade», que enrolla la ventana hacia arriba; «menu», "
+"que muestra el menú de la ventana; «lower», que colocará la ventana debajo de "
+"las demás; y «none», que no hace nada."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:33
 msgid ""
@@ -1867,6 +1961,14 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"Esta opción determina los efectos de la pulsación del botón central en la "
+"barra de título. Actualmente, los valores posibles son «toggle-shade», que "
+"enrolla/desenrolla la ventana; «toggle-maximize», que maximiza o restaura la "
+"ventana; «toggle-maximize-horizontally» y «toggle-maximize-vertically», que "
+"maximizan o restauran la ventana horizontal o verticalmente, "
+"respectivamente; «minimize», que minimiza la ventana; «shade», que enrolla la "
+"ventana hacia arriba; «menu», que muestra el menú de la ventana; «lower», que "
+"colocará la ventana debajo de las demás; y «none», que no hace nada."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:34
 msgid ""
@@ -1879,6 +1981,14 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"Esta opción determina los efectos de la pulsación del botón derecho en la "
+"barra de título. Actualmente, los valores posibles son «toggle-shade», que "
+"enrolla/desenrolla la ventana; «toggle-maximize», que maximiza o restaura la "
+"ventana; «toggle-maximize-horizontally» y «toggle-maximize-vertically», que "
+"maximizan o restauran la ventana horizontal o verticalmente, "
+"respectivamente; «minimize», que minimiza la ventana; «shade», que enrolla la "
+"ventana hacia arriba; «menu», que muestra el menú de la ventana; «lower», que "
+"colocará la ventana debajo de las demás; y «none», que no hace nada."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:35
 msgid ""
@@ -1887,6 +1997,10 @@ msgid ""
 "mode, and \"strict\" results in windows started from a terminal not being "
 "given focus."
 msgstr ""
+"Esta opción proporciona control adicional sobre cómo las ventanas creadas "
+"recientemente obtienen el foco. Tiene dos valores posibles: «smart», que "
+"aplica el modo normal de foco del usuario, y «strict», que no enfoca las "
+"ventanas ejecutadas desde la terminal."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:36
 msgid ""
@@ -1894,6 +2008,9 @@ msgid ""
 "'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
+"Enciende una indicación visual cuando una aplicación o el sistema emiten una "
+"campana o pitido, útil para aquellos con discapacidades auditivas y para uso "
+"en ambientes ruidosos."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
 msgid "Use standard system font in window titles"
@@ -1906,10 +2023,12 @@ msgstr "Tipo de campana visual"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "Whether raising should be a side-effect of other user interactions"
 msgstr ""
+"Indica si la elevación debe ser un efecto colateral de otras interacciones "
+"del usuario."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
 msgid "Whether to resize with the right button"
-msgstr ""
+msgstr "Indica si se cambia el tamaño con el botón derecho"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
 msgid "Window focus mode"
