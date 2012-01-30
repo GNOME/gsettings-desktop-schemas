@@ -10,9 +10,6 @@ AM_MAINTAINER_MODE([enable])
 
 AC_PROG_SED
 
-GIO_MIN_VERSION=[2.31.0]
-PKG_CHECK_EXISTS([gio-2.0 >= $GIO_MIN_VERSION],[],
-                 [AC_MSG_ERROR([Minimum Gio requirement ($GIO_MIN_VERSION) was not met])])
 GLIB_GSETTINGS
 
 GOBJECT_INTROSPECTION_CHECK([1.30.0])

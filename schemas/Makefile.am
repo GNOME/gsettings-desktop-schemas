@@ -14,9 +14,7 @@ desktop_gschemas_in_in =						\
 	org.gnome.desktop.session.gschema.xml.in.in			\
 	org.gnome.desktop.background.gschema.xml.in.in			\
 	org.gnome.desktop.media-handling.gschema.xml.in.in		\
-	org.gnome.desktop.screensaver.gschema.xml.in.in			\
-	org.gnome.desktop.wm.keybindings.gschema.xml.in.in		\
-	org.gnome.desktop.wm.preferences.gschema.xml.in.in
+	org.gnome.desktop.screensaver.gschema.xml.in.in
 
 @INTLTOOL_XML_NOMERGE_RULE@
 
@@ -32,7 +30,7 @@ gsettings_SCHEMAS = $(desktop_gschemas_in:.xml.in=.xml)
 @GSETTINGS_RULES@
 
 convertdir=$(datadir)/GConf/gsettings
-convert_DATA=gsettings-desktop-schemas.convert wm-schemas.convert
+convert_DATA=gsettings-desktop-schemas.convert
 
 EXTRA_DIST =				\
 	$(desktop_gschemas_in_in)	\
