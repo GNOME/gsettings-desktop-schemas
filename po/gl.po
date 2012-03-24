@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-24 14:45+0100\n"
-"PO-Revision-Date: 2012-03-24 15:08+0100\n"
+"POT-Creation-Date: 2012-03-24 21:57+0100\n"
+"PO-Revision-Date: 2012-03-24 22:08+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
 "Language: gl_ES\n"
@@ -903,6 +903,8 @@ msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
+"Unha lista de «name:color» separada por «\\n» como se define na "
+"configuración «gtk-color-scheme»"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
 msgid "Whether the clock displays in 24h or 12h format"
@@ -1033,6 +1035,9 @@ msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
+"Se se estabelece a «true», entón Nautilus montará automaticamente os "
+"soportes tales como os discos duros visíbeis polo usuario e os dispositivos "
+"extraíbeis cando se introduza."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:3
 msgid "Whether to automatically open a folder for automounted media"
@@ -1047,21 +1052,32 @@ msgid ""
 "detected; for media where a known x-content type is detected, the user "
 "configurable action will be taken instead."
 msgstr ""
+"Se se estabelece a «true», entón Nautilus abrirá automaticamente un cartafo "
+"cando o soporte estea montado. Isto só se aplica aos soportes onde non se "
+"detectou o tipo de contido (x-content/*); para soportes nos que sí se "
+"detectou o tipo de contido, levarase a cabo a acción configurábel polo "
+"usuario."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:5
 msgid "Never prompt or autorun/autostart programs when media are inserted"
 msgstr ""
+"Nunca preguntar se se deben executar programas automáticos cando se "
+"introduce un soporte"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:6
 msgid ""
 "If set to true, then Nautilus will never prompt nor autorun/autostart "
 "programs when a medium is inserted."
 msgstr ""
+"Se se estabelece a «true», entón Nautilus nunca preguntará nin executará "
+"automaticamente programas cando se introduza un soporte."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:7
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
 msgstr ""
+"Lista de tipos de contid (x-content/*) na que se iniciará o aplicativo "
+"prefirido"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:8
 msgid ""
@@ -1093,6 +1109,7 @@ msgstr ""
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:11
 msgid "List of x-content/* types set to \"Open Folder\""
 msgstr ""
+"Lista de tipos de contido (x-content/*) estabelecida a «Abrir cartafoles»"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:12
 msgid ""
@@ -1100,6 +1117,9 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
+"Lista dos tipos de contido (x-content/*) para os cales o usuario seleccionou "
+"«Abrir cartafol» no miniaplicativo de preferencias. Abrirase unha xanela de "
+"cartafol ao introducir un soporte que coincida con estes tipos."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
@@ -1108,6 +1128,7 @@ msgstr "Activar cando estea activo"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
 msgstr ""
+"Active isto para activar o salvapantallas cando a sesión estea inactiva."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1116,6 +1137,7 @@ msgstr "Bloquear ao activar"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:4
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
+"Poña isto a TRUE para bloquear a pantalla cando se activa o salvapantallas."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:5
 msgid "Time before locking"
@@ -1270,6 +1292,8 @@ msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"Tamaño máximo da caché de miniaturas, en megabytes. Estabelezao a -1 para "
+"desactivar a limpeza."
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:1
 msgid "Disable all external thumbnailers"
@@ -1280,6 +1304,9 @@ msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
+"Estabelecer a «true» para desactivar todos os programas miniaturizadores "
+"externos, independentes de se estes están activados ou desactivados "
+"independentemente."
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:3
 msgid ""
@@ -1599,7 +1626,6 @@ msgstr ""
 "xanela"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:2
-#, fuzzy
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -1611,8 +1637,8 @@ msgstr ""
 "modificadora, fará que a xanela se mova (co clic esquerdo), se restaure (co "
 "clic co botón do medio) ou que se mostre o menú da xanela (co clic dereito). "
 "As operacións esquerda e dereita poden ser intercambiadas usando a chave "
-"\"resize_with_right_button\". O modificador exprésase como \"&lt;Alt&gt;\" "
-"ou \"&lt;Super&gt;\" por exemplo."
+"\"resize_with_right_button\". O modificador exprésase como <![CDATA[\"<Alt>"
+"\"]]> ou <![CDATA[\"<Super>\"]]> por exemplo."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Whether to resize with the right button"
@@ -1990,6 +2016,11 @@ msgid ""
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (\"Workspace N\")."
 msgstr ""
+"Define os nomes que se asignarán ás áreas de traballo. Se a lista é "
+"demasiado longa para o número actual de áreas de traballo, os nomes "
+"excedentes ignoraranse. Se a lista é demasiado curta, ou inclúe nomes "
+"baleiros, os valores que falten serán reemprazados polo valor "
+"predeterminado: «Área de traballo N»."
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
 msgid "The locale to use for dates / numbers formats"
@@ -2020,6 +2051,17 @@ msgid ""
 "SOCKS proxy is configured, it is used for all protocols, except that the "
 "http, https, and ftp proxy settings override it for those protocols only."
 msgstr ""
+"Seleccione o modo de configuración do proxy. Os valores admitidos son "
+"«none» (ningún), «manual» e «auto». Se é «none» entón non se usa ningún "
+"proxy. Se é «auto» úsase o URL descrito na chave «autoconfig-url». Se é "
+"«manual» entón úsanse os proxies descritos por «/system/proxy/http», «/"
+"system/proxy/https», «/system/proxy/ftp» e «/system/proxy/socks». Cada un "
+"dos 4 tipos de proxies está activado se a súa chave «host» non está baleira "
+"e a súa chave «port» é distinta de 0. Se se configura un proxy http pero non "
+"un https, entón o proxy http tamén se usa para https. Se se configura un "
+"proxy SOCKS, entón úsase para todos os protocolos agás para a configuración "
+"dos proxies http, https e ftp que sobreescribe esa configuración só para "
+"eses protocolos."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
 msgid "Automatic proxy configuration URL"
@@ -2030,6 +2072,8 @@ msgid ""
 "URL that provides proxy configuration values. When mode is \"auto\", this "
 "URL is used to look up proxy information for all protocols."
 msgstr ""
+"URL que fornece os valores de configuración do proxy. Cando o modo é «auto», "
+"ese URL úsase para buscar información do proxy para todos os protocolos."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:5
 msgid "Non-proxy hosts"
@@ -2054,13 +2098,15 @@ msgstr "Non usada; ignorar"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:8
 msgid "This key is not used, and should not be read or modified."
-msgstr ""
+msgstr "Esta chave non se usa, e non debería lerse nin modificarse."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:9
 msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
 msgstr ""
+"Esta tarefa non se usa; o proxy HTTP está activado cando a chave do servidor "
+"non está baleira o porto non é 0."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:10
 msgid "HTTP proxy host name"
@@ -2093,6 +2139,11 @@ msgid ""
 "to the http proxy; when using a separate https proxy, there is currently no "
 "way to specify that it should use authentication."
 msgstr ""
+"Se é certo, as conexións ao servidor proxy requiren autenticación. A "
+"combinación usuario/contrasinal defínese en «/system/proxy/http/"
+"authentication-user» e «/system/proxy/http/authentication-password». Isto só "
+"se aplica no proxy HTTP; cando se usa un proxy HTTPS aparte, non hai maneira "
+"de especificar que debe usar autenticación."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:16
 msgid "HTTP proxy username"
