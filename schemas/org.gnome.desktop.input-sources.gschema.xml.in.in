@@ -1,0 +1,23 @@
+<schemalist gettext-domain="gsettings-desktop-schemas">
+  <schema id="org.gnome.desktop.input-sources"
+          path="/org/gnome/desktop/input-sources/">
+    <key name="current" type="(sssss)">
+      <default>('English (US)', 'en', 'us', '', '')</default>
+      <_summary>Current input source</_summary>
+      <_description>
+        Tuple describing the current input source. It's in the form
+        ('Name', 'Short name', 'XKB layout', 'XKB variant', 'IBus
+        engine').
+      </_description>
+    </key>
+    <key name="sources" type="a(sssss)">
+      <default>[('English (US)', 'en', 'us', '', '')]</default>
+      <_summary>List of input sources</_summary>
+      <_description>
+        List of tuples describing the input sources available for
+        quick switching. The tuples are in the form ('Name', 'Short
+        name', 'XKB layout', 'XKB variant', 'IBus engine').
+      </_description>
+    </key>
+  </schema>
+</schemalist>
