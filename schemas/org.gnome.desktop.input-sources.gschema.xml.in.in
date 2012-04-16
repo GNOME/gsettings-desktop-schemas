@@ -1,0 +1,27 @@
+<schemalist gettext-domain="gsettings-desktop-schemas">
+  <schema id="org.gnome.desktop.input-sources"
+          path="/org/gnome/desktop/input-sources/">
+    <key name="current" type="u">
+      <default>0</default>
+      <_summary>Current input source</_summary>
+      <_description>
+        The zero-based index into the input sources list specifying
+        the current one in effect. The value is automatically capped
+        to remain in the range [0, sources_length).
+      </_description>
+    </key>
+    <key name="sources" type="a(ss)">
+      <default>[('xkb', 'us')]</default>
+      <_summary>List of input sources</_summary>
+      <_description>
+        List of input source identifiers available.
+        Each source is specified as a tuple of 2 strings.
+        The first string is the type and can be one of 'xkb' or
+        'ibus'. For 'xkb' sources the second string is
+        'xkb_layout+xkb_variant' or just 'xkb_layout' if a XKB variant
+        isn't needed. For 'ibus' sources the second string is the IBus
+        engine name.
+      </_description>
+    </key>
+  </schema>
+</schemalist>
