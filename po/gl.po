@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-17 12:37+0200\n"
-"PO-Revision-Date: 2012-05-17 12:41+0200\n"
+"POT-Creation-Date: 2012-06-03 02:59+0200\n"
+"PO-Revision-Date: 2012-06-03 03:03+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
 "Language: gl_ES\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.4\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -689,6 +690,35 @@ msgid ""
 msgstr ""
 "Argumento empregado para executar programas na terminal definida pola chave "
 "«exec»."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
+msgid "Current input source"
+msgstr "Orixe de entrada actual"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
+msgid ""
+"The zero-based index into the input sources list specifying the current one "
+"in effect. The value is automatically capped to remain in the range [0, "
+"sources_length)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
+msgid "List of input sources"
+msgstr "Lista das orixes de entrada"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
+msgid ""
+"List of input source identifiers available. Each source is specified as a "
+"tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
+"'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or "
+"just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the "
+"second string is the IBus engine name."
+msgstr ""
+"Lista dos identificadores de orixes de entrada dispoñíbeis. Cada orixe "
+"especifícase como unha tupla de 2 cadeas. A primeira cadea é o tipo, pode "
+"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é «xkb_layout"
+"+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se necesita. "
+"Para as orixes «ibus» a segunda cadea é un nome de motor IBus."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
