@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-14 01:01+0200\n"
-"PO-Revision-Date: 2012-06-14 01:02+0200\n"
+"POT-Creation-Date: 2012-06-24 23:52+0200\n"
+"PO-Revision-Date: 2012-06-24 23:54+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
 "Language: gl_ES\n"
@@ -701,6 +701,9 @@ msgid ""
 "in effect. The value is automatically capped to remain in the range [0, "
 "sources_length)."
 msgstr ""
+"O índice de base cero na lista de fontes de entrada que especifica a actual "
+"neste momento. O valor limítase automaticamente para que permaneza no rango "
+"[0, lonxitude_fontes)."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
 msgid "List of input sources"
@@ -1277,10 +1280,22 @@ msgstr ""
 "pantalla."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr "Mostrar notificacións na pantalla de bloqueo"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+msgid ""
+"Whether notifications are shown in the lock screen or not. This only affects "
+"the standard experience."
+msgstr ""
+"Indica se se mostran ou non as notificacións na pantalla de bloqueo. Isto só "
+"afecta á experiencia estándar."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr "Permitir empotrar un teclado na xanela"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1290,11 +1305,11 @@ msgstr ""
 "intentar desbloquear. A chave «keyboard_command» debe estar estabelecida coa "
 "orde axeitada."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr "Orde de teclado empotrado"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1306,11 +1321,11 @@ msgstr ""
 "debería implementar unha interface XEMBED e sacar unha xanela XID na saída "
 "estándar."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "Permitir saír da sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key."
@@ -1319,11 +1334,11 @@ msgstr ""
 "sesión despois dun intervalo de tempo. O retardo especifícase na chave "
 "«logout_delay»."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr "Tempo antes da opción de saír da sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1333,11 +1348,11 @@ msgstr ""
 "se mostre a opción de pechar sesión no diálogo de desbloqueo. Esta chave ten "
 "efecto só se a chave «logout_enable» está activada."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr "Orde para saír da sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1347,11 +1362,11 @@ msgstr ""
 "simplemente debe pechar a sesión do usuario sen ningunha interacción. Esta "
 "chave ten efecto só se a chave «logout_enable» está activada."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr "Permitir cambiar usuario"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1359,11 +1374,11 @@ msgstr ""
 "Estabeleza isto a TRUE para ofrecer unha opción no diálogo de desbloqueo "
 "para cambiar a unha conta de usuario diferente."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr "Permitir que se mostren as mensaxes de estado da sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Allow the session status message to be displayed when the screen is locked."
 msgstr ""
