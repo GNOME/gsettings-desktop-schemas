@@ -1,5 +1,5 @@
 AC_PREREQ(2.53)
-AC_INIT([gsettings-desktop-schemas], [3.5.3],
+AC_INIT([gsettings-desktop-schemas], [3.5.4],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas])
 AC_CONFIG_SRCDIR(schemas/org.gnome.desktop.default-applications.gschema.xml.in.in)
 AM_INIT_AUTOMAKE([1.9 foreign no-dist-gzip dist-xz])
