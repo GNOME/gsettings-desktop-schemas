@@ -1,43 +1,42 @@
-# Norwegian translation of libgnome (bokmål dialect).
+# Norwegian translation of gsettings-schemas-desktop.
 # Copyright (C) 1998-2003 Free Software Foundation, Inc.
 #
-# Kjartan Maraas <kmaraas@gnome.org>, 1998-2010.
+# Kjartan Maraas <kmaraas@gnome.org>, 1998-2012.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: libgnome 2.28.x\n"
+"Project-Id-Version: gsettings-schemas-desktop 3.5.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-05 08:01+0200\n"
-"PO-Revision-Date: 2010-12-30 21:45+0100\n"
-"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"POT-Creation-Date: 2012-07-10 08:34+0200\n"
+"PO-Revision-Date: 2012-07-10 08:43+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"X-Generator: Lokalize 1.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
-msgstr ""
+msgstr "Tastatur på skjermen"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:2
-msgid "Screen magnifier"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:3
-msgid "Screen reader"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:4
 #, fuzzy
 msgid "Whether the on-screen keyboard is turned on."
 msgstr "Om låsing av tastaturet er aktivert."
 
-#: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:3
+msgid "Screen magnifier"
+msgstr "Forstørrelsesglass"
+
+#: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:4
 msgid "Whether the screen magnifier is turned on."
 msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:5
+msgid "Screen reader"
+msgstr "Skjermleser"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 #, fuzzy
@@ -46,150 +45,153 @@ msgstr "Om markøren skal blinke."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 #, fuzzy
-msgid "Beep when a key is accepted"
-msgstr "Pip når en endringstast trykkes ned."
+msgid "Enable accessibility keyboard shortcuts"
+msgstr "Aktiver tilgjengelighet"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:2
-#, fuzzy
-msgid "Beep when a key is first pressed"
-msgstr "Pip når en endringstast trykkes ned."
+msgid "Beep when a keyboard accessibility feature changes"
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:3
+msgid ""
+"Whether to beep when a keyboard accessibility feature is enabled or disabled."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:4
+msgid "Disable keyboard accessibility after a timeout"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:5
+msgid ""
+"Whether to disable keyboard accessibility after a timeout, useful for shared "
+"machines."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:6
+#, fuzzy
+msgid "Duration of the disabling timeout"
+msgstr "Versjon for dette programmet"
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:7
+msgid "Duration of the timeout before disabling the keyboard accessibility."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
+msgid "Enable the bounce keys"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
+msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
+msgid "Minimum interval in milliseconds"
+msgstr "Minste intervall i millisekunder"
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:11
+#, fuzzy
+msgid "Ignore multiple presses of the same key within this many milliseconds."
+msgstr "Ignorer flere tastetrykk med samme tast innen @delay millisekunder."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:12
 #, fuzzy
 msgid "Beep when a key is rejected"
 msgstr "Pip når en endringstast trykkes ned."
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:4
-msgid "Beep when a keyboard accessibility feature changes"
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:13
+msgid "Whether to beep when a key is rejected."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:5
-msgid "Beep when a modifier is pressed."
-msgstr "Pip når en endringstast trykkes ned."
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
+msgid "Enable mouse keys"
+msgstr "Aktiver mustaster"
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:6
-msgid "Disable keyboard accessibility after a timeout"
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
+msgid "Whether the mouse keys accessibility feature is turned on."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:7
-#, fuzzy
-msgid "Disable when two keys are pressed at the same time"
-msgstr "Deaktiver hvis to taster trykkes ned samtidig."
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
+msgid "Pixels per seconds"
+msgstr "Piksler per sekund"
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:17
+msgid "How many pixels per second to move at the maximum speed."
+msgstr "Antall piksler per sekund i bevegelse ved maksimal hastighet."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:18
+msgid "How long to accelerate in milliseconds"
+msgstr "Lengde på aksellerasjon i millisekunder"
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:19
+msgid "How many milliseconds it takes to go from 0 to maximum speed."
+msgstr "Antall millisekunder det tar å gå fra 0 til maksimal hastighet."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:20
+msgid "Initial delay in milliseconds"
+msgstr "Initiell pause i millisekunder"
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:21
+msgid ""
+"How many milliseconds to wait before mouse movement keys start to operate."
+msgstr ""
+"Antall millisekunder ventetid før taster for musbevegelse begynner å virke."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
+msgid "Enable slow keys"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
+msgid "Whether the slow keys accessibility feature is turned on."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 #, fuzzy
 msgid ""
 "Do not accept a key as being pressed unless held for this many milliseconds."
 msgstr ""
 "Ikke godta en tast som nedtrykket før den holdes minst @delay millisekunder."
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-#, fuzzy
-msgid "Duration of the disabling timeout"
-msgstr "Versjon for dette programmet"
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
-msgid "Duration of the timeout before disabling the keyboard accessibility."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:11
-#, fuzzy
-msgid "Enable accessibility keyboard shortcuts"
-msgstr "Aktiver tilgjengelighet"
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:12
-#, fuzzy
-msgid "Enable mouse keys"
-msgstr "Aktiver lyd"
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:13
-msgid "Enable slow keys"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable sticky keys"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Enable the bounce keys"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
-msgid "Enable toggle keys"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:17
-msgid "How long to accelerate in milliseconds"
-msgstr "Lengde på aksellerasjon i millisekunder"
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:18
-msgid "How many milliseconds it takes to go from 0 to maximum speed."
-msgstr "Antall millisekunder det tar å gå fra 0 til maksimal hastighet."
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:19
-msgid ""
-"How many milliseconds to wait before mouse movement keys start to operate."
-msgstr ""
-"Antall millisekunder ventetid før taster for musbevegelse begynner å virke."
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:20
-msgid "How many pixels per second to move at the maximum speed."
-msgstr "Antall piksler per sekund i bevegelse ved maksimal hastighet."
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:21
-#, fuzzy
-msgid "Ignore multiple presses of the same key within this many milliseconds."
-msgstr "Ignorer flere tastetrykk med samme tast innen @delay millisekunder."
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Initial delay in milliseconds"
-msgstr "Initiell pause i millisekunder"
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Minimum interval in milliseconds"
-msgstr "Minste intervall i millisekunder"
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
-msgid "Pixels per seconds"
-msgstr "Piksler per sekund"
-
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:25
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr ""
+#, fuzzy
+msgid "Beep when a key is first pressed"
+msgstr "Pip når en endringstast trykkes ned."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:26
-msgid "Whether the mouse keys accessibility feature is turned on."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:27
-msgid "Whether the slow keys accessibility feature is turned on."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:28
-msgid "Whether the sticky keys accessibility feature is turned on."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:29
-msgid "Whether the toggle keys accessibility feature is turned on."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:30
-msgid "Whether to beep when a key is accepted."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:31
 #, fuzzy
 msgid "Whether to beep when a key is first pressed."
 msgstr "Pip når en endringstast trykkes ned."
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:32
-msgid "Whether to beep when a key is rejected."
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:27
+#, fuzzy
+msgid "Beep when a key is accepted"
+msgstr "Pip når en endringstast trykkes ned."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:28
+msgid "Whether to beep when a key is accepted."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:33
-msgid ""
-"Whether to beep when a keyboard accessibility feature is enabled or disabled."
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:29
+msgid "Enable sticky keys"
 msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:30
+msgid "Whether the sticky keys accessibility feature is turned on."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:31
+#, fuzzy
+msgid "Disable when two keys are pressed at the same time"
+msgstr "Deaktiver hvis to taster trykkes ned samtidig."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:32
+#, fuzzy
+msgid ""
+"Whether to disable sticky keys if two keys are pressed at the same time."
+msgstr "Deaktiver hvis to taster trykkes ned samtidig."
+
+#: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:33
+msgid "Beep when a modifier is pressed."
+msgstr "Pip når en endringstast trykkes ned."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:34
 #, fuzzy
@@ -197,32 +199,18 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Pip når en endringstast trykkes ned."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid ""
-"Whether to disable keyboard accessibility after a timeout, useful for shared "
-"machines."
+msgid "Enable toggle keys"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-#, fuzzy
-msgid ""
-"Whether to disable sticky keys if two keys are pressed at the same time."
-msgstr "Deaktiver hvis to taster trykkes ned samtidig."
+msgid "Whether the toggle keys accessibility feature is turned on."
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
-msgid "Clip the crosshairs at the center"
+msgid "Mouse Tracking Mode"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:2
-msgid "Color of the crosshairs"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
-msgid ""
-"Determines the length in pixels of the vertical and horizontal lines that "
-"make up the crosshairs."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
 "view and how it reacts to system mouse movement. The values are - none: no "
@@ -235,201 +223,303 @@ msgid ""
 "contents are scrolled into view."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
+#, fuzzy
+msgid "Screen position"
+msgstr "Alternativer for bilde"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
 msgid ""
-"Determines the transparency of the crosshairs, from fully opaque to fully "
-"transparent."
+"The magnified view either fills the entire screen, or occupies the top-half, "
+"bottom-half, left-half, or right-half of the screen."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
+msgid "Magnification factor"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:6
 msgid ""
-"Determines whether the crosshairs intersect the magnified mouse sprite, or "
-"are clipped such that the ends of the horizontal and vertical lines surround "
-"the mouse image."
+"The power of the magnification. A value of 1.0 means no magnification. A "
+"value of 2.0 doubles the size."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:7
-#, fuzzy
 msgid "Enable lens mode"
-msgstr "Aktiver lyd"
+msgstr "Slå på linsemodus"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:8
 msgid ""
-"Enables/disables display of crosshairs centered on the magnified mouse "
-"sprite."
+"Whether the magnified view should be centered over the location of the "
+"system mouse and move with it."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:9
+msgid "Scroll magnified contents beyond the edges of the desktop"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
 msgid ""
 "For centered mouse tracking, when the system pointer is at or near the edge "
 "of the screen, the magnified contents continue to scroll such that the "
 "screen edge moves into the magnified view."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
-msgid "Length of the crosshairs in pixels"
-msgstr ""
-
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
-msgid "Magnification factor"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
-msgid "Mouse Tracking Mode"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:13
-msgid "Opacity of the crosshairs"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:14
-#, fuzzy
-msgid "Screen position"
-msgstr "Alternativer for bilde"
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:15
-msgid "Scroll magnified contents beyond the edges of the desktop"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:16
 msgid "Show or hide crosshairs"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
 msgid ""
-"The color of the the vertical and horizontal lines that make up the "
-"crosshairs."
+"Enables/disables display of crosshairs centered on the magnified mouse "
+"sprite."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:18
-msgid ""
-"The magnified view either fills the entire screen, or occupies the top-half, "
-"bottom-half, left-half, or right-half of the screen."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:19
-msgid ""
-"The power of the magnification. A value of 1.0 means no magnification. A "
-"value of 2.0 doubles the size."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:13
 msgid "Thickness of the crosshairs in pixels"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
-msgid ""
-"Whether the magnified view should be centered over the location of the "
-"system mouse and move with it."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:14
 msgid ""
 "Width in pixels of the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr ""
 
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:15
+msgid "Color of the crosshairs"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:16
+msgid ""
+"The color of the the vertical and horizontal lines that make up the "
+"crosshairs."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:17
+msgid "Opacity of the crosshairs"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:18
+msgid ""
+"Determines the transparency of the crosshairs, from fully opaque to fully "
+"transparent."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:19
+msgid "Length of the crosshairs in pixels"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
+msgid ""
+"Determines the length in pixels of the vertical and horizontal lines that "
+"make up the crosshairs."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
+msgid "Clip the crosshairs at the center"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
+msgid ""
+"Determines whether the crosshairs intersect the magnified mouse sprite, or "
+"are clipped such that the ends of the horizontal and vertical lines surround "
+"the mouse image."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
+msgid "Inverse lightness"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
+msgid ""
+"Determines whether the lightness values are inverted: darker colors become "
+"lighter and vice versa, and white and black are interchanged."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
+msgid "Color Saturation"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
+msgid ""
+"Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 "
+"(full color)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
+msgid "Change brightness of red"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
+msgid ""
+"Represents a change to the default brightness of the red component. Zero "
+"indicates no change, values less than zero indicate a decrease, and values "
+"greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
+msgid "Change brightness of green"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
+msgid ""
+"Represents a change to the default brightness for the green component. Zero "
+"indicates no change, values less than zero indicate a decrease, and values "
+"greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
+msgid "Change brightness of blue"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
+msgid ""
+"Represents a change to the default brightness for the blue component. Zero "
+"indicates no change, values less than zero indicate a decrease, and values "
+"greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
+msgid "Change contrast of red"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
+msgid ""
+"Represents a change to the default contrast of the red component. Zero "
+"indicates no change in contrast, values less than zero indicate a decrease, "
+"and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
+msgid "Change contrast of green"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
+msgid ""
+"Represents a change to the default contrast of the green component. Zero "
+"indicates no change in contrast, values less than zero indicate a decrease, "
+"and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
+msgid "Change contrast of blue"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
+msgid ""
+"Represents a change to the default contrast of the blue component. Zero "
+"indicates no change in contrast, values less than zero indicate a decrease, "
+"and values greater than zero indicate an increase."
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:2
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:3
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:4
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:5
-msgid "Distance in pixels before movement will be recognized."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:6
-#, fuzzy
-msgid "Dwell click mode"
-msgstr "Tid for dobbeltklikk"
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:7
 #, fuzzy
 msgid "Dwell click time"
 msgstr "Tid for dobbeltklikk"
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:8
-msgid "Enable dwell clicks"
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:2
+msgid "Time in seconds before a click is triggered."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:9
-msgid "Enable dwell clicks."
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:3
+msgid "Movement threshold"
+msgstr "Bevegelsesterskel"
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:4
+msgid "Distance in pixels before movement will be recognized."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:10
-msgid "Enable simulated secondary clicks"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:11
-#, fuzzy
-msgid "Gesture double click"
-msgstr "Lengde på et dobbeltklikk."
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:12
-msgid "Gesture drag click"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:13
-msgid "Gesture secondary click"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:5
 #, fuzzy
 msgid "Gesture single click"
 msgstr "Enkeltklikk"
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:15
-#, fuzzy
-msgid "Movement threshold"
-msgstr "Bevegelsesterskel"
-
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:16
-msgid "Secondary click enabled"
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:6
+msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:7
 #, fuzzy
-msgid "Secondary click time"
-msgstr "Sekundærfarge"
+msgid "Gesture double click"
+msgstr "Lengde på et dobbeltklikk."
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:18
-msgid "Show click type window"
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:8
+msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:19
-#, fuzzy
-msgid "Show click type window."
-msgstr "Enkeltklikk for å aktivere ikoner."
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:9
+msgid "Gesture drag click"
+msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:10
+msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:11
+msgid "Gesture secondary click"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:12
+msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:13
+#, fuzzy
+msgid "Dwell click mode"
+msgstr "Tid for dobbeltklikk"
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:14
 msgid ""
 "The active dwell click mode. Possible values are 'window' and 'gesture'."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:21
-msgid "Time in seconds before a click is triggered."
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:15
+msgid "Show click type window"
 msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:16
+#, fuzzy
+msgid "Show click type window."
+msgstr "Enkeltklikk for å aktivere ikoner."
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:17
+msgid "Enable dwell clicks"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:18
+msgid "Enable dwell clicks."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:19
+msgid "Secondary click enabled"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:20
+msgid "Enable simulated secondary clicks"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:21
+#, fuzzy
+msgid "Secondary click time"
+msgstr "Sekundærfarge"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Color Shading Type"
-msgstr "Type skyggelegging av farger"
+msgid "Draw Desktop Background"
+msgstr "Tegn skrivebordsbakgrunn"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+msgid "Have GNOME draw the desktop background."
+msgstr "La GNOME tegne skrivebordsbakgrunnen."
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+msgid "Picture Options"
+msgstr "Alternativer for bilde"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -439,19 +529,49 @@ msgstr ""
 "verdier er «none», «wallpaper», «centered», «scaled», «stretched», «zoom» og "
 "«spanned»."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
-msgid "Draw Desktop Background"
-msgstr "Tegn skrivebordsbakgrunn"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
-msgid "Have GNOME draw the desktop background."
-msgstr "La GNOME tegne skrivebordsbakgrunnen."
-
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
-msgid "Have file manager handle the desktop"
-msgstr ""
+msgid "Picture URI"
+msgstr "URI for bildet"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+msgid "Picture Opacity"
+msgstr "Ugjennomsiktighet for bildet"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+msgid "Opacity with which to draw the background picture."
+msgstr "Ugjennomsiktighet for tegning av bakgrunnsbildet."
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+msgid "Primary Color"
+msgstr "Primærfarge"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+msgid "Left or Top color when drawing gradients, or the solid color."
+msgstr ""
+"Venstre eller øverste farge ved tegning av gradienter, eller den helfylte "
+"fargen."
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+msgid "Secondary Color"
+msgstr "Sekundærfarge"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
+msgstr ""
+"Høyre eller nedre farge ved tegning av gradienter. Ikke brukt for helfylt "
+"farge."
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+msgid "Color Shading Type"
+msgstr "Type skyggelegging av farger"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 #, fuzzy
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
@@ -460,88 +580,47 @@ msgstr ""
 "Hvordan bakgrunnsfargen skal skyggelegges. Mulige verdier er «horizontal-"
 "gradient», «vertical-gradient» og «solid»."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+msgid "Have file manager handle the desktop"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
-msgid "Left or Top color when drawing gradients, or the solid color."
-msgstr ""
-"Venstre eller øverste farge ved tegning av gradienter, eller den helfylte "
-"fargen."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
-msgid "Opacity with which to draw the background picture."
-msgstr "Ugjennomsiktighet for tegning av bakgrunnsbildet."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
-msgid "Picture Opacity"
-msgstr "Ugjennomsiktighet for bildet"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
-msgid "Picture Options"
-msgstr "Alternativer for bilde"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
-#, fuzzy
-msgid "Picture URI"
-msgstr "Ugjennomsiktighet for bildet"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
-msgid "Primary Color"
-msgstr "Primærfarge"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
-msgstr ""
-"Høyre eller nedre farge ved tegning av gradienter. Ikke brukt for helfylt "
-"farge."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
-msgid "Secondary Color"
-msgstr "Sekundærfarge"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
-msgid ""
-"URI to use for the background image. Not that the backend only supports "
-"local (file://) URIs."
-msgstr ""
-
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
-msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
-msgstr ""
-"Argument som brukes til å kjøre programmer definert av «exec»-nøkkelen i "
-"terminalen."
-
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Calendar needs terminal"
-msgstr "Kalender trenger terminal"
-
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Default calendar"
 msgstr "Forvalgt kalender"
 
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
 msgid "Default calendar application"
 msgstr "Forvalgt kalenderprogram"
+
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
+msgid "Calendar needs terminal"
+msgstr "Kalender trenger terminal"
+
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
+#, fuzzy
+msgid "Whether the default calendar application needs a terminal to run."
+msgstr "Om forvalgt kalenderprogram trenger en terminal for å kjøre."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
 msgstr "Forvalgte oppgaver"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:6
-#, fuzzy
 msgid "Default tasks application."
-msgstr "Forvalgt oppgaveprogram"
+msgstr "Forvalgt oppgaveprogram."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:7
-msgid "Exec Arguments"
-msgstr "Kjøringsflagg"
-
-#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:8
 msgid "Tasks needs terminal"
 msgstr "Oppgaver trenger terminal"
+
+#: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:8
+#, fuzzy
+msgid "Whether the default tasks application needs a terminal to run."
+msgstr "Om forvalgt oppgaveprogram trenger en terminal for å kjøre."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:9
 msgid "Terminal application"
@@ -553,271 +632,55 @@ msgstr ""
 "Terminalprogram som skal brukes ved oppstart av programmer som krever det."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
-#, fuzzy
-msgid "Whether the default calendar application needs a terminal to run."
-msgstr "Om forvalgt kalenderprogram trenger en terminal for å kjøre."
+msgid "Exec Arguments"
+msgstr "Kjøringsflagg"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
-#, fuzzy
-msgid "Whether the default tasks application needs a terminal to run."
-msgstr "Om forvalgt oppgaveprogram trenger en terminal for å kjøre."
+msgid ""
+"Argument used to execute programs in the terminal defined by the 'exec' key."
+msgstr ""
+"Argument som brukes til å kjøre programmer definert av «exec»-nøkkelen i "
+"terminalen."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
+msgid "Current input source"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
+msgid ""
+"The zero-based index into the input sources list specifying the current one "
+"in effect. The value is automatically capped to remain in the range [0, "
+"sources_length)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
+msgid "List of input sources"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
+msgid ""
+"List of input source identifiers available. Each source is specified as a "
+"tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
+"'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or "
+"just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the "
+"second string is the IBus engine name."
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
-msgid ""
-"A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
-"scheme' setting"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:2
-#, fuzzy
-msgid "Basename of the default keybinding theme used by gtk+."
-msgstr "Basisnavn på forvalgt tema som brukes av gtk+."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:3
-msgid "Basename of the default theme used by gtk+."
-msgstr "Basisnavn på forvalgt tema som brukes av gtk+."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:4
-msgid "Buttons Have Icons"
-msgstr "Knapper har ikoner"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:5
-msgid "Can Change Accels"
-msgstr "Kan endre snarveitaster"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:6
-msgid "Cursor Blink"
-msgstr "Markørblinking"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:7
-msgid "Cursor Blink Time"
-msgstr "Tid for markørblinking"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:8
-#, fuzzy
-msgid "Cursor Blink Timeout"
-msgstr "Tid for markørblinking"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:9
-msgid "Cursor size"
-msgstr "Markørstørrelse"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:10
-msgid "Cursor theme"
-msgstr "Tema for markør"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:11
-#, fuzzy
-msgid ""
-"Cursor theme name. Used only by Xservers that support the Xcursor extension."
-msgstr ""
-"Navn på markørtema. Brukes kun av X-tjenere som støtter Xcursor. For "
-"eksempel XFree86 4.3 og senere."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
-msgid "Default font"
-msgstr "Forvalgt skrift"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
-msgid "Document font"
-msgstr "Skrift for dokument"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
-msgid "Enable Animations"
-msgstr "Aktiver animasjoner"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 #, fuzzy
 msgid "Enable Toolkit Accessibility"
 msgstr "Aktiver tilgjengelighet"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
-msgid ""
-"Factor used to enlarge or reduce text display, without changing font size."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
-msgid "GTK IM Module"
-msgstr "GTK IM-modul"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
-msgid "GTK IM Preedit Style"
-msgstr "GTK IM forhåndsredigeringsstil"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
-msgid "GTK IM Status Style"
-msgstr "GTK IM statusstil"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:2
 #, fuzzy
-msgid "Gtk+ Keybinding Theme"
-msgstr "Gtk+-tema"
+msgid "Whether toolkits should load accessibility related modules."
+msgstr "Om programmer skal ha støtte for tilgjengelighet."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
-msgid "Gtk+ Theme"
-msgstr "Gtk+-tema"
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:3
+msgid "Enable Animations"
+msgstr "Aktiver animasjoner"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
-msgid "Icon Theme"
-msgstr "Ikontema"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
-msgid "Icon theme to use for the panel, nautilus etc."
-msgstr "Ikontema som skal brukes for panelet, nautilus etc."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
-msgid "If true, display date in the clock, in addition to time."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
-msgid "If true, display seconds in the clock."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
-msgid "Keyboard shortcut to open the menu bars."
-msgstr "Tastatursnarvei for å åpne menylinjene."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
-msgid "Length of the cursor blink cycle, in milliseconds."
-msgstr "Lengde på blinksyklus for markør i millisekunder."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
-msgid "List of symbolic names and color equivalents"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
-msgid "Menubar Detachable"
-msgstr "Menylinjen kan tas av"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
-msgid "Menubar accelerator"
-msgstr "Hurtigtast for menylinje"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
-msgid "Menus Have Icons"
-msgstr "Menyer har ikoner"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
-msgid "Menus Have Tearoff"
-msgstr "Menyer har avrivingskant"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
-msgid "Monospace font"
-msgstr "Skrift med lik tegnavstand"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
-msgid ""
-"Name of a monospaced (fixed-width) font for use in locations like terminals."
-msgstr "Navn på en skrift med lik tegnavstand for bruk i f.eks. terminaler."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
-msgid "Name of the GTK+ input method Preedit Style used by gtk+."
-msgstr "Navn på forhåndsredigeringsstil for inndatametode som brukes av gtk+."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
-msgid "Name of the GTK+ input method Status Style used by gtk+."
-msgstr "Navn på statusstil for inndatametode som brukes av gtk+."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
-msgid "Name of the default font used by gtk+."
-msgstr "Navn på forvalgt skrift som brukes av gtk+."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
-msgid "Name of the default font used for reading documents."
-msgstr "Navn på forvalgt skrift som brukes for visning av dokumenter."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
-msgid "Name of the input method module used by GTK+."
-msgstr "Navn på modul for inndatametode som brukes av GTK+."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
-msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
-msgid "Palette used in the color selector"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
-msgid ""
-"Palette used in the color selector as defined by the 'gtk-color-palette' "
-"setting"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
-msgid "Show date in clock"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
-msgid "Show the 'Input Methods' menu"
-msgstr "Vis menyen «Inndatametoder»"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
-msgid "Show the 'Unicode Control Character' menu"
-msgstr "Vis menyen «Unicode kontrolltegn»"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
-#, fuzzy
-msgid "Size of icons in toolbars, either \"small\" or \"large\"."
-msgstr ""
-"Størrelse på ikoner på verktøylinjen. Enten «small-toolbar» eller «large-"
-"toolbar»."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
-#, fuzzy
-msgid "Size of the cursor used as cursor theme."
-msgstr "Størrelse på markøren referert til av cursor_theme."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
-msgid "Text scaling factor"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
-#, fuzzy
-msgid "Time after which the cursor stops blinking, in seconds."
-msgstr "Lengde på blinksyklus for markør i millisekunder."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
-msgid "Timeout before click repeat"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
-msgid "Timeout between click repeats"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
-msgid ""
-"Timeout in milliseconds before a click starts repeating (on spinner buttons "
-"for example)."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
-msgid ""
-"Timeout in milliseconds between repeated clicks when a button is left "
-"pressed."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
-msgid "Toolbar Detachable"
-msgstr "Verktøylinjen kan tas av"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
-msgid "Toolbar Icon Size"
-msgstr "Ikonstørrelse for verktøylinjen"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
-msgid "Toolbar Style"
-msgstr "Stil for verktøylinjen"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
-msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
-msgstr ""
-"Stil for verktøylinje. Gyldige verdier er «both», «both-horiz», «icon» og "
-"«text»."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:4
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
@@ -825,62 +688,19 @@ msgstr ""
 "Om animasjoner skal vises. Merk: Dette er en global nøkkel. Den endrer "
 "oppførsel for vindushåndtereren, panelet etc."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
-msgid "Whether buttons may display an icon in addition to the button text."
-msgstr "Om knapper kan vise et ikon i tillegg til knappeteksten."
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:5
+msgid "Menus Have Tearoff"
+msgstr "Menyer har avrivingskant"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
-msgid "Whether menus may display an icon next to a menu entry."
-msgstr "Om menyer skal vise et ikon ved siden av en menyoppføring."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:6
 msgid "Whether menus should have a tearoff."
 msgstr "Om menyer skal kunne rives løs."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
-msgid ""
-"Whether mnemonics should be automatically shown and hidden when the user "
-"presses the Alt key."
-msgstr ""
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:7
+msgid "Can Change Accels"
+msgstr "Kan endre snarveitaster"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
-msgid "Whether the clock displays in 24h or 12h format"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
-#, fuzzy
-msgid "Whether the clock shows seconds"
-msgstr "Om markøren skal blinke."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
-msgid ""
-"Whether the context menus of entries and text views should offer to change "
-"the input method."
-msgstr ""
-"Om kontekstmeny for oppføringer og tekstvisninger skal vise alternativer for "
-"å bytte inndatametode."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
-msgid ""
-"Whether the context menus of entries and text views should offer to insert "
-"control characters."
-msgstr ""
-"Om kontekstmeny for oppføringer og tekstvisninger skal vise alternativer for "
-"å sette inn Unicode kontrolltegn."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:67
-msgid "Whether the cursor should blink."
-msgstr "Om markøren skal blinke."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:68
-msgid "Whether the user can detach menubars and move them around."
-msgstr "Om bruke kan ta løs menylinjer og flytte dem rundt."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:69
-msgid "Whether the user can detach toolbars and move them around."
-msgstr "Om bruker kan ta løs verktøylinjer og flytte dem rundt."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:8
 msgid ""
 "Whether the user can dynamically type a new accelerator when positioned over "
 "an active menuitem."
@@ -888,49 +708,300 @@ msgstr ""
 "Om bruker kan oppgi en snarveitast dynamisk når markøren er plassert over en "
 "aktiv menyoppføring."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:9
+msgid "Toolbar Style"
+msgstr "Stil for verktøylinjen"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:10
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
+msgstr ""
+"Stil for verktøylinje. Gyldige verdier er «both», «both-horiz», «icon» og "
+"«text»."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:11
+msgid "Menus Have Icons"
+msgstr "Menyer har ikoner"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
+msgid "Whether menus may display an icon next to a menu entry."
+msgstr "Om menyer skal vise et ikon ved siden av en menyoppføring."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
+msgid "Buttons Have Icons"
+msgstr "Knapper har ikoner"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
+msgid "Whether buttons may display an icon in addition to the button text."
+msgstr "Om knapper kan vise et ikon i tillegg til knappeteksten."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
+msgid "Menubar Detachable"
+msgstr "Menylinjen kan tas av"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
+msgid "Whether the user can detach menubars and move them around."
+msgstr "Om bruke kan ta løs menylinjer og flytte dem rundt."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
+msgid "Toolbar Detachable"
+msgstr "Verktøylinjen kan tas av"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
+msgid "Whether the user can detach toolbars and move them around."
+msgstr "Om bruker kan ta løs verktøylinjer og flytte dem rundt."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
+msgid "Toolbar Icon Size"
+msgstr "Ikonstørrelse for verktøylinjen"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
 #, fuzzy
-msgid "Whether toolkits should load accessibility related modules."
-msgstr "Om programmer skal ha støtte for tilgjengelighet."
+msgid "Size of icons in toolbars, either \"small\" or \"large\"."
+msgstr ""
+"Størrelse på ikoner på verktøylinjen. Enten «small-toolbar» eller «large-"
+"toolbar»."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
+msgid "Cursor Blink"
+msgstr "Markørblinking"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
+msgid "Whether the cursor should blink."
+msgstr "Om markøren skal blinke."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
+msgid "Cursor Blink Time"
+msgstr "Tid for markørblinking"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
+msgid "Length of the cursor blink cycle, in milliseconds."
+msgstr "Lengde på blinksyklus for markør i millisekunder."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
+#, fuzzy
+msgid "Cursor Blink Timeout"
+msgstr "Tid for markørblinking"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
+#, fuzzy
+msgid "Time after which the cursor stops blinking, in seconds."
+msgstr "Lengde på blinksyklus for markør i millisekunder."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
+msgid "Icon Theme"
+msgstr "Ikontema"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
+msgid "Icon theme to use for the panel, nautilus etc."
+msgstr "Ikontema som skal brukes for panelet, nautilus etc."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
+msgid "Gtk+ Theme"
+msgstr "Gtk+-tema"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
+msgid "Basename of the default theme used by gtk+."
+msgstr "Basisnavn på forvalgt tema som brukes av gtk+."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
+#, fuzzy
+msgid "Gtk+ Keybinding Theme"
+msgstr "Gtk+-tema"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
+#, fuzzy
+msgid "Basename of the default keybinding theme used by gtk+."
+msgstr "Basisnavn på forvalgt tema som brukes av gtk+."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+msgid "Default font"
+msgstr "Forvalgt skrift"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+msgid "Name of the default font used by gtk+."
+msgstr "Navn på forvalgt skrift som brukes av gtk+."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
+msgid "Text scaling factor"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
+msgid ""
+"Factor used to enlarge or reduce text display, without changing font size."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
+msgid "GTK IM Preedit Style"
+msgstr "GTK IM forhåndsredigeringsstil"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
+msgid "Name of the GTK+ input method Preedit Style used by gtk+."
+msgstr "Navn på forhåndsredigeringsstil for inndatametode som brukes av gtk+."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
+msgid "GTK IM Status Style"
+msgstr "GTK IM statusstil"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
+msgid "Name of the GTK+ input method Status Style used by gtk+."
+msgstr "Navn på statusstil for inndatametode som brukes av gtk+."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
+msgid "GTK IM Module"
+msgstr "GTK IM-modul"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
+msgid "Name of the input method module used by GTK+."
+msgstr "Navn på modul for inndatametode som brukes av GTK+."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
+msgid "Document font"
+msgstr "Skrift for dokument"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
+msgid "Name of the default font used for reading documents."
+msgstr "Navn på forvalgt skrift som brukes for visning av dokumenter."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+msgid "Monospace font"
+msgstr "Skrift med lik tegnavstand"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
+msgid ""
+"Name of a monospaced (fixed-width) font for use in locations like terminals."
+msgstr "Navn på en skrift med lik tegnavstand for bruk i f.eks. terminaler."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
+msgid "Menubar accelerator"
+msgstr "Hurtigtast for menylinje"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
+msgid "Keyboard shortcut to open the menu bars."
+msgstr "Tastatursnarvei for å åpne menylinjene."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
+msgid "Show the 'Input Methods' menu"
+msgstr "Vis menyen «Inndatametoder»"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
+msgid ""
+"Whether the context menus of entries and text views should offer to change "
+"the input method."
+msgstr ""
+"Om kontekstmeny for oppføringer og tekstvisninger skal vise alternativer for "
+"å bytte inndatametode."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
+msgid "Show the 'Unicode Control Character' menu"
+msgstr "Vis menyen «Unicode kontrolltegn»"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
+msgid ""
+"Whether the context menus of entries and text views should offer to insert "
+"control characters."
+msgstr ""
+"Om kontekstmeny for oppføringer og tekstvisninger skal vise alternativer for "
+"å sette inn Unicode kontrolltegn."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
+msgid "Cursor theme"
+msgstr "Tema for markør"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
+#, fuzzy
+msgid ""
+"Cursor theme name. Used only by Xservers that support the Xcursor extension."
+msgstr ""
+"Navn på markørtema. Brukes kun av X-tjenere som støtter Xcursor. For "
+"eksempel XFree86 4.3 og senere."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
+msgid "Cursor size"
+msgstr "Markørstørrelse"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
+#, fuzzy
+msgid "Size of the cursor used as cursor theme."
+msgstr "Størrelse på markøren referert til av cursor_theme."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
+msgid "Timeout before click repeat"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+msgid ""
+"Timeout in milliseconds before a click starts repeating (on spinner buttons "
+"for example)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
+msgid "Timeout between click repeats"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
+msgid ""
+"Timeout in milliseconds between repeated clicks when a button is left "
+"pressed."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+msgid "Palette used in the color selector"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
+msgid ""
+"Palette used in the color selector as defined by the 'gtk-color-palette' "
+"setting"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
+msgid "List of symbolic names and color equivalents"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
+msgid ""
+"A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
+"scheme' setting"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
+msgid "Whether the clock displays in 24h or 12h format"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
+#, fuzzy
+msgid "Whether the clock shows seconds"
+msgstr "Om markøren skal blinke."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:67
+msgid "If true, display seconds in the clock."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:68
+msgid "Show date in clock"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:69
+msgid "If true, display date in the clock, in addition to time."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:70
+msgid "Only show mnemonics on when the Alt key is pressed"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:71
+msgid ""
+"Whether mnemonics should be automatically shown and hidden when the user "
+"presses the Alt key."
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:1
-msgid "Disable URL and MIME type handlers"
-msgstr "Slå av URL- og MIME-håndterere"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:2
 msgid "Disable command line"
 msgstr "Deaktiver kommandolinjen"
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:3
-msgid "Disable lock screen"
-msgstr "Slå av låsing av skjermen"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:4
-#, fuzzy
-msgid "Disable log out"
-msgstr "Slå av låsing av skjermen"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:5
-msgid "Disable print setup"
-msgstr "Dekativer skriveroppsett"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:6
-msgid "Disable printing"
-msgstr "Deaktiver utskrift"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:7
-msgid "Disable saving files to disk"
-msgstr "Deaktiver lagring av filer til disk"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:8
-msgid "Disable user switching"
-msgstr "Deaktiver brukerbytting"
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:9
-msgid "Prevent running any URL or MIME type handler applications."
-msgstr "Forhindre kjøring av håndterere for URL og MIME-type."
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:2
 msgid ""
 "Prevent the user from accessing the terminal or specifying a command line to "
 "be executed. For example, this would disable access to the panel's \"Run "
@@ -940,28 +1011,11 @@ msgstr ""
 "skal kjøres. Dette vil for eksempel deaktivere tilgang til panelets «Kjør "
 "program»-dialog."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:11
-#, fuzzy
-msgid "Prevent the user from logging out."
-msgstr "Hindre brukeren i å låse skjermen."
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:3
+msgid "Disable saving files to disk"
+msgstr "Deaktiver lagring av filer til disk"
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:12
-msgid ""
-"Prevent the user from modifying print settings. For example, this would "
-"disable access to all applications' \"Print Setup\" dialogs."
-msgstr ""
-"Hindre at bruker endrer innstillinger for skrivere. Dette vil for eksempel "
-"deaktivere tilgang til «Skriveroppsett»-dialoger i alle programmer."
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:13
-msgid ""
-"Prevent the user from printing. For example, this would disable access to "
-"all applications' \"Print\" dialogs."
-msgstr ""
-"Hindre at bruker skriver ut dokumenter. Dette vil for eksempel deaktivere "
-"tilgang til «Skriv ut»-dialogene i alle programmer."
-
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:4
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
@@ -969,23 +1023,81 @@ msgstr ""
 "Hindre at bruker lagrer filer til disk. Dette vil for eksempel deaktivere "
 "«Lagre som»-dialogen i alle programmer."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:5
+msgid "Disable printing"
+msgstr "Deaktiver utskrift"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:6
+msgid ""
+"Prevent the user from printing. For example, this would disable access to "
+"all applications' \"Print\" dialogs."
+msgstr ""
+"Hindre at bruker skriver ut dokumenter. Dette vil for eksempel deaktivere "
+"tilgang til «Skriv ut»-dialogene i alle programmer."
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:7
+msgid "Disable print setup"
+msgstr "Dekativer skriveroppsett"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:8
+msgid ""
+"Prevent the user from modifying print settings. For example, this would "
+"disable access to all applications' \"Print Setup\" dialogs."
+msgstr ""
+"Hindre at bruker endrer innstillinger for skrivere. Dette vil for eksempel "
+"deaktivere tilgang til «Skriveroppsett»-dialoger i alle programmer."
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:9
+msgid "Disable user switching"
+msgstr "Deaktiver brukerbytting"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:10
 msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
 msgstr "Hindre bruker fra å bytte til en annen konto mens økten er aktiv."
 
-#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:11
+msgid "Disable lock screen"
+msgstr "Slå av låsing av skjermen"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:12
 msgid "Prevent the user to lock his screen."
 msgstr "Hindre brukeren i å låse skjermen."
 
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:13
+msgid "Disable URL and MIME type handlers"
+msgstr "Slå av URL- og MIME-håndterere"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:14
+msgid "Prevent running any URL or MIME type handler applications."
+msgstr "Forhindre kjøring av håndterere for URL og MIME-type."
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:15
+#, fuzzy
+msgid "Disable log out"
+msgstr "Slå av låsing av skjermen"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:16
+#, fuzzy
+msgid "Prevent the user from logging out."
+msgstr "Hindre brukeren i å låse skjermen."
+
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
+msgid "Whether to automatically mount media"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:2
 msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:3
+msgid "Whether to automatically open a folder for automounted media"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:4
 msgid ""
 "If set to true, then Nautilus will automatically open a folder when media is "
 "automounted. This only applies to media where no known x-content/* type was "
@@ -993,56 +1105,48 @@ msgid ""
 "configurable action will be taken instead."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:5
+msgid "Never prompt or autorun/autostart programs when media are inserted"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:6
 msgid ""
 "If set to true, then Nautilus will never prompt nor autorun/autostart "
 "programs when a medium is inserted."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:7
 msgid ""
-"List of x-content/* types for which the user have chosen \"Do Nothing\" in "
-"the preference capplet. No prompt will be shown nor will any matching "
-"application be started on insertion of media matching these types."
+"List of x-content/* types where the preferred application will be launched"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:5
-msgid ""
-"List of x-content/* types for which the user have chosen \"Open Folder\" in "
-"the preferences capplet. A folder window will be opened on insertion of "
-"media matching these types."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:8
 msgid ""
 "List of x-content/* types for which the user have chosen to start an "
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:9
 msgid "List of x-content/* types set to \"Do Nothing\""
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:8
-msgid "List of x-content/* types set to \"Open Folder\""
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:9
-msgid ""
-"List of x-content/* types where the preferred application will be launched"
-msgstr ""
-
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:10
-msgid "Never prompt or autorun/autostart programs when media are inserted"
+msgid ""
+"List of x-content/* types for which the user have chosen \"Do Nothing\" in "
+"the preference capplet. No prompt will be shown nor will any matching "
+"application be started on insertion of media matching these types."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:11
-msgid "Whether to automatically mount media"
+msgid "List of x-content/* types set to \"Open Folder\""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:12
-msgid "Whether to automatically open a folder for automounted media"
+msgid ""
+"List of x-content/* types for which the user have chosen \"Open Folder\" in "
+"the preferences capplet. A folder window will be opened on insertion of "
+"media matching these types."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
@@ -1050,68 +1154,52 @@ msgid "Activate when idle"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Allow embedding a keyboard into the window"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
-msgid "Allow logout"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:4
-msgid "Allow the session status message to be displayed"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:5
-msgid ""
-"Allow the session status message to be displayed when the screen is locked."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:6
-#, fuzzy
-msgid "Allow user switching"
-msgstr "Deaktiver brukerbytting"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Embedded keyboard command"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
-#, fuzzy
-msgid "Lock on activation"
-msgstr "Støtte for aktivering via Bonobo"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
-msgid "Logout command"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
+msgid "Lock on activation"
+msgstr "Lås ved aktivering"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:4
+msgid "Set this to TRUE to lock the screen when the screensaver goes active."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:5
+msgid "Time before locking"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:6
+msgid ""
+"The number of seconds after screensaver activation before locking the screen."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+msgid ""
+"Whether notifications are shown in the lock screen or not. This only affects "
+"the standard experience."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+msgid "Allow embedding a keyboard into the window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
 "command."
 msgstr ""
 
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+msgid "Embedded keyboard command"
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
-msgid "Set this to TRUE to lock the screen when the screensaver goes active."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
-msgid ""
-"Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
-msgid ""
-"Set this to TRUE to offer an option in the unlock dialog to switch to a "
-"different user account."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1119,65 +1207,89 @@ msgid ""
 "output."
 msgstr ""
 
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+msgid "Allow logout"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+msgid ""
+"Set this to TRUE to offer an option in the unlock dialog to allow logging "
+"out after a delay. The delay is specified in the \"logout_delay\" key."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+msgid "Time before logout option"
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
-msgid ""
-"The command to invoke when the logout button is clicked. This command should "
-"simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
-msgid ""
-"The number of seconds after screensaver activation before locking the screen."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
 "\"logout_enable\" key is set to TRUE."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
-msgid "Time before locking"
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+msgid "Logout command"
 msgstr ""
 
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+msgid ""
+"The command to invoke when the logout button is clicked. This command should "
+"simply log the user out without any interaction. This key has effect only if "
+"the \"logout_enable\" key is set to TRUE."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+msgid "Allow user switching"
+msgstr "Tillat brukerbytting"
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
-msgid "Time before logout option"
+msgid ""
+"Set this to TRUE to offer an option in the unlock dialog to switch to a "
+"different user account."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+msgid "Allow the session status message to be displayed"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+msgid ""
+"Allow the session status message to be displayed when the screen is locked."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
+msgid "Time before session is considered idle"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:2
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:2
-msgid "Time before session is considered idle"
-msgstr ""
-
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:1
-msgid "Input feedback sounds"
-msgstr "Lyder for tilbakemelding om inndata"
-
-#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:2
-msgid "Sound theme name"
-msgstr "Navn på lydtema"
-
-#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:3
 msgid "Sounds for events"
 msgstr "Lyder for hendelser"
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:2
+msgid "Whether to play sounds on user events."
+msgstr "Om lyder skal spilles av ved brukerhendelser."
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:3
+msgid "Sound theme name"
+msgstr "Navn på lydtema"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:4
 msgid "The XDG sound theme to use for event sounds."
 msgstr "XDG lydtema som skal brukes for lydhendelser."
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:5
-msgid "Whether to play sounds on input events."
-msgstr "Om lyder skal spilles av ved inndatahendelser."
+msgid "Input feedback sounds"
+msgstr "Lyder for tilbakemelding om inndata"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:6
-msgid "Whether to play sounds on user events."
-msgstr "Om lyder skal spilles av ved brukerhendelser."
+msgid "Whether to play sounds on input events."
+msgstr "Om lyder skal spilles av ved inndatahendelser."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.in.h:1
 msgid ""
@@ -1201,16 +1313,16 @@ msgstr "Deaktiver alle eksterne miniatyrfunksjoner"
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:2
 msgid ""
-"List of mime-types for which external thumbnailer programs will be disabled"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:3
-msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
 "Sett til sann for å deaktivere alle eksterne programmer for miniatyrer, "
 "uavhengig av om de er individuelt aktive eller ikke."
+
+#: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:3
+msgid ""
+"List of mime-types for which external thumbnailer programs will be disabled"
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.in.h:4
 msgid ""
@@ -1218,86 +1330,596 @@ msgid ""
 "list."
 msgstr ""
 
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:1
+msgid "Switch to workspace 1"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:2
+msgid "Switch to workspace 2"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:3
+msgid "Switch to workspace 3"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:4
+msgid "Switch to workspace 4"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:5
+msgid "Switch to workspace 5"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:6
+msgid "Switch to workspace 6"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:7
+msgid "Switch to workspace 7"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:8
+msgid "Switch to workspace 8"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:9
+msgid "Switch to workspace 9"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:10
+msgid "Switch to workspace 10"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:11
+msgid "Switch to workspace 11"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:12
+msgid "Switch to workspace 12"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:13
+msgid "Switch to workspace left"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:14
+msgid "Switch to workspace right"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:15
+msgid "Switch to workspace above"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:16
+msgid "Switch to workspace below"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
+msgid "Switch windows of an application"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
+msgid "Reverse switch windows of an application"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
+msgid "Switch applications"
+msgstr "Bytt programmer"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
+#, fuzzy
+msgid "Reverse switch applications"
+msgstr "Terminalprogram"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+msgid "Switch system controls"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+msgid "Reverse switch system controls"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+msgid "Switch windows of an app directly"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+msgid "Reverse switch windows of an app directly"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+msgid "Switch windows directly"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+msgid "Reverse switch windows directly"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+msgid "Switch system controls directly"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+msgid "Reverse switch system controls directly"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+msgid "Hide all normal windows"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+msgid "Show the activities overview"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+msgid "Show the run command prompt"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
+msgid "Don&apos;t use"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+msgid "Activate the window menu"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+msgid "Toggle fullscreen mode"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+msgid "Toggle maximization state"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+msgid "Toggle window always appearing on top"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+msgid "Maximize window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+msgid "Restore window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+msgid "Toggle shaded state"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+msgid "Minimize window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+msgid "Close window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+msgid "Move window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+msgid "Resize window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+msgid "Toggle window on all workspaces or one"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+msgid "Move window to workspace 1"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+msgid "Move window to workspace 2"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+msgid "Move window to workspace 3"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+msgid "Move window to workspace 4"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+msgid "Move window to workspace 5"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+msgid "Move window to workspace 6"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+msgid "Move window to workspace 7"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+msgid "Move window to workspace 8"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+msgid "Move window to workspace 9"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+msgid "Move window to workspace 10"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+msgid "Move window to workspace 11"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+msgid "Move window to workspace 12"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+msgid "Move window one workspace to the left"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+msgid "Move window one workspace to the right"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+msgid "Move window one workspace up"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+msgid "Move window one workspace down"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+msgid "Raise window if covered, otherwise lower it"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+msgid "Raise window above other windows"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Lower window below other windows"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Maximize window vertically"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Maximize window horizontally"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to top left corner"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+msgid "Move window to top right corner"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+msgid "Move window to bottom left corner"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+msgid "Move window to bottom right corner"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+msgid "Move window to top edge of screen"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+msgid "Move window to bottom edge of screen"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+msgid "Move window to right side of screen"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+msgid "Move window to left side of screen"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+msgid "Move window to center of screen"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
+msgid "Modifier to use for modified window click actions"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:2
+msgid ""
+"Clicking a window while holding down this modifier key will move the window "
+"(left click), resize the window (middle click), or show the window menu "
+"(right click). The middle and right click operations may be swapped using "
+"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
+"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
+msgid "Whether to resize with the right button"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:4
+msgid ""
+"Set this to true to resize with the right button and show a menu with the "
+"middle button while holding down the key given in \"mouse-button-modifier\"; "
+"set it to false to make it work the opposite way around."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:5
+msgid "Arrangement of buttons on the titlebar"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:6
+msgid ""
+"Arrangement of buttons on the titlebar. The value should be a string, such "
+"as \"menu:minimize,maximize,spacer,close\"; the colon separates the left "
+"corner of the window from the right corner, and the button names are comma-"
+"separated. Duplicate buttons are not allowed. Unknown button names are "
+"silently ignored so that buttons can be added in future metacity versions "
+"without breaking older versions. A special spacer tag can be used to insert "
+"some space between two adjacent buttons."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:7
+msgid "Window focus mode"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:8
+msgid ""
+"The window focus mode indicates how windows are activated. It has three "
+"possible values; \"click\" means windows must be clicked in order to focus "
+"them, \"sloppy\" means windows are focused when the mouse enters the window, "
+"and \"mouse\" means windows are focused when the mouse enters the window and "
+"unfocused when the mouse leaves the window."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:9
+msgid "Control how new windows get focus"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:10
+msgid ""
+"This option provides additional control over how newly created windows get "
+"focus. It has two possible values; \"smart\" applies the user's normal focus "
+"mode, and \"strict\" results in windows started from a terminal not being "
+"given focus."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:11
+msgid "Whether raising should be a side-effect of other user interactions"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:12
+msgid ""
+"Setting this option to false can lead to buggy behavior, so users are "
+"strongly discouraged from changing it from the default of true. Many actions "
+"(e.g. clicking in the client area, moving or resizing the window) normally "
+"raise the window as a side-effect. Setting this option to false, which is "
+"strongly discouraged, will decouple raising from other user actions, and "
+"ignore raise requests generated by applications. See http://bugzilla.gnome."
+"org/show_bug.cgi?id=445447#c6. Even when this option is false, windows can "
+"still be raised by an alt-left-click anywhere on the window, a normal click "
+"on the window decorations, or by special messages from pagers, such as "
+"activation requests from tasklist applets. This option is currently disabled "
+"in click-to-focus mode. Note that the list of ways to raise windows when "
+"raise-on-click is false does not include programmatic requests from "
+"applications to raise windows; such requests will be ignored regardless of "
+"the reason for the request. If you are an application developer and have a "
+"user complaining that your application does not work with this setting "
+"disabled, tell them it is -their- fault for breaking their window manager "
+"and that they need to change this option back to true or live with the \"bug"
+"\" they requested."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
+msgid "Action on title bar double-click"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:14
+msgid ""
+"This option determines the effects of double-clicking on the title bar. "
+"Current valid options are 'toggle-shade', which will shade/unshade the "
+"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
+"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
+"unmaximize the window in that direction only, 'minimize' which will minimize "
+"the window, 'shade' which will roll the window up, 'menu' which will display "
+"the window menu, 'lower' which will put the window behind all the others, "
+"and 'none' which will not do anything."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:15
+msgid "Action on title bar middle-click"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:16
+msgid ""
+"This option determines the effects of middle-clicking on the title bar. "
+"Current valid options are 'toggle-shade', which will shade/unshade the "
+"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
+"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
+"unmaximize the window in that direction only, 'minimize' which will minimize "
+"the window, 'shade' which will roll the window up, 'menu' which will display "
+"the window menu, 'lower' which will put the window behind all the others, "
+"and 'none' which will not do anything."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:17
+msgid "Action on title bar right-click"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:18
+msgid ""
+"This option determines the effects of right-clicking on the title bar. "
+"Current valid options are 'toggle-shade', which will shade/unshade the "
+"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
+"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
+"unmaximize the window in that direction only, 'minimize' which will minimize "
+"the window, 'shade' which will roll the window up, 'menu' which will display "
+"the window menu, 'lower' which will put the window behind all the others, "
+"and 'none' which will not do anything."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
+msgid "Automatically raises the focused window"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:20
+msgid ""
+"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
+"the focused window will be automatically raised after a delay specified by "
+"the auto-raise-delay key. This is not related to clicking on a window to "
+"raise it, nor to entering a window during drag-and-drop."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
+msgid "Delay in milliseconds for the auto raise option"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:22
+msgid ""
+"The time delay before raising a window if auto-raise is set to true. The "
+"delay is given in thousandths of a second."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:23
+msgid "Current theme"
+msgstr "Aktivt tema"
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:24
+msgid ""
+"The theme determines the appearance of window borders, titlebar, and so "
+"forth."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:25
+msgid "Use standard system font in window titles"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:26
+msgid ""
+"If true, ignore the titlebar-font option, and use the standard application "
+"font for window titles."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:27
+msgid "Window title font"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:28
+msgid ""
+"A font description string describing a font for window titlebars. The size "
+"from the description will only be used if the titlebar-font-size option is "
+"set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
+"option is set to true."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:29
+msgid "Number of workspaces"
+msgstr "Antall arbeidsområder"
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:30
+msgid ""
+"Number of workspaces. Must be more than zero, and has a fixed maximum to "
+"prevent making the desktop unusable by accidentally asking for too many "
+"workspaces."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:31
+msgid "System Bell is Audible"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:32
+msgid ""
+"Determines whether applications or the system can generate audible 'beeps'; "
+"may be used in conjunction with 'visual bell' to allow silent 'beeps'."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:33
+msgid "Enable Visual Bell"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:34
+msgid ""
+"Turns on a visual indication when an application or the system issues a "
+"'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
+"environments."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:35
+msgid "Visual Bell Type"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:36
+msgid ""
+"Tells the WM how to implement the visual indication that the system bell or "
+"another application 'bell' indicator has been rung. Currently there are two "
+"valid values, \"fullscreen-flash\", which causes a fullscreen white-black "
+"flash, and \"frame-flash\" which causes the titlebar of the application "
+"which sent the bell signal to flash. If the application which sent the bell "
+"is unknown (as is usually the case for the default \"system beep\"), the "
+"currently focused window's titlebar is flashed."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
+msgid "(Not implemented) Navigation works in terms of applications not windows"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
+msgid ""
+"If true, then the WM works in terms of applications rather than windows. The "
+"concept is a bit abstract, but in general an application-based setup is more "
+"like the Mac and less like Windows. When you focus a window in application-"
+"based mode, all the windows in the application will be raised. Also, in "
+"application-based mode, focus clicks are not passed through to windows in "
+"other applications. Application-based mode is, however, largely "
+"unimplemented at the moment."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
+msgid "Disable misfeatures that are required by old or broken applications"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
+msgid ""
+"Some applications disregard specifications in ways that result in window "
+"manager misfeatures. This option puts the WM in a rigorously correct mode, "
+"which gives a more consistent user interface, provided one does not need to "
+"run any misbehaving applications."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
+msgid "The names of the workspaces"
+msgstr "Navn på arbeidsområder"
+
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:42
+msgid ""
+"Defines the names that should be assigned to workspaces. If the list is too "
+"long for the current number of workspaces, names in excess will be ignored. "
+"If the list is too short, or includes empty names, missing values will be "
+"replaced with the default (\"Workspace N\")."
+msgstr ""
+
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
+msgid "The locale to use for dates / numbers formats"
+msgstr ""
+
+#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:2
 msgid ""
 "Specify the locale to be used for displaying dates, times and numbers "
 "formats."
 msgstr ""
 
-#: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:2
-msgid "The locale to use for dates / numbers formats"
-msgstr ""
-
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
-msgid "Authenticate proxy server connections"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:2
-msgid "Automatic proxy configuration URL"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
-msgid "FTP proxy host name"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:4
-msgid "FTP proxy port"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:5
-msgid "HTTP proxy host name"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:6
-msgid "HTTP proxy password"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:7
-msgid "HTTP proxy port"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:8
-msgid "HTTP proxy username"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:9
-msgid ""
-"If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/proxy/http/authentication-"
-"user\" and \"/system/proxy/http/authentication-password\". This applies only "
-"to the http proxy; when using a separate https proxy, there is currently no "
-"way to specify that it should use authentication."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:10
-msgid "Non-proxy hosts"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:11
-msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:12
 msgid "Proxy configuration mode"
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:13
-msgid "SOCKS proxy host name"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:14
-msgid "SOCKS proxy port"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:15
-msgid "Secure HTTP proxy host name"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:16
-msgid "Secure HTTP proxy port"
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:2
 msgid ""
 "Select the proxy configuration mode. Supported values are \"none\", \"manual"
 "\", \"auto\". If this is \"none\", then proxies are not used. If it is \"auto"
@@ -1311,47 +1933,21 @@ msgid ""
 "http, https, and ftp proxy settings override it for those protocols only."
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:18
-msgid "The machine name to proxy FTP through."
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
+msgid "Automatic proxy configuration URL"
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:19
-msgid "The machine name to proxy HTTP through."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:20
-msgid "The machine name to proxy secure HTTP through."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:21
-msgid "The machine name to use as a SOCKS proxy."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:4
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
-"through."
+"URL that provides proxy configuration values. When mode is \"auto\", this "
+"URL is used to look up proxy information for all protocols."
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:23
-msgid ""
-"The port on the machine defined by \"/system/proxy/http/host\" that you "
-"proxy through."
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:5
+msgid "Non-proxy hosts"
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:24
-msgid ""
-"The port on the machine defined by \"/system/proxy/https/host\" that you "
-"proxy through."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:25
-msgid ""
-"The port on the machine defined by \"/system/proxy/socks/host\" that you "
-"proxy through."
-msgstr ""
-
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:6
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
@@ -1359,583 +1955,117 @@ msgid ""
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:7
+msgid "Unused; ignore"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:8
 msgid "This key is not used, and should not be read or modified."
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:9
 msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:10
+msgid "HTTP proxy host name"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:11
+msgid "The machine name to proxy HTTP through."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:12
+msgid "HTTP proxy port"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:13
 msgid ""
-"URL that provides proxy configuration values. When mode is \"auto\", this "
-"URL is used to look up proxy information for all protocols."
+"The port on the machine defined by \"/system/proxy/http/host\" that you "
+"proxy through."
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:30
-msgid "Unused; ignore"
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:14
+msgid "Authenticate proxy server connections"
 msgstr ""
 
-#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:15
+msgid ""
+"If true, then connections to the proxy server require authentication. The "
+"username/password combo is defined by \"/system/proxy/http/authentication-"
+"user\" and \"/system/proxy/http/authentication-password\". This applies only "
+"to the http proxy; when using a separate https proxy, there is currently no "
+"way to specify that it should use authentication."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:16
+msgid "HTTP proxy username"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:17
 msgid "User name to pass as authentication when doing HTTP proxying."
 msgstr ""
 
-#~ msgid "Error message"
-#~ msgstr "Feilmelding"
-
-#~ msgid "Informational message"
-#~ msgstr "Informativ melding"
-
-#~ msgid "Log in"
-#~ msgstr "Logg inn"
-
-#~ msgid "Log out"
-#~ msgstr "Logg ut"
-
-#~ msgid "Miscellaneous message"
-#~ msgstr "Melding for forskjellig"
-
-#~ msgid "Question dialog"
-#~ msgstr "Spørsmålsdialog"
-
-#~ msgid "System events"
-#~ msgstr "Systemhendelser"
-
-#~ msgid "Warning message"
-#~ msgstr "Varselmelding"
-
-#~ msgid "Default Background"
-#~ msgstr "Forvalgt bakgrunn"
-
-#~ msgid "Choose menu item"
-#~ msgstr "Velg menyoppføring"
-
-#~ msgid "Click on command button"
-#~ msgstr "Klikk på kommandoknapp"
-
-#~ msgid "Select check box"
-#~ msgstr "Kryss av i avkrysningsboks"
-
-#~ msgid "User interface events"
-#~ msgstr "Hendelser angående brukergrensesnittet"
-
-#~ msgid "Cannot find a terminal, using xterm, even if it may not work"
-#~ msgstr ""
-#~ "Kan ikke finne en terminal, bruker xterm selv om den kanskje ikke virker"
-
-#~ msgid "GNOME GConf Support"
-#~ msgstr "GNOME GConf støtte"
-
-#~ msgid "Unable to find the GNOME_FILE_DOMAIN_APP_HELP domain"
-#~ msgstr "Kan ikke finne domenet GNOME_FILE_DOMAIN_APP_HELP"
-
-#~ msgid "Unable to find the GNOME_FILE_DOMAIN_HELP domain."
-#~ msgstr "Kan ikke finne domenet GNOME_FILE_DOMAIN_HELP."
-
-#~ msgid ""
-#~ "Unable to show help as %s is not a directory.  Please check your "
-#~ "installation."
-#~ msgstr ""
-#~ "Kan ikke vise hjelp ettersom %s ikke er en katalog. Vennligst sjekk din "
-#~ "installasjon."
-
-#~ msgid "Unable to find help paths %s or %s. Please check your installation"
-#~ msgstr ""
-#~ "Kan ikke finne hjelpstier %s eller %s. Vennligst sjekk din installasjon"
-
-#~ msgid ""
-#~ "Unable to find the help files in either %s or %s.  Please check your "
-#~ "installation"
-#~ msgstr ""
-#~ "Kan ikke finne hjelpfiler i %s eller %s. Vennligst sjekk din installasjon"
-
-#~ msgid "Unable to find doc_id %s in the help path"
-#~ msgstr "Kan ikke finne doc_id %s i hjelpstien"
-
-#~ msgid "Help document %s/%s not found"
-#~ msgstr "Hjelpdokument %s/%s ble ikke funnet"
-
-#~ msgid "Bonobo Support"
-#~ msgstr "Støtte for Bonobo"
-
-#~ msgid "Could not create per-user gnome configuration directory `%s': %s\n"
-#~ msgstr "Kunn ikke opprette per-bruker konfigurasjonskatalog «%s»: %s\n"
-
-#~ msgid ""
-#~ "Could not stat private per-user gnome configuration directory `%s': %s\n"
-#~ msgstr "Kunne ikke kjøre stat() på brukers konfigurasjonskatalog «%s»: %s\n"
-
-#~ msgid ""
-#~ "Could not set mode 0700 on private per-user gnome configuration directory "
-#~ "`%s': %s\n"
-#~ msgstr ""
-#~ "Kunne ikke sette modus 0700 på privat brukerspesifikk "
-#~ "konfigurasjonskatalog «%s»: %s\n"
-
-#~ msgid "Could not create gnome accelerators directory `%s': %s\n"
-#~ msgstr "Kunne ikke opprette katalog «%s» for snarveitaster i GNOME: %s\n"
-
-#~ msgid "GNOME Virtual Filesystem"
-#~ msgstr "GNOME virtuelt filsystem"
-
-#~ msgid "Disable sound server usage"
-#~ msgstr "Slå av bruk av lydtjener"
-
-#~ msgid "Enable sound server usage"
-#~ msgstr "Slå på bruk av lydtjener"
-
-#~ msgid "Host:port on which the sound server to use is running"
-#~ msgstr "Vert:port hvor lydtjeneren som skal brukes kjører"
-
-#~ msgid "HOSTNAME:PORT"
-#~ msgstr "VERTSNAVN:PORT"
-
-#~ msgid "GNOME Library"
-#~ msgstr "GNOME bibliotek"
-
-#~ msgid "Show GNOME options"
-#~ msgstr "Vis GNOME flagg"
-
-#~ msgid "Popt Table"
-#~ msgstr "Popt-tabell"
-
-#~ msgid "The table of options for popt"
-#~ msgstr "Tabell med alternativer for popt"
-
-#~ msgid "Popt Flags"
-#~ msgstr "Popt flagg"
-
-#~ msgid "The flags to use for popt"
-#~ msgstr "Flagg som skal brukes for popt"
-
-#~ msgid "Popt Context"
-#~ msgstr "Popt-kontekst"
-
-#~ msgid "The popt context pointer that GnomeProgram is using"
-#~ msgstr "Popt-kontekst peker som brukes av GnomeProgram"
-
-#~ msgid "GOption Context"
-#~ msgstr "GOption-kontekst"
-
-#~ msgid "The goption context pointer that GnomeProgram is using"
-#~ msgstr "Peker til GOption-kontekst som brukes av GnomeProgram"
-
-#~ msgid "Human readable name"
-#~ msgstr "Lesbart navn"
-
-#~ msgid "Human readable name of this application"
-#~ msgstr "Lebart navn for dette programmet"
-
-#~ msgid "GNOME path"
-#~ msgstr "GNOME sti"
-
-#~ msgid "Path in which to look for installed files"
-#~ msgstr "Sti hvor det skal letes etter installerte filer"
-
-#~ msgid "App ID"
-#~ msgstr "App-ID"
-
-#~ msgid "ID string to use for this application"
-#~ msgstr "ID-streng som skal brukes for dette programmet"
-
-#~ msgid "App version"
-#~ msgstr "Versjon av program"
-
-#~ msgid "GNOME Prefix"
-#~ msgstr "GNOME prefiks"
-
-#~ msgid "Prefix where GNOME was installed"
-#~ msgstr "Prefiks hvor GNOME er installert"
-
-#~ msgid "GNOME Libdir"
-#~ msgstr "GNOME libdir"
-
-#~ msgid "Library prefix where GNOME was installed"
-#~ msgstr "Prefiks hvor GNOME-bibilotekene er installert"
-
-#~ msgid "GNOME Datadir"
-#~ msgstr "GNOME datadir"
-
-#~ msgid "Data prefix where GNOME was installed"
-#~ msgstr "Prefiks hvor datafiler for GNOME er installert"
-
-#~ msgid "GNOME Sysconfdir"
-#~ msgstr "GNOME sysconfdir"
-
-#~ msgid "Configuration prefix where GNOME was installed"
-#~ msgstr "Prefiks hvor GNOME konfigurasjonsfiler er installert"
-
-#~ msgid "GNOME App Prefix"
-#~ msgstr "GNOME app prefiks"
-
-#~ msgid "Prefix where this application was installed"
-#~ msgstr "Prefiks hvor dette programmet er installert"
-
-#~ msgid "GNOME App Libdir"
-#~ msgstr "GNOME app libdir"
-
-#~ msgid "Library prefix where this application was installed"
-#~ msgstr "Prefiks for biblioteker for dette programmet"
-
-#~ msgid "GNOME App Datadir"
-#~ msgstr "GNOME app datadir"
-
-#~ msgid "Data prefix where this application was installed"
-#~ msgstr "Prefiks for data for dette programmet"
-
-#~ msgid "GNOME App Sysconfdir"
-#~ msgstr "GNOME app sysconfdir"
-
-#~ msgid "Configuration prefix where this application was installed"
-#~ msgstr "Prefiks for konfigurasjonsfiler for dette programmet"
-
-#~ msgid "Create Directories"
-#~ msgstr "Lag kataloger"
-
-#~ msgid "Create standard GNOME directories on startup"
-#~ msgstr "Opprett standard GNOME kataloger ved oppstart"
-
-#~ msgid "Enable sound on startup"
-#~ msgstr "Aktiver lyd ved oppstart"
-
-#~ msgid "Espeaker"
-#~ msgstr "Espeaker"
-
-#~ msgid "How to connect to esd"
-#~ msgstr "Hvordan koble til esd"
-
-#~ msgid "Help options"
-#~ msgstr "Hjelp-alternativ"
-
-#~ msgid "Application options"
-#~ msgstr "Alternativer for programmer"
-
-#~ msgid "Dynamic modules to load"
-#~ msgstr "Dynamiske moduler som skal lastes"
-
-#~ msgid "MODULE1,MODULE2,..."
-#~ msgstr "MODUL1,MODUL2, …"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Kjør «%s --help» for å se en full liste med tilgjengelige "
-#~ "kommandolinjeflagg.\n"
-
-#~ msgid "Unknown internal error while displaying this location."
-#~ msgstr "Ukjent intern feil under visning av denne lokasjonen."
-
-#~ msgid "The specified location is invalid."
-#~ msgstr "Spesifisert lokasjon er ugyldig."
-
-#~ msgid ""
-#~ "There was an error parsing the default action command associated with "
-#~ "this location."
-#~ msgstr ""
-#~ "Det oppsto en feil under lesing av forvalgt handlingskommando assosiert "
-#~ "med denne lokasjonen."
-
-#~ msgid ""
-#~ "There was an error launching the default action command associated with "
-#~ "this location."
-#~ msgstr ""
-#~ "Det oppsto en feil under oppstart av forvalgt handlingskommando assosiert "
-#~ "med denne lokasjonen."
-
-#~ msgid "There is no default action associated with this location."
-#~ msgstr "Det finnes ingen forvalgt handling asossiert med denne lokasjonen."
-
-#~ msgid "The default action does not support this protocol."
-#~ msgstr "Forvalgt handling støtter ikke denne protokollen."
-
-#~ msgid "The request was cancelled."
-#~ msgstr "Forespørselen ble avbrutt."
-
-#~ msgid "The host \"%s\" could not be found."
-#~ msgstr "Verten «%s» ble ikke funnet."
-
-#~ msgid "The host could not be found."
-#~ msgstr "Verten ble ikke funnet."
-
-#~ msgid "The location or file could not be found."
-#~ msgstr "Lokasjonen eller filen ble ikke funnet."
-
-#~ msgid "The login has failed."
-#~ msgstr "Pålogging feilet."
-
-#~ msgid "Error showing url: %s\n"
-#~ msgstr "Feil under visning av URL: %s\n"
-
-#~ msgid "Extra Moniker factory"
-#~ msgstr "Ekstra moniker factory"
-
-#~ msgid "GConf moniker"
-#~ msgstr "GConf moniker"
-
-#~ msgid "config indirect moniker"
-#~ msgstr "config indirekt moniker"
-
-#~ msgid "Unknown type"
-#~ msgstr "Ukjent type"
-
-#~ msgid "Key %s not found in configuration"
-#~ msgstr "Nøkkel %s ble ikke funnet i konfigurasjonen"
-
-#~ msgid "minimum interval in milliseconds"
-#~ msgstr "minste intervall i millisekunder"
-
-#~ msgid ""
-#~ "List of assistive technology applications to start when logging into the "
-#~ "GNOME desktop."
-#~ msgstr ""
-#~ "Liste over programmer med hjelpeteknologi som skal startes ved innlogging "
-#~ "til GNOME skrivebordet."
-
-#~ msgid "Startup Assistive Technology Applications"
-#~ msgstr "Oppstart av programmer med hjelpeteknologi"
-
-#~ msgid ""
-#~ "GNOME to start preferred Mobility assistive technology application during "
-#~ "login."
-#~ msgstr ""
-#~ "GNOME skal starte foretrukket hjelpeteknologi for mobilitet ved "
-#~ "innlogging."
-
-#~ msgid "Preferred Mobility assistive technology application"
-#~ msgstr "Foretrukket program for hjelpeteknologi for mobilitet"
-
-#~ msgid ""
-#~ "Preferred Mobility assistive technology application to be used for login, "
-#~ "menu, or command line."
-#~ msgstr ""
-#~ "Foretrukket hjelpeteknologi for bevegelseshemmede som skal brukes ved "
-#~ "innlogging, meny, eller kommandolinje."
-
-#~ msgid "Start preferred Mobility assistive technology application"
-#~ msgstr "Oppstart av foretrukket hjelpeteknologi for mobilitet"
-
-#~ msgid ""
-#~ "GNOME to start preferred Visual assistive technology application during "
-#~ "login."
-#~ msgstr ""
-#~ "Om foretrukket hjelpeteknologi for tilgjengelighet for svaksynte skal "
-#~ "startes av GNOME ved innlogging."
-
-#~ msgid "Preferred Visual assistive technology application"
-#~ msgstr ""
-#~ "Foretrukket program med hjelpeteknologi for tilgjengelighet for svaksynte"
-
-#~ msgid ""
-#~ "Preferred Visual assistive technology application be used for login, "
-#~ "menu, or command line."
-#~ msgstr ""
-#~ "Foretrukket hjelpeteknologi for synshemmede som skal brukes ved "
-#~ "innlogging, meny, eller kommandolinje."
-
-#~ msgid "Start preferred Visual assistive technology application"
-#~ msgstr "Oppstart av programmer med hjelpeteknologi"
-
-#~ msgid "Browser needs terminal"
-#~ msgstr "Nettleser trenger terminal"
-
-#~ msgid "Browser understands remote"
-#~ msgstr "Nettleser forstår eksterne kommandoer"
-
-#~ msgid "Default browser"
-#~ msgstr "Forvalgt nettleser"
-
-#~ msgid "Default browser for all URLs."
-#~ msgstr "Forvalgt nettleser for alle URLer."
-
-#~ msgid "Whether the default browser needs a terminal to run."
-#~ msgstr "Om forvalgt leser trenger en terminal for å kjøre."
-
-#~ msgid "Whether the default browser understands netscape remote."
-#~ msgstr "Om forvalgt leser forstår netscape remote-protokollen."
-
-#~ msgid ""
-#~ "A list with names of the first window manager workspaces. This key has "
-#~ "been deprecated since GNOME 2.12."
-#~ msgstr ""
-#~ "En liste med navn for de første arbeidsområdene i vindushåndtereren. "
-#~ "Denne nøkkelen er ikke anbefalt brukt etter GNOME 2.12."
-
-#~ msgid "Fallback window manager (deprecated)"
-#~ msgstr "Reserve-vindushåndterer (fases ut)"
-
-#~ msgid ""
-#~ "Fallback window manager if user window manager can't be found. This key "
-#~ "has been deprecated since GNOME 2.12."
-#~ msgstr ""
-#~ "Reserve-vindushåndterer hvis brukerens vindushåndterer ikke kan finnes. "
-#~ "Denne nøkkelen skal fases ut etter GNOME 2.12."
-
-#~ msgid "Names of the workspaces (deprecated)"
-#~ msgstr "Navn på arbeidsområder (fases ut)"
-
-#~ msgid "The number of workspaces (deprecated)"
-#~ msgstr "Antall arbeidsområder (fases ut)"
-
-#~ msgid ""
-#~ "The number of workspaces the window manager should use This key has been "
-#~ "deprecated since GNOME 2.12."
-#~ msgstr ""
-#~ "Antall arbeidsområder vindushåntereren skal bruke. Denne nøkkelen skal "
-#~ "fases ut etter GNOME 2.12."
-
-#~ msgid "User window manager (deprecated)"
-#~ msgstr "Brukers vindushåndterer (fases ut)"
-
-#~ msgid ""
-#~ "Window manager to try first. This key has been deprecated since GNOME "
-#~ "2.12."
-#~ msgstr ""
-#~ "Vindushåndterer som skal prøves først. Denne nøkkelen skal fases ut etter "
-#~ "GNOME 2.12."
-
-#~ msgid "File to use for the background image."
-#~ msgstr "Fil som skal brukes som bakgrunnsbilde."
-
-#~ msgid "Picture Filename"
-#~ msgstr "Filnavn for bilde"
-
-#~ msgid "File Icon Theme"
-#~ msgstr "Ikontema for fil"
-
-#~ msgid "Theme used for displaying file icons."
-#~ msgstr "Tema som brukes for å vise filikoner."
-
-#~ msgid "Module for GtkFileChooser"
-#~ msgstr "Modul for GtkFileChooser"
-
-#~ msgid ""
-#~ "Module to use as the filesystem model for the GtkFileChooser widget. "
-#~ "Possible values are \"gio\", \"gnome-vfs\" and \"gtk+\"."
-#~ msgstr ""
-#~ "Modul som skal brukes som filsystemmodell for GtkFileChooser-komponenten. "
-#~ "Mulige verdier er «gio», «gnome-vfs» og «gtk+»."
-
-#~ msgid "Status Bar on Right"
-#~ msgstr "Statuslinje til høyre"
-
-#~ msgid "Use Custom Font"
-#~ msgstr "Bruk egendefinert skrift."
-
-#~ msgid "Whether to display a status bar meter on the right."
-#~ msgstr "Om statuslinje skal vises til høyre."
-
-#~ msgid "Whether to use a custom font in gtk+ applications."
-#~ msgstr "Om egendefinert skrift skal brukes i gtk+-programmer."
-
-#~ msgid "File name of the bell sound to be played."
-#~ msgstr "Filnavn for lyd for tastaturpip som skal spilles."
-
-#~ msgid "Keyboard Bell Custom Filename"
-#~ msgstr "Filnavn for egendefinert tastaturpip"
-
-#~ msgid "Remember NumLock state"
-#~ msgstr "Husk tilstand for NumLock"
-
-#~ msgid ""
-#~ "When set to true, GNOME will remember the state of the NumLock LED "
-#~ "between sessions."
-#~ msgstr ""
-#~ "GNOME vil huske tilstand for NumLock mellom økter hvis denne settes til "
-#~ "«true»."
-
-#~ msgid "possible values are \"on\", \"off\", and \"custom\"."
-#~ msgstr "mulige verdier er «on», «off» og «custom»."
-
-#~ msgid ""
-#~ "Acceleration multiplier for mouse motion. A value of -1 is the system "
-#~ "default."
-#~ msgstr ""
-#~ "Multipliserer for akselerasjon av musbevegelse. En verdi på -1 er "
-#~ "forvalgt for systemet."
-
-#~ msgid "Cursor font"
-#~ msgstr "Skrift for markør"
-
-#~ msgid "Distance before a drag is started."
-#~ msgstr "Avstand før draoperasjon startes."
-
-#~ msgid ""
-#~ "Distance in pixels the pointer must move before accelerated mouse motion "
-#~ "is activated. A value of -1 is the system default."
-#~ msgstr ""
-#~ "Avstand i piksler som pekeren må bevege seg før akselerert musbevegelse "
-#~ "aktiveres. -1 er systemets forvalgte verdi."
-
-#~ msgid "Drag Threshold"
-#~ msgstr "Terskel for dra-operasjon"
-
-#~ msgid ""
-#~ "Font name of the cursor. If unset, the default font is used. This value "
-#~ "is only propagated to the X server start of each session, so changing it "
-#~ "mid-session won't have an effect until the next time you log in."
-#~ msgstr ""
-#~ "Skriftnavn for markøren. Hvis denne ikke er satt brukes forvalgt skrift. "
-#~ "Denne verdien videresendes kun til X-tjeneren ved oppstart av en økt, så "
-#~ "den har ingen effekt før ved neste innlogging hvis den endres i en økt."
-
-#~ msgid ""
-#~ "Highlights the current location of the pointer when the Control key is "
-#~ "pressed and released."
-#~ msgstr ""
-#~ "Uthever pekerens nåværende plassering når Ctrl-tasten trykkes ned og "
-#~ "slippes."
-
-#~ msgid "Locate Pointer"
-#~ msgstr "Lokaliser peker"
-
-#~ msgid "Mouse button orientation"
-#~ msgstr "Orientering for musknapper"
-
-#~ msgid "Swap left and right mouse buttons for left-handed mice."
-#~ msgstr "Bytt om høyre og venstre musknapp for venstrehendte mus."
-
-#~ msgid "Default mixer device"
-#~ msgstr "Forvalgt mikserenhet"
-
-#~ msgid "Default mixer tracks"
-#~ msgstr "Forvalgte spor for mikser"
-
-#~ msgid "Enable ESD"
-#~ msgstr "Aktiver ESD"
-
-#~ msgid "Enable sound server startup."
-#~ msgstr "Aktiver oppstart av lydtjener."
-
-#~ msgid "The default mixer device used by the multimedia key bindings."
-#~ msgstr ""
-#~ "Forvalgt mikserenhet som brukes av tastaturbindinger for multimedia."
-
-#~ msgid "The default mixer tracks used by the multimedia key bindings."
-#~ msgstr ""
-#~ "Forvalgte spor for mikser som brukes av tastaturbindinger for multimedia."
-
-#~ msgid "Allow postponing of breaks"
-#~ msgstr "Tillat utsetting av pauser"
-
-#~ msgid "Break time"
-#~ msgstr "Pausetid"
-
-#~ msgid "Number of minutes of typing time before break mode starts."
-#~ msgstr "Antall minutter med skriving før pausemodus starter."
-
-#~ msgid "Number of minutes that the typing break should last."
-#~ msgstr "Antall minutter skrivepausen skal vare."
-
-#~ msgid "Type time"
-#~ msgstr "Skrivetid"
-
-#~ msgid "Whether or not keyboard locking is enabled"
-#~ msgstr "Om låsing av tastaturet er aktivert"
-
-#~ msgid "Whether or not the typing break screen can be postponed."
-#~ msgstr "Om skrivepausen kan utsettes eller ikke."
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:18
+msgid "HTTP proxy password"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:19
+msgid "Password to pass as authentication when doing HTTP proxying."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:20
+msgid "Secure HTTP proxy host name"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:21
+msgid "The machine name to proxy secure HTTP through."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:22
+msgid "Secure HTTP proxy port"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:23
+msgid ""
+"The port on the machine defined by \"/system/proxy/https/host\" that you "
+"proxy through."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:24
+msgid "FTP proxy host name"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:25
+msgid "The machine name to proxy FTP through."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:26
+msgid "FTP proxy port"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:27
+msgid ""
+"The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
+"through."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:28
+msgid "SOCKS proxy host name"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:29
+msgid "The machine name to use as a SOCKS proxy."
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:30
+msgid "SOCKS proxy port"
+msgstr ""
+
+#: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:31
+msgid ""
+"The port on the machine defined by \"/system/proxy/socks/host\" that you "
+"proxy through."
+msgstr ""
