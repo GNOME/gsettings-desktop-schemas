@@ -6,13 +6,14 @@
 # Bruno Brouard <annoa.b@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gsettings-desktop-schemas gnome-3-4\n"
+"Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-05-05 10:42+0000\n"
-"PO-Revision-Date: 2012-05-12 11:30+0200 \n"
+"POT-Creation-Date: 2012-09-04 20:35+0000\n"
+"PO-Revision-Date: 2012-06-12 14:22+0200\n"
 "Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -234,10 +235,11 @@ msgstr ""
 "« centered » (centré) : l'image de la souris est affichée au centre de la "
 "région d'agrandissement (qui représente aussi le point sous la souris "
 "système) et le contenu magnifié défile lorsque la souris système bouge ; - "
-"« proportional » (proportionnel) : la position de la souris magnifiée dans la "
-"région agrandie est proportionnellement identique à la position de la souris "
-"système sur l'écran ; - « push » (pousser) : lorsque la souris magnifiée "
-"atteint un bord de la région agrandie, le contenu défile dans la région."
+"« proportional » (proportionnel) : la position de la souris magnifiée dans "
+"la région agrandie est proportionnellement identique à la position de la "
+"souris système sur l'écran ; - « push » (pousser) : lorsque la souris "
+"magnifiée atteint un bord de la région agrandie, le contenu défile dans la "
+"région."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
 msgid "Screen position"
@@ -362,6 +364,115 @@ msgstr ""
 "Détermine si le pointeur en croix se superpose avec le dessin de la souris "
 "magnifiée ou est coupée de sorte que les extrémités des lignes horizontales "
 "et verticales entourent l'image de la souris."
+
+# Bruno :  lightness, brightness ???
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
+msgid "Inverse lightness"
+msgstr "Luminosité inverse"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
+msgid ""
+"Determines whether the lightness values are inverted: darker colors become "
+"lighter and vice versa, and white and black are interchanged."
+msgstr ""
+"Détermine si les valeurs de luminosité sont inversées : les couleurs sombres "
+"deviennent les plus claires et vice versa et le blanc et noir sont échangés."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
+msgid "Color Saturation"
+msgstr "Saturation des couleurs"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
+msgid ""
+"Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 "
+"(full color)."
+msgstr ""
+"Représente un changement de la saturation des couleurs, de 0.0 (niveaux de "
+"gris) à 1.0 (pleines couleurs)."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
+msgid "Change brightness of red"
+msgstr "Modification de la luminosité du rouge"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
+msgid ""
+"Represents a change to the default brightness of the red component. Zero "
+"indicates no change, values less than zero indicate a decrease, and values "
+"greater than zero indicate an increase."
+msgstr ""
+"Représente une modification de la luminosité de la composante rouge par "
+"défaut. Zéro signifie aucune modification, les valeurs inférieures à zéro "
+"une diminution et les valeurs supérieures une augmentation."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
+msgid "Change brightness of green"
+msgstr "Modification de la luminosité du vert"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
+msgid ""
+"Represents a change to the default brightness for the green component. Zero "
+"indicates no change, values less than zero indicate a decrease, and values "
+"greater than zero indicate an increase."
+msgstr ""
+"Représente une modification de la luminosité de la composante verte par "
+"défaut. Zéro signifie aucune modification, les valeurs inférieures à zéro "
+"une diminution et les valeurs supérieures une augmentation."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
+msgid "Change brightness of blue"
+msgstr "Modification de la luminosité du bleu"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
+msgid ""
+"Represents a change to the default brightness for the blue component. Zero "
+"indicates no change, values less than zero indicate a decrease, and values "
+"greater than zero indicate an increase."
+msgstr ""
+"Représente une modification de la luminosité de la composante bleue par "
+"défaut. Zéro signifie aucune modification, les valeurs inférieures à zéro "
+"une diminution et les valeurs supérieures une augmentation."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
+msgid "Change contrast of red"
+msgstr "Modification du contraste du rouge"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
+msgid ""
+"Represents a change to the default contrast of the red component. Zero "
+"indicates no change in contrast, values less than zero indicate a decrease, "
+"and values greater than zero indicate an increase."
+msgstr ""
+"Représente une modification du contraste de la composante rouge par défaut. "
+"Zéro signifie aucune modification, les valeurs inférieures à zéro une "
+"diminution et les valeurs supérieures une augmentation."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
+msgid "Change contrast of green"
+msgstr "Modification du contraste du vert"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
+msgid ""
+"Represents a change to the default contrast of the green component. Zero "
+"indicates no change in contrast, values less than zero indicate a decrease, "
+"and values greater than zero indicate an increase."
+msgstr ""
+"Représente une modification du contraste de la composante verte par défaut. "
+"Zéro signifie aucune modification, les valeurs inférieures à zéro une "
+"diminution et les valeurs supérieures une augmentation."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
+msgid "Change contrast of blue"
+msgstr "Modification du contraste du bleu"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
+msgid ""
+"Represents a change to the default contrast of the blue component. Zero "
+"indicates no change in contrast, values less than zero indicate a decrease, "
+"and values greater than zero indicate an increase."
+msgstr ""
+"Représente une modification du contraste de la composante bleue par défaut. "
+"Zéro signifie aucune modification, les valeurs inférieures à zéro une "
+"diminution et les valeurs supérieures une augmentation."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
 msgid "Dwell click time"
@@ -605,6 +716,62 @@ msgid ""
 msgstr ""
 "Argument utilisé pour exécuter des programmes dans le terminal, défini par "
 "la clé « exec »."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
+msgid "Current input source"
+msgstr "Source d'entrée actuelle"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
+msgid ""
+"The zero-based index into the input sources list specifying the current one "
+"in effect. The value is automatically capped to remain in the range [0, "
+"sources_length)."
+msgstr ""
+"L'indice, commençant à zéro, dans la liste des sources d'entrée spécifiant "
+"celle actuellement en action. La valeur est automatiquement limitée pour "
+"rester dans l'intervalle [0,sources_length)."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
+msgid "List of input sources"
+msgstr "Liste des sources d'entrée"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
+msgid ""
+"List of input source identifiers available. Each source is specified as a "
+"tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
+"'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or "
+"just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the "
+"second string is the IBus engine name."
+msgstr ""
+"La liste des identifiants de source d'entrée disponible. Chaque source est "
+"spécifiée comme un couple de 2 chaînes de caractères. La première est le "
+"type et peut être soit « xkb », soit « ibus ». Pour les sources « xkb », la "
+"seconde chaîne est « xkb_layout+xkb_variant » ou simplement « xkb_layout » "
+"si une variante XKB n'est pas nécessaire. Pour les sources « ibus », la "
+"seconde chaîne est le nom du moteur IBus."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
+msgid "List of XKB options"
+msgstr "Liste des options XKB"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:6
+msgid ""
+"List of XKB options. Each option is an XKB option string as defined by "
+"xkeyboard-config's rules files."
+msgstr ""
+"Liste des options XKB. Chacune des options est une chaîne d'option tel que "
+"définie dans les fichiers de règles de xkeyboard-config."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:7
+msgid "Show all installed input sources"
+msgstr "Afficher toutes les sources d'entrée installées"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:8
+msgid ""
+"Makes all installed input sources available for choosing in System Settings."
+msgstr ""
+"Rend toutes les sources d'entrée installées disponibles pour sélection dans "
+"les paramètres système."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -914,8 +1081,8 @@ msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
-"Une liste séparée par « \\n » de « name:color » (nom:couleur) comme défini par "
-"le paramètre « gtk-color-scheme »"
+"Une liste séparée par « \\n » de « name:color » (nom:couleur) comme défini "
+"par le paramètre « gtk-color-scheme »"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
 msgid "Whether the clock displays in 24h or 12h format"
@@ -1162,10 +1329,22 @@ msgstr ""
 "verrouillage de l'écran."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr "Afficher les notifications dans l'écran verrouillé"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+msgid ""
+"Whether notifications are shown in the lock screen or not. This only affects "
+"the standard experience."
+msgstr ""
+"Indique si les notifications sont affichées lorsque l'écran est verrouillé. "
+"Cela n'affecte que l'expérience standard."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr "Permettre d'intégrer un clavier dans la fenêtre"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1175,11 +1354,11 @@ msgstr ""
 "la fenêtre lors du déverrouillage. La clé «embedded-keyboard_command » doit "
 "être définie avec la commande appropriée."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr "Commande pour le clavier incorporé"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1191,11 +1370,11 @@ msgstr ""
 "doit implémenter une interface de greffon XEMBED et afficher une fenêtre XID "
 "sur l'affichage standard."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "Permettre la déconnexion"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key."
@@ -1204,11 +1383,11 @@ msgstr ""
 "déverrouillage pour permettre la déconnexion après un délai. Le délai est "
 "spécifié dans la clé « logout_delay »."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr "Délai avant l'option de déconnexion"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1218,11 +1397,11 @@ msgstr ""
 "qu'une option de déconnexion apparaisse dans le dialogue de déverrouillage. "
 "Cette clé n'a un effet que si la clé « logout_enable » est définie à VRAI."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr "Commande de déconnexion"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1232,11 +1411,11 @@ msgstr ""
 "commande doit tout simplement déconnecter l'utilisateur sans interaction. "
 "Cette clé n'a un effet que si la clé « logout_enable » est définie à VRAI."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr "Permettre le changement d'utilisateur"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1244,11 +1423,11 @@ msgstr ""
 "Définissez cette clé à VRAI pour offrir une option dans le dialogue de "
 "déverrouillage pour basculer vers à un autre compte d'utilisateur."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr "Permettre au message de statut de session d'être affiché"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Allow the session status message to be displayed when the screen is locked."
 msgstr ""
@@ -1665,7 +1844,8 @@ msgid ""
 msgstr ""
 "Définissez cette clé à vrai pour redimensionner avec le bouton droit et "
 "afficher un menu avec le bouton milieu en pressant la touche indiquée pour "
-"la clé « mouse-button-modifier » ; définissez-la à faux dans le cas contraire."
+"la clé « mouse-button-modifier » ; définissez-la à faux dans le cas "
+"contraire."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:5
 msgid "Arrangement of buttons on the titlebar"
@@ -1794,15 +1974,16 @@ msgid ""
 "and 'none' which will not do anything."
 msgstr ""
 "Cette opération détermine les effets d'un double-clic sur la barre de titre. "
-"Les options valides actuellement sont « toggle-shade » (bascule enroulement), "
-"qui enroule/déroule la fenêtre, « toggle-maximize » (bascule maximisation) "
-"qui maximise/démaximise la fenêtre, « toggle-maximize-horizontally » (bascule "
-"maximisation horizontale) et « toggle-maximize-vertically » (bascule "
-"maximisation verticale) qui maximise/démaximise la fenêtre dans cette "
-"direction seulement, « minimize » (minimisation) qui minimise la fenêtre, "
-"« shade » (enroulement) qui enroule la fenêtre vers le haut, « menu » qui "
-"affiche le menu de la fenêtre, « lower » (arrière-plan) qui met cette fenêtre "
-"derrière toutes les autres et « none »(aucun) qui ne fait rien."
+"Les options valides actuellement sont « toggle-shade » (bascule "
+"enroulement), qui enroule/déroule la fenêtre, « toggle-maximize » (bascule "
+"maximisation) qui maximise/démaximise la fenêtre, « toggle-maximize-"
+"horizontally » (bascule maximisation horizontale) et « toggle-maximize-"
+"vertically » (bascule maximisation verticale) qui maximise/démaximise la "
+"fenêtre dans cette direction seulement, « minimize » (minimisation) qui "
+"minimise la fenêtre, « shade » (enroulement) qui enroule la fenêtre vers le "
+"haut, « menu » qui affiche le menu de la fenêtre, « lower » (arrière-plan) "
+"qui met cette fenêtre derrière toutes les autres et « none »(aucun) qui ne "
+"fait rien."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:15
 msgid "Action on title bar middle-click"
@@ -1820,15 +2001,16 @@ msgid ""
 "and 'none' which will not do anything."
 msgstr ""
 "Cette opération détermine les effets d'un clic milieu sur la barre de titre. "
-"Les options valides actuellement sont « toggle-shade » (bascule enroulement), "
-"qui enroule/déroule la fenêtre, « toggle-maximize » (bascule maximisation) "
-"qui maximise/démaximise la fenêtre, « toggle-maximize-horizontally » (bascule "
-"maximisation horizontale) et « toggle-maximize-vertically » (bascule "
-"maximisation verticale) qui maximise/démaximise la fenêtre dans cette "
-"direction seulement, « minimize » (minimisation) qui minimise la fenêtre, "
-"« shade » (enroulement) qui enroule la fenêtre vers le haut, « menu » qui "
-"affiche le menu de la fenêtre, « lower » (arrière-plan) qui met cette fenêtre "
-"derrière toutes les autres et « none »(aucun) qui ne fait rien."
+"Les options valides actuellement sont « toggle-shade » (bascule "
+"enroulement), qui enroule/déroule la fenêtre, « toggle-maximize » (bascule "
+"maximisation) qui maximise/démaximise la fenêtre, « toggle-maximize-"
+"horizontally » (bascule maximisation horizontale) et « toggle-maximize-"
+"vertically » (bascule maximisation verticale) qui maximise/démaximise la "
+"fenêtre dans cette direction seulement, « minimize » (minimisation) qui "
+"minimise la fenêtre, « shade » (enroulement) qui enroule la fenêtre vers le "
+"haut, « menu » qui affiche le menu de la fenêtre, « lower » (arrière-plan) "
+"qui met cette fenêtre derrière toutes les autres et « none »(aucun) qui ne "
+"fait rien."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:17
 msgid "Action on title bar right-click"
@@ -1846,15 +2028,16 @@ msgid ""
 "and 'none' which will not do anything."
 msgstr ""
 "Cette opération détermine les effets d'un clic droit sur la barre de titre. "
-"Les options valides actuellement sont « toggle-shade » (bascule enroulement), "
-"qui enroule/déroule la fenêtre, « toggle-maximize » (bascule maximisation) "
-"qui maximise/démaximise la fenêtre, « toggle-maximize-horizontally » (bascule "
-"maximisation horizontale) et « toggle-maximize-vertically » (bascule "
-"maximisation verticale) qui maximise/démaximise la fenêtre dans cette "
-"direction seulement, « minimize » (minimisation) qui minimise la fenêtre, "
-"« shade » (enroulement) qui enroule la fenêtre vers le haut, « menu » qui "
-"affiche le menu de la fenêtre, « lower » (arrière-plan) qui met cette fenêtre "
-"derrière toutes les autres et « none »(aucun) qui ne fait rien."
+"Les options valides actuellement sont « toggle-shade » (bascule "
+"enroulement), qui enroule/déroule la fenêtre, « toggle-maximize » (bascule "
+"maximisation) qui maximise/démaximise la fenêtre, « toggle-maximize-"
+"horizontally » (bascule maximisation horizontale) et « toggle-maximize-"
+"vertically » (bascule maximisation verticale) qui maximise/démaximise la "
+"fenêtre dans cette direction seulement, « minimize » (minimisation) qui "
+"minimise la fenêtre, « shade » (enroulement) qui enroule la fenêtre vers le "
+"haut, « menu » qui affiche le menu de la fenêtre, « lower » (arrière-plan) "
+"qui met cette fenêtre derrière toutes les autres et « none »(aucun) qui ne "
+"fait rien."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
 msgid "Automatically raises the focused window"
@@ -1869,9 +2052,9 @@ msgid ""
 msgstr ""
 "Si défini à vrai et que la clé focus-mode est définie à « sloppy » ou "
 "« mouse » alors la fenêtre activée est automatiquement mise au premier plan "
-"après un délai spécifié par la clé « auto-raise-delay ». Ceci n'est pas relié "
-"au clic sur une fenêtre pour la mettre au premier plan ni à l'entrée d'une "
-"fenêtre lors d'un glisser/déposer."
+"après un délai spécifié par la clé « auto-raise-delay ». Ceci n'est pas "
+"relié au clic sur une fenêtre pour la mettre au premier plan ni à l'entrée "
+"d'une fenêtre lors d'un glisser/déposer."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
 msgid "Delay in milliseconds for the auto raise option"
@@ -1883,8 +2066,8 @@ msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
 msgstr ""
-"Le délai avant la mise au premier plan d'une fenêtre si la clé « auto-raise » "
-"est définie à vrai. Le délai est fourni en millièmes de seconde."
+"Le délai avant la mise au premier plan d'une fenêtre si la clé « auto-"
+"raise » est définie à vrai. Le délai est fourni en millièmes de seconde."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:23
 msgid "Current theme"
@@ -1907,8 +2090,8 @@ msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
-"Si vrai, ignorer l'option « titlebar-font » et utiliser la police standard de "
-"l'application pour les titres de fenêtre."
+"Si vrai, ignorer l'option « titlebar-font » et utiliser la police standard "
+"de l'application pour les titres de fenêtre."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:27
 msgid "Window title font"
@@ -1951,8 +2134,8 @@ msgid ""
 "may be used in conjunction with 'visual bell' to allow silent 'beeps'."
 msgstr ""
 "Détermine si les application ou le système peuvent émettre des "
-"« bips » audibles ; cela peut être utilisé en conjonction avec la clé « visual-"
-"bell » pour permettre des « bips » silencieux."
+"« bips » audibles ; cela peut être utilisé en conjonction avec la clé "
+"« visual-bell » pour permettre des « bips » silencieux."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:33
 msgid "Enable Visual Bell"
@@ -1965,8 +2148,8 @@ msgid ""
 "environments."
 msgstr ""
 "Active une indication visuelle lorsqu'une application ou le système émet un "
-"« événement sonore » ou un « bip » ; c'est utile pour les personnes ayant des "
-"difficultés d'audition et dans les environnement bruyants."
+"« événement sonore » ou un « bip » ; c'est utile pour les personnes ayant "
+"des difficultés d'audition et dans les environnement bruyants."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:35
 msgid "Visual Bell Type"
@@ -2089,14 +2272,14 @@ msgstr ""
 "sont pas utilisés. S'il est sur « auto », le URL d'autoconfiguration décrit "
 "par la clé « autoconfig-url » est utilisé. S'il est sur « manual », les "
 "serveurs mandataires décrits par les clés « /system/proxy/http », « /system/"
-"proxy/https », « /system/proxy/ftp » et « /system/proxy/socks » sont utilisés. "
-"Chacun des 4 types de serveur mandataire est activé si la clé « host » est "
-"non-vide et la clé « port » est non nulle. Si un serveur mandataire http est "
-"configuré mais qu'un serveur mandataire https ne l'est pas, le serveur "
-"mandataire http sera également utilisé pour https. Si un serveur mandataire "
-"SOCKS est configuré, il sera utilisé pour tous les protocoles sauf que les "
-"paramètres de serveur mandataire http, https et ftp prennent le dessus pour "
-"ces protocoles seulement."
+"proxy/https », « /system/proxy/ftp » et « /system/proxy/socks » sont "
+"utilisés. Chacun des 4 types de serveur mandataire est activé si la clé "
+"« host » est non-vide et la clé « port » est non nulle. Si un serveur "
+"mandataire http est configuré mais qu'un serveur mandataire https ne l'est "
+"pas, le serveur mandataire http sera également utilisé pour https. Si un "
+"serveur mandataire SOCKS est configuré, il sera utilisé pour tous les "
+"protocoles sauf que les paramètres de serveur mandataire http, https et ftp "
+"prennent le dessus pour ces protocoles seulement."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
 msgid "Automatic proxy configuration URL"
@@ -2108,8 +2291,8 @@ msgid ""
 "URL is used to look up proxy information for all protocols."
 msgstr ""
 "URL qui fournit les valeurs de configuration de serveur mandataire. Lorsque "
-"le mode est « auto », cet URL est utilisé pour rechercher les informations de "
-"serveur mandataire pour tous les protocoles."
+"le mode est « auto », cet URL est utilisé pour rechercher les informations "
+"de serveur mandataire pour tous les protocoles."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:5
 msgid "Non-proxy hosts"
@@ -2243,8 +2426,8 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
 "through."
 msgstr ""
-"Le port sur la machine définie par « /system/proxy/ftp/host » à utiliser pour "
-"le service mandataire."
+"Le port sur la machine définie par « /system/proxy/ftp/host » à utiliser "
+"pour le service mandataire."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:28
 msgid "SOCKS proxy host name"
