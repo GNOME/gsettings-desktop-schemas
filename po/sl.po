@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-03-09 18:54+0000\n"
-"PO-Revision-Date: 2012-03-09 20:08+0100\n"
+"POT-Creation-Date: 2012-09-17 13:16+0000\n"
+"PO-Revision-Date: 2012-09-17 21:47+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: \n"
@@ -278,6 +278,70 @@ msgstr "Razdeli merke na središču"
 msgid "Determines whether the crosshairs intersect the magnified mouse sprite, or are clipped such that the ends of the horizontal and vertical lines surround the mouse image."
 msgstr "Določi ali se merek prekriža s povečano animacijo miške ali pa je obrezan tako, da konca vodoravne in navpične črte obkrožata sliko miške."
 
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
+msgid "Inverse lightness"
+msgstr "Obrnjena svetlost"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
+msgid "Determines whether the lightness values are inverted: darker colors become lighter and vice versa, and white and black are interchanged."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
+msgid "Color Saturation"
+msgstr "Nasičenost barve"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
+msgid "Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 (full color)."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
+msgid "Change brightness of red"
+msgstr "Spremeni svetlost rdeče "
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
+msgid "Represents a change to the default brightness of the red component. Zero indicates no change, values less than zero indicate a decrease, and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
+msgid "Change brightness of green"
+msgstr "Spremeni svetlost zelene"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
+msgid "Represents a change to the default brightness for the green component. Zero indicates no change, values less than zero indicate a decrease, and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
+msgid "Change brightness of blue"
+msgstr "Spremeni svetlost modre"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
+msgid "Represents a change to the default brightness for the blue component. Zero indicates no change, values less than zero indicate a decrease, and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
+msgid "Change contrast of red"
+msgstr "Spremeni kontrast rdeče"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
+msgid "Represents a change to the default contrast of the red component. Zero indicates no change in contrast, values less than zero indicate a decrease, and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
+msgid "Change contrast of green"
+msgstr "Spremeni kontrast zelene"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
+msgid "Represents a change to the default contrast of the green component. Zero indicates no change in contrast, values less than zero indicate a decrease, and values greater than zero indicate an increase."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
+msgid "Change contrast of blue"
+msgstr "Spremeni kontrast modre"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
+msgid "Represents a change to the default contrast of the blue component. Zero indicates no change in contrast, values less than zero indicate a decrease, and values greater than zero indicate an increase."
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
 msgid "Dwell click time"
 msgstr "Čas zadržanega klika"
@@ -477,6 +541,38 @@ msgstr "Argumenti za izvedbo"
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid "Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr "Argument, ki naj se uporabi za izvedbo programov v terminalu, ki so določeni kot ključ 'exec'."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
+msgid "Current input source"
+msgstr "Trenutni vhodni vir"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
+msgid "The zero-based index into the input sources list specifying the current one in effect. The value is automatically capped to remain in the range [0, sources_length) as long as the sources list isn't empty."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
+msgid "List of input sources"
+msgstr "Seznam vhodnih virov"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
+msgid "List of input source identifiers available. Each source is specified as a tuple of 2 strings. The first string is the type and can be one of 'xkb' or 'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the second string is the IBus engine name. An empty list means that the X server's current XKB layout and variant won't be touched and IBus won't be used."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
+msgid "List of XKB options"
+msgstr "Seznam možnosti XKB"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:6
+msgid "List of XKB options. Each option is an XKB option string as defined by xkeyboard-config's rules files."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:7
+msgid "Show all installed input sources"
+msgstr "Pokaži vse nameščene vhodne vire"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:8
+msgid "Makes all installed input sources available for choosing in System Settings."
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -903,58 +999,66 @@ msgid "The number of seconds after screensaver activation before locking the scr
 msgstr "Število sekund po zagonu ohranjevalnika zaslona preden se zaslon zaklene."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr "Pokaži obvestila na zaklenjenem zaslonu"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+msgid "Whether notifications are shown in the lock screen or not. This only affects the standard experience."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr "Dovoli vstavljanje tipkovnice v okno"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid "Set this to TRUE to allow embedding a keyboard into the window when trying to unlock. The \"keyboard_command\" key must be set with the appropriate command."
 msgstr "Izbrana možnost omogoča vstavitev tipkovnice v okno ob odklepanju. Ključ \"keyboard_command\" mora biti nastavljen z ustreznim ukazom."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr "Ukaz vstavljene tipkovnice"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid "The command that will be run, if the \"embedded_keyboard_enabled\" key is set to TRUE, to embed a keyboard widget into the window. This command should implement an XEMBED plug interface and output a window XID on the standard output."
 msgstr "Določa uporabljen ukaz, kadar je omogočen ključ \"embedded_keyboard_enabled\" za vstavljanje gradnika tipkovnice v okno. Ta ukaz bi moral izvajati vmesnik vstavka XEMBED in na standardni izhod izpisovati XID okna."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "Dovoli odjavo"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid "Set this to TRUE to offer an option in the unlock dialog to allow logging out after a delay. The delay is specified in the \"logout_delay\" key."
 msgstr "Izbrana možnost omogoča, da pogovorno okno za odklepanje ponudi možnost odjave po zamiku. Zamik je določen v ključu \"logout_delay\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr "Čas pred možnostjo odjave"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid "The number of seconds after the screensaver activation before a logout option will appear in the unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
 msgstr "Število sekund po zagonu ohranjevalnika zaslona preden se pojavi možnost za odjavo v pogovornem oknu za odklepanje zaslona. Ta ključ ima učinek le, če je omogočen ključ \"logout_enable\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr "Ukaz za odjavo"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid "The command to invoke when the logout button is clicked. This command should simply log the user out without any interaction. This key has effect only if the \"logout_enable\" key is set to TRUE."
 msgstr "Določa ukaz, ki bo priklican ob kliku na gumb za odjavo. Ta ukaz bi moral le odjaviti uporabnika, brez posegov uporabnika. Ključ ima učinek le, če je omogočen tudi ključ \"logout_enable\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr "Dovoli preklop uporabnikov"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid "Set this to TRUE to offer an option in the unlock dialog to switch to a different user account."
 msgstr "Izbrana možnost omogoča, da okno za pogovorno odklepanje ponudi možnost preklopa na drug uporabniški račun."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr "Dovoli prikaz sporočila stanja seje"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid "Allow the session status message to be displayed when the screen is locked."
 msgstr "Dovoli prikaz sporočila stanja seje, kadar je zaslon zaklenjen."
 
