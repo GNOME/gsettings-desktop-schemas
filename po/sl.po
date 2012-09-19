@@ -548,7 +548,7 @@ msgstr "Trenutni vhodni vir"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
 msgid "The zero-based index into the input sources list specifying the current one in effect. The value is automatically capped to remain in the range [0, sources_length) as long as the sources list isn't empty."
-msgstr ""
+msgstr "Števec v seznamu vhodnih virov, ki se začenja z nič in ki določa trenutni vir v uporabi. Vrednost se samodejno pomanjša, da ostaja v obsegu [0, dolžina_virov), vse dokler seznam virov ni prazen."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
 msgid "List of input sources"
@@ -556,7 +556,7 @@ msgstr "Seznam vhodnih virov"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
 msgid "List of input source identifiers available. Each source is specified as a tuple of 2 strings. The first string is the type and can be one of 'xkb' or 'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the second string is the IBus engine name. An empty list means that the X server's current XKB layout and variant won't be touched and IBus won't be used."
-msgstr ""
+msgstr "Seznam določil vhodnih virov, ki so na voljo. Vsak vir določa par nizov. Prvi niz določa vrsto in ima možni vrednosti 'xkb' in 'ibus'. Za vire 'xkb' je drugi niz 'xkb_layout+xkb_variant' ali zgolj 'xkb_layout', če različica XKB ni potrebna. Za vire 'ibus' je drugi niz ime ustroja IBus. Prazen seznam pomeni, da trenutna postavitev in različica XKB strežnika X ne bo dotaknjena in da vodilo IBus ne bo uporabljeno."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
 msgid "List of XKB options"
