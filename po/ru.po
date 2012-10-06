@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-09-25 23:28+0000\n"
-"PO-Revision-Date: 2012-09-29 22:50+0400\n"
+"PO-Revision-Date: 2012-10-06 15:04+0400\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -366,17 +366,17 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
 msgid "Color Saturation"
-msgstr ""
+msgstr "Насыщенность цвета"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
 msgid ""
 "Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 "
 "(full color)."
-msgstr ""
+msgstr "Изменяет насыщенность цвета от серого (0.0) до полноцветного (1.0)."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
 msgid "Change brightness of red"
-msgstr ""
+msgstr "Изменить яркость красного"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
 msgid ""
@@ -384,10 +384,12 @@ msgid ""
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
+"Изменяет яркость красного компонента. 0 — не изменять; отрицательные "
+"значения уменьшают яркость, положительные — увеличивают."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
 msgid "Change brightness of green"
-msgstr ""
+msgstr "Изменить яркость зелёного"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
 msgid ""
@@ -395,10 +397,12 @@ msgid ""
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
+"Изменяет яркость зелёного компонента. 0 — не изменять; отрицательные "
+"значения уменьшают яркость, положительные — увеличивают."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
 msgid "Change brightness of blue"
-msgstr ""
+msgstr "Изменить яркость синего"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
 msgid ""
@@ -406,10 +410,12 @@ msgid ""
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
+"Изменяет яркость синего компонента. 0 — не изменять; отрицательные значения "
+"уменьшают яркость, положительные — увеличивают."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
 msgid "Change contrast of red"
-msgstr ""
+msgstr "Изменить контрастность красного"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
 msgid ""
@@ -417,10 +423,12 @@ msgid ""
 "indicates no change in contrast, values less than zero indicate a decrease, "
 "and values greater than zero indicate an increase."
 msgstr ""
+"Изменяет контрастность красного компонента. 0 — не изменять; отрицательные "
+"значения уменьшают контрастность, положительные — увеличивают."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
 msgid "Change contrast of green"
-msgstr ""
+msgstr "Изменить контрастность зелёного"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
 msgid ""
@@ -428,10 +436,12 @@ msgid ""
 "indicates no change in contrast, values less than zero indicate a decrease, "
 "and values greater than zero indicate an increase."
 msgstr ""
+"Изменяет контрастность зелёного компонента. 0 — не изменять; отрицательные "
+"значения уменьшают контрастность, положительные — увеличивают."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
 msgid "Change contrast of blue"
-msgstr ""
+msgstr "Изменить контрастность синего"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
 msgid ""
@@ -439,6 +449,8 @@ msgid ""
 "indicates no change in contrast, values less than zero indicate a decrease, "
 "and values greater than zero indicate an increase."
 msgstr ""
+"Изменяет контрастность синего компонента. 0 — не изменять; отрицательные "
+"значения уменьшают контрастность, положительные — увеличивают."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
 msgid "Dwell click time"
@@ -450,43 +462,51 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:3
 msgid "Movement threshold"
-msgstr ""
+msgstr "Порог перемещения"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:4
 msgid "Distance in pixels before movement will be recognized."
-msgstr ""
+msgstr "Расстояние в пикселах, необходимое для распознавания перемещения."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:5
 msgid "Gesture single click"
-msgstr ""
+msgstr "Жест одиночного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:6
 msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgstr ""
+"Направление для выполнения одиночного щелчка («left» — влево; «right» — "
+"вправо; «up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:7
 msgid "Gesture double click"
-msgstr ""
+msgstr "Жест двойного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:8
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgstr ""
+"Направление для выполнения двойного щелчка («left» — влево; «right» — "
+"вправо; «up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:9
 msgid "Gesture drag click"
-msgstr ""
+msgstr "Жест перетаскивания"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:10
 msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
 msgstr ""
+"Направление для выполнения перетаскивания («left» — влево; «right» — вправо; "
+"«up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:11
 msgid "Gesture secondary click"
-msgstr ""
+msgstr "Жест вторичного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:12
 msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
 msgstr ""
+"Направление для выполнения вторичного щелчка («left» — влево; «right» — "
+"вправо; «up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:13
 msgid "Dwell click mode"
@@ -499,11 +519,11 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:15
 msgid "Show click type window"
-msgstr ""
+msgstr "Показать окно с видом щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:16
 msgid "Show click type window."
-msgstr ""
+msgstr "Показать окно с видом щелчка."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:17
 msgid "Enable dwell clicks"
@@ -515,23 +535,23 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:19
 msgid "Secondary click enabled"
-msgstr ""
+msgstr "Вторичный щелчок включён"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:20
 msgid "Enable simulated secondary clicks"
-msgstr ""
+msgstr "Включить эмуляцию вторичных щелчков"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:21
 msgid "Secondary click time"
-msgstr ""
+msgstr "Время вторичного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
-msgstr ""
+msgstr "Время в секундах перед тем, как сработает вторичный щелчок."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 msgid "Draw Desktop Background"
-msgstr ""
+msgstr "Отрисовывать фон рабочего стола"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
 msgid "Have GNOME draw the desktop background."
@@ -539,7 +559,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
 msgid "Picture Options"
-msgstr ""
+msgstr "Параметры изображения"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
@@ -550,13 +570,15 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
 msgid "Picture URI"
-msgstr ""
+msgstr "URI изображения"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
 msgid ""
 "URI to use for the background image. Not that the backend only supports "
 "local (file://) URIs."
 msgstr ""
+"URI изображения, используемого для фона. Заметьте, что поддерживаются только "
+"локальные URI (file://)."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
 msgid "Picture Opacity"
@@ -594,64 +616,70 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
 msgid "Have file manager handle the desktop"
-msgstr ""
+msgstr "Должен ли файловый менеджер управлять рабочим столом"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
+"Если установлено, тогда файловый менеджер будет отрисовывать значки на "
+"рабочем столе."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Default calendar"
-msgstr ""
+msgstr "Приложение календаря по умолчанию"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
 msgid "Default calendar application"
-msgstr ""
+msgstr "Приложение календаря по умолчанию"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
-msgstr ""
+msgstr "Приложению календаря нужен терминал"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
 msgid "Whether the default calendar application needs a terminal to run."
-msgstr ""
+msgstr "Требуется ли запуск терминала для приложения календаря."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
-msgstr ""
+msgstr "Приложение для задач по умолчанию"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:6
 msgid "Default tasks application."
-msgstr ""
+msgstr "Приложение для задач по умолчанию."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:7
 msgid "Tasks needs terminal"
-msgstr ""
+msgstr "Приложению задач нужен терминал"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:8
 msgid "Whether the default tasks application needs a terminal to run."
-msgstr ""
+msgstr "Требуется ли запуск терминала для приложения задач."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:9
 msgid "Terminal application"
-msgstr ""
+msgstr "Приложение терминала"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
 msgid "Terminal program to use when starting applications that require one."
 msgstr ""
+"Используемое приложение терминала, запускаемое для приложений, которым нужен "
+"терминал."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
-msgstr ""
+msgstr "Аргументы запуска"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
 "Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr ""
+"Аргумент, используемый для запуска программ в терминале; задаётся ключом "
+"«exec»."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
 msgid "Current input source"
-msgstr ""
+msgstr "Текущий источник ввода"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
 msgid ""
@@ -662,7 +690,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
 msgid "List of input sources"
-msgstr ""
+msgstr "Список источников ввода"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
 msgid ""
