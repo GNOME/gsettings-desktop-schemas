@@ -15,6 +15,7 @@ desktop_gschemas_in_in =						\
 	org.gnome.desktop.background.gschema.xml.in.in			\
 	org.gnome.desktop.media-handling.gschema.xml.in.in		\
 	org.gnome.desktop.screensaver.gschema.xml.in.in			\
+	org.gnome.desktop.search-providers.gschema.xml.in.in		\
 	org.gnome.desktop.wm.keybindings.gschema.xml.in.in		\
 	org.gnome.desktop.wm.preferences.gschema.xml.in.in		\
 	org.gnome.desktop.input-sources.gschema.xml.in.in
