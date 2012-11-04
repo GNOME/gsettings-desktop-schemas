@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-09-25 23:28+0000\n"
-"PO-Revision-Date: 2012-10-13 13:35+0400\n"
+"PO-Revision-Date: 2012-10-16 12:05+0400\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -454,11 +454,11 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
 msgid "Dwell click time"
-msgstr ""
+msgstr "Щелчок при наведении"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:2
 msgid "Time in seconds before a click is triggered."
-msgstr ""
+msgstr "Задержка в секундах перед срабатыванием щелчка."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:3
 msgid "Movement threshold"
@@ -510,12 +510,14 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:13
 msgid "Dwell click mode"
-msgstr ""
+msgstr "Режим щелчка при наведении"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:14
 msgid ""
 "The active dwell click mode. Possible values are 'window' and 'gesture'."
 msgstr ""
+"Используемый режим щелчка при наведении. Возможные значения: «window», "
+"«gesture»."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:15
 msgid "Show click type window"
@@ -527,11 +529,11 @@ msgstr "Показать окно с видом щелчка."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:17
 msgid "Enable dwell clicks"
-msgstr ""
+msgstr "Разрешить щелчки при наведении"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:18
 msgid "Enable dwell clicks."
-msgstr ""
+msgstr "Разрешить щелчки при наведении."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:19
 msgid "Secondary click enabled"
@@ -555,7 +557,7 @@ msgstr "Отрисовывать фон рабочего стола"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
 msgid "Have GNOME draw the desktop background."
-msgstr ""
+msgstr "GNOME должен отрисовывать фон рабочего стола."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
 msgid "Picture Options"
@@ -567,6 +569,9 @@ msgid ""
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
 "\"zoom\", \"spanned\"."
 msgstr ""
+"Определяет способ отрисовки изображения для фона рабочего стола. Возможные "
+"значения: «none», «wallpaper», «centered», «scaled», «stretched», «zoom», "
+"«spanned»."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
 msgid "Picture URI"
@@ -754,21 +759,23 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:5
 msgid "Menus Have Tearoff"
-msgstr ""
+msgstr "Отрывные меню"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:6
 msgid "Whether menus should have a tearoff."
-msgstr ""
+msgstr "Можно ли отрывать меню."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:7
 msgid "Can Change Accels"
-msgstr ""
+msgstr "Можно менять ускорители"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:8
 msgid ""
 "Whether the user can dynamically type a new accelerator when positioned over "
 "an active menuitem."
 msgstr ""
+"Может ли пользователь динамически использовать новый ускоритель для активных "
+"элементов меню."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:9
 msgid "Toolbar Style"
@@ -870,11 +877,11 @@ msgstr "Базовое имя темы по умолчанию, использу
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
 msgid "Gtk+ Keybinding Theme"
-msgstr ""
+msgstr "Тема привязки клавиш Gtk+"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
 msgid "Basename of the default keybinding theme used by gtk+."
-msgstr ""
+msgstr "Базовое имя темы привязки клавиш по умолчанию, используемой gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
 msgid "Default font"
@@ -886,12 +893,14 @@ msgstr "Имя шрифта по умолчанию, используемого 
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "Text scaling factor"
-msgstr ""
+msgstr "Коэффициент масштабирования текста"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
+"Коэффициент масштабирования текста (при изменении коэффициента размер шрифта "
+"не изменяется)."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Preedit Style"
@@ -903,19 +912,19 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "GTK IM Status Style"
-msgstr ""
+msgstr "Стиль состояния метода ввода GTK"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
 msgid "Name of the GTK+ input method Status Style used by gtk+."
-msgstr ""
+msgstr "Имя стиля состояния метода ввода, используемого gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
 msgid "GTK IM Module"
-msgstr ""
+msgstr "Модуль метода ввода GTK"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid "Name of the input method module used by GTK+."
-msgstr ""
+msgstr "Имя модуля метода ввода, используемого GTK+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Document font"
@@ -945,17 +954,18 @@ msgstr "Комбинация клавиш, открывающая панели �
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
 msgid "Show the 'Input Methods' menu"
-msgstr ""
+msgstr "Показывать меню «Методы ввода»"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
-msgstr ""
+msgstr "Показывать ли в контекстном меню пункты для изменения метода ввода."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
+#, fuzzy
 msgid "Show the 'Unicode Control Character' menu"
-msgstr ""
+msgstr "Показывать меню «Методы ввода»"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid ""
@@ -1786,7 +1796,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:9
 msgid "Control how new windows get focus"
-msgstr ""
+msgstr "Способ передачи фокуса новым окнам"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:10
 msgid ""
@@ -1795,6 +1805,10 @@ msgid ""
 "mode, and \"strict\" results in windows started from a terminal not being "
 "given focus."
 msgstr ""
+"Этот параметр предоставляет дополнительные возможности управления передачей "
+"фокуса новым окнам. Возможные значения: «smart» — обычный режим передачи "
+"фокуса; «strict» — не передавать фокус окнам приложений, запущенных из "
+"терминала."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:11
 msgid "Whether raising should be a side-effect of other user interactions"
@@ -1824,7 +1838,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Action on title bar double-click"
-msgstr ""
+msgstr "Действие, выполняемое при двойном щелчке по заголовку"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:14
 msgid ""
@@ -1837,10 +1851,17 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"Этот параметр определяет поведение двойного щелчка по заголовку окна. "
+"Возможные значения: «toggle-shade» — свернуть/развернуть окно из заголовка; "
+"«toggle-maximize» — максимизирование/восстановление исходного размера; "
+"«toggle-maximize-vertically» — максимизирование/восстановление исходного "
+"размера по вертикали; «minimize» — минимизирование; «shade» — свернуть окно "
+"в заголовок; «menu» — открыть меню окна; «lower» — расположить окно за "
+"остальными окнами; «none» — ничего не делать."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:15
 msgid "Action on title bar middle-click"
-msgstr ""
+msgstr "Действие, выполняемое при нажатии средней кнопки мыши"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:16
 msgid ""
@@ -1853,10 +1874,17 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"Этот параметр определяет поведение при нажатии средней кнопки мыши по "
+"заголовку окна. Возможные значения: «toggle-shade» — свернуть/развернуть "
+"окно из заголовка; «toggle-maximize» — максимизирование/восстановление "
+"исходного размера; «toggle-maximize-vertically» — максимизирование/"
+"восстановление исходного размера по вертикали; «minimize» — минимизирование; "
+"«shade» — свернуть окно в заголовок; «menu» — открыть меню окна; «lower» — "
+"расположить окно за остальными окнами; «none» — ничего не делать."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:17
 msgid "Action on title bar right-click"
-msgstr ""
+msgstr "Действие, выполняемое при нажатии правой кнопки мыши"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:18
 msgid ""
@@ -1869,6 +1897,13 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"Этот параметр определяет поведение при нажатии правой кнопки мыши по "
+"заголовку окна. Возможные значения: «toggle-shade» — свернуть/развернуть "
+"окно из заголовка; «toggle-maximize» — максимизирование/восстановление "
+"исходного размера; «toggle-maximize-vertically» — максимизирование/"
+"восстановление исходного размера по вертикали; «minimize» — минимизирование; "
+"«shade» — свернуть окно в заголовок; «menu» — открыть меню окна; «lower» — "
+"расположить окно за остальными окнами; «none» — ничего не делать."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
 msgid "Automatically raises the focused window"
