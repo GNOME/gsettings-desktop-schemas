@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-22 17:19+0100\n"
-"PO-Revision-Date: 2012-11-22 17:27+0200\n"
+"POT-Creation-Date: 2012-12-04 13:08+0100\n"
+"PO-Revision-Date: 2012-12-04 13:08+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -208,15 +208,13 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Indica se se debe pitar ao premer unha tecla modificadora."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-#, fuzzy
 msgid "Enable 'Toggle Keys'"
-msgstr "Activar teclas conmutábeis"
+msgstr "Activar «Teclas conmutábeis»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-#, fuzzy
 msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
 msgstr ""
-"Indica se a característica de accesibilidade de teclas conmutábeis está "
+"Indica se a característica de accesibilidade de «Teclas conmutábeis» está "
 "activada."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
@@ -1308,6 +1306,93 @@ msgstr ""
 "«Abrir cartafol» no miniaplicativo de preferencias. Abrirase unha xanela de "
 "cartafol ao introducir un soporte que coincida con estes tipos."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+#, fuzzy
+msgid "Show notification banners"
+msgstr "Mostrar notificacións na pantalla de bloqueo"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr "Mostrar notificacións na pantalla de bloqueo"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Indica se se mostran as notificacións na pantalla de bloqueo."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+msgid "Application ID"
+msgstr "ID do aplicativo"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "O aplicativo para o que é a normativa."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+msgid "Enable notifications"
+msgstr "Activar notificacións"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr ""
+"Indica se están activadas as notificacións para este aplicativo de forma "
+"global."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+msgid "Enable sound alerts"
+msgstr "Activar sons de alerta"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Indica se as notificacións deben acompañarse con sons de alerta."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+#, fuzzy
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr ""
+"Indica se as notificacións para este aplicativo se expanden automaticamente "
+"no modo banner"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+msgid "Show in the lock screen"
+msgstr "Mostrar na pantalla de bloqueo"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr ""
+"Indica se as notificacións para este aplicativo se mostran cando está na "
+"pantalla de bloqueo."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+msgid "Be resident in the lock screen"
+msgstr "Manter na pantalla de bloqueo"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether notifications from this application will be kept until dismissed "
+"when the screen is locked."
+msgstr ""
+"Indica se as notificacións para este aplicativo se deben manter ate que as "
+"rexeite mentres estea na pantalla de bloqueo."
+
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
 msgstr "Controla a visibilidade da información persoal"
@@ -1319,6 +1404,63 @@ msgid ""
 msgstr ""
 "Se é verdadeiro, o sistema fará o esforzo de non divulgar a identidade dos "
 "usuarios en pantalla ou na rede."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+msgid "Whether to remove old files from the trash automatically"
+msgstr ""
+"Indica se se deberían eliminar automaticamente os ficheiros antigos do lixo"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Se é VERDADEIRO, eliminaranse automaticamente os ficheiros desde o lixo "
+"cando son anteriores a «old-files-age» días."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old temporary files automatically"
+msgstr "Indica se eliminar automaticamente os ficheiros temporais antigos"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Se é VERDADEIRO, eliminaranse automaticamente os ficheiros temporais antigos "
+"cando son anteriores a «old-files-age» días."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Number of days to keep trash and temporary files"
+msgstr "Número de días que manter o lixo e os ficheiros temporais"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid "Consider trash and temporary files old after this many days."
+msgstr ""
+"Considerar os ficheiros do lixo e temporais antigos despois de estes días."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Whether to remember recently used files"
+msgstr "Indica se lembrar os ficheiros usados recentemene"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "If FALSE, applications will not remember recently used files."
+msgstr ""
+"Se é FALSO, os aplicativos non lembrarán os ficheiros usados recentemente."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Number of days to remember recently used files for"
+msgstr "Número de días para lembrar os ficheiros usados recentemente"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Os ficheiros usados recentemente lembraranse durante este número de días. Se "
+"está configurado a 0 os ficheiros recentes non se lembrarán. Se está "
+"estabelecido a -1, manteranse de forma indefinida."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
@@ -1348,10 +1490,6 @@ msgid ""
 msgstr ""
 "O número de segundos trala activación do salvapantallas antes de bloquear a "
 "pantalla."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Mostrar notificacións na pantalla de bloqueo"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
@@ -1478,6 +1616,10 @@ msgid ""
 "they are independently disabled or enabled. External search providers are "
 "installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
 msgstr ""
+"Estabelézao a verdadeiro para desactivar todos os programas fornecedores de "
+"busca externa, sen importar se están desactivados ou non de forma "
+"independente. Os fornecedores de busca externa están instalados polos "
+"apliativos en $XDG_DATA_DIR/gnome-shell/search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
 msgid "List of desktop file IDs for which search provider should be disabled"
