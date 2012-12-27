@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-14 17:27+0200\n"
-"PO-Revision-Date: 2012-09-14 17:31+0200\n"
+"POT-Creation-Date: 2012-12-27 20:50+0100\n"
+"PO-Revision-Date: 2012-12-27 20:51+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -88,13 +88,14 @@ msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr "Czas przed wyłączeniem dostępności klawiatury."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-msgid "Enable the bounce keys"
+msgid "Enable 'Bounce Keys'"
 msgstr "Odbijanie klawiszy"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
-"Określa, czy funkcja dostępności klawiatury odbijanie klawiszy jest włączona."
+"Określa, czy funkcja dostępności klawiatury \"odbijanie klawiszy\" jest "
+"włączona."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
 msgid "Minimum interval in milliseconds"
@@ -115,13 +116,13 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Określa, czy wydawać sygnał dźwiękowy po odrzuceniu klawisza."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable mouse keys"
+msgid "Enable 'Mouse Keys'"
 msgstr "Klawisze myszy"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Whether the mouse keys accessibility feature is turned on."
+msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
 msgstr ""
-"Określa, czy funkcja dostępności klawiatury klawisze myszy jest włączona."
+"Określa, czy funkcja dostępności klawiatury \"klawisze myszy\" jest włączona."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
 msgid "Pixels per seconds"
@@ -150,13 +151,14 @@ msgstr ""
 "Ile milisekund czekać przed rozpoczęciem działania klawiszy ruchu myszą."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Enable slow keys"
+msgid "Enable 'Slow Keys'"
 msgstr "Powolne klawisze"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Whether the slow keys accessibility feature is turned on."
+msgid "Whether the 'Slow Keys' accessibility feature is turned on."
 msgstr ""
-"Określa, czy funkcja dostępności klawiatury powolne klawisze jest włączona."
+"Określa, czy funkcja dostępności klawiatury \"powolne klawisze\" jest "
+"włączona."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 msgid ""
@@ -212,13 +214,13 @@ msgstr ""
 "Określa, czy wydawać sygnał dźwiękowy po naciśnięciu klawisza modyfikacji."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid "Enable toggle keys"
+msgid "Enable 'Toggle Keys'"
 msgstr "Przełączanie klawiszy"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-msgid "Whether the toggle keys accessibility feature is turned on."
+msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
 msgstr ""
-"Określa, czy funkcja dostępności klawiatury przełączanie klawiszy jest "
+"Określa, czy funkcja dostępności klawiatury \"przełączanie klawiszy\" jest "
 "włączona."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
@@ -598,7 +600,7 @@ msgstr "Adres URI obrazu"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
 msgid ""
-"URI to use for the background image. Not that the backend only supports "
+"URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
 "Adres URI obrazu tła. Proszę zauważyć, że mechanizm obsługuje tylko lokalne "
@@ -1191,6 +1193,19 @@ msgstr "Wyłączenie wylogowywania"
 msgid "Prevent the user from logging out."
 msgstr "Uniemożliwia użytkownikowi wylogowanie."
 
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
+msgid "Disable user administration"
+msgstr "Wyłączenie administracji użytkownikami"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:18
+msgid ""
+"Stop the user from modifying user accounts. By default, we allow adding and "
+"removing users, as well as changing other users settings."
+msgstr ""
+"Uniemożliwia użytkownikom modyfikowanie kont użytkowników. Domyślnie "
+"dozwolone jest dodawanie i usuwanie użytkowników, a także zmienianie "
+"ustawień innych użytkowników."
+
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
 msgstr "Określa, czy automatycznie montować nośniki"
@@ -1281,6 +1296,160 @@ msgstr ""
 "katalogu\" w preferencjach. Po włożeniu nośnika pasującego do tych typów "
 "wyświetlone zostanie okno katalogu."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+msgid "Show notification banners"
+msgstr "Wyświetlanie banerów powiadomień"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr "Określa, czy banery powiadomień są widoczne dla powiadomień programów."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr "Wyświetlanie powiadomień na ekranie blokady"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Określa, czy powiadomienia są wyświetlane na ekranie blokady."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+msgid "Application ID"
+msgstr "Identyfikator programu"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "Program, dla którego przeznaczona jest ta polityka."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+msgid "Enable notifications"
+msgstr "Włączenie powiadomień"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr "Określa, czy powiadomienia są globalnie włączone dla tego programu."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+msgid "Enable sound alerts"
+msgstr "Włączenie alarmów dźwiękowych"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Określa, czy powiadomieniom powinny towarzyszyć alarmy dźwiękowe."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"Określa, czy banery powiadomień są wyświetlane dla tego programu. Nie wpływa "
+"na efekt kliknięcia przycisku obszaru powiadamiania."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr "Wymuszenie automatycznego rozwijania banerów"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr ""
+"Określa, czy powiadomienia z tego programu są automatycznie rozwijane w "
+"trybie baneru."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+msgid "Show in the lock screen"
+msgstr "Wyświetlanie na ekranie blokady"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr ""
+"Określa, czy powiadomienia z tego programu są wyświetlane na ekranie blokady."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+msgid "Be resident in the lock screen"
+msgstr "Trwałe powiadomienia na ekranie blokady"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether notifications from this application will be shown individually in "
+"full (with details, action buttons and images) in the lock screen."
+msgstr ""
+"Określa, czy powiadomienia z tego programu są wyświetlane oddzielnie w "
+"pełnej formie (razem ze szczegółami, przyciskami działań i obrazami) na "
+"ekranie blokady."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
+msgid "Controls visibility of personal information"
+msgstr "Kontrola widoczności informacji osobistych"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:2
+msgid ""
+"If set to true, the system will make an effort to not divulge the user's "
+"identity on screen or on the network."
+msgstr ""
+"Jeśli ustawiono na wartość \"true\", to system postara się nie ujawniać "
+"tożsamości użytkownika na ekranie lub w sieci."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+msgid "Whether to remove old files from the trash automatically"
+msgstr "Określa, czy automatycznie usuwać stare pliki z kosza"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Jeśli ustawiono na wartość \"true\", to pliki będą automatycznie usuwane z "
+"kosza, jeśli są starsze niż liczba dni ustawiona w kluczu \"old-files-age\"."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old temporary files automatically"
+msgstr "Określa, czy automatycznie usuwać stare pliki tymczasowe"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Jeśli ustawiono na wartość \"true\", to pliki tymczasowe będą automatycznie "
+"usuwane z kosza, jeśli są starsze niż liczba dni ustawiona w kluczu \"old-"
+"files-age\"."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Number of days to keep trash and temporary files"
+msgstr "Liczba dni, przez ile przechowywać pliki w koszu i pliku tymczasowe"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid "Consider trash and temporary files old after this many days."
+msgstr "Pliki w koszu i pliki tymczasowe są stare po podanej liczbie dni."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Whether to remember recently used files"
+msgstr "Określa, czy pamiętać ostatnio używane pliki"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "If FALSE, applications will not remember recently used files."
+msgstr ""
+"Jeśli ustawiono na wartość \"false\", to programy nie będą pamiętały "
+"ostatnio używanych plików."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Number of days to remember recently used files for"
+msgstr "Liczba dni, przez ile pamiętać ostatnio używane pliki"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Ostatnio używane pliki będą pamiętane przez podaną liczbę dni. Jeśli "
+"ustawiono na wartość 0, to ostatnie pliki nie będą pamiętane; jeśli "
+"ustawiono na wartość -1, to będą pamiętane bez ograniczenia."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Aktywacja po bezczynności"
@@ -1312,10 +1481,6 @@ msgstr ""
 "Liczba sekund po aktywacji wygaszacza ekranu, zanim ekran zostanie "
 "zablokowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Wyświetlanie powiadomień na ekranie blokady"
-
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
 "Whether notifications are shown in the lock screen or not. This only affects "
@@ -1325,10 +1490,23 @@ msgstr ""
 "wpływa tylko na standardowy interfejs."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+msgid "Show full name in the lock screen"
+msgstr "Wyświetlanie imienia i nazwiska na ekranie blokady"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+msgid ""
+"Whether the user's full name is shown in the lock screen or not. This only "
+"affects the screen shield, the name is always shown in the unlock dialog."
+msgstr ""
+"Określa, czy imię i nazwisko użytkownika jest wyświetlane na ekranie "
+"blokady. Opcja ta wpływa tylko na powłokę ekranu, nazwisko jest zawsze "
+"wyświetlane w oknie dialogowym odblokowania."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Allow embedding a keyboard into the window"
 msgstr "Umożliwienie osadzania klawiatury w oknie"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1338,11 +1516,11 @@ msgstr ""
 "podczas próby odblokowania. Klucz \"keyboard_command\" musi zawierać "
 "odpowiednie polecenie."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Embedded keyboard command"
 msgstr "Polecenie osadzonej klawiatury"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1354,11 +1532,11 @@ msgstr ""
 "polecenie powinno implementować interfejs wtyczki XEMBED i wyświetlać XID "
 "okna w standardowym wyjściu."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Allow logout"
 msgstr "Zezwolenie na wylogowanie"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key."
@@ -1367,11 +1545,11 @@ msgstr ""
 "opcji wylogowania w oknie odblokowania. Opóźnienie jest określone w kluczu "
 "\"logout_delay\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Time before logout option"
 msgstr "Czas przed opcją wylogowania"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1381,11 +1559,11 @@ msgstr ""
 "wylogowania w oknie odblokowania. Ten klucz jest uwzględniany tylko, jeśli "
 "klucz \"logout_enable\" jest ustawiony na wartość \"true\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Logout command"
 msgstr "Polecenie wylogowania"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1396,11 +1574,11 @@ msgstr ""
 "uwzględniany tylko, jeśli klucz \"logout_enable\" jest ustawiony na wartość "
 "\"true\"."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow user switching"
 msgstr "Zezwolenie na przełączanie użytkownika"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1408,15 +1586,61 @@ msgstr ""
 "Ustawienie tego na wartość \"true\" powoduje wyświetlenia opcji przełączenia "
 "na inne konto użytkownika w oknie odblokowania."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Allow the session status message to be displayed"
 msgstr "Zezwolenie na wyświetlanie komunikatu stanu sesji"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Allow the session status message to be displayed when the screen is locked."
 msgstr ""
 "Umożliwia wyświetlanie komunikatu stanu sesji, kiedy ekran jest zablokowany."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
+msgid "Disable all external search providers"
+msgstr "Wyłączenie wszystkich zewnętrznych dostawców wyszukiwania"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:2
+msgid ""
+"Set to true to disable all external search provider programs, whether or not "
+"they are independently disabled or enabled. External search providers are "
+"installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
+msgstr ""
+"Ustawienie na wartość \"true\" wyłącza wszystkie zewnętrzne programy "
+"dostawców wyszukiwania, niezależnie czy są oddzielnie wyłączone czy "
+"włączone. Zewnętrzni dostawcy wyszukiwania są instalowani przez programy w "
+"katalogu $XDG_DATA_DIR/gnome-shell/search-providers."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
+msgid "List of desktop file IDs for which search provider should be disabled"
+msgstr ""
+"Lista identyfikatorów plików .desktop, dla których dostawcy wyszukiwania "
+"zostaną wyłączeni"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
+msgid ""
+"Results for applications contained in this list will not be displayed when "
+"searching."
+msgstr ""
+"Wyniki dla programów zawartych na tej liście nie będą wyświetlane podczas "
+"wyszukiwania."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid "List of desktop file IDs for search providers sort order"
+msgstr ""
+"Lista identyfikatorów plików .desktop dla kolejności porządkowania dostawców "
+"wyszukiwania"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed in the "
+"specified order. Results for applications not specified in this list will be "
+"displayed before the last item of the list, if it has more than one item."
+msgstr ""
+"Wyniki dla programów zawartych na tej liście będą wyświetlane w podanej "
+"kolejności. Wyniki dla programów nie zawartych na tej liście będą "
+"wyświetlane przed ostatnim elementem na tej liście, jeśli ma ona więcej niż "
+"jeden element."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1575,223 +1799,247 @@ msgid "Reverse switch applications"
 msgstr "Odwrotne przełączenie programów"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+msgid "Switch windows"
+msgstr "Przełączenie między oknami"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+msgid "Reverse switch windows"
+msgstr "Odwrotne przełączenie między oknami"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Switch system controls"
 msgstr "Przełączenie kontroli systemowej"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Reverse switch system controls"
 msgstr "Odwrotne przełączenie kontroli systemowej"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Bezpośrednie przełączenie między oknami programu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Reverse switch windows of an app directly"
 msgstr "Odwrotne bezpośrednie przełączenie między oknami programu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Switch windows directly"
 msgstr "Bezpośrednie przełączenie między oknami"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Reverse switch windows directly"
 msgstr "Odwrotne bezpośrednie przełączenie między oknami"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Switch system controls directly"
 msgstr "Bezpośrednie przełączenie kontroli systemowej"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Reverse switch system controls directly"
 msgstr "Odwrotne bezpośrednie przełączenie kontroli systemowej"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Hide all normal windows"
 msgstr "Ukrycie wszystkich zwykłych okien"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Show the activities overview"
 msgstr "Wyświetlenie podglądu aktywności"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the run command prompt"
 msgstr "Wyświetlenie okna wykonania polecenia"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
-msgid "Don&apos;t use"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+msgid "Don't use"
 msgstr "Nie należy używać"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Activate the window menu"
 msgstr "Otwarcie menu okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Toggle fullscreen mode"
 msgstr "Przełączenie trybu pełnoekranowego"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle maximization state"
 msgstr "Przełączenie trybu maksymalizacji"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle window always appearing on top"
 msgstr "Przełączenie trybu okna zawsze na wierzchu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
 msgstr "Maksymalizacja okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Restore window"
 msgstr "Przywrócenie okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Toggle shaded state"
 msgstr "Przełączenie trybu zwinięcia"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Minimize window"
 msgstr "Minimalizacja okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Close window"
 msgstr "Zamknięcie okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Move window"
 msgstr "Przeniesienie okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Resize window"
 msgstr "Zmiana rozmiaru okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Toggle window on all workspaces or one"
 msgstr ""
 "Przełączenie obecności okna na wszystkich obszarach roboczych lub jednym "
 "obszarze"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Move window to workspace 1"
 msgstr "Przeniesienie okna na 1. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 2"
 msgstr "Przeniesienie okna na 2. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 3"
 msgstr "Przeniesienie okna na 3. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 4"
 msgstr "Przeniesienie okna na 4. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 5"
 msgstr "Przeniesienie okna na 5. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 6"
 msgstr "Przeniesienie okna na 6. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 7"
 msgstr "Przeniesienie okna na 7. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 8"
 msgstr "Przeniesienie okna na 8. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 9"
 msgstr "Przeniesienie okna na 9. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 10"
 msgstr "Przeniesienie okna na 10. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 11"
 msgstr "Przeniesienie okna na 11. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 12"
 msgstr "Przeniesienie okna na 12. obszar roboczy"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window one workspace to the left"
 msgstr "Przeniesienie okna o obszar roboczy w lewo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
 msgid "Move window one workspace to the right"
 msgstr "Przeniesienie okna o obszar roboczy w prawo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace up"
 msgstr "Przeniesienie okna o obszar roboczy w górę"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace down"
 msgstr "Przeniesienie okna o obszar roboczy w dół"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Wysunięcie okna, jeśli jest zasłonięte, odsunięcie w przeciwnym wypadku"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Raise window above other windows"
 msgstr "Wysunięcie okna przed pozostałe"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Lower window below other windows"
 msgstr "Odsunięcie okna pod pozostałe"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Maximize window vertically"
 msgstr "Pionowa maksymalizacja okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Maximize window horizontally"
 msgstr "Pozioma maksymalizacja okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to top left corner"
 msgstr "Przeniesienie okna do lewej górnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Move window to top right corner"
 msgstr "Przeniesienie okna do prawej górnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Move window to bottom left corner"
 msgstr "Przeniesienie okna do lewej dolnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Move window to bottom right corner"
 msgstr "Przeniesienie okna do prawej dolnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top edge of screen"
 msgstr "Przeniesienie okna na górną część ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to bottom edge of screen"
 msgstr "Przeniesienie okna na dolną część ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to right side of screen"
 msgstr "Przeniesienie okna do prawej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to left side of screen"
 msgstr "Przeniesienie okna do lewej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to center of screen"
 msgstr "Przeniesienie okna na środek ekranu"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+msgid "Switch input source"
+msgstr "Przełączenie źródła wprowadzania"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+msgid "Binding to select the next input source"
+msgstr "Skrót do wyboru następnego źródła wprowadzania"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+msgid "Switch input source backward"
+msgstr "Przełączenie źródła wprowadzania wstecz"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+msgid "Binding to select the previous input source"
+msgstr "Skrót do wyboru poprzedniego źródła wprowadzania"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
