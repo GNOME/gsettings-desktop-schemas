@@ -13,6 +13,9 @@
       <_summary>Default calendar</_summary>
       <_description>
         Default calendar application
+
+        DEPRECATED: This key is deprecated and ignored.
+        The preferred calendar application is the application handling the text/calendar mime type.
       </_description>
     </key>
     <key name="needs-term" type="b">
@@ -20,6 +23,10 @@
       <_summary>Calendar needs terminal</_summary>
       <_description>
         Whether the default calendar application needs a terminal to run.
+
+        DEPRECATED: This key is deprecated and ignored.
+        The preferred calendar application is the application handling the text/calendar mime type,
+        whether it needs a terminal is taken from its desktop file.
       </_description>
     </key>
   </schema>
@@ -45,6 +52,9 @@
       <_summary>Terminal application</_summary>
       <_description>
         Terminal program to use when starting applications that require one.
+
+        DEPRECATED: This key is deprecated and ignored.
+        The default terminal is handled in GIO.
       </_description>
     </key>
     <key name="exec-arg" type="s">
@@ -53,6 +63,9 @@
       <_description>
         Argument used to execute programs in the terminal defined by the 
         'exec' key.
+
+        DEPRECATED: This key is deprecated and ignored.
+        The default terminal and how to invoke it is handled in GIO.
       </_description>
     </key>
   </schema>
