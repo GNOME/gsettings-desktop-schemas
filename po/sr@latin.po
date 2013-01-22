@@ -1,14 +1,14 @@
 # Serbian translation of gsettings-desktop-schemas.
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2012.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2012.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
 "=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-14 12:26+0000\n"
-"PO-Revision-Date: 2012-09-20 21:07+0200\n"
+"POT-Creation-Date: 2013-01-15 09:37+0000\n"
+"PO-Revision-Date: 2013-01-22 12:17+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -80,13 +80,15 @@ msgstr ""
 "Određuje nakon koliko vremena će biti isključena pristupačnost tastature."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-msgid "Enable the bounce keys"
-msgstr "Uključuje odskočne tastere"
+#| msgid "Enable the bounce keys"
+msgid "Enable 'Bounce Keys'"
+msgstr "Uključuje „odskočne tastere“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#| msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
-"Određuje da li su uključeni odskačući tasteri u sklopu podrške za "
+"Određuje da li su uključeni „odskačući tasteri“ u sklopu podrške za "
 "pristupačnost."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
@@ -107,12 +109,14 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Određuje da li će da zapišti kada taster nije prihvaćen."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable mouse keys"
-msgstr "Uključuje tastere miša"
+#| msgid "Enable mouse keys"
+msgid "Enable 'Mouse Keys'"
+msgstr "Uključuje „tastere miša“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Whether the mouse keys accessibility feature is turned on."
-msgstr "Određuje da li je uključena funkcija pristupačnosti tastera miša."
+#| msgid "Whether the mouse keys accessibility feature is turned on."
+msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
+msgstr "Određuje da li je uključena funkcija pristupačnosti „tastera miša“."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
 msgid "Pixels per seconds"
@@ -142,12 +146,14 @@ msgstr ""
 "počnu da rade."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Enable slow keys"
-msgstr "Uključuje spore tastere"
+#| msgid "Enable slow keys"
+msgid "Enable 'Slow Keys'"
+msgstr "Uključuje „spore tastere“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Whether the slow keys accessibility feature is turned on."
-msgstr "Određuje da li je uključena funkcija pristupačnosti sporih tastera."
+#| msgid "Whether the slow keys accessibility feature is turned on."
+msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgstr "Određuje da li je uključena funkcija pristupačnosti „sporih tastera“."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 msgid ""
@@ -200,12 +206,14 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Određuje da li će da zapišti kada je pritisnut taster izmenjivač."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid "Enable toggle keys"
-msgstr "Uključuje okidačke tastere"
+#| msgid "Enable toggle keys"
+msgid "Enable 'Toggle Keys'"
+msgstr "Uključuje „okidačke tastere“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-msgid "Whether the toggle keys accessibility feature is turned on."
-msgstr "Određuje da li je uključena funkcija pristupačnosti okidačkih tastera."
+#| msgid "Whether the toggle keys accessibility feature is turned on."
+msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
+msgstr "Određuje da li je uključena funkcija pristupačnosti „okidačkih tastera“."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
 msgid "Mouse Tracking Mode"
@@ -560,8 +568,13 @@ msgid "Draw Desktop Background"
 msgstr "Crtanje pozadine radne površi"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid "Have GNOME draw the desktop background."
-msgstr "Da li će Gnom da iscrta pozadinu radne površi."
+#| msgid "Have GNOME draw the desktop background."
+msgid ""
+"Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
+"and ignored."
+msgstr ""
+"Da li će Gnom da iscrta pozadinu radne površi. ZASTARELO: Ovaj ključ je "
+"zastareo i zanemaren."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
 msgid "Picture Options"
@@ -584,12 +597,15 @@ msgid "Picture URI"
 msgstr "Adresa slike"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#| msgid ""
+#| "URI to use for the background image. Not that the backend only supports "
+#| "local (file://) URIs."
 msgid ""
-"URI to use for the background image. Not that the backend only supports "
+"URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
-"Adrese koje će biti korišćene za sliku pozadine. Znajte da pozadinac "
-"podržava samo mesne (file://) adrese."
+"Putanje koje će biti korišćene za sliku pozadine. Znajte da pozadinac "
+"podržava samo mesne (file://) putanje."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
 msgid "Picture Opacity"
@@ -646,17 +662,29 @@ msgid "Default calendar"
 msgstr "Osnovni kalendar"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Default calendar application"
-msgstr "Osnovni program za kalendar"
+msgid ""
+"Default calendar application DEPRECATED: This key is deprecated and ignored. "
+"The preferred calendar application is the application handling the text/"
+"calendar mime type."
+msgstr ""
+"Program osnovnog kalendara je ZASTAREO: Ovaj ključ je zastareo i zanemaren. "
+"Željeni program kalendara je program koji rukuje mime vrstom tekst/kalendar."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
 msgstr "Kalendar zahteva terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
-msgid "Whether the default calendar application needs a terminal to run."
+msgid ""
+"Whether the default calendar application needs a terminal to run. "
+"DEPRECATED: This key is deprecated and ignored. The preferred calendar "
+"application is the application handling the text/calendar mime type, whether "
+"it needs a terminal is taken from its desktop file."
 msgstr ""
-"Da li je osnovnom programu za kalendar neophodan terminal za izvršavanje."
+"Da li je programu osnovnog kalendara potreban terminal za rad. ZASTARELO: "
+"Ovaj ključ je zastareo i zanemaren. Željeni program kalendara je program koji "
+"rukuje mime vrstom tekst/kalendar, a da li mu je potreban terminal to se "
+"saznaje iz njegove datoteke radne površi."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -680,10 +708,15 @@ msgid "Terminal application"
 msgstr "Program terminala"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-msgid "Terminal program to use when starting applications that require one."
+#| msgid "Terminal program to use when starting applications that require one."
+msgid ""
+"Terminal program to use when starting applications that require one. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal is "
+"handled in GIO."
 msgstr ""
 "Program terminala koji će biti korišćen prilikom pokretanja programa kojima "
-"je potreban terminal."
+"je potreban terminal. ZASTARELO: Ovaj ključ je zastareo i zanemaren. Osnovnim "
+"terminalom se rukuje u GUI-u."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
@@ -691,20 +724,19 @@ msgstr "Argumenti izvršenja"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
+"Argument used to execute programs in the terminal defined by the 'exec' key. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal and how "
+"to invoke it is handled in GIO."
 msgstr ""
-"Argument korišćen za izvršavanje programa u terminalu određenih ključem "
-"„exec“ (izvrši)."
+"Argument korišćen za izvršavanje programa u terminalu određen ključem „exec“ "
+"(izvrši). ZASTARELO: Ovaj ključ je zastareo i zanemaren. Osnovni terminal i "
+"kako ga prizvati je uređeno u GUI-u."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
 msgid "Current input source"
 msgstr "Tekući izvor ulaza"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:2
-#| msgid ""
-#| "The zero-based index into the input sources list specifying the current "
-#| "one in effect. The value is automatically capped to remain in the range "
-#| "[0, sources_length)."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
@@ -719,12 +751,6 @@ msgid "List of input sources"
 msgstr "Spisak izvora ulaza"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:4
-#| msgid ""
-#| "List of input source identifiers available. Each source is specified as a "
-#| "tuple of 2 strings. The first string is the type and can be one of 'xkb' "
-#| "or 'ibus'. For 'xkb' sources the second string is 'xkb_layout"
-#| "+xkb_variant' or just 'xkb_layout' if a XKB variant isn't needed. For "
-#| "'ibus' sources the second string is the IBus engine name."
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -762,6 +788,18 @@ msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Čini sve instalirane izvore ulaza dostupnim za biranje u podešavanjima sistema."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:9
+msgid "Use different input sources for each window"
+msgstr "Koristi različite izvore ulaza za svaki prozor"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
+msgid ""
+"When enabled, input sources get attached to the currently focused window "
+"when activated."
+msgstr ""
+"Kada je uključeno, izvori ulaza bivaju prikačeni na trenutni prozor u prvom "
+"planu kada je pokrenut."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -1183,6 +1221,19 @@ msgstr "Isključuje odjavljivanje"
 msgid "Prevent the user from logging out."
 msgstr "Sprečava korisnika da se odjavi."
 
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
+#| msgid "Disable user switching"
+msgid "Disable user administration"
+msgstr "Isključuje administriranje korisnika"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:18
+msgid ""
+"Stop the user from modifying user accounts. By default, we allow adding and "
+"removing users, as well as changing other users settings."
+msgstr ""
+"Zaustavlja korisnika od menjanja korisničkih naloga. Po osnovi, mi omogućavamo "
+"dodavanje i uklanjanje korisnika, kao i izmenu drugih korisničkih podešavanja."
+
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
 msgstr "Da li da sam montira medije"
@@ -1271,15 +1322,185 @@ msgstr ""
 "postavkama. Nakon ubacivanja ovakvog medijuma biće pokrenut prozor sa njegovim "
 "sadržajem."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+#| msgid "Show notifications in the lock screen"
+msgid "Show notification banners"
+msgstr "Prikazuje vrpce obaveštenja"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr "Da li će vrpce obaveštenja biti vidljive za programska obaveštenja."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
+msgid "Show notifications in the lock screen"
+msgstr "Prikazuje obaveštenja u ekranu za zaključavanje"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+#| msgid ""
+#| "Whether notifications are shown in the lock screen or not. This only "
+#| "affects the standard experience."
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Da li će obaveštenja biti prikazana u ekranu za zaključavanje ili ne."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+#| msgid "Switch applications"
+msgid "Application ID"
+msgstr "IB programa"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "Program za koji je ova politika."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+#| msgid "Enable Animations"
+msgid "Enable notifications"
+msgstr "Uključuje obaveštenja"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr "Da li su obaveštenja sveopšte uključena za ovaj program."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+#| msgid "Enable slow keys"
+msgid "Enable sound alerts"
+msgstr "Uključuje zvučna upozorenja"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Da li će programi biti praćeni zvučnim upozorenjima."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"Da li se vrpce obaveštenja za ovaj program prikazuju ili ne. Ne utiče na "
+"klikanje na dugmad fioke poruka."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr "Primorava samostalno širenje vrpci"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr ""
+"Da li se obaveštenja ovog programa samostalno šire kada su u režimu vrpce."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+#| msgid "Show notifications in the lock screen"
+msgid "Show in the lock screen"
+msgstr "Prikazuje u ekranu za zaključavanje"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr "Da li se obaveštenja ovog programa prikazuju kada je ekran zaključan."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+#| msgid "Show notifications in the lock screen"
+msgid "Be resident in the lock screen"
+msgstr "Biće stalna u ekranu zaključavanja"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether notifications from this application will be shown individually in "
+"full (with details, action buttons and images) in the lock screen."
+msgstr ""
+"Da li će obaveštenja ovog programa biti prikazana pojedinačno u potpunosti "
+"(sa pojedinostima, dugmićima radnji i slikama) u ekranu zaključavanja."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
+msgid "Controls visibility of personal information"
+msgstr "Upravlja vidljivošću ličnih podataka"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:2
+msgid ""
+"If set to true, the system will make an effort to not divulge the user's "
+"identity on screen or on the network."
+msgstr ""
+"Ako je izabrano, sistem će uložiti napor da ne obznani identitet korisnika "
+"na ekranu ili na mreži."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+#| msgid "Show all installed input sources"
+msgid "Show full name in the user menu"
+msgstr "Prikazuje puno ime u izborniku korisnika"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr "Da li će puna imena korisnika biti prikazana u izborniku korisnika."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old files from the trash automatically"
+msgstr "Da li će sam da uklanja stare datoteke iz smeća"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Ako je izabrano, sam će uklanjati datoteke iz smeća kada su starije od "
+"„doba-starih-datoteka“."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Whether to remove old temporary files automatically"
+msgstr "Da će sam da uklanja stare privremene datoteke"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Ako je izabrano, sam će uklanjati privremene datoteke kada su starije od "
+"„doba-starih-datoteka“."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Number of days to keep trash and temporary files"
+msgstr "Broj dana za držanje smeća i privremenih datoteka"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "Consider trash and temporary files old after this many days."
+msgstr "Smatraće smeće i privremene datoteke starim nakon ovoliko dana."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Whether to remember recently used files"
+msgstr "Da li da pamti nedavno korišćene datoteke"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid "If FALSE, applications will not remember recently used files."
+msgstr "Ako nije izabrano, programi neće pamtiti nedavno korišćene datoteke."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
+msgid "Number of days to remember recently used files for"
+msgstr "Broj dana za pamćenje nedavno korišćenih datoteka"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Nedavno korišćene datoteke će biti zapamćene za ovoliki broj dana. Ako je "
+"postavljeno na 0, nedavne datoteke neće biti pamćene; ako je postavljeno na "
+"-1, biće zadržane u beskonačnost."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Pokreće kada miruje"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
+"delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Postavite ovu vrednost na „Tačno“ da pokrenete čuvara ekrana kada se ništa "
-"ne radi."
+"Izaberite ovo da pokrenete čuvara ekrana kada sesija miruje. ZASTARELO: Ovaj "
+"ključ je zastareo i zanemaren. Postavite „org.gnome.session.idle-delay“ na 0 "
+"ako ne želite da pokrenete čuvara ekrana."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1301,96 +1522,141 @@ msgid ""
 msgstr ""
 "Broj sekundi nakon pokretanja čuvara ekrana nakon kojih se ekran zaključava."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Prikazuje obaveštenja u ekranu za zaključavanje"
-
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
+#| msgid ""
+#| "Whether notifications are shown in the lock screen or not. This only "
+#| "affects the standard experience."
 msgid ""
 "Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience."
+"the standard experience. DEPRECATED: This key is deprecated and ignored. It "
+"has been superseded by org.gnome.desktop.notifications show-in-lock-screen."
 msgstr ""
 "Da li će obaveštenja biti prikazana u ekranu za zaključavanje ili ne. Ovo utiče "
-"samo na uobičajeno iskustvo."
+"samo na uobičajeno iskustvo. ZASTARELO: Ovaj ključ je zastareo i zanemaren. "
+"Potisnut je ključem „org.gnome.desktop.notifications show-in-lock-screen“."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#| msgid "Show notifications in the lock screen"
+msgid "Show full name in the lock screen"
+msgstr "Prikazuje puno ime u ekranu za zaključavanje"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#| msgid ""
+#| "Whether notifications are shown in the lock screen or not. This only "
+#| "affects the standard experience."
+msgid ""
+"Whether the user's full name is shown in the lock screen or not. This only "
+"affects the screen shield, the name is always shown in the unlock dialog."
+msgstr ""
+"Da li će puna imena korisnika biti prikazana u ekranu za zaključavanje ili ne. "
+"Ovo utiče samo na štit ekrana, ime je uvek prikazano u prozorčetu za "
+"otključavanje."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Allow embedding a keyboard into the window"
 msgstr "Omogućava ugrađivanje tastature u prozor"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#| msgid ""
+#| "Set this to TRUE to allow embedding a keyboard into the window when "
+#| "trying to unlock. The \"keyboard_command\" key must be set with the "
+#| "appropriate command."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
+"command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Postavite ovu vrednost na „Tačno“ da omogućite ugrađivanje tastature u prozor "
 "kada budete pokušavali da otključate. Ključ „keyboard_command“ (naredba "
-"tastature)mora biti podešena odgovarajućom naredbom."
+"tastature) mora biti podešen odgovarajućom naredbom. ZASTARELO: Ovaj ključ je "
+"zastareo i zanemaren."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Embedded keyboard command"
 msgstr "Naredba ugrađene tastature"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#| msgid ""
+#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
+#| "set to TRUE, to embed a keyboard widget into the window. This command "
+#| "should implement an XEMBED plug interface and output a window XID on the "
+#| "standard output."
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
-"output."
+"output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Naredba koja će biti pokrenuta, ukoliko je ključ "
-"„embedded_keyboard_enabled“ (ugrađena tastatura je uključena) podešen na "
-"„Tačno“, da ugradi tastaturu u prozor. Ova naredba bi trebala da primeni "
-"„XEMBED“ priključnu spregu i da pošalje izlaz IksIB prozora na standardni "
-"izlaz."
+"Naredba koja će biti pokrenuta, ukoliko je ključ „embedded_keyboard_enabled“ "
+"(ugrađena tastatura je uključena) podešen na „Tačno“, da ugradi tastaturu u "
+"prozor. Ova naredba bi trebala da primeni „XEMBED“ priključnu spregu i da "
+"pošalje izlaz IksIB prozora na standardni izlaz. ZASTARELO: Ovaj ključ je "
+"zastareo i zanemaren."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Allow logout"
 msgstr "Dozvoljava odjavljivanje"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#| msgid ""
+#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
+#| "out after a delay. The delay is specified in the \"logout_delay\" key."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
+"out after a delay. The delay is specified in the \"logout_delay\" key. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Postavite ovu vrednost na „Tačno“ da u prozorčetu za otključavanje ponudite "
 "mogućnost odjavljivanja nakon određenog vremena. Vremenski period se zadaje "
-"pomoću ključa „logout_delay“ (odlaganje odjavljivanja)."
+"pomoću ključa „logout_delay“ (odlaganje odjavljivanja). ZASTARELO: Ovaj ključ je "
+"zastareo i zanemaren."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Time before logout option"
 msgstr "Vreme pre omogućavanja odjave"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#| msgid ""
+#| "The number of seconds after the screensaver activation before a logout "
+#| "option will appear in the unlock dialog. This key has effect only if the "
+#| "\"logout_enable\" key is set to TRUE."
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
+"\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated and "
+"ignored"
 msgstr ""
 "Broj sekundi pre nego što će se u prozorčetu za otključavanje pojavi mogućnost "
-"odjavljivanja nakon pokretanja čuvara ekrana. Ovaj ključ ima dejstvo samo ako je "
-"ključ „logout_enable“ (uključeno odjavljivanje) postavljen na „Tačno“."
+"odjavljivanja nakon pokretanja čuvara ekrana. Ovaj ključ ima dejstvo samo ako "
+"je ključ „logout_enable“ (uključeno odjavljivanje) postavljen na „Tačno“. "
+"ZASTARELO: Ovaj ključ je zastareo i zanemaren."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Logout command"
 msgstr "Naredba odjavljivanja"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#| msgid ""
+#| "The command to invoke when the logout button is clicked. This command "
+#| "should simply log the user out without any interaction. This key has "
+#| "effect only if the \"logout_enable\" key is set to TRUE."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
+"the \"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
+"and ignored."
 msgstr ""
 "Naredba koja se poziva kada korisnik pritisne dugme za odjavljivanje. Ova "
 "naredba bi jednostavno trebala da odjavi korisnika bez ikakvog dodatnog "
 "dejstva. Ovaj ključ ima dejstvo jedino ako je ključ „logout_enable“ (uključeno "
-"odjavljivanje) postavljen na vrednost „Tačno“."
+"odjavljivanje) postavljen na vrednost „Tačno“. ZASTARELO: Ovaj ključ je zastareo "
+"i zanemaren."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow user switching"
 msgstr "Dozvoljava promenu korisnika"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1398,14 +1664,68 @@ msgstr ""
 "Postavite ovu vrednost na „Tačno“ da biste u prozorčetu za otključavanje "
 "ponudili mogućnost prelaska na drugi korisnički nalog."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Allow the session status message to be displayed"
 msgstr "Omogućava prikazivanje poruka o stanju sesije"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
+#| msgid ""
+#| "Allow the session status message to be displayed when the screen is "
+#| "locked."
 msgid ""
-"Allow the session status message to be displayed when the screen is locked."
-msgstr "Dozvoljava prikaz poruka o stanju sesije kada je ekran zaključan."
+"Allow the session status message to be displayed when the screen is locked. "
+"DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+"Dozvoljava prikaz poruka o stanju sesije kada je ekran zaključan. ZASTARELO: "
+"Ovaj ključ je zastareo i zanemaren."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
+#| msgid "Disable all external thumbnailers"
+msgid "Disable all external search providers"
+msgstr "Isključi sve spoljne dostavljače pretrage"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:2
+msgid ""
+"Set to true to disable all external search provider programs, whether or not "
+"they are independently disabled or enabled. External search providers are "
+"installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
+msgstr ""
+"Izaberite ovo da isključite sve programe spoljnih dostavljača pretrage, bez "
+"obzira da li su ili nisu pojedinačno isključeni ili uključeni. Spoljne "
+"dostavljače pretrage instaliraju programi u „$XDG_DATA_DIR/gnome-shell"
+"/search-providers“."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
+#| msgid ""
+#| "List of mime-types for which external thumbnailer programs will be "
+#| "disabled"
+msgid "List of desktop file IDs for which search provider should be disabled"
+msgstr ""
+"Spisak IB-ova datoteka radne površi za koje dostavljač pretrage treba da bude "
+"isključen"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
+msgid ""
+"Results for applications contained in this list will not be displayed when "
+"searching."
+msgstr ""
+"Rezultati za programe sadržane u ovom spisku neće biti prikazani prilikom "
+"pretraživanja."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid "List of desktop file IDs for search providers sort order"
+msgstr ""
+"Spisak IB-ova datoteka radne površi za redosled ređanja dostavljača pretrage"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed in the "
+"specified order. Results for applications not specified in this list will be "
+"displayed before the last item of the list, if it has more than one item."
+msgstr ""
+"Rezultati za programe sadržane u ovom spisku će biti prikazani u navedenom "
+"poretku. Rezultati za programe koji nisu navedeni u ovom spisku će biti "
+"prikazani pre poslednje stavke na spisku, ako ima više od jedne stavke."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1561,220 +1881,249 @@ msgid "Reverse switch applications"
 msgstr "Obrće prebacivanje programa"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#| msgid "Switch windows directly"
+msgid "Switch windows"
+msgstr "Prebacuje prozore"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#| msgid "Reverse switch windows directly"
+msgid "Reverse switch windows"
+msgstr "Obrće prebacivanje prozora"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Switch system controls"
 msgstr "Prebacuje kontrole sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Reverse switch system controls"
 msgstr "Obrće prebacivanje kontrola sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Prebacuje prozore programa direktno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Reverse switch windows of an app directly"
 msgstr "Obrće prebacivanje prozora programa direktno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Switch windows directly"
 msgstr "Prebacuje prozore direktno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Reverse switch windows directly"
 msgstr "Obrće prebacivanje prozora direktno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Switch system controls directly"
 msgstr "Prebacuje kontrole sistema direktno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Reverse switch system controls directly"
 msgstr "Obrće prebacivanje kontrola sistema direktno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Hide all normal windows"
 msgstr "Skriva sve obične prozore"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Show the activities overview"
 msgstr "Prikazuje pregled aktivnosti"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the run command prompt"
 msgstr "Prikazuje upit za pokretanje naredbe"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
-msgid "Don&apos;t use"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#| msgid "Don&apos;t use"
+msgid "Don't use"
 msgstr "Ne koristi"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Activate the window menu"
 msgstr "Aktivira izbornik prozora"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Toggle fullscreen mode"
 msgstr "Isključuje/uključuje prikaz preko celog ekrana"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle maximization state"
 msgstr "Isključuje/uključuje stanje uvećanja"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle window always appearing on top"
 msgstr "Isključuje/uključuje prikazivanje prozora uvek na vrhu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
 msgstr "Uvećava prozor"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Restore window"
 msgstr "Vraća veličinu prozora"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Toggle shaded state"
 msgstr "Isključuje/uključuje stanje zasenčenosti"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Minimize window"
 msgstr "Umanjuje prozor"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Close window"
 msgstr "Zatvara prozor"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Move window"
 msgstr "Premešta prozor"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Resize window"
 msgstr "Menja veličinu prozora"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Toggle window on all workspaces or one"
 msgstr "Prikazuje prozor na svim radnim prostorima ili samo na jednom"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Move window to workspace 1"
 msgstr "Premešta prozor na radni prostor broj 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 2"
 msgstr "Premešta prozor na radni prostor broj 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 3"
 msgstr "Premešta prozor na radni prostor broj 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 4"
 msgstr "Premešta prozor na radni prostor broj 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 5"
 msgstr "Premešta prozor na radni prostor broj 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 6"
 msgstr "Premešta prozor na radni prostor broj 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 7"
 msgstr "Premešta prozor na radni prostor broj 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 8"
 msgstr "Premešta prozor na radni prostor broj 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 9"
 msgstr "Premešta prozor na radni prostor broj 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 10"
 msgstr "Premešta prozor na radni prostor broj 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 11"
 msgstr "Premešta prozor na radni prostor broj 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 12"
 msgstr "Premešta prozor na radni prostor broj 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window one workspace to the left"
 msgstr "Premešta prozor jedan radni prostor ulevo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
 msgid "Move window one workspace to the right"
 msgstr "Premešta prozor jedan radni prostor udesno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace up"
 msgstr "Premešta prozor jedan radni prostor na gore"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace down"
 msgstr "Premešta prozor jedan radni prostor na dole"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Izdiže prozor ukoliko ga drugi prozor zaklanja, u protivnom ga spušta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Raise window above other windows"
 msgstr "Izdiže prozor iznad ostalih prozora"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Lower window below other windows"
 msgstr "Spušta prozor ispod ostalih prozora"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Maximize window vertically"
 msgstr "Uvećava prozor uspravno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Maximize window horizontally"
 msgstr "Uvećava prozor vodoravno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to top left corner"
 msgstr "Premešta prozor u gornji levi ćošak"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Move window to top right corner"
 msgstr "Premešta prozor u gornji desni ćošak"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Move window to bottom left corner"
 msgstr "Premešta prozor u donji levi ćošak"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Move window to bottom right corner"
 msgstr "Premešta prozor u donji desni ćošak"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top edge of screen"
 msgstr "Premešta prozor na gornju ivicu ekrana"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to bottom edge of screen"
 msgstr "Premešta prozor na donju ivicu ekrana"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to right side of screen"
 msgstr "Premešta prozor uz desnu ivicu ekrana"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to left side of screen"
 msgstr "Premešta prozor uz levu ivicu ekrana"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to center of screen"
 msgstr "Premešta prozor na sredinu ekrana"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#| msgid "List of input sources"
+msgid "Switch input source"
+msgstr "Promena izvora ulaza"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+msgid "Binding to select the next input source"
+msgstr "Prečica za izbor sledećeg izvora ulaza"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#| msgid "List of input sources"
+msgid "Switch input source backward"
+msgstr "Prebacivanje izvora ulaza unazad"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+msgid "Binding to select the previous input source"
+msgstr "Prečica za izbor prethodnog izvora ulaza"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2168,7 +2517,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
 msgid "The locale to use for dates / numbers formats"
-msgstr "Jezik za formate datuma i brojeva"
+msgstr "Jezik za oblike datuma i brojeva"
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:2
 msgid ""
