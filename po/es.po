@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-15 09:37+0000\n"
-"PO-Revision-Date: 2013-01-15 18:09+0100\n"
+"POT-Creation-Date: 2013-01-31 14:51+0000\n"
+"PO-Revision-Date: 2013-02-01 10:44+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -578,7 +578,6 @@ msgid "Draw Desktop Background"
 msgstr "Dibujar fondo del escritorio"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-#| msgid "Have GNOME draw the desktop background."
 msgid ""
 "Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
 "and ignored."
@@ -715,7 +714,6 @@ msgid "Terminal application"
 msgstr "Aplicación de terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-#| msgid "Terminal program to use when starting applications that require one."
 msgid ""
 "Terminal program to use when starting applications that require one. "
 "DEPRECATED: This key is deprecated and ignored. The default terminal is "
@@ -1365,7 +1363,6 @@ msgstr ""
 "de la aplicación."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show notifications in the lock screen"
 msgstr "Mostrar notificaciones en la pantalla de bloqueo"
 
@@ -1433,17 +1430,20 @@ msgstr ""
 "pantalla está bloqueada."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
-msgid "Be resident in the lock screen"
-msgstr "Residir en la pantalla de bloqueo"
+#| msgid "Show in the lock screen"
+msgid "Show details in the lock screen"
+msgstr "Mostrar detalles en la pantalla de bloqueo"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+#| msgid ""
+#| "Whether notifications from this application are shown when the screen is "
+#| "locked."
 msgid ""
-"Whether notifications from this application will be shown individually in "
-"full (with details, action buttons and images) in the lock screen."
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
 msgstr ""
-"Indica si las notificaciones para esta aplicación se mostrarán de manera "
-"individual al completo (con detalles, botones de acción e imágenes) en la "
-"pantalla de bloqueo."
+"Indica si el resumen y el cuerpo de las notificaciones para esta aplicación "
+"se muestran cuando la pantalla está bloqueada."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
@@ -1458,12 +1458,10 @@ msgstr ""
 "usuario en la pantalla o en la red."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
-#| msgid "Show full name in the lock screen"
 msgid "Show full name in the user menu"
 msgstr "Mostrar el nombre completo en el menú del usuario"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
-#| msgid "Whether notifications are shown in the lock screen or not."
 msgid "Whether the users full name is shown in the user menu or not."
 msgstr ""
 "Indica si se muestra el nombre del usuario en el menú del usuario o no."
@@ -1565,25 +1563,11 @@ msgstr ""
 "El número de segundos tras la activación del salvapantallas antes de "
 "bloquear la pantalla."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
-#| msgid ""
-#| "Whether notifications are shown in the lock screen or not. This only "
-#| "affects the standard experience."
-msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience. DEPRECATED: This key is deprecated and ignored. It "
-"has been superseded by org.gnome.desktop.notifications show-in-lock-screen."
-msgstr ""
-"Indica si se muestran o no las notificaciones en la pantalla de bloqueo. "
-"Esto sólo afecta a la experiencia estándar. OBSOLETO: esta clave está "
-"obsoleta y se ignorará. Se ha reemplazado por show-in-lock-screen en org."
-"gnome.desktop.notifications."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show full name in the lock screen"
 msgstr "Mostrar el nombre completo en la pantalla de bloqueo"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -1592,15 +1576,11 @@ msgstr ""
 "Esto sólo afecta al protector de pantalla, el nombre siempre se muestra en "
 "el diálogo de desbloqueo."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr "Permitir empotrar un teclado en la ventana"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command."
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1610,16 +1590,11 @@ msgstr ""
 "intentar desbloquear. La clave \"keyboard_command\" debe estar establecida "
 "con el comando apropiado. OBSOLETO: esta clave está obsoleta y se ignorará"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr "Comando de teclado empotrado"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output."
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1631,14 +1606,11 @@ msgstr ""
 "comando debería implementar un interfaz XEMBED y sacar una ventana XID en la "
 "salida estándar. OBSOLETO: esta clave está obsoleta y se ignorará"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "Permitir cerrar sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key."
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key. "
@@ -1648,15 +1620,11 @@ msgstr ""
 "la sesión después de un intervalo de tiempo. El retardo se especifica en la "
 "clave «logout_delay». OBSOLETO: esta clave está obsoleta y se ignorará"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr "Tiempo antes de la opción de cierre de sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE."
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1668,15 +1636,11 @@ msgstr ""
 "clave tiene efecto sólo si la clave «logout_enable» está activada. OBSOLETO: "
 "esta clave está obsoleta y se ignorará"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr "Comando de cierre de sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE."
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1688,11 +1652,11 @@ msgstr ""
 "interacción. Esta clave tiene efecto sólo si la clave \"logout_enable\" está "
 "activada. OBSOLETO: esta clave está obsoleta y se ignorará"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr "Permitir cambiar usuario"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1700,14 +1664,11 @@ msgstr ""
 "Ponga esto a TRUE para ofrecer una opción en el diálogo de desbloqueo para "
 "cambiar a una cuenta de usuario diferente."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr "Permitir que se muestren los mensajes de estado de la sesión"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
-#| msgid ""
-#| "Allow the session status message to be displayed when the screen is "
-#| "locked."
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
@@ -1920,12 +1881,10 @@ msgid "Reverse switch applications"
 msgstr "Invertir el cambio entre ventanas"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
-#| msgid "Switch windows directly"
 msgid "Switch windows"
 msgstr "Cambiar entre ventanas"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
-#| msgid "Reverse switch windows directly"
 msgid "Reverse switch windows"
 msgstr "Invertir el cambio entre ventanas"
 
@@ -2146,7 +2105,6 @@ msgid "Move window to center of screen"
 msgstr "Mover la ventana al centro de la pantalla"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
-#| msgid "List of input sources"
 msgid "Switch input source"
 msgstr "Cambiar fuente de entrada"
 
@@ -2155,7 +2113,6 @@ msgid "Binding to select the next input source"
 msgstr "Vínculo para seleccionar la siguiente fuente de entrada"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
-#| msgid "List of input sources"
 msgid "Switch input source backward"
 msgstr "Cambiar a la fuente de entrada anterior"
 
@@ -2764,6 +2721,31 @@ msgid ""
 msgstr ""
 "El puerto de la máquina definida por «/system/proxy/socks/host» que hace de "
 "proxy."
+
+#~ msgid "Be resident in the lock screen"
+#~ msgstr "Residir en la pantalla de bloqueo"
+
+#~ msgid ""
+#~ "Whether notifications from this application will be shown individually in "
+#~ "full (with details, action buttons and images) in the lock screen."
+#~ msgstr ""
+#~ "Indica si las notificaciones para esta aplicación se mostrarán de manera "
+#~ "individual al completo (con detalles, botones de acción e imágenes) en la "
+#~ "pantalla de bloqueo."
+
+#~| msgid ""
+#~| "Whether notifications are shown in the lock screen or not. This only "
+#~| "affects the standard experience."
+#~ msgid ""
+#~ "Whether notifications are shown in the lock screen or not. This only "
+#~ "affects the standard experience. DEPRECATED: This key is deprecated and "
+#~ "ignored. It has been superseded by org.gnome.desktop.notifications show-"
+#~ "in-lock-screen."
+#~ msgstr ""
+#~ "Indica si se muestran o no las notificaciones en la pantalla de bloqueo. "
+#~ "Esto sólo afecta a la experiencia estándar. OBSOLETO: esta clave está "
+#~ "obsoleta y se ignorará. Se ha reemplazado por show-in-lock-screen en org."
+#~ "gnome.desktop.notifications."
 
 #~ msgid "Default calendar application"
 #~ msgstr "Aplicación de calendario predeterminada"
