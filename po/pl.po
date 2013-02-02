@@ -9,14 +9,14 @@
 # Marek Stępień <marcoos@aviary.pl>, 2007.
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2008-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2012.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2012.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-27 20:50+0100\n"
-"PO-Revision-Date: 2012-12-27 20:51+0100\n"
+"POT-Creation-Date: 2013-02-03 00:34+0100\n"
+"PO-Revision-Date: 2013-02-03 00:35+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -577,8 +577,12 @@ msgid "Draw Desktop Background"
 msgstr "Rysowanie tła pulpitu"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid "Have GNOME draw the desktop background."
-msgstr "Czy środowisko GNOME ma rysować tło pulpitu."
+msgid ""
+"Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
+"and ignored."
+msgstr ""
+"Czy środowisko GNOME ma rysować tło pulpitu. PRZESTARZAŁE: ten klucz jest "
+"przestarzały i ignorowany."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
 msgid "Picture Options"
@@ -659,17 +663,30 @@ msgid "Default calendar"
 msgstr "Domyślny kalendarz"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Default calendar application"
-msgstr "Domyślny program kalendarza"
+msgid ""
+"Default calendar application DEPRECATED: This key is deprecated and ignored. "
+"The preferred calendar application is the application handling the text/"
+"calendar mime type."
+msgstr ""
+"Domyślny program kalendarza. PRZESTARZAŁE: ten klucz jest przestarzały i "
+"ignorowany. Preferowany program kalendarza jest program obsługujący typ MIME "
+"text/calendar."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
 msgstr "Kalendarz wymaga terminala"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
-msgid "Whether the default calendar application needs a terminal to run."
+msgid ""
+"Whether the default calendar application needs a terminal to run. "
+"DEPRECATED: This key is deprecated and ignored. The preferred calendar "
+"application is the application handling the text/calendar mime type, whether "
+"it needs a terminal is taken from its desktop file."
 msgstr ""
-"Określa, czy domyślny program kalendarza wymaga terminala do uruchomienia."
+"Określa, czy domyślny program kalendarza wymaga terminala do uruchomienia. "
+"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Preferowany program "
+"kalendarza jest program obsługujący typ MIME text/calendar, a wymaganie "
+"terminala jest pobierane z jego pliku .desktop."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -692,9 +709,14 @@ msgid "Terminal application"
 msgstr "Program terminala"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-msgid "Terminal program to use when starting applications that require one."
+msgid ""
+"Terminal program to use when starting applications that require one. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal is "
+"handled in GIO."
 msgstr ""
-"Program terminala używany podczas uruchamiania programu go wymagającego."
+"Program terminala używany podczas uruchamiania programu go wymagającego. "
+"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Domyślny terminal "
+"jest obsługiwany przez bibliotekę GIO."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
@@ -702,10 +724,13 @@ msgstr "Parametry wykonywania"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
+"Argument used to execute programs in the terminal defined by the 'exec' key. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal and how "
+"to invoke it is handled in GIO."
 msgstr ""
-"Parametr używany do wykonywania programów w terminalu określonym w kluczu "
-"\"exec\"."
+"Parametr używany do wykonywania programów w terminalu określonym przez klucz "
+"\"exec\". PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Domyślny "
+"terminal i sposób jego wywołania jest obsługiwany przez bibliotekę GIO."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
 msgid "Current input source"
@@ -764,6 +789,18 @@ msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Wyświetla wszystkie zainstalowane źródła wprowadzania w ustawieniach systemu."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:9
+msgid "Use different input sources for each window"
+msgstr "Użycie różnych źródeł wprowadzania dla każdego okna"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
+msgid ""
+"When enabled, input sources get attached to the currently focused window "
+"when activated."
+msgstr ""
+"Kiedy jest włączone, źródła wprowadzania są dołączane do obecnie aktywnego "
+"okna."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -1305,7 +1342,6 @@ msgid "Whether notification banners are visible for application notifications."
 msgstr "Określa, czy banery powiadomień są widoczne dla powiadomień programów."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show notifications in the lock screen"
 msgstr "Wyświetlanie powiadomień na ekranie blokady"
 
@@ -1369,17 +1405,16 @@ msgstr ""
 "Określa, czy powiadomienia z tego programu są wyświetlane na ekranie blokady."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
-msgid "Be resident in the lock screen"
-msgstr "Trwałe powiadomienia na ekranie blokady"
+msgid "Show details in the lock screen"
+msgstr "Wyświetlanie szczegółów na ekranie blokady"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
 msgid ""
-"Whether notifications from this application will be shown individually in "
-"full (with details, action buttons and images) in the lock screen."
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
 msgstr ""
-"Określa, czy powiadomienia z tego programu są wyświetlane oddzielnie w "
-"pełnej formie (razem ze szczegółami, przyciskami działań i obrazami) na "
-"ekranie blokady."
+"Określa, czy podsumowanie i treść powiadomień z tego programu są widoczne "
+"na ekranie blokady."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
@@ -1394,10 +1429,19 @@ msgstr ""
 "tożsamości użytkownika na ekranie lub w sieci."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+msgid "Show full name in the user menu"
+msgstr "Wyświetlanie imienia i nazwiska w menu użytkownika"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr ""
+"Określa, czy imię i nazwisko użytkownika jest wyświetlane w menu użytkownika."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
 msgid "Whether to remove old files from the trash automatically"
 msgstr "Określa, czy automatycznie usuwać stare pliki z kosza"
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "'old-files-age' days."
@@ -1405,11 +1449,11 @@ msgstr ""
 "Jeśli ustawiono na wartość \"true\", to pliki będą automatycznie usuwane z "
 "kosza, jeśli są starsze niż liczba dni ustawiona w kluczu \"old-files-age\"."
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
 msgid "Whether to remove old temporary files automatically"
 msgstr "Określa, czy automatycznie usuwać stare pliki tymczasowe"
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
 msgid ""
 "If TRUE, automatically remove temporary files when they are older than 'old-"
 "files-age' days."
@@ -1418,29 +1462,29 @@ msgstr ""
 "usuwane z kosza, jeśli są starsze niż liczba dni ustawiona w kluczu \"old-"
 "files-age\"."
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
 msgid "Number of days to keep trash and temporary files"
 msgstr "Liczba dni, przez ile przechowywać pliki w koszu i pliku tymczasowe"
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
 msgid "Consider trash and temporary files old after this many days."
 msgstr "Pliki w koszu i pliki tymczasowe są stare po podanej liczbie dni."
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
 msgid "Whether to remember recently used files"
 msgstr "Określa, czy pamiętać ostatnio używane pliki"
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
 msgid "If FALSE, applications will not remember recently used files."
 msgstr ""
 "Jeśli ustawiono na wartość \"false\", to programy nie będą pamiętały "
 "ostatnio używanych plików."
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
 msgid "Number of days to remember recently used files for"
 msgstr "Liczba dni, przez ile pamiętać ostatnio używane pliki"
 
-#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
 msgid ""
 "Recently used files will be remembered for this many days. If set to 0, "
 "recent files will not be remembered; if set to -1, they will be retained "
@@ -1455,10 +1499,15 @@ msgid "Activate when idle"
 msgstr "Aktywacja po bezczynności"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
+"delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Ustawienie tego na wartość \"true\" aktywuje wygaszacz ekranu, kiedy sesja "
-"jest bezczynna."
+"Ustawienie na wartość \"true\" włącza wygaszacz ekranu, kiedy sesja jest "
+"bezczynna. PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Należy "
+"ustawić klucz \"org.gnome.session.idle-delay\" na wartość 0, aby wyłączyć "
+"aktywowanie wygaszacza."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1481,19 +1530,11 @@ msgstr ""
 "Liczba sekund po aktywacji wygaszacza ekranu, zanim ekran zostanie "
 "zablokowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
-msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience."
-msgstr ""
-"Określa, czy powiadomienia są wyświetlane na ekranie blokady. Opcja ta "
-"wpływa tylko na standardowy interfejs."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show full name in the lock screen"
 msgstr "Wyświetlanie imienia i nazwiska na ekranie blokady"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -1502,83 +1543,89 @@ msgstr ""
 "blokady. Opcja ta wpływa tylko na powłokę ekranu, nazwisko jest zawsze "
 "wyświetlane w oknie dialogowym odblokowania."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr "Umożliwienie osadzania klawiatury w oknie"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
+"command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Ustawienie tego na wartość \"true\" umożliwia osadzanie klawiatury w oknie "
 "podczas próby odblokowania. Klucz \"keyboard_command\" musi zawierać "
-"odpowiednie polecenie."
+"odpowiednie polecenie. PRZESTARZAŁE: ten klucz jest przestarzały i "
+"ignorowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr "Polecenie osadzonej klawiatury"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
-"output."
+"output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Polecenie wykonywane, jeśli klucz \"embedded_keyboard_enabled\" jest "
 "ustawiony na wartość \"true\", do osadzenia widżetu klawiatury w oknie. To "
 "polecenie powinno implementować interfejs wtyczki XEMBED i wyświetlać XID "
-"okna w standardowym wyjściu."
+"okna w standardowym wyjściu. PRZESTARZAŁE: ten klucz jest przestarzały i "
+"ignorowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "Zezwolenie na wylogowanie"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
+"out after a delay. The delay is specified in the \"logout_delay\" key. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Ustawienie tego na wartość \"true\" powoduje wyświetlanie po opóźnieniu "
 "opcji wylogowania w oknie odblokowania. Opóźnienie jest określone w kluczu "
-"\"logout_delay\"."
+"\"logout_delay\". PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr "Czas przed opcją wylogowania"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
+"\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated and "
+"ignored"
 msgstr ""
 "Liczba sekund po aktywacji wygaszacza ekranu, zanim pojawi się opcja "
 "wylogowania w oknie odblokowania. Ten klucz jest uwzględniany tylko, jeśli "
-"klucz \"logout_enable\" jest ustawiony na wartość \"true\"."
+"klucz \"logout_enable\" jest ustawiony na wartość \"true\". PRZESTARZAŁE: "
+"ten klucz jest przestarzały i ignorowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr "Polecenie wylogowania"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
+"the \"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
+"and ignored."
 msgstr ""
 "Polecenie wywoływane po kliknięciu przycisku wylogowania. To polecenie "
 "powinno po prostu wylogować użytkownika bez żadnych działań. Ten klucz jest "
 "uwzględniany tylko, jeśli klucz \"logout_enable\" jest ustawiony na wartość "
-"\"true\"."
+"\"true\". PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr "Zezwolenie na przełączanie użytkownika"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1586,15 +1633,17 @@ msgstr ""
 "Ustawienie tego na wartość \"true\" powoduje wyświetlenia opcji przełączenia "
 "na inne konto użytkownika w oknie odblokowania."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr "Zezwolenie na wyświetlanie komunikatu stanu sesji"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
-"Allow the session status message to be displayed when the screen is locked."
+"Allow the session status message to be displayed when the screen is locked. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Umożliwia wyświetlanie komunikatu stanu sesji, kiedy ekran jest zablokowany."
+"Umożliwia wyświetlanie komunikatu stanu sesji, kiedy ekran jest zablokowany. "
+"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
 msgid "Disable all external search providers"
