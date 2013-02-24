@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-17 19:11+0100\n"
-"PO-Revision-Date: 2013-02-17 19:12+0100\n"
+"POT-Creation-Date: 2013-02-24 02:39+0100\n"
+"PO-Revision-Date: 2013-02-24 02:40+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -573,22 +573,12 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Czas w sekundach przez wywołaniem symulowanego drugiego przycisku."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "Rysowanie tła pulpitu"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid ""
-"Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
-"and ignored."
-msgstr ""
-"Czy środowisko GNOME ma rysować tło pulpitu. PRZESTARZAŁE: ten klucz jest "
-"przestarzały i ignorowany."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "Opcje obrazu"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -598,11 +588,12 @@ msgstr ""
 "Możliwe wartości to \"none\", \"wallpaper\", \"centered\", \"scaled\", "
 "\"stretched\", \"zoom\", \"spanned\"."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "Adres URI obrazu"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -610,37 +601,45 @@ msgstr ""
 "Adres URI obrazu tła. Proszę zauważyć, że mechanizm obsługuje tylko lokalne "
 "adresy URI (file://)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "Nieprzezroczystość obrazu"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "Nieprzezroczystość, z jaką rysować obraz tła."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "Kolor pierwszoplanowy"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Lewy lub górny kolor, jeśli rysowane są gradienty, albo jeden kolor."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "Kolor drugoplanowy"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Prawy lub dolny kolor, jeśli rysowane są gradienty. Nie jest używane dla "
 "pojedynczego koloru."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "Typ cieniowania koloru"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -648,11 +647,11 @@ msgstr ""
 "Jak cieniować kolor tła. Możliwe wartości to \"horizontal\", \"vertical\" i "
 "\"solid\"."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "Czy menedżer plików ma obsługiwać pulpit"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Jeśli jest ustawione na wartość \"true\", to menedżer plików będzie "
@@ -1644,6 +1643,14 @@ msgid ""
 msgstr ""
 "Umożliwia wyświetlanie komunikatu stanu sesji, kiedy ekran jest zablokowany. "
 "PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"Adres URI obrazu tła. Proszę zauważyć, że mechanizm obsługuje tylko lokalne "
+"adresy URI (file://)."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
 msgid "Disable all external search providers"
