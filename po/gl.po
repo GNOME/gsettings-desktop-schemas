@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-07 00:20+0100\n"
-"PO-Revision-Date: 2013-02-07 00:34+0200\n"
+"POT-Creation-Date: 2013-02-26 00:26+0100\n"
+"PO-Revision-Date: 2013-02-26 00:26+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -569,22 +569,12 @@ msgstr ""
 "Tempo en segundos antes de disparar unha pulsación secundaria simulada."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "Debuxar fondo do escritorio"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid ""
-"Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
-"and ignored."
-msgstr ""
-"Facer que GNOME debuxe o fondo do escritorio. OBSOLETO: Esta chave está "
-"obsoleta e ignorada."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "Opcións da imaxe"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -595,11 +585,12 @@ msgstr ""
 "«centered» (centrado), «scaled» (escalado), «stretched» (estirado) e "
 "«zoom» (ampliación)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "URI da imaxe"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -607,38 +598,46 @@ msgstr ""
 "URI que usar para a imaxe de fondo. Teña en conta que a infraestrutura só "
 "admite URI locais (file://)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "Opacidade da imaxe"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "Opacidade coa cal debuxar o tapiz."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "Cor primario"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Cor superior ou esquerdo cando se debuxan as gradacións, ou a cor sólida."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "Cor secundario"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Cor inferior ou dereito cando se debuxan as gradacións, non se usa para cor "
 "sólida."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "Tipo de sombreado de cores"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -646,11 +645,11 @@ msgstr ""
 "Como sombrear o cor de fondo. Os valores posíbeis son «horizontal», "
 "«vertical» e «solid»."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "Facer que o xestor de ficheiros xestione o escritorio"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "Se é certo, o xestor de ficheiros debuxará as iconas no escritorio"
 
@@ -1518,9 +1517,8 @@ msgid ""
 "delay to 0 if you do not want to activate the screensaver."
 msgstr ""
 "Configure esto a VERDADEIRO para activar o salvapantallas cando a sesión "
-"estea ociosa. OBSOLETO: Esta chave está obsoleta e ignorada. Estabeleza "
-"org.gnome.session.idle-delay a 0 se non quere que se active o "
-"salvapantallas."
+"estea ociosa. OBSOLETO: Esta chave está obsoleta e ignorada. Estabeleza org."
+"gnome.session.idle-delay a 0 se non quere que se active o salvapantallas."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1654,6 +1652,14 @@ msgid ""
 msgstr ""
 "Permitir que se mostren as mensaxes de estado da sección cando a pantalla "
 "estea bloqueada. OBSOLETO: Esta chave está obsoleta e ignorada."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"URI que usar para a imaxe de fondo. Teña en conta que a infraestrutura só "
+"admite URI locais (file://)."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
 msgid "Disable all external search providers"
@@ -2697,6 +2703,16 @@ msgid ""
 "proxy through."
 msgstr ""
 "O porto na máquina definido por «/system/proxy/socks/host» que fai de proxy."
+
+#~ msgid "Draw Desktop Background"
+#~ msgstr "Debuxar fondo do escritorio"
+
+#~ msgid ""
+#~ "Have GNOME draw the desktop background. DEPRECATED: This key is "
+#~ "deprecated and ignored."
+#~ msgstr ""
+#~ "Facer que GNOME debuxe o fondo do escritorio. OBSOLETO: Esta chave está "
+#~ "obsoleta e ignorada."
 
 #~ msgid "Default calendar application"
 #~ msgstr "Aplicativo de calendario predeterminado"
