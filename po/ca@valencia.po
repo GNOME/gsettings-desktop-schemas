@@ -2,14 +2,14 @@
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Pau Iranzo <paugnu@gmail.com>, 2011, 2012.
-# Gil Forcada <gilforcada@guifi.net>, 2012.
+# Gil Forcada <gilforcada@guifi.net>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-26 01:25+0200\n"
-"PO-Revision-Date: 2012-09-16 21:43+0200\n"
+"POT-Creation-Date: 2013-03-15 00:25+0100\n"
+"PO-Revision-Date: 2013-03-12 23:20+0100\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca-XV\n"
@@ -80,13 +80,12 @@ msgstr ""
 "La durada del temps d'espera abans de desactivar l'accessibilitat del teclat."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-msgid "Enable the bounce keys"
-msgstr "Habilita les tecles de salt"
+msgid "Enable 'Bounce Keys'"
+msgstr "Habilita les «Tecles de salt»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr ""
-"Si està activa la funció d'accessibilitat de teclat de les tecles de salt."
+msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
+msgstr "Si la funció d'accessibilitat de teclat «Tecles de salt» està activa."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
 msgid "Minimum interval in milliseconds"
@@ -106,12 +105,12 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Si s'ha d'emetre un to quan es rebutgi una tecla."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable mouse keys"
-msgstr "Habilita les tecles de ratolí"
+msgid "Enable 'Mouse Keys'"
+msgstr "Habilita les «Tecles de ratolí»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Whether the mouse keys accessibility feature is turned on."
-msgstr "Si està activa la funció d'accessibilitat de les tecles de ratolí."
+msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
+msgstr "Si la funció d'accessibilitat de les «Tecles de ratolí» està activa."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
 msgid "Pixels per seconds"
@@ -141,12 +140,12 @@ msgstr ""
 "comencen a funcionar."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Enable slow keys"
-msgstr "Habilita les tecles lentes"
+msgid "Enable 'Slow Keys'"
+msgstr "Habilita les «Tecles lentes»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Whether the slow keys accessibility feature is turned on."
-msgstr "Si està activa la funció d'accessibilitat de les tecles lentes."
+msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgstr "Si la funció d'accessibilitat de les «Tecles lentes» està activa."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 msgid ""
@@ -197,12 +196,13 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Si s'ha d'emetre un to quan es prem una tecla modificadora."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid "Enable toggle keys"
-msgstr "Habilita les tecles de commutació"
+msgid "Enable 'Toggle Keys'"
+msgstr "Habilita les «Tecles de commutació»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-msgid "Whether the toggle keys accessibility feature is turned on."
-msgstr "Si està activa la funció d'accessibilitat de les tecles de commutació."
+msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
+msgstr ""
+"Si la funció d'accessibilitat de les «Tecles de commutació» està activa."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
 msgid "Mouse Tracking Mode"
@@ -560,18 +560,12 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "El temps, en segons, abans que es generi un clic secundari."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "Dibuixa el fons de l'escriptori"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid "Have GNOME draw the desktop background."
-msgstr "Fes que el GNOME dibuixi el fons de l'escriptori."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "Opcions de la imatge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -582,51 +576,60 @@ msgstr ""
 "«centered» (centrat), «scaled» (escalat), «stretched» (ajustat), "
 "«zoom» (ampliat) i «spanned» (allargat)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "URI de la imatge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
-"URI to use for the background image. Not that the backend only supports "
+"URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
 "L'URI que es fa servir per a la imatge de fons. Tingueu en compte que el "
 "rerefons només permet URI locals (file://)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "Opacitat de la imatge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "L'opacitat amb la que es dibuixa la imatge de fons."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "Color primari"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "El color de l'esquerra o superior quan es dibuixin degradats, o el color "
 "sòlid."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "Color secundari"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "El color de la dreta o inferior quan es dibuixin degradats, no es fa servir "
 "amb el color sòlid."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "Tipus d'ombreig de color"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -634,11 +637,11 @@ msgstr ""
 "Com s'ha d'ombrejar el color de fons. Els valors possibles són "
 "«horizontal» (horitzontal), «vertical» (vertical) i «solid» (sòlid)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "Fes que el gestor de fitxers gestione l'escriptori"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Si és «true» (cert), el gestor de fitxer dibuixarà icones a l'escriptori."
@@ -648,17 +651,30 @@ msgid "Default calendar"
 msgstr "Calendari per defecte"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Default calendar application"
-msgstr "L'aplicació per defecte de calendari"
+msgid ""
+"Default calendar application DEPRECATED: This key is deprecated and ignored. "
+"The preferred calendar application is the application handling the text/"
+"calendar mime type."
+msgstr ""
+"L'aplicació de calendari per defecte. OBSOLETA: esta clau és obsoleta i "
+"s'ignora. L'aplicació de calendari preferida és l'aplicació que gestiona el "
+"tipus MIME «text/calendar»."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
 msgstr "El calendari necessita un terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
-msgid "Whether the default calendar application needs a terminal to run."
+msgid ""
+"Whether the default calendar application needs a terminal to run. "
+"DEPRECATED: This key is deprecated and ignored. The preferred calendar "
+"application is the application handling the text/calendar mime type, whether "
+"it needs a terminal is taken from its desktop file."
 msgstr ""
-"Si l'aplicació per defecte de calendari necessita executar-se en un terminal."
+"Si l'aplicació de calendari per defecte necessita un terminal per executar-"
+"se. OBSOLETA: esta clau és obsoleta i s'ignora. L'aplicació de calendari "
+"preferida és l'aplicació que gestiona el tipus MIME «text/calendar». Si "
+"necessita un terminal es decideix mirant el seu fitxer d'escriptori."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -682,10 +698,14 @@ msgid "Terminal application"
 msgstr "Aplicació de terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-msgid "Terminal program to use when starting applications that require one."
+msgid ""
+"Terminal program to use when starting applications that require one. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal is "
+"handled in GIO."
 msgstr ""
 "El programa de terminal que s'utilitza en iniciar aplicacions que en "
-"requereixen."
+"requereixen. OBSOLETA: esta clau és obsoleta i s'ignora. El terminal per "
+"defecte es gestiona des de la GIO."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
@@ -693,10 +713,13 @@ msgstr "Arguments d'execució"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
+"Argument used to execute programs in the terminal defined by the 'exec' key. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal and how "
+"to invoke it is handled in GIO."
 msgstr ""
-"L'argument que s'utilitza per executar programes en el terminal definit per "
-"la clau «exec»."
+"L'argument que s'utilitza per executar programes en el terminal definit a la "
+"clau «exec». OBSOLETA: esta clau és obsoleta i s'ignora. El terminal per "
+"defecte i com s'invoca es gestiona des de la GIO."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
 msgid "Current input source"
@@ -732,7 +755,7 @@ msgstr ""
 "ser «xkb» o «ibus». Pels mètodes d'entrada basats en «xkb», la segona cadena "
 "és «xkb_layout+xkb_variant» (disposició xkb més variants xkb) o només "
 "«xkb_layout» (disposició xkb) si no fa falta una variació de l'XKB. pels "
-"mètodes d'entrada  basats en «ibus», la segona cadena és el nom del motor "
+"mètodes d'entrada basats en «ibus», la segona cadena és el nom del motor "
 "d'IBus. Una llista buida significa que s'utilitzaran sense modificacions la "
 "disposició XKB actual del servidor d'X i la seua variant i no es farà servir "
 "l'IBus."
@@ -759,6 +782,18 @@ msgid ""
 msgstr ""
 "Permet seleccionar tots els mètodes d'entrada instal·lats en els «Paràmetres "
 "del sistema»."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:9
+msgid "Use different input sources for each window"
+msgstr "Utilitza diferents mètodes d'entrada per a cada finestra"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
+msgid ""
+"When enabled, input sources get attached to the currently focused window "
+"when activated."
+msgstr ""
+"Si s'habilita, quan s'activa la finestra que té el focus se li adjunten els "
+"mètodes d'entrada."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -1118,15 +1153,16 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:3
 msgid "Disable saving files to disk"
-msgstr "Inhabilita l'alçat de fitxers al disc"
+msgstr "Inhabilita el guardat de fitxers al disc"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:4
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
 msgstr ""
-"No permetes que l'usuari puga alçar fitxers al disc. Per exemple, això "
-"inhabilitaria l'accés als diàlegs «Anomena i alça» de totes les aplicacions."
+"No permetes que l'usuari puga guardar fitxers al disc. Per exemple, això "
+"inhabilitaria l'accés als diàlegs «Anomena i guarda» de totes les "
+"aplicacions."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:5
 msgid "Disable printing"
@@ -1189,6 +1225,19 @@ msgstr "Inhabilita el poder eixir"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:16
 msgid "Prevent the user from logging out."
 msgstr "No permetes que l'usuari puga eixir de la sessió."
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
+msgid "Disable user administration"
+msgstr "Inhabilita l'administració d'usuaris"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:18
+msgid ""
+"Stop the user from modifying user accounts. By default, we allow adding and "
+"removing users, as well as changing other users settings."
+msgstr ""
+"No permetes que l'usuari modifiqui els comptes d'usuari. Per defecte es "
+"permet que s'afigen i es suprimisquen usuaris, així com també se'n puguen "
+"canviar les seues propietats."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
@@ -1279,15 +1328,187 @@ msgstr ""
 "carpeta» en la miniaplicació de preferències. S'obrirà una finestra de "
 "carpeta en introduir un suport que coincidisca amb estos tipus."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+msgid "Show notification banners"
+msgstr "Mostra els bàners de notificacions"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr ""
+"Si els bàners de notificacions són visibles per les notificacions "
+"d'aplicació."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+msgid "Show notifications in the lock screen"
+msgstr "Mostra les notificacions a la pantalla bloquejada"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Si s'han de mostrar les notificacions a la pantalla bloquejada."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+msgid "Application ID"
+msgstr "Identificador d'aplicació"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "L'aplicació per a la qual és esta política."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+msgid "Enable notifications"
+msgstr "Habilita les notificacions"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr "Si les notificacions estan habilitades globalment per esta aplicació."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+msgid "Enable sound alerts"
+msgstr "Habilita les alertes de so"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Si les notificacions haurien d'anar acompanyades d'alertes de so."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"Si es mostren els bàners de notificació d'esta aplicació. No es té en compta "
+"quan es fa clic als botons de la safata de missatges."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr "Força que els bàners s'amplien automàticament"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr ""
+"Si s'amplien automàticament les notificacions d'esta aplicació si estan en "
+"mode bàner."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+msgid "Show in the lock screen"
+msgstr "Mostra-les a la pantalla bloquejada"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr ""
+"Si es mostren les notificacions d'esta aplicació quan la pantalla està "
+"bloquejada."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+msgid "Show details in the lock screen"
+msgstr "Mostra els detalls a la pantalla de bloqueig"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
+msgstr ""
+"Si es mostra el resum i el cos de les notificacions d'esta aplicació a la "
+"pantalla de bloqueig."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
+msgid "Controls visibility of personal information"
+msgstr "Controla la visibilitat de la informació personal"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:2
+msgid ""
+"If set to true, the system will make an effort to not divulge the user's "
+"identity on screen or on the network."
+msgstr ""
+"Si és «true» (cert), el sistema mirarà de no mostrar la identitat de "
+"l'usuari a la pantalla o a la xarxa."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+msgid "Show full name in the user menu"
+msgstr "Mostra el nom sencer en el menú d'usuari"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr "Si s'ha de mostrar el nom complet de l'usuari al menú."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old files from the trash automatically"
+msgstr "Si s'han d'eliminar automàticament els fitxers vells de la paperera"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Si és «TRUE» (cert), els fitxers vells es suprimeixen automàticament de la "
+"paperera quan siguen de fa més dies dels especificats a la clau «old-files-"
+"age»."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Whether to remove old temporary files automatically"
+msgstr "Si s'han d'eliminar automàticament els fitxers temporals"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Si és «TRUE» (cert), els fitxers temporals es suprimeixen automàticament "
+"quan siguen de fa més dies dels especificats a la clau «old-files-age»."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Number of days to keep trash and temporary files"
+msgstr ""
+"Nombre de dies que s'han de mantindre els fitxers de la paperera i els "
+"temporals"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "Consider trash and temporary files old after this many days."
+msgstr ""
+"Considera com a vells els fitxers de la paperera i temporals que siguen "
+"anteriors a este nombre de dies."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Whether to remember recently used files"
+msgstr "Si s'han de recordar els fitxers utilitzats recentment"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid "If FALSE, applications will not remember recently used files."
+msgstr ""
+"Si és «FALSE» (fals), les aplicacions no recordaran els fitxers utilitzats "
+"recentment."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
+msgid "Number of days to remember recently used files for"
+msgstr "Nombre de dies que es recordaran els fitxers utilitzats recentment"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Els fitxers utilitzats recentment es recordaran esta quantitat de dies. Si "
+"s'estableix a 0, no es recordaran els fitxers utilitzats recentment, si "
+"s'estableix a -1, es recordaran indefinidament."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Activa quan estiga inactiu"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
+"delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Establiu-ho com a «true» (cert) per activar l'estalvi de pantalla quan la "
-"sessió estiga inactiva."
+"Establiu-ho a «TRUE» (cert) per activar l'estalvi de pantalla quan la sessió "
+"estiga inactiva. OBSOLETA: esta clau és obsoleta i s'ignora. Si no voleu "
+"activar l'estalvi de pantalla establiu la clau «org.gnome.session.idle-"
+"delay» a 0."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1311,16 +1532,17 @@ msgstr ""
 "activat l'estalvi de pantalla."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Mostra les notificacions a la pantalla bloquejada"
+msgid "Show full name in the lock screen"
+msgstr "Mostra el nom complet a la pantalla bloquejada"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience."
+"Whether the user's full name is shown in the lock screen or not. This only "
+"affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Si s'han de mostrar les notificacions a la pantalla bloquejada. Esta clau "
-"només es té en compte amb l'experiència estàndard."
+"Si s'ha de mostrar el nom complet de l'usuari a la pantalla bloquejada. "
+"Només es té en compte a la pantalla protectora, el nom sempre es mostra al "
+"diàleg de bloqueig."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
@@ -1330,11 +1552,11 @@ msgstr "Permet incrustar un teclat a la finestra"
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
+"command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Establiu-ho com a «TRUE» (cert) per permetre l'incrustació d'un teclat a la "
 "finestra quan s'intente desbloquejar. A la clau «keyboard_command» hi ha "
-"d'haver l'orde apropiada."
+"d'haver l'orde apropiada. OBSOLETA: esta clau és obsoleta i s'ignora."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
@@ -1345,12 +1567,13 @@ msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
-"output."
+"output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "L'orde que s'executarà, si la clau «embedded_keyboard_enabled» s'estableix a "
 "«TRUE» (cert), per incrustar un teclat a la finestra. Esta orde hauria "
 "d'implementar una interfície de connector XEMBED i hauria de retornar un "
-"identificador de finestra a l'eixida estàndard."
+"identificador de finestra a l'eixida estàndard. OBSOLETA: esta clau és "
+"obsoleta i s'ignora."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
@@ -1359,11 +1582,12 @@ msgstr "Permet eixir"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
+"out after a delay. The delay is specified in the \"logout_delay\" key. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Si és «TRUE» (cert) es mostrarà una opció en el diàleg de desbloqueig per "
 "permetre eixir després d'un temps d'espera. Este temps d'espera s'especifica "
-"a la clau «logout_delay»."
+"a la clau «logout_delay». OBSOLETA: esta clau és obsoleta i s'ignora."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
@@ -1373,11 +1597,13 @@ msgstr "Temps d'espera per mostrar l'opció d'eixida"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
+"\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated and "
+"ignored"
 msgstr ""
 "El nombre de segons entre que s'activa l'estalvi de pantalla i que es mostra "
 "l'opció d'eixir en el diàleg de desbloqueig. Esta clau només es té en compte "
-"si la clau «logout_enable» és «TRUE» (cert)."
+"si la clau «logout_enable» és «TRUE» (cert). OBSOLETA: esta clau és obsoleta "
+"i s'ignora."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
@@ -1387,11 +1613,13 @@ msgstr "Orde d'eixida"
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
+"the \"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
+"and ignored."
 msgstr ""
 "L'orde que es cridarà en prémer el botó d'eixida. Esta orde només hauria de "
 "tancar la sessió de l'usuari sense necessitat de cap interacció. Esta clau "
-"només es té en compte si la clau «logout_enable» és «TRUE» (cert)."
+"només es té en compte si la clau «logout_enable» és «TRUE» (cert). OBSOLETA: "
+"esta clau és obsoleta i s'ignora."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
@@ -1411,10 +1639,65 @@ msgstr "Permet que es mostre el missatge d'estat de la sessió"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
-"Allow the session status message to be displayed when the screen is locked."
+"Allow the session status message to be displayed when the screen is locked. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Permet que es mostre el missatge d'estat de la sessió quan estiga blocada la "
-"pantalla."
+"pantalla. OBSOLETA: esta clau és obsoleta i s'ignora."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"L'URI que es fa servir per a la imatge de fons. Tingueu en compte que el "
+"rerefons només permet URI locals (file://)."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
+msgid "Disable all external search providers"
+msgstr "Inhabilita tots els proveïdors de cerca externs"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:2
+msgid ""
+"Set to true to disable all external search provider programs, whether or not "
+"they are independently disabled or enabled. External search providers are "
+"installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
+msgstr ""
+"Establiu-ho a «true» (cert) per inhabilitar tots els programes proveïdors de "
+"cerca externa, sense tindre en compte si estan inhabilitats individualment. "
+"Els proveïdors de cerca externa s'instal·len a $XDG_DATA_DIR/gnome-shell/"
+"search-providers."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
+msgid "List of desktop file IDs for which search provider should be disabled"
+msgstr ""
+"La llista d'identificadors de fitxers d'escriptori dels quals no s'hauria de "
+"proporcionar cerques"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
+msgid ""
+"Results for applications contained in this list will not be displayed when "
+"searching."
+msgstr ""
+"Els resultats que retornen les aplicacions llistades ací no es mostraran en "
+"fer cerques."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid "List of desktop file IDs for search providers sort order"
+msgstr ""
+"Ordrenació de la llista d'identificadors de fitxers d'escriptori dels "
+"proveïdors de cerca"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed in the "
+"specified order. Results for applications not specified in this list will be "
+"displayed before the last item of the list, if it has more than one item."
+msgstr ""
+"Els resultats que retornen les aplicacions llistades ací es mostraran en "
+"este orde. Si hi ha més d'un element a la llista, els resultats de les "
+"aplicacions que no són en esta llista es mostraran abans de l'últim element "
+"d'esta."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1574,223 +1857,246 @@ msgid "Reverse switch applications"
 msgstr "Inversió de la commutació d'aplicacions"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+msgid "Switch windows"
+msgstr "Commutació de finestres"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+msgid "Reverse switch windows"
+msgstr "Inversió de la commutació de les finestres"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Switch system controls"
 msgstr "Commutació de controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Reverse switch system controls"
 msgstr "Inversió de la commutació de controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Commutació immediata de les finestres d'una aplicació"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Reverse switch windows of an app directly"
 msgstr "Inversió immediata de la commutació de les finestres d'una aplicació"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Switch windows directly"
 msgstr "Commutació immediata de finestres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Reverse switch windows directly"
 msgstr "Inversió directa de la commutació de les finestres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Switch system controls directly"
 msgstr "Commutació directa dels controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Reverse switch system controls directly"
 msgstr "Inversió directa de la commutació dels controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Hide all normal windows"
 msgstr "Oculta totes les finestres normals"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Show the activities overview"
 msgstr "Mostra la vista general d'activitats"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the run command prompt"
 msgstr "Mostra l'indicador d'execució d'aplicacions"
 
-# GF: s'ha de revisar l'original
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
-msgid "Don&apos;t use"
-msgstr "No utilitzes"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+msgid "Don't use"
+msgstr "No l'utilitzes"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Activate the window menu"
 msgstr "Activa el menú de finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Toggle fullscreen mode"
 msgstr "Commuta el mode a pantalla completa"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle maximization state"
 msgstr "Commuta l'estat de maximització"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle window always appearing on top"
 msgstr "Commuta l'estat de sempre per damunt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
 msgstr "Maximitza la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Restore window"
 msgstr "Restaura la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Toggle shaded state"
 msgstr "Canvia l'estat d'ombrejat"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Minimize window"
 msgstr "Minimitza la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Close window"
 msgstr "Tanca la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Move window"
 msgstr "Mou la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Resize window"
 msgstr "Redimensiona la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Toggle window on all workspaces or one"
 msgstr ""
 "Commuta la funció que fa que la finestra estiga en tots els espais de "
 "treball o només en un"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Move window to workspace 1"
 msgstr "Mou la finestra a l'espai de treball 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 2"
 msgstr "Mou la finestra a l'espai de treball 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 3"
 msgstr "Mou la finestra a l'espai de treball 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 4"
 msgstr "Mou la finestra a l'espai de treball 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 5"
 msgstr "Mou la finestra a l'espai de treball 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 6"
 msgstr "Mou la finestra a l'espai de treball 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 7"
 msgstr "Mou la finestra a l'espai de treball 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 8"
 msgstr "Mou la finestra a l'espai de treball 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 9"
 msgstr "Mou la finestra a l'espai de treball 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 10"
 msgstr "Mou la finestra a l'espai de treball 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 11"
 msgstr "Mou la finestra a l'espai de treball 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 12"
 msgstr "Mou la finestra a l'espai de treball 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window one workspace to the left"
 msgstr "Mou la finestra un espai de treball a l'esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
 msgid "Move window one workspace to the right"
 msgstr "Mou la finestra un espai de treball a la dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace up"
 msgstr "Mou la finestra un espai de treball amunt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace down"
 msgstr "Mou la finestra un espai de treball avall"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Alça una finestra coberta per una altra, o sinó baixa-la"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Raise window above other windows"
 msgstr "Alça una finestra per damunt de les altres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Lower window below other windows"
 msgstr "Baixa la finestra sota les altres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Maximize window vertically"
 msgstr "Maximitza la finestra verticalment"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Maximize window horizontally"
 msgstr "Maximitza la finestra horitzontalment"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to top left corner"
 msgstr "Mou la finestra a la cantonada superior esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Move window to top right corner"
 msgstr "Mou la finestra a la cantonada superior dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Move window to bottom left corner"
 msgstr "Mou la finestra a la cantonada inferior esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Move window to bottom right corner"
 msgstr "Mou la finestra a la cantonada inferior dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top edge of screen"
 msgstr "Mou la finestra a la vora superior de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to bottom edge of screen"
 msgstr "Mou la finestra a la vora inferior de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to right side of screen"
 msgstr "Mou la finestra a la vora dreta de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to left side of screen"
 msgstr "Mou la finestra a la vora esquerra de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to center of screen"
 msgstr "Mou la finestra al centre de la pantalla"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+msgid "Switch input source"
+msgstr "Canvia de mètode d'entrada"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+msgid "Binding to select the next input source"
+msgstr "Vinculació per seleccionar el mètode d'entrada següent"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+msgid "Switch input source backward"
+msgstr "Canvia de mètode d'entrada cap enrera"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+msgid "Binding to select the previous input source"
+msgstr "Vinculació per seleccionar el mètode d'entrada anterior"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2418,32 +2724,34 @@ msgstr ""
 "El port a l'ordinador definit a «/system/proxy/socks/host» que s'utilitza "
 "com a servidor intermediari."
 
-#, fuzzy
-#~ msgid "Enables the proxy settings when accessing HTTP over the Internet."
-#~ msgstr ""
-#~ "Habilita els paràmetres del servidor intermediari quan s'accedeix a HTTP "
-#~ "per Internet."
+#~ msgid "Draw Desktop Background"
+#~ msgstr "Dibuixa el fons de l'escriptori"
 
-#, fuzzy
 #~ msgid ""
-#~ "Select the proxy configuration mode. Supported values are \"none\", "
-#~ "\"manual\", \"auto\"."
+#~ "Have GNOME draw the desktop background. DEPRECATED: This key is "
+#~ "deprecated and ignored."
 #~ msgstr ""
-#~ "Selecciona el mode de configuració del servidor intermediari. Els valors "
-#~ "disponibles són «none» (cap), «manual», «auto»."
+#~ "Fes que el GNOME dibuixi el fons de l'escriptori. OBSOLETA: aquesta clau "
+#~ "és obsoleta i s'ignora."
 
-#, fuzzy
-#~ msgid "The machine name to proxy socks through."
-#~ msgstr "El nom del servidor que fa de servidor intermediari de socks."
+#~ msgid "Be resident in the lock screen"
+#~ msgstr "Mantén-les a la pantalla bloquejada"
 
-#, fuzzy
-#~ msgid "URL that provides proxy configuration values."
-#~ msgstr "URL que proveeix valors de configuració del servidor intermediari."
+#~ msgid ""
+#~ "Whether notifications from this application will be shown individually in "
+#~ "full (with details, action buttons and images) in the lock screen."
+#~ msgstr ""
+#~ "Si s'han de mostrar individualment i al complet (amb els detalls, els "
+#~ "botons d'acció i imatges) les notificacions d'aquesta aplicació a la "
+#~ "pantalla de bloqueig."
 
-#, fuzzy
-#~ msgid "Use HTTP proxy"
-#~ msgstr "Utilitza un servidor intermediari d'HTTP"
-
-#, fuzzy
-#~ msgid "Use same proxy for all protocols"
-#~ msgstr "_Empra el mateix servidor intermediari per a tots els protocols"
+#~ msgid ""
+#~ "Whether notifications are shown in the lock screen or not. This only "
+#~ "affects the standard experience. DEPRECATED: This key is deprecated and "
+#~ "ignored. It has been superseded by org.gnome.desktop.notifications show-"
+#~ "in-lock-screen."
+#~ msgstr ""
+#~ "Si s'han de mostrar les notificacions a la pantalla bloquejada. Aquesta "
+#~ "clau només es té en compte amb l'experiència estàndard. OBSOLETA: aquesta "
+#~ "clau és obsoleta i s'ignora. S'ha reemplaçat per la clau «show-in-lock-"
+#~ "screen» que es troba a «org.gnome.desktop.notifications»."
