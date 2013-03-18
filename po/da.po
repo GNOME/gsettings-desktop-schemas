@@ -1,14 +1,14 @@
 # Danish translation for gsettings-desktop-schemas.
-# Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
+# Copyright (C) 2012-2013 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2013
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-15 06:37+0200\n"
-"PO-Revision-Date: 2012-10-14 19:04+0200\n"
+"POT-Creation-Date: 2013-03-19 00:25+0100\n"
+"PO-Revision-Date: 2013-03-17 18:30+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -77,12 +77,12 @@ msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr "Ventetiden før tastaturtilgængelighed deaktiveres."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-msgid "Enable the bounce keys"
-msgstr "Slå rystetaster til"
+msgid "Enable 'Bounce Keys'"
+msgstr "Slå \"rystetaster\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-msgstr "Om tastaturtilgængelighedsfunktionen rystetaster er slået til."
+msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
+msgstr "Om tastaturtilgængelighedsfunktionen \"rystetaster\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
 msgid "Minimum interval in milliseconds"
@@ -101,12 +101,12 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Om der skal bippes når en tast afslås."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable mouse keys"
-msgstr "Slå musetastatur til"
+msgid "Enable 'Mouse Keys'"
+msgstr "Slå \"musetastatur\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Whether the mouse keys accessibility feature is turned on."
-msgstr "Om tilgængelighedsfunktionen musetastatur er slået til."
+msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
+msgstr "Om tilgængelighedsfunktionen \"musetastatur\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
 msgid "Pixels per seconds"
@@ -136,12 +136,12 @@ msgstr ""
 "virksomme."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Enable slow keys"
-msgstr "Slå langsomme taster til"
+msgid "Enable 'Slow Keys'"
+msgstr "Slå \"langsomme taster\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Whether the slow keys accessibility feature is turned on."
-msgstr "Om tilgængelighedsfunktionen langsomme taster er slået til."
+msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgstr "Om tilgængelighedsfunktionen \"langsomme taster\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 msgid ""
@@ -193,12 +193,12 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Om der skal bippes når der trykkes på en modifikationstast."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid "Enable toggle keys"
-msgstr "Slå skiftetaster til"
+msgid "Enable 'Toggle Keys'"
+msgstr "Slå \"skiftetaster\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-msgid "Whether the toggle keys accessibility feature is turned on."
-msgstr "Om tilgængelighedsfunktionen skiftetaster er slået til."
+msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
+msgstr "Om tilgængelighedsfunktionen \"skiftetaster\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
 msgid "Mouse Tracking Mode"
@@ -547,18 +547,12 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Tid i sekunder før der udløses et simuleret sekundært klik."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "Tegn skrivebordsbaggrund"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid "Have GNOME draw the desktop background."
-msgstr "Få GNOME til at tegne skrivebordsbaggrunden."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "Billedindstillinger"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -568,51 +562,60 @@ msgstr ""
 "værdier er \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
 "\"zoom\", \"spanned\"."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "Billed-URI"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
-"URI to use for the background image. Not that the backend only supports "
+"URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
 "URI, der skal bruges til baggrundsbilledet. Bemærk at motoren kun "
 "understøtter lokale (file://) URI'er."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "Uigennemsigtighed for billede"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "Uigennemsigtighed hvormed baggrundsbilledet tegnes."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "Primær farve"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Venstre eller øverste farve når der tegnes gradienter, eller farven i "
 "tilfælde af ensfarvet."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "Sekundær farve"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Højre eller nederste farve når der tegnes gradienter; bruges ikke hvis "
 "ensfarvet."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "Farveskyggetype"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -620,11 +623,11 @@ msgstr ""
 "Hvordan baggrundsfarven skyggelægges. Mulige værdier er \"horizontal\", "
 "\"vertical\" og \"solid\"."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "Få filhåndteringen til at håndtere skrivebordet"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "Hvis slået til, vil filhåndteringen tegne ikonerne på skrivebordet."
 
@@ -633,16 +636,30 @@ msgid "Default calendar"
 msgstr "Standardkalender"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Default calendar application"
-msgstr "Standardkalenderprogram"
+msgid ""
+"Default calendar application DEPRECATED: This key is deprecated and ignored. "
+"The preferred calendar application is the application handling the text/"
+"calendar mime type."
+msgstr ""
+"Standardkalenderprogram FORÆLDET: Denne nøgle er forældet og ignoreres. Det "
+"foretrukne kalenderprogram er programmet, som behandler mime-typen text/"
+"calendar."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
 msgstr "Kalender kræver terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
-msgid "Whether the default calendar application needs a terminal to run."
-msgstr "Om standardkalenderprogrammet kræver en terminal for at kunne køre."
+msgid ""
+"Whether the default calendar application needs a terminal to run. "
+"DEPRECATED: This key is deprecated and ignored. The preferred calendar "
+"application is the application handling the text/calendar mime type, whether "
+"it needs a terminal is taken from its desktop file."
+msgstr ""
+"Om standardkalenderprogrammet behøver en terminal for at køre. FORÆLDET: "
+"Denne nøgle er forældet og ignoreres. Det foretrukne kalenderprogram er "
+"programmet, som behandler mime-typen text/calendar, og hvorvidt programmet "
+"kræver en terminal ses fra dets skrivebordsfil."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -665,10 +682,14 @@ msgid "Terminal application"
 msgstr "Terminalprogram"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-msgid "Terminal program to use when starting applications that require one."
+msgid ""
+"Terminal program to use when starting applications that require one. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal is "
+"handled in GIO."
 msgstr ""
 "Terminalprogram, der skal bruges når der startes programmer, der kræver en "
-"sådan."
+"sådan. FORÆLDET: Denne nøgle er forældet og ignoreres. Standardterminalen "
+"håndteres i GIO."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
@@ -676,10 +697,13 @@ msgstr "Eksekveringsargumenter"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
+"Argument used to execute programs in the terminal defined by the 'exec' key. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal and how "
+"to invoke it is handled in GIO."
 msgstr ""
-"Argument, der bruges til at køre programmer i terminalen defineret ved \"exec"
-"\"-nøglen."
+"Argument som bruges til at køre programmer i terminalen defineret gennem "
+"nøglen \"exec\". FORÆLDET: Denne nøgle er forældet og ignoreres. "
+"Standardterminalen samt hvordan den køres håndteres i GIO."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
 msgid "Current input source"
@@ -739,6 +763,18 @@ msgid ""
 msgstr ""
 "Gør alle installerede inputkilder tilgængelige, så de kan vælges i "
 "Systemindstillinger."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:9
+msgid "Use different input sources for each window"
+msgstr "Brug forskellige inputkilder for hvert vindue"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
+msgid ""
+"When enabled, input sources get attached to the currently focused window "
+"when activated."
+msgstr ""
+"Når slået til, vil inputkilder bliver vedhæftet det vindue der nu har fokus, "
+"ved aktivering."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -1158,6 +1194,19 @@ msgstr "Deaktivér udlogning"
 msgid "Prevent the user from logging out."
 msgstr "Forhindr brugeren i at logge ud."
 
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
+msgid "Disable user administration"
+msgstr "Deaktivér brugeradministration"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:18
+msgid ""
+"Stop the user from modifying user accounts. By default, we allow adding and "
+"removing users, as well as changing other users settings."
+msgstr ""
+"Forhindr brugeren i at ændre brugerkonti. Som standard tillader vi "
+"tilføjelse og fjernelse af brugere såvel som at ændre andre brugeres "
+"indstillinger."
+
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
 msgstr "Om medier automatisk monteres"
@@ -1244,14 +1293,173 @@ msgstr ""
 "foretrukne programmer-cappletten. Der vil blive åbnet et mappevindue ved "
 "indsættelse af medier, som matcher disse typer."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+msgid "Show notification banners"
+msgstr "Vis påmindelser i bannere"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr "Om påmindelsesbannere er synlige for programpåmindelser."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+msgid "Show notifications in the lock screen"
+msgstr "Vis påmindelser i den låste skærm"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Om der vises påmindelser i den låste skærm eller ikke."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+msgid "Application ID"
+msgstr "Program-id"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "Programmet som denne politik gælder for."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+msgid "Enable notifications"
+msgstr "Slå påmindelser til"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr "Om påmindelser er globalt slået til for dette program."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+msgid "Enable sound alerts"
+msgstr "Slå lydpåmindelser til"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Om der skal følge lyde med påmindelser."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"Om påmindelsesbannere fra dette program vises eller ikke. Påvirker ikke klik "
+"på knapperne i beskedområdet."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr "Tving automatisk udfoldelse af bannere"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr "Om påmindelser fra dette program udfoldes automatisk i bannertilstand."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+msgid "Show in the lock screen"
+msgstr "Vis ved låst skærm"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr "Om påmindelser fra dette program vises når skærmen er låst."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+msgid "Show details in the lock screen"
+msgstr "Vis detaljer ved låst skærm"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
+msgstr ""
+"Om sammendraget og påmindelserne fra dette program skal være synlige når "
+"skærmen er låst."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
+msgid "Controls visibility of personal information"
+msgstr "Styrer synligheden af personlige oplysninger"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:2
+msgid ""
+"If set to true, the system will make an effort to not divulge the user's "
+"identity on screen or on the network."
+msgstr ""
+"Hvis sat til sand, vil systemet forsøge ikke at afsløre brugerens identitet "
+"på skærmen eller på netværket."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+msgid "Show full name in the user menu"
+msgstr "Vis fulde navn i brugermenuen"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr "Om brugerens fulde navn vises i brugermenuen eller ikke."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old files from the trash automatically"
+msgstr "Om gamle filer skal fjernes automatisk fra papirkurven"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Hvis sand, fjernes filer automatisk fra papirkurven når de er ældre end "
+"\"old-files-age\" dage."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Whether to remove old temporary files automatically"
+msgstr "Om gamle midlertidige filer skal fjernes automatisk"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Hvis sand, fjernes midlertidige filer automatisk når de er ældre end \"old-"
+"files-age\" dage."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Number of days to keep trash and temporary files"
+msgstr "Antal dage som midlertidige filer og filer i papirkurven skal beholdes"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "Consider trash and temporary files old after this many days."
+msgstr ""
+"Regn papirkurv og midlertidige filer for at være gamle efter så mange dage."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Whether to remember recently used files"
+msgstr "Om de senest brugte filer skal huskes"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid "If FALSE, applications will not remember recently used files."
+msgstr "Hvis falsk, vil programmer ikke huske senest brugte filer."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
+msgid "Number of days to remember recently used files for"
+msgstr "Antal dage hvori senest brugte filer huskes"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Senest brugte filer vil blive husket i dette antal dage. Hvis 0, vil senest "
+"bruge filer ikke blive huske; hvis -1, vil de blive husket for altid."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Aktivér ved tomgang"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
+"delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Sæt denne til sand for at aktivere pauseskærmen, når sessionen intet laver."
+"Sæt denne til sand for at aktivere pauseskærmen når sessionen er inaktiv. "
+"FORÆLDET: Denne nøgle er forældet og ignoreres. Sæt org.gnome.session.idle-"
+"delay til 0 hvis du ikke vil aktivere pauseskærmen."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1272,16 +1480,16 @@ msgstr ""
 "Antallet af sekunder efter pauseskærmens aktivering, før skærmen låses."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Vis påmindelser i den låste skærm"
+msgid "Show full name in the lock screen"
+msgstr "Vis fulde navn ved låst skærm"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience."
+"Whether the user's full name is shown in the lock screen or not. This only "
+"affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Om der vises påmindelser i den låste skærm eller ikke. Dette påvirker kun "
-"standardoplevelsen."
+"Om brugerens fulde navn vises ved låst skærm eller ikke. Dette påvirker kun "
+"den umiddelbart viste information; navnet vises altid i lås op-vinduet."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
@@ -1291,11 +1499,11 @@ msgstr "Tillad indlejring af tastatur i vinduet"
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
+"command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Sæt denne til sand for at tillade indlejring af et tastatur i vinduet, når "
 "der forsøges at låse op. Nøglen \"keyboard_command\" skal være indstillet "
-"med en passende kommando."
+"med en passende kommando. FORÆLDET: Denne nøgle er forældet og ignoreres."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
@@ -1306,12 +1514,12 @@ msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
-"output."
+"output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Kommandoen der vil blive kørt, hvis \"embedded_keyboard_enabled\"-nøglen er "
 "sat til sand, for at indlejre en tastaturkontrol i vinduet. Denne kommando "
 "bør implementere en XEMBED-plug-grænseflade og returnere et vindues-XID på "
-"standard output."
+"standard output. FORÆLDET: Denne nøgle er forældet og ignoreres."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
@@ -1320,10 +1528,12 @@ msgstr "Tillad udlogning"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
+"out after a delay. The delay is specified in the \"logout_delay\" key. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Sæt denne til sand for at tilbyde en indstilling i lås op-dialogen som lader "
-"en logge ud efter en ventetid. Ventetiden angives i nøglen \"logout_delay\"."
+"en logge ud efter en ventetid. Ventetiden angives i nøglen \"logout_delay\". "
+"FORÆLDET: Denne nøgle er forældet og ignoreres."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
@@ -1333,11 +1543,13 @@ msgstr "Tid før udlogningsmulighed"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
+"\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated and "
+"ignored"
 msgstr ""
 "Antallet af sekunder efter pauseskærmsaktivering, før der vises en "
 "udlogningsmulighed i lås op-dialogvinduet. Denne nøgle har kun betydning "
-"hvis nøglen \"logout_enable\" er sat til sand."
+"hvis nøglen \"logout_enable\" er sat til sand. FORÆLDET: Denne nøgle er "
+"forældet og ignoreres."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
@@ -1347,11 +1559,13 @@ msgstr "Udlogningskommando"
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
+"the \"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
+"and ignored."
 msgstr ""
 "Kommandoen, der køres når log ud-knappen klikkes. Denne kommando bør "
 "simpelthen logge brugeren ud uden nogen interaktion. Denne nøgle er kun "
-"virksom hvis nøglen \"logout_enable\" er sat til sand."
+"virksom hvis nøglen \"logout_enable\" er sat til sand. FORÆLDET: Denne nøgle "
+"er forældet og ignoreres."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
@@ -1371,8 +1585,61 @@ msgstr "Tillad sessionsstatusbeskeden at blive vist"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
-"Allow the session status message to be displayed when the screen is locked."
-msgstr "Tillad sessionsstatusbeskeden at blive vist når skærmen er låst."
+"Allow the session status message to be displayed when the screen is locked. "
+"DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+"Tillad sessionsstatusbeskeden at blive vist når skærmen er låst. FORÆLDET: "
+"Denne nøgle er forældet og ignoreres."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"URI, der skal bruges til baggrundsbilledet. Bemærk at motoren kun "
+"understøtter lokale (file://) URI'er."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
+msgid "Disable all external search providers"
+msgstr "Deaktivér alle eksterne søgeudbyderprogrammer"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:2
+msgid ""
+"Set to true to disable all external search provider programs, whether or not "
+"they are independently disabled or enabled. External search providers are "
+"installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
+msgstr ""
+"Sæt til sand for at deaktivere alle eksterne søgeudbyderprogrammer, om de "
+"hver for sig er aktiveret eller deaktiveret. Eksterne søgeudbyderprogrammer "
+"er installeret af programmer i $XDG_DATA_DIR/gnome-shell/search-providers."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
+msgid "List of desktop file IDs for which search provider should be disabled"
+msgstr "Liste af skrivebordsfil-id'er for hvilke søgeudbyder skal deaktiveres"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
+msgid ""
+"Results for applications contained in this list will not be displayed when "
+"searching."
+msgstr ""
+"Resultater for programmer der indeholdes i denne liste vil ikke blive vist "
+"ved søgning."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid "List of desktop file IDs for search providers sort order"
+msgstr ""
+"Sorteringsrækkefølge for liste af skrivebordsfil-id'er for søgeudbydere"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed in the "
+"specified order. Results for applications not specified in this list will be "
+"displayed before the last item of the list, if it has more than one item."
+msgstr ""
+"Resultater for programmer indeholdt i denne liste vil blive vist i den "
+"angivne rækkefølge. Resultater for programmer som ikke er givet i denne "
+"liste, vil blive vist før sidste element i listen, hvis der er mere end ét "
+"element."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1532,220 +1799,244 @@ msgid "Reverse switch applications"
 msgstr "Skift program omvendt"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+msgid "Switch windows"
+msgstr "Skift vinduer"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+msgid "Reverse switch windows"
+msgstr "Skift vinduer omvendt"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Switch system controls"
 msgstr "Skift systemkontroller"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Reverse switch system controls"
 msgstr "Skift systemkontroller omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Skift vinduer i et program direkte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Reverse switch windows of an app directly"
 msgstr "Skift vinduer i et program direkte omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Switch windows directly"
 msgstr "Skift vinduer direkte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Reverse switch windows directly"
 msgstr "Skift vinduer direkte omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Switch system controls directly"
 msgstr "Skift systemkontroller direkte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Reverse switch system controls directly"
 msgstr "Skift systemkontroller direkte omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Hide all normal windows"
 msgstr "Skjul alle normale vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Show the activities overview"
 msgstr "Vis aktivitetsoversigten"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the run command prompt"
 msgstr "Vis kør-kommandoprompten"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
-msgid "Don&apos;t use"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+msgid "Don't use"
 msgstr "Brug ikke"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Activate the window menu"
 msgstr "Aktivér vinduesmenuen"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Toggle fullscreen mode"
 msgstr "Slå fuldskærmstilstand til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle maximization state"
 msgstr "Slå maksimeringstilstand til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle window always appearing on top"
 msgstr "Slå altid øverst-tilstand til/fra for vinduet"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
 msgstr "Maksimér vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Restore window"
 msgstr "Gendan vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Toggle shaded state"
 msgstr "Slå skyggetilstand til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Minimize window"
 msgstr "Minimér vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Close window"
 msgstr "Luk vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Move window"
 msgstr "Flyt vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Resize window"
 msgstr "Ændr størrelse på vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Toggle window on all workspaces or one"
 msgstr "Slå visning af vindue på alle arbejdsområder til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Move window to workspace 1"
 msgstr "Flyt vindue til arbejdsområde 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 2"
 msgstr "Flyt vindue til arbejdsområde 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 3"
 msgstr "Flyt vindue til arbejdsområde 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 4"
 msgstr "Flyt vindue til arbejdsområde 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 5"
 msgstr "Flyt vindue til arbejdsområde 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 6"
 msgstr "Flyt vindue til arbejdsområde 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 7"
 msgstr "Flyt vindue til arbejdsområde 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 8"
 msgstr "Flyt vindue til arbejdsområde 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 9"
 msgstr "Flyt vindue til arbejdsområde 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 10"
 msgstr "Flyt vindue til arbejdsområde 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 11"
 msgstr "Flyt vindue til arbejdsområde 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 12"
 msgstr "Flyt vindue til arbejdsområde 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window one workspace to the left"
 msgstr "Flyt vindue et arbejdsområde til venstre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
 msgid "Move window one workspace to the right"
 msgstr "Flyt vindue et arbejdsområde til højre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace up"
 msgstr "Flyt vindue et arbejdsområde opad"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace down"
 msgstr "Flyt vindue et arbejdsområde nedad"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Hæv vindue hvis dækket, ellers sænk"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Raise window above other windows"
 msgstr "Hæv vindue over andre vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Lower window below other windows"
 msgstr "Sænk vindue under andre vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Maximize window vertically"
 msgstr "Maksimér vindue lodret"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Maximize window horizontally"
 msgstr "Maksimér vindue vandret"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to top left corner"
 msgstr "Flyt vindue til øverste venstre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Move window to top right corner"
 msgstr "Flyt vindue til øverste højre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Move window to bottom left corner"
 msgstr "Flyt vindue til nederste venstre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Move window to bottom right corner"
 msgstr "Flyt vindue til nederste højre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top edge of screen"
 msgstr "Flyt vindue til skærmens øverste kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to bottom edge of screen"
 msgstr "Flyt vindue til skærmens nederste kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to right side of screen"
 msgstr "Flyt vindue til skærmens højre kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to left side of screen"
 msgstr "Flyt vindue til skærmens venstre kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to center of screen"
 msgstr "Flyt vindue til skærmens midtpunkt"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+msgid "Switch input source"
+msgstr "Skift inputkilde"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+msgid "Binding to select the next input source"
+msgstr "Binding til at vælge næste inputkilde"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+msgid "Switch input source backward"
+msgstr "Skift inputkilde baglæns"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+msgid "Binding to select the previous input source"
+msgstr "Binding til at vælge forrige inputkilde"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2339,3 +2630,28 @@ msgid ""
 msgstr ""
 "Porten på maskinen defineret af \"/system/proxy/socks/host\", som du bruger "
 "som proxy."
+
+#~ msgid "Draw Desktop Background"
+#~ msgstr "Tegn skrivebordsbaggrund"
+
+#~ msgid "Have GNOME draw the desktop background."
+#~ msgstr "Få GNOME til at tegne skrivebordsbaggrunden."
+
+#~ msgid "Default calendar application"
+#~ msgstr "Standardkalenderprogram"
+
+#~ msgid "Whether the default calendar application needs a terminal to run."
+#~ msgstr "Om standardkalenderprogrammet kræver en terminal for at kunne køre."
+
+#~ msgid ""
+#~ "Argument used to execute programs in the terminal defined by the 'exec' "
+#~ "key."
+#~ msgstr ""
+#~ "Argument, der bruges til at køre programmer i terminalen defineret ved "
+#~ "\"exec\"-nøglen."
+
+#~ msgid ""
+#~ "Set this to TRUE to activate the screensaver when the session is idle."
+#~ msgstr ""
+#~ "Sæt denne til sand for at aktivere pauseskærmen, når sessionen intet "
+#~ "laver."
