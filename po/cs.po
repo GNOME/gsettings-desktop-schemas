@@ -1,16 +1,15 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-#
-# Marek Černocký <marek@manet.cz>, 2011, 2012.
+# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-14 12:26+0000\n"
-"PO-Revision-Date: 2012-09-19 15:17+0200\n"
+"POT-Creation-Date: 2013-02-21 11:20+0000\n"
+"PO-Revision-Date: 2013-03-24 22:23+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -18,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -78,11 +78,11 @@ msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr "Délka časového limitu, než se vypnou funkce zpřístupnění klávesnice."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-msgid "Enable the bounce keys"
+msgid "Enable 'Bounce Keys'"
 msgstr "Povolit ignorování vícenásobných zmáčknutí"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
 "Zda je povolena funkce přístupnosti pro ignorování vícenásobných rychlých "
 "zmáčknutí kláves."
@@ -105,11 +105,11 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Zda pípnout, když je klávesa odmítnuta."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable mouse keys"
-msgstr "Povolit ovládání myši klávesnicí"
+msgid "Enable 'Mouse Keys'"
+msgstr "Povolit „myš z klávesnice“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Whether the mouse keys accessibility feature is turned on."
+msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
 msgstr ""
 "Zda je povolena funkce přístupnosti pro ovládání ukazatele myši z klávesnice."
 
@@ -140,12 +140,12 @@ msgstr ""
 "Kolik milisekund čekat, než začnou pracovat klávesy pro posun ukazatele myši."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Enable slow keys"
-msgstr "Povolit pomalé klávesy"
+msgid "Enable 'Slow Keys'"
+msgstr "Povolit „pomalé klávesy“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Whether the slow keys accessibility feature is turned on."
-msgstr "Zda je povolena funkce přístupnosti pro pomalé klávesy."
+msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgstr "Zda je povolena funkce přístupnosti pro „pomalé klávesy“."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 msgid ""
@@ -199,11 +199,11 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Zda pípnout, když je zmáčknuta modifikační klávesa."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid "Enable toggle keys"
+msgid "Enable 'Toggle Keys'"
 msgstr "Povolit přepínání klávesami"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-msgid "Whether the toggle keys accessibility feature is turned on."
+msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
 msgstr ""
 "Zda je povolena funkce přístupnosti pro přepínání vlastností přístupnosti "
 "klávesovými zkratkami."
@@ -554,18 +554,12 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Čas v sekundách do spuštění simulovaného druhého kliknutí."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "Vykreslovat pozadí plochy"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid "Have GNOME draw the desktop background."
-msgstr "Zda má GNOME vykreslovat pozadí pracovní plochy."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "Možnosti obrázku"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -575,50 +569,59 @@ msgstr ""
 "hodnoty jsou „none“ (nic), „wallpaper“ (tapeta), „centered“ (na střed), "
 "„scaled“ (přeškálovat), „stretched“ (roztáhnout), „zoom“ (zvětšit)"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "Adresa URI obrázku"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
-"URI to use for the background image. Not that the backend only supports "
+"URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
 "Adresa URI, která se má použít pro obrázek na pozadí. Zpracující program ale "
-"podporuje pouze místní URI (file://)."
+"podporuje pouze místní adresy URI (file://)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "Krytí obrázku"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "Úroveň krytí při vykreslování obrázku na pozadí."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "Primární barva"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Levá nebo horní barva při vykreslování přechodu a nebo jednolitá barva."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "Sekundární barva"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Pravá nebo dolní barva při vykreslování přechodu, pro jednolitou barvu se "
 "nepoužije."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "Typ barevného stínování"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -626,11 +629,11 @@ msgstr ""
 "Jak se má stínovat barva pozadí. Možné hodnoty jsou "
 "„horizontal“ (vodorovně), „vertical“ (svisle) a „solid“ (jednolitá barva)"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "Zda má správce souborů obsluhovat plochu"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Pokud je zapnuto, bude správce souborů vykreslovat ikony na pracovní ploše."
@@ -640,16 +643,30 @@ msgid "Default calendar"
 msgstr "Výchozí kalendář"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Default calendar application"
-msgstr "Výchozí kalendářová aplikace"
+msgid ""
+"Default calendar application DEPRECATED: This key is deprecated and ignored. "
+"The preferred calendar application is the application handling the text/"
+"calendar mime type."
+msgstr ""
+"Výchozí kalendářová aplikace. ZAVRŽENO: Tento klíč byl zavržen a je "
+"ignorován. Upřednostňovanou kalendářovou aplikací je ta, která obsluhuje typ "
+"MIME text/calendar."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
 msgstr "Kalendář potřebuje terminál"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
-msgid "Whether the default calendar application needs a terminal to run."
-msgstr "Zda výchozí kalendářová aplikace potřebuje pro běh terminál."
+msgid ""
+"Whether the default calendar application needs a terminal to run. "
+"DEPRECATED: This key is deprecated and ignored. The preferred calendar "
+"application is the application handling the text/calendar mime type, whether "
+"it needs a terminal is taken from its desktop file."
+msgstr ""
+"Jestli výchozí kalendářová aplikace potřebuje k běhu terminál. ZAVRŽENO: "
+"Tento klíč byl zavržen a je ignorován. Upřednostňovanou kalendářovou "
+"aplikací je ta, která obsluhuje typ MIME text/calendar, a jestli potřebuje "
+"terminál je uvedeno v jejím souboru .desktop."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -672,10 +689,14 @@ msgid "Terminal application"
 msgstr "Terminálová aplikace"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-msgid "Terminal program to use when starting applications that require one."
+msgid ""
+"Terminal program to use when starting applications that require one. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal is "
+"handled in GIO."
 msgstr ""
 "Terminálový program, který se použije při spouštění aplikací, které terminál "
-"vyžadují."
+"vyžadují. ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Výchozí terminál "
+"je obsluhován v GIO."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
@@ -683,12 +704,15 @@ msgstr "Argumenty spuštění"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
+"Argument used to execute programs in the terminal defined by the 'exec' key. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal and how "
+"to invoke it is handled in GIO."
 msgstr ""
-"Argumenty použité ke spuštění programů v terminálu definovaném klíčem „exec“."
+"Argument použitý ke spuštění programů v terminálu definovaném klíčem „exec“. "
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Výchozí terminál, a jak je "
+"vyvolán, je obsluhován v GIO."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
-#| msgid "Current theme"
 msgid "Current input source"
 msgstr "Aktuální vstupní zdroj"
 
@@ -720,9 +744,9 @@ msgstr ""
 "Seznam dostupných identifikátorů vstupních zdrojů. Každý ze zdrojů je dán "
 "dvojicí řetězců. První řetězec je typ a může jít o „xkb“ nebo o „ibus“. Pro "
 "zdroj „xkb“ je druhý řetězec „rozvržení_xkb+varianta_xkb“ nebo "
-"„rozvržení_xkb“, když varianta XKB není zapotřebí. Pro zdroj „ibus“ je druhým "
-"řetězcem název výkonné části IBus. Prázdný seznam znamená, že aktuální "
-"rozvržení a varianta XKB serveru X se nemění a IBus se nepoužívá."
+"„rozvržení_xkb“, když varianta XKB není zapotřebí. Pro zdroj „ibus“ je "
+"druhým řetězcem název výkonné části IBus. Prázdný seznam znamená, že "
+"aktuální rozvržení a varianta XKB serveru X se nemění a IBus se nepoužívá."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
 msgid "List of XKB options"
@@ -746,6 +770,18 @@ msgid ""
 msgstr ""
 "Zajistí, že všechny nainstalované vstupní zdroje budou k dispozici pro výběr "
 "v systémových nastaveních."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:9
+msgid "Use different input sources for each window"
+msgstr "Používat různé vstupní zdroje pro každé okno"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
+msgid ""
+"When enabled, input sources get attached to the currently focused window "
+"when activated."
+msgstr ""
+"Když je zapnuto, jsou vstupní zdroje při aktivaci připojeny k právě "
+"zaměřenému oknu."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -1169,6 +1205,18 @@ msgstr "Zakázat odhlášení"
 msgid "Prevent the user from logging out."
 msgstr "Zabránit uživateli odhlásit se."
 
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
+msgid "Disable user administration"
+msgstr "Zakázat správu uživatelů"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:18
+msgid ""
+"Stop the user from modifying user accounts. By default, we allow adding and "
+"removing users, as well as changing other users settings."
+msgstr ""
+"Zabránit uživateli měnit uživateské účty. Jako výchozí je dovoleno přidávat "
+"a odstraňovat uživatele, stejně jako měnit nastavení ostatním uživatelům."
+
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
 msgstr "Zda automaticky připojovat média"
@@ -1178,7 +1226,7 @@ msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
-"Pokud je ZAPNUTO, bude aplikace Nautilus automaticky připojovat média, jako "
+"Pokud je zapnuto, bude aplikace Nautilus automaticky připojovat média, jako "
 "jsou uživatelský přístupné disky a výměnná média, při spuštění a při vložení "
 "média."
 
@@ -1255,15 +1303,178 @@ msgstr ""
 "nabídce předvoleb. Při vložení média vyhovujícího těmto typům bude otevřeno "
 "okno se složkou."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+#| msgid "Show notifications in the lock screen"
+msgid "Show notification banners"
+msgstr "Zobrazovat proužky s oznámením"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr "Zda jsou proužky s oznámením viditelné pro oznamování z aplikací."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+msgid "Show notifications in the lock screen"
+msgstr "Zobrazovat oznámení na zamknuté obrazovce"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Zda se mají nebo nemají zobrazovat oznámení na zamknuté obrazovce."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+msgid "Application ID"
+msgstr "ID aplikace"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "Aplikace, pro kterou je tato zásada."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+msgid "Enable notifications"
+msgstr "Povolit oznamování"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr "Zda je oznamování pro tuto aplikaci globálně povolené."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+msgid "Enable sound alerts"
+msgstr "Povolit zvuková upozornění"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Zda by oznámení měla být doprovázena zvukovým upozorněním."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"Zda jsou proužky s oznámeními pro tuto aplikaci zobrazovány nebo ne. Nemá vliv "
+"na klikání na tlačítka v oznamovací oblasti."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr "Vynutit automatické robalování proužků"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr ""
+"Zda jsou oznámení z této aplikace automaticky rozbalovány, když je zapnutý "
+"režim proužků."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+msgid "Show in the lock screen"
+msgstr "Zobrazovat na zamknuté obrazovce"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr "Zda se oznámení z této aplikace zobrazují, když je obrazovka zamknutá."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+msgid "Show details in the lock screen"
+msgstr "Zobrazovat podrobnosti na zamknuté obrazovce"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
+msgstr ""
+"Zda přehledy a obsah oznámení z této aplikace budou vidět na zamknuté "
+"obrazovce."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
+msgid "Controls visibility of personal information"
+msgstr "Řídí viditelnost osobních údajů"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:2
+msgid ""
+"If set to true, the system will make an effort to not divulge the user's "
+"identity on screen or on the network."
+msgstr ""
+"Pokud je nastaveno na zapnuto, bude se systém snažit neprozradit totožnost "
+"uživatele na obrazovce nebo v síti."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+msgid "Show full name in the user menu"
+msgstr "Zobrazovat celé jméno v nabídce uživatele"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr "Zda je či není v nabídce uživatele zobrazeno celé jméno"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old files from the trash automatically"
+msgstr "Zda automaticky odstraňovat staré soubory z koše"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Když je ZAPNUTO, automaticky odstraňovat soubory z koše, které jsou starší "
+"více dní než udává „old-files-age“."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Whether to remove old temporary files automatically"
+msgstr "Zda automaticky odstraňovat staré dočasné soubory"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Když je ZAPNUTO, automaticky odstraňovat dočasné soubory, které jsou starší "
+"více dní než udává „old-files-age“."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Number of days to keep trash and temporary files"
+msgstr "Počet dní, po které se mají uchovávat dočasné soubory a soubory v koši"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "Consider trash and temporary files old after this many days."
+msgstr ""
+"Po tomto počtu dní považovat dočasné soubory a soubory v koši za staré."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Whether to remember recently used files"
+msgstr "Zda si pamatovat nedávno použité soubory"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid "If FALSE, applications will not remember recently used files."
+msgstr ""
+"Když je VYPNUTO, aplikace si nebudou pamatovat nedávno použité soubory."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
+msgid "Number of days to remember recently used files for"
+msgstr "Počet dní, po které se mají pamatovat nedávno použité soubory"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Nedávno použité subory budou zapamatovány na tento počet dní. Pokud je "
+"nastaveno na 0, nebudou se nedávné soubory pamatovat vůbec. Pokud je "
+"nastaveno na -1, budou zapamatovány na pořád."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Aktivovat při nečinnosti"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
+"delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Nastavte na ZAPNUTO, pokud chcete aktivovat šetřič obrazovky při nečinnosti "
-"sezení."
+"Nastavte na ZAPNUTO, aby se při nečinosti aktivoval šetřič obrazovky. "
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Pokud chcete aktivovat "
+"šetřič obrazovky, nastavte org.gnome.session.idle-delay na 0."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1285,16 +1496,17 @@ msgid ""
 msgstr "Počet sekund od aktivace šetřiče obrazovky po zamknutí obrazovky."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Zobrazovat oznámení na zamknuté obrazovce"
+msgid "Show full name in the lock screen"
+msgstr "Zobrazovat celé jméno na zamknuté obrazovce"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience."
+"Whether the user's full name is shown in the lock screen or not. This only "
+"affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Zda se mají nebo nemají zobrazovat oznámení na zamknuté obrazovce. Má vliv "
-"pouze při standardním fungování."
+"Zda se má na uzamknuté obrazovce zobrazovat celé uživatelovo jméno. Týká se "
+"to pouze zakrytí obrazovky, v dialogovém okně pro odemknutí je zobrazeno "
+"vždy."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
@@ -1304,10 +1516,11 @@ msgstr "Umožnit vložení klávesnice do okna"
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
+"command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Nastavením na ZAPNUTO umožníte vložení klávesnice do okna při pokusu o "
-"odemknutí. V klíči „keyboard_command“ musí být nastaven příslušný příkaz."
+"odemknutí. V klíči „keyboard_command“ musí být nastaven příslušný příkaz. "
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
@@ -1318,12 +1531,12 @@ msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
-"output."
+"output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Příkaz, který bude spuštěn, když je klíč „embedded_keyboard_enabled“ "
 "nastaven na ZAPNUTO, aby vložil widget klávesnice do okna. Tento příkaz by "
 "měl implementovat zásuvné rozhraní XEMBED a na standardní výstup vypsat XID "
-"okna."
+"okna. ZAVRŽENO: Tento klíč byl zavržen a je ignorován."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
@@ -1332,10 +1545,12 @@ msgstr "Umožnit odhlášení"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
+"out after a delay. The delay is specified in the \"logout_delay\" key. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Nastavením na ZAPNUTO nabídnete po určité době v dialogovém okně odemčení "
-"možnost se odhlásit. Doba je definována klíčem „logout_delay“."
+"možnost se odhlásit. Doba je definována klíčem „logout_delay“. ZAVRŽENO: "
+"Tento klíč byl zavržen a je ignorován."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
@@ -1345,11 +1560,13 @@ msgstr "Čas do možnosti odhlášení"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
+"\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated and "
+"ignored"
 msgstr ""
 "Počet sekund od aktivace šetřiče obrazovky po zobrazení možnosti odhlášení v "
 "dialogovém okně odemknutí. Tento klíč má efekt, jen když je klíč "
-"„logout_enable“ nastaven na ZAPNUTO."
+"„logout_enable“ nastaven na ZAPNUTO. ZAVRŽENO: Tento klíč byl zavržen a je "
+"ignorován."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
@@ -1359,11 +1576,13 @@ msgstr "Odhlašovací příkaz"
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
+"the \"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
+"and ignored."
 msgstr ""
 "Příkaz, který je vyvolán při zmáčknutí odhlašovacího tlačítka. Tento příkaz "
 "by měl prostě odhlásit uživatele bez jakékoliv interakce. Tento klíč má "
-"efekt pouze pokud je klíč „logout_enable“ nastaven na ZAPNUTO."
+"efekt pouze pokud je klíč „logout_enable“ nastaven na ZAPNUTO. ZAVRŽENO: "
+"Tento klíč je zavržený a je ignorován."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
@@ -1383,8 +1602,60 @@ msgstr "Umožnit zobrazit zprávu o stavu sezení"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
-"Allow the session status message to be displayed when the screen is locked."
-msgstr "Umožnit zobrazit zprávu o stavu sezení, když je zamknutá obrazovka."
+"Allow the session status message to be displayed when the screen is locked. "
+"DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+"Umožnit zobrazit zprávu o stavu sezení, když je uzamknutá obrazovka. "
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"Adresa URI, která se má použít pro obrázek na pozadí. Zpracující program ale "
+"podporuje pouze místní URI (file://)."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
+msgid "Disable all external search providers"
+msgstr "Zakázat všechny externí poskytovatele hledání"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:2
+msgid ""
+"Set to true to disable all external search provider programs, whether or not "
+"they are independently disabled or enabled. External search providers are "
+"installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
+msgstr ""
+"Nastavte na zapnuto, aby se zakázaly všichny externí programy poskytující "
+"hledání, bez ohledu na to zda jsou či nejsou jednotlivě zakázány nebo "
+"povoleny. Externí poskytovatelé hledání jsou instalováni aplikacemi v "
+"$XDG_DATA_DIR/gnome-shell/search-providers."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
+msgid "List of desktop file IDs for which search provider should be disabled"
+msgstr ""
+"Seznam ID souborů .desktop, pro které by měl být zakázán poskytovatel hledání"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
+msgid ""
+"Results for applications contained in this list will not be displayed when "
+"searching."
+msgstr ""
+"Výsledky pro aplikace zahrnuté v tomto seznamu nebudou při hledání zobrazeny."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid "List of desktop file IDs for search providers sort order"
+msgstr "Seznam ID souborů .desktop určující pořadí poskytovatelů hledání"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed in the "
+"specified order. Results for applications not specified in this list will be "
+"displayed before the last item of the list, if it has more than one item."
+msgstr ""
+"Výsledky pro aplikace zahrnuté v tomto seznamu budou zobrazeny v určeném "
+"pořadí. Výsledky pro aplikace, které v tomto seznamu uvedeny nejsou, budou "
+"zobrazeny před poslední položkou seznamu, pokud má více než jednu položku."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1542,221 +1813,245 @@ msgid "Reverse switch applications"
 msgstr "Vrátit přepnutí aplikací"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+msgid "Switch windows"
+msgstr "Přepnout okna"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+msgid "Reverse switch windows"
+msgstr "Vrátit přepnutí oken"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Switch system controls"
 msgstr "Přepnout ovládání systému"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Reverse switch system controls"
 msgstr "Vrátit přepnutí ovládání systému"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Přepnout okna některé aplikace přímo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Reverse switch windows of an app directly"
 msgstr "Vrátit přímé přepnutí oken některé aplikace"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Switch windows directly"
 msgstr "Přepnout okna přímo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Reverse switch windows directly"
 msgstr "Vrátit přímé přepnutí oken"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Switch system controls directly"
 msgstr "Přepnout ovládání systému přímo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Reverse switch system controls directly"
 msgstr "Vrátit přímé přepnutí ovládání systému"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Hide all normal windows"
 msgstr "Skrýt všechna normální okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Show the activities overview"
 msgstr "Zobrazit přehled aktivit"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the run command prompt"
 msgstr "Zobrazit vstup pro spuštění příkazu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
-msgid "Don&apos;t use"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+msgid "Don't use"
 msgstr "Nepoužívat"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Activate the window menu"
 msgstr "Aktivovat nabídku okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Toggle fullscreen mode"
 msgstr "Přepnout režim celé obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle maximization state"
 msgstr "Přepnout stav maximalizace"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle window always appearing on top"
 msgstr "Přepnout výskyt okna vždy nahoře"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
 msgstr "Maximalizovat okno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Restore window"
 msgstr "Obnovit okno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Toggle shaded state"
 msgstr "Přepnout stav svinutí"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Minimize window"
 msgstr "Minimalizovat okno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Close window"
 msgstr "Zavřít okno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Move window"
 msgstr "Přesunout okno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Resize window"
 msgstr "Změnit velikost okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Toggle window on all workspaces or one"
 msgstr "Přepnout zobrazení okna na všech plochách nebo na jedné"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Move window to workspace 1"
 msgstr "Přesunout okno na pracovní plochu 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 2"
 msgstr "Přesunout okno na pracovní plochu 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 3"
 msgstr "Přesunout okno na pracovní plochu 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 4"
 msgstr "Přesunout okno na pracovní plochu 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 5"
 msgstr "Přesunout okno na pracovní plochu 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 6"
 msgstr "Přesunout okno na pracovní plochu 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 7"
 msgstr "Přesunout okno na pracovní plochu 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 8"
 msgstr "Přesunout okno na pracovní plochu 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 9"
 msgstr "Přesunout okno na pracovní plochu 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 10"
 msgstr "Přesunout okno na pracovní plochu 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 11"
 msgstr "Přesunout okno na pracovní plochu 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 12"
 msgstr "Přesunout okno na pracovní plochu 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window one workspace to the left"
 msgstr "Přesunout okno o jednu pracovní plochu vlevo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
 msgid "Move window one workspace to the right"
 msgstr "Přesunout okno o jednu pracovní plochu vpravo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace up"
 msgstr "Přesunout okno o jednu pracovní plochu nahoru"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace down"
 msgstr "Přesunout okno o jednu pracovní plochu dolů"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Když je okno zakryté, přenést jej do popředí, v opačném odsunout do pozadí"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Raise window above other windows"
 msgstr "Přenést okno do popředí nad ostatní okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Lower window below other windows"
 msgstr "Odsunout okno do pozadí za ostatní okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Maximize window vertically"
 msgstr "Maximalizovat okno svisle"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Maximize window horizontally"
 msgstr "Maximalizovat okno vodorovně"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to top left corner"
 msgstr "Přesunout okno do levého horního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Move window to top right corner"
 msgstr "Přesunout okno do pravého horního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Move window to bottom left corner"
 msgstr "Přesunout okno do levého dolního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Move window to bottom right corner"
 msgstr "Přesunout okno do pravého dolního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top edge of screen"
 msgstr "Přesunout okno k horní hraně obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to bottom edge of screen"
 msgstr "Přesunout okno k dolní hraně obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to right side of screen"
 msgstr "Přesunout okno na pravou stranu obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to left side of screen"
 msgstr "Přesunout okno na levou stranu obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to center of screen"
 msgstr "Přesunout okno na střed obrazovky"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+msgid "Switch input source"
+msgstr "Přepnout vstupní zdroj"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+msgid "Binding to select the next input source"
+msgstr "Klávesová zkratka pro výběr následujícího vstupního zdroje"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+msgid "Switch input source backward"
+msgstr "Přepnout zpět vstupní zdroj"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+msgid "Binding to select the previous input source"
+msgstr "Klávesová zkratka pro výběr předchozího vstupního zdroje"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
