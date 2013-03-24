@@ -1,15 +1,15 @@
 # Russian translation for gsettings-desktop-schemas.
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Yuri Myasoedov <omerta13@yandex.ru>, 2012.
+# Yuri Myasoedov <omerta13@yandex.ru>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-25 23:28+0000\n"
-"PO-Revision-Date: 2012-10-16 12:05+0400\n"
+"POT-Creation-Date: 2013-02-21 11:20+0000\n"
+"PO-Revision-Date: 2013-03-24 19:27+0400\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -85,13 +85,15 @@ msgstr ""
 "клавиатуры."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-msgid "Enable the bounce keys"
+#| msgid "Enable the bounce keys"
+msgid "Enable 'Bounce Keys'"
 msgstr "Включить отскакивающие клавиши"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+#| msgid "Whether the bounce keys keyboard accessibility feature is turned on."
+msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
-"Включить ли специальную возможность отскакивающих клавиш для клавиатуры."
+"Включена ли специальная возможность отскакивающих клавиш для клавиатуры."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:10
 msgid "Minimum interval in milliseconds"
@@ -112,12 +114,14 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Подавать ли сигнал при отпускании клавиши."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-msgid "Enable mouse keys"
-msgstr "Включить клавиши мыши"
+#| msgid "Enable mouse keys"
+msgid "Enable 'Mouse Keys'"
+msgstr "Включить управление мышью с помощью клавиш"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-msgid "Whether the mouse keys accessibility feature is turned on."
-msgstr "Включить ли специальные возможности клавиш мыши."
+#| msgid "Whether the mouse keys accessibility feature is turned on."
+msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
+msgstr "Включена ли специальная возможность управления мышью с помощью клавиш."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:16
 msgid "Pixels per seconds"
@@ -147,12 +151,14 @@ msgstr ""
 "Время ожидания в милисекундах перед началом работы кнопок движения мыши."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-msgid "Enable slow keys"
+#| msgid "Enable slow keys"
+msgid "Enable 'Slow Keys'"
 msgstr "Включить медленные клавиши"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-msgid "Whether the slow keys accessibility feature is turned on."
-msgstr "Включена ли функция медленных клавиш."
+#| msgid "Whether the slow keys accessibility feature is turned on."
+msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgstr "Включена ли специальная возможность медленных клавиш."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:24
 msgid ""
@@ -202,12 +208,14 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Подавать ли сигнал при нажатии модификатора."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-msgid "Enable toggle keys"
+#| msgid "Enable toggle keys"
+msgid "Enable 'Toggle Keys'"
 msgstr "Включить клавиши переключения"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-msgid "Whether the toggle keys accessibility feature is turned on."
-msgstr "Включена ли функция клавиш переключения."
+#| msgid "Whether the toggle keys accessibility feature is turned on."
+msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
+msgstr "Включена ли специальная возможность клавиш переключения."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:1
 msgid "Mouse Tracking Mode"
@@ -356,13 +364,15 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
 msgid "Inverse lightness"
-msgstr ""
+msgstr "Инвертировать яркость"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
 msgid ""
 "Determines whether the lightness values are inverted: darker colors become "
 "lighter and vice versa, and white and black are interchanged."
 msgstr ""
+"Определяет, инвертированы или нет значения яркости: тёмные цвета становятся "
+"более светлыми и наоборот, чёрный заменяется на белый."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
 msgid "Color Saturation"
@@ -552,18 +562,12 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Время в секундах перед тем, как сработает вторичный щелчок."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "Отрисовывать фон рабочего стола"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid "Have GNOME draw the desktop background."
-msgstr "GNOME должен отрисовывать фон рабочего стола."
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "Параметры изображения"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -573,51 +577,63 @@ msgstr ""
 "значения: «none», «wallpaper», «centered», «scaled», «stretched», «zoom», "
 "«spanned»."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "URI изображения"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#| msgid ""
+#| "URI to use for the background image. Not that the backend only supports "
+#| "local (file://) URIs."
 msgid ""
-"URI to use for the background image. Not that the backend only supports "
+"URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
-"URI изображения, используемого для фона. Заметьте, что поддерживаются только "
-"локальные URI (file://)."
+"URI изображения, используемого для фона. Поддерживаются только локальные URI "
+"(file://)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "Непрозрачность изображения"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "Непрозрачность изображения, используемого для фона рабочего стола."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "Основной цвет"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Начальный цвет градиента (начиная с левой или с верхней стороны) или цвет "
 "сплошной заливки."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "Вспомогательный цвет"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Вспомогательный цвет градиента (начиная с правой или с нижней стороны), при "
 "сплошной заливке не используется."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "Тип цвета тени"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -625,11 +641,11 @@ msgstr ""
 "Способ затенения фонового цвета. Возможные значения: "
 "«horizontal» (горизонтальный), «vertical» (вертикальный), «solid» (сплошной)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "Должен ли файловый менеджер управлять рабочим столом"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Если установлено, тогда файловый менеджер будет отрисовывать значки на "
@@ -640,16 +656,30 @@ msgid "Default calendar"
 msgstr "Приложение календаря по умолчанию"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:2
-msgid "Default calendar application"
-msgstr "Приложение календаря по умолчанию"
+msgid ""
+"Default calendar application DEPRECATED: This key is deprecated and ignored. "
+"The preferred calendar application is the application handling the text/"
+"calendar mime type."
+msgstr ""
+"Приложения календаря. Этот ключ устарел и игнорируется. Предпочтительным "
+"приложением календаря является приложение, обрабатывающее тип MIME text/"
+"calendar."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:3
 msgid "Calendar needs terminal"
 msgstr "Приложению календаря нужен терминал"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:4
-msgid "Whether the default calendar application needs a terminal to run."
-msgstr "Требуется ли запуск терминала для приложения календаря."
+msgid ""
+"Whether the default calendar application needs a terminal to run. "
+"DEPRECATED: This key is deprecated and ignored. The preferred calendar "
+"application is the application handling the text/calendar mime type, whether "
+"it needs a terminal is taken from its desktop file."
+msgstr ""
+"Нужен ли календарю терминал. УСТАРЕЛО: этот ключ устарел и игнорируется. "
+"Предпочтительным приложением календаря является приложение, обрабатывающее "
+"тип MIME text/calendar. Необходимость терминала определяется в его desktop-"
+"файле."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -672,10 +702,15 @@ msgid "Terminal application"
 msgstr "Приложение терминала"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-msgid "Terminal program to use when starting applications that require one."
+#| msgid "Terminal program to use when starting applications that require one."
+msgid ""
+"Terminal program to use when starting applications that require one. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal is "
+"handled in GIO."
 msgstr ""
-"Используемое приложение терминала, запускаемое для приложений, которым нужен "
-"терминал."
+"Приложение терминала, используемое при запуске приложений, которым необходим "
+"терминал. УСТАРЕЛО: этот ключ устарел и игнорируется. Терминал по умолчанию "
+"обрабатывается в GIO."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:11
 msgid "Exec Arguments"
@@ -683,10 +718,13 @@ msgstr "Аргументы запуска"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:12
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' key."
+"Argument used to execute programs in the terminal defined by the 'exec' key. "
+"DEPRECATED: This key is deprecated and ignored. The default terminal and how "
+"to invoke it is handled in GIO."
 msgstr ""
-"Аргумент, используемый для запуска программ в терминале; задаётся ключом "
-"«exec»."
+"Аргумент, используемый для запуска приложений в терминале, определённый "
+"ключом «exec». УСТАРЕЛО: этот ключ устарел и игнорируется. Терминал по "
+"умолчанию и способ его вызова обрабатываются в GIO."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:1
 msgid "Current input source"
@@ -736,6 +774,19 @@ msgid ""
 msgstr ""
 "Делает доступными для выбора в параметрах системы все установленные "
 "источники ввода."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:9
+msgid "Use different input sources for each window"
+msgstr "Использовать различные источники ввода для каждого окна"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
+#, fuzzy
+msgid ""
+"When enabled, input sources get attached to the currently focused window "
+"when activated."
+msgstr ""
+"Если включено, источники ввода будут закрепляться за текущим окномпри "
+"активации"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
@@ -1037,6 +1088,8 @@ msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
+"Список значений «имя:цвет», разделённый «\\n» (задаётся ключом «gtk-color-"
+"scheme»)"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
 msgid "Whether the clock displays in 24h or 12h format"
@@ -1060,13 +1113,15 @@ msgstr "Если установлено, в часах будет показан
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:70
 msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr ""
+msgstr "Показывать мнемоники только при нажатии на клавишу Alt"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:71
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr ""
+"Должны ли мнемоники автоматически показываться и скрываться при нажатии "
+"пользователем на клавишу Alt."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:1
 msgid "Disable command line"
@@ -1153,6 +1208,19 @@ msgstr "Запретить выход из системы"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:16
 msgid "Prevent the user from logging out."
 msgstr "Запретить пользователю выходить из системы."
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
+#| msgid "Disable user switching"
+msgid "Disable user administration"
+msgstr "Выключить администрирование пользователей"
+
+#: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:18
+msgid ""
+"Stop the user from modifying user accounts. By default, we allow adding and "
+"removing users, as well as changing other users settings."
+msgstr ""
+"Запретить пользователю изменять учётные записи. По умолчанию разрешается "
+"добавлять и удалять пользователей, а также изменять их параметры."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
@@ -1244,23 +1312,198 @@ msgstr ""
 "папку» в параметрах. При подключении носителя, совпадающего с этими типам, "
 "будет открыто окно папки."
 
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
+#| msgid "Show notifications in the lock screen"
+msgid "Show notification banners"
+msgstr "Показывать баннеры с уведомлением"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:2
+msgid "Whether notification banners are visible for application notifications."
+msgstr ""
+"Являются ли баннеры с уведомлениями видимыми для уведомлений приложения."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
+msgid "Show notifications in the lock screen"
+msgstr "Показывать уведомления при заблокированном экране"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:4
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "Показывать ли уведомления при заблокированном экране."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
+#| msgid "Switch applications"
+msgid "Application ID"
+msgstr "Идентификатор приложения"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:6
+msgid "The application that this policy is for."
+msgstr "Приложение, для которого это является политикой."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
+#| msgid "Enable Animations"
+msgid "Enable notifications"
+msgstr "Включить уведомления"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:8
+msgid "Whether notifications are globally enabled for this application."
+msgstr "Включены ли глобально уведомления для этого приложения."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
+#| msgid "Enable slow keys"
+msgid "Enable sound alerts"
+msgstr "Включить звуковые сигналы"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "Сопровождаются ли уведомления звуковыми сигналами."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"Показывать ли баннеры с уведомлениями для этого приложения. Не затрагивает "
+"нажатия на кнопки в панели сообщений."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
+msgid "Force automatic expanding of banners"
+msgstr "Принудительное автоматически расширение баннеров"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
+msgid ""
+"Whether notifications from this application are expanded automatically when "
+"in banner mode."
+msgstr ""
+"Должны ли уведомления этого приложения автоматически расширяться в режиме "
+"баннеров."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
+#| msgid "Show notifications in the lock screen"
+msgid "Show in the lock screen"
+msgstr "Показывать при заблокированном экране"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:15
+msgid ""
+"Whether notifications from this application are shown when the screen is "
+"locked."
+msgstr "Показывать ли уведомления этого приложения при заблокированном экране."
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
+#| msgid "Show notifications in the lock screen"
+msgid "Show details in the lock screen"
+msgstr "Показывать подробности при заблокированном экране"
+
+#: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
+msgid ""
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
+msgstr ""
+"Показывать ли сводку и тело уведомлений этого приложения при заблокированном "
+"экране."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
+msgid "Controls visibility of personal information"
+msgstr "Управляет доступом к персональной информации"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:2
+msgid ""
+"If set to true, the system will make an effort to not divulge the user's "
+"identity on screen or on the network."
+msgstr ""
+"Если установлено, система не будет раскрывать данные о пользователе на "
+"экране и в сети."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
+#| msgid "Show all installed input sources"
+msgid "Show full name in the user menu"
+msgstr "Показывать полное имя в меню"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:4
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr "Показывать ли полное имя пользователя в меню."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:5
+msgid "Whether to remove old files from the trash automatically"
+msgstr "Удалять ли автоматически старые файлы из корзины"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:6
+msgid ""
+"If TRUE, automatically remove files from the trash when they are older than "
+"'old-files-age' days."
+msgstr ""
+"Если установлено, файлы, старее чем «old-files-age», будут автоматически "
+"удаляться из коризны."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:7
+msgid "Whether to remove old temporary files automatically"
+msgstr "Удалять ли автоматически старые временные файлы"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:8
+msgid ""
+"If TRUE, automatically remove temporary files when they are older than 'old-"
+"files-age' days."
+msgstr ""
+"Если установлено, временные файлы, старее чем «old-files-age», будут "
+"автоматически удаляться."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:9
+msgid "Number of days to keep trash and temporary files"
+msgstr "Количество дней хранения файлов в корзине и временных файлов"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
+msgid "Consider trash and temporary files old after this many days."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
+msgid "Whether to remember recently used files"
+msgstr "Запоминать ли недавно используемые файлы"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
+msgid "If FALSE, applications will not remember recently used files."
+msgstr ""
+"Если ключ не установлен, приложения не будут запоминать недавно используемые "
+"файлы."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
+msgid "Number of days to remember recently used files for"
+msgstr ""
+"Количество дней, в течение которых необходимо помнить недавно используемые "
+"файлы"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
+msgid ""
+"Recently used files will be remembered for this many days. If set to 0, "
+"recent files will not be remembered; if set to -1, they will be retained "
+"indefinitively."
+msgstr ""
+"Недавно используемые файлы будут запоминаться на указанное количество дней. "
+"Если установлено значение «0», недавние файлы не будут запоминаться; «-1» — "
+"запоминать без ограничения по времени."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Включать при простое"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-msgid "Set this to TRUE to activate the screensaver when the session is idle."
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
+"delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Установите значение в «TRUE», чтобы включать хранитель экрана в случае "
-"простоя сеанса."
+"Установите этот ключ, чтобы включить хранитель экрана при простое сеанса. "
+"УСТАРЕЛО: этот ключ устарел и игнорируется. Установите ключ «org.gnome."
+"session.idle-delay» в значение «0», если вы не хотите включать хранитель "
+"экрана."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
-msgstr ""
+msgstr "Блокировать при включении"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:4
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
+"Установите этот ключ, чтобы включать блокировку экрана при включении "
+"хранителя экрана."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:5
 msgid "Time before locking"
@@ -1273,17 +1516,18 @@ msgstr ""
 "Количество секунд до блокировки экрана после включения хранителя экрана."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-msgid "Show notifications in the lock screen"
-msgstr "Показывать уведомления при заблокированном экране"
+#| msgid "Show notifications in the lock screen"
+msgid "Show full name in the lock screen"
+msgstr "Показывать полное имя на заблокированном экране"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
-#, fuzzy
 msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience."
+"Whether the user's full name is shown in the lock screen or not. This only "
+"affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Показывать ли уведомления при заблокированном экране. Этот параметр "
-"относится только к стандартному поведению."
+"Поазывать ли полное имя пользователя на заблокированном экране. Это "
+"относится только к экрану блокировки, имя всегда отображается в диалоговом "
+"окне разблокировки."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
@@ -1293,88 +1537,171 @@ msgstr "Разрешить использование встроенной в о
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
+"command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Установите этот ключ, чтобы разрешить использование встроенной в окно "
+"клавиатуры при попытке разблокировки экрана. Значение ключа "
+"«keyboard_command» должно быть соответствующей командой. УСТАРЕЛО: этот ключ "
+"устарел и игнорируется."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
-msgstr ""
+msgstr "Команда встроенной клавиатуры"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
-"output."
+"output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Команда, которая будет выполняться, если установлен ключ "
+"«embedded_keyboard_enabled». Эта команда должна реализовывать интерфейс "
+"XEMBED и выводить XID окна в стандартный поток вывода. УСТАРЕЛО: этот ключ "
+"устарел и игнорируется."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
-msgstr ""
+msgstr "Разрешить завершение сеанса"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key."
+"out after a delay. The delay is specified in the \"logout_delay\" key. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Установите этот ключ, чтобы в диалоговом окне разблокировки была опция для "
+"завершения сеанса после задержки. Задержка задаётся ключом «logout_delay». "
+"УСТАРЕЛО: этот ключ устарел и игнорируется."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
-msgstr ""
+msgstr "Время перед опцией завершения сеанса"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
+"\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated and "
+"ignored"
 msgstr ""
+"Количество секунд, прошедших после включения хранителя экрана, после чего в "
+"диалоговом окне разблокировки появится опция завершения сеанса. Этот ключ "
+"применяется, только при включённом параметре «logout_enable». УСТАРЕЛО: этот "
+"ключ устарел и игнорируется."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
-msgstr ""
+msgstr "Команда завершения сеанса"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
+"the \"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
+"and ignored."
 msgstr ""
+"Команда, вызываемая при нажатии на кнопку завершения сеанса. Эта команда "
+"просто завершает сеанс без какой-либо интерактивности. Этот ключ "
+"применяется, только если установлен параметр «logout_enable». УСТАРЕЛО: этот "
+"ключ устарел и игнорируется."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
-msgstr ""
+msgstr "Разрешить переключение пользователей"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr ""
+"Установите этот ключ, чтобы в диалоговом окне разблокировке была опция "
+"переключения на другую учётную запись пользователя."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
-msgstr ""
+msgstr "Разрешить сообщения о состоянии сеанса"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
-"Allow the session status message to be displayed when the screen is locked."
+"Allow the session status message to be displayed when the screen is locked. "
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Разрешить сообщения о состоянии сеанса при заблокированном экране. УСТАРЕЛО: "
+"этот ключ устарел и игнорируется."
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr ""
+"URI изображения, используемого для фона. Заметьте, что поддерживаются только "
+"локальные URI (file://)."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
+#| msgid "Disable all external thumbnailers"
+msgid "Disable all external search providers"
+msgstr "Выключить все внешние средства поиска"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:2
+msgid ""
+"Set to true to disable all external search provider programs, whether or not "
+"they are independently disabled or enabled. External search providers are "
+"installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
+msgstr ""
+"Установите этот параметр, чтобы выключить все внешние средства поиска, "
+"независимо от того, были ли они включены в другом месте или нет. Внешние "
+"средства поиска устанавливаются приложениями в $XDG_DATA_DIR/gnome-shell/"
+"search-providers."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
+#| msgid ""
+#| "List of mime-types for which external thumbnailer programs will be "
+#| "disabled"
+msgid "List of desktop file IDs for which search provider should be disabled"
+msgstr ""
+"Список идентификаторов desktop-файлов, для которых необходимо выключить поиск"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
+msgid ""
+"Results for applications contained in this list will not be displayed when "
+"searching."
+msgstr ""
+"Результаты для приложений, содержащихся в этом списке, не будут показаны при "
+"поиске."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid "List of desktop file IDs for search providers sort order"
+msgstr "Порядок сортировки списка идентификаторов desktop-файлов"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed in the "
+"specified order. Results for applications not specified in this list will be "
+"displayed before the last item of the list, if it has more than one item."
+msgstr ""
+"Результаты для приложений, содержащихся в этом списке, будут показаны в "
+"определённом порядка. Результаты для приложений, не указанные в этом списке, "
+"будут показаны перед последним элементом списка, если список содержит более "
+"одного элемента."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
-msgstr ""
+msgstr "Время, после которого сеанс считается простаивающим"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:2
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
 msgstr ""
+"Количество секунд неактивности, после которых сеанс считается проставающим."
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:1
 msgid "Sounds for events"
-msgstr ""
+msgstr "Звуки для событий"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:2
 msgid "Whether to play sounds on user events."
-msgstr ""
+msgstr "Воспроизводить звуки для событий пользователя."
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.in.h:3
 msgid "Sound theme name"
@@ -1485,19 +1812,19 @@ msgstr "Переключиться на рабочее место 12"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:13
 msgid "Switch to workspace left"
-msgstr ""
+msgstr "Переключиться на рабочее место слева"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:14
 msgid "Switch to workspace right"
-msgstr ""
+msgstr "Переключиться на рабочее место справа"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:15
 msgid "Switch to workspace above"
-msgstr ""
+msgstr "Переключиться на рабочее место сверху"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:16
 msgid "Switch to workspace below"
-msgstr ""
+msgstr "Переключиться на рабочее место снизу"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
 msgid "Switch windows of an application"
@@ -1516,229 +1843,254 @@ msgid "Reverse switch applications"
 msgstr "Переключение между приложениями в обратном порядке"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#| msgid "Switch windows directly"
+msgid "Switch windows"
+msgstr "Переключение между окнами"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#| msgid "Reverse switch windows directly"
+msgid "Reverse switch windows"
+msgstr "Переключение между окнами в обратном порядке"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Switch system controls"
 msgstr "Переключение между системными элементами управления"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Reverse switch system controls"
 msgstr "Переключение между системными элементами управления в обратном порядке"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Переключение между окнами приложения"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Reverse switch windows of an app directly"
 msgstr "Переключение между окнами приложения в обратном порядке"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Switch windows directly"
 msgstr "Переключение между окнами"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Reverse switch windows directly"
 msgstr "Переключение между окнами в обратном порядке"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Switch system controls directly"
 msgstr "Переключение между системными элементами управления"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Reverse switch system controls directly"
 msgstr "Переключение между системными элементами управления в обратном порядке"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Hide all normal windows"
 msgstr "Скрыть все обычные окна"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Show the activities overview"
 msgstr "Открыть режим обзора"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the run command prompt"
 msgstr "Открыть строку для запуска команды"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
-msgid "Don&apos;t use"
-msgstr ""
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+msgid "Don't use"
+msgstr "Не использовать"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Activate the window menu"
 msgstr "Активировать меню окна"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Toggle fullscreen mode"
 msgstr "Переключение полноэкранного режима"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
-msgid "Toggle maximization state"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
-#, fuzzy
-msgid "Toggle window always appearing on top"
-msgstr "Переключить положение окна,"
-
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+msgid "Toggle maximization state"
+msgstr "Переключение состояния максимального размера"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+msgid "Toggle window always appearing on top"
+msgstr "Переключение окна поверх остальных"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
 msgstr "Максимальный размер окна"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Restore window"
 msgstr "Восстановить размер окна"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Toggle shaded state"
-msgstr ""
+msgstr "Переключение состояние затенения"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Minimize window"
 msgstr "Минимальный размер окна"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Close window"
 msgstr "Закрыть окно"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Move window"
 msgstr "Переместить окно"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Resize window"
 msgstr "Изменить размер окна"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Toggle window on all workspaces or one"
 msgstr "Переключить окно на всех рабочих местах"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Move window to workspace 1"
 msgstr "Переместить окно на рабочее место 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 2"
 msgstr "Переместить окно на рабочее место 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 3"
 msgstr "Переместить окно на рабочее место 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 4"
 msgstr "Переместить окно на рабочее место 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 5"
 msgstr "Переместить окно на рабочее место 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 6"
 msgstr "Переместить окно на рабочее место 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 7"
 msgstr "Переместить окно на рабочее место 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 8"
 msgstr "Переместить окно на рабочее место 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 9"
 msgstr "Переместить окно на рабочее место 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 10"
 msgstr "Переместить окно на рабочее место 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 11"
 msgstr "Переместить окно на рабочее место 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 12"
 msgstr "Переместить окно на рабочее место 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
-#, fuzzy
-msgid "Move window one workspace to the left"
-msgstr "Переместить окно"
-
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
-msgid "Move window one workspace to the right"
-msgstr ""
-
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
-msgid "Move window one workspace up"
-msgstr ""
+msgid "Move window one workspace to the left"
+msgstr "Переместить окно на одно рабочее место влево"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
-msgid "Move window one workspace down"
-msgstr ""
+msgid "Move window one workspace to the right"
+msgstr "Переместить окно на одно рабочее место вправо"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+msgid "Move window one workspace up"
+msgstr "Переместить окно на одно рабочее место вверх"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+msgid "Move window one workspace down"
+msgstr "Переместить окно на одно рабочее место вниз"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Переместить окно на передний план, если оно скрыто, иначе убрать его с "
 "переднего плана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Raise window above other windows"
 msgstr "Поместить окно над другими окнами"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Lower window below other windows"
 msgstr "Поместить окно под другими окнами"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Maximize window vertically"
 msgstr "Растянуть окно по вертикали"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Maximize window horizontally"
 msgstr "Растянуть окно по горизонтали"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to top left corner"
 msgstr "Переместить окно в левый верхний угол"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Move window to top right corner"
 msgstr "Переместить окно в правый верхний угол"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Move window to bottom left corner"
 msgstr "Переместить окно в левый нижний угол"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Move window to bottom right corner"
 msgstr "Переместить окно в правый нижний угол"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top edge of screen"
 msgstr "Переместить окно к верхней границе экрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to bottom edge of screen"
 msgstr "Переместить окно к нижней границе экрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to right side of screen"
 msgstr "Переместить окно к правой границе экрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to left side of screen"
 msgstr "Переместить окно к левой границе экрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to center of screen"
 msgstr "Поместить окно по центру экрана"
 
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#| msgid "List of input sources"
+msgid "Switch input source"
+msgstr "Переключить источник ввода"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+msgid "Binding to select the next input source"
+msgstr "Комбинация для выбора следующего источника ввода"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#| msgid "List of input sources"
+msgid "Switch input source backward"
+msgstr "Переключиться на предыдущий источник ввода"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+msgid "Binding to select the previous input source"
+msgstr "Комбинация для выбора предыдущего источника ввода"
+
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
-#, fuzzy
 msgid "Modifier to use for modified window click actions"
-msgstr "Модификатор для действий над окнами"
+msgstr "Модификатор для действий над окном, выполняемых по щелчку"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:2
 msgid ""
@@ -1748,6 +2100,12 @@ msgid ""
 "the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
 "[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
+"Щелчок по окну с удержанием этого модификатора переместит окно (нажатие "
+"левой кнопки мыши), изменит размер окна (нажатие средней кнопки мыши) или "
+"покажет меню окна (нажатие правой кнопки мыши). Нажатие средней и правой "
+"кнопки можно поменять местами с помощью ключа «resize-with-right-button». "
+"Модификатор записывается как <![CDATA[\"<Alt>\"]]> или <![CDATA[\"<Super>\"]]"
+">."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Whether to resize with the right button"
@@ -1759,10 +2117,15 @@ msgid ""
 "middle button while holding down the key given in \"mouse-button-modifier\"; "
 "set it to false to make it work the opposite way around."
 msgstr ""
+"Установите этот параметр, чтобы изменять размер окна с помощью правой кнопки "
+"мыши и показывать меню с помощью средней кнопки мыши, нажатия кнопок должны "
+"выполняться при удержании клавиши-модификатора, который задаётся ключом "
+"«mouse-button-modifier»; если этот параметр не установлен, то кнопки будут "
+"работать наоборот."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:5
 msgid "Arrangement of buttons on the titlebar"
-msgstr ""
+msgstr "Расположение кнопок в панели заголовка"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:6
 msgid ""
@@ -1774,6 +2137,13 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"Расположение кнопок в панели заголовка. Значением является строка, например "
+"«menu:minimize,maximize,spacer,close»; двоеточие отделяет левый угол окна от "
+"правого, имена кнопок должны отделяться запятыми. Запрещается дублировать "
+"кнопки. Неизвестные кнопки игнорируются, эти кнопки могут быть добавлены в "
+"более новых версиях metacity без конфликтов с более старыми версиями. Можно "
+"использовать особый тэг заполнителя, чтобы вставить немного пространства "
+"между двумя соседними кнопками."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:7
 msgid "Window focus mode"
@@ -1812,7 +2182,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:11
 msgid "Whether raising should be a side-effect of other user interactions"
-msgstr ""
+msgstr "Долж"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:12
 msgid ""
@@ -1835,6 +2205,24 @@ msgid ""
 "and that they need to change this option back to true or live with the \"bug"
 "\" they requested."
 msgstr ""
+"Если не установить этот параметр, то возможны различные ошибки, поэтому "
+"настоятельно рекомендуется не изменять значение этого параметра, "
+"выставленного по умолчанию. Многие действия (например, щелчки в области "
+"клиента, перемещение и изменение размеров окна) обычно поднимают окно. Если "
+"этот параметр не установлен, действия пользователя не смогут привести к "
+"поднятию окна, а запросы на поднятие окна от других приложений будут "
+"игнорироваться. См. http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. "
+"Даже если этот параметр не установлен, окно всё ещё можно поднять, нажав alt-"
+"левый-щелчок где-нибудь на окне, просто щёлкнув по декоратору окна или с "
+"помощью специальных сообщений от пейджеров, таких как запросы на активацию "
+"от апплетов списков задач. Этот параметр в настоящий момент выключен в "
+"режиме «click-to-focus». Список способов для поднятие окон при выключённом "
+"параметре «raise-on-click» не включает в себя программных запросов от "
+"приложений; такие запросы будут игнорироваться несмотря на причину запроса. "
+"Если вы являетесь разработчиком и ваши пользователя жалуются, что ваше "
+"приложение не работает, когда этот параметр выключен, скажите им, что это ИХ "
+"ошибка, которая ломает оконный менеджер и им нужно выставить обратно этот "
+"параметр."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Action on title bar double-click"
@@ -2277,3 +2665,28 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr ""
+
+#~ msgid "Draw Desktop Background"
+#~ msgstr "Отрисовывать фон рабочего стола"
+
+#~ msgid "Have GNOME draw the desktop background."
+#~ msgstr "GNOME должен отрисовывать фон рабочего стола."
+
+#~ msgid "Default calendar application"
+#~ msgstr "Приложение календаря по умолчанию"
+
+#~ msgid "Whether the default calendar application needs a terminal to run."
+#~ msgstr "Требуется ли запуск терминала для приложения календаря."
+
+#~ msgid ""
+#~ "Argument used to execute programs in the terminal defined by the 'exec' "
+#~ "key."
+#~ msgstr ""
+#~ "Аргумент, используемый для запуска программ в терминале; задаётся ключом "
+#~ "«exec»."
+
+#~ msgid ""
+#~ "Set this to TRUE to activate the screensaver when the session is idle."
+#~ msgstr ""
+#~ "Установите значение в «TRUE», чтобы включать хранитель экрана в случае "
+#~ "простоя сеанса."
