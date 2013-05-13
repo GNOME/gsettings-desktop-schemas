@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-02-21 11:20+0000\n"
-"PO-Revision-Date: 2013-03-24 19:27+0400\n"
+"POT-Creation-Date: 2013-05-10 15:31+0000\n"
+"PO-Revision-Date: 2013-05-13 23:01+0400\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -85,12 +86,10 @@ msgstr ""
 "клавиатуры."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-#| msgid "Enable the bounce keys"
 msgid "Enable 'Bounce Keys'"
 msgstr "Включить отскакивающие клавиши"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-#| msgid "Whether the bounce keys keyboard accessibility feature is turned on."
 msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
 "Включена ли специальная возможность отскакивающих клавиш для клавиатуры."
@@ -114,12 +113,10 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Подавать ли сигнал при отпускании клавиши."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-#| msgid "Enable mouse keys"
 msgid "Enable 'Mouse Keys'"
 msgstr "Включить управление мышью с помощью клавиш"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-#| msgid "Whether the mouse keys accessibility feature is turned on."
 msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
 msgstr "Включена ли специальная возможность управления мышью с помощью клавиш."
 
@@ -151,12 +148,10 @@ msgstr ""
 "Время ожидания в милисекундах перед началом работы кнопок движения мыши."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-#| msgid "Enable slow keys"
 msgid "Enable 'Slow Keys'"
 msgstr "Включить медленные клавиши"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-#| msgid "Whether the slow keys accessibility feature is turned on."
 msgid "Whether the 'Slow Keys' accessibility feature is turned on."
 msgstr "Включена ли специальная возможность медленных клавиш."
 
@@ -208,12 +203,10 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Подавать ли сигнал при нажатии модификатора."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-#| msgid "Enable toggle keys"
 msgid "Enable 'Toggle Keys'"
 msgstr "Включить клавиши переключения"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-#| msgid "Whether the toggle keys accessibility feature is turned on."
 msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
 msgstr "Включена ли специальная возможность клавиш переключения."
 
@@ -353,7 +346,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
 msgid "Clip the crosshairs at the center"
-msgstr ""
+msgstr "Поместить перекрестие в центр"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
 msgid ""
@@ -583,9 +576,6 @@ msgid "Picture URI"
 msgstr "URI изображения"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
-#| msgid ""
-#| "URI to use for the background image. Not that the backend only supports "
-#| "local (file://) URIs."
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -702,7 +692,6 @@ msgid "Terminal application"
 msgstr "Приложение терминала"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-#| msgid "Terminal program to use when starting applications that require one."
 msgid ""
 "Terminal program to use when starting applications that require one. "
 "DEPRECATED: This key is deprecated and ignored. The default terminal is "
@@ -751,6 +740,13 @@ msgid ""
 "server's current XKB layout and variant won't be touched and IBus won't be "
 "used."
 msgstr ""
+"Доступен список идентификаторов источников ввода. Каждый источник "
+"определяется парой строк. Первая строка — это тип источников, она может "
+"принимать значения «xkb» или «ibus». Для источников «xkb» вторая строка "
+"может быть либо «xkb_layout+xkb_variant», либо «xkb_layout», если тип XKB не "
+"требуется. Для источников «ibus» вторая строка — название обработчика IBus. "
+"Пустой список означает, что текущая раскладка и тип раскладки X-сервера "
+"использоваться не будут, IBus использоваться не будет."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
 msgid "List of XKB options"
@@ -780,21 +776,22 @@ msgid "Use different input sources for each window"
 msgstr "Использовать различные источники ввода для каждого окна"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:10
-#, fuzzy
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
 msgstr ""
-"Если включено, источники ввода будут закрепляться за текущим окномпри "
-"активации"
+"Если включено, источники ввода будут закреплены окном, на которое в данный "
+"момент переведён фокус."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:1
 msgid "Enable Toolkit Accessibility"
-msgstr ""
+msgstr "Включить инструментарий специальных возможностей"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:2
 msgid "Whether toolkits should load accessibility related modules."
 msgstr ""
+"Должны ли инструментарии загружать модули, связанные со специальными "
+"возможностями."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:3
 msgid "Enable Animations"
@@ -955,11 +952,12 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Preedit Style"
-msgstr ""
+msgstr "Предустановленный стиль GTK IM"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr ""
+"Название предустановленного стиля метода ввода GTK+, используемого gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "GTK IM Status Style"
@@ -1014,9 +1012,8 @@ msgid ""
 msgstr "Показывать ли в контекстном меню пункты для изменения метода ввода."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
-#, fuzzy
 msgid "Show the 'Unicode Control Character' menu"
-msgstr "Показывать меню «Методы ввода»"
+msgstr "Показывать меню «Управляющие символы Unicode»"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid ""
@@ -1210,7 +1207,6 @@ msgid "Prevent the user from logging out."
 msgstr "Запретить пользователю выходить из системы."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
-#| msgid "Disable user switching"
 msgid "Disable user administration"
 msgstr "Выключить администрирование пользователей"
 
@@ -1313,7 +1309,6 @@ msgstr ""
 "будет открыто окно папки."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
-#| msgid "Show notifications in the lock screen"
 msgid "Show notification banners"
 msgstr "Показывать баннеры с уведомлением"
 
@@ -1331,7 +1326,6 @@ msgid "Whether notifications are shown in the lock screen or not."
 msgstr "Показывать ли уведомления при заблокированном экране."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
-#| msgid "Switch applications"
 msgid "Application ID"
 msgstr "Идентификатор приложения"
 
@@ -1340,7 +1334,6 @@ msgid "The application that this policy is for."
 msgstr "Приложение, для которого это является политикой."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
-#| msgid "Enable Animations"
 msgid "Enable notifications"
 msgstr "Включить уведомления"
 
@@ -1349,7 +1342,6 @@ msgid "Whether notifications are globally enabled for this application."
 msgstr "Включены ли глобально уведомления для этого приложения."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
-#| msgid "Enable slow keys"
 msgid "Enable sound alerts"
 msgstr "Включить звуковые сигналы"
 
@@ -1378,7 +1370,6 @@ msgstr ""
 "баннеров."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
-#| msgid "Show notifications in the lock screen"
 msgid "Show in the lock screen"
 msgstr "Показывать при заблокированном экране"
 
@@ -1389,7 +1380,6 @@ msgid ""
 msgstr "Показывать ли уведомления этого приложения при заблокированном экране."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
-#| msgid "Show notifications in the lock screen"
 msgid "Show details in the lock screen"
 msgstr "Показывать подробности при заблокированном экране"
 
@@ -1414,7 +1404,6 @@ msgstr ""
 "экране и в сети."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
-#| msgid "Show all installed input sources"
 msgid "Show full name in the user menu"
 msgstr "Показывать полное имя в меню"
 
@@ -1453,6 +1442,8 @@ msgstr "Количество дней хранения файлов в корз�
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
 msgid "Consider trash and temporary files old after this many days."
 msgstr ""
+"Считать временные файлы, а также файлы, находящиеся в корзине, старыми по "
+"прошествии указанного количества дней."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
 msgid "Whether to remember recently used files"
@@ -1516,7 +1507,6 @@ msgstr ""
 "Количество секунд до блокировки экрана после включения хранителя экрана."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
-#| msgid "Show notifications in the lock screen"
 msgid "Show full name in the lock screen"
 msgstr "Показывать полное имя на заблокированном экране"
 
@@ -1639,7 +1629,6 @@ msgstr ""
 "локальные URI (file://)."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
-#| msgid "Disable all external thumbnailers"
 msgid "Disable all external search providers"
 msgstr "Выключить все внешние средства поиска"
 
@@ -1655,9 +1644,6 @@ msgstr ""
 "search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-#| msgid ""
-#| "List of mime-types for which external thumbnailer programs will be "
-#| "disabled"
 msgid "List of desktop file IDs for which search provider should be disabled"
 msgstr ""
 "Список идентификаторов desktop-файлов, для которых необходимо выключить поиск"
@@ -1678,12 +1664,11 @@ msgstr "Порядок сортировки списка идентификат�
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
-"displayed before the last item of the list, if it has more than one item."
+"displayed last, sorted alphabetically."
 msgstr ""
-"Результаты для приложений, содержащихся в этом списке, будут показаны в "
-"определённом порядка. Результаты для приложений, не указанные в этом списке, "
-"будут показаны перед последним элементом списка, если список содержит более "
-"одного элемента."
+"Результаты для приложений из этого списка будут показаны в определённом "
+"порядке. Результаты для приложений не из этого списка будут показаны "
+"последними, результаты будут расположены в алфавитном порядке."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1843,12 +1828,10 @@ msgid "Reverse switch applications"
 msgstr "Переключение между приложениями в обратном порядке"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
-#| msgid "Switch windows directly"
 msgid "Switch windows"
 msgstr "Переключение между окнами"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
-#| msgid "Reverse switch windows directly"
 msgid "Reverse switch windows"
 msgstr "Переключение между окнами в обратном порядке"
 
@@ -2071,7 +2054,6 @@ msgid "Move window to center of screen"
 msgstr "Поместить окно по центру экрана"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
-#| msgid "List of input sources"
 msgid "Switch input source"
 msgstr "Переключить источник ввода"
 
@@ -2080,7 +2062,6 @@ msgid "Binding to select the next input source"
 msgstr "Комбинация для выбора следующего источника ввода"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
-#| msgid "List of input sources"
 msgid "Switch input source backward"
 msgstr "Переключиться на предыдущий источник ввода"
 
@@ -2311,11 +2292,8 @@ msgstr ""
 "результате операций перетаскивания."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
-#, fuzzy
 msgid "Delay in milliseconds for the auto raise option"
-msgstr ""
-"Задержка в милисекундах для параметра автоматического расположения окна на "
-"переднем плане"
+msgstr "Задержка в милисекундах для параметра «auto-raise»"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:22
 msgid ""
@@ -2446,6 +2424,8 @@ msgstr ""
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
+"Выключить неправильные свойства, используемые старыми или некорректными "
+"приложениями"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
 msgid ""
@@ -2454,6 +2434,10 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
+"Некоторые приложения игнорируют спецификации, что приводит к использованию "
+"неправильных свойств оконным менеджером. Данный параметр устанавливает "
+"оконный менеджер в строгий режим, который предоставляет более единообразный "
+"интерфейс при условии, что не нужно запускать некорректные приложения."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
 msgid "The names of the workspaces"
@@ -2562,19 +2546,18 @@ msgid "HTTP proxy host name"
 msgstr "Имя узла HTTP прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:11
-#, fuzzy
 msgid "The machine name to proxy HTTP through."
-msgstr "Имя машины для "
+msgstr "Имя компьютера, используемого в качестве HTTP прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:12
 msgid "HTTP proxy port"
-msgstr "Порт прокси-сервера для HTTP"
+msgstr "Порт HTTP прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:13
 msgid ""
 "The port on the machine defined by \"/system/proxy/http/host\" that you "
 "proxy through."
-msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/http/host»."
+msgstr "Порт прокси-сервера, указанный в ключе «/system/proxy/http/host»."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:14
 msgid "Authenticate proxy server connections"
@@ -2618,53 +2601,53 @@ msgstr "Имя узла прокси-сервера HTTPS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:21
 msgid "The machine name to proxy secure HTTP through."
-msgstr ""
+msgstr "Имя компьютера, используемого в качестве HTTPS прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:22
 msgid "Secure HTTP proxy port"
-msgstr ""
+msgstr "Порт прокси-сервера HTTPS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:23
 msgid ""
 "The port on the machine defined by \"/system/proxy/https/host\" that you "
 "proxy through."
-msgstr ""
+msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/https/host»."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:24
 msgid "FTP proxy host name"
-msgstr ""
+msgstr "Имя узла FTP прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:25
 msgid "The machine name to proxy FTP through."
-msgstr ""
+msgstr "Имя компьютера, используемого в качестве FTP прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:26
 msgid "FTP proxy port"
-msgstr ""
+msgstr "Порт FTP прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:27
 msgid ""
 "The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
 "through."
-msgstr ""
+msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/ftp/host»."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:28
 msgid "SOCKS proxy host name"
-msgstr ""
+msgstr "Имя узла SOCKS прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:29
 msgid "The machine name to use as a SOCKS proxy."
-msgstr ""
+msgstr "Имя компьютера, используемого в качестве SOCKS прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:30
 msgid "SOCKS proxy port"
-msgstr ""
+msgstr "Порт SOCKS прокси-сервера"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:31
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
-msgstr ""
+msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/socks/host»."
 
 #~ msgid "Draw Desktop Background"
 #~ msgstr "Отрисовывать фон рабочего стола"
