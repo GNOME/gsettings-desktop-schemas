@@ -6,6 +6,7 @@ desktop_gschemas_in_in =						\
 	org.gnome.system.proxy.gschema.xml.in.in			\
 	org.gnome.desktop.sound.gschema.xml.in.in			\
 	org.gnome.desktop.thumbnail-cache.gschema.xml.in.in		\
+	org.gnome.desktop.a11y.gschema.xml.in.in			\
 	org.gnome.desktop.a11y.keyboard.gschema.xml.in.in		\
 	org.gnome.desktop.a11y.applications.gschema.xml.in.in		\
 	org.gnome.desktop.a11y.magnifier.gschema.xml.in.in		\
