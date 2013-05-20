@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-04-20 03:04+0000\n"
-"PO-Revision-Date: 2013-04-22 17:43+0200\n"
+"POT-Creation-Date: 2013-05-18 22:15+0000\n"
+"PO-Revision-Date: 2013-05-20 12:46+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -21,6 +21,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Gtranslator 2.91.5\n"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Mostrar siempre el icono de estado de Acceso universal"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Esta clave sobreescribe la ocultación automática del icono de estado del "
+"Acceso universal cuando no se han activado características de accesibilidad."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -1523,6 +1535,16 @@ msgstr ""
 "establece a 0, los archivos recientes no se recordarán; si se establece a -"
 "1, se recordarán de manera indefinida."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
+#| msgid "Whether to remember recently used files"
+msgid "Whether to remember application usage"
+msgstr "Indica si se debe recordar el uso de aplicaciones"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
+#| msgid "If FALSE, applications will not remember recently used files."
+msgid "If FALSE, application usage will not be monitored and recorded."
+msgstr "Si es falso, no se monitorizará y guardará el uso de aplicaciones."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Activar cuando esté inactivo"
@@ -1714,11 +1736,6 @@ msgstr ""
 "Lista de ID de archivos del escritorio para orden de proveedores de búsqueda"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
-#| msgid ""
-#| "Results for applications contained in this list will be displayed in the "
-#| "specified order. Results for applications not specified in this list will "
-#| "be displayed before the last item of the list, if it has more than one "
-#| "item."
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
