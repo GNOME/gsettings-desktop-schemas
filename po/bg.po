@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-18 06:20+0200\n"
-"PO-Revision-Date: 2013-01-24 09:57+0200\n"
+"POT-Creation-Date: 2013-06-08 11:18+0300\n"
+"PO-Revision-Date: 2013-06-08 11:18+0300\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "Language: bg\n"
@@ -15,6 +15,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -51,25 +61,32 @@ msgstr "Звук при промяна на настройките за дост
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:3
 msgid ""
 "Whether to beep when a keyboard accessibility feature is enabled or disabled."
-msgstr "Дали да се известява със звук за превключване на някоя настройка на достъпността на клавиатурата."
+msgstr ""
+"Дали да се известява със звук за превключване на някоя настройка на "
+"достъпността на клавиатурата."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:4
 msgid "Disable keyboard accessibility after a timeout"
-msgstr "Изключване на достъпността на клавиатурата след определен интервал от време"
+msgstr ""
+"Изключване на достъпността на клавиатурата след определен интервал от време"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:5
 msgid ""
 "Whether to disable keyboard accessibility after a timeout, useful for shared "
 "machines."
-msgstr "Дали достъпността на клавиатурата да се изключва след определено време. Удобно е за машини, които се ползват от повече хора."
+msgstr ""
+"Дали достъпността на клавиатурата да се изключва след определено време. "
+"Удобно е за машини, които се ползват от повече хора."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:6
 msgid "Duration of the disabling timeout"
-msgstr "Продължителност на интервала за изключванене на достъпността"
+msgstr "Продължителност на интервала за изключване на достъпността"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:7
 msgid "Duration of the timeout before disabling the keyboard accessibility."
-msgstr "Продължителност на интервала преди изключване на достъпността на клавиатурата."
+msgstr ""
+"Продължителност на интервала преди изключване на достъпността на "
+"клавиатурата."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
 msgid "Enable 'Bounce Keys'"
@@ -485,75 +502,76 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid ""
-"Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
-"and ignored."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
 "\"zoom\", \"spanned\"."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 
@@ -1140,7 +1158,6 @@ msgid "Whether notification banners are visible for application notifications."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show notifications in the lock screen"
 msgstr ""
 
@@ -1199,13 +1216,13 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
-msgid "Be resident in the lock screen"
+msgid "Show details in the lock screen"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
 msgid ""
-"Whether notifications from this application will be shown individually in "
-"full (with details, action buttons and images) in the lock screen."
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
@@ -1273,6 +1290,14 @@ msgid ""
 "indefinitively."
 msgstr ""
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
+msgid "Whether to remember application usage"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
+msgid "If FALSE, application usage will not be monitored and recorded."
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr ""
@@ -1301,39 +1326,32 @@ msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
-msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience. DEPRECATED: This key is deprecated and ignored. It "
-"has been superseded by org.gnome.desktop.notifications show-in-lock-screen."
-msgstr ""
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show full name in the lock screen"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
 "command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1341,22 +1359,22 @@ msgid ""
 "output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1364,11 +1382,11 @@ msgid ""
 "ignored"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1376,24 +1394,30 @@ msgid ""
 "and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
@@ -1425,7 +1449,7 @@ msgstr ""
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
-"displayed before the last item of the list, if it has more than one item."
+"displayed last, sorted alphabetically."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
@@ -2154,7 +2178,9 @@ msgstr "Този ключ не се използва. И да го промен�
 msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
-msgstr "Този ключ не се ползва. Сървърът-посредник за HTTP се включва, когато ключът host за машина не е празен, а ключът port за порт не е 0."
+msgstr ""
+"Този ключ не се ползва. Сървърът-посредник за HTTP се включва, когато ключът "
+"host за машина не е празен, а ключът port за порт не е 0."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:10
 msgid "HTTP proxy host name"
@@ -2172,7 +2198,9 @@ msgstr "Порт на сървъра-посредник за HTTP"
 msgid ""
 "The port on the machine defined by \"/system/proxy/http/host\" that you "
 "proxy through."
-msgstr "Портът на машината зададена в ключа „/system/proxy/http/host“, чрез който се посредничи за HTTP."
+msgstr ""
+"Портът на машината зададена в ключа „/system/proxy/http/host“, чрез който се "
+"посредничи за HTTP."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:14
 msgid "Authenticate proxy server connections"
@@ -2193,7 +2221,9 @@ msgstr "Име на потребител за посредника за HTTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:17
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr "Потребителско име за идентификация при ползването на сървър-посредник за HTTP."
+msgstr ""
+"Потребителско име за идентификация при ползването на сървър-посредник за "
+"HTTP."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:18
 msgid "HTTP proxy password"
@@ -2205,54 +2235,60 @@ msgstr "Парола за идентификация при ползването
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:20
 msgid "Secure HTTP proxy host name"
-msgstr ""
+msgstr "Име на сървър-посредник за HTTPS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:21
 msgid "The machine name to proxy secure HTTP through."
-msgstr ""
+msgstr "Машината, която да посредничи за трафика по HTTPS."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:22
 msgid "Secure HTTP proxy port"
-msgstr ""
+msgstr "Порт на сървъра-посредник за HTTPS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:23
 msgid ""
 "The port on the machine defined by \"/system/proxy/https/host\" that you "
 "proxy through."
 msgstr ""
+"Портът на машината зададена в ключа „/system/proxy/https/host“, чрез който "
+"се посредничи за HTTPS."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:24
 msgid "FTP proxy host name"
-msgstr ""
+msgstr "Име на сървър-посредник за FTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:25
 msgid "The machine name to proxy FTP through."
-msgstr ""
+msgstr "Машината, която да посредничи за трафика по FTP."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:26
 msgid "FTP proxy port"
-msgstr ""
+msgstr "Порт на сървъра-посредник за FTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:27
 msgid ""
 "The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
 "through."
 msgstr ""
+"Портът на машината зададена в ключа „/system/proxy/ftp/host“, чрез който се "
+"посредничи за FTP."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:28
 msgid "SOCKS proxy host name"
-msgstr ""
+msgstr "Име на сървър-посредник за SOCKS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:29
 msgid "The machine name to use as a SOCKS proxy."
-msgstr ""
+msgstr "Машината, която да посредничи за трафика по SOCKS."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:30
 msgid "SOCKS proxy port"
-msgstr ""
+msgstr "Порт на сървъра-посредник за SOCKS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:31
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr ""
+"Портът на машината зададена в ключа „/system/proxy/socks/host“, чрез който "
+"се посредничи за SOCKS."
