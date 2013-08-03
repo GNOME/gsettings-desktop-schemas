@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-30 14:30+0800\n"
-"PO-Revision-Date: 2013-01-29 12:50+0800\n"
+"POT-Creation-Date: 2013-08-03 21:14+0800\n"
+"PO-Revision-Date: 2013-08-03 15:13+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Taiwan) <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -16,8 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.3\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Project-Style: gnome\n"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "永遠顯示無障礙存取狀態圖示"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr "這個設定鍵會在未啟用無障礙功能時覆蓋無障礙存取狀態圖示的自動隱藏。"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -510,20 +520,12 @@ msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "觸發模擬次要點擊前的秒數。"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
-msgid "Draw Desktop Background"
-msgstr "繪製桌面背景"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
-msgid ""
-"Have GNOME draw the desktop background. DEPRECATED: This key is deprecated "
-"and ignored."
-msgstr "具有 GNOME 繪製的桌面背景。已廢棄：這個設定鍵已廢棄並忽略。"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
 msgstr "圖片選項"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -533,45 +535,54 @@ msgstr ""
 "「wallpaper」(桌布)、「centerd」(置中)、「scaled」(縮放)、「stretched」(延"
 "展)、「zoom」、「spanned」。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:25
 msgid "Picture URI"
 msgstr "圖片 URI"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:4
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr "背景影像的 URI。注意後端只支援本地 (file://) URI。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:27
 msgid "Picture Opacity"
 msgstr "圖片透明度"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:28
 msgid "Opacity with which to draw the background picture."
 msgstr "繪製背景圖片的透明度。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:29
 msgid "Primary Color"
 msgstr "主要顏色"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:30
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "繪製漸層時左側或頂端顏色，或是單一顏色。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:31
 msgid "Secondary Color"
 msgstr "次要顏色"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:32
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "繪製漸層時右側或底部顏色，或是不使用(即單一顏色)。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:33
 msgid "Color Shading Type"
 msgstr "顏色漸層類型"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:34
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -579,11 +590,11 @@ msgstr ""
 "如果呈現背景顏色。可能的數值有「horizontal」(水平)、「vertical」(垂直) 和"
 "「solid」(固定)。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "讓檔案管理程式來處理桌面"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "如果設為「true」，檔案管理程式就會在桌面上繪出圖示。"
 
@@ -772,266 +783,220 @@ msgstr ""
 "(圖示)和「text」(文字)。"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:11
-msgid "Menus Have Icons"
-msgstr "選單具有圖示"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
-msgid "Whether menus may display an icon next to a menu entry."
-msgstr "選單是否要在選單項目旁顯示圖示。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
-msgid "Buttons Have Icons"
-msgstr "按鈕具有圖示"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
-msgid "Whether buttons may display an icon in addition to the button text."
-msgstr "按鍵是否要在按鈕文字中顯示圖示。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 msgid "Menubar Detachable"
 msgstr "選單列可分離"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
 msgid "Whether the user can detach menubars and move them around."
 msgstr "使用者是否可以分離選單列並將它們四處移動。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
 msgid "Toolbar Detachable"
 msgstr "工具列可分離"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
 msgid "Whether the user can detach toolbars and move them around."
 msgstr "使用者是否可以分離工具列並將它們四處移動。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 msgid "Toolbar Icon Size"
 msgstr "工具列圖示尺寸"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr "工具列中圖示的尺寸，可以為「small」(小)或「large」(大)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
 msgid "Cursor Blink"
 msgstr "閃爍游標"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
 msgid "Whether the cursor should blink."
 msgstr "游標是否閃爍。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
 msgid "Cursor Blink Time"
 msgstr "游標閃爍時間"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "游標每次閃爍的時間間隔（毫秒）。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
 msgid "Cursor Blink Timeout"
 msgstr "游標閃爍逾時時間"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr "游標停止閃爍後的時間（秒）。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
 msgid "Icon Theme"
 msgstr "圖布佈景"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
 msgid "Icon theme to use for the panel, nautilus etc."
 msgstr "用於面板、nautilus 等的圖示布景。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
 msgid "Gtk+ Theme"
 msgstr "Gtk+ 布主題"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
 msgid "Basename of the default theme used by gtk+."
 msgstr "gtk+ 使用的預設布景的基礎名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
 msgid "Gtk+ Keybinding Theme"
 msgstr "Gtk+ 捷徑鍵主題"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr "gtk+ 使用的預設組合鍵的基礎名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
 msgid "Default font"
 msgstr "預設字型"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
 msgid "Name of the default font used by gtk+."
 msgstr "gtk+ 使用的預設字型名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
 msgid "Text scaling factor"
 msgstr "字型縮放係數"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr "用來放大或縮小文字顯示的因素，不變更字型的實際尺寸。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
 msgid "GTK IM Preedit Style"
 msgstr "GTK IM Preedit 樣式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "gtk+ 使用的 GTK+ 輸入法預編樣式的名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "GTK IM Status Style"
 msgstr "GTK IM 狀態樣式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "gtk+ 使用的 GTK+ 輸入法狀態樣式的名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Module"
 msgstr "GTK IM 模組"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ 使用的輸入法模組名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "Document font"
 msgstr "文件字型"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
 msgid "Name of the default font used for reading documents."
 msgstr "用來繪製文件的預設字型名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
 msgid "Monospace font"
 msgstr "等寬字型"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "用於終端機之類的單一空間 (固定寬度) 字型的名稱。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Menubar accelerator"
 msgstr "選單列捷徑鍵"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "用來開啟選單列的捷徑鍵。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
-msgid "Show the 'Input Methods' menu"
-msgstr "顯示「輸入法」選單"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
-msgid ""
-"Whether the context menus of entries and text views should offer to change "
-"the input method."
-msgstr "項目與文字檢視的關聯選單是否要提供改變輸入法的功能。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
-msgid "Show the 'Unicode Control Character' menu"
-msgstr "顯示「插入 Unicode 控制字元」選單"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
-msgid ""
-"Whether the context menus of entries and text views should offer to insert "
-"control characters."
-msgstr "項目與文字檢視的關聯選單是否要提供插入控制字元的功能。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
 msgid "Cursor theme"
 msgstr "游標布景"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr "游標布景名稱。只用於支援 Xcursor 延伸功能的 Xserver。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
 msgid "Cursor size"
 msgstr "游標大小"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
 msgid "Size of the cursor used as cursor theme."
 msgstr "游標布景中使用的游標尺寸。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
 msgid "Timeout before click repeat"
 msgstr "點擊重複前的時間"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
 msgstr "點擊開始重複的時間，以毫秒計 (例如轉輪按鈕會用到)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
 msgid "Timeout between click repeats"
 msgstr "點擊重複之間的時間"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
 msgstr "當按下左鍵時到重複點擊之間的時間，以毫秒計。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
 msgid "Palette used in the color selector"
 msgstr "顏色選擇器使用的調色盤"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
 msgstr "用於顏色選擇器的調色盤，如「gtk-color-palette」設定值所定義"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
 msgid "List of symbolic names and color equivalents"
 msgstr "符號名稱與顏色同義字的清單"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
 "一種 '\\n' 分隔的「name:color」清單，如「gtk-color-scheme」設定值所定義"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "時鍾要顯示 24 小時或 12 小時格式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
 msgid "Whether the clock shows seconds"
 msgstr "時鐘是否顯示秒數"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid "If true, display seconds in the clock."
 msgstr "如設定為「true」，在時間中顯示秒數。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
 msgid "Show date in clock"
 msgstr "在時鐘內顯示日期"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
 msgid "If true, display date in the clock, in addition to time."
 msgstr "如設定為「true」，除了在時鐘內顯示時間外還顯示日期。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:70
-msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr "只在按下 Alt 鍵時顯示捷徑鍵助記符"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:71
-msgid ""
-"Whether mnemonics should be automatically shown and hidden when the user "
-"presses the Alt key."
-msgstr "當按下 Alt 按鍵時是否要自動顯示或隱藏記憶符。"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:1
 msgid "Disable command line"
@@ -1211,7 +1176,6 @@ msgid "Whether notification banners are visible for application notifications."
 msgstr "應用程式通知的通知橫幅是否顯示。"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:3
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show notifications in the lock screen"
 msgstr "在鎖定畫面中顯示通知"
 
@@ -1270,18 +1234,14 @@ msgid ""
 msgstr "這個應用程式的通知在螢幕鎖定時是否要顯示。"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
-#, fuzzy
-#| msgid "Show notifications in the lock screen"
-msgid "Be resident in the lock screen"
-msgstr "在鎖定畫面中顯示通知"
+msgid "Show details in the lock screen"
+msgstr "在鎖定畫面中顯示詳細資料"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:17
 msgid ""
-"Whether notifications from this application will be shown individually in "
-"full (with details, action buttons and images) in the lock screen."
-msgstr ""
-"這個應用程式的通知在鎖定螢幕時是否要個別完整顯示 (具有詳細資料、動作按鈕與影"
-"像)。"
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
+msgstr "這個應用程式的摘要與通知本文在螢幕鎖定時是否要顯示。"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
@@ -1342,7 +1302,6 @@ msgid "Number of days to remember recently used files for"
 msgstr "記住最近使用檔案的日數"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
-#, fuzzy
 msgid ""
 "Recently used files will be remembered for this many days. If set to 0, "
 "recent files will not be remembered; if set to -1, they will be retained "
@@ -1350,6 +1309,14 @@ msgid ""
 msgstr ""
 "最近使用的檔案會記住這個日數。如果設定為 0，就不會記住最近使用的檔案；如果設"
 "定為 -1，它們會保持原貌。"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
+msgid "Whether to remember application usage"
+msgstr "是否記住的應用程式使用率"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
+msgid "If FALSE, application usage will not be monitored and recorded."
+msgstr "如果設定為 FALSE，應用程式使用率不會被監控與記錄。"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
@@ -1382,20 +1349,11 @@ msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr "從螢幕保護程式啟動到鎖定螢幕前的秒數。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
-msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience. DEPRECATED: This key is deprecated and ignored. It "
-"has been superseded by org.gnome.desktop.notifications show-in-lock-screen."
-msgstr ""
-"是否要在鎖定畫面中顯示通知。這只對標準體驗模式有影響。已廢棄：這個設定鍵已廢"
-"棄並忽略。它已由 org.gnome.desktop.notifications show-in-lock-screen 取代。"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:7
 msgid "Show full name in the lock screen"
 msgstr "在鎖定畫面中顯示全名"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:8
 msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -1403,11 +1361,11 @@ msgstr ""
 "是否要在鎖定畫面中顯示使用者的全名。這只對螢幕護罩有影響，名稱在解鎖對話盒中"
 "會永遠顯示。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
 msgid "Allow embedding a keyboard into the window"
 msgstr "允許內嵌鍵盤到視窗"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1416,11 +1374,11 @@ msgstr ""
 "設定此項為 TRUE 以允許在嘗試解鎖時內嵌鍵盤到視窗。「keyboard_command」設定鍵"
 "必須設定為適當的指令。已廢棄：這個設定鍵已廢棄並忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:11
 msgid "Embedded keyboard command"
 msgstr "內嵌鍵盤指令"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1431,11 +1389,11 @@ msgstr ""
 "面工具到視窗中。這個指令應實作 XEMBED 外掛介面並在標準輸出中輸出視窗的 XID。"
 "已廢棄：這個設定鍵已廢棄並忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "允許登出"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key. "
@@ -1444,11 +1402,11 @@ msgstr ""
 "設定此項為 TRUE 以在解鎖對話盒中提供在延遲時間後登出的選項。延遲的時間由"
 "「logout_delay」設定鍵來指定。已廢棄：這個設定鍵已廢棄並忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:15
 msgid "Time before logout option"
 msgstr "登出選項時間"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1458,11 +1416,11 @@ msgstr ""
 "在螢幕保護程式啟動後到登出選項出現在解鎖對話盒所需的秒數。這個設定鍵只有在"
 "「logout_enable」設定鍵設為 TRUE 時會生效。已廢棄：這個設定鍵已廢棄並忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:17
 msgid "Logout command"
 msgstr "登出指令"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1473,25 +1431,31 @@ msgstr ""
 "這個設定鍵只有在「logout_enable」設定鍵設為 TRUE 時會生效。已廢棄：這個設定鍵"
 "已廢棄並忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
 msgstr "允許使用者切換"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr "設定此項為 TRUE 以在解鎖對話盒中提供切換到不同使用者帳號的選項。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:21
 msgid "Allow the session status message to be displayed"
 msgstr "允許顯示作業階段狀態訊息"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr "當螢幕鎖定時允許顯示作業階段狀態訊息。已廢棄：這個設定鍵已廢棄並忽略。"
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:26
+msgid ""
+"URI to use for the background image. Not that the backend only supports "
+"local (file://) URIs."
+msgstr "背景影像使用的 URI。注意後端只支援本地 (file://) URI。"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
 msgid "Disable all external search providers"
@@ -1524,10 +1488,10 @@ msgstr "用於搜尋提供者順序排序的 desktop 檔案 ID 清單"
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
-"displayed before the last item of the list, if it has more than one item."
+"displayed last, sorted alphabetically."
 msgstr ""
-"讓包含於這個清單中的應用程式以指定的順序排序。如果清單有一個以上的項目時，會"
-"讓清單中沒有指定的應用程式在清單的最後一個項目前顯示。"
+"讓包含於這個清單中的應用程式以指定的順序排序。清單中沒有指定的應用程式結果會"
+"在清單的最後一個項目前顯示，以字母順序排序。"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1924,13 +1888,13 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "當在視窗中按下滑鼠按鈕及本特殊按鍵會：移動視窗（左按鈕）、調整視窗尺寸（中按"
 "鈕）或顯示視窗選單（右按鈕）。使用「resize-with-right-button」設定鍵可以交換"
-"中和右鍵的操作。特殊按鍵可以表示為 <![CDATA[\"<Alt>\"]]> 或 <![CDATA"
-"[\"<Super>\"]]>。"
+"中和右鍵的操作。特殊按鍵可以表示為 <![CDATA[\"<Alt>\"]]> 或 <!"
+"[CDATA[\"<Super>\"]]>。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Whether to resize with the right button"
@@ -2219,30 +2183,10 @@ msgstr ""
 "的「系統聲響」），則會令目前輸入焦點所在的視窗閃動標題列。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
-msgid "(Not implemented) Navigation works in terms of applications not windows"
-msgstr "（未實作）使用桌面時以應用程式為主的方式運作，並非以視窗為主"
-
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
-msgid ""
-"If true, then the WM works in terms of applications rather than windows. The "
-"concept is a bit abstract, but in general an application-based setup is more "
-"like the Mac and less like Windows. When you focus a window in application-"
-"based mode, all the windows in the application will be raised. Also, in "
-"application-based mode, focus clicks are not passed through to windows in "
-"other applications. Application-based mode is, however, largely "
-"unimplemented at the moment."
-msgstr ""
-"如設定為「true」，WM 會以應用程式而不是以視窗為主的方式運作。它的概念是比較抽"
-"象，但大致上，以應用程式為主的設定會類似 Mac 多於 Windows。在應用程式為主的模"
-"式中，當視窗獲得輸入焦點時，所有該程式的視窗都會完全顯示出來。另外，在應用程"
-"式為主的模式中，若在輸入焦點以外的視窗按滑鼠按鈕，只會令輸入焦點轉移，按該下"
-"按鈕不會令程式帶來其它變化。另外，應用程式為主的設定目前大致上仍未編寫完成。"
-
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr "關閉舊式或不合規格的程式所要求的功能"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -2252,11 +2196,11 @@ msgstr ""
 "某些應用程式不符合規格，導致令視窗管理員要加入某些不應該有的功能。本選項會讓 "
 "WM 進入嚴格校正模式，讓使用者介面更具一致性，不會需要執行異常行為的應用程式。"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "The names of the workspaces"
 msgstr "工作區數目"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -2451,17 +2395,46 @@ msgid ""
 "proxy through."
 msgstr "「/system/proxy/socks/host」定義您的代理伺服器通過的機器連接埠。"
 
-#~ msgid "Default calendar application"
-#~ msgstr "預設的行事曆應用程式"
-
-#~ msgid "Whether the default calendar application needs a terminal to run."
-#~ msgstr "預設行事曆應用程式是否需要終端機才能執行。"
+#~ msgid "Draw Desktop Background"
+#~ msgstr "繪製桌面背景"
 
 #~ msgid ""
-#~ "Argument used to execute programs in the terminal defined by the 'exec' "
-#~ "key."
-#~ msgstr "在終端機中執行程式所使用的引數，由「exec」設定鍵定義。"
+#~ "Have GNOME draw the desktop background. DEPRECATED: This key is "
+#~ "deprecated and ignored."
+#~ msgstr "具有 GNOME 繪製的桌面背景。已廢棄：這個設定鍵已廢棄並忽略。"
+
+#~ msgid "Menus Have Icons"
+#~ msgstr "選單具有圖示"
+
+#~ msgid "Whether menus may display an icon next to a menu entry."
+#~ msgstr "選單是否要在選單項目旁顯示圖示。"
+
+#~ msgid "Buttons Have Icons"
+#~ msgstr "按鈕具有圖示"
+
+#~ msgid "Whether buttons may display an icon in addition to the button text."
+#~ msgstr "按鍵是否要在按鈕文字中顯示圖示。"
+
+#~ msgid "Show the 'Input Methods' menu"
+#~ msgstr "顯示「輸入法」選單"
 
 #~ msgid ""
-#~ "Set this to TRUE to activate the screensaver when the session is idle."
-#~ msgstr "設定此項為 TRUE 以在作業階段閒置時使用螢幕保護程式。"
+#~ "Whether the context menus of entries and text views should offer to "
+#~ "change the input method."
+#~ msgstr "項目與文字檢視的關聯選單是否要提供改變輸入法的功能。"
+
+#~ msgid "Show the 'Unicode Control Character' menu"
+#~ msgstr "顯示「插入 Unicode 控制字元」選單"
+
+#~ msgid ""
+#~ "Whether the context menus of entries and text views should offer to "
+#~ "insert control characters."
+#~ msgstr "項目與文字檢視的關聯選單是否要提供插入控制字元的功能。"
+
+#~ msgid "Only show mnemonics on when the Alt key is pressed"
+#~ msgstr "只在按下 Alt 鍵時顯示捷徑鍵助記符"
+
+#~ msgid ""
+#~ "Whether mnemonics should be automatically shown and hidden when the user "
+#~ "presses the Alt key."
+#~ msgstr "當按下 Alt 按鍵時是否要自動顯示或隱藏記憶符。"
