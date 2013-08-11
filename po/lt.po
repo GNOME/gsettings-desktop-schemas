@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-04-20 03:04+0000\n"
-"PO-Revision-Date: 2013-04-27 22:48+0300\n"
+"POT-Creation-Date: 2013-08-08 14:14+0000\n"
+"PO-Revision-Date: 2013-08-11 21:08+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -21,6 +21,18 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Gtranslator 2.91.6\n"
 "X-Project-Style: gnome\n"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Visada rodyti universalios prieigos būsenos piktogramą"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Šis raktas turi pirmenybę prieš automatinį universalios prieigos būsenos "
+"piktogramos slėpimą, kai prieigos funkcijos nėra įjungtos."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -828,209 +840,182 @@ msgstr ""
 "and „text“."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:11
-msgid "Menus Have Icons"
-msgstr "Meniu yra rodomos piktogramos"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
-msgid "Whether menus may display an icon next to a menu entry."
-msgstr "Ar šalia meniu elementų gali būti rodomos piktogramos."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
-msgid "Buttons Have Icons"
-msgstr "Mygtukai rodomi su piktogramomis"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
-msgid "Whether buttons may display an icon in addition to the button text."
-msgstr "Ar šalia mygtukų teksto gali būti rodomos piktogramos."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 msgid "Menubar Detachable"
 msgstr "Meniu juosta atkabinama"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
 msgid "Whether the user can detach menubars and move them around."
 msgstr "Ar naudotojas gali atkabinti meniu juostas ir jas vilkti."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
 msgid "Toolbar Detachable"
 msgstr "Įrankių juosta atkabinama"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
 msgid "Whether the user can detach toolbars and move them around."
 msgstr "Ar naudotojas gali atkabinti įrankių juostas ir jas vilkti."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 msgid "Toolbar Icon Size"
 msgstr "Įrankių juostos piktogramų dydis"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr "Piktogramų dydis įrankių juostose, arba „small“, arba „large“."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
 msgid "Cursor Blink"
 msgstr "Mirksintis žymeklis"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
 msgid "Whether the cursor should blink."
 msgstr "Ar žymeklis turi mirksėti."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
 msgid "Cursor Blink Time"
 msgstr "Žymeklio mirksėjimo laikas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "Žymeklio mirksėjimo ciklo trukmė milisekundėmis."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
 msgid "Cursor Blink Timeout"
 msgstr "Žymeklio mirksėjimo pabaigos laikas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr "Laikas, po kurio žymeklis nustoja mirksėti (sekundėmis)."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
 msgid "Icon Theme"
 msgstr "Piktogramų tema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
 msgid "Icon theme to use for the panel, nautilus etc."
 msgstr "Piktogramų tema, naudojama skydeliui, failų naršyklei ir t.t."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
 msgid "Gtk+ Theme"
 msgstr "Gtk+ tema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
 msgid "Basename of the default theme used by gtk+."
 msgstr "Numatytos gtk+ temos pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
 msgid "Gtk+ Keybinding Theme"
 msgstr "Gtk+ klavišų susiejimų tema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr "Numatytosios gtk+ klavišų susiejimo temos pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
 msgid "Default font"
 msgstr "Numatytasis šriftas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
 msgid "Name of the default font used by gtk+."
 msgstr "Numatytojo gtk+ naudojamo šrifto pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
 msgid "Text scaling factor"
 msgstr "Teksto didinimo faktorius"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
 "Faktorius, naudojamas padidinti ar sumažinti rodomą tekstą, nekeičiant "
 "teksto dydžio."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+#| msgid "Text scaling factor"
+msgid "Window scaling factor"
+msgstr "Lango didinimo faktorius"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+msgid ""
+"Integer factor used to scale windows by. For use on high-dpi screens. 0 "
+"means pick automatically based on monitor."
+msgstr ""
+"Sveikasis skaičius, naudojamas langų didinimui. Naudojimui didelės raiškos "
+"ekranams. 0 reiškia automatinį parinkimą pagal monitorių."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "GTK IM Preedit Style"
 msgstr "GTK IM išankstinio redagavimo stilius"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "GTK+ įvesties metodo išankstinio redagavimo stiliaus pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Status Style"
 msgstr "GTK IM būsenos stilius"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "GTK+ įvesties metodo būsenos stiliaus pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "GTK IM Module"
 msgstr "GTK IM modulis"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ įvesties modulio pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
 msgid "Document font"
 msgstr "Dokumentų šriftas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid "Name of the default font used for reading documents."
 msgstr "Numatytojo šrifto, naudojamo dokumentams skaityti, pavadinimas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Monospace font"
 msgstr "Lygiaplotis šriftas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "Lygiapločio šrifto pavadinimas naudojimui terminale ir kt."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
 msgid "Menubar accelerator"
 msgstr "Meniu juostos spartusis klavišas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Klaviatūros trumpinys meniu juostai atverti."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
-msgid "Show the 'Input Methods' menu"
-msgstr "Rodyti „Įvesties metodų“ meniu"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
-msgid ""
-"Whether the context menus of entries and text views should offer to change "
-"the input method."
-msgstr ""
-"Ar įvesties ir teksto laukų kontekstiniai meniu  turi siūlyti pakeisti "
-"įvesties metodą."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
-msgid "Show the 'Unicode Control Character' menu"
-msgstr "Rodyti „Unikodo valdymo simbolių“ meniu"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
-msgid ""
-"Whether the context menus of entries and text views should offer to insert "
-"control characters."
-msgstr ""
-"Ar įvedimo ir teksto laukų kontekstiniai meniu turi siūlyti įterpti valdymo "
-"simbolius."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
 msgid "Cursor theme"
 msgstr "Žymeklio tema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr ""
 "Žymeklio temos pavadinimas. Naudojamas tik Xserverių, kurie palaiko Xcursor "
 "plėtinį."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
 msgid "Cursor size"
 msgstr "Žymeklio dydis"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
 msgid "Size of the cursor used as cursor theme."
 msgstr "Žymeklio dydis naudojamas kaip žymeklio tema."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
 msgid "Timeout before click repeat"
 msgstr "Laikas prieš pakartojant paspaudimą"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
@@ -1038,11 +1023,11 @@ msgstr ""
 "Laikas milisekundėmis iki paspaudimas pradeda kartotis (pavyzdžiui sukimo "
 "mygtukuose)."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
 msgid "Timeout between click repeats"
 msgstr "Laikas tarp paspaudimų pasikartojimų"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
@@ -1050,11 +1035,11 @@ msgstr ""
 "Laikas milisekundėmis tarp pasikartojančių paspaudimų, kai mygtukas yra "
 "nuspaustas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
 msgid "Palette used in the color selector"
 msgstr "Paletė, naudojama spalvų pasirinkime"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
@@ -1062,11 +1047,11 @@ msgstr ""
 "Paletė, naudojama spalvų pasirinkite, kaip apibrėžta nustatymo „gtk-color-"
 "palette“"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
 msgid "List of symbolic names and color equivalents"
 msgstr "Simbolinių vardų ir spalvų ekvivalentai"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
@@ -1074,37 +1059,25 @@ msgstr ""
 "„\\n“ skiriamas „pavadinimas:spalva“ elementų sąrašas, kaip apibrėžtas "
 "nustatymo „gtk-color-palette“"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Ar laikrodis rodo 24 val., ar 12 val. formatą"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
 msgid "Whether the clock shows seconds"
 msgstr "Ar laikrodis rodo sekundes"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
 msgid "If true, display seconds in the clock."
 msgstr "Jei teigiama, rodyti sekundes laikrodyje."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
 msgid "Show date in clock"
 msgstr "Rodyti datą laikrodyje"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Jei teikiama, greta laiko laikrodyje rodyti datą."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:70
-msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr "Mnemonikas rodyti tik nuspaudus klavišą „Alt“"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:71
-msgid ""
-"Whether mnemonics should be automatically shown and hidden when the user "
-"presses the Alt key."
-msgstr ""
-"Ar mnemonikos turi būti automatiškai rodomos ar slepiamas, kai naudotojas "
-"paspaudžia „Alt“ klavišą."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:1
 msgid "Disable command line"
@@ -1442,19 +1415,33 @@ msgstr ""
 "neseniai naudoti failai nebus prisimenami; jei nustatyta į -1, jie bus "
 "išlaikomi visam laikui."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
+#| msgid "Whether to remember recently used files"
+msgid "Whether to remember application usage"
+msgstr "Ar atsiminti programų naudojimą"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
+#| msgid "If FALSE, applications will not remember recently used files."
+msgid "If FALSE, application usage will not be monitored and recorded."
+msgstr "Jei NEIGIAMA, programos naudojimas nebus stebimas ir įrašomas."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Suaktyvinti, kai naudotojo seansas neaktyvus"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
+#| msgid ""
+#| "Set this to TRUE to activate the screensaver when the session is idle. "
+#| "DEPRECATED: This key is deprecated and ignored. Set org.gnome.session."
+#| "idle-delay to 0 if you do not want to activate the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
-"delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
+"session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
 "Nustatyti TEIGIAMAI ekrano užsklandai aktyvuoti, kai seansas yra laisvas. "
 "PASENĘS: šis raktas yra pasenęs ir jo nepaisoma. Nustatykite org.gnome."
-"session.idle-delay į 0, jei nenorite aktyvinti ekrano užsklandos."
+"desktop.session idle-delay į 0, jei nenorite aktyvinti ekrano užsklandos."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1627,11 +1614,6 @@ msgid "List of desktop file IDs for search providers sort order"
 msgstr "Desktop failų ID sąrašas paieškos tiekėjų rikiavimo tvarkai"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
-#| msgid ""
-#| "Results for applications contained in this list will be displayed in the "
-#| "specified order. Results for applications not specified in this list will "
-#| "be displayed before the last item of the list, if it has more than one "
-#| "item."
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -2043,8 +2025,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Paspaudus langą laikant nuspaustą šį modifikatoriaus klavišą perkels langą "
 "(kairysis paspaudimas), keis lango dydį (vidurinis paspaudimas) arba rodys "
@@ -2362,33 +2344,12 @@ msgstr ""
 "šiuo metu aktyvaus lango antraštė mirksės."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
-msgid "(Not implemented) Navigation works in terms of applications not windows"
-msgstr "(Nerealizuota) Žvalgymas veikia pagal programas, o ne langus"
-
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
-msgid ""
-"If true, then the WM works in terms of applications rather than windows. The "
-"concept is a bit abstract, but in general an application-based setup is more "
-"like the Mac and less like Windows. When you focus a window in application-"
-"based mode, all the windows in the application will be raised. Also, in "
-"application-based mode, focus clicks are not passed through to windows in "
-"other applications. Application-based mode is, however, largely "
-"unimplemented at the moment."
-msgstr ""
-"Jei teigiama, tuomet langų tvarkyklė veikia su programomis, o ne langais. "
-"Koncepcija yra abstrakti, bet bendru atveju programomis grįstas nustatymas "
-"yra labiau Mac ir mažiau Windows tipo. Kai aktyvuojate langą programomis "
-"grįstoje veiksenoje, visi programos langai bus iškelti. Taip pat programomis "
-"grįstoje veiksenoje aktyvavimo paspaudimai nėra siunčiami į langus kitose "
-"programose. Programomis grįsta veiksena šiuo metu yra silpnai realizuota."
-
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Išjungti klaidingas veiksenas, kurios reikalingos senoms ar blogai "
 "veikiančioms programoms"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -2400,11 +2361,11 @@ msgstr ""
 "veikseną, kuri suteikia vientisą naudotojo sąsają, su sąlyga, kad nevykdomai "
 "neteisingai veikiančios programos."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "The names of the workspaces"
 msgstr "Darbalaukių pavadinimai"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -2612,3 +2573,4 @@ msgid ""
 msgstr ""
 "Prievadas kompiuteryje, apibrėžtame „/system/proxy/socks/host“, per kurį "
 "jungiamasi."
+
