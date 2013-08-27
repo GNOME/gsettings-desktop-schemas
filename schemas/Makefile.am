@@ -14,6 +14,7 @@ desktop_gschemas_in_in =						\
 	org.gnome.desktop.thumbnailers.gschema.xml.in.in		\
 	org.gnome.desktop.session.gschema.xml.in.in			\
 	org.gnome.desktop.background.gschema.xml.in.in			\
+	org.gnome.desktop.datetime.gschema.xml.in.in			\
 	org.gnome.desktop.media-handling.gschema.xml.in.in		\
 	org.gnome.desktop.screensaver.gschema.xml.in.in			\
 	org.gnome.desktop.search-providers.gschema.xml.in.in		\
