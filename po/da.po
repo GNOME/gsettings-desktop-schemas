@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-10 17:31+0200\n"
-"PO-Revision-Date: 2013-05-10 12:43+0200\n"
+"POT-Creation-Date: 2013-09-17 18:28+0200\n"
+"PO-Revision-Date: 2013-09-17 01:21+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -16,6 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Vis altid statusikonet for tilgængelighed"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Denne nøgle tilsidesætter automatisk skjul af statusikonet for "
+"tilgængelighed, når der ikke er slået nogen tilgængelighedsfunktioner til."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -220,16 +232,64 @@ msgstr ""
 "visning, og hvordan det reagerer på flytning af systemmusen. Værdierne er - "
 "none: ingen musesporing; - centered: musebilledet vises midt i zoomregionen "
 "(som også repræsenterer punktet under systemmusen) og det forstørrede "
-"indhold rulles når systemmusen bevæger sig; -proportional: positionen af den "
-"forstørrede mus i zoomregionen er proportionalt den samme som positionen af "
-"systemmusen på skærmen; - push: når den forstørrede mus skærer en grænse af "
-"zoomregionen, rulles indholdet ind i visningen."
+"indhold rulles når systemmusen bevæger sig; - proportional: positionen af "
+"den forstørrede mus i zoomregionen er proportionalt den samme som positionen "
+"af systemmusen på skærmen; - push: når den forstørrede mus krydser en grænse "
+"af zoomregionen, rulles indholdet ind i visningen."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
+msgid "Focus Tracking Mode"
+msgstr "Fokussporingstilstand"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
+msgid ""
+"Determines the position of the focused widget within magnified view. The "
+"values are: - none: no focus tracking - centered: the focused image is "
+"displayed at the center of the zoom region (which also represents the point "
+"under the system focus) and the magnified contents are scrolled as the "
+"system focus moves - proportional: the position of the magnified focus in "
+"the zoom region is proportionally the same as the position of the system "
+"focus on screen - push: when the magnified focus intersects a boundary of "
+"the zoom region, the contents are scrolled into view"
+msgstr ""
+"Angiver positionen af den fokuserede kontrol i forstørret tilstand. "
+"Værdierne er - none: ingen fokussporing - centered: det fokuserede billede "
+"vises midt i zoomregionen (som også repræsenterer punktet under "
+"systemfokus), og det forstørrede indhold rulles når systemfokus bevæger sig; "
+"- proportional: positionen af det forstørrede fokus i zoomregionen svarer "
+"proportionalt til positionen af systemfokus på skærmen; - push: når det "
+"forstørrede fokus krydser en grænse af zoomregionen, rulles indholdet ind i "
+"visningen"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
+msgid "Caret Tracking Mode"
+msgstr "Markørsporingstilstand"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:6
+msgid ""
+"Determines the position of the caret within magnified view. The values are: "
+"- none: no caret tracking - centered: the image of the caret is displayed at "
+"the center of the zoom region (which also represents the point under the "
+"system caret) and the magnified contents are scrolled as the system caret "
+"moves - proportional: the position of the magnified caret in the zoom region "
+"is proportionally the same as the position of the system caret on screen - "
+"push: when the magnified caret intersects a boundary of the zoom region, the "
+"contents are scrolled into view"
+msgstr ""
+"Angiver positionen af det tekstmarkøren inden i den forstørrede visning. "
+"Værdierne er - none: ingen sporing af tekstmarkør - centered: billedet af "
+"tekstmarkøren vises midt i zoomregionen (som også repræsenterer punktet "
+"under systemmarkøren) og det forstørrede indhold rulles når systemmarkøren "
+"bevæger sig - proportional: positionen af den forstørrede tekstmarkør i "
+"zoomregionen svarer proportionalt til positionen af systemmarkøren på "
+"skærmen - push: når den forstørrede tekstmarkør krydser en grænse af "
+"zoomregionen, rulles indholdet ind i visningen."
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:7
 msgid "Screen position"
 msgstr "Skærmposition"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:8
 msgid ""
 "The magnified view either fills the entire screen, or occupies the top-half, "
 "bottom-half, left-half, or right-half of the screen."
@@ -237,11 +297,11 @@ msgstr ""
 "Den forstørrede visning fylder enten hele skærmen, eller dækker øverste, "
 "nederste, venstre eller højre halvdel af skærmen."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:9
 msgid "Magnification factor"
 msgstr "Forstørrelsesfaktor"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
 msgid ""
 "The power of the magnification. A value of 1.0 means no magnification. A "
 "value of 2.0 doubles the size."
@@ -249,11 +309,11 @@ msgstr ""
 "Forstørrelsesfaktoren. En værdi på 1,0 betyder ingen forstørrelse. En værdi "
 "på 2,0 fordobler størrelsen."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
 msgid "Enable lens mode"
 msgstr "Slå linsetilstand til"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
 msgid ""
 "Whether the magnified view should be centered over the location of the "
 "system mouse and move with it."
@@ -261,11 +321,11 @@ msgstr ""
 "Om den forstørrede visning skal være centreret over placeringen af "
 "systemmusen og bevæge sig med denne."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:13
 msgid "Scroll magnified contents beyond the edges of the desktop"
 msgstr "Rul forstørret indhold ud over skrivebordskanten"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:14
 msgid ""
 "For centered mouse tracking, when the system pointer is at or near the edge "
 "of the screen, the magnified contents continue to scroll such that the "
@@ -275,43 +335,43 @@ msgstr ""
 "kant, vil det forstørrede indhold fortsætte med at rulle sådan at "
 "skærmkanten flyttes ind i den forstørrede visning."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:15
 msgid "Show or hide crosshairs"
 msgstr "Vis eller skjul sigtekorn"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:16
 msgid ""
 "Enables/disables display of crosshairs centered on the magnified mouse "
 "sprite."
 msgstr ""
 "Slår visning af sigtekorn centreret på den forstørrede musemarkør til/fra."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:17
 msgid "Thickness of the crosshairs in pixels"
 msgstr "Tykkelse af sigtekornet i pixel"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:18
 msgid ""
 "Width in pixels of the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr ""
 "Bredde i pixel af de lodrette og vandrette linjer, der udgør sigtekornet."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:19
 msgid "Color of the crosshairs"
 msgstr "Farve af sigtekorn"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
 msgid ""
 "The color of the the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr "Farven af de lodrette og vandrette linjer, der udgør sigtekornene."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
 msgid "Opacity of the crosshairs"
 msgstr "Uigennemsigtighed af sigtekorn"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
 msgid ""
 "Determines the transparency of the crosshairs, from fully opaque to fully "
 "transparent."
@@ -319,11 +379,11 @@ msgstr ""
 "Angiver gennemsigtigheden af sigtekornet, fra helt massivt til helt "
 "gennemsigtigt."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
 msgid "Length of the crosshairs in pixels"
 msgstr "Længde af sigtekorn i pixel"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
 msgid ""
 "Determines the length in pixels of the vertical and horizontal lines that "
 "make up the crosshairs."
@@ -331,11 +391,11 @@ msgstr ""
 "Angiver længden i pixel af de lodrette og vandrette linjer, der udgør "
 "sigtekornet."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
 msgid "Clip the crosshairs at the center"
 msgstr "Klip sigtekornet i midten"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
 msgid ""
 "Determines whether the crosshairs intersect the magnified mouse sprite, or "
 "are clipped such that the ends of the horizontal and vertical lines surround "
@@ -344,11 +404,11 @@ msgstr ""
 "Angiver om sigtekornet skærer den forstørrede musemarkør eller klippes "
 "således at enderne af de lodrette og vandrette linjer omgiver musebilledet."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
 msgid "Inverse lightness"
 msgstr "Omvendt lys/mørke"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
 msgid ""
 "Determines whether the lightness values are inverted: darker colors become "
 "lighter and vice versa, and white and black are interchanged."
@@ -356,11 +416,11 @@ msgstr ""
 "Angiver om lysværdier omvendes: Mørkere farver bliver lysere og vice versa, "
 "og der byttes om på hvid og sort."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
 msgid "Color Saturation"
 msgstr "Farvemætning"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
 msgid ""
 "Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 "
 "(full color)."
@@ -368,11 +428,11 @@ msgstr ""
 "Repræsenterer en ændring af farvemætningen fra 0,0 (gråskala) til 1,0 (fuld "
 "farve)."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
 msgid "Change brightness of red"
 msgstr "Ændr lysstyrke af rød"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
 msgid ""
 "Represents a change to the default brightness of the red component. Zero "
 "indicates no change, values less than zero indicate a decrease, and values "
@@ -382,11 +442,11 @@ msgstr ""
 "ingen ændring, mens værdier mindre end nul angiver en formindskning, og "
 "værdier større end nul angiver en forøgelse."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
 msgid "Change brightness of green"
 msgstr "Ændr lysstyrke af grøn"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
 msgid ""
 "Represents a change to the default brightness for the green component. Zero "
 "indicates no change, values less than zero indicate a decrease, and values "
@@ -396,11 +456,11 @@ msgstr ""
 "ingen ændring, mens værdier mindre end nul angiver en formindskning, og "
 "værdier større end nul angiver en forøgelse."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
 msgid "Change brightness of blue"
 msgstr "Ændr lysstyrke af blå"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
 msgid ""
 "Represents a change to the default brightness for the blue component. Zero "
 "indicates no change, values less than zero indicate a decrease, and values "
@@ -410,11 +470,11 @@ msgstr ""
 "ingen ændring, mens værdier mindre end nul angiver en formindskning, og "
 "værdier større end nul angiver en forøgelse."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
 msgid "Change contrast of red"
 msgstr "Ændr kontrast for rød"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
 msgid ""
 "Represents a change to the default contrast of the red component. Zero "
 "indicates no change in contrast, values less than zero indicate a decrease, "
@@ -424,11 +484,11 @@ msgstr ""
 "ingen ændring af kontrast, mens værdier mindre end nul angiver en "
 "formindskning, og værdier større end nul angiver en forøgelse."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:39
 msgid "Change contrast of green"
 msgstr "Ændr kontrast for grøn"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:40
 msgid ""
 "Represents a change to the default contrast of the green component. Zero "
 "indicates no change in contrast, values less than zero indicate a decrease, "
@@ -438,11 +498,11 @@ msgstr ""
 "ingen ændring af kontrast, mens værdier mindre end nul angiver en "
 "formindskning, og værdier større end nul angiver en forøgelse."
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:41
 msgid "Change contrast of blue"
 msgstr "Ændr kontrast for blå"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:42
 msgid ""
 "Represents a change to the default contrast of the blue component. Zero "
 "indicates no change in contrast, values less than zero indicate a decrease, "
@@ -630,6 +690,14 @@ msgstr "Få filhåndteringen til at håndtere skrivebordet"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "Hvis slået til, vil filhåndteringen tegne ikonerne på skrivebordet."
+
+#: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:1
+msgid "Automatically update timezone"
+msgstr "Opdatér automatisk tidszone"
+
+#: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:2
+msgid "Whether to automatically update the timezone using geolocation."
+msgstr "Om tidszonen automatisk skal opdateres ved hjælp af geolokalisering."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Default calendar"
@@ -829,212 +897,184 @@ msgstr ""
 "\"text\"."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:11
-msgid "Menus Have Icons"
-msgstr "Menuer har ikoner"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
-msgid "Whether menus may display an icon next to a menu entry."
-msgstr "Om menuer kan vise et ikon ved siden af et menuelement."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
-msgid "Buttons Have Icons"
-msgstr "Knapper har ikoner"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
-msgid "Whether buttons may display an icon in addition to the button text."
-msgstr "Om knapper kan vise et ikon ud over knapteksten."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 msgid "Menubar Detachable"
 msgstr "Menulinje kan frakobles"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:12
 msgid "Whether the user can detach menubars and move them around."
 msgstr "Om brugeren kan frakoble menulinjer og flytte dem omkring."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:13
 msgid "Toolbar Detachable"
 msgstr "Værktøjslinje kan frakobles"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:14
 msgid "Whether the user can detach toolbars and move them around."
 msgstr "Om brugeren kan afkoble værktøjslinjer og flytte dem omkring."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:15
 msgid "Toolbar Icon Size"
 msgstr "Ikonstørrelse til værktøjslinjer"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:16
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr "Størrelse af ikoner i værktøjslinjer, enten \"small\" eller \"large\"."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:17
 msgid "Cursor Blink"
 msgstr "Markørblink"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:18
 msgid "Whether the cursor should blink."
 msgstr "Om markøren skal blinke."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:19
 msgid "Cursor Blink Time"
 msgstr "Markørblinketid"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:20
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "Længden af markørblinkcyklussen i millisekunder."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:21
 msgid "Cursor Blink Timeout"
 msgstr "Markørblinktidsudløb"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:22
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr "Tid hvorefter markøren holder op med at blinke, i sekunder."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:23
 msgid "Icon Theme"
 msgstr "Ikontema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:24
 msgid "Icon theme to use for the panel, nautilus etc."
 msgstr "Ikontema, der skal bruges til panel, nautilus osv."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:25
 msgid "Gtk+ Theme"
 msgstr "Gtk+-tema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:26
 msgid "Basename of the default theme used by gtk+."
 msgstr "Basisnavn for standardtemaet, der bruges af gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:27
 msgid "Gtk+ Keybinding Theme"
 msgstr "Gtk+-tastebindingstema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:28
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr "Basisnavn for standardtastebindingstemaet, der bruges af gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:29
 msgid "Default font"
 msgstr "Standardskrifttype"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:30
 msgid "Name of the default font used by gtk+."
 msgstr "Navnet på standardskrifttypen, der bruges af gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:31
 msgid "Text scaling factor"
 msgstr "Tekstskaleringsfaktor"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:32
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
 "Faktor, der bruges til at forstørre eller formindske tekstvisningen, uden at "
 "ændre skriftstørrelsen."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+msgid "Window scaling factor"
+msgstr "Vinduesskaleringsfaktor"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+msgid ""
+"Integer factor used to scale windows by. For use on high-dpi screens. 0 "
+"means pick automatically based on monitor."
+msgstr ""
+"Heltalsfaktor som bruges til at skalere vinduer. Beregnet til skærme med høj "
+"dpi-opløsning. 0 betyder vælg automatisk baseret på skærm."
+
 # ?
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "GTK IM Preedit Style"
 msgstr "GTK IM Preedit Style"
 
 # ?
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "Navnet på GTK+-inputmetoden Preedit Style, der bruges af gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Status Style"
 msgstr "GTK IM Status Style"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "Navnet på GTK+-inputmetoden Status Style, der bruges af gtk+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "GTK IM Module"
 msgstr "GTK IM Module"
 
 # ?
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
 msgid "Name of the input method module used by GTK+."
 msgstr "Navnet på inputmetodemodulet, der bruges af GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
 msgid "Document font"
 msgstr "Dokumentskrifttype"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid "Name of the default font used for reading documents."
 msgstr "Navnet på standardskrifttypen, der bruges til at læse dokumenter."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Monospace font"
 msgstr "Fastbreddeskrifttype"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "Navn på en fastbreddeskrifttype til brug i f.eks. terminaler."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
 msgid "Menubar accelerator"
 msgstr "Menulinjeaccelerator"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Tastaturgenvej til at åbne menulinjerne."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
-msgid "Show the 'Input Methods' menu"
-msgstr "Vis menuen \"Inputmetoder\""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
-msgid ""
-"Whether the context menus of entries and text views should offer to change "
-"the input method."
-msgstr ""
-"Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde at "
-"ændre inputmetoden."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
-msgid "Show the 'Unicode Control Character' menu"
-msgstr "Vis menuen \"Unicode Control Character\""
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
-msgid ""
-"Whether the context menus of entries and text views should offer to insert "
-"control characters."
-msgstr ""
-"Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde at "
-"indsætte kontroltegn."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
 msgid "Cursor theme"
 msgstr "Markørtema"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr ""
 "Navn på markørtema. Bruges kun at Xservere, der understøtter udvidelsen "
 "Xcursor."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
 msgid "Cursor size"
 msgstr "Markørstørrelse"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
 msgid "Size of the cursor used as cursor theme."
 msgstr "Størrelse af markøren, der bruges som markørtema."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
 msgid "Timeout before click repeat"
 msgstr "Tidsudløb før gentaget klik"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
@@ -1042,22 +1082,22 @@ msgstr ""
 "Tidsudløb i millisekunder før et klik begynder at gentage sig (f.eks. på "
 "rulleknapper)."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
 msgid "Timeout between click repeats"
 msgstr "Tidsudløb mellem klikgentagelser"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
 msgstr ""
 "Tidsudløb i millisekunder mellem gentagne klik når en knap venstreklikkes."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
 msgid "Palette used in the color selector"
 msgstr "Plaet, der bruges i farvevælger"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
@@ -1065,11 +1105,11 @@ msgstr ""
 "Paletten, der bruges i farvevælgeren som defineret af indstillingen \"gtk-"
 "color-palette\""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
 msgid "List of symbolic names and color equivalents"
 msgstr "Liste af symbolske navne og farveækvivalenter"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
@@ -1077,37 +1117,25 @@ msgstr ""
 "En \"\\n\"-adskilt liste af \"navn:farve\" som defineret af indstillingen "
 "\"gtk-color-scheme\""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Om uret vises i 24-timers- eller 12-timersformat"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
 msgid "Whether the clock shows seconds"
 msgstr "Om uret viser sekunder"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
 msgid "If true, display seconds in the clock."
 msgstr "Hvis sand, vises sekunder i uret."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
 msgid "Show date in clock"
 msgstr "Vis dato i ur"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Hvis sand, vises dato i uret, ud over blot klokkeslættet."
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:70
-msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr "Vis kun genvejstaster når Alt-tasten holdes nede"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:71
-msgid ""
-"Whether mnemonics should be automatically shown and hidden when the user "
-"presses the Alt key."
-msgstr ""
-"Om genvejstaster skal vises automatisk og skjult når brugeren trykker på Alt-"
-"tasten."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:1
 msgid "Disable command line"
@@ -1447,6 +1475,14 @@ msgstr ""
 "Senest brugte filer vil blive husket i dette antal dage. Hvis 0, vil senest "
 "bruge filer ikke blive huske; hvis -1, vil de blive husket for altid."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
+msgid "Whether to remember application usage"
+msgstr "Om programbrug skal huskes"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
+msgid "If FALSE, application usage will not be monitored and recorded."
+msgstr "Hvis falsk, vil programbrug ikke blive målt og gemt."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Aktivér ved tomgang"
@@ -1454,12 +1490,12 @@ msgstr "Aktivér ved tomgang"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
-"delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
+"session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
 "Sæt denne til sand for at aktivere pauseskærmen når sessionen er inaktiv. "
-"FORÆLDET: Denne nøgle er forældet og ignoreres. Sæt org.gnome.session.idle-"
-"delay til 0 hvis du ikke vil aktivere pauseskærmen."
+"FORÆLDET: Denne nøgle er forældet og ignoreres. Sæt idle-delay i org.gnome."
+"desktop.session til 0 hvis du ikke vil aktivere pauseskærmen."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -2374,34 +2410,12 @@ msgstr ""
 "titellinje som blinker."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
-msgid "(Not implemented) Navigation works in terms of applications not windows"
-msgstr "(Ikke implementeret) Navigation virker mht. programmer, ikke vinduer"
-
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
-msgid ""
-"If true, then the WM works in terms of applications rather than windows. The "
-"concept is a bit abstract, but in general an application-based setup is more "
-"like the Mac and less like Windows. When you focus a window in application-"
-"based mode, all the windows in the application will be raised. Also, in "
-"application-based mode, focus clicks are not passed through to windows in "
-"other applications. Application-based mode is, however, largely "
-"unimplemented at the moment."
-msgstr ""
-"Hvis sand, vil indueshåndteringen arbejde med programmer frem for vinduer. "
-"Konceptet er lidt abstrakt, men generelt vil en programbaseret opsætning "
-"være mere Mac-agtig og mindre Windows-agtig. Når du fokuserer et vindue i "
-"programbaseret tilstand, vil alle vinduer i programmet blive hævet. Der ud "
-"over, i programbaseret tilstand, vil fokusklik ikke sendes videre til "
-"vinduer i andre programmer. Programbaseret tilstand er dog stort set ikke "
-"implementeret lige nu."
-
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Deaktivér fejlagtige \"funktioner\" som kræves af gamle eller fejlagtige "
 "programmer"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -2414,11 +2428,11 @@ msgstr ""
 "konsistent brugergrænseflade, så længe man ikke har brug for at køre nogle "
 "uartige programmer."
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "The names of the workspaces"
 msgstr "Navnene på arbejdsområderne"
 
-#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:40
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -2629,6 +2643,70 @@ msgid ""
 msgstr ""
 "Porten på maskinen defineret af \"/system/proxy/socks/host\", som du bruger "
 "som proxy."
+
+#~ msgid "Menus Have Icons"
+#~ msgstr "Menuer har ikoner"
+
+#~ msgid "Whether menus may display an icon next to a menu entry."
+#~ msgstr "Om menuer kan vise et ikon ved siden af et menuelement."
+
+#~ msgid "Buttons Have Icons"
+#~ msgstr "Knapper har ikoner"
+
+#~ msgid "Whether buttons may display an icon in addition to the button text."
+#~ msgstr "Om knapper kan vise et ikon ud over knapteksten."
+
+#~ msgid "Show the 'Input Methods' menu"
+#~ msgstr "Vis menuen \"Inputmetoder\""
+
+#~ msgid ""
+#~ "Whether the context menus of entries and text views should offer to "
+#~ "change the input method."
+#~ msgstr ""
+#~ "Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde "
+#~ "at ændre inputmetoden."
+
+#~ msgid "Show the 'Unicode Control Character' menu"
+#~ msgstr "Vis menuen \"Unicode Control Character\""
+
+#~ msgid ""
+#~ "Whether the context menus of entries and text views should offer to "
+#~ "insert control characters."
+#~ msgstr ""
+#~ "Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde "
+#~ "at indsætte kontroltegn."
+
+#~ msgid "Only show mnemonics on when the Alt key is pressed"
+#~ msgstr "Vis kun genvejstaster når Alt-tasten holdes nede"
+
+#~ msgid ""
+#~ "Whether mnemonics should be automatically shown and hidden when the user "
+#~ "presses the Alt key."
+#~ msgstr ""
+#~ "Om genvejstaster skal vises automatisk og skjult når brugeren trykker på "
+#~ "Alt-tasten."
+
+#~ msgid ""
+#~ "(Not implemented) Navigation works in terms of applications not windows"
+#~ msgstr ""
+#~ "(Ikke implementeret) Navigation virker mht. programmer, ikke vinduer"
+
+#~ msgid ""
+#~ "If true, then the WM works in terms of applications rather than windows. "
+#~ "The concept is a bit abstract, but in general an application-based setup "
+#~ "is more like the Mac and less like Windows. When you focus a window in "
+#~ "application-based mode, all the windows in the application will be "
+#~ "raised. Also, in application-based mode, focus clicks are not passed "
+#~ "through to windows in other applications. Application-based mode is, "
+#~ "however, largely unimplemented at the moment."
+#~ msgstr ""
+#~ "Hvis sand, vil indueshåndteringen arbejde med programmer frem for "
+#~ "vinduer. Konceptet er lidt abstrakt, men generelt vil en programbaseret "
+#~ "opsætning være mere Mac-agtig og mindre Windows-agtig. Når du fokuserer "
+#~ "et vindue i programbaseret tilstand, vil alle vinduer i programmet blive "
+#~ "hævet. Der ud over, i programbaseret tilstand, vil fokusklik ikke sendes "
+#~ "videre til vinduer i andre programmer. Programbaseret tilstand er dog "
+#~ "stort set ikke implementeret lige nu."
 
 #~ msgid "Draw Desktop Background"
 #~ msgstr "Tegn skrivebordsbaggrund"
