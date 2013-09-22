@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-02-21 11:20+0000\n"
-"PO-Revision-Date: 2013-04-16 22:58+0200\n"
+"POT-Creation-Date: 2013-08-03 13:36+0000\n"
+"PO-Revision-Date: 2013-09-22 18:40+0200\n"
 "Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: \n"
@@ -82,12 +82,10 @@ msgstr ""
 "Az időkorlát időtartama a billentyűzet akadálymentesítésének letiltása előtt."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:8
-#| msgid "Enable the bounce keys"
 msgid "Enable 'Bounce Keys'"
 msgstr "„Billentyűszűrés” engedélyezése"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:9
-#| msgid "Whether the bounce keys keyboard accessibility feature is turned on."
 msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
 "A „Billentyűszűrés” billentyűzet-akadálymentesítési szolgáltatás be van-e "
@@ -112,12 +110,10 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Hangjelzés billentyű elutasításakor."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:14
-#| msgid "Enable mouse keys"
 msgid "Enable 'Mouse Keys'"
 msgstr "„Egérbillentyűk” engedélyezése"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:15
-#| msgid "Whether the mouse keys accessibility feature is turned on."
 msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
 msgstr ""
 "Az „Egérbillentyűzet” akadálymentesítési szolgáltatás be van-e kapcsolva."
@@ -149,12 +145,10 @@ msgstr ""
 "Hány másodpercet várjon mielőtt az egérmozgató billentyűk működni kezdenek."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:22
-#| msgid "Enable slow keys"
 msgid "Enable 'Slow Keys'"
 msgstr "„Lassú billentyűk” engedélyezése"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:23
-#| msgid "Whether the slow keys accessibility feature is turned on."
 msgid "Whether the 'Slow Keys' accessibility feature is turned on."
 msgstr ""
 "A „Lassú billentyűk” akadálymentesítési szolgáltatás be van-e kapcsolva."
@@ -209,12 +203,10 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Hangjelzés a módosítóbillentyűk lenyomásakor."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:35
-#| msgid "Enable toggle keys"
 msgid "Enable 'Toggle Keys'"
 msgstr "„Váltóbillentyűk” engedélyezése"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:36
-#| msgid "Whether the toggle keys accessibility feature is turned on."
 msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
 msgstr ""
 "A „Váltóbillentyűk” akadálymentesítési szolgáltatás be van-e kapcsolva."
@@ -235,6 +227,14 @@ msgid ""
 "push: when the magnified mouse intersects a boundary of the zoom region, the "
 "contents are scrolled into view."
 msgstr ""
+"Meghatározza a nagyított egérkép elhelyezkedését a nagyított nézeten belül és "
+"azt, hogy hogyan reagáljon a rendszeregér mozgására. Az értékek lehetnek: - "
+"none: nincs egérkövetés; - centered: az egérkép a nagyított terület közepén "
+"jelenik meg (amely szintén a rendszeregér alatti pontot ábrázolja) és a "
+"nagyított tartalom úgy görgetődik, ahogy a rendszeregér mozog; - "
+"proportional: a nagyított egér elhelyezkedése a nagyított területen arányosan "
+"ugyanaz mint a rendszeregér helyzete a képernyőn; - push: amikor a nagyított "
+"egér metszi a nagyított terület határát, a tartalom a nézetbe lesz görgetve."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
 msgid "Screen position"
@@ -269,10 +269,12 @@ msgid ""
 "Whether the magnified view should be centered over the location of the "
 "system mouse and move with it."
 msgstr ""
+"A nagyított nézet legyen-e a rendszer egerének elhelyezkedése közepére "
+"helyezve és mozogjon-e vele."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:9
 msgid "Scroll magnified contents beyond the edges of the desktop"
-msgstr ""
+msgstr "A nagyított tartalom görgetése az asztal szélein túl"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
 msgid ""
@@ -280,13 +282,15 @@ msgid ""
 "of the screen, the magnified contents continue to scroll such that the "
 "screen edge moves into the magnified view."
 msgstr ""
+"Középre igazított egérkövetésnél, amikor a rendszer mutatója a kijelző "
+"szélénél vagy ahhoz közel van, a nagyított tartalom görgetése úgy "
+"folytatódjon, hogy a képernyő széle mozogjon a nagyított nézetben."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
 msgid "Show or hide crosshairs"
 msgstr "Szálkereszt megjelenítése vagy elrejtése"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
-#, fuzzy
 msgid ""
 "Enables/disables display of crosshairs centered on the magnified mouse "
 "sprite."
@@ -343,7 +347,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
 msgid "Clip the crosshairs at the center"
-msgstr ""
+msgstr "A szálkeresztek vágása középen"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
 msgid ""
@@ -351,6 +355,9 @@ msgid ""
 "are clipped such that the ends of the horizontal and vertical lines surround "
 "the mouse image."
 msgstr ""
+"Meghatározza, hogy a szálkeresztek metsszék-e a nagyított egér sprite-ot vagy "
+"legyenek-e levágva mint az egérképet körülvevő vízszintes és függőleges "
+"vonalak végei."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
 msgid "Inverse lightness"
@@ -374,8 +381,8 @@ msgid ""
 "Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 "
 "(full color)."
 msgstr ""
-"A szín telítettségének változását ábrázolja 0.0-tól (szürkeárnyalatos) 1.0-ig "
-"(színes)."
+"A szín telítettségének változását ábrázolja 0.0-tól (szürkeárnyalatos) 1.0-"
+"ig (színes)."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
 msgid "Change brightness of red"
@@ -415,9 +422,9 @@ msgid ""
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
-"A kék komponens alapértelmezett fényerejének változtatását ábrázolja. A nulla "
-"jelzi, hogy nincs változtatás, a nullánál kisebb értékek jelzik a csökkentést "
-"és a nullánál nagyobb értékek jelzik a növelést."
+"A kék komponens alapértelmezett fényerejének változtatását ábrázolja. A "
+"nulla jelzi, hogy nincs változtatás, a nullánál kisebb értékek jelzik a "
+"csökkentést és a nullánál nagyobb értékek jelzik a növelést."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
 msgid "Change contrast of red"
@@ -699,7 +706,6 @@ msgid "Terminal application"
 msgstr "Terminál alkalmazás"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:10
-#| msgid "Terminal program to use when starting applications that require one."
 msgid ""
 "Terminal program to use when starting applications that require one. "
 "DEPRECATED: This key is deprecated and ignored. The default terminal is "
@@ -732,6 +738,9 @@ msgid ""
 "in effect. The value is automatically capped to remain in the range [0, "
 "sources_length) as long as the sources list isn't empty."
 msgstr ""
+"A nulla-alapú index a jelenlegi hatásban megadott bemeneti források listájába."
+" Az érték automatikusan maximálva van, hogy a tartományban maradjon [0, "
+"sources_length) mindaddig, amíg a források listája nem üres."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
 msgid "List of input sources"
@@ -747,6 +756,13 @@ msgid ""
 "server's current XKB layout and variant won't be touched and IBus won't be "
 "used."
 msgstr ""
+"Az elérhető bemeneti forrásazonosítók listája. Minden forrás 2 szöveg "
+"párosaként van megadva. Az első szöveg a típus, amely „xkb” vagy „ibus” "
+"egyike lehet. Az „xkb” forrásokhoz a második szöveg „xkb_layout+xkb_variant” "
+"vagy csak „xkb_layout”, ha az XKB változat nem szükséges. Az „ibus” "
+"forrásokhoz a második szöveg az IBus motor neve. Az üres lista azt jelenti, "
+"hogy az X-kiszolgáló jelenlegi XKB elrendezése és változata nem lesz érintve "
+"és az IBus nem lesz használva."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
 msgid "List of XKB options"
@@ -757,8 +773,8 @@ msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
 msgstr ""
-"XKB lehetőségek listája. Minden lehetőség egy xkeyboard-config szabályfájlban "
-"meghatározott XKB lehetőség karakterlánc."
+"XKB lehetőségek listája. Minden lehetőség egy xkeyboard-config "
+"szabályfájlban meghatározott XKB lehetőség karakterlánc."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:7
 msgid "Show all installed input sources"
@@ -932,12 +948,14 @@ msgstr "A gtk+ által használt alapértelmezett betűkészlet neve."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "Text scaling factor"
-msgstr "Szövegméretezési faktor"
+msgstr "Szövegméretezési tényező"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
+"A szövegmegjelenítés nagyításához vagy csökkentéséhez használt tényező a "
+"betűméret változtatása nélkül."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Preedit Style"
@@ -1199,7 +1217,6 @@ msgid "Prevent the user from logging out."
 msgstr "A felhasználó nem jelentkezhet ki."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.in.h:17
-#| msgid "Disable user switching"
 msgid "Disable user administration"
 msgstr "Felhasználó adminisztrációjának letiltása"
 
@@ -1208,6 +1225,9 @@ msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
+"A felhasználó megakadályozása a felhasználói fiókok módosításához. "
+"Alapértelmezetten engedélyezzük felhasználók hozzáadását és eltávolítását, "
+"akárcsak más felhasználók beállításainak módosítását."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:1
 msgid "Whether to automatically mount media"
@@ -1319,7 +1339,6 @@ msgid "Whether notifications are shown in the lock screen or not."
 msgstr "Az értesítések jelenjelek-e meg a zárolt képernyőn vagy ne."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:5
-#| msgid "Switch applications"
 msgid "Application ID"
 msgstr "Alkalmazás azonosító"
 
@@ -1328,7 +1347,6 @@ msgid "The application that this policy is for."
 msgstr "Az alkalmazás, amelyhez ez a házirend tartozik."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:7
-#| msgid "Enable Animations"
 msgid "Enable notifications"
 msgstr "Értesítések engedélyezése"
 
@@ -1338,32 +1356,34 @@ msgstr ""
 "Az értesítések legyenek-e globálisan engedélyezve ehhez az alkalmazáshoz."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:9
-#| msgid "Enable slow keys"
 msgid "Enable sound alerts"
 msgstr "Hangriasztások engedélyezése"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:10
 msgid "Whether notifications should be accompanied by sound alerts."
-msgstr ""
+msgstr "Az értesítéseket kísérjék-e hangriasztások."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:11
 msgid ""
 "Whether notification banners for this application are shown or not. Does not "
 "affect clicking on message tray buttons."
 msgstr ""
+"Jelenjenek-e meg az értesítési csíkok ehhez az alkalmazáshoz vagy ne. Nem "
+"érinti a kattintásokat az üzenettálca gombokon."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:12
 msgid "Force automatic expanding of banners"
-msgstr ""
+msgstr "A fejlécek automatikus kinyitásának erőltetése"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:13
 msgid ""
 "Whether notifications from this application are expanded automatically when "
 "in banner mode."
 msgstr ""
+"Legyenek-e automatikusan kinyitva az ebből az alkalmazásból származó "
+"értesítések fejléc módban."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:14
-#| msgid "Disable lock screen"
 msgid "Show in the lock screen"
 msgstr "Megjelenítés a zárolt képernyőn"
 
@@ -1376,7 +1396,6 @@ msgstr ""
 "zárolt."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:16
-#| msgid "Show date in clock"
 msgid "Show details in the lock screen"
 msgstr "Részletek megjelenítése a zárolt képernyőn"
 
@@ -1439,19 +1458,20 @@ msgstr "A kuka és az ideiglenes fájlok megtartási napjainak száma"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:10
 msgid "Consider trash and temporary files old after this many days."
-msgstr ""
+msgstr "Tekintse a kukát és az átmeneti fájlokat réginek ennyi nap után."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:11
 msgid "Whether to remember recently used files"
-msgstr ""
+msgstr "Emlékezzen-e a legutóbb használt fájlokra"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:12
 msgid "If FALSE, applications will not remember recently used files."
 msgstr ""
+"Ha HAMIS, az alkalmazások nem fognak emlékezni a legutóbb használt fájlokra."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:13
 msgid "Number of days to remember recently used files for"
-msgstr ""
+msgstr "Azon napok száma, ameddig emlékezzen a legutóbb használt fájlokra"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:14
 msgid ""
@@ -1459,6 +1479,9 @@ msgid ""
 "recent files will not be remembered; if set to -1, they will be retained "
 "indefinitively."
 msgstr ""
+"A legutóbb használt fájlokra ennyi napig fog emlékezni. Ha 0 értékre van "
+"állítva, a legutóbbi fájlokra nem fog emlékezni; ha -1 értékre van állítva, "
+"akkor végtelen ideig meg lesznek tartva."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
@@ -1471,8 +1494,8 @@ msgid ""
 "delay to 0 if you do not want to activate the screensaver."
 msgstr ""
 "Állítsa ezt IGAZRA a képernyővédő aktiválásához a munkamenet üresjáratában. "
-"ELAVULT: Ez a kulcs elavult és mellőzött. Állítsa az org.gnome.session."
-"idle-delay értékét 0-ra, ha nem szeretné aktiválni a képernyővédőt."
+"ELAVULT: Ez a kulcs elavult és mellőzött. Állítsa az org.gnome.session.idle-"
+"delay értékét 0-ra, ha nem szeretné aktiválni a képernyővédőt."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1502,8 +1525,8 @@ msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"A felhasználók teljes neve jelenjen-e meg a zárolt képernyőn vagy ne. Ez csak "
-"a képernyőpajzsot érinti, a név mindig megjelenik a feloldási "
+"A felhasználók teljes neve jelenjen-e meg a zárolt képernyőn vagy ne. Ez "
+"csak a képernyőpajzsot érinti, a név mindig megjelenik a feloldási "
 "párbeszédablakban."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:9
@@ -1511,10 +1534,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Billentyűzet beágyazásának engedélyezése az ablakba"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:10
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1529,11 +1548,6 @@ msgid "Embedded keyboard command"
 msgstr "Beágyazott billentyűzet parancs"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:12
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output."
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1543,16 +1557,14 @@ msgstr ""
 "A billentyűzet felületi elem ablakba ágyazásához futtatandó parancs, ha az "
 "„embedded_keyboard_enabled” kulcs be van állítva. A parancsnak meg kell "
 "valósítania egy XEMBED csatolófelületet és egy ablak XID-t kell kimenetként "
-"előállítania a szabványos kimenetre. ELAVULT: Ez a kulcs elavult és mellőzött."
+"előállítania a szabványos kimenetre. ELAVULT: Ez a kulcs elavult és "
+"mellőzött."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:13
 msgid "Allow logout"
 msgstr "Kijelentkezés engedélyezése"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:14
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key. "
@@ -1567,10 +1579,6 @@ msgid "Time before logout option"
 msgstr "A kijelentkezési lehetőség megjelenéséig eltelő idő"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:16
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE."
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1587,10 +1595,6 @@ msgid "Logout command"
 msgstr "Kijelentkezési parancs"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:18
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1599,8 +1603,8 @@ msgid ""
 msgstr ""
 "A kijelentkezés gomb megnyomásakor meghívandó parancs. Ennek a parancsnak "
 "egyszerűen, beavatkozás nélkül ki kell jelentkeztetnie a felhasználót. Ez a "
-"kulcs csak akkor hatásos, ha a „logout_enable” kulcs értéke igaz. ELAVULT: Ez "
-"a kulcs elavult és mellőzött."
+"kulcs csak akkor hatásos, ha a „logout_enable” kulcs értéke igaz. ELAVULT: "
+"Ez a kulcs elavult és mellőzött."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:19
 msgid "Allow user switching"
@@ -1619,9 +1623,6 @@ msgid "Allow the session status message to be displayed"
 msgstr "A munkamenet állapotüzenete megjeleníthető"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:22
-#| msgid ""
-#| "Allow the session status message to be displayed when the screen is "
-#| "locked."
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
@@ -1638,7 +1639,6 @@ msgstr ""
 "(file://) URI-kat támogat."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:1
-#| msgid "Disable all external thumbnailers"
 msgid "Disable all external search providers"
 msgstr "Minden külső keresőszolgáltató letiltása"
 
@@ -1650,8 +1650,8 @@ msgid ""
 msgstr ""
 "Állítsa igazra az összes külső keresőszolgáltató program letiltásához, attól "
 "függetlenül, hogy egyénileg tiltva vagy engedélyezve vannak-e. A külső "
-"keresőszolgáltatókat a(z) $XDG_DATA_DIR/gnome-shell/search-providers kulcsban "
-"lévő alkalmazások telepítették."
+"keresőszolgáltatókat a(z) $XDG_DATA_DIR/gnome-shell/search-providers "
+"kulcsban lévő alkalmazások telepítették."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
 msgid "List of desktop file IDs for which search provider should be disabled"
@@ -1664,17 +1664,23 @@ msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
 msgstr ""
+"Ezen a listán található alkalmazások találatai nem lesznek megjelenítve "
+"kereséskor."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
+"Az asztali fájl azonosítók listája a keresőszolgáltatók rendezési sorrendjéhez"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
-"displayed before the last item of the list, if it has more than one item."
+"displayed last, sorted alphabetically."
 msgstr ""
+"Ezen a listán található alkalmazások találatai a megadott sorrendben lesznek "
+"megjelenítve. Az ezen a listán nem található alkalmazások találatai "
+"legutoljára lesznek megjelenítve ABC sorrendben."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.in.h:1
 msgid "Time before session is considered idle"
@@ -1834,12 +1840,10 @@ msgid "Reverse switch applications"
 msgstr "Visszafelé váltás az alkalmazások között"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
-#| msgid "Switch windows directly"
 msgid "Switch windows"
 msgstr "Váltás az ablakok között"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
-#| msgid "Reverse switch windows directly"
 msgid "Reverse switch windows"
 msgstr "Visszafelé váltás az ablakok között"
 
@@ -1888,7 +1892,6 @@ msgid "Show the run command prompt"
 msgstr "A parancs futtatása ablak megjelenítése"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
-#| msgid "Don&apos;t use"
 msgid "Don't use"
 msgstr "Ne használja"
 
@@ -2061,7 +2064,6 @@ msgid "Move window to center of screen"
 msgstr "Ablak áthelyezése a képernyő közepére"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
-#| msgid "Switch to workspace 1"
 msgid "Switch input source"
 msgstr "Bemeneti forrás váltása"
 
@@ -2070,7 +2072,6 @@ msgid "Binding to select the next input source"
 msgstr "Gyorsbillentyű a következő bemeneti forrás kiválasztásához"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
-#| msgid "Switch to workspace below"
 msgid "Switch input source backward"
 msgstr "Bemeneti forrás váltása visszafelé"
 
@@ -2472,6 +2473,10 @@ msgid ""
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (\"Workspace N\")."
 msgstr ""
+"Meghatározza a munkaterületekhez hozzárendelendő neveket. Ha a lista túl "
+"hosszú a jelenlegi munkaterületek számához, a felesleges nevek figyelmen "
+"kívül lesznek hagyva. Ha a lista túl rövid vagy üres neveket tartalmaz, a "
+"hiányzó értékek az alapértékekkel lesznek helyettesítve („N. munkaterület”)."
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
 msgid "The locale to use for dates / numbers formats"
@@ -2490,7 +2495,6 @@ msgid "Proxy configuration mode"
 msgstr "Proxybeállítás módja"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:2
-#, fuzzy
 msgid ""
 "Select the proxy configuration mode. Supported values are \"none\", \"manual"
 "\", \"auto\". If this is \"none\", then proxies are not used. If it is \"auto"
@@ -2503,10 +2507,17 @@ msgid ""
 "SOCKS proxy is configured, it is used for all protocols, except that the "
 "http, https, and ftp proxy settings override it for those protocols only."
 msgstr ""
-"Válassza ki a proxybeállítás módját. A lehetséges értékek: 0 "
-"(rendszerbeállítások használata), 1 (nincs proxy), 2 (kézi proxybeállítás "
-"használata) és 3 (az automatikus proxybeállítás URL címén található "
-"beállítás használata)."
+"Válassza ki a proxybeállítás módját. A támogatott értékek: „none”, „manual”, "
+"„auto”. Ha ez „none”, akkor a proxy-k nincsenek használatban. Ha ez „auto”, "
+"akkor az „autoconfig-url” kulcs által leírt automatikus beállító URL lesz "
+"használatban. Ha ez „manual”, akkor a „/system/proxy/http”, a "
+"„/system/proxy/https”, a „/system/proxy/ftp” és a „/system/proxy/socks” lesz "
+"használatban. Mind a 4 proxytípus engedélyezve van, ha a „host” kulcsuk nem "
+"üres és a „port” kulcsuk nem 0. Ha be van állítva egy HTTP proxy, de HTTPS "
+"proxy nincs, akkor szintén a HTTP proxy lesz a HTTPS-hez használva. Ha be van "
+"állítva egy SOCKS proxy, akkor az minden protokollhoz használva lesz, kivéve "
+"ha HTTP, HTTPS és FTP proxybeállítások felülírják azt kizárólag ezekhez a "
+"protokollokhoz."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
 msgid "Automatic proxy configuration URL"
