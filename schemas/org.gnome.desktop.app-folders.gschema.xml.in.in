@@ -1,0 +1,30 @@
+<schemalist gettext-domain="@GETTEXT_PACKAGE@">
+  <schema id="org.gnome.desktop.app-folders" path="/org/gnome/desktop/app-folders/">
+    <key name="folder-children" type="as">
+      <default>[]</default>
+      <_summary>Folder children</_summary>
+      <_description>List of relative settings paths at which app-folders are
+        stored. Each folder uses the org.gnome.desktop.app-folders.folder
+        schema.</_description>
+    </key>
+  </schema>
+  <schema id="org.gnome.desktop.app-folders.folder">
+    <key name="name" type="s">
+      <default>''</default>
+      <_summary>Folder name</_summary>
+      <_description>The name of the application folder.</_description>
+    </key>
+    <key name="translate" type="b">
+      <default>false</default>
+      <_summary>Translate the name</_summary>
+      <_description>Whether the name key is a filename to be looked up in
+      /usr/share/desktop-directories.</_description>
+    </key>
+    <key name="apps" type="as">
+      <default>[]</default>
+      <_summary>Applications</_summary>
+      <_description>The list of ids of applications that are included in
+      this this folder.</_description>
+    </key>
+  </schema>
+</schemalist>
