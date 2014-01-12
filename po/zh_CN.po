@@ -2,7 +2,7 @@
 # Copyright (C) 2010 gsettings-desktop-schemas's authors
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # cedar1989 <leo.fanghuang@yahoo.com.cn>, 2010.
-# Yinghua Wang <wantinghard@gmail.com>, 2011.
+# Wylmer Wang <wantinghard@gmail.com>, 2011, 2014.
 # YunQiang Su <wzssyqa@gmail.com>, 2011, 2012.
 #
 msgid ""
@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-19 07:43+0000\n"
-"PO-Revision-Date: 2013-07-08 23:26+0800\n"
-"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
+"POT-Creation-Date: 2014-01-10 19:41+0000\n"
+"PO-Revision-Date: 2014-01-12 14:41+0800\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,13 +23,13 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
 msgid "Always show the Universal Access status icon"
-msgstr ""
+msgstr "总是显示 通用访问 状态图标"
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
 msgid ""
 "This key overrides the automatic hiding of the Universal Access status icon "
 "when no accessibility features are enabled."
-msgstr ""
+msgstr "该键将替代“未启用访问功能时自动隐藏通用访问状态图标”的设置。"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -227,40 +227,80 @@ msgstr ""
 "幕上的位置成比例；- 推动：在放大的鼠标与放大区边界相交时，内容向视图内滚动。"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
+msgid "Focus Tracking Mode"
+msgstr "聚焦跟踪模式"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
+msgid ""
+"Determines the position of the focused widget within magnified view. The "
+"values are: - none: no focus tracking - centered: the focused image is "
+"displayed at the center of the zoom region (which also represents the point "
+"under the system focus) and the magnified contents are scrolled as the "
+"system focus moves - proportional: the position of the magnified focus in "
+"the zoom region is proportionally the same as the position of the system "
+"focus on screen - push: when the magnified focus intersects a boundary of "
+"the zoom region, the contents are scrolled into view"
+msgstr ""
+"确定放大视图中拥有焦点的部件的位置。可用值有 - none：不跟踪聚焦；- centered："
+"聚焦的图像显示于放大区的中心(也代表了系统焦点)，放大的内容随系统焦点移动而滚"
+"动；- proportional：放大的焦点在放大区的位置与系统焦点在屏幕上的位置成比"
+"例；- push：在放大的焦点与放大区边界相交时，内容向视图内滚动。"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
+msgid "Caret Tracking Mode"
+msgstr "插入点跟踪模式"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:6
+msgid ""
+"Determines the position of the caret within magnified view. The values are: "
+"- none: no caret tracking - centered: the image of the caret is displayed at "
+"the center of the zoom region (which also represents the point under the "
+"system caret) and the magnified contents are scrolled as the system caret "
+"moves - proportional: the position of the magnified caret in the zoom region "
+"is proportionally the same as the position of the system caret on screen - "
+"push: when the magnified caret intersects a boundary of the zoom region, the "
+"contents are scrolled into view"
+msgstr ""
+"确定在放大视图中插入光标的位置。可用值有 - none：不跟踪插入点；- centered：插"
+"入点显示于放大区的中心(也代表了系统插入点)，放大的内容随系统插入点移动而滚"
+"动；- proportional：放大的插入点在放大区的位置与系统插入点在屏幕上的位置成比"
+"例；- push：在放大的插入点与放大区边界相交时，内容向视图内滚动。"
+
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:7
 msgid "Screen position"
 msgstr "屏幕位置"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:8
 msgid ""
 "The magnified view either fills the entire screen, or occupies the top-half, "
 "bottom-half, left-half, or right-half of the screen."
 msgstr "放大视图填满整个屏幕，或占据上半屏、下半屏、左半屏、右半屏。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:9
 msgid "Magnification factor"
 msgstr "放大倍数"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
 msgid ""
 "The power of the magnification. A value of 1.0 means no magnification. A "
 "value of 2.0 doubles the size."
 msgstr "放大的程度。1.0 表示不放大。2.0 放大两倍。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:7
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
 msgid "Enable lens mode"
 msgstr "启用透镜模式"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:8
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
 msgid ""
 "Whether the magnified view should be centered over the location of the "
 "system mouse and move with it."
 msgstr "放大视图是否应沿系统鼠标位置居中并随之移动。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:9
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:13
 msgid "Scroll magnified contents beyond the edges of the desktop"
 msgstr "滚动放大内容可超出屏幕边缘"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:10
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:14
 msgid ""
 "For centered mouse tracking, when the system pointer is at or near the edge "
 "of the screen, the magnified contents continue to scroll such that the "
@@ -269,61 +309,61 @@ msgstr ""
 "对于中心鼠标跟踪，在系统指针移到屏幕边缘附近或边缘上时，放大的内容会继续滚"
 "动，屏幕边缘会移入放大区。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:11
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:15
 msgid "Show or hide crosshairs"
 msgstr "显示或隐藏十字光标"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:12
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:16
 msgid ""
 "Enables/disables display of crosshairs centered on the magnified mouse "
 "sprite."
 msgstr "启用/禁用以放大的鼠标游标为中心的十字光标显示。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:13
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:17
 msgid "Thickness of the crosshairs in pixels"
 msgstr "十字光标的线宽(以像素计)"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:14
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:18
 msgid ""
 "Width in pixels of the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr "组成十字光标的横线和竖线的宽度(以像素计)。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:15
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:19
 msgid "Color of the crosshairs"
 msgstr "十字光标的颜色"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:16
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
 msgid ""
 "The color of the the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr "组成十字光标的横线和竖线的颜色"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:17
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
 msgid "Opacity of the crosshairs"
 msgstr "十字光标的透明度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
 msgid ""
 "Determines the transparency of the crosshairs, from fully opaque to fully "
 "transparent."
 msgstr "确定光标的透明度，从完全不透明到完全透明。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
 msgid "Length of the crosshairs in pixels"
 msgstr "十字光标的长度(以像素计)"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
 msgid ""
 "Determines the length in pixels of the vertical and horizontal lines that "
 "make up the crosshairs."
 msgstr "确定组成十字光标的水平线和竖直线的长度(以像素计)。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
 msgid "Clip the crosshairs at the center"
 msgstr "从中心裁剪十字光标"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
 msgid ""
 "Determines whether the crosshairs intersect the magnified mouse sprite, or "
 "are clipped such that the ends of the horizontal and vertical lines surround "
@@ -332,91 +372,103 @@ msgstr ""
 "确定十字光标是与放大的鼠标游标交叉还是沿鼠标图像的四周对其横线和竖线进行裁"
 "剪。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
 msgid "Inverse lightness"
 msgstr "反转亮度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
 msgid ""
 "Determines whether the lightness values are inverted: darker colors become "
 "lighter and vice versa, and white and black are interchanged."
 msgstr "决定亮度值是否被反转：较暗的颜色会变得较亮些，反之亦然，且黑白色互换。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
 msgid "Color Saturation"
 msgstr "色彩饱和度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
 msgid ""
 "Represents a change to the color saturation, from 0.0 (grayscale) to 1.0 "
 "(full color)."
 msgstr "代表色彩饱和度的变化，从 0.0(灰度)到 1.0(全彩色)。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
 msgid "Change brightness of red"
 msgstr "更改红色亮度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
 msgid ""
 "Represents a change to the default brightness of the red component. Zero "
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
+"表示红色分量默认亮度的更改量。0 表示不更改，小于 0 的值表示减少亮度，大于 0 "
+"表示增加亮度。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
 msgid "Change brightness of green"
 msgstr "更改绿色亮度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
 msgid ""
 "Represents a change to the default brightness for the green component. Zero "
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
+"表示绿色分量默认亮度的更改量。 0 表示不更改，小于 0 的值表示减少亮度，大于 0 "
+"表示增加亮度。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
 msgid "Change brightness of blue"
 msgstr "更改蓝色亮度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
 msgid ""
 "Represents a change to the default brightness for the blue component. Zero "
 "indicates no change, values less than zero indicate a decrease, and values "
 "greater than zero indicate an increase."
 msgstr ""
+"表示蓝色分量默认亮度的更改量。 0 表示不更改，小于 0 的值表示减少亮度，大于 0 "
+"表示增加亮度。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
 msgid "Change contrast of red"
 msgstr "更改红色对比度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
 msgid ""
 "Represents a change to the default contrast of the red component. Zero "
 "indicates no change in contrast, values less than zero indicate a decrease, "
 "and values greater than zero indicate an increase."
 msgstr ""
+"表示红色分量默认对比度的更改量。0 表示不更改，小于 0 的值表示减少对比度，大"
+"于 0 表示增加对比度。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:39
 msgid "Change contrast of green"
 msgstr "更改绿色对比度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:40
 msgid ""
 "Represents a change to the default contrast of the green component. Zero "
 "indicates no change in contrast, values less than zero indicate a decrease, "
 "and values greater than zero indicate an increase."
 msgstr ""
+"表示绿色分量默认对比度的更改量。0 表示不更改，小于 0 的值表示减少对比度，大"
+"于 0 表示增加对比度。"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:41
 msgid "Change contrast of blue"
 msgstr "更改蓝色对比度"
 
-#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:42
 msgid ""
 "Represents a change to the default contrast of the blue component. Zero "
 "indicates no change in contrast, values less than zero indicate a decrease, "
 "and values greater than zero indicate an increase."
 msgstr ""
+"表示蓝色分量默认对比度的更改量。0 表示不更改，小于 0 的值表示减少对比度，大"
+"于 0 表示增加对比度。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:1
 msgid "Dwell click time"
@@ -507,6 +559,46 @@ msgstr "次要(右键)点击时间"
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "触发模拟次要点击前的秒数。"
 
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+#| msgid "The names of the workspaces"
+msgid "The name of the application folder."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+#| msgid "Screensaver themes"
+msgid "Translate the name"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+#| msgid "Application ID"
+msgid "Applications"
+msgstr "应用程序"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+#| msgid "The application that this policy is for."
+msgid "The list of ids of applications that are included in this this folder."
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
@@ -586,6 +678,14 @@ msgstr "由文件管理器处理桌面"
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "如果设为 true，则文件管理器将绘制桌面上的图标。"
 
+#: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:1
+msgid "Automatically update timezone"
+msgstr "自动更新时区"
+
+#: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:2
+msgid "Whether to automatically update the timezone using geolocation."
+msgstr "是否自动根据地理位置更新时区。"
+
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Default calendar"
 msgstr "默认日历"
@@ -610,6 +710,9 @@ msgid ""
 "application is the application handling the text/calendar mime type, whether "
 "it needs a terminal is taken from its desktop file."
 msgstr ""
+"默认的日历应用程序是否需要终端来运行。已废弃：此键已废弃。首选的日历应用程序"
+"是处理 text/calendar MIME 类型的应用程序，它是否需要终端会从其 desktop 文件获"
+"知。"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:5
 msgid "Default tasks"
@@ -663,6 +766,8 @@ msgid ""
 "in effect. The value is automatically capped to remain in the range [0, "
 "sources_length) as long as the sources list isn't empty."
 msgstr ""
+"当前生效的输入源在输入源列表中的索引(从 0 开始)。只要输入源列表非空，该值将自"
+"动调整到 [0, sources_length] 范围内。"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
 msgid "List of input sources"
@@ -678,6 +783,10 @@ msgid ""
 "server's current XKB layout and variant won't be touched and IBus won't be "
 "used."
 msgstr ""
+"可用输入源标识的列表。每个源以一对字符串构成的元组指定。第一个字符串是类型，"
+"可以取“xkb”或“ibus”。对于“xkb”源，第二个字符串为“xkb_layout+xkb_variant”或只"
+"是“xkb_layout”(不需要 XKB 变量时)。对于“ibus”源，第二个字符串为 IBus 引擎名。"
+"空列表代表 X 服务器当前的 XKB 布局和变量将不改动，并且不使用 IBus。"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:5
 msgid "List of XKB options"
@@ -688,6 +797,8 @@ msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
 msgstr ""
+"XKB 选项列表。每个选项为由 xkeyboard-config 的规则文件所定义的 XKB 选项字符"
+"串。"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:7
 msgid "Show all installed input sources"
@@ -844,129 +955,139 @@ msgid ""
 msgstr "放大或缩小文本显示的倍数，而不用更改字体大小。"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
+msgid "Window scaling factor"
+msgstr "窗口缩放系数"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+msgid ""
+"Integer factor used to scale windows by. For use on high-dpi screens. 0 "
+"means pick automatically based on monitor."
+msgstr "用于缩放窗口的整数系数。用于高分辨率屏幕。0 表示根据显示器自动选择。"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
 msgid "GTK IM Preedit Style"
 msgstr "GTK 输入法预编辑模式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "用于 gtk+ 的 GTK+ 输入法预处理样式的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
 msgid "GTK IM Status Style"
 msgstr "GTK 输入法状态样式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "用于 gtk+ 的 GTK+ 输入法状态样式的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
 msgid "GTK IM Module"
 msgstr "GTK 输入法模块"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ 使用的默认输入法模块的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
 msgid "Document font"
 msgstr "文档字体"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
 msgid "Name of the default font used for reading documents."
 msgstr "用于阅读文档的默认字体的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
 msgid "Monospace font"
 msgstr "等宽字体"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "用于终端等处的等宽字体的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
 msgid "Menubar accelerator"
 msgstr "菜单栏快捷键"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "打开菜单栏的键盘快捷键"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
 msgid "Cursor theme"
 msgstr "光标主题"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr "光标主题名。只由支持 Xcursor 扩展的 Xserver 使用。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
 msgid "Cursor size"
 msgstr "光标大小"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
 msgid "Size of the cursor used as cursor theme."
 msgstr "用作光标主题的光标尺寸。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
 msgid "Timeout before click repeat"
 msgstr "重复点击前的延时"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
 msgstr "在一次点击开始重复前延迟的毫秒数(如点击微调按钮时)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
 msgid "Timeout between click repeats"
 msgstr "重复点击之间的延时"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
 msgstr "在用左键单击某个按钮时重复点击之间延迟的毫秒数。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
 msgid "Palette used in the color selector"
 msgstr "颜色选择器中使用的调色盘"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
 msgstr "颜色选择器中所使用的调色盘，正如在“gtk-color-palette”设置中定义的"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
 msgid "List of symbolic names and color equivalents"
 msgstr "符号名和颜色代号的对应列表"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
 "一个由“\\n”分隔的“name:color”列表，就像在“gtk-color-scheme”设置中定义的那样"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "时钟以24小时格式还是12小时格式显示"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
 msgid "Whether the clock shows seconds"
 msgstr "时钟是否显示秒数"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
 msgid "If true, display seconds in the clock."
 msgstr "若为 true，则在时钟处显示秒数。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:62
 msgid "Show date in clock"
 msgstr "在时钟处显示日期"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:63
 msgid "If true, display date in the clock, in addition to time."
 msgstr "如果为 true，除了时间，时钟处也显示日期。"
 
@@ -1111,6 +1232,8 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
+"用户在首选项程序中选择了启动某个应用程序的 x-content/* 类型的列表。在插入了对"
+"应类型的媒体时，指定类型的首选应用程序将启动。"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:9
 msgid "List of x-content/* types set to \"Do Nothing\""
@@ -1122,6 +1245,8 @@ msgid ""
 "the preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
+"用户在首选项程序中选择了“什么也不做”的 x-content/* 类型的列表。在插入了对应类"
+"型的媒体时，系统将不做提示，也不启动对应的应用程序。"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.in.h:11
 msgid "List of x-content/* types set to \"Open Folder\""
@@ -1133,6 +1258,8 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
+"用户在首选项程序中选择了“打开文件夹”的 x-content/* 类型的列表。在插入了对应类"
+"型的媒体时，将会打开文件夹窗口。"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.in.h:1
 msgid "Show notification banners"
@@ -1208,7 +1335,7 @@ msgstr "在锁屏时显示详情"
 msgid ""
 "Whether the summary and body of notifications from this application will be "
 "visible in the locked screen."
-msgstr ""
+msgstr "此应用程序的通知摘要和正文是否在锁屏界面上显示。"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
@@ -1280,11 +1407,11 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
 msgid "Whether to remember application usage"
-msgstr ""
+msgstr "是否记住应用程序使用情况"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
 msgid "If FALSE, application usage will not be monitored and recorded."
-msgstr ""
+msgstr "如果为 FALSE，将不监视和记录应用程序使用情况。"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
@@ -1293,9 +1420,11 @@ msgstr "空闲时激活"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.session.idle-"
-"delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
+"session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
+"设为 TRUE 会在会话空闲时激活屏幕保护程序。已废弃：此键已废弃。如果您不想激活"
+"屏幕保护程序，请将 org.gnome.desktop.session idle-delay 设为 0。"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1430,6 +1559,9 @@ msgid ""
 "they are independently disabled or enabled. External search providers are "
 "installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
 msgstr ""
+"设为 true 会禁用所有的外部搜索提供程序，无论它们是否单独被禁用或启用。外部搜"
+"索提供程序是由 $XDG_DATA_DIR/gnome-shell/search-providers 中的应用程序安装"
+"的。"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
 msgid "List of desktop file IDs for which search provider should be disabled"
@@ -1769,76 +1901,106 @@ msgid "Move window one workspace down"
 msgstr "将窗口下移一个工作区"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
-msgid "Raise window if covered, otherwise lower it"
+#| msgid "Move window one workspace to the left"
+msgid "Move window to the next monitor on the left"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
-msgid "Raise window above other windows"
-msgstr "将窗口提升一其他窗口之上"
+#| msgid "Move window one workspace to the right"
+msgid "Move window to the next monitor on the right"
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
-msgid "Lower window below other windows"
+#| msgid "Move window to top left corner"
+msgid "Move window to the next monitor above"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#| msgid "Move window to top left corner"
+msgid "Move window to the next monitor below"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+msgid "Raise window if covered, otherwise lower it"
+msgstr "遮挡时提升窗口，否则降低窗口"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+msgid "Raise window above other windows"
+msgstr "将窗口提升到其他窗口之上"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+msgid "Lower window below other windows"
+msgstr "将窗口降低到其他窗口之下"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "垂直最大化窗口"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "水平最大化窗口"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "将窗口移至左上角"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "将窗口移至右上角"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "将窗口移至左下角"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "将窗口移至右下角"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "将窗口移至屏幕顶部边缘"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "将窗口移至屏幕底部边缘"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "将窗口移至屏幕右侧"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "将窗口移至屏幕左侧"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "将窗口移至屏幕中间"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "切换输入源"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "按键绑定-选择下一个输入源"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "反向切换输入源"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "按键绑定-选择上一个输入源"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#| msgid "Toggle window always appearing on top"
+msgid "Toggle window to be always on top"
+msgstr "切换窗口常居顶端"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#| msgid "Toggle window always appearing on top"
+msgid "Set or unset window to appear always on top"
+msgstr "切换窗口常居顶端"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -1849,9 +2011,12 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
+"按下此修饰键并点击窗口会移动窗口(左键点击)、调整窗口大小(中键点击)或显示窗口"
+"菜单(右键点击)。中键和右键点击操作可通过“resize-with-right-button”键调换。修"
+"饰键的形式是 <![CDATA[\"<Alt>\"]]> 或 <![CDATA[\"<Super>\"]]>。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Whether to resize with the right button"
@@ -1863,6 +2028,8 @@ msgid ""
 "middle button while holding down the key given in \"mouse-button-modifier\"; "
 "set it to false to make it work the opposite way around."
 msgstr ""
+"设置为 true 可在按下“mouse-button-modifier”指定的键时点击鼠标右键调整窗口大小"
+"及点击中键显示菜单。设置为 false 则调换这两种功能。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:5
 msgid "Arrangement of buttons on the titlebar"
@@ -1878,6 +2045,10 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"标题栏中按钮的排列方式。值应该为字符串，如“menu:minimize,maximize,spacer,"
+"close”；冒号分隔窗口的左上角和右上角，按钮名以逗号分隔。按钮不允许重复。未知"
+"的按钮名将直接忽略，以便将来的 metacity 版本增加按钮时不会破坏旧版本。可以使"
+"用特别的 spacer 标签在相邻按钮间增加一些空间。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:7
 msgid "Window focus mode"
@@ -1891,6 +2062,9 @@ msgid ""
 "and \"mouse\" means windows are focused when the mouse enters the window and "
 "unfocused when the mouse leaves the window."
 msgstr ""
+"窗口聚焦模式指示窗口如何激活。有三个可取值：“click”表示必须点击窗口来聚焦它"
+"们，“sloppy”表示在鼠标进入窗口时聚焦它们，以及“mouse”表示鼠标进入窗口时聚焦，"
+"移出窗口时失去焦点。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:9
 msgid "Control how new windows get focus"
@@ -1903,10 +2077,12 @@ msgid ""
 "mode, and \"strict\" results in windows started from a terminal not being "
 "given focus."
 msgstr ""
+"此选项对新创建的窗口如何获取焦点进行了更多的控制。有两个可取值：“smart”应用用"
+"户的正常聚焦方式，“strict”从终端启动的窗口不聚焦。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:11
 msgid "Whether raising should be a side-effect of other user interactions"
-msgstr ""
+msgstr "是否在进行其他用户交互时也提升"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:12
 msgid ""
@@ -1929,6 +2105,16 @@ msgid ""
 "and that they need to change this option back to true or live with the \"bug"
 "\" they requested."
 msgstr ""
+"将此选项设为 false 会导致不正常的行为，因此强烈建议用户不要修改默认值 true。"
+"很多操作(如点击客户区域，移动或调整窗口)通常也会提升窗口。将此选项设为 false "
+"(强烈不建议) 将使提升动作与其他用户操作分离，并忽略由应用程序产生的提升认请"
+"求。参阅 http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6。即使该选项为 "
+"false，用户依然可以通过 alt+左键点击窗口任意位置、正常点击窗口装饰、或分页程"
+"序的特殊消息(如任务列表小程序的激活请求)提升它。此选项当前在 click-to-focus "
+"模式下禁用。注意在 raise-on-click 为 false 时可提升窗口的这些方式并不包括应用"
+"程序编程的提升请求；这些请求将被忽略，无视请求原因。如果您是应用程序开发者并"
+"且有用户抱怨说此设置禁用时您的应用程序不工作了，告诉他们是他们自己不该破坏窗"
+"口管理器的行为，他们应该将选项改回来，或者习惯这个“BUG”。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Action on title bar double-click"
@@ -1945,6 +2131,11 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"此选项指定双击标题栏的效果。目前有效选项包括：“toggle-shade”卷起/展开窗"
+"口，“toggle-maximize”最大化/还原窗口，“toggle-maximize-"
+"horizontally”及“toggle-maximize-vertically”横向及纵向最大化/还原窗"
+"口，“minimize”最小化窗口，“shade”卷起窗口，“menu”显示窗口菜单，“lower”将窗口"
+"降低到所有窗口之下，还有“none”什么也不做。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:15
 msgid "Action on title bar middle-click"
@@ -1961,6 +2152,11 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"此选项指定鼠标中键点击标题栏的效果。目前有效选项包括：“toggle-shade”卷起/展开"
+"窗口，“toggle-maximize”最大化/还原窗口，“toggle-maximize-"
+"horizontally”及“toggle-maximize-vertically”横向及纵向最大化/还原窗"
+"口，“minimize”最小化窗口，“shade”卷起窗口，“menu”显示窗口菜单，“lower”将窗口"
+"降低到所有窗口之下，还有“none”什么也不做。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:17
 msgid "Action on title bar right-click"
@@ -1977,6 +2173,11 @@ msgid ""
 "the window menu, 'lower' which will put the window behind all the others, "
 "and 'none' which will not do anything."
 msgstr ""
+"此选项指定鼠标右键点击标题栏的效果。目前有效选项包括：“toggle-shade”卷起/展开"
+"窗口，“toggle-maximize”最大化/还原窗口，“toggle-maximize-"
+"horizontally”及“toggle-maximize-vertically”横向及纵向最大化/还原窗"
+"口，“minimize”最小化窗口，“shade”卷起窗口，“menu”显示窗口菜单，“lower”将窗口"
+"降低到所有窗口之下，还有“none”什么也不做。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:19
 msgid "Automatically raises the focused window"
@@ -1989,6 +2190,8 @@ msgid ""
 "the auto-raise-delay key. This is not related to clicking on a window to "
 "raise it, nor to entering a window during drag-and-drop."
 msgstr ""
+"如果设为 true，且聚焦模式为“sloppy”或“鼠标”时，聚焦的窗口会在 auto-raise-"
+"delay 键指定的延时之后自动提升。这与点击提升窗口或拖放到窗口无关。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:21
 msgid "Delay in milliseconds for the auto raise option"
@@ -2031,6 +2234,9 @@ msgid ""
 "set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
 "option is set to true."
 msgstr ""
+"一个描述窗口标题栏字体的字符串。描述中的字号只有在 titlebar-font-size 选项设"
+"置为 0 时才会使用。并且，在将 titlebar-uses-desktop-font 选项设置为 true 时会"
+"禁用此选项。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:29
 msgid "Number of workspaces"
@@ -2047,13 +2253,15 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:31
 msgid "System Bell is Audible"
-msgstr ""
+msgstr "系统铃声可闻"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:32
 msgid ""
 "Determines whether applications or the system can generate audible 'beeps'; "
 "may be used in conjunction with 'visual bell' to allow silent 'beeps'."
 msgstr ""
+"指定应用程序或系统是否能够产生能听到的“beeps”(哔)声；可与“可见铃声”合用，以产"
+"生无声的“beeps”。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:33
 msgid "Enable Visual Bell"
@@ -2065,6 +2273,8 @@ msgid ""
 "'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
+"在应用程序或系统发出“bell”或“beep”声时开启视觉指示；用于失聪用户以及嘈杂环"
+"境。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:35
 msgid "Visual Bell Type"
@@ -2080,10 +2290,14 @@ msgid ""
 "is unknown (as is usually the case for the default \"system beep\"), the "
 "currently focused window's titlebar is flashed."
 msgstr ""
+"告诉窗口管理器如何在系统蜂鸣或另一款应用程序蜂鸣时发出视觉提示。目前有两个有"
+"效值：“fullscreen-flash”全屏闪烁变白，以及“frame-flash”发出蜂鸣的应用程序标题"
+"栏闪烁。如果不知道哪个应用程序发出蜂鸣(默认的“系统蜂鸣”通常是这样)，当前聚焦"
+"的窗口会闪烁。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:37
 msgid "Disable misfeatures that are required by old or broken applications"
-msgstr ""
+msgstr "禁用旧的或已损坏的应用程序请求的异常功能。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:38
 msgid ""
@@ -2092,6 +2306,8 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
+"有些应用程序无视规范，会导致窗口管理器功能异常。此选项使窗口管理器以严格正确"
+"模式运行，使用户界面更加一致，前提是用户不需要运行那些表现异常的应用程序。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:39
 msgid "The names of the workspaces"
@@ -2104,6 +2320,8 @@ msgid ""
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (\"Workspace N\")."
 msgstr ""
+"定义分配给工作区的名称。如果名单长度越过了当前工作区数目，后续的名称将忽略。"
+"如果名单过短，或包括了空名称，缺少的值会以默认值代替(“工作区几”)。"
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.in.h:1
 msgid "The locale to use for dates / numbers formats"
@@ -2132,6 +2350,13 @@ msgid ""
 "SOCKS proxy is configured, it is used for all protocols, except that the "
 "http, https, and ftp proxy settings override it for those protocols only."
 msgstr ""
+"选择代理配置模式。支持的值有“none”、“manual”、“auto”。若为“none”，不使用代"
+"理。若为“auto”，将使用“autoconfig-url”键所指定的自动配置 URL。若为“manual”，"
+"将使用“/system/proxy/http”、“/system/proxy/https”、“/system/proxy/ftp”及“/"
+"system/proxy/socks”指定的代理。四种类型的代理在其“host”键不为空，“port”键不"
+"为 0 时有效。若配置了 http 代理但未配置 https 代理，则 http 代理也将用于 "
+"https。如果配置了 SOCKS 代理，它将用于所有协议，除非 http、https 和 ftp 协议"
+"有自己各自的代理设置。"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:3
 msgid "Automatic proxy configuration URL"
@@ -2382,9 +2607,6 @@ msgstr "代理经由的主机端口，在“/system/proxy/socks/host”中定义
 
 #~ msgid "Screensaver theme selection mode"
 #~ msgstr "屏幕保护程序主题选择方式"
-
-#~ msgid "Screensaver themes"
-#~ msgstr "屏幕保护程序主题"
 
 #~ msgid "The number of minutes to run before changing the screensaver theme."
 #~ msgstr "在切换屏幕保护程序主题前运行的分钟数。"
