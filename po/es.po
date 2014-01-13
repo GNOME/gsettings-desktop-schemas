@@ -4,15 +4,15 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Nicolás Satragno <nicoymatu9@hotmail.com>, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-12 08:08+0000\n"
-"PO-Revision-Date: 2013-12-12 11:08+0100\n"
+"POT-Creation-Date: 2014-01-12 06:42+0000\n"
+"PO-Revision-Date: 2014-01-13 14:11+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -636,6 +636,51 @@ msgstr "Tiempo de la pulsación secundaria"
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr ""
 "Tiempo en segundos antes de disparar una pulsación secundaria simulada."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Carpeta hija"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Lista de las rutas de configuración relativas en las que se guardan las "
+"carpetas de las aplicaciones. Cada carpeta usa el esquema org.gnome.desktop."
+"app-folders.folder."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Nombre de la carpeta"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+#| msgid "The names of the workspaces"
+msgid "The name of the application folder."
+msgstr "El nombre de la carpeta de la aplicación."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+#| msgid "Screensaver themes"
+msgid "Translate the name"
+msgstr "Traducir el nombre"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Indica si el nombre de la clave es un nombre de archivo que buscar en /usr/"
+"share/desktop-directories."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+#| msgid "Application ID"
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+#| msgid "The application that this policy is for."
+msgid "The list of ids of applications that are included in this this folder."
+msgstr "La lista de ID de aplicaciones que se incluyen en esta carpeta."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -2094,22 +2139,18 @@ msgid "Move window one workspace down"
 msgstr "Mover la ventana un área de trabajo hacia abajo"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
-#| msgid "Move window one workspace to the left"
 msgid "Move window to the next monitor on the left"
 msgstr "Mover la ventana a la pantalla de la izquierda"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
-#| msgid "Move window one workspace to the right"
 msgid "Move window to the next monitor on the right"
 msgstr "Mover la ventana a la pantalla de la derecha"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
-#| msgid "Move window to top left corner"
 msgid "Move window to the next monitor above"
 msgstr "Mover la ventana a la pantalla de arriba"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
-#| msgid "Move window to top left corner"
 msgid "Move window to the next monitor below"
 msgstr "Mover la ventana a la pantalla de abajo"
 
@@ -2939,9 +2980,6 @@ msgstr ""
 
 #~ msgid "Screensaver theme selection mode"
 #~ msgstr "Modo de selección del tema del salvapantallas"
-
-#~ msgid "Screensaver themes"
-#~ msgstr "Temas del salvapantallas"
 
 #~ msgid "The number of minutes to run before changing the screensaver theme."
 #~ msgstr ""
