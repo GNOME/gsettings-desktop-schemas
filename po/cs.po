@@ -1,16 +1,15 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-#
-# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013.
+# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-29 21:50+0000\n"
-"PO-Revision-Date: 2013-08-16 09:27+0200\n"
+"POT-Creation-Date: 2014-01-10 19:41+0000\n"
+"PO-Revision-Date: 2014-01-19 12:46+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -613,6 +612,46 @@ msgstr "Čas druhého kliknutí"
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Čas v sekundách do spuštění simulovaného druhého kliknutí."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Potomci složky"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Seznam relativních cest nastavení, ve kterých jsou uloženy aplikační složky. "
+"Každá ze složek používá schéma org.gnome.desktop.app-folders.folder."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Název složky"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+msgid "The name of the application folder."
+msgstr "Název složky aplikací."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Překládat název"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Zda je klíč „name“ názvem souboru, který se má vyhledat v /usr/share/"
+"desktop-directories."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+msgid "Applications"
+msgstr "Aplikace"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+msgid "The list of ids of applications that are included in this folder."
+msgstr "Seznam ID aplikací, které jsou obsaženy v této složce."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -2017,77 +2056,101 @@ msgid "Move window one workspace down"
 msgstr "Přesunout okno o jednu pracovní plochu dolů"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Move window to the next monitor on the left"
+msgstr "Přesunout okno na následující monitor vlevo"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Move window to the next monitor on the right"
+msgstr "Přesunout okno na následující monitor vpravo"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Move window to the next monitor above"
+msgstr "Přesunout okno na následující monitor nahoře"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to the next monitor below"
+msgstr "Přesunout okno na následující monitor dole"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Když je okno zakryté, přenést jej do popředí, v opačném odsunout do pozadí"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Přenést okno do popředí nad ostatní okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Odsunout okno do pozadí za ostatní okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Maximalizovat okno svisle"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Maximalizovat okno vodorovně"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Přesunout okno do levého horního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Přesunout okno do pravého horního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Přesunout okno do levého dolního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Přesunout okno do pravého dolního rohu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Přesunout okno k horní hraně obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Přesunout okno k dolní hraně obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Přesunout okno na pravou stranu obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Přesunout okno na levou stranu obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Přesunout okno na střed obrazovky"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Přepnout vstupní zdroj"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
-msgstr "Klávesová zkratka pro výběr následujícího vstupního zdroje"
+msgstr "Klávesová zkratka pro výběr následujícího vstupního zdroje."
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Přepnout zpět vstupní zdroj"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
-msgstr "Klávesová zkratka pro výběr předchozího vstupního zdroje"
+msgstr "Klávesová zkratka pro výběr předchozího vstupního zdroje."
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+msgid "Toggle window to be always on top"
+msgstr "Přepnout okno, aby se nacházelo vždy nahoře"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+msgid "Set or unset window to appear always on top"
+msgstr "Nastavit nebo zrušit nastavení okna, aby se nacházelo vždy nahoře nad ostatními okny."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2099,15 +2162,15 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Kliknutím na okno, zatím co držíte tuto modifikační klávesu, okno přesunete "
 "(kliknutí levým tlačítkem), změníte jeho velikost (kliknutí prostředním "
 "tlačítkem) nebo zobrazíte nabídku okna (kliknutí pravým tlačítkem). Význam "
 "kliknutí prostředním a pravým tlačítkem je možné prohodit pomocí klíče "
-"„resize-with-right-button“. Modifikátor se zapisuje například jako <![CDATA"
-"[\"<Alt>\"]]> nebo <![CDATA[\"<Super>\"]]>."
+"„resize-with-right-button“. Modifikátor se zapisuje například jako <!"
+"[CDATA[\"<Alt>\"]]> nebo <![CDATA[\"<Super>\"]]>."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Whether to resize with the right button"
