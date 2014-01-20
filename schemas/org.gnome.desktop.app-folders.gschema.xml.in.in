@@ -23,8 +23,22 @@
     <key name="apps" type="as">
       <default>[]</default>
       <_summary>Applications</_summary>
-      <_description>The list of IDs of applications that are included in
-      this folder.</_description>
+      <_description>The list of IDs of applications that are explicitly
+      included in this folder.</_description>
+    </key>
+    <key name="categories" type="as">
+      <default>[]</default>
+      <_summary>Categories</_summary>
+      <_description>A list of categories for which apps will be placed
+      into this folder by default, in addition to the apps that are
+      listed in the apps key.</_description>
+    </key>
+    <key name="excluded-apps" type="as">
+      <default>[]</default>
+      <_summary>Excluded applications</_summary>
+      <_description>A list of ids of applications that are excluded
+      from this folder. This can be used to remove applications that
+      would otherwise be included by category.</_description>
     </key>
   </schema>
 </schemalist>
