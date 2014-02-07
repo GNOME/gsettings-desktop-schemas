@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-20 23:06+0100\n"
-"PO-Revision-Date: 2014-01-20 23:06+0200\n"
+"POT-Creation-Date: 2014-02-07 01:18+0100\n"
+"PO-Revision-Date: 2014-02-07 01:20+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -666,8 +666,37 @@ msgid "Applications"
 msgstr "Aplicativos"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
-msgid "The list of IDs of applications that are included in this folder."
-msgstr "A lista de IDs dos aplicativos que están incluídos neste cartafol."
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr ""
+"A lista de IDs dos aplicativos que están incluídos explicitamente neste "
+"cartafol."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"A lista de categorías para as cales os aplicativos deben mostrarse neste "
+"cartafol por omisión, ademais dos aplicativos que están listados na chave "
+"apps."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "Aplicativos excluídos."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Unha lista de IDs de aplicativos que están excluídos deste cartafol. Isto "
+"pode usarse para quitar aplicativos que doutro xeito estarían incluídos na "
+"categoría."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1583,6 +1612,18 @@ msgstr "Indica se lembrar o uso de aplicativos"
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr "Se é FALSO, o uso de aplicativos non se monitorizará nin se grabará."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Enviar estatísticas cando os aplicativos son eliminados ou instalados"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Se é falso, non se enviará ningunha información anónima de instalación ou "
+"eliminación ao seu creador."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
