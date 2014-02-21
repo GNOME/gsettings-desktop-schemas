@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-01-10 19:41+0000\n"
-"PO-Revision-Date: 2014-01-14 23:09+0200\n"
+"POT-Creation-Date: 2014-02-21 09:14+0000\n"
+"PO-Revision-Date: 2014-02-21 23:10+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -620,7 +620,6 @@ msgid "Folder name"
 msgstr "Aplanko pavadinimas"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
-#| msgid "The names of the workspaces"
 msgid "The name of the application folder."
 msgstr "Programos aplanko pavadinimas."
 
@@ -636,14 +635,40 @@ msgstr ""
 "Ar pavadinimo raktas yra failo pavadinimas iš /usr/share/desktop-directories."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
-#| msgid "Application ID"
 msgid "Applications"
 msgstr "Programos"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
-#| msgid "The application that this policy is for."
-msgid "The list of ids of applications that are included in this this folder."
-msgstr "Programų identifikatorių iš šio aplanko sąrašas."
+#| msgid ""
+#| "The list of ids of applications that are included in this this folder."
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr "Išvardinti šiame aplanke išreikštinai įtrauktų programų ID."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Kategorijų sąrašas, kurioms programos bus numatytai patalpintos šiame "
+"aplanke papildant apps rakte nurodytas programas."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+#| msgid "Switch applications"
+msgid "Excluded applications"
+msgstr "Išskirtos programos"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Į šį aplanką neįtraukiamos programos. Galima naudoti programų pašalinimui, "
+"kurios priešingu atveju būtų įtrauktos pagal kategoriją."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1518,6 +1543,18 @@ msgstr "Ar atsiminti programų naudojimą"
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr "Jei NEIGIAMA, programos naudojimas nebus stebimas ir įrašomas."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Siųsti statistiką, kai programos pašalinamos arba įdiegiamos"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Jei NEIGIAMA, jokia anoniminė programų įdiegimo ar šalinimo informacija "
+"nebus siunčiama tiekėjui."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Suaktyvinti, kai naudotojo seansas neaktyvus"
@@ -2034,22 +2071,18 @@ msgid "Move window one workspace down"
 msgstr "Perkelti langą į darbalaukį žemiau"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
-#| msgid "Move window one workspace to the left"
 msgid "Move window to the next monitor on the left"
 msgstr "Perkelti langą į kitą monitorių kairėje"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
-#| msgid "Move window one workspace to the right"
 msgid "Move window to the next monitor on the right"
 msgstr "Perkelti langą į kitą monitorių dešinėje"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
-#| msgid "Move window to top left corner"
 msgid "Move window to the next monitor above"
 msgstr "Perkelti langą į kitą monitorių viršuje"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
-#| msgid "Move window to top left corner"
 msgid "Move window to the next monitor below"
 msgstr "Perkelti langą į kitą monitorių apačioje"
 
@@ -2126,12 +2159,10 @@ msgid "Binding to select the previous input source"
 msgstr "Susiejimas ankstesniam įvesties šaltiniui"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
-#| msgid "Toggle window always appearing on top"
 msgid "Toggle window to be always on top"
 msgstr "Perjungti lango pasirodymą visuomet viršuje"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
-#| msgid "Toggle window always appearing on top"
 msgid "Set or unset window to appear always on top"
 msgstr "Perjungti lango pasirodymą visuomet viršuje"
 
