@@ -9,14 +9,14 @@
 # Marek Stępień <marcoos@aviary.pl>, 2007.
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2008-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2007-2013.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2014.
+# Aviary.pl <gnomepl@aviary.pl>, 2007-2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-31 23:30+0200\n"
-"PO-Revision-Date: 2013-08-31 23:31+0200\n"
+"POT-Creation-Date: 2014-03-03 00:04+0100\n"
+"PO-Revision-Date: 2014-03-02 00:05+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -631,6 +631,73 @@ msgstr "Czas drugiego przycisku"
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Czas w sekundach przez wywołaniem symulowanego drugiego przycisku."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Elementy potomne katalogu"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Lista względnych ścieżek ustawień, w których katalogi programów są "
+"przechowywane. Każdy katalog używa schematu \"org.gnome.desktop.app-folders."
+"folder\"."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Nazwa katalogu"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+msgid "The name of the application folder."
+msgstr "Nazwa katalogu programów."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Tłumaczenie nazwy"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Określa, czy klucz nazwy jest nazwą pliku wyszukiwaną w /usr/share/desktop-"
+"directories."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+msgid "Applications"
+msgstr "Programy"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr "Lista identyfikatorów programów, które są zawarte w tym katalogu."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Kategorie"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Lista kategorii, z których programy będą domyślnie umieszczane w tym "
+"katalogu, jako dodatek do programów z klucza listy programów."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "Wykluczone programy"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Lista identyfikatorów programów, które będą wykluczone z tego katalogu. Może "
+"to być używane do usuwania programów, które byłyby dołączone według "
+"kategorii."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1532,6 +1599,18 @@ msgstr ""
 "Jeśli ustawiono na wartość \"false\", to użycie programów nie będzie "
 "monitorowane i zapisywane."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Wysyłanie statystyk, kiedy programy są usuwane lub instalowane"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Jeśli ustawiono na wartość \"false\", to żadne anonimowe informacje o "
+"instalacji i usuwaniu nie będą wysyłane do dostawcy."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Aktywacja po bezczynności"
@@ -2063,77 +2142,101 @@ msgid "Move window one workspace down"
 msgstr "Przeniesienie okna o obszar roboczy w dół"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Move window to the next monitor on the left"
+msgstr "Przeniesienie okna na następny monitor po lewej"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Move window to the next monitor on the right"
+msgstr "Przeniesienie okna na następny monitor po prawej"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Move window to the next monitor above"
+msgstr "Przeniesienie okna na następny monitor na górze"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to the next monitor below"
+msgstr "Przeniesienie okna na następny monitor na dole"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Wysunięcie okna, jeśli jest zasłonięte, odsunięcie w przeciwnym wypadku"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Wysunięcie okna przed pozostałe"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Odsunięcie okna pod pozostałe"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Pionowa maksymalizacja okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Pozioma maksymalizacja okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Przeniesienie okna do lewej górnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Przeniesienie okna do prawej górnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Przeniesienie okna do lewej dolnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Przeniesienie okna do prawej dolnej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Przeniesienie okna na górną część ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Przeniesienie okna na dolną część ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Przeniesienie okna do prawej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Przeniesienie okna do lewej części ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Przeniesienie okna na środek ekranu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Przełączenie źródła wprowadzania"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Skrót do wyboru następnego źródła wprowadzania"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Przełączenie źródła wprowadzania wstecz"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Skrót do wyboru poprzedniego źródła wprowadzania"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+msgid "Toggle window to be always on top"
+msgstr "Przełączenie trybu okna zawsze na wierzchu"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+msgid "Set or unset window to appear always on top"
+msgstr "Włączenie lub wyłączenie trybu okna zawsze na wierzchu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
