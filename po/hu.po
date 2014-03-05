@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2012.
-# Balázs Úr <urbalazs at gmail dot com>, 2013.
+# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-29 21:50+0000\n"
-"PO-Revision-Date: 2013-09-22 18:36+0200\n"
+"POT-Creation-Date: 2014-03-05 09:14+0000\n"
+"PO-Revision-Date: 2014-03-05 21:32+0100\n"
 "Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: \n"
@@ -239,17 +239,17 @@ msgid ""
 "push: when the magnified mouse intersects a boundary of the zoom region, the "
 "contents are scrolled into view."
 msgstr ""
-"Meghatározza a nagyított egérkép elhelyezkedését a nagyított nézeten belül és "
-"azt, hogy hogyan reagáljon a rendszeregér mozgására. Az értékek lehetnek: - "
-"none: nincs egérkövetés; - centered: az egérkép a nagyított terület közepén "
-"jelenik meg (amely szintén a rendszeregér alatti pontot ábrázolja) és a "
-"nagyított tartalom úgy görgetődik, ahogy a rendszeregér mozog; - "
-"proportional: a nagyított egér elhelyezkedése a nagyított területen arányosan "
-"ugyanaz mint a rendszeregér helyzete a képernyőn; - push: amikor a nagyított "
-"egér metszi a nagyított terület határát, a tartalom a nézetbe lesz görgetve."
+"Meghatározza a nagyított egérkép elhelyezkedését a nagyított nézeten belül "
+"és azt, hogy hogyan reagáljon a rendszeregér mozgására. Az értékek lehetnek: "
+"- none: nincs egérkövetés; - centered: az egérkép a nagyított terület "
+"közepén jelenik meg (amely szintén a rendszeregér alatti pontot ábrázolja) "
+"és a nagyított tartalom úgy görgetődik, ahogy a rendszeregér mozog; - "
+"proportional: a nagyított egér elhelyezkedése a nagyított területen "
+"arányosan ugyanaz mint a rendszeregér helyzete a képernyőn; - push: amikor a "
+"nagyított egér metszi a nagyított terület határát, a tartalom a nézetbe lesz "
+"görgetve."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
-#| msgid "Mouse Tracking Mode"
 msgid "Focus Tracking Mode"
 msgstr "Fókuszkövetési mód"
 
@@ -274,7 +274,6 @@ msgstr ""
 "terület határát, a tartalom a nézetbe lesz görgetve."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
-#| msgid "Mouse Tracking Mode"
 msgid "Caret Tracking Mode"
 msgstr "Kurzorkövetési mód"
 
@@ -417,8 +416,8 @@ msgid ""
 "are clipped such that the ends of the horizontal and vertical lines surround "
 "the mouse image."
 msgstr ""
-"Meghatározza, hogy a szálkeresztek metsszék-e a nagyított egér sprite-ot vagy "
-"legyenek-e levágva mint az egérképet körülvevő vízszintes és függőleges "
+"Meghatározza, hogy a szálkeresztek metsszék-e a nagyított egér sprite-ot "
+"vagy legyenek-e levágva mint az egérképet körülvevő vízszintes és függőleges "
 "vonalak végei."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:27
@@ -628,6 +627,80 @@ msgstr "Másodlagos kattintás ideje"
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "A szimulált másodlagos kattintás aktiválása előtti idő másodpercben."
 
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Mappa gyermekek"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Azon relatív beállítások útvonalainak listája, ahol az alkalmazásmappák "
+"tárolva vannak. Minden mappa az org.gnome.desktop.app-folders.folder sémát "
+"használja."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Mappa neve"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+#| msgid "The names of the workspaces"
+msgid "The name of the application folder."
+msgstr "Az alkalmazásmappa neve."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Fordítsa le a nevet"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"A név kulcs egy olyan fájlnév-e, amelyet a /usr/share/desktop-directories "
+"helyen kell keresni."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+#| msgid "Application ID"
+msgid "Applications"
+msgstr "Alkalmazások"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+#| msgid "The application that this policy is for."
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr ""
+"Az alkalmazások azonosítóinak listája, amelyeket kifejezetten ez a mappa "
+"tartalmaz."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Kategóriák listája, hogy alapértelmezetten mely alkalmazások legyenek ebbe a "
+"mappába elhelyezve, ezenkívül azon alkalmazásokhoz, amelyek az alkalmazások "
+"kulcsban listázva vannak."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+#| msgid "Switch applications"
+msgid "Excluded applications"
+msgstr "Kizárt alkalmazások"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Az alkalmazások azonosítóinak listája, amelyek ki vannak zárva ebből a "
+"mappából. Ez használható azon alkalmazások eltávolításához, amelyeket "
+"egyébként tartalmaznak a kategóriák."
+
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
@@ -716,15 +789,14 @@ msgstr ""
 "Ha ez igazra van állítva, akkor a fájlkezelő jeleníti meg az asztal ikonjait."
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:1
-#| msgid "Automatically raises the focused window"
 msgid "Automatically update timezone"
 msgstr "Időzóna automatikus frissítése"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:2
-#| msgid "Whether to automatically mount media"
 msgid "Whether to automatically update the timezone using geolocation."
 msgstr ""
-"Frissítse-e automatikusan az időzónát a földrajzi elhelyezkedés használatával."
+"Frissítse-e automatikusan az időzónát a földrajzi elhelyezkedés "
+"használatával."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Default calendar"
@@ -811,9 +883,9 @@ msgid ""
 "in effect. The value is automatically capped to remain in the range [0, "
 "sources_length) as long as the sources list isn't empty."
 msgstr ""
-"A nulla-alapú index a jelenlegi hatásban megadott bemeneti források listájába."
-" Az érték automatikusan maximálva van, hogy a tartományban maradjon [0, "
-"sources_length) mindaddig, amíg a források listája nem üres."
+"A nulla-alapú index a jelenlegi hatásban megadott bemeneti források "
+"listájába. Az érték automatikusan maximálva van, hogy a tartományban "
+"maradjon [0, sources_length) mindaddig, amíg a források listája nem üres."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.in.h:3
 msgid "List of input sources"
@@ -1015,7 +1087,6 @@ msgstr ""
 "betűméret változtatása nélkül."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
-#| msgid "Text scaling factor"
 msgid "Window scaling factor"
 msgstr "Ablakméretezési tényező"
 
@@ -1526,15 +1597,24 @@ msgstr "Emlékezzen-e az alkalmazás használatára"
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr "Ha HAMIS, az alkalmazás használata nem lesz megfigyelve és rögzítve."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr ""
+"Statisztikák küldése, ha alkalmazásokat távolítanak el vagy telepítenek"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Ha HAMIS, nem kerülnek elküldésre névtelen telepítési vagy eltávolítási "
+"információk a gyártónak."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Aktiválás üresjáratban"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-#| msgid ""
-#| "Set this to TRUE to activate the screensaver when the session is idle. "
-#| "DEPRECATED: This key is deprecated and ignored. Set org.gnome.session."
-#| "idle-delay to 0 if you do not want to activate the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
@@ -1542,8 +1622,7 @@ msgid ""
 msgstr ""
 "Állítsa ezt IGAZRA a képernyővédő aktiválásához a munkamenet üresjáratában. "
 "ELAVULT: Ez a kulcs elavult és mellőzött. Állítsa az org.gnome.desktop."
-"session idle-"
-"delay értékét 0-ra, ha nem szeretné aktiválni a képernyővédőt."
+"session idle-delay értékét 0-ra, ha nem szeretné aktiválni a képernyővédőt."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -1718,7 +1797,8 @@ msgstr ""
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
-"Az asztali fájl azonosítók listája a keresőszolgáltatók rendezési sorrendjéhez"
+"Az asztali fájl azonosítók listája a keresőszolgáltatók rendezési "
+"sorrendjéhez"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
 msgid ""
@@ -2056,76 +2136,107 @@ msgid "Move window one workspace down"
 msgstr "Ablak áthelyezése egy munkaterülettel lejjebb"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#| msgid "Move window one workspace to the left"
+msgid "Move window to the next monitor on the left"
+msgstr "Ablak áthelyezése a balra lévő következő monitorra"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#| msgid "Move window one workspace to the right"
+msgid "Move window to the next monitor on the right"
+msgstr "Ablak áthelyezése a jobbra lévő következő monitorra"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#| msgid "Move window to top left corner"
+msgid "Move window to the next monitor above"
+msgstr "Ablak áthelyezése a fent lévő következő monitorra"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#| msgid "Move window to top left corner"
+msgid "Move window to the next monitor below"
+msgstr "Ablak áthelyezése a lent lévő következő monitorra"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Fedett ablak előtérbe hozása, egyébként háttérbe küldése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Ablak más ablakok elé hozása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Ablak más ablakok mögé küldése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Ablak függőleges maximalizálása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Ablak vízszintes maximalizálása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Ablak áthelyezése a bal felső sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Ablak áthelyezése a jobb felső sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Ablak áthelyezése a bal alsó sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Ablak áthelyezése a jobb alsó sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Ablak áthelyezése a képernyő felső oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Ablak áthelyezése a képernyő alsó oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Ablak áthelyezése a képernyő jobb oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Ablak áthelyezése a képernyő bal oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Ablak áthelyezése a képernyő közepére"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Bemeneti forrás váltása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Gyorsbillentyű a következő bemeneti forrás kiválasztásához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Bemeneti forrás váltása visszafelé"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Gyorsbillentyű az előző bemeneti forrás kiválasztásához"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#| msgid "Toggle window always appearing on top"
+msgid "Toggle window to be always on top"
+msgstr "Ablak váltása mindig felül történő megjelenésre"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#| msgid "Toggle window always appearing on top"
+msgid "Set or unset window to appear always on top"
+msgstr ""
+"Ablak beállítása vagy a beállítás visszavonása, hogy mindig felül jelenjen meg"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2137,8 +2248,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Ezen billentyű nyomva tartása mellett az ablakra kattintva az ablak "
 "mozgatható (bal gomb) átméretezhető (középső gomb) vagy megjeleníthető az "
@@ -2534,11 +2645,11 @@ msgstr ""
 "Válassza ki a proxybeállítás módját. A támogatott értékek: „none”, „manual”, "
 "„auto”. Ha ez „none”, akkor a proxy-k nincsenek használatban. Ha ez „auto”, "
 "akkor az „autoconfig-url” kulcs által leírt automatikus beállító URL lesz "
-"használatban. Ha ez „manual”, akkor a „/system/proxy/http”, a "
-"„/system/proxy/https”, a „/system/proxy/ftp” és a „/system/proxy/socks” lesz "
-"használatban. Mind a 4 proxytípus engedélyezve van, ha a „host” kulcsuk nem "
-"üres és a „port” kulcsuk nem 0. Ha be van állítva egy HTTP proxy, de HTTPS "
-"proxy nincs, akkor szintén a HTTP proxy lesz a HTTPS-hez használva. Ha be van "
+"használatban. Ha ez „manual”, akkor a „/system/proxy/http”, a „/system/proxy/"
+"https”, a „/system/proxy/ftp” és a „/system/proxy/socks” lesz használatban. "
+"Mind a 4 proxytípus engedélyezve van, ha a „host” kulcsuk nem üres és a "
+"„port” kulcsuk nem 0. Ha be van állítva egy HTTP proxy, de HTTPS proxy "
+"nincs, akkor szintén a HTTP proxy lesz a HTTPS-hez használva. Ha be van "
 "állítva egy SOCKS proxy, akkor az minden protokollhoz használva lesz, kivéve "
 "ha HTTP, HTTPS és FTP proxybeállítások felülírják azt kizárólag ezekhez a "
 "protokollokhoz."
