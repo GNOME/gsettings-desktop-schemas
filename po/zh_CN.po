@@ -1,25 +1,27 @@
 # Chinese (China) translation for gsettings-desktop-schemas.
 # Copyright (C) 2010 gsettings-desktop-schemas's authors
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
+#
 # cedar1989 <leo.fanghuang@yahoo.com.cn>, 2010.
 # Wylmer Wang <wantinghard@gmail.com>, 2011, 2014.
 # YunQiang Su <wzssyqa@gmail.com>, 2011, 2012.
+# Sphinx Jiang <yishanj13@gmail.com>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-01-10 19:41+0000\n"
-"PO-Revision-Date: 2014-01-12 14:41+0800\n"
-"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"POT-Creation-Date: 2014-03-08 09:16+0000\n"
+"PO-Revision-Date: 2014-03-08 19:32+0800\n"
+"Last-Translator: Sphinx Jiang <yishanj13@gmail.com>\n"
+"Language-Team: Chinese Simplified <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.5\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
 msgid "Always show the Universal Access status icon"
@@ -561,43 +563,62 @@ msgstr "触发模拟次要点击前的秒数。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
 msgid "Folder children"
-msgstr ""
+msgstr "子文件夹"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
 msgid ""
 "List of relative settings paths at which app-folders are stored. Each folder "
 "uses the org.gnome.desktop.app-folders.folder schema."
 msgstr ""
+"保存应用文件夹的相对设置路径的列表。每个文件夹使用 org.gnome.desktop.app-"
+"folders.folder 格式。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
 msgid "Folder name"
-msgstr ""
+msgstr "文件夹名称"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
-#| msgid "The names of the workspaces"
 msgid "The name of the application folder."
-msgstr ""
+msgstr "应用程序文件夹的名称。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
-#| msgid "Screensaver themes"
 msgid "Translate the name"
-msgstr ""
+msgstr "翻译该名称"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
 msgid ""
 "Whether the name key is a filename to be looked up in /usr/share/desktop-"
 "directories."
-msgstr ""
+msgstr "名称键是否是一个可以在 /usr/share/desktop-directories 中查找的文件名。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
-#| msgid "Application ID"
 msgid "Applications"
 msgstr "应用程序"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
-#| msgid "The application that this policy is for."
-msgid "The list of ids of applications that are included in this this folder."
-msgstr ""
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr "明确包含在此文件夹中的应用程序标识的列表。"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "分类"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr "对应分类的应用会默认放置在此文件夹的分类列表，除了那些在应用键列出的应用外。"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "排除应用程序"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr "从此文件夹中排除的应用的标识列表。可以用来移除那些按分类会包含进来的应用。"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1413,6 +1434,16 @@ msgstr "是否记住应用程序使用情况"
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr "如果为 FALSE，将不监视和记录应用程序使用情况。"
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "移除或安装应用时发送统计信息"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr "如果为 FALSE，将不会向厂商发送匿名的安装或移除信息。"
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "空闲时激活"
@@ -1901,24 +1932,20 @@ msgid "Move window one workspace down"
 msgstr "将窗口下移一个工作区"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
-#| msgid "Move window one workspace to the left"
 msgid "Move window to the next monitor on the left"
-msgstr ""
+msgstr "将窗口移到左边的显示器上"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
-#| msgid "Move window one workspace to the right"
 msgid "Move window to the next monitor on the right"
-msgstr ""
+msgstr "将窗口移到右边的显示器上"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
-#| msgid "Move window to top left corner"
 msgid "Move window to the next monitor above"
-msgstr ""
+msgstr "将窗口移到上边的显示器上"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
-#| msgid "Move window to top left corner"
 msgid "Move window to the next monitor below"
-msgstr ""
+msgstr "将窗口移到下边的显示器上"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
@@ -1993,12 +2020,10 @@ msgid "Binding to select the previous input source"
 msgstr "按键绑定-选择上一个输入源"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
-#| msgid "Toggle window always appearing on top"
 msgid "Toggle window to be always on top"
 msgstr "切换窗口常居顶端"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
-#| msgid "Toggle window always appearing on top"
 msgid "Set or unset window to appear always on top"
 msgstr "切换窗口常居顶端"
 
