@@ -1,14 +1,15 @@
 # gsettings-desktop-schemas's Portuguese translation.
-# Copyright © 2012, 2013 gsettings-desktop-schemas
+# Copyright © 2012, 2013, 2014 gsettings-desktop-schemas
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2012, 2013.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2012, 2013, 2014.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.10\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-23 01:14+0100\n"
-"PO-Revision-Date: 2013-09-23 01:20+0100\n"
+"Project-Id-Version: 3.12\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-18 21:17+0000\n"
+"PO-Revision-Date: 2014-03-18 23:15+0100\n"
 "Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
 "Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
 "Language: pt\n"
@@ -292,14 +293,14 @@ msgid ""
 "push: when the magnified caret intersects a boundary of the zoom region, the "
 "contents are scrolled into view"
 msgstr ""
-"Determina a posição do cursor dentro da vista ampliada. Os valores são - none: nenhum "
-"acompanhamento do cursor - centered: a imagem do cursor é apresentada no centro "
-"da região ampliada (que também representa o ponto sob o cursor de sistema) e o "
-"conteúdo ampliado rola à medida que o cursor de sistema se move - "
-"proportional: a posição do cursor ampliado na zona ampliada é "
-"proporcionalmente a mesma que a posição do cursor de sistema no ecrã - push: "
-"quando o cursor ampliado interseta uma fronteira da região ampliada, o "
-"conteúdo rola para dentro da vista."
+"Determina a posição do cursor dentro da vista ampliada. Os valores são - "
+"none: nenhum acompanhamento do cursor - centered: a imagem do cursor é "
+"apresentada no centro da região ampliada (que também representa o ponto sob "
+"o cursor de sistema) e o conteúdo ampliado rola à medida que o cursor de "
+"sistema se move - proportional: a posição do cursor ampliado na zona "
+"ampliada é proporcionalmente a mesma que a posição do cursor de sistema no "
+"ecrã - push: quando o cursor ampliado interseta uma fronteira da região "
+"ampliada, o conteúdo rola para dentro da vista."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:7
 msgid "Screen position"
@@ -621,6 +622,73 @@ msgstr "Atraso no clique secundário"
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Tempo em segundos até que um clique secundário seja executado."
 
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Descendentes da pasta"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Lista de caminhos relativos de definições em que são armazenados app-folders. "
+"Cada pasta utiliza o esquema org.gnome.desktop.app-folders.folder."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Nome da pasta"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+msgid "The name of the application folder."
+msgstr "O nome da pasta da aplicação."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Traduza o nome"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Se a chave de nome é um nome de ficheiro a ser procurado nos diretórios "
+"/usr/share/desktop-."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+msgid "Applications"
+msgstr "Aplicações"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr ""
+"A lista de IDs de aplicações que estão explicitamente incluidas nesta pasta."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Uma lista de categorias cujas aplicações, por omissão, serão colocadas "
+"nesta pasta, para além das aplicações listadas na chave apps."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "Aplicações excluidas"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Uma lista de IDs de aplicações que são excluidas desta pasta. Pode ser "
+"utilizado para remover aplicações que de outra forma seriam incluidas por "
+"categoria."
+
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
@@ -711,7 +779,9 @@ msgstr "Atualizar o fuso-horário automaticamente"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:2
 msgid "Whether to automatically update the timezone using geolocation."
-msgstr "Se actualizar automaticamente ou não o fuso-horário com base na geo-localização."
+msgstr ""
+"Se actualizar automaticamente ou não o fuso-horário com base na geo-"
+"localização."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Default calendar"
@@ -1527,6 +1597,18 @@ msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr ""
 "Se FALSO, a utilização das aplicações não será monitorizada nem recordada."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Enviar estatísticas quando aplicações são removidas ou instaladas"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Se FALSO, nenhuma informação anónima sobre instalação ou remoção será "
+"enviada para a distribuição."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Ativar quando _inativo"
@@ -1539,7 +1621,8 @@ msgid ""
 msgstr ""
 "Definir como VERDADEIRO para ativar a proteção de ecrã quando a sessão "
 "estiver inativa. OBSOLETA: Esta chave é obsoleta e ignorada. Defina org."
-"gnome.desktop.session idle-delay como 0 caso não deseje ativar a proteção de ecrã."
+"gnome.desktop.session idle-delay como 0 caso não deseje ativar a proteção de "
+"ecrã."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:3
 msgid "Lock on activation"
@@ -2057,76 +2140,100 @@ msgid "Move window one workspace down"
 msgstr "Mover a janela uma área de trabalho abaixo"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Move window to the next monitor on the left"
+msgstr "Mover a janela para o monitor seguinte à esquerda"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Move window to the next monitor on the right"
+msgstr "Mover a janela para o monitor seguinte à direita"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Move window to the next monitor above"
+msgstr "Mover a janela para o monitor seguinte acima"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to the next monitor below"
+msgstr "Mover a janela para o monitor seguinte abaixo"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Elevar a janela se estiver tapada, caso contrário baixá-la"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Elevar janela acima de outras janelas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Baixar janela abaixo de outras janelas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Maximizar janela verticalmente"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Maximizar janela horizontalmente"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Mover a janela para o canto superior esquerdo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Mover a janela para o canto superior direito"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Mover a janela para o canto inferior esquerdo"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Mover a janela para o canto inferior direito"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Mover a janela para o topo do ecrã"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Mover a janela para o fundo do ecrã"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Mover a janela para o lado direito do ecrã"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Mover a janela para o lado esquerdo do ecrã"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Mover a janela para o centro do ecrã"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Alternar a origem de entrada"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Associar para selecionar a origem de entrada seguinte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Alternar inversamente a origem de entrada"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Associar para selecionar a origem de entrada anterior"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+msgid "Toggle window to be always on top"
+msgstr "Alternar a janela para estar sempre no topo"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+msgid "Set or unset window to appear always on top"
+msgstr "Configurar janela para estar ou não sempre no topo"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2137,8 +2244,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Clicar numa janela durante a pressão desta tecla modificadora irá mover a "
 "janela (clique esquerdo), redimensionar a janela (clique do meio) ou "
