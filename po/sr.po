@@ -1,14 +1,14 @@
 # Serbian translation of gsettings-desktop-schemas.
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2012.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2012—2014.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012, 2013.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012—2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
 "=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-29 21:50+0000\n"
-"PO-Revision-Date: 2013-09-07 07:03+0200\n"
+"POT-Creation-Date: 2014-03-20 21:21+0000\n"
+"PO-Revision-Date: 2014-03-21 05:46+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -247,21 +247,10 @@ msgstr ""
 "преглед."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:3
-#| msgid "Mouse Tracking Mode"
 msgid "Focus Tracking Mode"
 msgstr "Режим праћења фокуса"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:4
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the focused widget within magnified view. The "
 "values are: - none: no focus tracking - centered: the focused image is "
@@ -278,25 +267,14 @@ msgstr ""
 "тачку под првим планом система) а увеличани садржај клизи како се помера "
 "први план система; „proportional“ (сразмерно) — положај увеличаног првог "
 "плана у области увећања је сразмерно исти као положај првог плана система на "
-"екрану; „push“ (гурање) — када увеличани први план пресретне границу "
-"области увећања, садржај бива померен у преглед"
+"екрану; „push“ (гурање) — када увеличани први план пресретне границу области "
+"увећања, садржај бива померен у преглед"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:5
-#| msgid "Mouse Tracking Mode"
 msgid "Caret Tracking Mode"
 msgstr "Режим праћења уметка"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.in.h:6
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the caret within magnified view. The values are: "
 "- none: no caret tracking - centered: the image of the caret is displayed at "
@@ -307,9 +285,9 @@ msgid ""
 "push: when the magnified caret intersects a boundary of the zoom region, the "
 "contents are scrolled into view"
 msgstr ""
-"Одређује положај уметка унутар увеличаног прегледа. Вредности су: „none“ "
-"(ништа) — уметак није праћен; „centered“ (усредиштено) — слика уметка се "
-"приказује у средишту области увећања (која такође представља тачку под "
+"Одређује положај уметка унутар увеличаног прегледа. Вредности су: "
+"„none“ (ништа) — уметак није праћен; „centered“ (усредиштено) — слика уметка "
+"се приказује у средишту области увећања (која такође представља тачку под "
 "уметком система) а увеличани садржај клизи како се помера уметак система; "
 "„proportional“ (сразмерно) — положај увеличаног уметка у области увећања је "
 "сразмерно исти као положај уметка система на екрану; „push“ (гурање) — када "
@@ -638,6 +616,75 @@ msgstr "Време секундарног клика"
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Време у секундима пре извршавања симулираног секундарног клика."
 
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Садржајност фасцикле"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Списак упутних путања подешавања на којима су смештене фасцикле програма. "
+"Свака фасцикла користи шему „org.gnome.desktop.app-folders.folder“."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Назив фасцикле"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+#| msgid "The names of the workspaces"
+msgid "The name of the application folder."
+msgstr "Назив фасцикле програма."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Преводи назив"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Да ли је кључ назива назив датотеке који ће бити потражен у „/usr/share"
+"/desktop-directories“."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+#| msgid "Application ID"
+msgid "Applications"
+msgstr "Програми"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+#| msgid "The application that this policy is for."
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr "Списак ИБ-ова програма који су изричито укључени у овој фасцикли."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Категорије"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Списак категорија по којима ће програми бити разврстани у овој фасцикли по "
+"основи, као додатак програмима који су исписани у кључу програма."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+#| msgid "Switch applications"
+msgid "Excluded applications"
+msgstr "Искључени програми"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Списак ИБ-ова програма који су искључени из ове фасцикле. Ово може бити "
+"коришћено за уклањање програма који би другачије били укључени категоријом."
+
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
 msgid "Picture Options"
@@ -728,12 +775,10 @@ msgstr ""
 "површи."
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:1
-#| msgid "Automatically raises the focused window"
 msgid "Automatically update timezone"
 msgstr "Самостално ажурирање временске зоне"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:2
-#| msgid "Whether to automatically mount media"
 msgid "Whether to automatically update the timezone using geolocation."
 msgstr "Да ли ће сам да ажурира временску зону користећи геолоцирање."
 
@@ -1025,7 +1070,6 @@ msgstr ""
 "величине словног лика."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.in.h:33
-#| msgid "Text scaling factor"
 msgid "Window scaling factor"
 msgstr "Чинилац размере прозора"
 
@@ -1518,24 +1562,30 @@ msgstr ""
 "-1, биће задржане у бесконачност."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:15
-#| msgid "Whether to remember recently used files"
 msgid "Whether to remember application usage"
 msgstr "Да ли да памти коришћење програма"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:16
-#| msgid "If FALSE, applications will not remember recently used files."
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr "Ако није изабрано, коришћење програма неће бити памћено и бележено."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Шаље податке када се уклоне или инсталирају програми"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Ако није изабрано, никакви анонимни подаци о инсталацији или уклањању неће "
+"бити послати продавцу."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Покреће када мирује"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:2
-#| msgid ""
-#| "Set this to TRUE to activate the screensaver when the session is idle. "
-#| "DEPRECATED: This key is deprecated and ignored. Set org.gnome.session."
-#| "idle-delay to 0 if you do not want to activate the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
@@ -2056,76 +2106,106 @@ msgid "Move window one workspace down"
 msgstr "Премешта прозор један радни простор на доле"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#| msgid "Move window one workspace to the left"
+msgid "Move window to the next monitor on the left"
+msgstr "Премешта прозор на следећи монитор на лево"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#| msgid "Move window one workspace to the right"
+msgid "Move window to the next monitor on the right"
+msgstr "Премешта прозор на следећи монитор на десно"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#| msgid "Move window to top left corner"
+msgid "Move window to the next monitor above"
+msgstr "Премешта прозор на следећи монитор изнад"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#| msgid "Move window to top left corner"
+msgid "Move window to the next monitor below"
+msgstr "Премешта прозор на следећи монитор испод"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Издиже прозор уколико га други прозор заклања, у противном га спушта"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Издиже прозор изнад осталих прозора"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Спушта прозор испод осталих прозора"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Увећава прозор усправно"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Увећава прозор водоравно"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Премешта прозор у горњи леви ћошак"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Премешта прозор у горњи десни ћошак"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Премешта прозор у доњи леви ћошак"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Премешта прозор у доњи десни ћошак"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Премешта прозор на горњу ивицу екрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Премешта прозор на доњу ивицу екрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Премешта прозор уз десну ивицу екрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Премешта прозор уз леву ивицу екрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Премешта прозор на средину екрана"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Промена извора улаза"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Пречица за избор следећег извора улаза"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Пребацивање извора улаза уназад"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Пречица за избор претходног извора улаза"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#| msgid "Toggle window always appearing on top"
+msgid "Toggle window to be always on top"
+msgstr "Пребацује приказивање прозора да буде увек на врху"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#| msgid "Toggle window always appearing on top"
+msgid "Set or unset window to appear always on top"
+msgstr "Подешава или расподешава приказивање прозора увек на врху"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2136,15 +2216,15 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Клик на прозор за време држања овог тастера ће преместити прозор (леви "
 "клик), променити величину прозора (средњи клик), или приказати изборник "
 "прозора (десни клик). Дејства средњег и десног клика могу бити размењена "
 "употребом кључа „resize_with_right_button“ (промени величину десним "
-"дугметом). Измењивач је изражен као <![CDATA[\"<Alt>\"]]> или <![CDATA"
-"[\"<Super>\"]]> на пример."
+"дугметом). Измењивач је изражен као <![CDATA[\"<Alt>\"]]> или <!"
+"[CDATA[\"<Super>\"]]> на пример."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:3
 msgid "Whether to resize with the right button"
