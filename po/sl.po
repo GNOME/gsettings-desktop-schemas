@@ -4,14 +4,15 @@
 #
 # Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2011.
 # Martin Srebotnjak  <miles@filmsi.net>, 2011.
+# Matej Urbančič <mateju@svn.gnome.org>, 2013-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-02 21:02+0000\n"
-"PO-Revision-Date: 2013-09-03 22:21+0100\n"
+"POT-Creation-Date: 2014-04-03 15:33+0000\n"
+"PO-Revision-Date: 2014-04-03 20:40+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -603,6 +604,63 @@ msgstr "Čas drugega klika"
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Čas v sekundah preden je sprožen simuliran drugotni klik."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Podrejeni predmeti mape"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Ime mape"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+msgid "The name of the application folder."
+msgstr "Ime mape programa."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Prevedi ime"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+msgid "Applications"
+msgstr "Programi"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr "Seznam vrednosti ID programov, ki so vključeni v mapi."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Kategorije"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "Izločeni programi"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1484,6 +1542,16 @@ msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr ""
 "Neizbrana možnost določi, da uporaba programov ne bo pomnjena in shranjena."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Pošlji podatke statistike ko so programi nameščeni ali odstranjeni"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Vključi ob nedejavnosti"
@@ -2001,76 +2069,100 @@ msgid "Move window one workspace down"
 msgstr "Prestavi okno eno delovno površino navzdol"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Move window to the next monitor on the left"
+msgstr "Premakni okno na zaslon na levi"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Move window to the next monitor on the right"
+msgstr "Premakni okno na zaslon na desni"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Move window to the next monitor above"
+msgstr "Premakni okno na zaslon zgoraj"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to the next monitor below"
+msgstr "Premakni okno na zaslon spodaj"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Dvigni okno, če ga prekriva drugo okno, sicer ga spusti"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Dvigni okno nad druga okna"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Spusti okno pod druga"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Razpni okno navpično"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Razpni okno vodoravno"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Premakni okno v zgornji levi kot"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Premakni okno v zgornji desni kot"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Premakni okno v spodnji levi kot"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Premakni okno v spodnji desni kot"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Premakni okno na zgornji rob zaslona"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Premakni okno na spodnji rob zaslona"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Premakni okno na desni del zaslona"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Premakni okno na levi del zaslona"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Premakni okno na sredino zaslona"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Preklopi vhodni vir"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Povezava za izbor naslednjega vhodnega vira namestiti."
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Preklopi nazaj vhodni vir"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Povezava za izbor predhodnega vhodnega vira"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+msgid "Toggle window to be always on top"
+msgstr "Preklopi prikaz okna vedno na vrhu"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+msgid "Set or unset window to appear always on top"
+msgstr "Nastavi ali odstrani nastavitev prikaza okna vedno na vrhu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2081,8 +2173,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Klik na okno ob držanju tipke spremenilnika bo premaknil okno (levi klik), "
 "spremenil velikost okna (srednji klik) ali pokazal meni okna (desni klik). "
