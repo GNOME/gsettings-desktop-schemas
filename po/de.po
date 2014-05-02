@@ -4,22 +4,23 @@
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2013.
 # Christian Kirbach <christian.kirbach@gmail.com>, 2013.
 # Wolfgang Stöggl <c72578@yahoo.de>, 2013.
+# Benjamin Steinwender <b@stbe.at>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-29 08:34+0000\n"
-"PO-Revision-Date: 2013-09-30 20:16+0200\n"
-"Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
+"POT-Creation-Date: 2014-05-02 10:25+0000\n"
+"PO-Revision-Date: 2014-05-01 19:17+0100\n"
+"Last-Translator: Benjamin Steinwender <b@stbe.at>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
 msgid "Always show the Universal Access status icon"
@@ -647,6 +648,76 @@ msgstr "Kontextklickzeit"
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "Zeit in Sekunden, bevor ein simulierter Kontextklick ausgelöst wird."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Unterordner"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Eine Liste relativer Einstellungspfade, in dem Anwendungsordner (app-folder) "
+"gespeichert werden. Jeder Ordner verwendet das Schema org.gnome.desktop.app-"
+"folders.folder ."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Ordnername"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+msgid "The name of the application folder."
+msgstr "Der Name des Anwendungsordners."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Den Namen übersetzen"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Gibt an, ob der Schlüsselname ein Dateiname ist, der in /usr/share/desktop-"
+"directories nachgeschlagen werden soll."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+msgid "Applications"
+msgstr "Anwendungen"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr ""
+"Die Liste der Anwendungskennungen, welche explizit in diesen Ordner "
+"enthalten sind."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Eine Kategorieliste, welche Anwendungen in diesen Ordner per Vorgabe "
+"zusätzlich zu den in den App-Schlüsseln gelisteten Anwendungen abgelegt "
+"werden."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "Ausgenommene Anwendungen"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Eine Liste der Anwendungskennungen, die von diesem Ordner ausgeschlossen "
+"werden. Dies kann zum Entfernen von Anwendungen genutzt werden, die "
+"andernfalls in dieser Kategorie enthalten wären."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1570,6 +1641,18 @@ msgstr ""
 "Falls deaktiviert, werden die Verwendung von Anwendungen überwacht und "
 "aufgezeichnet."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Statistiken senden, wenn Anwendungen entfernt oder installiert werden"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Wenn FALSCH, so werden keine anonymen Informationen über die Installation "
+"oder das Entfernen zum Hersteller gesendet."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Bei Untätigkeit aktivieren"
@@ -2003,7 +2086,7 @@ msgstr "Maximierungszustand ein-/ausschalten"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle window always appearing on top"
-msgstr "»Immer oben«-Zustand ein- oder ausschalten"
+msgstr "»Immer im Vordergrund« von Fenstern umschalten"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Maximize window"
@@ -2103,76 +2186,100 @@ msgid "Move window one workspace down"
 msgstr "Fenster eine Arbeitsfläche nach unten verschieben"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Move window to the next monitor on the left"
+msgstr "Fenster auf den nächsten Bildschirm nach links verschieben"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Move window to the next monitor on the right"
+msgstr "Fenster auf den nächsten Bildschirm nach rechts verschieben"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Move window to the next monitor above"
+msgstr "Fenster auf den nächsten Bildschirm nach oben verschieben"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to the next monitor below"
+msgstr "Fenster auf den nächsten Bildschirm nach unten verschieben"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Fenster anheben, falls es verdeckt ist, andernfalls absenken"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Fenster vor die anderen Fenster anheben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Fenster hinter die anderen Fenster absenken"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Fenster vertikal maximieren"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Fenster horizontal maximieren"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Fenster in obere linke Ecke des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Fenster in obere rechte Ecke des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Fenster in untere linke Ecke des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Fenster in untere rechte Ecke des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Fenster an den oberen Rand des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Fenster an den unteren Rand des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Fenster zur rechten Seite des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Fenster zur linken Seite des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Fenster in die Mitte des Bildschirms verschieben"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Eingabequelle wechseln"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Tastenkombination zur Auswahl der nächsten Eingabequelle"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Eingabequelle rückwärts wechseln"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Tastenkombination zur Auswahl der vorherigen Eingabequelle"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+msgid "Toggle window to be always on top"
+msgstr "»Immer im Vordergrund« von Fenstern umschalten"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+msgid "Set or unset window to appear always on top"
+msgstr "»Immer im Vordergrund« von Fenstern ein- oder ausschalten"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
