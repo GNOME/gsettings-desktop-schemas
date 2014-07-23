@@ -2,6 +2,7 @@ gdesktopincludedir = $(includedir)/gsettings-desktop-schemas
 gdesktopinclude_HEADERS = gdesktop-enums.h
 
 INTROSPECTION_GIRS =
+INTROSPECTION_SCANNER_ENV = CC="$(CC)"
 INTROSPECTION_SCANNER_ARGS = --add-include-path=$(srcdir)
 INTROSPECTION_COMPILER_ARGS = --includedir=$(srcdir)
 
