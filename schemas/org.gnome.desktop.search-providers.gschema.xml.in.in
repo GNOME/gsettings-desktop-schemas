@@ -16,11 +16,23 @@
     <key name="disabled" type="as">
       <default>[]</default>
       <_summary>
-        List of desktop file IDs for which search provider should be
-        disabled
+        List of desktop file IDs for which the associated default-enabled search provider
+        should be disabled
       </_summary>
       <_description>
         Results for applications contained in this list will not be displayed
+        when searching.
+      </_description>
+    </key>
+
+    <key name="enabled" type="as">
+      <default>[]</default>
+      <_summary>
+        List of desktop file IDs for which the associated default-disabled search provider
+        should be enabled
+      </_summary>
+      <_description>
+        Results for applications contained in this list will be displayed
         when searching.
       </_description>
     </key>
