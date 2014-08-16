@@ -2,15 +2,15 @@
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Pau Iranzo <paugnu@gmail.com>, 2011, 2012.
-# Gil Forcada <gilforcada@guifi.net>, 2012, 2013.
+# Gil Forcada <gilforcada@guifi.net>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-29 08:34+0000\n"
-"PO-Revision-Date: 2013-08-25 14:59+0200\n"
+"POT-Creation-Date: 2014-05-01 08:10+0000\n"
+"PO-Revision-Date: 2014-02-22 23:47+0100\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -620,6 +620,75 @@ msgstr "Temps del clic secundari"
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr "El temps, en segons, abans que es generi un clic secundari."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:1
+msgid "Folder children"
+msgstr "Carpeta filla"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:2
+msgid ""
+"List of relative settings paths at which app-folders are stored. Each folder "
+"uses the org.gnome.desktop.app-folders.folder schema."
+msgstr ""
+"Llista de camins relatius a paràmetres en els que es desen carpetes "
+"d'aplicació. Cada carpeta utilitza l'esquema org.gnome.desktop.app-folders."
+"folder."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:3
+msgid "Folder name"
+msgstr "Nom de carpeta"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
+msgid "The name of the application folder."
+msgstr "El nom de la carpeta d'aplicació."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:5
+msgid "Translate the name"
+msgstr "Tradueix el nom"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:6
+msgid ""
+"Whether the name key is a filename to be looked up in /usr/share/desktop-"
+"directories."
+msgstr ""
+"Si la clau de nom és un nom de fitxer que s'ha de consultar a /usr/share/"
+"desktop-directories."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
+msgid "Applications"
+msgstr "Aplicacions"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
+msgid ""
+"The list of IDs of applications that are explicitly included in this folder."
+msgstr ""
+"La llista d'identificadors d'aplicacions que s'inclouen explícitament en "
+"aquesta carpeta."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:9
+msgid "Categories"
+msgstr "Categories"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:10
+msgid ""
+"A list of categories for which apps will be placed into this folder by "
+"default, in addition to the apps that are listed in the apps key."
+msgstr ""
+"Una llista de categories segons les quals les aplicacions, per defecte, es "
+"posaran en aquesta carpeta, a més a més de les aplicacions que es llisten a "
+"la clau aplicacions."
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
+msgid "Excluded applications"
+msgstr "Aplicacions excloses"
+
+#: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:12
+msgid ""
+"A list of IDs of applications that are excluded from this folder. This can "
+"be used to remove applications that would otherwise be included by category."
+msgstr ""
+"Una llista d'identificadors d'aplicacions que s'exclouran d'aquesta carpeta. "
+"Es pot fer servir per eliminar aplicacions que s'inclourien per categoria."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1538,6 +1607,18 @@ msgstr ""
 "Si és «FALSE» (fals), no es farà cap seguiment ni s'enregistrarà l'ús de les "
 "aplicacions."
 
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:17
+msgid "Send statistics when applications are removed or installed"
+msgstr "Envia estadístiques quan se suprimeixin o s'instal·lin aplicacions"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:18
+msgid ""
+"If FALSE, no anonymous installation or removal information will be sent to "
+"the vendor."
+msgstr ""
+"Si és «FALSE» (fals), no s'enviarà al proveïdor informació anònima sobre la "
+"instal·lació o supressió d'aplicacions."
+
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
 msgstr "Activa quan estigui inactiu"
@@ -2070,76 +2151,100 @@ msgid "Move window one workspace down"
 msgstr "Mou la finestra un espai de treball avall"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+msgid "Move window to the next monitor on the left"
+msgstr "Mou la finestra al monitor següent de l'esquerra"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+msgid "Move window to the next monitor on the right"
+msgstr "Mou la finestra al monitor següent de la dreta"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+msgid "Move window to the next monitor above"
+msgstr "Mou la finestra al monitor següent de sobre"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+msgid "Move window to the next monitor below"
+msgstr "Mou la finestra al monitor següent de sota"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Alça una finestra coberta per una altra, o sinó baixa-la"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Raise window above other windows"
 msgstr "Alça una finestra per damunt de les altres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Lower window below other windows"
 msgstr "Baixa la finestra sota les altres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Maximize window vertically"
 msgstr "Maximitza la finestra verticalment"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Maximize window horizontally"
 msgstr "Maximitza la finestra horitzontalment"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Move window to top left corner"
 msgstr "Mou la finestra a la cantonada superior esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Move window to top right corner"
 msgstr "Mou la finestra a la cantonada superior dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to bottom left corner"
 msgstr "Mou la finestra a la cantonada inferior esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to bottom right corner"
 msgstr "Mou la finestra a la cantonada inferior dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to top edge of screen"
 msgstr "Mou la finestra a la vora superior de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom edge of screen"
 msgstr "Mou la finestra a la vora inferior de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to right side of screen"
 msgstr "Mou la finestra a la vora dreta de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to left side of screen"
 msgstr "Mou la finestra a la vora esquerra de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to center of screen"
 msgstr "Mou la finestra al centre de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Switch input source"
 msgstr "Canvia de mètode d'entrada"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Binding to select the next input source"
 msgstr "Vinculació per seleccionar el mètode d'entrada següent"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source backward"
 msgstr "Canvia de mètode d'entrada cap endarrere"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the previous input source"
 msgstr "Vinculació per seleccionar el mètode d'entrada anterior"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+msgid "Toggle window to be always on top"
+msgstr "Commuta la finestra perquè sempre estigui per damunt"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+msgid "Set or unset window to appear always on top"
+msgstr "Estableix o treu que la finestra estigui sempre per damunt"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2742,3 +2847,13 @@ msgid ""
 msgstr ""
 "El port a l'ordinador definit a «/system/proxy/socks/host» que s'utilitza "
 "com a servidor intermediari."
+
+#, fuzzy
+#~| msgid "Switch to workspace 1"
+#~ msgid "Switch to last workspace"
+#~ msgstr "Canvia a l'espai de treball 1"
+
+#, fuzzy
+#~| msgid "Move window to workspace 1"
+#~ msgid "Move window to last workspace"
+#~ msgstr "Mou la finestra a l'espai de treball 1"
