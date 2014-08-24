@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-04-23 08:29+0000\n"
-"PO-Revision-Date: 2014-02-08 10:12+0100\n"
+"POT-Creation-Date: 2014-08-24 08:25+0000\n"
+"PO-Revision-Date: 2014-08-24 19:10+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -18,18 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Gtranslator 2.91.6\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Vždy zobrazovat stavovou ikonu zpřístupnění"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Tento klíč přepisuje automatické skrývání stavové ikony zpřístupnění v "
-"situaci, kdy nejsou funkce zpřístupnění zapnuty."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -54,6 +42,18 @@ msgstr "Čtení obrazovky"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Zda je zapnuté čtení obrazovky."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Vždy zobrazovat stavovou ikonu zpřístupnění"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Tento klíč přepisuje automatické skrývání stavové ikony zpřístupnění v "
+"situaci, kdy nejsou funkce zpřístupnění zapnuty."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1744,9 +1744,12 @@ msgstr ""
 "$XDG_DATA_DIR/gnome-shell/search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"Seznam ID souborů .desktop, pro které by měl být zakázán poskytovatel hledání"
+"Seznam ID souborů .desktop, pro které by měl být zakázán přidružený "
+"poskytovatel hledání, který je ve výchozím stavu povolen."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1756,10 +1759,25 @@ msgstr ""
 "Výsledky pro aplikace zahrnuté v tomto seznamu nebudou při hledání zobrazeny."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Seznam ID souborů .desktop, pro které by měl být povolen přidružený "
+"poskytovatel hledání, který je ve výchozím stavu zakázán."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Výsledky pro aplikace zahrnuté v tomto seznamu budou při hledání zobrazeny."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr "Seznam ID souborů .desktop určující pořadí poskytovatelů hledání"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -2582,6 +2600,34 @@ msgid ""
 msgstr ""
 "Určuje národní prostředí, které se má použít k zobrazení formátů dat, časů a "
 "čísel."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Geolokační služba je povolena."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr "Je-li zapnuto, je aplikacím umožněn přístup k informacím o pozici."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Maximální úroveň přesnosti pozice."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Nastavuje maximální úroveň přesnosti pozice, kterou mohou aplikace vidět. "
+"Platné volby jsou „country“ (země), „city“ (město), „neighborhood“ (okolí), "
+"„street“ (ulice) a „exact“ (přesně – typicky vyžaduje přijímač GPS). Mějte "
+"prosím na vědomí, že tímto se řídí jen to, co aplikacím dovolí knihovna "
+"GeoClue, a že aplikace mohou zjistit pozici uživatele samy pomocí síťových "
+"prostředků (třebaže jen v nejlepším případě s přesností na ulice)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
