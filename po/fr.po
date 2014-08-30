@@ -1,16 +1,18 @@
 # French translation for gsettings-desktop-schemas.
-# Copyright (C) 2012-2013 Listed translators
+# Copyright (C) 2012-2014 Listed translators
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Andre Matuch <andre.matuch@videotron.ca>, 2012.
 # Bruno Brouard <annoa.b@gmail.com>, 2012-2013.
+# Claude Paroz <claude@2xlibre.net>, 2014
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-16 09:14+0000\n"
-"PO-Revision-Date: 2014-03-16 14:18+0100\n"
+"POT-Creation-Date: 2014-08-30 08:23+0000\n"
+"PO-Revision-Date: 2014-08-30 11:35+0200\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -18,18 +20,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Toujours afficher l'icône d'état de l'accès universel"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Cette clé surcharge le masquage automatique de l'icône d'état de l'accès "
-"universel lorsqu'aucune fonction d'accessibilité n'est activée."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -54,6 +44,18 @@ msgstr "Lecteur d'écran"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Indique si le lecteur d'écran est activé."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Toujours afficher l'icône d'état de l'accès universel"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Cette clé surcharge le masquage automatique de l'icône d'état de l'accès "
+"universel lorsqu'aucune fonction d'accessibilité n'est activée."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -703,8 +705,8 @@ msgid ""
 "be used to remove applications that would otherwise be included by category."
 msgstr ""
 "Une liste des identifiants des applications qui sont exclues de ce dossier. "
-"Elle peut être utilisée pour retirer des applications qui seraient inclues du "
-"fait de leur catégorie."
+"Elle peut être utilisée pour retirer des applications qui seraient inclues "
+"du fait de leur catégorie."
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:23
@@ -1824,10 +1826,12 @@ msgstr ""
 "gnome-shell/search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
 "Liste des identificateurs de fichier desktop pour lesquels les outils de "
-"recherche sont désactivés"
+"recherche associés et activés par défaut doivent être désactivés"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1838,12 +1842,28 @@ msgstr ""
 "affichés lors d'une recherche."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Liste des identificateurs de fichier desktop pour lesquels les outils de "
+"recherche associés et désactivés par défaut doivent être activés"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Les résultats pour les applications contenues dans cette liste sont affichés "
+"lors d'une recherche."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "Liste des identificateurs de fichier desktop pour lesquels les résultats de "
 "recherche sont ordonnés"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1996,288 +2016,296 @@ msgid "Switch to workspace below"
 msgstr "Basculer vers l'espace de travail en dessous"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
+msgid "Switch to last workspace"
+msgstr "Basculer vers le dernier espace de travail"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
 msgid "Switch windows of an application"
 msgstr "Basculer entre les fenêtres d'une application"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
 msgid "Reverse switch windows of an application"
 msgstr "Basculer entre les fenêtres d'une application, à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
 msgid "Switch applications"
 msgstr "Basculer entre les applications"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
 msgid "Reverse switch applications"
 msgstr "Basculer entre les applications, à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
 msgid "Switch windows"
 msgstr "Basculer entre les fenêtres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Reverse switch windows"
 msgstr "Basculer entre les fenêtres, à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Switch system controls"
 msgstr "Basculer entre les contrôles de système"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Reverse switch system controls"
 msgstr "Basculer entre les contrôles de système, à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Switch windows of an app directly"
 msgstr "Basculer entre les fenêtres d'une application directement"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Reverse switch windows of an app directly"
 msgstr "Basculer entre les fenêtres d'une application, à l'envers directement"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Switch windows directly"
 msgstr "Basculer entre les fenêtres directement"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Reverse switch windows directly"
 msgstr "Basculer entre les fenêtres directement, à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Switch system controls directly"
 msgstr "Basculer entre les contrôles de système directement"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Reverse switch system controls directly"
 msgstr "Basculer entre les contrôles de système directement, à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Hide all normal windows"
 msgstr "Masquer toutes les fenêtres normales"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the activities overview"
 msgstr "Afficher la vue d'ensemble des activités"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
 msgid "Show the run command prompt"
 msgstr "Afficher la boîte de dialogue de lancement de commande"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Don't use"
 msgstr "Ne pas utiliser"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Activate the window menu"
 msgstr "Activer le menu de la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle fullscreen mode"
 msgstr "Activer ou désactiver le mode plein-écran"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle maximization state"
 msgstr "Activer ou désactiver l'état maximisé"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Toggle window always appearing on top"
 msgstr ""
 "Activer ou désactiver l'état où la fenêtre apparaît toujours au premier plan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Maximize window"
 msgstr "Maximiser la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Restore window"
 msgstr "Restaurer la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Toggle shaded state"
 msgstr "Activer ou désactiver l'état enroulé"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Minimize window"
 msgstr "Minimiser la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Close window"
 msgstr "Fermer la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Move window"
 msgstr "Déplacer la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Resize window"
 msgstr "Redimensionner la fenêtre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Toggle window on all workspaces or one"
 msgstr ""
 "Activer ou désactiver l'état où la fenêtre apparaît sur tous les espaces de "
 "travail ou sur un seul"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 1"
 msgstr "Déplacer la fenêtre vers l'espace de travail 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 2"
 msgstr "Déplacer la fenêtre vers l'espace de travail 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 3"
 msgstr "Déplacer la fenêtre vers l'espace de travail 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 4"
 msgstr "Déplacer la fenêtre vers l'espace de travail 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 5"
 msgstr "Déplacer la fenêtre vers l'espace de travail 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 6"
 msgstr "Déplacer la fenêtre vers l'espace de travail 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 7"
 msgstr "Déplacer la fenêtre vers l'espace de travail 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 8"
 msgstr "Déplacer la fenêtre vers l'espace de travail 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 9"
 msgstr "Déplacer la fenêtre vers l'espace de travail 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 10"
 msgstr "Déplacer la fenêtre vers l'espace de travail 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 11"
 msgstr "Déplacer la fenêtre vers l'espace de travail 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window to workspace 12"
 msgstr "Déplacer la fenêtre vers l'espace de travail 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+msgid "Move window to last workspace"
+msgstr "Déplacer la fenêtre vers le dernier espace de travail"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace to the left"
 msgstr "Déplacer la fenêtre d'un espace de travail vers la gauche"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace to the right"
 msgstr "Déplacer la fenêtre d'un espace de travail vers la droite"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Move window one workspace up"
 msgstr "Déplacer la fenêtre d'un espace de travail vers le haut"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Move window one workspace down"
 msgstr "Déplacer la fenêtre d'un espace de travail vers le bas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Move window to the next monitor on the left"
 msgstr "Déplacer la fenêtre vers le prochain écran à gauche"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Move window to the next monitor on the right"
 msgstr "Déplacer la fenêtre vers le prochain écran à droite"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Move window to the next monitor above"
 msgstr "Déplacer la fenêtre vers le prochain écran en haut"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to the next monitor below"
 msgstr "Déplacer la fenêtre vers le prochain écran en bas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Placer la fenêtre au-dessus des autres si elle est recouverte, sinon au-"
 "dessous"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Raise window above other windows"
 msgstr "Placer la fenêtre au-dessus des autres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Lower window below other windows"
 msgstr "Placer la fenêtre au-dessous des autres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Maximize window vertically"
 msgstr "Maximiser la fenêtre verticalement"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Maximize window horizontally"
 msgstr "Maximiser la fenêtre horizontalement"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to top left corner"
 msgstr "Déplacer la fenêtre dans le coin supérieur gauche"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to top right corner"
 msgstr "Déplacer la fenêtre dans le coin supérieur droite"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to bottom left corner"
 msgstr "Déplacer la fenêtre dans le coin inférieur gauche"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom right corner"
 msgstr "Déplacer la fenêtre dans le coin inférieur droite"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to top edge of screen"
 msgstr "Déplacer la fenêtre vers le bord supérieur de l'écran"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to bottom edge of screen"
 msgstr "Déplacer la fenêtre vers le bord inférieur de l'écran"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to right side of screen"
 msgstr "Déplacer la fenêtre vers le bord droit de l'écran"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Move window to left side of screen"
 msgstr "Déplacer la fenêtre vers le bord gauche de l'écran"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Move window to center of screen"
 msgstr "Déplacer la fenêtre au centre de l'écran"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source"
 msgstr "Parcourir les sources d'entrée"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the next input source"
 msgstr "Raccourci pour sélectionner la source d'entrée suivante"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
 msgid "Switch input source backward"
 msgstr "Parcourir les sources d'entrée à l'envers"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
 msgid "Binding to select the previous input source"
 msgstr "Raccourci pour sélectionner la source d'entrée précédente"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:87
 msgid "Toggle window to be always on top"
 msgstr ""
 "Activer ou désactiver l'état où la fenêtre apparaît toujours au premier plan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:88
 msgid "Set or unset window to appear always on top"
 msgstr ""
 "Activer ou désactiver l'état où la fenêtre apparaît toujours au premier plan"
@@ -2692,6 +2720,37 @@ msgstr ""
 "Spécifie la locale à utiliser pour l'affichage des dates, des heures et des "
 "nombres."
 
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Les services de géolocalisation sont activés."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr ""
+"Si vrai, les applications sont autorisées à accéder aux informations "
+"d'emplacement géographique."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Le niveau maximal de précision géographique."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Configure le niveau maximal de précision de l'emplacement géographique que "
+"les applications sont autorisées à voir. Les options valables sont « country » "
+"(pays), « city » (ville), « neighborhood » (voisinage), « street » (rue) et "
+"« exact » (qui requiert typiquement un récepteur GPS). Soyez conscient que "
+"ceci ne contrôle que ce que GeoClue permet aux applications de voir et que "
+"celles-ci peuvent trouver elles-mêmes l'emplacement de l'utilisateur à partir "
+"des ressources réseau (au mieux au niveau de précision de la rue)."
+
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
 msgstr "Mode de configuration du serveur mandataire"
@@ -2891,74 +2950,3 @@ msgid ""
 msgstr ""
 "Le port sur la machine définie par « /system/proxy/socks/host » à utiliser "
 "pour le service mandataire."
-
-#~ msgid "Menus Have Icons"
-#~ msgstr "Les menus disposent d'icônes"
-
-#~ msgid "Whether menus may display an icon next to a menu entry."
-#~ msgstr ""
-#~ "Si les menus peuvent afficher une icône à côté d'une entrée de menu."
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "Les boutons disposent des icônes"
-
-#~ msgid "Whether buttons may display an icon in addition to the button text."
-#~ msgstr ""
-#~ "Indique si les boutons peuvent afficher une icône en plus du texte de "
-#~ "bouton."
-
-#~ msgid "Show the 'Input Methods' menu"
-#~ msgstr "Afficher le menu « Méthodes de saisie »"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "change the input method."
-#~ msgstr ""
-#~ "Indique si les menus contextuels des entrées et d'affichages de texte "
-#~ "doivent présenter la possibilité de modifier la méthode de saisie."
-
-#~ msgid "Show the 'Unicode Control Character' menu"
-#~ msgstr "Afficher le menu « Caractère de contrôle Unicode »"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "insert control characters."
-#~ msgstr ""
-#~ "Indique si les menus contextuels d'entrées et d'affichages de texte "
-#~ "doivent présenter la possibilité d'insérer des caractères de contrôle."
-
-#~ msgid "Only show mnemonics on when the Alt key is pressed"
-#~ msgstr ""
-#~ "Afficher les mnémoniques uniquement lorsque la touche Alt est enfoncée"
-
-#~ msgid ""
-#~ "Whether mnemonics should be automatically shown and hidden when the user "
-#~ "presses the Alt key."
-#~ msgstr ""
-#~ "Indique si mnémoniques doivent être automatiquement montrées et cachées "
-#~ "lorsque l'utilisateur appuie sur la touche Alt."
-
-#~ msgid ""
-#~ "(Not implemented) Navigation works in terms of applications not windows"
-#~ msgstr ""
-#~ "La navigation fonctionne en terme d'applications au lieu de fenêtres (non "
-#~ "implémenté) "
-
-#~ msgid ""
-#~ "If true, then the WM works in terms of applications rather than windows. "
-#~ "The concept is a bit abstract, but in general an application-based setup "
-#~ "is more like the Mac and less like Windows. When you focus a window in "
-#~ "application-based mode, all the windows in the application will be "
-#~ "raised. Also, in application-based mode, focus clicks are not passed "
-#~ "through to windows in other applications. Application-based mode is, "
-#~ "however, largely unimplemented at the moment."
-#~ msgstr ""
-#~ "Si coché, le gestionnaire de fenêtres fonctionne en terme d'applications "
-#~ "au lieu de fenêtres. Le concept est un peu abstrait, mais en général une "
-#~ "configuration basée sur les applications est plus proche de celle du Mac "
-#~ "et plus éloigné de celle de Windows. Lorsque vous donnez le focus à une "
-#~ "fenêtre en configuration basée sur les applications, toutes les fenêtres "
-#~ "de l'application sont mises au premier plan. De plus, les clics de mise "
-#~ "au premier plan ne sont pas transmis aux fenêtres des autres "
-#~ "applications. La configuration basée sur les applications est, cependant, "
-#~ "largement non implémentée pour le moment."
