@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-02-07 00:20+0000\n"
-"PO-Revision-Date: 2014-02-08 16:34+0700\n"
+"POT-Creation-Date: 2014-09-02 08:26+0000\n"
+"PO-Revision-Date: 2014-09-04 11:41+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -18,19 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.3\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Selalu tampilkan ikon status Akses Universal"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Kunci ini menimpa penyembunyian otomatis ikon status Akses Universal ketika "
-"tak ada fitur aksesibilitas yang difungsikan."
+"X-Generator: Poedit 1.6.9\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -55,6 +43,18 @@ msgstr "Pembaca layar"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Apakah pembaca layar dinyalakan."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Selalu tampilkan ikon status Akses Universal"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Kunci ini menimpa penyembunyian otomatis ikon status Akses Universal ketika "
+"tak ada fitur aksesibilitas yang difungsikan."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1756,10 +1756,12 @@ msgstr ""
 "search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"Daftar dari ID berkas desktop yang bagi mereka penyedia pencarian mesti "
-"dimatikan"
+"Daftar dari ID berkas desktop yang bagi mereka penyedia pencarian baku-"
+"difungsikan mesti dimatikan"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1770,10 +1772,26 @@ msgstr ""
 "mencari."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Daftar dari ID berkas desktop yang bagi mereka penyedia pencarian baku-"
+"dimatikan mesti difungsikan"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Hasil bagi aplikasi yang dimuat dalam daftar ini akan ditampilkan ketika "
+"mencari."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr "Daftar dari ID berkas desktop bagi pengurutan penyedia pencarian"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1926,282 +1944,290 @@ msgid "Switch to workspace below"
 msgstr "Bertukar ke area kerja yang lebih bawah"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
+msgid "Switch to last workspace"
+msgstr "Ganti ke area kerja terakhir"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
 msgid "Switch windows of an application"
 msgstr "Berpindah antar jendela-jendela aplikasi"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
 msgid "Reverse switch windows of an application"
 msgstr "Berpindah mundur antar jendela-jendela aplikasi"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
 msgid "Switch applications"
 msgstr "Berpindah aplikasi"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
 msgid "Reverse switch applications"
 msgstr "Berpindah mundur aplikasi"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
 msgid "Switch windows"
 msgstr "Berpindah antar jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Reverse switch windows"
 msgstr "Berpindah mundur antar jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Switch system controls"
 msgstr "Berpindah kendali sistem"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Reverse switch system controls"
 msgstr "Berpindah mundur kendali sistem"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Switch windows of an app directly"
 msgstr "Berpindah antar jendela-jendela aplikasi seketika"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Reverse switch windows of an app directly"
 msgstr "Berpindah mundur antar jendela-jendela aplikasi seketika"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Switch windows directly"
 msgstr "Berpindah jendela seketika"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Reverse switch windows directly"
 msgstr "Berpindah mundur jendela seketika"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Switch system controls directly"
 msgstr "Berpindah kendali sistem seketika"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Reverse switch system controls directly"
 msgstr "Berpindah mundur kendali sistem seketika"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Hide all normal windows"
 msgstr "Sembunyikan semua jendela normal"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the activities overview"
 msgstr "Tampilkan ringkasan aktivitas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
 msgid "Show the run command prompt"
 msgstr "Tampilkan prompt jalankan perintah"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Don't use"
 msgstr "Jangan pakai"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Activate the window menu"
 msgstr "Aktifkan menu jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle fullscreen mode"
 msgstr "Jungkit mode layar penuh"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle maximization state"
 msgstr "Jungkit kondisi maksimum"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Toggle window always appearing on top"
 msgstr "Jungkitkan jendela selalu muncul di puncak"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Maximize window"
 msgstr "Maksimalkan ukuran jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Restore window"
 msgstr "Kembalikan ukuran jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Toggle shaded state"
 msgstr "Jungkit kondisi berbayang"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Minimize window"
 msgstr "Minimalkan ukuran jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Close window"
 msgstr "Menutup jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Move window"
 msgstr "Pindahkan jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Resize window"
 msgstr "Ubah ukuran jendela"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Toggle window on all workspaces or one"
 msgstr "Jungkit apakah jendela pada semua area kerja atau hanya satu"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 1"
 msgstr "Pindahkan jendela ke area kerja 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 2"
 msgstr "Pindahkan jendela ke area kerja 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 3"
 msgstr "Pindahkan jendela ke area kerja 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 4"
 msgstr "Pindahkan jendela ke area kerja 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 5"
 msgstr "Pindahkan jendela ke area kerja 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 6"
 msgstr "Pindahkan jendela ke area kerja 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 7"
 msgstr "Pindahkan jendela ke area kerja 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 8"
 msgstr "Pindahkan jendela ke area kerja 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 9"
 msgstr "Pindahkan jendela ke area kerja 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 10"
 msgstr "Pindahkan jendela ke area kerja 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 11"
 msgstr "Pindahkan jendela ke area kerja 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window to workspace 12"
 msgstr "Pindahkan jendela ke area kerja 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+msgid "Move window to last workspace"
+msgstr "Pindahkan jendela ke area kerja terakhir"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace to the left"
 msgstr "Pindahkan jendela ke area kerja kiri"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace to the right"
 msgstr "Pindahkan jendela ke area kerja kanan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Move window one workspace up"
 msgstr "Pindahkan jendela ke area kerja atas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Move window one workspace down"
 msgstr "Pindahkan jendela ke area kerja bawah"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Move window to the next monitor on the left"
 msgstr "Pindahkan jendela ke monitor selanjutnya di kiri"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Move window to the next monitor on the right"
 msgstr "Pindahkan jendela ke monitor selanjutnya di kanan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Move window to the next monitor above"
 msgstr "Pindahkan jendela ke monitor selanjutnya di atas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to the next monitor below"
 msgstr "Pindahkan jendela ke monitor selanjutnya di bawah"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Naikkan jendela bila terhalangi, bila tidak maka turunkan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Raise window above other windows"
 msgstr "Naikkan jendela ini di atas jendela-jendela lain"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Lower window below other windows"
 msgstr "Turunkan jendela di bawah jendela lain"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Maximize window vertically"
 msgstr "Maksimalkan ukuran jendela secara vertikal"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Maximize window horizontally"
 msgstr "Maksimalkan ukuran jendela secara horisontal"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to top left corner"
 msgstr "Pindahkan jendela ke pojok kiri atas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to top right corner"
 msgstr "Pindahkan jendela ke pojok kanan atas"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to bottom left corner"
 msgstr "Pindahkan jendela ke pojok kiri bawah"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom right corner"
 msgstr "Pindahkan jendela ke pojok kanan bawah"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to top edge of screen"
 msgstr "Pindahkan jendela ke tepi atas layar"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to bottom edge of screen"
 msgstr "Pindahkan jendela ke tepi bawah layar"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to right side of screen"
 msgstr "Pindahkan jendela ke tepi kanan layar"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Move window to left side of screen"
 msgstr "Pindahkan jendela ke tepi kiri layar"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Move window to center of screen"
 msgstr "Pindahkan jendela ke tengah layar"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source"
 msgstr "Tukar sumber masukan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the next input source"
 msgstr "Pengikatan untuk memilih sumber masukan selanjutnya"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
 msgid "Switch input source backward"
 msgstr "Tukar mundur sumber masukan"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
 msgid "Binding to select the previous input source"
 msgstr "Pengikatan untuk memilih sumber masukan sebelumnya"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:87
 msgid "Toggle window to be always on top"
 msgstr "Jungkitkan jendela agar selalu muncul di puncak"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:88
 msgid "Set or unset window to appear always on top"
 msgstr "Tata atau matikan jendela yang akan selalu di puncak"
 
@@ -2590,6 +2616,35 @@ msgid ""
 msgstr ""
 "Menyatakan locale yang dipakai untuk menampilkan tanggal, waktu, dan format "
 "bilangan."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Layanan geolokasi tak difungsikan."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr "Bila berisi true, aplikasi diijinkan mengakses informasi lokasi."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Tingkat akurasi lokasi maksimum."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Menata aras maksimum dari akurasi lokasi yang diijinkan dibaca oleh "
+"aplikasi. Opsi yang valid adalah 'country' (negara), 'city' (kota), "
+"'neighborhood' (lingkungan tetangga), 'street' (jalan), dan 'exact' (eksak) "
+"(biasanya perlu penerima GPS). Harap diingat bahwa ini hanya mengendalikan "
+"apa yang akan diijinkan dilihat dari GeoClue oleh aplikasi dan mereka dapat "
+"mencari lokasi pengguna sendiri memakai sumber daya jaringan (walaupun "
+"paling baik hanya akurasi aras jalan)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
