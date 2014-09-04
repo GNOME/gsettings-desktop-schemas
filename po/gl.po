@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-30 15:33+0200\n"
-"PO-Revision-Date: 2014-04-30 15:33+0200\n"
+"POT-Creation-Date: 2014-09-04 21:56+0200\n"
+"PO-Revision-Date: 2014-09-04 22:02+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -20,18 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.1\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Mostrar a icona do estado do Acceso universal sempre"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Esta chave sobrescribe o agochado automático da icona de estado do Acceso "
-"Universal cando non están activadas as características de accesibilidade."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -56,6 +44,18 @@ msgstr "Lector de pantalla"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Indica se o lector de pantalla está activado."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Mostrar a icona do estado do Acceso universal sempre"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Esta chave sobrescribe o agochado automático da icona de estado do Acceso "
+"Universal cando non están activadas as características de accesibilidade."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1796,9 +1796,11 @@ msgstr ""
 "apliativos en $XDG_DATA_DIR/gnome-shell/search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"Lista de los identificadores de ficheiros de escritorio para os que os "
+"Lista de los identificadores de ficheiros de escritorio para os que o "
 "fornecedores de busca deben desactivarse"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
@@ -1809,12 +1811,26 @@ msgstr ""
 "Os resultados para os aplicativos nesta lista non se mostrarán na busca."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Lista de los identificadores de ficheiros de escritorio para os que os "
+"fornecedores de busca deben activarse"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr "Os resultados para os aplicativos nesta lista mostraranse na busca."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "Lista dos identificadores de ficheiros de escritorio para a ordenación dos "
 "fornecedores de busca"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -2645,6 +2661,36 @@ msgid ""
 msgstr ""
 "Especifica a configuración rexional que usar para mostrar formatos de datas, "
 "horas e números."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Os servizos de xeolocalización están activados."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr ""
+"Se é verdadeiro, os aplicativos están permitidos a acceder á información da "
+"localización."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "O nivel de precisión máxima da localización."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Configura o nivel máximo de precisión da localización que os aplicativos "
+"poden ver. As opcións válidas son «pais», «cidade», «vecindario», «rúa» e "
+"«exacta» (normalmente require un receptor GPS). Teña en conta que isto só "
+"controla os aplicativos que usan GeoClue para ver e que poden buscar a "
+"localización do usuario por si mesmos usando recursos na rede (tendo en "
+"conta que o nivel de precisión de rúa é o mellor)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
