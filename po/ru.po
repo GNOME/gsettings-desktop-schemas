@@ -1,16 +1,16 @@
 # Russian translation for gsettings-desktop-schemas.
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Yuri Myasoedov <omerta13@yandex.ru>, 2012, 2013.
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-06-28 20:20+0000\n"
-"PO-Revision-Date: 2014-06-29 10:32+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"POT-Creation-Date: 2014-09-07 08:20+0000\n"
+"PO-Revision-Date: 2014-09-07 22:04+0400\n"
+"Last-Translator: Yuri Myasoedov <ymyasoedov@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -18,19 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Всегда показывать значок состояния универсального доступа"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Этот ключ отменяет автоматическое скрытие значка состояния универсального "
-"доступа, когда включены специальные возможности."
+"X-Generator: Poedit 1.6.9\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -55,6 +43,18 @@ msgstr "Чтение с экрана"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Включено ли чтение с экрана"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Всегда показывать значок состояния универсального доступа"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Этот ключ отменяет автоматическое скрытие значка состояния универсального "
+"доступа, когда включены специальные возможности."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1768,23 +1768,39 @@ msgstr ""
 "search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"Список идентификаторов desktop-файлов, для которых необходимо выключить поиск"
+"Список идентификаторов desktop-файлов, для которых необходимо отключить "
+"включённые по умолчанию средства поиска"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
 msgstr ""
-"Результаты для приложений, содержащихся в этом списке, не будут показаны при "
-"поиске."
+"Результаты для приложений из этого списка не будут показаны при поиске."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Список идентификаторов desktop-файлов, для которых необходимо включить "
+"отключённые по умолчанию средства поиска"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr "Результаты для приложений из этого списка будут показаны при поиске."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr "Порядок сортировки списка идентификаторов desktop-файлов"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1936,7 +1952,6 @@ msgid "Switch to workspace below"
 msgstr "Переключиться на рабочее место снизу"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
-#| msgid "Switch to workspace 1"
 msgid "Switch to last workspace"
 msgstr "Переключиться на последнее рабочее место"
 
@@ -2109,7 +2124,6 @@ msgid "Move window to workspace 12"
 msgstr "Переместить окно на рабочее место 12"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
-#| msgid "Move window to workspace 1"
 msgid "Move window to last workspace"
 msgstr "Переместить окно на последнее рабочее место"
 
@@ -2605,6 +2619,37 @@ msgstr ""
 "Указать локаль, которая будет использоваться для отображения даты, времени и "
 "чисел."
 
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Службы геолокации включены."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr ""
+"Если выбрано, то приложения будет разрешено получать доступ к информации о "
+"местоположении."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Максимальная точность местоположения."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Настраивает максимальную точность местоположения, которая доступна "
+"приложениям. Доступные параметры: «country» (страна), «city» (город), "
+"«neighborhood» (район), «street» (улица) и «exact» (максимальная точность; "
+"для этого уровня точности обычно требуется GPS-приёмник). Помните, что этот "
+"параметр управляет только тем, что GeoClue позволяет видеть приложениям, "
+"приложения могут определять местоположение пользователя, используя свои "
+"собственные сетевые ресурсы (в лучшем случае, с точностью до улицы)."
+
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
 msgstr "Режим настройки прокси-сервера"
@@ -2786,80 +2831,3 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/socks/host»."
-
-#~ msgid "Menus Have Icons"
-#~ msgstr "Значки в меню"
-
-#~ msgid "Whether menus may display an icon next to a menu entry."
-#~ msgstr "Показывать ли в меню значки в пунктах."
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "Значки в кнопках"
-
-#~ msgid "Whether buttons may display an icon in addition to the button text."
-#~ msgstr "Показывать ли значки в кнопках."
-
-#~ msgid "Show the 'Input Methods' menu"
-#~ msgstr "Показывать меню «Методы ввода»"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "change the input method."
-#~ msgstr "Показывать ли в контекстном меню пункты для изменения метода ввода."
-
-#~ msgid "Show the 'Unicode Control Character' menu"
-#~ msgstr "Показывать меню «Управляющие символы Unicode»"
-
-#~ msgid "Only show mnemonics on when the Alt key is pressed"
-#~ msgstr "Показывать мнемоники только при нажатии на клавишу Alt"
-
-#~ msgid ""
-#~ "Whether mnemonics should be automatically shown and hidden when the user "
-#~ "presses the Alt key."
-#~ msgstr ""
-#~ "Должны ли мнемоники автоматически показываться и скрываться при нажатии "
-#~ "пользователем на клавишу Alt."
-
-#~ msgid ""
-#~ "(Not implemented) Navigation works in terms of applications not windows"
-#~ msgstr "(Не реализовано) Навигация работает в нотации приложений, а не окон"
-
-#~ msgid ""
-#~ "If true, then the WM works in terms of applications rather than windows. "
-#~ "The concept is a bit abstract, but in general an application-based setup "
-#~ "is more like the Mac and less like Windows. When you focus a window in "
-#~ "application-based mode, all the windows in the application will be "
-#~ "raised. Also, in application-based mode, focus clicks are not passed "
-#~ "through to windows in other applications. Application-based mode is, "
-#~ "however, largely unimplemented at the moment."
-#~ msgstr ""
-#~ "Если установлен, тогда оконный менеджер работает в нотации приложений. "
-#~ "При передаче фокуса окну в режиме, основанном на приложениях, все окна "
-#~ "приложения появляются на переднем плане. В этом режиме щелчки смены "
-#~ "фокуса не передаются окнам в других приложениях. Этот режим в настоящий "
-#~ "момент не реализован."
-
-#~ msgid "Draw Desktop Background"
-#~ msgstr "Отрисовывать фон рабочего стола"
-
-#~ msgid "Have GNOME draw the desktop background."
-#~ msgstr "GNOME должен отрисовывать фон рабочего стола."
-
-#~ msgid "Default calendar application"
-#~ msgstr "Приложение календаря по умолчанию"
-
-#~ msgid "Whether the default calendar application needs a terminal to run."
-#~ msgstr "Требуется ли запуск терминала для приложения календаря."
-
-#~ msgid ""
-#~ "Argument used to execute programs in the terminal defined by the 'exec' "
-#~ "key."
-#~ msgstr ""
-#~ "Аргумент, используемый для запуска программ в терминале; задаётся ключом "
-#~ "«exec»."
-
-#~ msgid ""
-#~ "Set this to TRUE to activate the screensaver when the session is idle."
-#~ msgstr ""
-#~ "Установите значение в «TRUE», чтобы включать хранитель экрана в случае "
-#~ "простоя сеанса."
