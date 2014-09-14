@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-03-05 09:14+0000\n"
-"PO-Revision-Date: 2014-03-05 21:32+0100\n"
-"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
+"POT-Creation-Date: 2014-09-14 08:25+0000\n"
+"PO-Revision-Date: 2014-09-14 21:44+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -19,18 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Mindig jelenjen meg az Egyetemes hozzáférés állapotikon"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Ez a kulcs felülbírálja az Egyetemes hozzáférés állapotikon automatikus "
-"elrejtését, amikor nincsenek akadálymentesítési szolgáltatások engedélyezve."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -55,6 +43,18 @@ msgstr "Képernyőolvasó"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "A képernyőolvasó be van-e kapcsolva."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Mindig jelenjen meg az Egyetemes hozzáférés állapotikon"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Ez a kulcs felülbírálja az Egyetemes hozzáférés állapotikon automatikus "
+"elrejtését, amikor nincsenek akadálymentesítési szolgáltatások engedélyezve."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -645,7 +645,6 @@ msgid "Folder name"
 msgstr "Mappa neve"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:4
-#| msgid "The names of the workspaces"
 msgid "The name of the application folder."
 msgstr "Az alkalmazásmappa neve."
 
@@ -662,12 +661,10 @@ msgstr ""
 "helyen kell keresni."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:7
-#| msgid "Application ID"
 msgid "Applications"
 msgstr "Alkalmazások"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:8
-#| msgid "The application that this policy is for."
 msgid ""
 "The list of IDs of applications that are explicitly included in this folder."
 msgstr ""
@@ -688,7 +685,6 @@ msgstr ""
 "kulcsban listázva vannak."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.in.h:11
-#| msgid "Switch applications"
 msgid "Excluded applications"
 msgstr "Kizárt alkalmazások"
 
@@ -794,9 +790,7 @@ msgstr "Időzóna automatikus frissítése"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.in.h:2
 msgid "Whether to automatically update the timezone using geolocation."
-msgstr ""
-"Frissítse-e automatikusan az időzónát a földrajzi elhelyezkedés "
-"használatával."
+msgstr "Frissítse-e automatikusan az időzónát helymeghatározás használatával."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.in.h:1
 msgid "Default calendar"
@@ -1781,10 +1775,14 @@ msgstr ""
 "kulcsban lévő alkalmazások telepítették."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+#| msgid ""
+#| "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"Az asztali fájl azonosítók listája ahhoz, hogy mely keresőszolgáltató legyen "
-"letiltva"
+"Az asztali fájl azonosítók listája ahhoz, hogy mely hozzárendelt "
+"alapértelmezetten engedélyezett keresőszolgáltató legyen letiltva"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1795,12 +1793,33 @@ msgstr ""
 "kereséskor."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+#| msgid ""
+#| "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Az asztali fájl azonosítók listája ahhoz, hogy mely hozzárendelt "
+"alapértelmezetten letiltott keresőszolgáltató legyen engedélyezve"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#| msgid ""
+#| "Results for applications contained in this list will not be displayed "
+#| "when searching."
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Ezen a listán található alkalmazások találatai lesznek megjelenítve "
+"kereséskor."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "Az asztali fájl azonosítók listája a keresőszolgáltatók rendezési "
 "sorrendjéhez"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1952,291 +1971,296 @@ msgid "Switch to workspace below"
 msgstr "Átváltás a lenti munkaterületre"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
+#| msgid "Switch to workspace 1"
+msgid "Switch to last workspace"
+msgstr "Átváltás az utolsó munkaterületre"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
 msgid "Switch windows of an application"
 msgstr "Váltás egy alkalmazás ablakai között"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
 msgid "Reverse switch windows of an application"
 msgstr "Visszafelé váltás egy alkalmazás ablakai között"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
 msgid "Switch applications"
 msgstr "Váltás az alkalmazások között"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
 msgid "Reverse switch applications"
 msgstr "Visszafelé váltás az alkalmazások között"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
 msgid "Switch windows"
 msgstr "Váltás az ablakok között"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Reverse switch windows"
 msgstr "Visszafelé váltás az ablakok között"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Switch system controls"
 msgstr "Váltás a rendszer vezérlői közt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Reverse switch system controls"
 msgstr "Visszafelé váltás a rendszer vezérlői közt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Switch windows of an app directly"
 msgstr "Váltás egy alkalmazás ablakai között közvetlenül"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Reverse switch windows of an app directly"
 msgstr "Visszafelé váltás egy alkalmazás ablakai között közvetlenül"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Switch windows directly"
 msgstr "Váltás az ablakok közt közvetlenül"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Reverse switch windows directly"
 msgstr "Visszafelé váltás az ablakok között közvetlenül"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Switch system controls directly"
 msgstr "Váltás a rendszer vezérlői közt közvetlenül"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Reverse switch system controls directly"
 msgstr "Visszafelé váltás a rendszer vezérlői közt közvetlenül"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Hide all normal windows"
 msgstr "Minden normál ablak elrejtése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the activities overview"
 msgstr "A tevékenységek áttekintés megjelenítése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
 msgid "Show the run command prompt"
 msgstr "A parancs futtatása ablak megjelenítése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Don't use"
 msgstr "Ne használja"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Activate the window menu"
 msgstr "Ablakmenü aktiválása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle fullscreen mode"
 msgstr "Teljes képernyős üzemmód"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle maximization state"
 msgstr "Maximalizált állapot"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Toggle window always appearing on top"
 msgstr "Ablak mindig felül történő megjelenése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Maximize window"
 msgstr "Ablak maximalizálása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Restore window"
 msgstr "Ablak visszaállítása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Toggle shaded state"
 msgstr "Felgördített állapot átváltása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Minimize window"
 msgstr "Ablak minimalizálása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Close window"
 msgstr "Ablak bezárása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Move window"
 msgstr "Ablak áthelyezése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Resize window"
 msgstr "Ablak átméretezése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Toggle window on all workspaces or one"
 msgstr "Ablak megjelenítése minden munkaterületen vagy csak az egyiken"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 1"
 msgstr "Ablak áthelyezése az 1. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 2"
 msgstr "Ablak áthelyezése a 2. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 3"
 msgstr "Ablak áthelyezése a 3. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 4"
 msgstr "Ablak áthelyezése a 4. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 5"
 msgstr "Ablak áthelyezése az 5. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 6"
 msgstr "Ablak áthelyezése a 6. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 7"
 msgstr "Ablak áthelyezése a 7. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 8"
 msgstr "Ablak áthelyezése a 8. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 9"
 msgstr "Ablak áthelyezése a 9. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 10"
 msgstr "Ablak áthelyezése a 10. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 11"
 msgstr "Ablak áthelyezése a 11. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window to workspace 12"
 msgstr "Ablak áthelyezése a 12. munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#| msgid "Move window to workspace 1"
+msgid "Move window to last workspace"
+msgstr "Ablak áthelyezése az utolsó munkaterületre"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace to the left"
 msgstr "Ablak áthelyezése a balra lévő munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace to the right"
 msgstr "Ablak áthelyezése a jobbra lévő munkaterületre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Move window one workspace up"
 msgstr "Ablak áthelyezése egy munkaterülettel feljebb"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Move window one workspace down"
 msgstr "Ablak áthelyezése egy munkaterülettel lejjebb"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
-#| msgid "Move window one workspace to the left"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Move window to the next monitor on the left"
 msgstr "Ablak áthelyezése a balra lévő következő monitorra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
-#| msgid "Move window one workspace to the right"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Move window to the next monitor on the right"
 msgstr "Ablak áthelyezése a jobbra lévő következő monitorra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
-#| msgid "Move window to top left corner"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Move window to the next monitor above"
 msgstr "Ablak áthelyezése a fent lévő következő monitorra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
-#| msgid "Move window to top left corner"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to the next monitor below"
 msgstr "Ablak áthelyezése a lent lévő következő monitorra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Fedett ablak előtérbe hozása, egyébként háttérbe küldése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Raise window above other windows"
 msgstr "Ablak más ablakok elé hozása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Lower window below other windows"
 msgstr "Ablak más ablakok mögé küldése"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Maximize window vertically"
 msgstr "Ablak függőleges maximalizálása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Maximize window horizontally"
 msgstr "Ablak vízszintes maximalizálása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to top left corner"
 msgstr "Ablak áthelyezése a bal felső sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to top right corner"
 msgstr "Ablak áthelyezése a jobb felső sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to bottom left corner"
 msgstr "Ablak áthelyezése a bal alsó sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom right corner"
 msgstr "Ablak áthelyezése a jobb alsó sarokba"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to top edge of screen"
 msgstr "Ablak áthelyezése a képernyő felső oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to bottom edge of screen"
 msgstr "Ablak áthelyezése a képernyő alsó oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to right side of screen"
 msgstr "Ablak áthelyezése a képernyő jobb oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Move window to left side of screen"
 msgstr "Ablak áthelyezése a képernyő bal oldalához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Move window to center of screen"
 msgstr "Ablak áthelyezése a képernyő közepére"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source"
 msgstr "Bemeneti forrás váltása"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the next input source"
 msgstr "Gyorsbillentyű a következő bemeneti forrás kiválasztásához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
 msgid "Switch input source backward"
 msgstr "Bemeneti forrás váltása visszafelé"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
 msgid "Binding to select the previous input source"
 msgstr "Gyorsbillentyű az előző bemeneti forrás kiválasztásához"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
-#| msgid "Toggle window always appearing on top"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:87
 msgid "Toggle window to be always on top"
 msgstr "Ablak váltása mindig felül történő megjelenésre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
-#| msgid "Toggle window always appearing on top"
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:88
 msgid "Set or unset window to appear always on top"
 msgstr ""
-"Ablak beállítása vagy a beállítás visszavonása, hogy mindig felül jelenjen meg"
+"Ablak beállítása vagy a beállítás visszavonása, hogy mindig felül jelenjen "
+"meg"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:1
 msgid "Modifier to use for modified window click actions"
@@ -2624,6 +2648,36 @@ msgid ""
 msgstr ""
 "A dátumok, idők és számformátumok megjelenítéséhez használandó területi "
 "beállítás megadása."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "A helymeghatározási szolgáltatások engedélyezve vannak."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr ""
+"Ha igaz, az alkalmazásoknak engedélyezett a helyzeti információkhoz való "
+"hozzáférés."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "A helyzet legnagyobb pontossági szintje."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Beállítja a helyzet pontosságának azon legnagyobb szintjét, amelyet az "
+"alkalmazások láthatnak. Az érvényes beállítások: „ország”, „város”, "
+"„környék”, „utca” és „pontos” (tipikusan GPS-vevőt igényel). Ne feledkezzen "
+"meg arról, hogy ez csak azt vezérli, amit a GeoClue látni fog engedélyezni az "
+"alkalmazásoknak, és azok megtalálhatják a felhasználók saját helyzetét a "
+"hálózati erőforrások használatával (noha az utcaszintű pontosság a legjobb)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
