@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-01 08:10+0000\n"
-"PO-Revision-Date: 2014-02-22 23:47+0100\n"
+"POT-Creation-Date: 2014-09-14 08:25+0000\n"
+"PO-Revision-Date: 2014-09-14 13:56+0200\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -18,18 +18,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Mostra la icona d'estat de l'accés universal sempre"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Aquesta clau sobreescriu l'ocultació automàtica de la icona d'estat de "
-"l'accés universal si no hi ha cap funció d'accessibilitat activada."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -54,6 +42,18 @@ msgstr "Lector de pantalla"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Si està actiu el lector de pantalla."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Mostra la icona d'estat de l'accés universal sempre"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Aquesta clau sobreescriu l'ocultació automàtica de la icona d'estat de "
+"l'accés universal si no hi ha cap funció d'accessibilitat activada."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1794,10 +1794,12 @@ msgstr ""
 "search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"La llista d'identificadors de fitxers d'escriptori dels quals no s'hauria de "
-"proporcionar cerques"
+"Llista d'identificadors de fitxers d'escriptori dels quals s'hauria "
+"d'inhabilitar el proveïdor de cerca que per defecte està habilitat"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1808,12 +1810,28 @@ msgstr ""
 "fer cerques."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Llista d'identificadors de fitxers d'escriptori dels quals s'hauria "
+"d'habilitar el proveïdor de cerca que per defecte està inhabilitat"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Els resultats que retornen les aplicacions llistades aquí es mostraran en "
+"fer cerques."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "Ordenació de la llista d'identificadors de fitxers d'escriptori dels "
 "proveïdors de cerca"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1965,284 +1983,292 @@ msgid "Switch to workspace below"
 msgstr "Canvia a l'espai de treball de sota"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
+msgid "Switch to last workspace"
+msgstr "Canvia a l'espai de treball anterior"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
 msgid "Switch windows of an application"
 msgstr "Commutació de les finestres d'una aplicació"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
 msgid "Reverse switch windows of an application"
 msgstr "Inversió de la commutació de les finestres d'una aplicació"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
 msgid "Switch applications"
 msgstr "Commutació d'aplicacions"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
 msgid "Reverse switch applications"
 msgstr "Inversió de la commutació d'aplicacions"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
 msgid "Switch windows"
 msgstr "Commutació de finestres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Reverse switch windows"
 msgstr "Inversió de la commutació de les finestres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Switch system controls"
 msgstr "Commutació de controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Reverse switch system controls"
 msgstr "Inversió de la commutació de controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Switch windows of an app directly"
 msgstr "Commutació immediata de les finestres d'una aplicació"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Reverse switch windows of an app directly"
 msgstr "Inversió immediata de la commutació de les finestres d'una aplicació"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Switch windows directly"
 msgstr "Commutació immediata de finestres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Reverse switch windows directly"
 msgstr "Inversió directa de la commutació de les finestres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Switch system controls directly"
 msgstr "Commutació directa dels controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Reverse switch system controls directly"
 msgstr "Inversió directa de la commutació dels controls del sistema"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Hide all normal windows"
 msgstr "Oculta totes les finestres normals"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the activities overview"
 msgstr "Mostra la vista general d'activitats"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
 msgid "Show the run command prompt"
 msgstr "Mostra l'indicador d'execució d'aplicacions"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Don't use"
 msgstr "No l'utilitzis"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Activate the window menu"
 msgstr "Activa el menú de finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle fullscreen mode"
 msgstr "Commuta el mode a pantalla completa"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle maximization state"
 msgstr "Commuta l'estat de maximització"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Toggle window always appearing on top"
 msgstr "Commuta l'estat de sempre per damunt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Maximize window"
 msgstr "Maximitza la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Restore window"
 msgstr "Restaura la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Toggle shaded state"
 msgstr "Canvia l'estat d'ombrejat"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Minimize window"
 msgstr "Minimitza la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Close window"
 msgstr "Tanca la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Move window"
 msgstr "Mou la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Resize window"
 msgstr "Redimensiona la finestra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Toggle window on all workspaces or one"
 msgstr ""
 "Commuta la funció que fa que la finestra estigui en tots els espais de "
 "treball o només en un"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 1"
 msgstr "Mou la finestra a l'espai de treball 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 2"
 msgstr "Mou la finestra a l'espai de treball 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 3"
 msgstr "Mou la finestra a l'espai de treball 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 4"
 msgstr "Mou la finestra a l'espai de treball 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 5"
 msgstr "Mou la finestra a l'espai de treball 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 6"
 msgstr "Mou la finestra a l'espai de treball 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 7"
 msgstr "Mou la finestra a l'espai de treball 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 8"
 msgstr "Mou la finestra a l'espai de treball 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 9"
 msgstr "Mou la finestra a l'espai de treball 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 10"
 msgstr "Mou la finestra a l'espai de treball 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 11"
 msgstr "Mou la finestra a l'espai de treball 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window to workspace 12"
 msgstr "Mou la finestra a l'espai de treball 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+msgid "Move window to last workspace"
+msgstr "Mou la finestra a l'espai de treball anterior"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace to the left"
 msgstr "Mou la finestra un espai de treball a l'esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace to the right"
 msgstr "Mou la finestra un espai de treball a la dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Move window one workspace up"
 msgstr "Mou la finestra un espai de treball amunt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Move window one workspace down"
 msgstr "Mou la finestra un espai de treball avall"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Move window to the next monitor on the left"
 msgstr "Mou la finestra al monitor següent de l'esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Move window to the next monitor on the right"
 msgstr "Mou la finestra al monitor següent de la dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Move window to the next monitor above"
 msgstr "Mou la finestra al monitor següent de sobre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to the next monitor below"
 msgstr "Mou la finestra al monitor següent de sota"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Alça una finestra coberta per una altra, o sinó baixa-la"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Raise window above other windows"
 msgstr "Alça una finestra per damunt de les altres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Lower window below other windows"
 msgstr "Baixa la finestra sota les altres"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Maximize window vertically"
 msgstr "Maximitza la finestra verticalment"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Maximize window horizontally"
 msgstr "Maximitza la finestra horitzontalment"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to top left corner"
 msgstr "Mou la finestra a la cantonada superior esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to top right corner"
 msgstr "Mou la finestra a la cantonada superior dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to bottom left corner"
 msgstr "Mou la finestra a la cantonada inferior esquerra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom right corner"
 msgstr "Mou la finestra a la cantonada inferior dreta"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to top edge of screen"
 msgstr "Mou la finestra a la vora superior de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to bottom edge of screen"
 msgstr "Mou la finestra a la vora inferior de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to right side of screen"
 msgstr "Mou la finestra a la vora dreta de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Move window to left side of screen"
 msgstr "Mou la finestra a la vora esquerra de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Move window to center of screen"
 msgstr "Mou la finestra al centre de la pantalla"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source"
 msgstr "Canvia de mètode d'entrada"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the next input source"
 msgstr "Vinculació per seleccionar el mètode d'entrada següent"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
 msgid "Switch input source backward"
 msgstr "Canvia de mètode d'entrada cap endarrere"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
 msgid "Binding to select the previous input source"
 msgstr "Vinculació per seleccionar el mètode d'entrada anterior"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:87
 msgid "Toggle window to be always on top"
 msgstr "Commuta la finestra perquè sempre estigui per damunt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:88
 msgid "Set or unset window to appear always on top"
 msgstr "Estableix o treu que la finestra estigui sempre per damunt"
 
@@ -2647,6 +2673,37 @@ msgstr ""
 "Especifica la configuració local que s'utilitza per mostrar les dates, els "
 "temps i els formats de nombres."
 
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Els serveis de geolocalització estan habilitats."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr ""
+"Si és «true» (cert), les aplicacions poden accedir a informació sobre la "
+"ubicació."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Nivell màxim de precisió de la ubicació."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Configura el nivell màxim de precisió de la ubicació que es permet mostrar a "
+"les aplicacions. Les opcions vàlides són: «country» (país), «city» (ciutat), "
+"«neighborhood» (veïnat), «street» (carrer) i «exact» (exacte, normalment "
+"requereix un receptor de GPS). Tingueu en compte que això només controla el "
+"que la GeoClue permetrà veure a les aplicacions, aquestes poden utilitzar "
+"altres mitjans i recursos de xarxa per descobrir la ubicació de l'usuari (tot "
+"i que amb un nivell de precisió de carrer com a molt)."
+
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
 msgstr "Mode de configuració del servidor intermediari"
@@ -2847,13 +2904,3 @@ msgid ""
 msgstr ""
 "El port a l'ordinador definit a «/system/proxy/socks/host» que s'utilitza "
 "com a servidor intermediari."
-
-#, fuzzy
-#~| msgid "Switch to workspace 1"
-#~ msgid "Switch to last workspace"
-#~ msgstr "Canvia a l'espai de treball 1"
-
-#, fuzzy
-#~| msgid "Move window to workspace 1"
-#~ msgid "Move window to last workspace"
-#~ msgstr "Mou la finestra a l'espai de treball 1"
