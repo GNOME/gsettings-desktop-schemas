@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-16 23:54+0200\n"
-"PO-Revision-Date: 2014-02-22 23:47+0100\n"
+"POT-Creation-Date: 2014-09-14 19:06+0200\n"
+"PO-Revision-Date: 2014-09-14 13:56+0200\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca-XV\n"
@@ -1792,10 +1792,12 @@ msgstr ""
 "search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"La llista d'identificadors de fitxers d'escriptori dels quals no s'hauria de "
-"proporcionar cerques"
+"Llista d'identificadors de fitxers d'escriptori dels quals s'hauria "
+"d'inhabilitar el proveïdor de cerca que per defecte està habilitat"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1806,12 +1808,28 @@ msgstr ""
 "fer cerques."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Llista d'identificadors de fitxers d'escriptori dels quals s'hauria "
+"d'habilitar el proveïdor de cerca que per defecte està inhabilitat"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Els resultats que retornen les aplicacions llistades ací es mostraran en fer "
+"cerques."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "Ordenació de la llista d'identificadors de fitxers d'escriptori dels "
 "proveïdors de cerca"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1963,9 +1981,8 @@ msgid "Switch to workspace below"
 msgstr "Canvia a l'espai de treball de sota"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
-#, fuzzy
 msgid "Switch to last workspace"
-msgstr "Canvia a l'espai de treball 1"
+msgstr "Canvia a l'espai de treball anterior"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
 msgid "Switch windows of an application"
@@ -2138,9 +2155,8 @@ msgid "Move window to workspace 12"
 msgstr "Mou la finestra a l'espai de treball 12"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
-#, fuzzy
 msgid "Move window to last workspace"
-msgstr "Mou la finestra a l'espai de treball 1"
+msgstr "Mou la finestra a l'espai de treball anterior"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace to the left"
@@ -2656,15 +2672,17 @@ msgstr ""
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
 msgid "Geolocation services are enabled."
-msgstr ""
+msgstr "Els serveis de geolocalització estan habilitats."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
 msgid "If true, applications are allowed to access location information."
 msgstr ""
+"Si és «true» (cert), les aplicacions poden accedir a informació sobre la "
+"ubicació."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
 msgid "The maximum accuracy level of location."
-msgstr ""
+msgstr "Nivell màxim de precisió de la ubicació."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
 msgid ""
@@ -2675,6 +2693,13 @@ msgid ""
 "user's location on their own using network resources (albeit with street-"
 "level accuracy at best)."
 msgstr ""
+"Configura el nivell màxim de precisió de la ubicació que es permet mostrar a "
+"les aplicacions. Les opcions vàlides són: «country» (país), «city» (ciutat), "
+"«neighborhood» (veïnat), «street» (carrer) i «exact» (exacte, normalment "
+"requereix un receptor de GPS). Tingueu en compte que això només controla el "
+"que la GeoClue permetrà veure a les aplicacions, estes poden utilitzar "
+"altres mitjans i recursos de xarxa per descobrir la ubicació de l'usuari "
+"(tot i que amb un nivell de precisió de carrer com a molt)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
