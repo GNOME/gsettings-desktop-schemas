@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-19 22:30+0100\n"
-"PO-Revision-Date: 2014-03-15 14:05+0100\n"
+"POT-Creation-Date: 2014-09-20 17:20+0200\n"
+"PO-Revision-Date: 2014-09-20 13:48+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -16,18 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Vis altid statusikonet for tilgængelighed"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Denne nøgle tilsidesætter automatisk skjul af statusikonet for "
-"tilgængelighed, når der ikke er slået nogen tilgængelighedsfunktioner til."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -52,6 +40,18 @@ msgstr "Skærmoplæser"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Om skærmoplæseren er slået til."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Vis altid statusikonet for tilgængelighed"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Denne nøgle tilsidesætter automatisk skjul af statusikonet for "
+"tilgængelighed, når der ikke er slået nogen tilgængelighedsfunktioner til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1728,8 +1728,12 @@ msgstr ""
 "er installeret af programmer i $XDG_DATA_DIR/gnome-shell/search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
-msgstr "Liste af skrivebordsfil-id'er for hvilke søgeudbyder skal deaktiveres"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
+msgstr ""
+"Liste af skrivebordsfil-id'er for hvilke den associerede, som udgangspunkt "
+"aktiverede, søgeudbyder skal deaktiveres"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1740,11 +1744,27 @@ msgstr ""
 "ved søgning."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"Liste af skrivebordsfil-id'er for hvilke den associerede, som udgangspunkt "
+"deaktiverede, søgeudbyder skal aktiveres"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr ""
+"Resultater for programmer, der indeholdes i denne liste, vil blive vist ved "
+"søgning."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "Sorteringsrækkefølge for liste af skrivebordsfil-id'er for søgeudbydere"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -1896,282 +1916,290 @@ msgid "Switch to workspace below"
 msgstr "Skift til arbejdsområdet nedenunder"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
+msgid "Switch to last workspace"
+msgstr "Skift til sidste arbejdsområde"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
 msgid "Switch windows of an application"
 msgstr "Skift vinduer i et program"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:18
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
 msgid "Reverse switch windows of an application"
 msgstr "Skift vindue i program omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:19
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
 msgid "Switch applications"
 msgstr "Skift program"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:20
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
 msgid "Reverse switch applications"
 msgstr "Skift program omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:21
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
 msgid "Switch windows"
 msgstr "Skift vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:22
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
 msgid "Reverse switch windows"
 msgstr "Skift vinduer omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:23
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
 msgid "Switch system controls"
 msgstr "Skift systemkontroller"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:24
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
 msgid "Reverse switch system controls"
 msgstr "Skift systemkontroller omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:25
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
 msgid "Switch windows of an app directly"
 msgstr "Skift vinduer i et program direkte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:26
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
 msgid "Reverse switch windows of an app directly"
 msgstr "Skift vinduer i et program direkte omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:27
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
 msgid "Switch windows directly"
 msgstr "Skift vinduer direkte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:28
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
 msgid "Reverse switch windows directly"
 msgstr "Skift vinduer direkte omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:29
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
 msgid "Switch system controls directly"
 msgstr "Skift systemkontroller direkte"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:30
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
 msgid "Reverse switch system controls directly"
 msgstr "Skift systemkontroller direkte omvendt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:31
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
 msgid "Hide all normal windows"
 msgstr "Skjul alle normale vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:32
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
 msgid "Show the activities overview"
 msgstr "Vis aktivitetsoversigten"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:33
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
 msgid "Show the run command prompt"
 msgstr "Vis kør-kommandoprompten"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:34
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
 msgid "Don't use"
 msgstr "Brug ikke"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:35
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
 msgid "Activate the window menu"
 msgstr "Aktivér vinduesmenuen"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:36
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
 msgid "Toggle fullscreen mode"
 msgstr "Slå fuldskærmstilstand til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:37
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
 msgid "Toggle maximization state"
 msgstr "Slå maksimeringstilstand til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:38
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
 msgid "Toggle window always appearing on top"
 msgstr "Slå altid øverst-tilstand til/fra for vinduet"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:39
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
 msgid "Maximize window"
 msgstr "Maksimér vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:40
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
 msgid "Restore window"
 msgstr "Gendan vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:41
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
 msgid "Toggle shaded state"
 msgstr "Slå skyggetilstand til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:42
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
 msgid "Minimize window"
 msgstr "Minimér vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:43
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
 msgid "Close window"
 msgstr "Luk vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:44
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
 msgid "Move window"
 msgstr "Flyt vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:45
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
 msgid "Resize window"
 msgstr "Ændr størrelse på vindue"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:46
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
 msgid "Toggle window on all workspaces or one"
 msgstr "Slå visning af vindue på alle arbejdsområder til/fra"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:47
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
 msgid "Move window to workspace 1"
 msgstr "Flyt vindue til arbejdsområde 1"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:48
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
 msgid "Move window to workspace 2"
 msgstr "Flyt vindue til arbejdsområde 2"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:49
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
 msgid "Move window to workspace 3"
 msgstr "Flyt vindue til arbejdsområde 3"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:50
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
 msgid "Move window to workspace 4"
 msgstr "Flyt vindue til arbejdsområde 4"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:51
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
 msgid "Move window to workspace 5"
 msgstr "Flyt vindue til arbejdsområde 5"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:52
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
 msgid "Move window to workspace 6"
 msgstr "Flyt vindue til arbejdsområde 6"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:53
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
 msgid "Move window to workspace 7"
 msgstr "Flyt vindue til arbejdsområde 7"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:54
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
 msgid "Move window to workspace 8"
 msgstr "Flyt vindue til arbejdsområde 8"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:55
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
 msgid "Move window to workspace 9"
 msgstr "Flyt vindue til arbejdsområde 9"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:56
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
 msgid "Move window to workspace 10"
 msgstr "Flyt vindue til arbejdsområde 10"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:57
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
 msgid "Move window to workspace 11"
 msgstr "Flyt vindue til arbejdsområde 11"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:58
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
 msgid "Move window to workspace 12"
 msgstr "Flyt vindue til arbejdsområde 12"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:59
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+msgid "Move window to last workspace"
+msgstr "Flyt vindue til sidste arbejdsområde"
+
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
 msgid "Move window one workspace to the left"
 msgstr "Flyt vindue et arbejdsområde til venstre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
 msgid "Move window one workspace to the right"
 msgstr "Flyt vindue et arbejdsområde til højre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:61
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
 msgid "Move window one workspace up"
 msgstr "Flyt vindue et arbejdsområde opad"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:62
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
 msgid "Move window one workspace down"
 msgstr "Flyt vindue et arbejdsområde nedad"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:63
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
 msgid "Move window to the next monitor on the left"
 msgstr "Flyt vindue til næste skærm til venstre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:64
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
 msgid "Move window to the next monitor on the right"
 msgstr "Flyt vindue til næste skærm til højre"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:65
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
 msgid "Move window to the next monitor above"
 msgstr "Flyt vindue til næste skærm ovenover"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:66
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
 msgid "Move window to the next monitor below"
 msgstr "Flyt vindue til næste skærm nedenunder"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:67
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Hæv vindue hvis dækket, ellers sænk"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:68
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
 msgid "Raise window above other windows"
 msgstr "Hæv vindue over andre vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:69
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
 msgid "Lower window below other windows"
 msgstr "Sænk vindue under andre vinduer"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:70
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
 msgid "Maximize window vertically"
 msgstr "Maksimér vindue lodret"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:71
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
 msgid "Maximize window horizontally"
 msgstr "Maksimér vindue vandret"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:72
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
 msgid "Move window to top left corner"
 msgstr "Flyt vindue til øverste venstre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:73
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
 msgid "Move window to top right corner"
 msgstr "Flyt vindue til øverste højre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:74
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
 msgid "Move window to bottom left corner"
 msgstr "Flyt vindue til nederste venstre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:75
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
 msgid "Move window to bottom right corner"
 msgstr "Flyt vindue til nederste højre hjørne"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:76
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
 msgid "Move window to top edge of screen"
 msgstr "Flyt vindue til skærmens øverste kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:77
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
 msgid "Move window to bottom edge of screen"
 msgstr "Flyt vindue til skærmens nederste kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:78
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
 msgid "Move window to right side of screen"
 msgstr "Flyt vindue til skærmens højre kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:79
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
 msgid "Move window to left side of screen"
 msgstr "Flyt vindue til skærmens venstre kant"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:80
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
 msgid "Move window to center of screen"
 msgstr "Flyt vindue til skærmens midtpunkt"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:81
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
 msgid "Switch input source"
 msgstr "Skift inputkilde"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:82
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
 msgid "Binding to select the next input source"
 msgstr "Binding til at vælge næste inputkilde"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:83
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
 msgid "Switch input source backward"
 msgstr "Skift inputkilde baglæns"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:84
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
 msgid "Binding to select the previous input source"
 msgstr "Binding til at vælge forrige inputkilde"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:85
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:87
 msgid "Toggle window to be always on top"
 msgstr "Slå altid øverst-tilstand til/fra for vinduet"
 
-#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:86
+#: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:88
 msgid "Set or unset window to appear always on top"
 msgstr "Slå altid øverst-tilstand til/fra for vinduet"
 
@@ -2184,8 +2212,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <![CDATA"
-"[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as <!"
+"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Hvis et vindue klikkes når denne modifikationstast holdes nede, vil vinduet "
 "flyttes (venstreklik), ændre størrelse (midterklik) eller vise vinduesmenuen "
@@ -2557,6 +2585,33 @@ msgid ""
 msgstr ""
 "Angiv regionsindstillingen der skal bruges til at vise datoer, klokkeslæt og "
 "talformater."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Geolokaliseringstjenester er slået til."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr "Hvis sand, vil programmer kunne tilgå oplysninger om fysisk placering."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Det maksimale nøjagtignedsniveau for placering."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Indstiller det maksimale niveau af placeringsnøjagtighed, som programmer har "
+"lov til at se. Gyldige værdier er \"country\", \"city\", \"neighborhood\", "
+"\"street\" og \"exact\" (kræver typisk GPS-modtager). Husk at dette kun "
+"styrer hvad GeoClue vil tillade programmer at se, og de kan selv finde "
+"brugerens placering ved brug af netværksressourcer (dog højst på gadeniveau)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
