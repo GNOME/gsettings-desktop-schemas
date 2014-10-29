@@ -1,0 +1,99 @@
+<schemalist>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals" path="/org/gnome/desktop/peripherals/">
+    <child name="touchpad" schema="org.gnome.desktop.peripherals.touchpad"/>
+    <child name="keyboard" schema="org.gnome.desktop.peripherals.keyboard"/>
+    <child name="mouse" schema="org.gnome.desktop.peripherals.mouse"/>
+    <child name="trackball" schema="org.gnome.desktop.peripherals.trackball"/>
+    <child name="tablet" schema="org.gnome.desktop.peripherals.tablet"/>
+    <child name="touchscreen" schema="org.gnome.desktop.peripherals.touchscreen"/>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.touchpad" path="/org/gnome/desktop/peripherals/touchpad/">
+    <key name="scroll-method" enum="org.gnome.desktop.GDesktopTouchpadScrollMethod">
+      <default>'two-finger-scrolling'</default>
+      <_summary>Select the touchpad scroll method</_summary>
+      <_description>Select the touchpad scroll method. Supported values are: "disabled", "edge-scrolling", "two-finger-scrolling".</_description>
+    </key>
+    <key name="tap-to-click" type="b">
+      <default>false</default>
+      <_summary>Enable mouse clicks with touchpad</_summary>
+      <_description>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</_description>
+    </key>
+    <key name="send-events" enum="org.gnome.desktop.GDesktopDeviceSendEvents">
+      <default>'enabled'</default>
+      <_summary>Touchpad enabled</_summary>
+      <_description>Defines the situations in which the touchpad is enabled.</_description>
+    </key>
+    <key name="left-handed" enum="org.gnome.desktop.GDesktopTouchpadHandedness">
+      <default>'mouse'</default>
+      <summary>Touchpad button orientation</summary>
+      <description>Swap left and right mouse buttons for left-handed mice with 'left', 'right' for right-handed, 'mouse' to follow the mouse setting.</description>
+    </key>
+    <key name="speed" type="d">
+      <default>0</default>
+      <summary>Pointer speed</summary>
+      <description>Pointer speed for the touchpad. Accepted values are in the [-1..1] range (from "unaccelerated" to "fast"). A value of 0 is the system default.</description>
+      <range min="-1" max="1"/>
+    </key>
+    <key name="natural-scroll" type="b">
+      <default>false</default>
+      <summary>Natural scrolling</summary>
+      <description>Set this to TRUE to enable natural (reverse) scrolling for touchpads.</description>
+    </key>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.keyboard" path="/org/gnome/desktop/peripherals/keyboard/">
+    <key name="repeat" type="b">
+      <default>true</default>
+      <summary>Keyboard repeat</summary>
+      <description>Set this to TRUE to enable keyboard repeat.</description>
+    </key>
+    <key name="repeat-interval" type="u">
+      <default>30</default>
+      <summary>Key Repeat Interval</summary>
+      <description>Delay between repeats in milliseconds.</description>
+    </key>
+    <key name="delay" type="u">
+      <default>500</default>
+      <summary>Initial Key Repeat Delay</summary>
+      <description>Initial key repeat delay in milliseconds.</description>
+    </key>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.mouse" path="/org/gnome/desktop/peripherals/mouse/">
+    <key name="left-handed" type="b">
+      <default>false</default>
+      <summary>Mouse button orientation</summary>
+      <description>Swap left and right mouse buttons for left-handed mice.</description>
+    </key>
+    <key name="speed" type="d">
+      <default>0</default>
+      <summary>Pointer speed</summary>
+      <description>Pointer speed for mice. Accepted values are in the [-1..1] range (from "unaccelerated" to "fast"). A value of 0 is the system default.</description>
+      <range min="-1" max="1"/>
+    </key>
+    <key name="natural-scroll" type="b">
+      <default>false</default>
+      <summary>Natural scrolling</summary>
+      <description>Set this to TRUE to enable natural (reverse) scrolling for mice.</description>
+    </key>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.tablet">
+    <key name="display" type="as">
+      <default>["", "", ""]</default>
+      <_summary>Drawing tablet mapping</_summary>
+      <_description>EDID information of the monitor the tablet is mapped to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</_description>
+    </key>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.touchscreen">
+    <key name="display" type="as">
+      <default>["", "", ""]</default>
+      <_summary>Touchscreen display mapping</_summary>
+      <_description>EDID information of the monitor the touchscreen is mapped to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</_description>
+    </key>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.trackball" path="/org/gnome/desktop/peripherals/trackball/">
+    <key name="scroll-wheel-emulation-button" type="i">
+      <default>0</default>
+      <range min="0" max="24"/>
+      <_summary>Mouse wheel emulation button. 0 to disable the feature.</_summary>
+    </key>
+  </schema>
+</schemalist>
