@@ -10,18 +10,18 @@
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.touchpad" path="/org/gnome/desktop/peripherals/touchpad/">
     <key name="scroll-method" enum="org.gnome.desktop.GDesktopTouchpadScrollMethod">
       <default>'two-finger-scrolling'</default>
-      <_summary>Select the touchpad scroll method</_summary>
-      <_description>Select the touchpad scroll method. Supported values are: "disabled", "edge-scrolling", "two-finger-scrolling".</_description>
+      <summary>Select the touchpad scroll method</summary>
+      <description>Select the touchpad scroll method. Supported values are: "disabled", "edge-scrolling", "two-finger-scrolling".</description>
     </key>
     <key name="tap-to-click" type="b">
       <default>false</default>
-      <_summary>Enable mouse clicks with touchpad</_summary>
-      <_description>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</_description>
+      <summary>Enable mouse clicks with touchpad</summary>
+      <description>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</description>
     </key>
     <key name="send-events" enum="org.gnome.desktop.GDesktopDeviceSendEvents">
       <default>'enabled'</default>
-      <_summary>Touchpad enabled</_summary>
-      <_description>Defines the situations in which the touchpad is enabled.</_description>
+      <summary>Touchpad enabled</summary>
+      <description>Defines the situations in which the touchpad is enabled.</description>
     </key>
     <key name="left-handed" enum="org.gnome.desktop.GDesktopTouchpadHandedness">
       <default>'mouse'</default>
@@ -78,22 +78,22 @@
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.tablet">
     <key name="display" type="as">
       <default>["", "", ""]</default>
-      <_summary>Drawing tablet mapping</_summary>
-      <_description>EDID information of the monitor the tablet is mapped to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</_description>
+      <summary>Drawing tablet mapping</summary>
+      <description>EDID information of the monitor the tablet is mapped to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</description>
     </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.touchscreen">
     <key name="display" type="as">
       <default>["", "", ""]</default>
-      <_summary>Touchscreen display mapping</_summary>
-      <_description>EDID information of the monitor the touchscreen is mapped to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</_description>
+      <summary>Touchscreen display mapping</summary>
+      <description>EDID information of the monitor the touchscreen is mapped to. Must be in the format [vendor, product, serial]. ["","",""] disables mapping.</description>
     </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.trackball" path="/org/gnome/desktop/peripherals/trackball/">
     <key name="scroll-wheel-emulation-button" type="i">
       <default>0</default>
       <range min="0" max="24"/>
-      <_summary>Mouse wheel emulation button. 0 to disable the feature.</_summary>
+      <summary>Mouse wheel emulation button. 0 to disable the feature.</summary>
     </key>
   </schema>
 </schemalist>

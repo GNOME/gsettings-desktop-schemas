@@ -4,48 +4,48 @@
 
     <key name="disable-external" type="b">
       <default>false</default>
-      <_summary>Disable all external search providers</_summary>
-      <_description>
+      <summary>Disable all external search providers</summary>
+      <description>
         Set to true to disable all external search provider programs,
         whether or not they are independently disabled or enabled.
         External search providers are installed by applications in
         $XDG_DATA_DIR/gnome-shell/search-providers.
-      </_description>
+      </description>
     </key>
 
     <key name="disabled" type="as">
       <default>[]</default>
-      <_summary>
+      <summary>
         List of desktop file IDs for which the associated default-enabled search provider
         should be disabled
-      </_summary>
-      <_description>
+      </summary>
+      <description>
         Results for applications contained in this list will not be displayed
         when searching.
-      </_description>
+      </description>
     </key>
 
     <key name="enabled" type="as">
       <default>[]</default>
-      <_summary>
+      <summary>
         List of desktop file IDs for which the associated default-disabled search provider
         should be enabled
-      </_summary>
-      <_description>
+      </summary>
+      <description>
         Results for applications contained in this list will be displayed
         when searching.
-      </_description>
+      </description>
     </key>
 
     <key name="sort-order" type="as">
       <default>['gnome-contacts.desktop', 'gnome-documents.desktop', 'nautilus.desktop']</default>
-      <_summary>List of desktop file IDs for search providers sort order</_summary>
-      <_description>
+      <summary>List of desktop file IDs for search providers sort order</summary>
+      <description>
         Results for applications contained in this list will be displayed in
         the specified order.
         Results for applications not specified in this list will be displayed
         last, sorted alphabetically.
-      </_description>
+      </description>
     </key>
 
   </schema>

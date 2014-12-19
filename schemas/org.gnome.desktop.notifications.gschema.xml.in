@@ -3,18 +3,18 @@
           gettext-domain="@GETTEXT_PACKAGE@">
     <key name="show-banners" type="b">
       <default>true</default>
-      <_summary>Show notification banners</_summary>
-      <_description>
+      <summary>Show notification banners</summary>
+      <description>
         Whether notification banners are visible for application notifications.
-      </_description>
+      </description>
     </key>
 
     <key name="show-in-lock-screen" type="b">
       <default>true</default>
-      <_summary>Show notifications in the lock screen</_summary>
-      <_description>
+      <summary>Show notifications in the lock screen</summary>
+      <description>
         Whether notifications are shown in the lock screen or not.
-      </_description>
+      </description>
     </key>
 
     <!-- Temporary hack until GSettingsList lands -->
@@ -28,60 +28,60 @@
   <schema id="org.gnome.desktop.notifications.application" gettext-domain="@GETTEXT_PACKAGE@">
     <key name="application-id" type="s">
       <default>''</default>
-      <_summary>Application ID</_summary>
-      <_description>
+      <summary>Application ID</summary>
+      <description>
         The application that this policy is for.
-      </_description>
+      </description>
     </key>
 
     <key name="enable" type="b">
       <default>true</default>
-      <_summary>Enable notifications</_summary>
-      <_description>
+      <summary>Enable notifications</summary>
+      <description>
         Whether notifications are globally enabled for this application.
-      </_description>
+      </description>
     </key>
 
     <key name="enable-sound-alerts" type="b">
       <default>true</default>
-      <_summary>Enable sound alerts</_summary>
-      <_description>
+      <summary>Enable sound alerts</summary>
+      <description>
         Whether notifications should be accompanied by sound alerts.
-      </_description>
+      </description>
     </key>
 
     <key name="show-banners" type="b">
       <default>true</default>
-      <_summary>Show notification banners</_summary>
-      <_description>
+      <summary>Show notification banners</summary>
+      <description>
         Whether notification banners for this application are shown or not. Does not
         affect clicking on message tray buttons.
-      </_description>
+      </description>
     </key>
 
     <key name="force-expanded" type="b">
       <default>false</default>
-      <_summary>Force automatic expanding of banners</_summary>
-      <_description>
+      <summary>Force automatic expanding of banners</summary>
+      <description>
         Whether notifications from this application are expanded automatically when in banner mode.
-      </_description>
+      </description>
     </key>
 
     <key name="show-in-lock-screen" type="b">
       <default>true</default>
-      <_summary>Show in the lock screen</_summary>
-      <_description>
+      <summary>Show in the lock screen</summary>
+      <description>
         Whether notifications from this application are shown when the screen is locked.
-      </_description>
+      </description>
     </key>
 
     <key name="details-in-lock-screen" type="b">
       <default>false</default>
-      <_summary>Show details in the lock screen</_summary>
-      <_description>
+      <summary>Show details in the lock screen</summary>
+      <description>
         Whether the summary and body of notifications from this application will be
         visible in the locked screen.
-      </_description>
+      </description>
     </key>
 
   </schema>

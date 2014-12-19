@@ -10,63 +10,63 @@
   <schema id="org.gnome.desktop.default-applications.office.calendar" path="/org/gnome/desktop/applications/office/calendar/">
     <key name="exec" type="s">
       <default>'evolution -c calendar'</default>
-      <_summary>Default calendar</_summary>
-      <_description>
+      <summary>Default calendar</summary>
+      <description>
         Default calendar application
 
         DEPRECATED: This key is deprecated and ignored.
         The preferred calendar application is the application handling the text/calendar mime type.
-      </_description>
+      </description>
     </key>
     <key name="needs-term" type="b">
       <default>false</default>
-      <_summary>Calendar needs terminal</_summary>
-      <_description>
+      <summary>Calendar needs terminal</summary>
+      <description>
         Whether the default calendar application needs a terminal to run.
 
         DEPRECATED: This key is deprecated and ignored.
         The preferred calendar application is the application handling the text/calendar mime type,
         whether it needs a terminal is taken from its desktop file.
-      </_description>
+      </description>
     </key>
   </schema>
   <schema id="org.gnome.desktop.default-applications.office.tasks" path="/org/gnome/desktop/applications/office/tasks/">
     <key name="exec" type="s">
       <default>'evolution -c tasks'</default>
-      <_summary>Default tasks</_summary>
-      <_description>
+      <summary>Default tasks</summary>
+      <description>
         Default tasks application.
-      </_description>
+      </description>
     </key>
     <key name="needs-term" type="b">
       <default>false</default>
-      <_summary>Tasks needs terminal</_summary>
-      <_description>
+      <summary>Tasks needs terminal</summary>
+      <description>
         Whether the default tasks application needs a terminal to run.
-      </_description>
+      </description>
     </key>
   </schema>
   <schema id="org.gnome.desktop.default-applications.terminal" path="/org/gnome/desktop/applications/terminal/">
     <key name="exec" type="s">
       <default>'gnome-terminal'</default>
-      <_summary>Terminal application</_summary>
-      <_description>
+      <summary>Terminal application</summary>
+      <description>
         Terminal program to use when starting applications that require one.
 
         DEPRECATED: This key is deprecated and ignored.
         The default terminal is handled in GIO.
-      </_description>
+      </description>
     </key>
     <key name="exec-arg" type="s">
       <default>'-x'</default>
-      <_summary>Exec Arguments</_summary>
-      <_description>
+      <summary>Exec Arguments</summary>
+      <description>
         Argument used to execute programs in the terminal defined by the 
         'exec' key.
 
         DEPRECATED: This key is deprecated and ignored.
         The default terminal and how to invoke it is handled in GIO.
-      </_description>
+      </description>
     </key>
   </schema>
 </schemalist>

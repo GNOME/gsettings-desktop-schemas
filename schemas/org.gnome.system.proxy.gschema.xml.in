@@ -6,8 +6,8 @@
     <child name="socks" schema="org.gnome.system.proxy.socks"/>
     <key name="mode" enum="org.gnome.desktop.GDesktopProxyMode">
       <default>'none'</default>
-      <_summary>Proxy configuration mode</_summary>
-      <_description>
+      <summary>Proxy configuration mode</summary>
+      <description>
         Select the proxy configuration mode. Supported values are "none", 
         "manual", "auto".
 
@@ -28,65 +28,65 @@
         If a SOCKS proxy is configured, it is used for all protocols,
         except that the http, https, and ftp proxy settings override
         it for those protocols only.
-      </_description>
+      </description>
     </key>
     <key name="autoconfig-url" type="s">
       <default>''</default>
-      <_summary>Automatic proxy configuration URL</_summary>
-      <_description>
+      <summary>Automatic proxy configuration URL</summary>
+      <description>
         URL that provides proxy configuration values. When mode is
         "auto", this URL is used to look up proxy information for all
         protocols.
-      </_description>
+      </description>
     </key>
     <key name="ignore-hosts" type="as">
       <default>[ 'localhost', '127.0.0.0/8', '::1' ]</default>
-      <_summary>Non-proxy hosts</_summary>
-      <_description>
+      <summary>Non-proxy hosts</summary>
+      <description>
         This key contains a list of hosts which are connected to directly, 
         rather than via the proxy (if it is active). The values can be 
         hostnames, domains (using an initial wildcard like *.foo.com), IP host 
         addresses (both IPv4 and IPv6) and network addresses with a netmask 
         (something like 192.168.0.0/24).
-      </_description>
+      </description>
     </key>
     <key name="use-same-proxy" type="b">
       <default>true</default>
-      <_summary>Unused; ignore</_summary>
-      <_description>
+      <summary>Unused; ignore</summary>
+      <description>
         This key is not used, and should not be read or modified.
-      </_description>
+      </description>
     </key>
   </schema>
   <schema id="org.gnome.system.proxy.http" path="/system/proxy/http/">
     <key name="enabled" type="b">
       <default>false</default>
-      <_summary>Unused; ignore</_summary>
-      <_description>
+      <summary>Unused; ignore</summary>
+      <description>
         This key is not used; HTTP proxying is enabled when the host
         key is non-empty and the port is non-0.
-      </_description>
+      </description>
     </key>
     <key name="host" type="s">
       <default>''</default>
-      <_summary>HTTP proxy host name</_summary>
-      <_description>
+      <summary>HTTP proxy host name</summary>
+      <description>
         The machine name to proxy HTTP through.
-      </_description>
+      </description>
     </key>
     <key name="port" type="i">
       <range min="0" max="65535"/>
       <default>8080</default>
-      <_summary>HTTP proxy port</_summary>
-      <_description>
+      <summary>HTTP proxy port</summary>
+      <description>
         The port on the machine defined by "/system/proxy/http/host" that you 
         proxy through.
-      </_description>
+      </description>
     </key>
     <key name="use-authentication" type="b">
       <default>false</default>
-      <_summary>Authenticate proxy server connections</_summary>
-      <_description>
+      <summary>Authenticate proxy server connections</summary>
+      <description>
         If true, then connections to the proxy server require authentication. 
         The username/password combo is defined by 
         "/system/proxy/http/authentication-user" and 
@@ -95,75 +95,75 @@
         This applies only to the http proxy; when using a separate
         https proxy, there is currently no way to specify that it
         should use authentication.
-      </_description>
+      </description>
     </key>
     <key name="authentication-user" type="s">
       <default>''</default>
-      <_summary>HTTP proxy username</_summary>
-      <_description>
+      <summary>HTTP proxy username</summary>
+      <description>
         User name to pass as authentication when doing HTTP proxying.
-      </_description>
+      </description>
     </key>
     <key name="authentication-password" type="s">
       <default>''</default>
-      <_summary>HTTP proxy password</_summary>
-      <_description>
+      <summary>HTTP proxy password</summary>
+      <description>
         Password to pass as authentication when doing HTTP proxying.
-      </_description>
+      </description>
     </key>
   </schema>
   <schema id="org.gnome.system.proxy.https" path="/system/proxy/https/">
     <key name="host" type="s">
       <default>''</default>
-      <_summary>Secure HTTP proxy host name</_summary>
-      <_description>
+      <summary>Secure HTTP proxy host name</summary>
+      <description>
         The machine name to proxy secure HTTP through.
-      </_description>
+      </description>
     </key>
     <key name="port" type="i">
       <range min="0" max="65535"/>
       <default>0</default>
-      <_summary>Secure HTTP proxy port</_summary>
-      <_description>
+      <summary>Secure HTTP proxy port</summary>
+      <description>
         The port on the machine defined by "/system/proxy/https/host" that you 
         proxy through.
-      </_description>
+      </description>
     </key>
   </schema>
   <schema id="org.gnome.system.proxy.ftp" path="/system/proxy/ftp/">
     <key name="host" type="s">
       <default>''</default>
-      <_summary>FTP proxy host name</_summary>
-      <_description>
+      <summary>FTP proxy host name</summary>
+      <description>
         The machine name to proxy FTP through.
-      </_description>
+      </description>
     </key>
     <key name="port" type="i">
       <range min="0" max="65535"/>
       <default>0</default>
-      <_summary>FTP proxy port</_summary>
-      <_description>
+      <summary>FTP proxy port</summary>
+      <description>
         The port on the machine defined by "/system/proxy/ftp/host" that you 
         proxy through.
-      </_description>
+      </description>
     </key>
   </schema>
   <schema id="org.gnome.system.proxy.socks" path="/system/proxy/socks/">
     <key name="host" type="s">
       <default>''</default>
-      <_summary>SOCKS proxy host name</_summary>
-      <_description>
+      <summary>SOCKS proxy host name</summary>
+      <description>
         The machine name to use as a SOCKS proxy.
-      </_description>
+      </description>
     </key>
     <key name="port" type="i">
       <range min="0" max="65535"/>
       <default>0</default>
-      <_summary>SOCKS proxy port</_summary>
-      <_description>
+      <summary>SOCKS proxy port</summary>
+      <description>
         The port on the machine defined by "/system/proxy/socks/host" that you 
         proxy through.
-      </_description>
+      </description>
     </key>
   </schema>
 </schemalist>

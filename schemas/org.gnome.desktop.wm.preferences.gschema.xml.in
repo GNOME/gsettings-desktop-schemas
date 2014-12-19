@@ -5,29 +5,29 @@
           gettext-domain="@GETTEXT_PACKAGE@">
     <key name="mouse-button-modifier" type="s">
       <default><![CDATA['<Super>']]></default>
-      <_summary>Modifier to use for modified window click actions</_summary>
-      <_description>
+      <summary>Modifier to use for modified window click actions</summary>
+      <description>
         Clicking a window while holding down this modifier key  will move the
         window (left click), resize the window  (middle click), or show the
         window menu (right click). The middle and right click operations may
         be swapped using the "resize-with-right-button" key. Modifier is
         expressed as <![CDATA["<Alt>"]]> or <![CDATA["<Super>"]]> for example.
-    </_description>
+    </description>
     </key>
     <key name="resize-with-right-button" type="b">
       <default>false</default>
-      <_summary>Whether to resize with the right button</_summary>
-      <_description>
+      <summary>Whether to resize with the right button</summary>
+      <description>
         Set this to true to resize with the right button and show a menu with
         the middle button while holding down the key given in
         "mouse-button-modifier"; set it to false to make it work
         the opposite way around.
-       </_description>
+       </description>
     </key>
     <key name="button-layout" type="s">
       <default>'appmenu:close'</default>
-      <_summary>Arrangement of buttons on the titlebar</_summary>
-      <_description>
+      <summary>Arrangement of buttons on the titlebar</summary>
+      <description>
         Arrangement of buttons on the titlebar. The value should be a string,
         such as  "menu:minimize,maximize,spacer,close"; the colon separates
         the  left corner of the window from the right corner, and  the button
@@ -36,36 +36,36 @@
         future metacity versions  without breaking older versions. A special
         spacer tag can be used to insert some space between
         two adjacent buttons.
-      </_description>
+      </description>
     </key>
     <key name="focus-mode" enum="org.gnome.desktop.GDesktopFocusMode">
       <default>'click'</default>
-      <_summary>Window focus mode</_summary>
-      <_description>
+      <summary>Window focus mode</summary>
+      <description>
         The window focus mode indicates how windows are activated.  It has
         three possible values; "click" means windows must  be clicked in order
         to focus them, "sloppy" means windows are focused when the mouse enters
         the window, and "mouse" means windows are focused when the mouse enters
         the window and  unfocused when the mouse leaves the window.
-      </_description>
+      </description>
     </key>
     <key name="focus-new-windows"
          enum="org.gnome.desktop.GDesktopFocusNewWindows">
       <default>'smart'</default>
-      <_summary>Control how new windows get focus</_summary>
-      <_description>
+      <summary>Control how new windows get focus</summary>
+      <description>
         This option provides additional control over how newly created windows
         get focus.  It has two possible values; "smart" applies the user's
         normal focus mode, and "strict" results in windows started from a
         terminal not being given focus.
-      </_description>
+      </description>
     </key>
     <key name="raise-on-click" type="b">
       <default>true</default>
-      <_summary>
+      <summary>
         Whether windows should be raised when their client area is clicked
-      </_summary>
-      <_description>
+      </summary>
+      <description>
 	The default, true, indicates that a window will be raised
 	whenever its client area or its frame is clicked.
 
@@ -74,13 +74,13 @@
 	click anywhere in the window's frame, or Super-click on any
 	part of the window.  This mode is useful if one uses many overlapping
 	windows.
-      </_description>
+      </description>
     </key>
     <key name="action-double-click-titlebar"
          enum="org.gnome.desktop.GDesktopTitlebarAction">
       <default>'toggle-maximize'</default>
-      <_summary>Action on title bar double-click</_summary>
-      <_description>
+      <summary>Action on title bar double-click</summary>
+      <description>
         This option determines the effects of double-clicking on the title bar.
 
         Current valid options are 'toggle-shade', which will shade/unshade the
@@ -91,7 +91,7 @@
         the window up, 'menu' which will display the window menu,
         'lower' which will put the window behind all the others,
         and 'none' which will not do anything.
-      </_description>
+      </description>
       <!-- For compatibility with GConf strings (Metacity 2.30) -->
       <aliases>
         <alias value="toggle_shade" target="toggle-shade"/>
@@ -105,8 +105,8 @@
     <key name="action-middle-click-titlebar"
          enum="org.gnome.desktop.GDesktopTitlebarAction">
       <default>'none'</default>
-      <_summary>Action on title bar middle-click</_summary>
-      <_description>
+      <summary>Action on title bar middle-click</summary>
+      <description>
         This option determines the effects of middle-clicking on the title bar.
 
         Current valid options are 'toggle-shade', which will shade/unshade
@@ -117,7 +117,7 @@
         the window up, 'menu' which will display the window menu,
         'lower' which will put the window behind all the others,
         and 'none' which will not do anything.
-      </_description>
+      </description>
       <!-- For compatibility with GConf strings (Metacity 2.30) -->
       <aliases>
         <alias value="toggle_shade" target="toggle-shade"/>
@@ -131,8 +131,8 @@
     <key name="action-right-click-titlebar"
          enum="org.gnome.desktop.GDesktopTitlebarAction">
       <default>'menu'</default>
-      <_summary>Action on title bar right-click</_summary>
-      <_description>
+      <summary>Action on title bar right-click</summary>
+      <description>
         This option determines the effects of right-clicking on the title bar.
 
         Current valid options are 'toggle-shade', which will shade/unshade
@@ -143,7 +143,7 @@
         the window, 'shade' which will roll the window up,
         'menu' which will display the window menu, 'lower' which will put
         the window behind all the others, and 'none' which will not do anything.
-      </_description>
+      </description>
       <!-- For compatibility with GConf strings (Metacity 2.30) -->
       <aliases>
         <alias value="toggle_shade" target="toggle-shade"/>
@@ -156,84 +156,84 @@
     </key>
     <key name="auto-raise" type="b">
       <default>false</default>
-      <_summary>Automatically raises the focused window</_summary>
-      <_description>
+      <summary>Automatically raises the focused window</summary>
+      <description>
         If set to true, and the focus mode is either "sloppy" or "mouse"
         then the focused window will be automatically raised after a delay
         specified by the auto-raise-delay key. This is not related to clicking
         on a window to raise it, nor to entering a window during drag-and-drop.
-      </_description>
+      </description>
     </key>
     <key name="auto-raise-delay" type="i">
       <range min="0" max="10000"/>
       <default>500</default>
-      <_summary>Delay in milliseconds for the auto raise option</_summary>
-      <_description>
+      <summary>Delay in milliseconds for the auto raise option</summary>
+      <description>
         The time delay before raising a window if auto-raise is set to true.
         The delay is given in thousandths of a second.
-      </_description>
+      </description>
     </key>
     <key name="theme" type="s">
       <default>'Adwaita'</default>
-      <_summary>Current theme</_summary>
-      <_description>
+      <summary>Current theme</summary>
+      <description>
         The theme determines the appearance of window borders, titlebar,
         and so forth.
 
         DEPRECATED: This key is deprecated and ignored.
-      </_description>
+      </description>
     </key>
     <key name="titlebar-uses-system-font" type="b">
       <default>false</default>
-      <_summary>Use standard system font in window titles</_summary>
-      <_description>
+      <summary>Use standard system font in window titles</summary>
+      <description>
         If true, ignore the titlebar-font option, and use the standard
         application font for window titles.
-      </_description>
+      </description>
     </key>
     <key name="titlebar-font" type="s">
       <default>'Cantarell Bold 11'</default>
-      <_summary>Window title font</_summary>
-      <_description>
+      <summary>Window title font</summary>
+      <description>
         A font description string describing a font for window titlebars.
         The size from the description will only be used if the
         titlebar-font-size option is set to 0. Also, this option is disabled
         if the titlebar-uses-desktop-font option is set to true.
-      </_description>
+      </description>
     </key>
     <key name="num-workspaces" type="i">
       <default>4</default>
       <range min="1" max="36"/>
-      <_summary>Number of workspaces</_summary>
-      <_description>
+      <summary>Number of workspaces</summary>
+      <description>
         Number of workspaces. Must be more than zero, and has a fixed maximum
         to prevent making the desktop unusable by accidentally asking
         for too many workspaces.
-      </_description>
+      </description>
     </key>
     <key name="audible-bell" type="b">
       <default>true</default>
-      <_summary>System Bell is Audible</_summary>
-      <_description>
+      <summary>System Bell is Audible</summary>
+      <description>
         Determines whether applications or the system can generate audible
         'beeps'; may be used in conjunction with 'visual bell'
         to allow silent 'beeps'.
-      </_description>
+      </description>
     </key>
     <key name="visual-bell" type="b">
       <default>false</default>
-      <_summary>Enable Visual Bell</_summary>
-      <_description>
+      <summary>Enable Visual Bell</summary>
+      <description>
         Turns on a visual indication when an application or the system issues
         a 'bell' or 'beep'; useful for the hard-of-hearing and for use
         in noisy environments.
-      </_description>
+      </description>
     </key>
     <key name="visual-bell-type"
          enum="org.gnome.desktop.GDesktopVisualBellType">
       <default>'fullscreen-flash'</default>
-      <_summary>Visual Bell Type</_summary>
-      <_description>
+      <summary>Visual Bell Type</summary>
+      <description>
         Tells the WM how to implement the visual indication that the
         system bell or another application 'bell' indicator has been rung.
 
@@ -245,7 +245,7 @@
         If the application which sent the bell is unknown (as is usually
         the case for the default "system beep"), the currently focused
         window's titlebar is flashed.
-      </_description>
+      </description>
       <!-- For compatibility with GConf strings (Metacity 2.30) -->
       <aliases>
         <alias value="fullscreen" target="fullscreen-flash"/>
@@ -254,27 +254,27 @@
     </key>
     <key name="disable-workarounds" type="b">
       <default>false</default>
-      <_summary>
+      <summary>
         Disable misfeatures that are required by old or broken applications
-      </_summary>
-      <_description>
+      </summary>
+      <description>
         Some applications disregard specifications in ways that result in
         window manager misfeatures. This option puts the WM in a
         rigorously correct mode, which gives a more consistent
         user interface, provided one does not need to run any
         misbehaving applications.
-      </_description>
+      </description>
     </key>
     <key name="workspace-names" type="as">
       <default>[]</default>
-      <_summary>The names of the workspaces</_summary>
-      <_description>
+      <summary>The names of the workspaces</summary>
+      <description>
         Defines the names that should be assigned to workspaces.
         If the list is too long for the current number of workspaces,
         names in excess will be ignored. If the list is too short, or
         includes empty names, missing values will be replaced with the
         default ("Workspace N").
-      </_description>
+      </description>
     </key>
   </schema>
 
