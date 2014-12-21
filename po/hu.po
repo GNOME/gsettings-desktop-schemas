@@ -9,11 +9,11 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-14 08:25+0000\n"
-"PO-Revision-Date: 2014-09-14 21:44+0200\n"
+"POT-Creation-Date: 2014-12-20 21:25+0000\n"
+"PO-Revision-Date: 2014-12-21 10:37+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
-"Language: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1507,6 +1507,68 @@ msgstr ""
 "Ebből az alkalmazásból az értesítések összefoglalója és törzse legyen-e "
 "látható a zárolt képernyőn."
 
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:1
+msgid "Select the touchpad scroll method"
+msgstr "Válassza ki az érintőtábla görgetési módját"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:2
+msgid ""
+"Select the touchpad scroll method. Supported values are: \"disabled\", "
+"\"edge-scrolling\", \"two-finger-scrolling\"."
+msgstr ""
+"Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: "
+"„disabled” (letiltva), „edge-scrolling” (görgetés a szélen), „two-finger-"
+"scrolling” (kétujjas görgetés)."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:3
+msgid "Enable mouse clicks with touchpad"
+msgstr "Egérkattintások engedélyezése az érintőtáblán"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:4
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr ""
+"Állítsa IGAZRA, hogy egérkattintásokat küldhessen az érintőtáblára "
+"koppintással."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:5
+msgid "Touchpad enabled"
+msgstr "Érintőtábla engedélyezve"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:6
+msgid "Defines the situations in which the touchpad is enabled."
+msgstr "Meghatározza azt a helyzetet, amikor az érintőtábla engedélyezve van."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:7
+msgid "Drawing tablet mapping"
+msgstr "Rajzoló táblagép leképezése"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:8
+msgid ""
+"EDID information of the monitor the tablet is mapped to. Must be in the "
+"format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgstr ""
+"A monitor EDID információi, amelyre a táblagép le van képezve. A [szállító, "
+"termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] letiltja a "
+"leképzést."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:9
+msgid "Touchscreen display mapping"
+msgstr "Érintőtábla kijelző leképezése"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:10
+msgid ""
+"EDID information of the monitor the touchscreen is mapped to. Must be in the "
+"format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgstr ""
+"A monitor EDID információi, amelyre az érintőtábla le van képezve. A "
+"[szállító, termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] "
+"letiltja a leképzést."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:11
+msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
+
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
 msgstr "Vezérli a személyes információk láthatóságát"
@@ -1775,8 +1837,6 @@ msgstr ""
 "kulcsban lévő alkalmazások telepítették."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-#| msgid ""
-#| "List of desktop file IDs for which search provider should be disabled"
 msgid ""
 "List of desktop file IDs for which the associated default-enabled search "
 "provider should be disabled"
@@ -1793,8 +1853,6 @@ msgstr ""
 "kereséskor."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
-#| msgid ""
-#| "List of desktop file IDs for which search provider should be disabled"
 msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
@@ -1803,9 +1861,6 @@ msgstr ""
 "alapértelmezetten letiltott keresőszolgáltató legyen engedélyezve"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
-#| msgid ""
-#| "Results for applications contained in this list will not be displayed "
-#| "when searching."
 msgid ""
 "Results for applications contained in this list will be displayed when "
 "searching."
@@ -1971,7 +2026,6 @@ msgid "Switch to workspace below"
 msgstr "Átváltás a lenti munkaterületre"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:17
-#| msgid "Switch to workspace 1"
 msgid "Switch to last workspace"
 msgstr "Átváltás az utolsó munkaterületre"
 
@@ -2144,7 +2198,6 @@ msgid "Move window to workspace 12"
 msgstr "Ablak áthelyezése a 12. munkaterületre"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.in.h:60
-#| msgid "Move window to workspace 1"
 msgid "Move window to last workspace"
 msgstr "Ablak áthelyezése az utolsó munkaterületre"
 
@@ -2675,8 +2728,8 @@ msgstr ""
 "Beállítja a helyzet pontosságának azon legnagyobb szintjét, amelyet az "
 "alkalmazások láthatnak. Az érvényes beállítások: „ország”, „város”, "
 "„környék”, „utca” és „pontos” (tipikusan GPS-vevőt igényel). Ne feledkezzen "
-"meg arról, hogy ez csak azt vezérli, amit a GeoClue látni fog engedélyezni az "
-"alkalmazásoknak, és azok megtalálhatják a felhasználók saját helyzetét a "
+"meg arról, hogy ez csak azt vezérli, amit a GeoClue látni fog engedélyezni "
+"az alkalmazásoknak, és azok megtalálhatják a felhasználók saját helyzetét a "
 "hálózati erőforrások használatával (noha az utcaszintű pontosság a legjobb)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
