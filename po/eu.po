@@ -2,7 +2,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-#
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014.
 #
 msgid ""
@@ -10,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-07 13:35+0200\n"
-"PO-Revision-Date: 2014-07-29 20:26+0200\n"
+"POT-Creation-Date: 2014-12-31 17:27+0100\n"
+"PO-Revision-Date: 2014-12-31 17:39+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
@@ -20,19 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.4\n"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
-msgid "Always show the Universal Access status icon"
-msgstr "Erakutsi beti 'Sarbide unibertsala'ren egoeraren ikonoa"
-
-#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
-msgid ""
-"This key overrides the automatic hiding of the Universal Access status icon "
-"when no accessibility features are enabled."
-msgstr ""
-"Erabilerraztasunaren eginbideak gaituta ez daudenean 'Sarbide "
-"unibertsala'ren egoeraren ikonoa automatikoki ezkutatzea gainidazten du gako "
-"honek."
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:1
 msgid "On-screen keyboard"
@@ -57,6 +43,19 @@ msgstr "Pantaila irakurlea"
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.in.h:6
 msgid "Whether the screen reader is turned on."
 msgstr "Pantaila irakurlea aktibatuta dagoen ala ez."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:1
+msgid "Always show the Universal Access status icon"
+msgstr "Erakutsi beti 'Sarbide unibertsala'ren egoeraren ikonoa"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.in.h:2
+msgid ""
+"This key overrides the automatic hiding of the Universal Access status icon "
+"when no accessibility features are enabled."
+msgstr ""
+"Erabilerraztasunaren eginbideak gaituta ez daudenean 'Sarbide "
+"unibertsala'ren egoeraren ikonoa automatikoki ezkutatzea gainidazten du gako "
+"honek."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1519,6 +1518,68 @@ msgstr ""
 "Aplikazio honen jakinarazpenaren laburpena eta gorputzak erakutsiko diren "
 "edo ez pantaila blokeatuta dagoenean."
 
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:1
+msgid "Select the touchpad scroll method"
+msgstr "Hautatu 'touchpad'aren korritzeko metodoa"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:2
+msgid ""
+"Select the touchpad scroll method. Supported values are: \"disabled\", "
+"\"edge-scrolling\", \"two-finger-scrolling\"."
+msgstr ""
+"Hautatu 'touchpad'aren korritzeko metodoa\". Balio erabilgarriak: 'disabled' "
+"(desgaituta), "
+"'edge-scrolling' (ertzean korritzea), 'two-finger-scrolling' (bi hatzekin "
+"korritzea)."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:3
+msgid "Enable mouse clicks with touchpad"
+msgstr "Gaitu touchpad-arekin klik egitea"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:4
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr ""
+"Hau TRUE (egia) gisa ezartzean, touchpad-ak saguaren antzera klik egin dezake."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:5
+msgid "Touchpad enabled"
+msgstr "Touchpad-a gaituta"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:6
+msgid "Defines the situations in which the touchpad is enabled."
+msgstr "Touchpad-a zein egoeretan gaituta dagoen zehazten du."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:7
+msgid "Drawing tablet mapping"
+msgstr "Marrazki-taularen mapaketa"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:8
+msgid ""
+"EDID information of the monitor the tablet is mapped to. Must be in the "
+"format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgstr ""
+"Mapatu den taulari buruzko EDID informazioa. Honako formatua eduki "
+"behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] "
+"mapaketa desgaitzen du."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:9
+msgid "Touchscreen display mapping"
+msgstr "Ukimen-pantailaren mapaketa"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:10
+msgid ""
+"EDID information of the monitor the touchscreen is mapped to. Must be in the "
+"format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgstr ""
+"Mapatu den ukimen-pantailari buruzko EDID informazioa. Honako formatua eduki "
+"behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] "
+"mapaketa desgaitzen du."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:11
+msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgstr "Saguaren gurpila emulatzeko botoia. 0 eginbidea desgaitzeko."
+
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
 msgstr "Informazio pertsonalaren ikusgaitasuna kontrolatzen du"
@@ -1794,10 +1855,12 @@ msgstr ""
 "'$XDG_DATA_DIR/gnome-shell/search-providers'-en."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:3
-msgid "List of desktop file IDs for which search provider should be disabled"
+msgid ""
+"List of desktop file IDs for which the associated default-enabled search "
+"provider should be disabled"
 msgstr ""
-"'.desktop' fitxategien IDen zerrenda (horientzako bilaketa-hornitzaileak "
-"desgaituko dira)"
+"'.desktop' fitxategien IDen zerrenda (horientzako lehenetsi gisa gaitutako "
+"bilaketa-hornitzaileak desgaituko dira)"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:4
 msgid ""
@@ -1806,12 +1869,26 @@ msgid ""
 msgstr "Zerrenda honetako aplikazioen emaitzak ez dira bistaratuko bilatzean."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:5
+msgid ""
+"List of desktop file IDs for which the associated default-disabled search "
+"provider should be enabled"
+msgstr ""
+"'.desktop' fitxategien IDen zerrenda (horientzako lehenetsi gisa "
+"desgaitutako bilaketa-hornitzaileak gaituko dira)"
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+msgid ""
+"Results for applications contained in this list will be displayed when "
+"searching."
+msgstr "Zerrenda honetako aplikazioen emaitzak bistaratuko dira bilatzean."
+
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
 "'.desktop' fitxategien IDen zerrenda (horientzako bilaketa-hornitzaileak "
 "ordenatzeko)"
 
-#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:6
+#: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.in.h:8
 msgid ""
 "Results for applications contained in this list will be displayed in the "
 "specified order. Results for applications not specified in this list will be "
@@ -2339,53 +2416,24 @@ msgstr ""
 "abiaratzen denean eta fokua lortzen ez duenekoa."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:11
-msgid "Whether raising should be a side-effect of other user interactions"
-msgstr ""
-"Goratzean albo-ondoriorik izango duen erabiltzailearen elkarreragiketan edo "
-"ez."
+msgid "Whether windows should be raised when their client area is clicked"
+msgstr "Leihoak goratu behar diren edo ez haien bezero-arean klik egitean"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:12
 msgid ""
-"Setting this option to false can lead to buggy behavior, so users are "
-"strongly discouraged from changing it from the default of true. Many actions "
-"(e.g. clicking in the client area, moving or resizing the window) normally "
-"raise the window as a side-effect. Setting this option to false, which is "
-"strongly discouraged, will decouple raising from other user actions, and "
-"ignore raise requests generated by applications. See http://bugzilla.gnome."
-"org/show_bug.cgi?id=445447#c6. Even when this option is false, windows can "
-"still be raised by an alt-left-click anywhere on the window, a normal click "
-"on the window decorations, or by special messages from pagers, such as "
-"activation requests from tasklist applets. This option is currently disabled "
-"in click-to-focus mode. Note that the list of ways to raise windows when "
-"raise-on-click is false does not include programmatic requests from "
-"applications to raise windows; such requests will be ignored regardless of "
-"the reason for the request. If you are an application developer and have a "
-"user complaining that your application does not work with this setting "
-"disabled, tell them it is -their- fault for breaking their window manager "
-"and that they need to change this option back to true or live with the \"bug"
-"\" they requested."
+"The default, true, indicates that a window will be raised whenever its "
+"client area or its frame is clicked. Setting this to false means that a "
+"window will not be raised if it is clicked on the client area. To raise it, "
+"one can click anywhere in the window's frame, or Super-click on any part of "
+"the window. This mode is useful if one uses many overlapping windows."
 msgstr ""
-"Aukera hau 'false' (faltsua) gisa ezartzeak portaera akastuna eragin dezake. "
-"Hori dela eta, erabiltzaileei biziki gomendatzen zaie bere 'true' (egia) "
-"balio lehenetsitik ez aldatzea. Ekintza askok (adib. bezeroaren arean klik "
-"egiteak, leihoa lekuz edo tamainaz aldatzeak) normalean leihoa goratzen dute "
-"bigarren eragin gisa. Ezarri aukera hau faltsu balioarekin, halakorik ez "
-"egitea gomendatzen da,  erabiltzailearen beste elkarreragiketak leihoa ez "
-"goratzeko. Ikus http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6 . "
-"Faltsua balioarekin leihoa goratu ahalko da Alt+saguaren-ezker-pultsazioa "
-"sakatuz edo klik normal batekin leihoaren dekorazioan (suposatzen da "
-"horrelako klik-ak ez direla erabiltzen lekuz edo tamainaz aldatzeko "
-"eragiketak hasteko). Mezu bereziek, bilagailuen eskaeren aktibazioa "
-"bezalakoek, ere leihoak goratuko dituzte nahiz eta aukeraren balioa faltsua "
-"izan. Unean aukera hau desgaituta dago 'click-to-focus' moduan. Jakin ezazu "
-"leihoak goratzeko moduen zerrendak, 'raise-on-click' gakoa 'false' (faltsua) "
-"denean, ez du aplikazioetatik eskaera programatikorik leihoak goratzeko; "
-"halako eskaerei ez ikusi egingo zaie berdin izanik eskaeraren arrazoia. "
-"Aplikazio baten garatzailea bazara, eta erabiltzaileek zure aplikazioa "
-"ezarpen honekin ez duela funtzionatzen adieraziz kexatu egiten badira, "
-"esaiezu -beraien- errua dela beraien leiho-kudeatzailea hondatzeagatik, eta "
-"aukera hau 'true' (egia) gisa balioarekin ezarri behar dutela berriro, edo "
-"bestela bizi daitezela aipatutako 'akatsarekin'."
+"Lehenetsiak, TRUE (egia), leihoak goratu egingo direla adierazten du "
+"bere bezero-arean edo markoan klik egitean. Ezarpen hau 'false' (faltsua) "
+"gisa konfiguratzen bada, leihoak ez direla goratuko (haien gain klik "
+"egitean) adierazten du. Goratzeko leihoaren markoaren gainean klik egin, edo "
+"leihoko edozer lekutan Super+klik egin. Modu hau egokia izan daiteke "
+"gainjarritako "
+"leiho asko erabiltzean."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Action on title bar double-click"
@@ -2640,6 +2688,37 @@ msgstr ""
 "Zehaztu lokala datak, orduak eta zenbakien formatuak bistaratzean "
 "erabiltzeko. "
 
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:1
+msgid "Geolocation services are enabled."
+msgstr "Geolokalizazioaren zerbitzuak gaituta daude."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:2
+msgid "If true, applications are allowed to access location information."
+msgstr ""
+"TRUE (egia) bada, aplikazioak baimenduta daude kokalekuari buruzko "
+"informazioa atzitzeko."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:3
+msgid "The maximum accuracy level of location."
+msgstr "Kokalekuaren gehienezko zehaztasun maila."
+
+#: ../schemas/org.gnome.system.location.gschema.xml.in.in.h:4
+msgid ""
+"Configures the maximum level of location accuracy applications are allowed "
+"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
+"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"only controls what GeoClue will allow applications to see and they can find "
+"user's location on their own using network resources (albeit with street-"
+"level accuracy at best)."
+msgstr ""
+"Aplikazioak ikus dezaketen kokalekuaren gehienezko zehaztasun maila ezartzen "
+"du. Aukera erabilgarriak 'country' (estatua), 'city' (herria), "
+"'neighborhood' (auzoa), 'street' (kalea) eta 'exact' (zehatza, GPS "
+"hartzailea eskatzen duena) dira. Gogoan eduki honek GeoClue-k aplikazioei "
+"zer ikus dezaketen soilik kontrolatzen duela, eta haiek bere kasa sareko "
+"baliabideak erabiliz erabiltzailearen kokalekua aurki dezaketela (kale "
+"mailaren zehaztasunarekin gehienez)"
+
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.in.h:1
 msgid "Proxy configuration mode"
 msgstr "Proxy-aren konfigurazio modua"
@@ -2830,6 +2909,54 @@ msgid ""
 msgstr ""
 "Ordenagailuaren ataka, \"/system/proxy/socks/host\"-ean definituta proxy-"
 "arena egiteko."
+
+#~ msgid "Whether raising should be a side-effect of other user interactions"
+#~ msgstr ""
+#~ "Goratzean albo-ondoriorik izango duen erabiltzailearen elkarreragiketan "
+#~ "edo ez."
+
+#~ msgid ""
+#~ "Setting this option to false can lead to buggy behavior, so users are "
+#~ "strongly discouraged from changing it from the default of true. Many "
+#~ "actions (e.g. clicking in the client area, moving or resizing the window) "
+#~ "normally raise the window as a side-effect. Setting this option to false, "
+#~ "which is strongly discouraged, will decouple raising from other user "
+#~ "actions, and ignore raise requests generated by applications. See http://"
+#~ "bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Even when this option is "
+#~ "false, windows can still be raised by an alt-left-click anywhere on the "
+#~ "window, a normal click on the window decorations, or by special messages "
+#~ "from pagers, such as activation requests from tasklist applets. This "
+#~ "option is currently disabled in click-to-focus mode. Note that the list "
+#~ "of ways to raise windows when raise-on-click is false does not include "
+#~ "programmatic requests from applications to raise windows; such requests "
+#~ "will be ignored regardless of the reason for the request. If you are an "
+#~ "application developer and have a user complaining that your application "
+#~ "does not work with this setting disabled, tell them it is -their- fault "
+#~ "for breaking their window manager and that they need to change this "
+#~ "option back to true or live with the \"bug\" they requested."
+#~ msgstr ""
+#~ "Aukera hau 'false' (faltsua) gisa ezartzeak portaera akastuna eragin "
+#~ "dezake. Hori dela eta, erabiltzaileei biziki gomendatzen zaie bere "
+#~ "'true' (egia) balio lehenetsitik ez aldatzea. Ekintza askok (adib. "
+#~ "bezeroaren arean klik egiteak, leihoa lekuz edo tamainaz aldatzeak) "
+#~ "normalean leihoa goratzen dute bigarren eragin gisa. Ezarri aukera hau "
+#~ "faltsu balioarekin, halakorik ez egitea gomendatzen da,  erabiltzailearen "
+#~ "beste elkarreragiketak leihoa ez goratzeko. Ikus http://bugzilla.gnome."
+#~ "org/show_bug.cgi?id=445447#c6 . Faltsua balioarekin leihoa goratu ahalko "
+#~ "da Alt+saguaren-ezker-pultsazioa sakatuz edo klik normal batekin "
+#~ "leihoaren dekorazioan (suposatzen da horrelako klik-ak ez direla "
+#~ "erabiltzen lekuz edo tamainaz aldatzeko eragiketak hasteko). Mezu "
+#~ "bereziek, bilagailuen eskaeren aktibazioa bezalakoek, ere leihoak "
+#~ "goratuko dituzte nahiz eta aukeraren balioa faltsua izan. Unean aukera "
+#~ "hau desgaituta dago 'click-to-focus' moduan. Jakin ezazu leihoak "
+#~ "goratzeko moduen zerrendak, 'raise-on-click' gakoa 'false' (faltsua) "
+#~ "denean, ez du aplikazioetatik eskaera programatikorik leihoak goratzeko; "
+#~ "halako eskaerei ez ikusi egingo zaie berdin izanik eskaeraren arrazoia. "
+#~ "Aplikazio baten garatzailea bazara, eta erabiltzaileek zure aplikazioa "
+#~ "ezarpen honekin ez duela funtzionatzen adieraziz kexatu egiten badira, "
+#~ "esaiezu -beraien- errua dela beraien leiho-kudeatzailea hondatzeagatik, "
+#~ "eta aukera hau 'true' (egia) gisa balioarekin ezarri behar dutela "
+#~ "berriro, edo bestela bizi daitezela aipatutako 'akatsarekin'."
 
 #~ msgid "Menus Have Icons"
 #~ msgstr "Menuek ikonoak dituzte"
