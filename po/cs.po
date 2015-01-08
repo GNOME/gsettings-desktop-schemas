@@ -1,15 +1,15 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014.
+# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-24 08:25+0000\n"
-"PO-Revision-Date: 2014-08-24 19:10+0200\n"
+"POT-Creation-Date: 2015-01-07 21:21+0000\n"
+"PO-Revision-Date: 2015-01-08 06:45+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1478,6 +1478,67 @@ msgstr ""
 "Zda přehledy a obsah oznámení z této aplikace budou vidět na zamknuté "
 "obrazovce."
 
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:1
+msgid "Select the touchpad scroll method"
+msgstr "Výběr metody posuvu pomocí touchpadu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:2
+msgid ""
+"Select the touchpad scroll method. Supported values are: \"disabled\", "
+"\"edge-scrolling\", \"two-finger-scrolling\"."
+msgstr ""
+"Výběr metody posuvu pomocí touchpadu. Podporované hodnoty jsou: "
+"„disabled“ (vypnuto), „edge-scrolling“ (posuvník u hrany), „two-finger-"
+"scrolling“ (posuv pomocí dvou prstů)"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:3
+msgid "Enable mouse clicks with touchpad"
+msgstr "Povolit kliknutí myší pomocí touchpadu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:4
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr ""
+"Když je nastaveno na zapnuto, budete možné provádět kliknutí myší poklepáním "
+"na touchpad."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:5
+msgid "Touchpad enabled"
+msgstr "Touchpad povolen"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:6
+msgid "Defines the situations in which the touchpad is enabled."
+msgstr "Určuje situace, ve kterých je touchpad povolen."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:7
+msgid "Drawing tablet mapping"
+msgstr "Mapování kreslícího tabletu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:8
+msgid ""
+"EDID information of the monitor the tablet is mapped to. Must be in the "
+"format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgstr ""
+"Informace EDID o monitoru, na který je tablet mapován. Musí být ve formátu "
+"[výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] mapování vypne."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:9
+msgid "Touchscreen display mapping"
+msgstr "Mapování dotykové obrazovky"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:10
+msgid ""
+"EDID information of the monitor the touchscreen is mapped to. Must be in the "
+"format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgstr ""
+"Informace EDID o monitoru, na který je dotyková obrazovka mapována. Musí být "
+"ve formátu [výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] mapování "
+"vypne."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:11
+msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgstr "Emulace tlačítka v kolečku myši. 0 tuto funkci vypne."
+
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:1
 msgid "Controls visibility of personal information"
 msgstr "Řídí viditelnost osobních údajů"
@@ -1487,7 +1548,7 @@ msgid ""
 "If set to true, the system will make an effort to not divulge the user's "
 "identity on screen or on the network."
 msgstr ""
-"Pokud je nastaveno na zapnuto, bude se systém snažit neprozradit totožnost "
+"Když je nastaveno na zapnuto, bude se systém snažit neprozradit totožnost "
 "uživatele na obrazovce nebo v síti."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:3
@@ -2309,51 +2370,25 @@ msgstr ""
 "spuštěná z terminálu zaměření nezískají."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:11
-msgid "Whether raising should be a side-effect of other user interactions"
+msgid "Whether windows should be raised when their client area is clicked"
 msgstr ""
-"Zda má být přenesení do popředí vedlejším efektem jiných uživatelských "
-"interakcí"
+"Zda má být okno přeneseno do popředí, když je kliknuto na jeho klientskou "
+"oblast"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:12
 msgid ""
-"Setting this option to false can lead to buggy behavior, so users are "
-"strongly discouraged from changing it from the default of true. Many actions "
-"(e.g. clicking in the client area, moving or resizing the window) normally "
-"raise the window as a side-effect. Setting this option to false, which is "
-"strongly discouraged, will decouple raising from other user actions, and "
-"ignore raise requests generated by applications. See http://bugzilla.gnome."
-"org/show_bug.cgi?id=445447#c6. Even when this option is false, windows can "
-"still be raised by an alt-left-click anywhere on the window, a normal click "
-"on the window decorations, or by special messages from pagers, such as "
-"activation requests from tasklist applets. This option is currently disabled "
-"in click-to-focus mode. Note that the list of ways to raise windows when "
-"raise-on-click is false does not include programmatic requests from "
-"applications to raise windows; such requests will be ignored regardless of "
-"the reason for the request. If you are an application developer and have a "
-"user complaining that your application does not work with this setting "
-"disabled, tell them it is -their- fault for breaking their window manager "
-"and that they need to change this option back to true or live with the \"bug"
-"\" they requested."
+"The default, true, indicates that a window will be raised whenever its "
+"client area or its frame is clicked. Setting this to false means that a "
+"window will not be raised if it is clicked on the client area. To raise it, "
+"one can click anywhere in the window's frame, or Super-click on any part of "
+"the window. This mode is useful if one uses many overlapping windows."
 msgstr ""
-"Nastavení této volby na vypnuto může vést k chybnému chování, takže je "
-"uživatelům důrazně doporučováno neměnit výchozí hodnotu „zapnuto“. Hodně "
-"akcí (např. kliknutí do klientské oblasti, přesun nebo změna velikosti okna) "
-"normálně jako vedlejší efekt přenese okno do popředí. Nastavením hodnoty na "
-"„vypnuto“, což je silně nedoporučováno, odděluje přenesení do popředí od "
-"ostatních uživatelských akcí a ignoruje požadavek od aplikací na přenesení "
-"do popředí. Viz http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. I když "
-"je tato volba vypnuta, může být okno stále přeneseno do popředí kliknutím "
-"levým tlačítkem spolu s Alt na okno, normálním kliknutím na dekorace okna "
-"nebo speciálními správami od přepínače ploch, jako je třeba požadavek na "
-"aktivaci od apletu správce úloh. Tato volba je v současnosti zakázána v "
-"režimu click-to-focus. Všimněte si, že seznam způsobů, jak přenést okno do "
-"popředí, když je raise-on-click vypnuto, nezahrnuje programový požadavek z "
-"aplikací na přenesení okna do popředí. Takovéto požadavky budou ignorovány "
-"bez ohledu na důvod požadavku. Jestliže jste vývojář a máte uživatele, kteří "
-"si stěžují, že vaše aplikace nepracují s vypnutou toto volbou, vysvětlete "
-"jim, že to je jejich chyba, že se rozladili nastavení správce oken, a že "
-"potřebují tuto volbu vrátit zpět na zapnuto a nebo musí žít dál s „chybou“, "
-"kterou sami chtějí."
+"Výchozí hodnota zapnuto říká, že okno bude přeneseno do popředí, kdykoliv je "
+"kliknuto na jeho klientskou oblast nebo rám. Nastavení na vypnuto znamená, "
+"že okno nebude přeneseno do popředí, když je kliknuto na klientskou oblast. "
+"Pro přenesení do popředí je zapotřebí kliknout někde na jeho rám nebo použít "
+"kombinaci Super + kliknutí na libovolné části okna. Tento režim se hodí, "
+"když se používá hodně překrývajících se oken."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
 msgid "Action on title bar double-click"
@@ -2462,8 +2497,10 @@ msgstr "Aktuální motiv"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:24
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
-"forth."
-msgstr "Motiv určující vzhled okrajů okna, jeho záhlaví a dalších věcí."
+"forth. DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+"Motiv určující vzhled okrajů okna, jeho záhlaví a dalších věcí. ZAVRŽENO: "
+"Tento klíč byl zavržen a je ignorován."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:25
 msgid "Use standard system font in window titles"
