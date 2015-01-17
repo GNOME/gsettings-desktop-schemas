@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-12-31 17:27+0100\n"
-"PO-Revision-Date: 2014-12-31 17:39+0100\n"
+"POT-Creation-Date: 2015-01-17 17:17+0100\n"
+"PO-Revision-Date: 2015-01-17 17:20+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
@@ -1527,10 +1527,9 @@ msgid ""
 "Select the touchpad scroll method. Supported values are: \"disabled\", "
 "\"edge-scrolling\", \"two-finger-scrolling\"."
 msgstr ""
-"Hautatu 'touchpad'aren korritzeko metodoa\". Balio erabilgarriak: 'disabled' "
-"(desgaituta), "
-"'edge-scrolling' (ertzean korritzea), 'two-finger-scrolling' (bi hatzekin "
-"korritzea)."
+"Hautatu 'touchpad'aren korritzeko metodoa\". Balio erabilgarriak: "
+"'disabled' (desgaituta), 'edge-scrolling' (ertzean korritzea), 'two-finger-"
+"scrolling' (bi hatzekin korritzea)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -1540,7 +1539,8 @@ msgstr "Gaitu touchpad-arekin klik egitea"
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
-"Hau TRUE (egia) gisa ezartzean, touchpad-ak saguaren antzera klik egin dezake."
+"Hau TRUE (egia) gisa ezartzean, touchpad-ak saguaren antzera klik egin "
+"dezake."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:5
 msgid "Touchpad enabled"
@@ -1559,9 +1559,9 @@ msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
-"Mapatu den taulari buruzko EDID informazioa. Honako formatua eduki "
-"behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] "
-"mapaketa desgaitzen du."
+"Mapatu den taulari buruzko EDID informazioa. Honako formatua eduki behar du: "
+"[hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] mapaketa "
+"desgaitzen du."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.in.h:9
 msgid "Touchscreen display mapping"
@@ -1680,6 +1680,16 @@ msgid ""
 msgstr ""
 "FALSE (faltsua) bada, hornitzaileari ez zaio instalatutako edo kendutako "
 "aplikazioei buruzko informazio anonimorik bidaliko."
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:19
+msgid "Send reports of technical problems to the vendor"
+msgstr "Eman arazo teknikoen berri fabrikatzaileari"
+
+#: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.in.h:20
+msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
+msgstr ""
+"TRUE (egia) bada, arazoei buruzko informazioa anonimorik bidaliko zaio "
+"fabrikatzaileari."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.in.h:1
 msgid "Activate when idle"
@@ -2427,12 +2437,11 @@ msgid ""
 "one can click anywhere in the window's frame, or Super-click on any part of "
 "the window. This mode is useful if one uses many overlapping windows."
 msgstr ""
-"Lehenetsiak, TRUE (egia), leihoak goratu egingo direla adierazten du "
-"bere bezero-arean edo markoan klik egitean. Ezarpen hau 'false' (faltsua) "
-"gisa konfiguratzen bada, leihoak ez direla goratuko (haien gain klik "
-"egitean) adierazten du. Goratzeko leihoaren markoaren gainean klik egin, edo "
-"leihoko edozer lekutan Super+klik egin. Modu hau egokia izan daiteke "
-"gainjarritako "
+"Lehenetsiak, TRUE (egia), leihoak goratu egingo direla adierazten du bere "
+"bezero-arean edo markoan klik egitean. Ezarpen hau 'false' (faltsua) gisa "
+"konfiguratzen bada, leihoak ez direla goratuko (haien gain klik egitean) "
+"adierazten du. Goratzeko leihoaren markoaren gainean klik egin, edo leihoko "
+"edozer lekutan Super+klik egin. Modu hau egokia izan daiteke gainjarritako "
 "leiho asko erabiltzean."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:13
@@ -2545,9 +2554,10 @@ msgstr "Uneko gaia"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:24
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
-"forth."
+"forth. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Gaiak erabakiko du leihoen ertzen, titulu-barren eta horrelakoen itxura."
+"Gaiak erabakiko du leihoen ertzen, titulu-barren eta horrelakoen itxura. "
+"ZAHARKITUA: gako hau zaharkitua dago eta ez ikusi egiten zaio."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in.h:25
 msgid "Use standard system font in window titles"
