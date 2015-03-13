@@ -39,6 +39,11 @@
       <summary>Natural scrolling</summary>
       <description>Set this to TRUE to enable natural (reverse) scrolling for touchpads.</description>
     </key>
+    <key name="click-method" enum="org.gnome.desktop.GDesktopTouchpadClickMethod">
+      <default>'default'</default>
+      <summary>Click method</summary>
+      <description>How to generate software-emulated buttons, either disabled ('none'), through specific areas ('areas'), number of fingers ('fingers') or left as hardware default ('default').</description>
+    </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.keyboard" path="/org/gnome/desktop/peripherals/keyboard/">
     <key name="repeat" type="b">
