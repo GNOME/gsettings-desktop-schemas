@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-09 09:29+0000\n"
-"PO-Revision-Date: 2015-02-09 19:02+0100\n"
+"POT-Creation-Date: 2015-03-17 15:22+0000\n"
+"PO-Revision-Date: 2015-03-17 18:03+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -1652,40 +1652,54 @@ msgstr ""
 "atrás) para «touchpads»."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Método de pulsación"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+"Cómo generar botones emulados por software, bien desactivados («none»), "
+"mediante áreas específicas («areas»), número de dedos («fingers») o dejar el "
+"valor hardware predeterminado («default»)."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "Repetición del teclado"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Establecer esto a cierto para activar la repetición del teclado."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "Intervalo de repetición de teclas"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "Retardo entre repeticiones, en milisegundos."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Intervalo inicial de repetición de teclas"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Retardo inicial de repetición de teclas, en milisegundos."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Orientación del botón del ratón"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Intercambiar los botones izquierdo y derecho del ratón para ratones para "
 "zurdos."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1694,17 +1708,17 @@ msgstr ""
 "(desde «no acelerado» hasta «rápido»). El valor 0 es el predeterminado del "
 "sistema."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Establezca esto a verdadero para activar el desplazamiento natural (hacia "
 "atrás) del ratón."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "Mapeado de tableta de dibujo"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1712,11 +1726,11 @@ msgstr ""
 "Información EDID del monitor de la tableta que tiene mapeada. Debe estar en "
 "formato [fabricante, producto, serie]. [\"\",\"\",\"\"] desactiva el mapeado."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "Mapeado de la pantalla táctil"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1725,7 +1739,7 @@ msgstr ""
 "estar en formato [fabricante, producto, serie]. [\"\",\"\",\"\"] desactiva "
 "el mapeado."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Emulación del botón con la rueda del ratón. 0 para desactivar esta "
