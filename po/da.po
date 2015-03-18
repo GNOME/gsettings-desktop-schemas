@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-15 14:46+0100\n"
-"PO-Revision-Date: 2015-03-14 19:04+0100\n"
+"POT-Creation-Date: 2015-03-19 00:23+0100\n"
+"PO-Revision-Date: 2015-03-19 00:21+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -956,7 +956,7 @@ msgstr "Om værktøjskasser skal indlæse tilgængelighedsrelaterede moduler."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:3
 msgid "Enable Animations"
-msgstr "Slå animationer til"
+msgstr "Aktivér animationer"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:4
 msgid ""
@@ -1568,38 +1568,52 @@ msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulning til for pegeplader."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Klikmetode"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+"Hvordan softwareemulerede knapper skal genereres. Enten slået fra (\"none"
+"\"), gennem specifikke områder (\"areas\"), antal fingre (\"fingers\") eller "
+"overladt til hardware (\"default\")."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "Gentagelse på tastatur"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Sæt denne til TRUE for at slå tastaturgentagelse til."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "Interval for tastaturgentagelse"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "Ventetid mellem gentagelser i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Indledende ventetid for tastegentagelse"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Indledende ventetid for tastegenkendelse i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Orientering af museknapper"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Ombyt venstre og højre museknap for venstrehåndede mus."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1607,17 +1621,17 @@ msgstr ""
 "Markørhastighed for mus. Accepterede værdier er i intervallet [-1..1] (fra "
 "uaccelereret (unaccelerated) til hurtig (fast). Værdien 0 er systemstandard."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulletilstand til for mus."
 
 # sammenlign evt. med efterfølgende
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "Skærmafbildning for tegne-tavle-pc"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1626,11 +1640,11 @@ msgstr ""
 "formatet [forhandler, produkt, serienummer]. [\"\",\"\",\"\"] slår "
 "funktionen fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "Skærmafbildning for berøringsskærm"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1639,7 +1653,7 @@ msgstr ""
 "Skal have formatet [forhander, produkt, serienummer]. [\"\",\"\",\"\"] slår "
 "dette fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emuleringsknap for musehjul. 0 for at slå funktionen fra."
 
