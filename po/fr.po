@@ -1,7 +1,6 @@
 # French translation for gsettings-desktop-schemas.
-# Copyright (C) 2012-2014 Listed translators
+# Copyright (C) 2012-2015 Listed translators
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-#
 #
 # Andre Matuch <andre.matuch@videotron.ca>, 2012.
 # Bruno Brouard <annoa.b@gmail.com>, 2012-2013.
@@ -12,10 +11,10 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-25 21:33+0000\n"
-"PO-Revision-Date: 2015-03-03 00:17+0100\n"
+"POT-Creation-Date: 2015-03-18 09:34+0000\n"
+"PO-Revision-Date: 2015-03-18 18:07+0100\n"
 "Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
-"Language-Team: French <GNOME French Team <gnomefr@traduc.org>>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1625,8 +1624,8 @@ msgid ""
 "for right-handed, 'mouse' to follow the mouse setting."
 msgstr ""
 "Inverser les boutons droit et gauche d'une souris pour gauchers avec "
-"« left » (gauche), « right » (droit) pour une souris pour droitiers, « mouse » (souris) pour suivre le paramétrage de la "
-"souris."
+"« left » (gauche), « right » (droit) pour une souris pour droitiers, "
+"« mouse » (souris) pour suivre le paramétrage de la souris."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid "Pointer speed"
@@ -1638,8 +1637,8 @@ msgid ""
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgstr ""
 "Vitesse du double-clic du pointeur pour le pavé numérique. Les valeurs "
-"acceptées sont dans l'intervalle [-1..1] (de « unaccelerated » (sans accélération) à "
-"« fast ») (rapide). 0 est la valeur par défaut du système."
+"acceptées sont dans l'intervalle [-1..1] (de « unaccelerated » (sans "
+"accélération) à « fast ») (rapide). 0 est la valeur par défaut du système."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid "Natural scrolling"
@@ -1652,42 +1651,57 @@ msgstr ""
 "tactile."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Méthode de clic"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+"Comment générer les boutons émulés par logiciel, soit désactivé (« none »), "
+"selon des zones spécifiques (« areas »), selon le nombre de doigts "
+"(« fingers ») ou laissé en fonction de la valeur par défaut du matériel "
+"(« default »)."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "Répétition du clavier"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr ""
 "Mettez cette valeur à TRUE (VRAI) pour activer la répétition des touches du "
 "clavier"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "Intervalle de répétition des touches"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "Délai entre les répétitions en millisecondes"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Délai de répétition des touches initial"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Délai initial, avant le début de la répétition, en millisecondes"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Orientation des boutons de la souris"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Permuter les boutons gauche et droit de la souris pour les souris destinées "
 "aux gauchers."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1696,17 +1710,17 @@ msgstr ""
 "dans l'intervalle [-1..1] (de « unaccelerated » (lent) à « fast ») (rapide). "
 "0 est la valeur par défaut du système."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Mettez cette valeur à TRUE (VRAI) pour activer le défilement naturel "
 "(inverse) de la souris."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "Liaison de la tablette graphique"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1716,11 +1730,11 @@ msgstr ""
 "produit), serial (série)]. [\"\",\"\",\"\"] désactive cette mise en "
 "correspondance."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "Liaison de l'écran tactile"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1729,7 +1743,7 @@ msgstr ""
 "respecter le format [vendor (nom du fournisseur), product (nom du produit), "
 "serial (série)]. [\"\",\"\",\"\"] désactive cette mise en correspondance."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Bouton d'émulation de la roulette de la souris. 0 pour désactiver cette "
@@ -3189,52 +3203,3 @@ msgid ""
 msgstr ""
 "Le port sur la machine définie par « /system/proxy/socks/host » à utiliser "
 "pour le service mandataire."
-
-#~ msgid "Whether raising should be a side-effect of other user interactions"
-#~ msgstr ""
-#~ "Indique si la mise au premier plan doit être un effet secondaire des "
-#~ "autres interactions de l'utilisateur"
-
-#~ msgid ""
-#~ "Setting this option to false can lead to buggy behavior, so users are "
-#~ "strongly discouraged from changing it from the default of true. Many "
-#~ "actions (e.g. clicking in the client area, moving or resizing the window) "
-#~ "normally raise the window as a side-effect. Setting this option to false, "
-#~ "which is strongly discouraged, will decouple raising from other user "
-#~ "actions, and ignore raise requests generated by applications. See http://"
-#~ "bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Even when this option is "
-#~ "false, windows can still be raised by an alt-left-click anywhere on the "
-#~ "window, a normal click on the window decorations, or by special messages "
-#~ "from pagers, such as activation requests from tasklist applets. This "
-#~ "option is currently disabled in click-to-focus mode. Note that the list "
-#~ "of ways to raise windows when raise-on-click is false does not include "
-#~ "programmatic requests from applications to raise windows; such requests "
-#~ "will be ignored regardless of the reason for the request. If you are an "
-#~ "application developer and have a user complaining that your application "
-#~ "does not work with this setting disabled, tell them it is -their- fault "
-#~ "for breaking their window manager and that they need to change this "
-#~ "option back to true or live with the \"bug\" they requested."
-#~ msgstr ""
-#~ "Définir cette option à faux peut mener à un comportement bogué, il est "
-#~ "donc fortement déconseillé de modifier cette option de sa valeur par "
-#~ "défaut. De nombreuses actions (par exemple, un clic dans la zone de "
-#~ "client, le déplacement ou le redimensionnement de la fenêtre) ont pour "
-#~ "effet secondaire de mettre normalement la fenêtre au premier plan. "
-#~ "Définir cette option à faux, ce qui est fortement découragé, va découpler "
-#~ "la mise au premier plan des autres actions utilisateur et ignorer les "
-#~ "requêtes de mise au premier plan générées par les application. Consultez "
-#~ "http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Même lorsque cette "
-#~ "option est fausse, les fenêtres peuvent quand même être mises au premier "
-#~ "plan par un « alt-clic gauche » n'importe où dans la fenêtre, un clic "
-#~ "normal sur la décoration de fenêtre, ou par les messages spéciaux de "
-#~ "notification, tels que les demandes d'activation des applets de liste de "
-#~ "tâches. Cette option est actuellement désactivée en mode de focus "
-#~ "« click ». Notez que la liste des façons de mettre au premier plan les "
-#~ "fenêtres lorsque raise-on-click est faux n'inclut pas les requêtes "
-#~ "logicielles de mise au premier plan des fenêtres ; de telles demandes "
-#~ "seront ignorées quelle que soit la raison de la demande. Si vous êtes un "
-#~ "développeur d'application et qu'un utilisateur se plaint que votre "
-#~ "application ne fonctionne pas alors que ce paramètre est désactivé, dites-"
-#~ "lui que c'est de « sa » faute car il a cassé le gestionnaire de fenêtres "
-#~ "et qu'il doit restaurer cette option à vrai ou vivre avec le « bogue » "
-#~ "qu'il a lui-même généré."
