@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-03 21:26+0000\n"
-"PO-Revision-Date: 2015-02-04 09:46+0100\n"
+"POT-Creation-Date: 2015-03-18 09:34+0000\n"
+"PO-Revision-Date: 2015-03-18 13:12+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -307,15 +307,15 @@ msgstr ""
 "\n"
 "• none: žádné sledování kurzoru\n"
 "\n"
-"• centered: obrázek kurzoru je zobrazen ve středu přiblížené oblasti (zároveň "
-"představuje ukazatel pod systémovým kurzorem) a zvětšený obsah je posouván "
-"podle toho, jak se pohybuje systémová kurzor\n"
+"• centered: obrázek kurzoru je zobrazen ve středu přiblížené oblasti "
+"(zároveň představuje ukazatel pod systémovým kurzorem) a zvětšený obsah je "
+"posouván podle toho, jak se pohybuje systémová kurzor\n"
 "\n"
 "• proportional: poloha zvětšené kurzoru v přiblížené oblasti je proporčně "
 "stejná, jako je poloha systémového kurzoru na obrazovce\n"
 "\n"
-"• push: když zvětšený kurzor protne hranici zvětšené oblasti, posune se obsah "
-"do zobrazení"
+"• push: když zvětšený kurzor protne hranici zvětšené oblasti, posune se "
+"obsah do zobrazení"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:25
 msgid "Screen position"
@@ -808,9 +808,8 @@ msgid ""
 msgstr ""
 "Výchozí kalendářová aplikace.\n"
 "\n"
-"ZAVRŽENO: Tento klíč byl zavržen a je "
-"ignorován. Upřednostňovanou kalendářovou aplikací je ta, která obsluhuje typ "
-"MIME text/calendar."
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Upřednostňovanou "
+"kalendářovou aplikací je ta, která obsluhuje typ MIME text/calendar."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:5
 msgid "Calendar needs terminal"
@@ -860,8 +859,8 @@ msgstr ""
 "Terminálový program, který se použije při spouštění aplikací, které terminál "
 "vyžadují.\n"
 "\n"
-"ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Výchozí terminál "
-"je obsluhován v GIO."
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Výchozí terminál je "
+"obsluhován v GIO."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:17
 msgid "Exec Arguments"
@@ -875,7 +874,8 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. The default terminal and how "
 "to invoke it is handled in GIO."
 msgstr ""
-"Argument použitý ke spuštění programů v terminálu definovaném klíčem „exec“.\n"
+"Argument použitý ke spuštění programů v terminálu definovaném klíčem "
+"„exec“.\n"
 "\n"
 "ZAVRŽENO: Tento klíč byl zavržen a je ignorován. Výchozí terminál, a jak je "
 "vyvolán, je obsluhován v GIO."
@@ -1580,40 +1580,54 @@ msgstr ""
 "přirozeném (obráceném) směru."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Metoda klikání"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+"Jak generovat softwarově emulovaná tlačítka. Může být buď vypnuto („none“), "
+"přes určené oblasti („areas“), dané počtem prstů („fingers“) nebo ponecháno "
+"na výchozím nastavení hardwaru („default“)."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "Opakování klávesnice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nastavte na ZAPNUTO, pokud má klávesnice opakovat zmáčknutí kláves."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "Četnost opakování klávesnice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "Prodleva mezi opakováním zmáčknutí kláves, v milisekundách"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Počáteční prodleva opakování klávesnice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr ""
 "Počáteční zpoždění v milisekundách, než začně klávesnice opakovat zmáčknutí "
 "kláves."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Uspořádání tlačítek myši"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Prohodit levé a pravé tlačítko myši, určeno pro leváky."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1621,17 +1635,17 @@ msgstr ""
 "Rychlost ukazatele myší. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Když je nastaveno na ZAPNUTO, bude posuv pomocí myši fungovat v přirozeném "
 "(obráceném) směru."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "Mapování kreslícího tabletu"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1639,11 +1653,11 @@ msgstr ""
 "Informace EDID o monitoru, na který je tablet mapován. Musí být ve formátu "
 "[výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] mapování vypne."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "Mapování dotykové obrazovky"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1652,7 +1666,7 @@ msgstr ""
 "ve formátu [výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] mapování "
 "vypne."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emulace tlačítka v kolečku myši. 0 tuto funkci vypne."
 
@@ -2544,9 +2558,10 @@ msgstr ""
 "kliknuto na jeho klientskou oblast nebo rám.\n"
 "\n"
 "Nastavení na vypnuto znamená, že okno nebude přeneseno do popředí, když je "
-"kliknuto na klientskou oblast. Pro přenesení do popředí je zapotřebí kliknout "
-"někde na jeho rám nebo použít kombinaci Super + kliknutí na libovolné části "
-"okna. Tento režim se hodí, když se používá hodně překrývajících se oken."
+"kliknuto na klientskou oblast. Pro přenesení do popředí je zapotřebí "
+"kliknout někde na jeho rám nebo použít kombinaci Super + kliknutí na "
+"libovolné části okna. Tento režim se hodí, když se používá hodně "
+"překrývajících se oken."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:15
 msgid "Action on title bar double-click"
@@ -2594,8 +2609,8 @@ msgstr ""
 "okna.\n"
 "\n"
 "V současnosti platné volby jsou „toggle-shade“, která okno svine/rozvine; "
-"„toggle-maximize“, která okno maximalizuje/zruší jeho maximalizaci; "
-"„toggle-maximize-horizontally“ a „toggle-maximize-vertically“, která okno "
+"„toggle-maximize“, která okno maximalizuje/zruší jeho maximalizaci; „toggle-"
+"maximize-horizontally“ a „toggle-maximize-vertically“, která okno "
 "maximalizuje/zruší jeho maximalizaci pouze ve vodorovné, respektive svislém "
 "směru; „minimize“, která okno minimalizuje; „shade“, která okno sbalí; "
 "„menu“, která zobrazí nabídku okna; „lower“, která odsune okno do pozadí za "
@@ -2758,9 +2773,9 @@ msgstr ""
 "Říká správci oken, jak má implementovat vizuální indikaci, když zazvoní "
 "systémový „zvonek“ nebo „zvonek“ jiné aplikace.\n"
 "\n"
-"V současnosti jsou platné dvě hodnoty: „fullscreen-flash“, která "
-"způsobí bílo-černé bliknutí celé obrazovky, a „frame-flash“, která způsobí "
-"zablikání záhlaví okna aplikace, která signál zvonku vyslala.\n"
+"V současnosti jsou platné dvě hodnoty: „fullscreen-flash“, která způsobí "
+"bílo-černé bliknutí celé obrazovky, a „frame-flash“, která způsobí zablikání "
+"záhlaví okna aplikace, která signál zvonku vyslala.\n"
 "\n"
 "Pokud není známo, která aplikace zvonek zaslala (což je obvykle v případech "
 "výchozích „systémových pípnutí“), zabliká záhlaví okna, které je právě "
@@ -2873,16 +2888,16 @@ msgstr ""
 "Při nastavení „auto“ se použije automatické nastavení popsané na adrese URL "
 "uvedené v klíči „autoconfig-url“.\n"
 "\n"
-"Při nastavení „manual“ se použijí proxy uvedené v „/system/proxy/http“, "
-"„/system/proxy/https“, „/system/proxy/ftp“ a „/system/proxy/socks“. Každý z "
+"Při nastavení „manual“ se použijí proxy uvedené v „/system/proxy/http“, „/"
+"system/proxy/https“, „/system/proxy/ftp“ a „/system/proxy/socks“. Každý z "
 "těchto 4 typů proxy se zapne, pokud je klíč „host“ neprázdný a klíč „port“ "
 "nenulový.\n"
 "\n"
 "Jestliže je nastavena proxy HTTP a proxy HTTPS ne, použije se proxy HTTP i "
 "pro HTTPS.\n"
 "\n"
-"Pokud je nastavena proxy SOCKS, použije se pro všechny protokoly, vyjma proxy "
-"HTTP, HTTPS a FTP, které si nastavení přepíšou."
+"Pokud je nastavena proxy SOCKS, použije se pro všechny protokoly, vyjma "
+"proxy HTTP, HTTPS a FTP, které si nastavení přepíšou."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:13
 msgid "Automatic proxy configuration URL"
