@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-07 09:37+0000\n"
-"PO-Revision-Date: 2015-03-07 21:50+0200\n"
+"POT-Creation-Date: 2015-03-21 14:16+0000\n"
+"PO-Revision-Date: 2015-03-21 17:34+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -244,15 +244,6 @@ msgid "Focus Tracking Mode"
 msgstr "Pelės sekimo veiksena"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:4
-#| msgid ""
-#| "Determines the position of the focused widget within magnified view. The "
-#| "values are: - none: no focus tracking - centered: the focused image is "
-#| "displayed at the center of the zoom region (which also represents the "
-#| "point under the system focus) and the magnified contents are scrolled as "
-#| "the system focus moves - proportional: the position of the magnified "
-#| "focus in the zoom region is proportionally the same as the position of "
-#| "the system focus on screen - push: when the magnified focus intersects a "
-#| "boundary of the zoom region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the focused widget within magnified view.\n"
 "\n"
@@ -291,15 +282,6 @@ msgid "Caret Tracking Mode"
 msgstr "Klaviatūros žymiklio sekimo veiksena"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
-#| msgid ""
-#| "Determines the position of the caret within magnified view. The values "
-#| "are: - none: no caret tracking - centered: the image of the caret is "
-#| "displayed at the center of the zoom region (which also represents the "
-#| "point under the system caret) and the magnified contents are scrolled as "
-#| "the system caret moves - proportional: the position of the magnified "
-#| "caret in the zoom region is proportionally the same as the position of "
-#| "the system caret on screen - push: when the magnified caret intersects a "
-#| "boundary of the zoom region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
@@ -808,10 +790,6 @@ msgid "Default calendar"
 msgstr "Numatytasis kalendorius"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:2
-#| msgid ""
-#| "Default calendar application DEPRECATED: This key is deprecated and "
-#| "ignored. The preferred calendar application is the application handling "
-#| "the text/calendar mime type."
 msgid ""
 "Default calendar application\n"
 "\n"
@@ -828,11 +806,6 @@ msgid "Calendar needs terminal"
 msgstr "Kalendoriui naudojamas terminalas"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:6
-#| msgid ""
-#| "Whether the default calendar application needs a terminal to run. "
-#| "DEPRECATED: This key is deprecated and ignored. The preferred calendar "
-#| "application is the application handling the text/calendar mime type, "
-#| "whether it needs a terminal is taken from its desktop file."
 msgid ""
 "Whether the default calendar application needs a terminal to run.\n"
 "\n"
@@ -867,10 +840,6 @@ msgid "Terminal application"
 msgstr "Terminalo programa"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:14
-#| msgid ""
-#| "Terminal program to use when starting applications that require one. "
-#| "DEPRECATED: This key is deprecated and ignored. The default terminal is "
-#| "handled in GIO."
 msgid ""
 "Terminal program to use when starting applications that require one.\n"
 "\n"
@@ -887,10 +856,6 @@ msgid "Exec Arguments"
 msgstr "Vykdymo („exec“) argumentai"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:18
-#| msgid ""
-#| "Argument used to execute programs in the terminal defined by the 'exec' "
-#| "key. DEPRECATED: This key is deprecated and ignored. The default terminal "
-#| "and how to invoke it is handled in GIO."
 msgid ""
 "Argument used to execute programs in the terminal defined by the 'exec' "
 "key.\n"
@@ -1595,40 +1560,52 @@ msgstr ""
 "kilimėliams."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Paspaudimo metodas"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+"Kaip generuoti programiškai emuliuojamus mygtukus, gali būti išjungtas "
+"(„none“), per specifines sritis („areas“), pirštų skaičių („fingers“) arba "
+"aparatūros numatytą („default“)."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "Klaviatūros pasikartojimai"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nustatykite TEIGIAMĄ klaviatūros pasikartojimams įjungti."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "Klavišų pasikartojimo intervalas"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
-#| msgid "How long to accelerate in milliseconds"
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "Laiko tarpas tarp pasikartojimų milisekundėmis."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Pradinis klavišų pasikartojimo intervalas"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
-#| msgid "Initial delay in milliseconds"
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Pradinis klavišų pasikartojimo intervalas milisekundėmis"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Pelės mygtukų orientacija"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Sukeisti kairįjį ir dešinįjį pelės mygtukus kairiarankio pelei."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1636,15 +1613,15 @@ msgstr ""
 "Žymiklio greitis pelei. Galimo vertės yra rėžyje [-1..1] (nuo nespartinamo "
 "iki greito). Sistemos numatytoji vertė yra 0."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Nustatyti TEIGIAMĄ natūraliai (atvirkštinei) slinkčiai pele."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "Piešimo planšetės susiejimai"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1652,11 +1629,11 @@ msgstr ""
 "Monitoriaus EDID informacija, su kuria susieta planšetė. Turi būti formato "
 "[tiekėjas, produktas, serija]. [\"\",\"\",\"\"] išjungia susiejimą."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "Liečiamojo ekrano susiejimas"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1665,7 +1642,7 @@ msgstr ""
 "būti formato [tiekėjas, produktas, serija]. [\"\", \"\", \"\"] išjungia "
 "susiejimą."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Pelės ratuko emuliacijos mygtukas. 0 savybei išjungti."
 
@@ -1768,9 +1745,6 @@ msgid "Send reports of technical problems to the vendor"
 msgstr "Siųsti pranešimus apie technines problemas tiekėjui"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:20
-#| msgid ""
-#| "If FALSE, no anonymous installation or removal information will be sent "
-#| "to the vendor."
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
 msgstr ""
 "Jei TEIGIAMA, anoniminiai pranešimai bus automatiškai siunčiami tiekėjui."
@@ -1780,10 +1754,6 @@ msgid "Activate when idle"
 msgstr "Suaktyvinti, kai naudotojo seansas neaktyvus"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:2
-#| msgid ""
-#| "Set this to TRUE to activate the screensaver when the session is idle. "
-#| "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-#| "session idle-delay to 0 if you do not want to activate the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle.\n"
 "\n"
@@ -1832,10 +1802,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Leisti integruoti klaviatūrą į langą"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command. DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1854,11 +1820,6 @@ msgid "Embedded keyboard command"
 msgstr "Integruotos klaviatūros komanda"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output. DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1878,10 +1839,6 @@ msgid "Allow logout"
 msgstr "Leisti atsijungti"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key. "
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
@@ -1898,11 +1855,6 @@ msgid "Time before logout option"
 msgstr "Laikas prieš atsijungimo parinktį"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
-#| "and ignored"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1921,11 +1873,6 @@ msgid "Logout command"
 msgstr "Atsijungimo komanda"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE. DEPRECATED: This "
-#| "key is deprecated and ignored."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1956,9 +1903,6 @@ msgid "Allow the session status message to be displayed"
 msgstr "Leisti rodyti seanso būsenos pranešimą"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
-#| msgid ""
-#| "Allow the session status message to be displayed when the screen is "
-#| "locked. DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Allow the session status message to be displayed when the screen is locked.\n"
 "\n"
@@ -2584,15 +2528,6 @@ msgid "Action on title bar double-click"
 msgstr "Veiksmas dukart spustelėjus lango antraštę"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:16
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar. "
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar.\n"
 "\n"
@@ -2618,15 +2553,6 @@ msgid "Action on title bar middle-click"
 msgstr "Veiksmas spustelėjus antraštės juostą viduriniuoju klavišu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:20
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar. "
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar.\n"
 "\n"
@@ -2652,15 +2578,6 @@ msgid "Action on title bar right-click"
 msgstr "Veiksmas spustelėjus antraštės juostą dešiniuoju klavišu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:24
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar. "
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar.\n"
 "\n"
@@ -2714,9 +2631,6 @@ msgid "Current theme"
 msgstr "Dabartinė tema"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:32
-#| msgid ""
-#| "The theme determines the appearance of window borders, titlebar, and so "
-#| "forth."
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth.\n"
@@ -2799,14 +2713,6 @@ msgid "Visual Bell Type"
 msgstr "Vaizdinio perspėjimo tipas"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:46
-#| msgid ""
-#| "Tells the WM how to implement the visual indication that the system bell "
-#| "or another application 'bell' indicator has been rung. Currently there "
-#| "are two valid values, \"fullscreen-flash\", which causes a fullscreen "
-#| "white-black flash, and \"frame-flash\" which causes the titlebar of the "
-#| "application which sent the bell signal to flash. If the application which "
-#| "sent the bell is unknown (as is usually the case for the default \"system "
-#| "beep\"), the currently focused window's titlebar is flashed."
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application 'bell' indicator has been rung.\n"
@@ -2906,18 +2812,6 @@ msgid "Proxy configuration mode"
 msgstr "Proxy konfigūracijos veiksena"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
-#| msgid ""
-#| "Select the proxy configuration mode. Supported values are \"none\", "
-#| "\"manual\", \"auto\". If this is \"none\", then proxies are not used. If "
-#| "it is \"auto\", the autoconfiguration URL described by the \"autoconfig-"
-#| "url\" key is used. If it is \"manual\", then the proxies described by \"/"
-#| "system/proxy/http\", \"/system/proxy/https\", \"/system/proxy/ftp\" and "
-#| "\"/system/proxy/socks\" will be used. Each of the 4 proxy types is "
-#| "enabled if its \"host\" key is non-empty and its \"port\" key is non-0. "
-#| "If an http proxy is configured, but an https proxy is not, then the http "
-#| "proxy is also used for https. If a SOCKS proxy is configured, it is used "
-#| "for all protocols, except that the http, https, and ftp proxy settings "
-#| "override it for those protocols only."
 msgid ""
 "Select the proxy configuration mode. Supported values are \"none\", \"manual"
 "\", \"auto\".\n"
@@ -3027,12 +2921,6 @@ msgid "Authenticate proxy server connections"
 msgstr "Patikrinti proxy serverio ryšių tapatybę"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:25
-#| msgid ""
-#| "If true, then connections to the proxy server require authentication. The "
-#| "username/password combo is defined by \"/system/proxy/http/authentication-"
-#| "user\" and \"/system/proxy/http/authentication-password\". This applies "
-#| "only to the http proxy; when using a separate https proxy, there is "
-#| "currently no way to specify that it should use authentication."
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
 "username/password combo is defined by \"/system/proxy/http/authentication-"
