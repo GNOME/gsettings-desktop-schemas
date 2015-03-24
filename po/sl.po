@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-15 13:43+0000\n"
-"PO-Revision-Date: 2015-03-15 21:16+0100\n"
+"POT-Creation-Date: 2015-03-24 09:44+0000\n"
+"PO-Revision-Date: 2015-03-24 19:57+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -1549,76 +1549,87 @@ msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Način klikanja"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 #, fuzzy
 msgid "Keyboard repeat"
 msgstr "_Brez ponavljanja"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 #, fuzzy
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr ""
 "Izbrana možnost omogoča uporabo vstavka upravljalnika nastavitev dostopnosti "
 "tipkovnice."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 #, fuzzy
 msgid "Key Repeat Interval"
 msgstr "Ponovi naslednjo tipko"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 #, fuzzy
 msgid "Delay between repeats in milliseconds."
 msgstr "Čas med potezami v milisekundah."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Začetni zamik tipke"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Začetni zamik tipke v  milisekundah."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Usmerjenost gumba miške"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 #, fuzzy
 msgid "Drawing tablet mapping"
 msgstr "Preslikava gumbov Wacom"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 #, fuzzy
 msgid "Touchscreen display mapping"
 msgstr "Preslikava gumbov Wacom"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 
@@ -1726,27 +1737,27 @@ msgid "Send reports of technical problems to the vendor"
 msgstr "Pošlji poročilo tehničnih težav ponudniku"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:20
-#, fuzzy
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
 msgstr ""
-"Neizbrana možnost onemogoča pošiljanja podatkov namestite ponudniku "
-"programske opreme."
+"Izbrana možnost omogoča samodejno pošiljanje poročil ponudniku programske "
+"opreme."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:1
 msgid "Activate when idle"
 msgstr "Vključi ob nedejavnosti"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:2
-#, fuzzy
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
 "session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Izbrana možnost omogoči zagon ohranjevalnika zaslona, ko je seja nedejavna. "
-"OPUŠČENO: ta ključ je opuščen in prezrt. Nastavite org.gnome.session.idle-"
-"delay na 0, če ne želite zagnati ohranjevalnika zaslona."
+"Izbrana možnost omogoči zagon ohranjevalnika zaslona, ko je seja nedejavna.\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi. Če želite omogočiti "
+"ohranjevalnik zaslona, omogočite zamik 0 v nastavitvi org.gnome.desktop."
+"session."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:5
 msgid "Lock on activation"
@@ -1786,7 +1797,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Dovoli vstavljanje tipkovnice v okno"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
-#, fuzzy
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1795,15 +1805,15 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Izbrana možnost omogoča vstavitev tipkovnice v okno ob odklepanju. Ključ "
-"\"keyboard_command\" mora biti nastavljen z ustreznim ukazom. OPUŠČENO: ta "
-"ključ je opuščen in prezrt."
+"\"keyboard_command\" mora biti nastavljen z ustreznim ukazom.\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:15
 msgid "Embedded keyboard command"
 msgstr "Ukaz vstavljene tipkovnice"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-#, fuzzy
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1814,15 +1824,15 @@ msgid ""
 msgstr ""
 "Določa uporabljen ukaz, kadar je omogočen ključ \"embedded_keyboard_enabled"
 "\" za vstavljanje gradnika tipkovnice v okno. Ta ukaz bi moral izvajati "
-"vmesnik vstavka XEMBED in na standardni izhod izpisovati XID okna. OPUŠČENO: "
-"ta ključ je opuščen in prezrt."
+"vmesnik vstavka XEMBED in na standardni izhod izpisovati XID okna.\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:19
 msgid "Allow logout"
 msgstr "Dovoli odjavo"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
-#, fuzzy
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
@@ -1830,15 +1840,15 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Izbrana možnost omogoča, da pogovorno okno za odklepanje ponudi možnost "
-"odjave po zamiku. Zamik je določen v ključu \"logout_delay\". OPUŠČENO: ta "
-"ključ je opuščen in prezrt."
+"odjave po zamiku. Zamik je določen v ključu \"logout_delay\"\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:23
 msgid "Time before logout option"
 msgstr "Čas pred možnostjo odjave"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
-#, fuzzy
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1848,14 +1858,15 @@ msgid ""
 msgstr ""
 "Število sekund po zagonu ohranjevalnika zaslona, preden se pojavi možnost za "
 "odjavo v pogovornem oknu za odklepanje zaslona. Ta ključ ima učinek le, če "
-"je omogočen ključ \"logout_enable\". OPUŠČENO: ta ključ je opuščen in prezrt."
+"je omogočen ključ \"logout_enable\".\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:27
 msgid "Logout command"
 msgstr "Ukaz za odjavo"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
-#, fuzzy
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1865,8 +1876,9 @@ msgid ""
 msgstr ""
 "Določa ukaz, ki bo priklican ob kliku na gumb za odjavo. Ta ukaz mora "
 "uporabnika odjavit brez dodatnih posegov. Ključ ima učinek le, če je "
-"omogočen tudi ključ \"logout_enable\". OPUŠČENO: Ključ je opuščen in bo "
-"prezrt."
+"omogočen tudi ključ \"logout_enable\". \n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:31
 msgid "Allow user switching"
@@ -1885,14 +1897,14 @@ msgid "Allow the session status message to be displayed"
 msgstr "Dovoli prikaz sporočila stanja seje"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
-#, fuzzy
 msgid ""
 "Allow the session status message to be displayed when the screen is locked.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Dovoli prikaz sporočila stanja seje, kadar je zaslon zaklenjen.OPUŠČENO: "
-"Ključ je opuščen in bo prezrt."
+"Dovoli prikaz sporočila stanja seje, kadar je zaslon zaklenjen.\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
@@ -2602,13 +2614,15 @@ msgid "Current theme"
 msgstr "Trenutna tema"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:32
-#, fuzzy
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
-msgstr "Tema določa videz robov oken, nazivne vrstice oken itd."
+msgstr ""
+"Tema določa videz robov oken, nazivne vrstice oken itd.\n"
+"\n"
+"OPUŠČENO: Ta možnost je opuščena in ni več v rabi."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:35
 msgid "Use standard system font in window titles"
@@ -2682,7 +2696,6 @@ msgid "Visual Bell Type"
 msgstr "Vrsta vidnega zvonca"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:46
-#, fuzzy
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application 'bell' indicator has been rung.\n"
@@ -2695,12 +2708,15 @@ msgid ""
 "for the default \"system beep\"), the currently focused window's titlebar is "
 "flashed."
 msgstr ""
-"Možnost določa način izvajanja vidnega opozarjanja sistemskega zvonca ali "
-"zvonca drugega programa. Trenutno sta na voljo dve veljavni vrednosti, "
-"\"fullscreen-flash\", ki povzroči celozaslonsko črno belo utripanje in "
-"\"frame-flash\", ki povzroči utripanje nazivne vrstice programa, ki je "
-"sprožil zvonec. V kolikor je slednji neznan (npr. v primeru \"sistemskega "
-"zvonca\"), utripa naslovna vrstica okna, ki je trenutno v žarišču."
+"Možnost določa način izvajanja vidnega opozarjanja sistemskega 'zvonca' ali "
+"zvonca drugega programa.\n"
+"\n"
+"Trenutno sta na voljo dve veljavni vrednosti, \"utripanje zaslona\", ki "
+"povzroči celozaslonsko črno belo utripanje in \"utripanje okna\", ki "
+"povzroči utripanje nazivne vrstice programa, ki je sprožil zvonec.\n"
+"\n"
+"V kolikor je slednji neznan (npr. v primeru \"sistemskega zvonca\"), utripa "
+"naslovna vrstica okna, ki je trenutno v žarišču."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:51
 msgid "Disable misfeatures that are required by old or broken applications"
