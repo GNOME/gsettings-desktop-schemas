@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-"
 "schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-18 09:34+0000\n"
-"PO-Revision-Date: 2015-02-19 15:35+0800\n"
+"POT-Creation-Date: 2015-08-25 13:47+0800\n"
+"PO-Revision-Date: 2015-08-25 13:48+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Taiwan) <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -241,7 +241,7 @@ msgid ""
 "- push: when the magnified focus intersects a boundary of the zoom region, the contents "
 "are scrolled into view"
 msgstr ""
-"決定聚焦的視窗元件在放大檢視中的位置。\n"
+"決定聚焦的元件在放大檢視中的位置。\n"
 "\n"
 "數值有：\n"
 " - none：不追蹤焦點\n"
@@ -498,32 +498,32 @@ msgid "Gesture single click"
 msgstr "單擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
-msgstr "進行單擊動作的方向 (「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
+msgstr "執行單擊動作的方向(「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:7
 msgid "Gesture double click"
 msgstr "雙擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
-msgstr "進行雙擊動作的方向 (「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
+msgstr "執行雙擊動作的方向(「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:9
 msgid "Gesture drag click"
 msgstr "拖曳手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
-msgstr "進行拖曳動作的方向 (「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
+msgstr "執行拖曳動作的方向(「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:11
 msgid "Gesture secondary click"
 msgstr "次要點擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
-msgstr "進行次要點擊動作的方向 (「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
+msgstr "執行次要點擊動作的方向(「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
 msgid "Dwell click mode"
@@ -625,7 +625,7 @@ msgstr "從這個資料夾排除的應用程式 ID 清單。這可以用來移�
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:1
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:37
 msgid "Picture Options"
-msgstr "圖片選項"
+msgstr "影像選項"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
@@ -639,9 +639,10 @@ msgstr ""
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:3
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:39
 msgid "Picture URI"
-msgstr "圖片 URI"
+msgstr "影像 URI"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
 "URI to use for the background image. Note that the backend only supports local (file://) "
 "URIs."
@@ -650,12 +651,12 @@ msgstr "背景影像的 URI。注意後端只支援本地 (file://) URI。"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:5
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:41
 msgid "Picture Opacity"
-msgstr "圖片透明度"
+msgstr "影像透明度"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:6
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:42
 msgid "Opacity with which to draw the background picture."
-msgstr "繪製背景圖片的透明度。"
+msgstr "繪製背景影像的透明度。"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:7
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:43
@@ -693,11 +694,11 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:13
 msgid "Have file manager handle the desktop"
-msgstr "讓檔案管理程式來處理桌面"
+msgstr "讓檔案管理員來處理桌面"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
-msgstr "如果設為「true」，檔案管理程式就會在桌面上繪出圖示。"
+msgstr "如果設為「true」，檔案管理員就會在桌面上繪出圖示。"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
@@ -858,7 +859,7 @@ msgstr "啟用動畫"
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it changes the "
 "behaviour of the window manager, the panel etc."
-msgstr "是否應顯示動畫。注意：這是全域設定鍵，它會改變視窗管理程式的行為，像是面板等等。"
+msgstr "是否應顯示動畫。注意：這是全域設定鍵，它會改變視窗管理員的行為，像是面板等等。"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:5
 msgid "Menus Have Tearoff"
@@ -1400,38 +1401,50 @@ msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr "設定為「TRUE」則啟用觸控板自然(反向)捲動。"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "點擊方法"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through specific "
+"areas ('areas'), number of fingers ('fingers') or left as hardware default ('default')."
+msgstr ""
+"如何產生軟體模擬按鈕，可以是停用 ('none')，透過指定的區域 ('areas')，手指數 ('fingers') "
+"或保持硬體預設值 ('default')。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "鍵盤重複"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "設定此項為 TRUE 以啟用鍵盤重複。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "鍵盤重複間隔"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "重複之間的延遲時間，以毫秒計。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "初始按鍵重複延遲"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "初始按鍵重複延遲，以毫秒計"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "滑鼠按鈕方向"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "為左手用滑鼠交換左、右滑鼠按鍵。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from \"unaccelerated\" "
 "to \"fast\"). A value of 0 is the system default."
@@ -1439,15 +1452,15 @@ msgstr ""
 "滑鼠指標速度。接受的數值在 [-1..1] 範圍 (從「unaccelerated」到「fast」)。系統預設值的數值"
 "為 0。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "設定為「TRUE」則啟用滑鼠自然(反向)捲動。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "繪圖板對映"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the format [vendor, "
 "product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1455,11 +1468,11 @@ msgstr ""
 "要對映到繪圖板的螢幕 EDID 資訊。必須為 [vendor, product, serial] 格式。 [\"\",\"\",\"\"] "
 "則會停用對映。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "觸控螢幕顯示對映"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the format "
 "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1467,7 +1480,7 @@ msgstr ""
 "要對應到觸控螢幕的螢幕 EDID 資訊。必須為 [vendor, product, serial] 格式。 [\"\",\"\","
 "\"\"] 則會停用對應。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "滑鼠滾輪模擬按鈕。0 為停用此功能。"
 
@@ -1709,12 +1722,6 @@ msgstr ""
 "當螢幕鎖定時允許顯示作業階段狀態訊息。\n"
 "\n"
 "已廢棄：這個設定鍵已廢棄並忽略。"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
-msgid ""
-"URI to use for the background image. Not that the backend only supports local (file://) "
-"URIs."
-msgstr "背景影像使用的 URI。注意後端只支援本地 (file://) URI。"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:1
 msgid "Disable all external search providers"
@@ -2526,7 +2533,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:1
 msgid "Proxy configuration mode"
-msgstr "代理伺服器組態模式"
+msgstr "代理伺服器設定模式"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
 msgid ""
@@ -2549,11 +2556,11 @@ msgid ""
 "If a SOCKS proxy is configured, it is used for all protocols, except that the http, "
 "https, and ftp proxy settings override it for those protocols only."
 msgstr ""
-"選擇代理伺服器組態模式。支援的數值有「none」(無)、「manual」(手動)、「auto」(自動)。\n"
+"選擇代理伺服器設定模式。支援的數值有「none」(無)、「manual」(手動)、「auto」(自動)。\n"
 "\n"
 "如果這是「none」，則不會使用代理伺服器。\n"
 "\n"
-"如果是「auto」，則會使用「autoconfig-url」設定鍵中指定的自動組態 URL。\n"
+"如果是「auto」，則會使用「autoconfig-url」設定鍵中指定的自動設定 URL。\n"
 "\n"
 "如果是「manual」，則會使用「/system/proxy/http」、「/system/proxy/https」、「/system/"
 "proxy/ftp」和「/system/proxy/socks」。這 4 個代理伺服器類型只有在「host」設定鍵不為空值且"
@@ -2567,14 +2574,14 @@ msgstr ""
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:13
 msgid "Automatic proxy configuration URL"
-msgstr "自動代理伺服器組態網址"
+msgstr "自動代理伺服器設定網址"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:14
 msgid ""
 "URL that provides proxy configuration values. When mode is \"auto\", this URL is used to "
 "look up proxy information for all protocols."
 msgstr ""
-"提供代理伺服器組態數值的 URL。當模式為「auto」，這個 URL 會用來查詢所有通訊協定的代理伺服"
+"提供代理伺服器設定數值的 URL。當模式為「auto」，這個 URL 會用來查詢所有通訊協定的代理伺服"
 "器資訊。"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:15
@@ -2710,6 +2717,23 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you proxy through."
 msgstr "「/system/proxy/socks/host」定義您的代理伺服器通過的機器連接埠。"
 
+#~ msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
+#~ msgstr "進行單擊動作的方向 (「左」、「右」、「上」、「下」)。"
+
+#~ msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
+#~ msgstr "進行雙擊動作的方向 (「左」、「右」、「上」、「下」)。"
+
+#~ msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
+#~ msgstr "進行拖曳動作的方向 (「左」、「右」、「上」、「下」)。"
+
+#~ msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
+#~ msgstr "進行次要點擊動作的方向 (「左」、「右」、「上」、「下」)。"
+
+#~ msgid ""
+#~ "URI to use for the background image. Not that the backend only supports local "
+#~ "(file://) URIs."
+#~ msgstr "背景影像使用的 URI。注意後端只支援本地 (file://) URI。"
+
 #~ msgid "Whether raising should be a side-effect of other user interactions"
 #~ msgstr "是否因其他使用者的動作連帶提升視窗取得焦點"
 
@@ -2741,7 +2765,7 @@ msgstr "「/system/proxy/socks/host」定義您的代理伺服器通過的機器
 #~ "模式中是停用的。注意當 raise-on-click 設為 false 時一系列用來抬升視窗的方法中不包含來"
 #~ "自應用程式的程式化要求；這類要求不論其原因為何都會被忽略。如果您是應用程式開發者，而且"
 #~ "有使用者向您抱怨您的程式在停用這個選項時無法運作，請告訴他們那是「他們的問題」才使得視"
-#~ "窗管理程式壞掉。因此他們只能把這個選項改回 true 或是繼續活在他們自己要求的「程式錯誤」"
+#~ "窗管理員壞掉。因此他們只能把這個選項改回 true 或是繼續活在他們自己要求的「程式錯誤」"
 #~ "中。"
 
 #~ msgid "Draw Desktop Background"
