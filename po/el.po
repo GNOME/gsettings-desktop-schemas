@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-"
 "schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-23 09:34+0000\n"
-"PO-Revision-Date: 2015-03-24 22:19+0200\n"
+"POT-Creation-Date: 2015-08-28 09:11+0000\n"
+"PO-Revision-Date: 2015-08-28 22:02+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -547,32 +547,32 @@ msgid "Gesture single click"
 msgstr "Κίνηση μονού κλικ"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
-msgstr "Κατεύθυνση εκτέλεσης μονού κλικ ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
+msgstr "Κατεύθυνση εκτέλεσης μονού κλικ ('left', 'right', 'up', 'down')."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:7
 msgid "Gesture double click"
 msgstr "Κίνηση διπλού κλικ"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
-msgstr "Κατεύθυνση εκτέλεσης διπλού κλικ ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
+msgstr "Κατεύθυνση εκτέλεσης διπλού κλικ ('left', 'right', 'up', 'down')."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:9
 msgid "Gesture drag click"
 msgstr "Κίνηση κλικ συρσίματος"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
-msgstr "Κατεύθυνση εκτέλεσης συρσίματος ('left', 'right', 'up', 'down)."
+msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
+msgstr "Κατεύθυνση εκτέλεσης συρσίματος ('left', 'right', 'up', 'down')."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:11
 msgid "Gesture secondary click"
 msgstr "Κίνηση δευτερεύοντος κλικ"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
-msgstr "Κατεύθυνση εκτέλεσης δευτερεύοντος κλικ ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
+msgstr "Κατεύθυνση εκτέλεσης δευτερεύοντος κλικ ('left', 'right', 'up', 'down')."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
 msgid "Dwell click mode"
@@ -703,6 +703,7 @@ msgid "Picture URI"
 msgstr "URI εικόνας"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
 "URI to use for the background image. Note that the backend only supports local (file://) "
 "URIs."
@@ -1882,14 +1883,6 @@ msgstr ""
 "\n"
 "ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι ξεπερασμένο και αγνοείται."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
-msgid ""
-"URI to use for the background image. Not that the backend only supports local (file://) "
-"URIs."
-msgstr ""
-"URI που θα χρησιμοποιηθεί για την εικόνα παρασκηνίου. Σημειώστε ότι η υποστήριξη "
-"στηρίζει μόνο τοπικά (αρχείο://) URIs."
-
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:1
 msgid "Disable all external search providers"
 msgstr "Απενεργοποίηση όλων των εξωτερικών παρόχων αναζήτησης"
@@ -2965,6 +2958,13 @@ msgid ""
 msgstr ""
 "Η θύρα στο μηχάνημα που καθορίζεται από το \"/system/proxy/socks/host\" μέσω του οποίου "
 "γίνεται διαμεσολάβηση."
+
+#~ msgid ""
+#~ "URI to use for the background image. Not that the backend only supports local "
+#~ "(file://) URIs."
+#~ msgstr ""
+#~ "URI που θα χρησιμοποιηθεί για την εικόνα παρασκηνίου. Σημειώστε ότι η υποστήριξη "
+#~ "στηρίζει μόνο τοπικά (αρχείο://) URIs."
 
 #~ msgid "Whether raising should be a side-effect of other user interactions"
 #~ msgstr ""
