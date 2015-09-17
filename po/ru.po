@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-31 08:54+0000\n"
-"PO-Revision-Date: 2015-03-31 23:21+0300\n"
+"POT-Creation-Date: 2015-09-17 09:22+0000\n"
+"PO-Revision-Date: 2015-09-17 14:14+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -566,19 +566,21 @@ msgid "Gesture single click"
 msgstr "Жест одиночного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
+#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgstr ""
-"Направление для выполнения одиночного щелчка («left» — влево; «right» — "
-"вправо; «up» — вверх; «down» — вниз)."
+"Направление для выполнения одиночного нажатия мышью («left» — влево; «right» "
+"— вправо; «up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:7
 msgid "Gesture double click"
 msgstr "Жест двойного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
+#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgstr ""
-"Направление для выполнения двойного щелчка («left» — влево; «right» — "
+"Направление для выполнения двойного нажатия мышью («left» — влево; «right» — "
 "вправо; «up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:9
@@ -586,7 +588,8 @@ msgid "Gesture drag click"
 msgstr "Жест перетаскивания"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
+#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
+msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr ""
 "Направление для выполнения перетаскивания («left» — влево; «right» — вправо; "
 "«up» — вверх; «down» — вниз)."
@@ -596,10 +599,12 @@ msgid "Gesture secondary click"
 msgstr "Жест вторичного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
+#| msgid ""
+#| "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
-"Направление для выполнения вторичного щелчка («left» — влево; «right» — "
-"вправо; «up» — вверх; «down» — вниз)."
+"Направление для выполнения вторичного нажатия мышью («left» — влево; «right» "
+"— вправо; «up» — вверх; «down» — вниз)."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
 msgid "Dwell click mode"
@@ -732,6 +737,7 @@ msgid "Picture URI"
 msgstr "URI изображения"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -1965,14 +1971,6 @@ msgstr ""
 "\n"
 "УСТАРЕЛО: этот ключ устарел и игнорируется."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
-msgid ""
-"URI to use for the background image. Not that the backend only supports "
-"local (file://) URIs."
-msgstr ""
-"URI изображения, используемого для фона. Заметьте, что поддерживаются только "
-"локальные URI (file://)."
-
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:1
 msgid "Disable all external search providers"
 msgstr "Выключить все внешние средства поиска"
@@ -3080,6 +3078,13 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/socks/host»."
+
+#~ msgid ""
+#~ "URI to use for the background image. Not that the backend only supports "
+#~ "local (file://) URIs."
+#~ msgstr ""
+#~ "URI изображения, используемого для фона. Заметьте, что поддерживаются "
+#~ "только локальные URI (file://)."
 
 #~ msgid "Whether raising should be a side-effect of other user interactions"
 #~ msgstr "Долж"
