@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-17 09:22+0000\n"
-"PO-Revision-Date: 2015-09-17 21:49+0300\n"
+"POT-Creation-Date: 2015-09-19 21:23+0000\n"
+"PO-Revision-Date: 2015-09-20 08:29+0300\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -566,7 +566,6 @@ msgid "Gesture single click"
 msgstr "Tek tıklama hareketi"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Tek tıklamanın gerçekleştirileceği yön ('sol', 'sağ', 'yukarı', 'aşağı')."
@@ -576,7 +575,6 @@ msgid "Gesture double click"
 msgstr "Çift tıklama hareketi"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Çift tıklamanın gerçekleştirileceği yön ('sol', 'sağ', 'yukarı', 'aşağı')."
@@ -586,7 +584,6 @@ msgid "Gesture drag click"
 msgstr "Sürükleme tıklaması hareketi"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
 msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr ""
 "Sürüklemenin gerçekleştirileceği yön ('sol', 'sağ', 'yukarı', 'aşağı')."
@@ -596,8 +593,6 @@ msgid "Gesture secondary click"
 msgstr "İkincil tıklama hareketi"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#| msgid ""
-#| "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
 "İkincil tıklamanın gerçekleştirileceği yön ('sol', 'sağ', 'yukarı', 'aşağı')."
@@ -899,6 +894,9 @@ msgid ""
 "in effect. The value is automatically capped to remain in the range [0, "
 "sources_length) as long as the sources list isn't empty."
 msgstr ""
+"Girdi kaynakları listesinin geçerli olarak etkin olan ögesini belirten sıfır "
+"tabanlı dizin. Kaynaklar listesi boş olmadığı sürece bu değer, aralıkta [0, "
+"kaynak uzunluğu) kalacak şekilde sınırlandırılır."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
 msgid "List of input sources"
@@ -1975,6 +1973,8 @@ msgid ""
 "List of desktop file IDs for which the associated default-enabled search "
 "provider should be disabled"
 msgstr ""
+"Öntanımlı olarak etkinleştirilen ilişkili arama sağlayıcısının devre dışı "
+"bırakılacağı masaüstü dosya kimlikleri (ID) listesi"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:4
 msgid ""
@@ -1987,6 +1987,8 @@ msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
 msgstr ""
+"Öntanımlı olarak devre dışı bırakılan ilişkili arama sağlayıcısının "
+"etkinleştirileceği masaüstü dosya kimlikleri (ID) listesi"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:6
 msgid ""
@@ -1997,6 +1999,8 @@ msgstr "Arama yapıldığında bu listedeki uygulama sonuçları gösterilmeyece
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
+"Arama sağlayıcılarının sıralaması için masaüstü dosya kimliklerinin (ID) "
+"listesi"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:8
 msgid ""
@@ -2847,6 +2851,14 @@ msgid ""
 "user's location on their own using network resources (albeit with street-"
 "level accuracy at best)."
 msgstr ""
+"Uygulamaların görmesine izin verilen en yüksek konumlama hassasiyeti "
+"düzeyini yapılandırır. Geçerli seçenekler 'country' (ülke), 'city' (şehir), "
+"'neighborhood' (mahalle), 'street' (sokak) ve 'exact' (tam) (genellikle GPS "
+"alıcısı gerektirir) değerleridir. Lütfen bu değerin yalnızca GeoClue'nun "
+"uygulamaların neyi görmesine izin vereceğini kontrol ettiğini ve bu "
+"uygulamaların ağ kaynaklarını kullanarak kullanıcı konumunu (en iyi "
+"ihtimalle sokak düzeyinde hassasiyetle) kendi başlarına bulabileceklerini "
+"unutmayınız."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:1
 msgid "Proxy configuration mode"
