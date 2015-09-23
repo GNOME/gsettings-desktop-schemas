@@ -5,19 +5,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
-"=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-03-04 09:37+0000\n"
-"PO-Revision-Date: 2015-03-17 20:38+0200\n"
-"Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-09-22 21:41+0000\n"
+"PO-Revision-Date: 2015-09-23 00:10+0200\n"
+"Last-Translator: Marko M. Kostić (Marko M. Kostić) <marko.m.kostic@gmail."
+"com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -251,15 +253,6 @@ msgid "Focus Tracking Mode"
 msgstr "Režim praćenja fokusa"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:4
-#| msgid ""
-#| "Determines the position of the focused widget within magnified view. The "
-#| "values are: - none: no focus tracking - centered: the focused image is "
-#| "displayed at the center of the zoom region (which also represents the "
-#| "point under the system focus) and the magnified contents are scrolled as "
-#| "the system focus moves - proportional: the position of the magnified "
-#| "focus in the zoom region is proportionally the same as the position of "
-#| "the system focus on screen - push: when the magnified focus intersects a "
-#| "boundary of the zoom region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the focused widget within magnified view.\n"
 "\n"
@@ -298,15 +291,6 @@ msgid "Caret Tracking Mode"
 msgstr "Režim praćenja umetka"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
-#| msgid ""
-#| "Determines the position of the caret within magnified view. The values "
-#| "are: - none: no caret tracking - centered: the image of the caret is "
-#| "displayed at the center of the zoom region (which also represents the "
-#| "point under the system caret) and the magnified contents are scrolled as "
-#| "the system caret moves - proportional: the position of the magnified "
-#| "caret in the zoom region is proportionally the same as the position of "
-#| "the system caret on screen - push: when the magnified caret intersects a "
-#| "boundary of the zoom region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
@@ -580,7 +564,7 @@ msgid "Gesture single click"
 msgstr "Potez jednostrukog klika"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Smer za izvršavanje jednostrukog klika („left“ = levo, „right“ = desno, „up“ "
 "= gore, „down“ = dole)."
@@ -590,7 +574,7 @@ msgid "Gesture double click"
 msgstr "Potez dvostrukog klika"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Smer za izvršavanje dvostrukog klika („left“ = levo, „right“ = desno, „up“ = "
 "gore, „down“ = dole)."
@@ -600,7 +584,7 @@ msgid "Gesture drag click"
 msgstr "Potez prevlačenja"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
+msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr ""
 "Smer za izvršavanje prevlačenja („left“ = levo, „right“ = desno, „up“ = gore, "
 "„down“ = dole)."
@@ -610,7 +594,7 @@ msgid "Gesture secondary click"
 msgstr "Potez sekundarnog klika"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
+msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Smer za izvršavanje sekundarnog klika („left“ = levo, „right“ = desno, „up“ = "
 "gore, „down“ = dole)."
@@ -747,6 +731,7 @@ msgid "Picture URI"
 msgstr "Adresa slike"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -825,10 +810,6 @@ msgid "Default calendar"
 msgstr "Osnovni kalendar"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:2
-#| msgid ""
-#| "Default calendar application DEPRECATED: This key is deprecated and "
-#| "ignored. The preferred calendar application is the application handling "
-#| "the text/calendar mime type."
 msgid ""
 "Default calendar application\n"
 "\n"
@@ -845,11 +826,6 @@ msgid "Calendar needs terminal"
 msgstr "Kalendar zahteva terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:6
-#| msgid ""
-#| "Whether the default calendar application needs a terminal to run. "
-#| "DEPRECATED: This key is deprecated and ignored. The preferred calendar "
-#| "application is the application handling the text/calendar mime type, "
-#| "whether it needs a terminal is taken from its desktop file."
 msgid ""
 "Whether the default calendar application needs a terminal to run.\n"
 "\n"
@@ -885,10 +861,6 @@ msgid "Terminal application"
 msgstr "Program terminala"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:14
-#| msgid ""
-#| "Terminal program to use when starting applications that require one. "
-#| "DEPRECATED: This key is deprecated and ignored. The default terminal is "
-#| "handled in GIO."
 msgid ""
 "Terminal program to use when starting applications that require one.\n"
 "\n"
@@ -906,10 +878,6 @@ msgid "Exec Arguments"
 msgstr "Argumenti izvršenja"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:18
-#| msgid ""
-#| "Argument used to execute programs in the terminal defined by the 'exec' "
-#| "key. DEPRECATED: This key is deprecated and ignored. The default terminal "
-#| "and how to invoke it is handled in GIO."
 msgid ""
 "Argument used to execute programs in the terminal defined by the 'exec' "
 "key.\n"
@@ -917,8 +885,8 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. The default terminal and how "
 "to invoke it is handled in GIO."
 msgstr ""
-"Argument korišćen za izvršavanje programa u terminalu određen ključem „exec“ "
-"(izvrši).\n"
+"Argument korišćen za izvršavanje programa u terminalu određen ključem "
+"„exec“ (izvrši).\n"
 "\n"
 "ZASTARELO: Ovaj ključ je zastareo i zanemaren. Osnovni terminal i kako ga "
 "prizvati je uređeno u GUI-u."
@@ -1563,9 +1531,9 @@ msgid ""
 "Select the touchpad scroll method. Supported values are: \"disabled\", "
 "\"edge-scrolling\", \"two-finger-scrolling\"."
 msgstr ""
-"Izaberite način klizanja dodirne table. Podržane vrednosti su: „disabled“ "
-"(isključeno), „edge-scrolling“ (premicanje ivicom), „two-finger-scrolling“ ("
-"premicanje sa dva prsta)."
+"Izaberite način klizanja dodirne table. Podržane vrednosti su: "
+"„disabled“ (isključeno), „edge-scrolling“ (premicanje ivicom), „two-finger-"
+"scrolling“ (premicanje sa dva prsta)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -1607,8 +1575,8 @@ msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgstr ""
-"Brzina pokazivača za dodirnu tablu. Prihvatljive vrednosti su u opsegu [-1..1]"
-" (od „unaccelerated“ — bez ubrzanja, do „fast“ — brzo). Vrednost 0 je "
+"Brzina pokazivača za dodirnu tablu. Prihvatljive vrednosti su u opsegu "
+"[-1..1] (od „unaccelerated“ — bez ubrzanja, do „fast“ — brzo). Vrednost 0 je "
 "sistemska osnovna."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
@@ -1621,40 +1589,52 @@ msgstr ""
 "Izaberite ovo da uključite prirodno (povratno) premicanje za dodirne table."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+msgid "Click method"
+msgstr "Način kliktanja"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+msgid ""
+"How to generate software-emulated buttons, either disabled ('none'), through "
+"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
+"default ('default')."
+msgstr ""
+"Način pravljenja programski emuliranih dugmadi, ili je isključeno ('none'), "
+"kroz posebne opsege ('areas'), po broju prstiju ('fingers')  ili levo kao "
+"hardverska podrazumevana vrednost ('default')."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid "Keyboard repeat"
 msgstr "Ponavljanje tastature"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Izaberite ovo da uključite ponavljanje tastature."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Key Repeat Interval"
 msgstr "Razmak ponavljanja tastera"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
-#| msgid "How long to accelerate in milliseconds"
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Delay between repeats in milliseconds."
 msgstr "Zastoj između ponavljanja u milisekundama."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Initial Key Repeat Delay"
 msgstr "Početni zastoj ponavljanja tastera"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
-#| msgid "Initial delay in milliseconds"
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Početni zastoj ponavljanja tastera u milisekundama."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
 msgstr "Usmerenje dugmeta miša"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Zamena levog i desnog dugmeta miša za levoruke."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1663,35 +1643,35 @@ msgstr ""
 "„unaccelerated“ — bez ubrzanja, do „fast“ — brzo). Vrednost 0 je sistemska "
 "osnovna."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Izaberite ovo da uključite prirodno (povratno) premicanje za miševe."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Drawing tablet mapping"
 msgstr "Mapiranje iscrtavanja tablice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
-"EDID podaci monitora na koji je mapirana tablica. Mora biti u zapisu ["
-"vendor, product, serial]. [\"\",\"\",\"\"] isključuje mapiranje."
+"EDID podaci monitora na koji je mapirana tablica. Mora biti u zapisu "
+"[vendor, product, serial]. [\"\",\"\",\"\"] isključuje mapiranje."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Touchscreen display mapping"
 msgstr "Mapiranje prikaza dodirnog ekrana"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
-"EDID podaci monitora na koji je mapiran dodirni ekran. Mora biti u zapisu ["
-"vendor, product, serial]. [\"\",\"\",\"\"] isključuje mapiranje."
+"EDID podaci monitora na koji je mapiran dodirni ekran. Mora biti u zapisu "
+"[vendor, product, serial]. [\"\",\"\",\"\"] isključuje mapiranje."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Dugme oponašanja točkića miša. 0 isključuje funkciju."
 
@@ -1794,9 +1774,6 @@ msgid "Send reports of technical problems to the vendor"
 msgstr "Šalje izveštaje prodavcu o tehničkim problemima"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:20
-#| msgid ""
-#| "If FALSE, no anonymous installation or removal information will be sent "
-#| "to the vendor."
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
 msgstr "Ako je izabrano, bezimeni izveštaji biće samostalno poslati prodavcu."
 
@@ -1805,10 +1782,6 @@ msgid "Activate when idle"
 msgstr "Pokreće kada miruje"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:2
-#| msgid ""
-#| "Set this to TRUE to activate the screensaver when the session is idle. "
-#| "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-#| "session idle-delay to 0 if you do not want to activate the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle.\n"
 "\n"
@@ -1817,9 +1790,8 @@ msgid ""
 msgstr ""
 "Izaberite ovo da pokrenete čuvara ekrana kada sesija miruje.\n"
 "\n"
-"ZASTARELO: Ovaj ključ je zastareo i zanemaren. Postavite „"
-"org.gnome.desktop.session idle-delay“ na 0 ako ne želite da pokrenete čuvara "
-"ekrana."
+"ZASTARELO: Ovaj ključ je zastareo i zanemaren. Postavite „org.gnome.desktop."
+"session idle-delay“ na 0 ako ne želite da pokrenete čuvara ekrana."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:5
 msgid "Lock on activation"
@@ -1859,10 +1831,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Omogućava ugrađivanje tastature u prozor"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command. DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1881,11 +1849,6 @@ msgid "Embedded keyboard command"
 msgstr "Naredba ugrađene tastature"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output. DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1894,10 +1857,11 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Naredba koja će biti pokrenuta, ukoliko je ključ „embedded_keyboard_enabled“ ("
-"ugrađena tastatura je uključena) podešen na „Tačno“, da ugradi tastaturu u "
-"prozor. Ova naredba bi trebala da primeni „XEMBED“ priključnu spregu i da "
-"pošalje izlaz IksIB prozora na standardni izlaz.\n"
+"Naredba koja će biti pokrenuta, ukoliko je ključ "
+"„embedded_keyboard_enabled“ (ugrađena tastatura je uključena) podešen na "
+"„Tačno“, da ugradi tastaturu u prozor. Ova naredba bi trebala da primeni "
+"„XEMBED“ priključnu spregu i da pošalje izlaz IksIB prozora na standardni "
+"izlaz.\n"
 "\n"
 "ZASTARELO: Ovaj ključ je zastareo i zanemaren."
 
@@ -1906,10 +1870,6 @@ msgid "Allow logout"
 msgstr "Dozvoljava odjavljivanje"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key. "
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
@@ -1927,11 +1887,6 @@ msgid "Time before logout option"
 msgstr "Vreme pre omogućavanja odjave"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE. DEPRECATED: This key is deprecated "
-#| "and ignored"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1950,11 +1905,6 @@ msgid "Logout command"
 msgstr "Naredba odjavljivanja"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE. DEPRECATED: This "
-#| "key is deprecated and ignored."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1986,9 +1936,6 @@ msgid "Allow the session status message to be displayed"
 msgstr "Omogućava prikazivanje poruka o stanju sesije"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
-#| msgid ""
-#| "Allow the session status message to be displayed when the screen is "
-#| "locked. DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Allow the session status message to be displayed when the screen is locked.\n"
 "\n"
@@ -1997,14 +1944,6 @@ msgstr ""
 "Dozvoljava prikaz poruka o stanju sesije kada je ekran zaključan.\n"
 "\n"
 "ZASTARELO: Ovaj ključ je zastareo i zanemaren."
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
-msgid ""
-"URI to use for the background image. Not that the backend only supports "
-"local (file://) URIs."
-msgstr ""
-"Putanje koje će biti korišćene za sliku pozadine. Znajte da pozadinac "
-"podržava samo mesne (file://) putanje."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:1
 msgid "Disable all external search providers"
@@ -2622,15 +2561,6 @@ msgid "Action on title bar double-click"
 msgstr "Radnja za dupli klik na traku naslova"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:16
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar. "
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar.\n"
 "\n"
@@ -2657,15 +2587,6 @@ msgid "Action on title bar middle-click"
 msgstr "Radnja za srednji klik na traku naslova"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:20
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar. "
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar.\n"
 "\n"
@@ -2692,15 +2613,6 @@ msgid "Action on title bar right-click"
 msgstr "Radnja za desni klik na traku naslova"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:24
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar. "
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar.\n"
 "\n"
@@ -2755,9 +2667,6 @@ msgid "Current theme"
 msgstr "Trenutna tema"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:32
-#| msgid ""
-#| "The theme determines the appearance of window borders, titlebar, and so "
-#| "forth."
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth.\n"
@@ -2840,14 +2749,6 @@ msgid "Visual Bell Type"
 msgstr "Vrsta vizelnog zvonca"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:46
-#| msgid ""
-#| "Tells the WM how to implement the visual indication that the system bell "
-#| "or another application 'bell' indicator has been rung. Currently there "
-#| "are two valid values, \"fullscreen-flash\", which causes a fullscreen "
-#| "white-black flash, and \"frame-flash\" which causes the titlebar of the "
-#| "application which sent the bell signal to flash. If the application which "
-#| "sent the bell is unknown (as is usually the case for the default \"system "
-#| "beep\"), the currently focused window's titlebar is flashed."
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application 'bell' indicator has been rung.\n"
@@ -2949,18 +2850,6 @@ msgid "Proxy configuration mode"
 msgstr "Režim podešavanja posrednika"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
-#| msgid ""
-#| "Select the proxy configuration mode. Supported values are \"none\", "
-#| "\"manual\", \"auto\". If this is \"none\", then proxies are not used. If "
-#| "it is \"auto\", the autoconfiguration URL described by the \"autoconfig-"
-#| "url\" key is used. If it is \"manual\", then the proxies described by \"/"
-#| "system/proxy/http\", \"/system/proxy/https\", \"/system/proxy/ftp\" and "
-#| "\"/system/proxy/socks\" will be used. Each of the 4 proxy types is "
-#| "enabled if its \"host\" key is non-empty and its \"port\" key is non-0. "
-#| "If an http proxy is configured, but an https proxy is not, then the http "
-#| "proxy is also used for https. If a SOCKS proxy is configured, it is used "
-#| "for all protocols, except that the http, https, and ftp proxy settings "
-#| "override it for those protocols only."
 msgid ""
 "Select the proxy configuration mode. Supported values are \"none\", \"manual"
 "\", \"auto\".\n"
@@ -2989,10 +2878,10 @@ msgstr ""
 "Ako je „auto“, koristi se adresa samopodešavanja opisana ključem „autoconfig-"
 "url“.\n"
 "\n"
-"Ako je „manual“, onda će biti korišćeni posrednici opisani pomoću "
-"„/system/proxy/http“, „/system/proxy/https“, „/system/proxy/ftp“ i "
-"„/system/proxy/socks“. Svaka od 4 vrste posrednika je uključena ako njen ključ "
-"„host“ nije prazan a ključ „port“ nije-0.\n"
+"Ako je „manual“, onda će biti korišćeni posrednici opisani pomoću „/system/"
+"proxy/http“, „/system/proxy/https“, „/system/proxy/ftp“ i „/system/proxy/"
+"socks“. Svaka od 4 vrste posrednika je uključena ako njen ključ „host“ nije "
+"prazan a ključ „port“ nije-0.\n"
 "\n"
 "Ako je podešen http posrednik, ali nije i https, onda se http posrednik "
 "koristi i za https.\n"
@@ -3069,12 +2958,6 @@ msgid "Authenticate proxy server connections"
 msgstr "Potvrđivanje veza servera posrednika"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:25
-#| msgid ""
-#| "If true, then connections to the proxy server require authentication. The "
-#| "username/password combo is defined by \"/system/proxy/http/authentication-"
-#| "user\" and \"/system/proxy/http/authentication-password\". This applies "
-#| "only to the http proxy; when using a separate https proxy, there is "
-#| "currently no way to specify that it should use authentication."
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
 "username/password combo is defined by \"/system/proxy/http/authentication-"
@@ -3084,9 +2967,9 @@ msgid ""
 "there is currently no way to specify that it should use authentication."
 msgstr ""
 "Ako je izabrano, tada će veze sa serverom posrednika zahtevati potvrđivanje "
-"identiteta. Kombinacija korisničko ime—lozinka je određena pomoću "
-"„/system/proxy/http/authentication-user“ i „/system/proxy/http"
-"/authentication-password“.\n"
+"identiteta. Kombinacija korisničko ime—lozinka je određena pomoću „/system/"
+"proxy/http/authentication-user“ i „/system/proxy/http/authentication-"
+"password“.\n"
 "\n"
 "Ovo se primenjuje samo na http posrednika; prilikom korišćenja zasebnog https "
 "posrednika, trenutno ne postoji način da se navede da bi trebao da koristi "
@@ -3164,6 +3047,13 @@ msgid ""
 "proxy through."
 msgstr ""
 "Port na računaru određen u „/system/proxy/socks/host“ kroz koji posredujete."
+
+#~ msgid ""
+#~ "URI to use for the background image. Not that the backend only supports "
+#~ "local (file://) URIs."
+#~ msgstr ""
+#~ "Putanje koje će biti korišćene za sliku pozadine. Znajte da pozadinac "
+#~ "podržava samo mesne (file://) putanje."
 
 #~ msgid "Whether raising should be a side-effect of other user interactions"
 #~ msgstr ""
