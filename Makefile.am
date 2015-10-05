@@ -1,4 +1,4 @@
-SUBDIRS = headers schemas po
+SUBDIRS = headers schemas po build
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 

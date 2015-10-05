@@ -1,0 +1,93 @@
+# NMake Makefile to Generate The
+# Complete gschema.xml Files, create the
+# enums.xml file, and install the schemas
+
+!include detectenv-msvc.mak
+
+CHECK_PACKAGE=gio-2.0
+
+# Python.exe either needs to be in your PATH or you need to pass
+# in PYTHON=<full-path-to-your-Python-executable> for this to work
+# Python 3.x can be used unless introspection files are to be built,
+# where only Python 2.7.x is supported
+
+PYTHON=python
+PYTHON2=$(PYTHON)
+
+# Prefix of your installation.  Pass in PREFIX=<your-installation-prefix>
+# if needed.  glib-compile-schemas.exe and glib-mkenums need to be found
+# in $(PREFIX)\bin
+PREFIX=..\..\..\vs$(VSVER)\$(PLAT)
+
+!include introspection-msvc.mak
+
+# The PERL interpretor is required as we need to run the glib-mkenums
+# PERL script to generate the schemas from the enumerations.  It needs to
+# be in your path or you need to pass in PERL=<full-path-to-your-PERL-executable>
+
+PERL=perl.exe
+
+ERRNUL  = 2>NUL
+_HASH=^#
+
+# Get the Full URI representation of the PREFIX
+!if ![echo PREFIX_URI= ^\> uri.x] \
+&& ![$(PYTHON) uri.py $(PREFIX) >> uri.x]
+!include uri.x
+!endif
+
+!if ![del $(ERRNUL) /q/f uri.x]
+!endif
+
+!include ..\..\schemas\Makefile-schemas.include
+
+!if ![@echo gschemas = ^\> schemas.files] \
+&&  ![for %f in ($(desktop_gschemas_in)) do @echo.  %~nf ^\>> schemas.files]
+!endif
+
+!include schemas.files
+
+!if ![del schemas.files]
+!endif
+
+all: $(gschemas) org.gnome.desktop.enums.xml
+
+.SUFFIXES: .xml.in .xml
+
+{..\..\schemas\}.xml.in{}.xml:
+	$(PYTHON) replace.py --action=replace-var --input=$< --output=$@.tmp --var=GETTEXT_PACKAGE --outstring=@GETTEXT_PACKAGE@
+	$(PYTHON) replace.py --action=replace-var --input=$@.tmp --output=$@ --var=datadir --outstring=$(PREFIX_URI)/share
+	@-del $@.tmp
+
+org.gnome.desktop.enums.xml:
+	$(PERL) $(PREFIX)\bin\glib-mkenums --comments "<!-- @comment@ -->"	\
+	--fhead "<schemalist>"	\
+	--vhead "  <@type@ id='org.gnome.desktop.@EnumName@'>"	\
+	--vprod "    <value nick='@valuenick@' value='@valuenum@'/>"	\
+	--vtail "  </@type@>" --ftail "</schemalist>" ..\..\headers\gdesktop-enums.h	\
+	> $@
+
+introspection: setgirbuildenv GDesktopEnums-3.0.gir GDesktopEnums-3.0.typelib
+
+setgirbuildenv:
+	@set PYTHONPATH=$(BASEDIR)\lib\gobject-introspection
+	@set PATH=$(BASEDIR)\bin;$(PATH)
+	@set PKG_CONFIG_PATH=$(PKG_CONFIG_PATH)
+
+!include introspection.body.mak
+
+install: $(gschemas) org.gnome.desktop.enums.xml
+	@-if not exist $(PREFIX)\share\glib-2.0\schemas mkdir $(PREFIX)\share\glib-2.0\schemas
+	@-copy *.gschema.xml $(PREFIX)\share\glib-2.0\schemas
+	@-copy org.gnome.desktop.enums.xml $(PREFIX)\share\glib-2.0\schemas
+	@-if not exist $(PREFIX)\include\gsettings-desktop-schemas mkdir $(PREFIX)\include\gsettings-desktop-schemas
+	@-copy ..\..\headers\gdesktop-enums.h $(PREFIX)\include\gsettings-desktop-schemas
+	@-if exist *.gir @copy *.gir $(PREFIX)\share\gir-1.0
+	@-if exist *.typelib @copy *.typelib $(PREFIX)\lib\girepository-1.0
+	$(PREFIX)\bin\glib-compile-schemas.exe $(PREFIX)\share\glib-2.0\schemas
+
+clean:
+	@-if exist *.typelib @del *.typelib
+	@-if exist *.gir @del *.gir
+	@-del $(gschemas)
+	@-del org.gnome.desktop.enums.xml

@@ -22,6 +22,25 @@ typelibdir = $(libdir)/girepository-1.0
 typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 
 CLEANFILES += $(gir_DATA) $(typelib_DATA)
+
+# -------------------------- Introspection MSVC Build Files ---------
+MSVC_INTROSPECT_GIRS = $(INTROSPECTION_GIRS)
+
+INTROSPECTION_INTERMEDIATE_ITEMS = \
+	$(top_builddir)/build/win32/GDesktopEnums-3.0.gir.msvc.introspect	\
+	$(top_builddir)/build/win32/GDesktopEnums_3_0_gir_list
+
+GDesktopEnums_3_0_gir_MSVC_FILES = \
+    $(GDesktopEnums_3_0_gir_FILES)
+
+GDesktopEnums_3_0_gir_MSVC_SCANNERFLAGS = $(GDesktopEnums_3_0_gir_SCANNERFLAGS)
+
+GDesktopEnums_3_0_gir_MSVC_CFLAGS = -I..\\headers
+
+include $(top_srcdir)/build/Makefile.msvc-introspection
+
+dist-hook: $(INTROSPECTION_INTERMEDIATE_ITEMS)
+# --------------------------------------------------------------------
 endif
 
 -include $(top_srcdir)/git.mk
