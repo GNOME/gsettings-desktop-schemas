@@ -26,6 +26,7 @@ EXTRA_DIST = \
 	introspection-msvc.mak			\
 	replace.py				\
 	uri.py					\
+	README.txt				\
 	$(GENERATED_ITEMS)
 
 -include $(top_srcdir)/git.mk
