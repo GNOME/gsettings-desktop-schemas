@@ -11,21 +11,27 @@ CHECK_PACKAGE=gio-2.0
 # Python 3.x can be used unless introspection files are to be built,
 # where only Python 2.7.x is supported
 
+!IF "$(PYTHON)" == ""
 PYTHON=python
+!ENDIF
+
 PYTHON2=$(PYTHON)
 
 # Prefix of your installation.  Pass in PREFIX=<your-installation-prefix>
 # if needed.  glib-compile-schemas.exe and glib-mkenums need to be found
 # in $(PREFIX)\bin
+!IF "$(PREFIX)" == ""
 PREFIX=..\..\..\vs$(VSVER)\$(PLAT)
+!ENDIF
 
 !include introspection-msvc.mak
 
 # The PERL interpretor is required as we need to run the glib-mkenums
 # PERL script to generate the schemas from the enumerations.  It needs to
 # be in your path or you need to pass in PERL=<full-path-to-your-PERL-executable>
-
+!IF "$(PERL)" == ""
 PERL=perl.exe
+!ENDIF
 
 ERRNUL  = 2>NUL
 _HASH=^#
