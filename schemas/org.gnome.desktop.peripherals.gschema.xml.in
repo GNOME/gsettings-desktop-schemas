@@ -8,10 +8,10 @@
     <child name="touchscreen" schema="org.gnome.desktop.peripherals.touchscreen"/>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.touchpad" path="/org/gnome/desktop/peripherals/touchpad/">
-    <key name="scroll-method" enum="org.gnome.desktop.GDesktopTouchpadScrollMethod">
-      <default>'two-finger-scrolling'</default>
-      <summary>Select the touchpad scroll method</summary>
-      <description>Select the touchpad scroll method. Supported values are: "disabled", "edge-scrolling", "two-finger-scrolling".</description>
+    <key name="edge-scrolling-enabled" type="b">
+      <default>true</default>
+      <summary>Whether edge scrolling is enabled</summary>
+      <description>When disabled, touchpads that only support edge scrolling (and not 2-finger scrolling) will have that feature disabled.</description>
     </key>
     <key name="tap-to-click" type="b">
       <default>false</default>
