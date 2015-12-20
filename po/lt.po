@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-02 09:09+0000\n"
-"PO-Revision-Date: 2015-09-02 21:00+0300\n"
+"POT-Creation-Date: 2015-12-17 11:25+0000\n"
+"PO-Revision-Date: 2015-12-20 15:15+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -557,7 +557,6 @@ msgid "Gesture single click"
 msgstr "Gestas viengubam spustelėjimui"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Kryptis viengubam paspaudimui įvykdyti („left“, „right“, „up“, „down“)."
@@ -567,7 +566,6 @@ msgid "Gesture double click"
 msgstr "Gestas dvigubam spustelėjimui"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Kryptis dvigubam spustelėjimui įvykdyti („left“, „right“, „up“, „down“)."
@@ -577,7 +575,6 @@ msgid "Gesture drag click"
 msgstr "Gestas vilkimui"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
 msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr "Kryptis vilkimui įvykdyti („left“, „right“, „up“, „down“)."
 
@@ -586,8 +583,6 @@ msgid "Gesture secondary click"
 msgstr "Gestas antriniam spustelėjimui"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#| msgid ""
-#| "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Kryptis antraeiliam spustelėjimui įvykdyti („left“, „right“, „up“, „down“)."
@@ -1239,6 +1234,18 @@ msgstr "Rodyti datą laikrodyje"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Jei teikiama, greta laiko laikrodyje rodyti datą."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Rodyti baterijos procentinę reikšmę"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Jei teigiama, būsenos meniu rodyti šalia piktogramos ir baterijos procentinę "
+"reikšmę."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Išjungti komandų eilutę"
@@ -1502,16 +1509,16 @@ msgstr ""
 "ekranas yra užrakintas."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Pasirinkite jutiklinio kilimėlio slinkties metodą"
+msgid "Whether edge scrolling is enabled"
+msgstr "Ar slinkimas kraštuose yra įjungtas"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Pasirinkite jutiklinio kilimėlio slinkties metodą. Palaikomos vertės yra: "
-"„disabled“, „edge-scrolling“, „two-finger-scrolling“."
+"Kai išjungta, tuose jutikliniuose kilimėliuose, kurie palaiko tik slinkimą "
+"kraštuose (nepalaiko slinkimo 2 pirštais), ši ypatybė bus išjungta."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3011,6 +3018,16 @@ msgid ""
 msgstr ""
 "Prievadas kompiuteryje, apibrėžtame „/system/proxy/socks/host“, per kurį "
 "jungiamasi."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Pasirinkite jutiklinio kilimėlio slinkties metodą"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "Pasirinkite jutiklinio kilimėlio slinkties metodą. Palaikomos vertės yra: "
+#~ "„disabled“, „edge-scrolling“, „two-finger-scrolling“."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
