@@ -1,7 +1,6 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-#
 # Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
@@ -9,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-14 09:21+0000\n"
-"PO-Revision-Date: 2015-09-14 13:19+0200\n"
+"POT-Creation-Date: 2015-12-24 11:19+0000\n"
+"PO-Revision-Date: 2015-12-24 14:45+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -1248,6 +1247,19 @@ msgstr "Zobrazovat na hodinách datum"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Když je zapnuto, zobrazuje se na hodinách kromě času i datum."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Zobrazovat procenta baterie"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#| msgid "If true, display date in the clock, in addition to time."
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Když je zapnuto, zobrazují se ve stavové nabídce vedle ikony i procenta "
+"stavu nabití baterie."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Zakázat příkazový řádek"
@@ -1516,17 +1528,16 @@ msgstr ""
 "obrazovce."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Výběr metody posuvu pomocí touchpadu"
+msgid "Whether edge scrolling is enabled"
+msgstr "Zda je povolen posuv u kraje"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Výběr metody posuvu pomocí touchpadu. Podporované hodnoty jsou: "
-"„disabled“ (vypnuto), „edge-scrolling“ (posuvník u hrany), „two-finger-"
-"scrolling“ (posuv pomocí dvou prstů)"
+"Když je zakázáno, budou mít touchpady, které podporují posuv jen u okraje (a "
+"ne posuv dvěma prsty) tuto funkci zakázanou."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3053,3 +3064,14 @@ msgid ""
 msgstr ""
 "Port na počítači poskytujícím proxy a definovaném v klíči „/system/proxy/"
 "socks/host“."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Výběr metody posuvu pomocí touchpadu"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "Výběr metody posuvu pomocí touchpadu. Podporované hodnoty jsou: "
+#~ "„disabled“ (vypnuto), „edge-scrolling“ (posuvník u hrany), „two-finger-"
+#~ "scrolling“ (posuv pomocí dvou prstů)"
