@@ -1,27 +1,27 @@
 # Brazilian Portuguese translation for gsettings-desktop-schemas
-# Copyright (C) 2014 the gsettings-desktop-schemas authors.
+# Copyright (C) 2015 the gsettings-desktop-schemas authors.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # André Gondim <In Memoriam>, 2011.
 # Contribuidores via Launchpad, 2011.
 # Alexandre Magno Brito de Medeiros <alexandre.mbm@gmail.com>, 2012.
 # Felipe Borges <felipeborges@src.gnome.org>, 2012.
 # Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
-# Enrico Nicoletto <liverig@gmail.com>, 2013, 2014.
+# Enrico Nicoletto <liverig@gmail.com>, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-20 09:22+0000\n"
-"PO-Revision-Date: 2015-09-20 11:55-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"POT-Creation-Date: 2015-12-29 11:19+0000\n"
+"PO-Revision-Date: 2015-12-31 14:19-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.7.3\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -1012,6 +1012,14 @@ msgstr "Mostrar data no relógio"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Se verdadeiro, então o relógio também mostra a data."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Mostrar porcentagem da bateria"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid "If true, display battery percentage in the status menu, in addition to the icon."
+msgstr "Se verdadeiro, a porcentagem de bateria será exibida no menu de status, além do ícone."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Desabilitar linha de comando"
@@ -1217,12 +1225,12 @@ msgid "Whether the summary and body of notifications from this application will 
 msgstr "Se o resumo e o corpo de notificações deste aplicativo estarão visíveis na tela de bloqueio."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Selecionar o método de rolagem do touchpad"
+msgid "Whether edge scrolling is enabled"
+msgstr "Se a rolagem na borda está, ou não, habilitada"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
-msgid "Select the touchpad scroll method. Supported values are: \"disabled\", \"edge-scrolling\", \"two-finger-scrolling\"."
-msgstr "Selecione o método de rolagem do touchpad. Há suporte aos valores: \"desabilitado\", \"rolagem pela lateral\", \"rolagem com dois dedos\"."
+msgid "When disabled, touchpads that only support edge scrolling (and not 2-finger scrolling) will have that feature disabled."
+msgstr "Quando desabilitado, apenas os touchpads que possuem suporte a rolagem de borda (e não rolagem de 2-dedos) terão este recurso desabilitado."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -2447,6 +2455,12 @@ msgstr "Porta do proxy de SOCKS"
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:43
 msgid "The port on the machine defined by \"/system/proxy/socks/host\" that you proxy through."
 msgstr "A porta de proxy na máquina definida em \"/system/proxy/socks/host\"."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Selecionar o método de rolagem do touchpad"
+
+#~ msgid "Select the touchpad scroll method. Supported values are: \"disabled\", \"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr "Selecione o método de rolagem do touchpad. Há suporte aos valores: \"desabilitado\", \"rolagem pela lateral\", \"rolagem com dois dedos\"."
 
 #~ msgid "URI to use for the background image. Not that the backend only supports local (file://) URIs."
 #~ msgstr "URI para usar como imagem de fundo. Note que o sistema somente tem suporte a URIs locais (file://)."
