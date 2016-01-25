@@ -2,23 +2,23 @@
 # Copyright (C) 2012. Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2012.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2012, 2016.
 # Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-08-31 09:10+0000\n"
-"PO-Revision-Date: 2015-08-31 18:53+0200\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"POT-Creation-Date: 2016-01-24 11:25+0000\n"
+"PO-Revision-Date: 2016-01-25 01:38+0100\n"
+"Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -46,14 +46,14 @@ msgstr "A képernyőolvasó be van-e kapcsolva."
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:1
 msgid "Always show the Universal Access status icon"
-msgstr "Mindig jelenjen meg az Egyetemes hozzáférés állapotikon"
+msgstr "Mindig jelenjen meg az Akadálymentesítés állapotikon"
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:2
 msgid ""
 "This key overrides the automatic hiding of the Universal Access status icon "
 "when no accessibility features are enabled."
 msgstr ""
-"Ez a kulcs felülbírálja az Egyetemes hozzáférés állapotikon automatikus "
+"Ez a kulcs felülbírálja az Akadálymentesítés állapotikon automatikus "
 "elrejtését, amikor nincsenek akadálymentesítési szolgáltatások engedélyezve."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
@@ -63,13 +63,13 @@ msgstr "Akadálymentesítési gyorsbillentyűk engedélyezése"
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:2
 msgid "Beep when a keyboard accessibility feature changes"
 msgstr ""
-"Hangjelzés egy billentyűzet akadálymentesítési szolgáltatás megváltozásakor"
+"Hangjelzés egy billentyűzet-akadálymentesítési szolgáltatás megváltozásakor"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:3
 msgid ""
 "Whether to beep when a keyboard accessibility feature is enabled or disabled."
 msgstr ""
-"Adjon-e hangjelzést a billentyűzet akadálymentesítési szolgáltatás "
+"Adjon-e hangjelzést a billentyűzet-akadálymentesítési szolgáltatás "
 "engedélyezésekor vagy letiltásakor."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:4
@@ -86,12 +86,12 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:6
 msgid "Duration of the disabling timeout"
-msgstr "A letiltás időkorlátjának időtartama"
+msgstr "A letiltás időkorlátjának hossza"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:7
 msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr ""
-"Az időkorlát időtartama a billentyűzet akadálymentesítésének letiltása előtt."
+"Az időkorlát hossza a billentyűzet akadálymentesítésének letiltása előtt."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:8
 msgid "Enable 'Bounce Keys'"
@@ -576,7 +576,6 @@ msgid "Gesture single click"
 msgstr "Egyszeres kattintás gesztussal"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Az egyszeres kattintás iránya („left” = balra, „right” = jobbra, „up” = fel, "
@@ -587,7 +586,6 @@ msgid "Gesture double click"
 msgstr "Dupla kattintás gesztussal"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgstr ""
 "A dupla kattintás iránya („left” = balra, „right” = jobbra, „up” = fel, "
@@ -598,7 +596,6 @@ msgid "Gesture drag click"
 msgstr "Húzás gesztussal"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
 msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr ""
 "A húzás iránya („left” = balra, „right” = jobbra, „up” = fel, „down” = le)."
@@ -608,8 +605,6 @@ msgid "Gesture secondary click"
 msgstr "Másodlagos kattintás gesztussal"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#| msgid ""
-#| "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
 "A másodlagos kattintás iránya („left” = balra, „right” = jobbra, „up” = fel, "
@@ -1273,6 +1268,19 @@ msgstr "Dátum megjelenítése az órában"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Az idő mellett a dátum is jelenjen meg."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Akkumulátortöltöttség százalékos megjelenítése"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Ha igaz, akkor megjelenik az akkumulátortöltöttség százalékosan az "
+"állapotmenüben, az "
+"ikon mellett."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Parancssor letiltása"
@@ -1552,17 +1560,16 @@ msgstr ""
 "látható a zárolt képernyőn."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Válassza ki az érintőtábla görgetési módját"
+msgid "Whether edge scrolling is enabled"
+msgstr "Engedélyezett-e a görgetés a szélen"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: "
-"„disabled” (letiltva), „edge-scrolling” (görgetés a szélen), „two-finger-"
-"scrolling” (kétujjas görgetés)."
+"Ha tiltott, akkor az olyan érintőtáblákon, amelyek csak a szélen görgetést "
+"támogatják (és a kétujjas görgetést nem), letiltásra kerül a funkció."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3095,6 +3102,17 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr "A „/system/proxy/socks/host” kulcsban proxyként megadott gép portja."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Válassza ki az érintőtábla görgetési módját"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: "
+#~ "„disabled” (letiltva), „edge-scrolling” (görgetés a szélen), „two-finger-"
+#~ "scrolling” (kétujjas görgetés)."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
