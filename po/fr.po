@@ -1,19 +1,19 @@
 # French translation for gsettings-desktop-schemas.
-# Copyright (C) 2012-2015 Listed translators
+# Copyright (C) 2012-2016 Listed translators
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Andre Matuch <andre.matuch@videotron.ca>, 2012.
 # Bruno Brouard <annoa.b@gmail.com>, 2012-2013.
-# Claude Paroz <claude@2xlibre.net>, 2014.
+# Claude Paroz <claude@2xlibre.net>, 2014-2016.
 # Julien Hardelin <jhardlin@orange.fr>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-08-24 09:12+0000\n"
-"PO-Revision-Date: 2015-08-24 17:56+0200\n"
-"Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
+"POT-Creation-Date: 2016-02-13 11:24+0000\n"
+"PO-Revision-Date: 2016-02-13 14:27+0100\n"
+"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1299,6 +1299,18 @@ msgstr "Afficher la date dans l'horloge"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Si coché, affiche la date dans l'horloge, en plus de l'heure."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Afficher le pourcentage de batterie"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Si coché, affiche le pourcentage de charge de la batterie dans le menu d'état, "
+"en plus de l'icône."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Désactiver la ligne de commande"
@@ -1584,17 +1596,16 @@ msgstr ""
 "sont visibles lorsque l'écran est verrouillé."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Sélectionner la méthode du défilement du pavé tactile"
+msgid "Whether edge scrolling is enabled"
+msgstr "Indique si le défilement latéral est activé"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Sélectionne la méthode de défilement du pavé tactile. Les valeurs acceptées "
-"sont : « disabled » (désactivé), « edge-scrolling » (défilement sur le "
-"bord), « two-fingers-scrolling » (défilement à deux doigts)."
+"Si désactivé, les pavés tactiles qui ne permettent que le défilement latéral "
+"(et pas le défilement à deux doigts) désactivent cette fonctionnalité."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3197,9 +3208,13 @@ msgstr ""
 "Le port sur la machine définie par « /system/proxy/socks/host » à utiliser "
 "pour le service mandataire."
 
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Sélectionner la méthode du défilement du pavé tactile"
+
 #~ msgid ""
-#~ "URI to use for the background image. Not that the backend only supports "
-#~ "local (file://) URIs."
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
 #~ msgstr ""
-#~ "URI à utiliser pour l'image d'arrière-plan. Notez que le moteur prend en "
-#~ "charge uniquement les URI locaux (file://)."
+#~ "Sélectionne la méthode de défilement du pavé tactile. Les valeurs "
+#~ "acceptées sont : « disabled » (désactivé), « edge-scrolling » (défilement "
+#~ "sur le bord), « two-fingers-scrolling » (défilement à deux doigts)."
