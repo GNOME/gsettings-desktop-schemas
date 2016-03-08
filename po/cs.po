@@ -1,15 +1,15 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015.
+# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-12-24 11:19+0000\n"
-"PO-Revision-Date: 2015-12-24 14:45+0100\n"
+"POT-Creation-Date: 2016-03-08 11:25+0000\n"
+"PO-Revision-Date: 2016-03-08 18:12+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -54,6 +54,19 @@ msgid ""
 msgstr ""
 "Tento klíč přepisuje automatické skrývání stavové ikony zpřístupnění v "
 "situaci, kdy nejsou funkce zpřístupnění zapnuty."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+#| msgid "Always show the Universal Access status icon"
+msgid "Always show the text caret"
+msgstr "Vždy zobrazovat textový kurzor"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Tento klíč potlačuje skrývání textového kurzoru v neupravitelném textu v "
+"aplikacích."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1252,7 +1265,6 @@ msgid "Show battery percentage"
 msgstr "Zobrazovat procenta baterie"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
-#| msgid "If true, display date in the clock, in addition to time."
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
