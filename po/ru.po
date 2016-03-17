@@ -10,17 +10,17 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-17 09:22+0000\n"
-"PO-Revision-Date: 2015-09-17 14:14+0300\n"
-"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
+"POT-Creation-Date: 2016-03-17 11:27+0000\n"
+"PO-Revision-Date: 2016-03-17 21:59+0300\n"
+"Last-Translator: Yuri Myasoedov <ymyasoedov@yandex.ru>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.9\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -57,6 +57,18 @@ msgid ""
 msgstr ""
 "Этот ключ отменяет автоматическое скрытие значка состояния универсального "
 "доступа, когда включены специальные возможности."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "Всегда показывать текстовую каретку"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Этот ключ переопределяет скрытие текстовой каретки в неизменяемом тексте "
+"приложений."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -566,7 +578,6 @@ msgid "Gesture single click"
 msgstr "Жест одиночного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Направление для выполнения одиночного нажатия мышью («left» — влево; «right» "
@@ -577,7 +588,6 @@ msgid "Gesture double click"
 msgstr "Жест двойного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Направление для выполнения двойного нажатия мышью («left» — влево; «right» — "
@@ -588,7 +598,6 @@ msgid "Gesture drag click"
 msgstr "Жест перетаскивания"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
 msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr ""
 "Направление для выполнения перетаскивания («left» — влево; «right» — вправо; "
@@ -599,8 +608,6 @@ msgid "Gesture secondary click"
 msgstr "Жест вторичного щелчка"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#| msgid ""
-#| "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
 "Направление для выполнения вторичного нажатия мышью («left» — влево; «right» "
@@ -1270,6 +1277,18 @@ msgstr "Показть в часах дату"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Если установлено, в часах будет показана дата."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Показывать процент заряда батареи"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Если включено, то в меню состояния рядом со значком батареи будет показан "
+"процент её заряда."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Отключить командную строку"
@@ -1542,17 +1561,17 @@ msgstr ""
 "экране."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Выбор метода прокрутки для сенсорной панели"
+msgid "Whether edge scrolling is enabled"
+msgstr "Включена ли краевая прокрутка"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Выберите метод прокрутки для сенсорной панели. Поддерживаемые значения: "
-"«disabled» (отключено), «edge-scrolling» (прокрутка по краям), «two-finger-"
-"scrolling» (прокрутка двумя пальцами)."
+"Если выключено, то прокрутка будет отключена у сенсорных панелей, которые "
+"поддерживают только краевую прокрутку (и не поддерживают прокрутку двумя "
+"пальцами)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3078,6 +3097,17 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr "Порт прокси-сервера, определённый ключом «/system/proxy/socks/host»."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Выбор метода прокрутки для сенсорной панели"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "Выберите метод прокрутки для сенсорной панели. Поддерживаемые значения: "
+#~ "«disabled» (отключено), «edge-scrolling» (прокрутка по краям), «two-"
+#~ "finger-scrolling» (прокрутка двумя пальцами)."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
