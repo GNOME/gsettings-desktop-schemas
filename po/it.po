@@ -1,24 +1,24 @@
 # Italian translation for gsettings-desktop-schemas.
-# Copyright (C) 2011, 2012, 2013, 2014, 2015 gsettings-desktop-schemas's COPYRIGHT HOLDER
+# Copyright (C) 2011, 2012, 2013, 2014, 2015, 2016 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Luca Ferretti <lferrett@gnome.org>, 2011, 2012.
-# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015.
+# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015, 2016.
 # Claudio Arseni <claudio.arseni@ubuntu.com>, 2013, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
-"=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-08-28 21:12+0000\n"
-"PO-Revision-Date: 2015-09-03 10:57+0200\n"
-"Last-Translator: Claudio Arseni <claudio.arseni@ubuntu.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-03-17 11:27+0000\n"
+"PO-Revision-Date: 2016-03-17 21:49+0100\n"
+"Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: tp@lists.linux.it\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -56,6 +56,18 @@ msgid ""
 msgstr ""
 "Questa chiave scavalca la modalità di visualizzazione automatica dell'icona "
 "Accesso universale quando nessuna funzionalità di accessibilità è abilitata."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "Mostra sempre il cursore del testo"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Questa chiave scavalca l'assenza del cursore di testo sui testi non "
+"modificabili nelle applicazioni."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -579,40 +591,40 @@ msgid "Gesture single click"
 msgstr "Gesto per il clic singolo"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
-msgstr "Direzione per eseguire il clic singolo (\"left\", \"right\", \"up\", \"down\")."
+msgstr ""
+"Direzione per eseguire il clic singolo (\"left\", \"right\", \"up\", \"down"
+"\")."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:7
 msgid "Gesture double click"
 msgstr "Gesto per il doppio-clic"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
-msgstr "Direzione per eseguire il doppio-clic (\"left\", \"right\", \"up\", \"down\")."
+msgstr ""
+"Direzione per eseguire il doppio-clic (\"left\", \"right\", \"up\", \"down"
+"\")."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:9
 msgid "Gesture drag click"
 msgstr "Gesto per il clic di trascinamento"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
 msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgstr ""
-"Direzione per eseguire il clic di trascinamento (\"left\", \"right\", \"up\", "
-"\"down\")."
+"Direzione per eseguire il clic di trascinamento (\"left\", \"right\", \"up"
+"\", \"down\")."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:11
 msgid "Gesture secondary click"
 msgstr "Gesto per il clic secondario"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#| msgid ""
-#| "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
 msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
-"Direzione per eseguire il clic secondario (\"left\", \"right\", \"up\", \"down\")."
+"Direzione per eseguire il clic secondario (\"left\", \"right\", \"up\", "
+"\"down\")."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
 msgid "Dwell click mode"
@@ -1280,6 +1292,18 @@ msgstr "Mostra la data nell'orologio"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Se VERO, mostra nell'orologio si la data che l'ora."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Mostra la percentuale della batteria"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Se VERO, mostra la percentuale di carica della batteria nel menù di stato, "
+"in aggiunta all'icona."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Disabilita riga di comando"
@@ -1565,16 +1589,16 @@ msgstr ""
 "visibili nella schermata di blocco."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Seleziona il metodo di scorrimento del touchpad"
+msgid "Whether edge scrolling is enabled"
+msgstr "Indica se lo scorrimento sul bordo è abilitato"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Seleziona il metodo di scorrimento del touchpad. I valori supportati sono: "
-"\"disabled\", \"edge-scrolling\", \"two-finger-scrolling\"."
+"Quando disabilitato, i touchpad che supportano solo lo scorrimento sul bordo "
+"(e non lo scorrimento attivato con due dita) non avranno quella funzionalità."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3132,10 +3156,3 @@ msgid ""
 msgstr ""
 "La porta sulla macchina definita in \"/system/proxy/socks/host\" attraverso "
 "la quale effettuare il proxy."
-
-#~ msgid ""
-#~ "URI to use for the background image. Not that the backend only supports "
-#~ "local (file://) URIs."
-#~ msgstr ""
-#~ "URI da usare per l'immagine di sfondo. Notare che il backend supporta "
-#~ "solo URI locali (file://)."
