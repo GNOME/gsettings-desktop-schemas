@@ -1,24 +1,24 @@
 # Swedish translation for gsettings-desktop-schemas.
-# Copyright © 2011-2015 Free Software Foundation, Inc.
+# Copyright © 2011-2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel Nylander <po@danielnylander.se>, 2011.
 # Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-13 13:28+0000\n"
-"PO-Revision-Date: 2016-02-13 18:38+0100\n"
+"POT-Creation-Date: 2016-03-07 18:40+0000\n"
+"PO-Revision-Date: 2016-03-13 10:20+0100\n"
 "Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -55,6 +55,18 @@ msgid ""
 msgstr ""
 "Denna nyckel åsidosätter att statusikonen för hjälpmedel automatiskt döljs "
 "när inga hjälpmedelsfunktioner är aktiverade."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "Visa alltid textmarkören"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Denna nyckel åsidosätter att textmarkören döljs i ej redigerbar text i "
+"program."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -2883,14 +2895,14 @@ msgstr ""
 "Välj proxykonfigurationsläget. Värden som stöds är \"none\", \"manual\", "
 "\"auto\".\n"
 "\n"
-"Om detta är \"none\", så används inte proxyer.\n"
+"Om detta är \"none\", så används inte proxyservrar.\n"
 "\n"
 "Om detta är \"auto\" så används automatkonfigurations-URL:en som beskrivs av "
 "nyckeln \"autoconfig-url\".\n"
 "\n"
-"Om detta är \"manual\", så används proxyerna som beskrivs av \"/system/proxy/"
-"http\", \"/system/proxy/https\", \"/system/proxy/ftp\" och \"/system/proxy/"
-"socks\". Var och en av de 4 proxytyperna är aktiverad om dess \"host\"-"
+"Om detta är \"manual\", så används proxyservrarna som beskrivs av \"/system/"
+"proxy/http\", \"/system/proxy/https\", \"/system/proxy/ftp\" och \"/system/"
+"proxy/socks\". Var och en av de 4 proxytyperna är aktiverad om dess \"host\"-"
 "nyckel är ifylld och dess \"port\"-nyckel inte är 0.\n"
 "\n"
 "Om en http-proxy är konfigurerad men en https-proxy inte är det då kommer "
