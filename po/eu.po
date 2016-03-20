@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 #
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14 12:36+0200\n"
-"PO-Revision-Date: 2015-10-09 22:46+0200\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
-"Language-Team: Basque <Basque <librezale@librezale.org>>\n"
+"POT-Creation-Date: 2016-03-20 20:12+0100\n"
+"PO-Revision-Date: 2016-03-20 20:19+0100\n"
+"Last-Translator: dooteo <dooteo@zundan.com>\n"
+"Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -55,6 +55,18 @@ msgstr ""
 "Erabilerraztasunaren eginbideak gaituta ez daudenean 'Sarbide "
 "unibertsala'ren egoeraren ikonoa automatikoki ezkutatzea gainidazten du gako "
 "honek."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "Testuaren kurtsorea erakutsi beti"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Gako honek testuaren kurtsorea ezkutatzea gainjartzen du editagarriak ez "
+"diren testuetan."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1280,6 +1292,18 @@ msgstr "Erakutsi data erlojuan"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Ezarrita badago, orduaz gain data ere erakusten du."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Erakutsi bateriaren ehunekoa"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"True (egia) gisa ezartzen bada, ikonoaz gain "
+"bateriaren ehunekoa bistaratuko da egoera-menuan."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Desgaitu komando-lerroa"
@@ -1556,17 +1580,16 @@ msgstr ""
 "edo ez pantaila blokeatuta dagoenean."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Hautatu 'touchpad'aren korritzeko metodoa"
+msgid "Whether edge scrolling is enabled"
+msgstr "Ertzeko korritzea gaituta dagoen edo ez adierazten du"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Hautatu 'touchpad'aren korritzeko metodoa\". Balio erabilgarriak: "
-"'disabled' (desgaituta), 'edge-scrolling' (ertzean korritzea), 'two-finger-"
-"scrolling' (bi hatzekin korritzea)."
+"Desgaituta dagoenean, soilik ertzean korritzen duten touchpad-ek "
+"(eta ez bi hatzekin korritzea) eginbide hura desgaituta edukiko dute."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3110,6 +3133,17 @@ msgid ""
 msgstr ""
 "Ordenagailuaren ataka, \"/system/proxy/socks/host\"-ean definituta proxy-"
 "arena egiteko."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Hautatu 'touchpad'aren korritzeko metodoa"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "Hautatu 'touchpad'aren korritzeko metodoa\". Balio erabilgarriak: "
+#~ "'disabled' (desgaituta), 'edge-scrolling' (ertzean korritzea), 'two-"
+#~ "finger-scrolling' (bi hatzekin korritzea)."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
