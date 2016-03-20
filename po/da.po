@@ -1,14 +1,14 @@
 # Danish translation for gsettings-desktop-schemas.
-# Copyright (C) 2012-2015 gsettings-desktop-schemas's COPYRIGHT HOLDER
+# Copyright (C) 2012-2016 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2015
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2016
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-20 20:29+0200\n"
-"PO-Revision-Date: 2015-09-20 18:40+0200\n"
+"POT-Creation-Date: 2016-03-20 23:15+0100\n"
+"PO-Revision-Date: 2016-03-20 22:11+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -52,6 +52,18 @@ msgid ""
 msgstr ""
 "Denne nøgle tilsidesætter automatisk skjul af statusikonet for "
 "tilgængelighed, når der ikke er slået nogen tilgængelighedsfunktioner til."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "Vis altid tekstmarkøren"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Denne nøgle tilsidesætter skjult tekstmarkør i tekst, som ikke kan "
+"redigeres, i programmer."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1240,6 +1252,18 @@ msgstr "Vis dato i ur"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Hvis sand, vises dato i uret, ud over blot klokkeslættet."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Vis batteriniveau"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Hvis true, vises batteriniveauet i procent i statusmenuen ud over blot "
+"ikonet."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Deaktivér kommandolinje"
@@ -1252,7 +1276,7 @@ msgid ""
 msgstr ""
 "Forhindr brugeren i at tilgå terminalen eller i at angive en kommandolinje "
 "der skal køres. For eksempel vil dette deaktivere adgang til panelets \"Kør "
-"program\"-dialogvindue."
+"program\"-dialog."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:3
 msgid "Disable saving files to disk"
@@ -1276,7 +1300,7 @@ msgid ""
 "all applications' \"Print\" dialogs."
 msgstr ""
 "Forhindr brugeren i at udskrive. For eksempel vil dette deaktivere adgang "
-"til alle programmers \"Udskriv\"-dialogvinduer."
+"til alle programmers \"Udskriv\"-dialoger."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:7
 msgid "Disable print setup"
@@ -1288,7 +1312,7 @@ msgid ""
 "disable access to all applications' \"Print Setup\" dialogs."
 msgstr ""
 "Forhindr brugeren i at ændre udskriftsindstillinger. For eksempel vil dette "
-"deaktivere adgang til alle programmers \"Udskriftsopsætning\"-dialogvinduer."
+"deaktivere adgang til alle programmers \"Udskriftsopsætning\"-dialoger."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:9
 msgid "Disable user switching"
@@ -1505,16 +1529,16 @@ msgstr ""
 "skærmen er låst."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Vælg rullemetode for pegeplade"
+msgid "Whether edge scrolling is enabled"
+msgstr "Om kantrulning er slået til"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Vælg rullemetode for pegepladen. Understøttede værdier er: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"Når deaktiveret, vil pegeplader som kun understøtter kantrulning (og ikke 2-"
+"finger-rulning) have den funktion slået fra."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -1806,7 +1830,7 @@ msgid ""
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 "Om brugerens fulde navn vises ved låst skærm eller ikke. Dette påvirker kun "
-"den umiddelbart viste information; navnet vises altid i lås op-vinduet."
+"den umiddelbart viste information; navnet vises altid i lås op-dialogen."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:11
 msgid "Allow embedding a keyboard into the window"
@@ -1876,8 +1900,8 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored"
 msgstr ""
 "Antallet af sekunder efter pauseskærmsaktivering, før der vises en "
-"udlogningsmulighed i lås op-dialogvinduet. Denne nøgle har kun betydning "
-"hvis nøglen \"logout_enable\" er sat til sand.\n"
+"udlogningsmulighed i lås op-dialogen. Denne nøgle har kun betydning hvis "
+"nøglen \"logout_enable\" er sat til sand.\n"
 "\n"
 "FORÆLDET: Denne nøgle er forældet og ignoreres"
 
@@ -1908,8 +1932,8 @@ msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr ""
-"Sæt denne til sand for at vise en mulighed i lås op-dialogvinduet om at "
-"skifte til en anden brugerkonto."
+"Sæt denne til sand for at vise en mulighed i lås op-dialogen om at skifte "
+"til en anden brugerkonto."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
 msgid "Allow the session status message to be displayed"
@@ -3035,6 +3059,16 @@ msgid ""
 msgstr ""
 "Porten på maskinen defineret af \"/system/proxy/socks/host\", som du bruger "
 "som proxy."
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "Vælg rullemetode for pegeplade"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "Vælg rullemetode for pegepladen. Understøttede værdier er: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
