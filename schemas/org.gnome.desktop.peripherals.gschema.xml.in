@@ -84,6 +84,11 @@
       <summary>Natural scrolling</summary>
       <description>Set this to TRUE to enable natural (reverse) scrolling for mice.</description>
     </key>
+    <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
+      <default>'default'</default>
+      <summary>Acceleration profile</summary>
+      <description>Acceleration profile used for connected mice. The acceleration profile can be set to either default ('default') which uses the default acceleration profile for each device, flat ('flat'), which accelerates by a device specific constant factor derived from the configured pointer speed, or adaptive ('adaptive') which adapts the acceleration depending on the mouse movement. If a mouse doesn't support the configured profile, 'default' will be used.</description>
+    </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.tablet">
     <key name="display" type="as">
@@ -158,6 +163,11 @@
       <default>0</default>
       <range min="0" max="24"/>
       <summary>Mouse wheel emulation button. 0 to disable the feature.</summary>
+    </key>
+    <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
+      <default>'default'</default>
+      <summary>Acceleration profile</summary>
+      <description>Acceleration profile used for the trackball. The acceleration profile can be set to either default ('default') which uses the default acceleration profile, flat ('flat'), which accelerates by a device specific constant factor derived from the configured speed, or adaptive ('adaptive') which adapts the acceleration depending on the movement. If the trackball doesn't support the configured profile, 'default' will be used.</description>
     </key>
   </schema>
 </schemalist>

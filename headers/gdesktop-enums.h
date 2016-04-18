@@ -207,5 +207,11 @@ typedef enum
   G_DESKTOP_STYLUS_BUTTON_ACTION_FORWARD
 } GDesktopStylusButtonAction;
 
+typedef enum
+{
+  G_DESKTOP_POINTER_ACCEL_PROFILE_DEFAULT,
+  G_DESKTOP_POINTER_ACCEL_PROFILE_FLAT,
+  G_DESKTOP_POINTER_ACCEL_PROFILE_ADAPTIVE
+} GDesktopPointerAccelProfile;
 
 #endif /* __gdesktop_enums_h__ */
