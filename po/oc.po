@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
-"=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-12-15 13:26+0000\n"
-"PO-Revision-Date: 2016-03-07 19:23+0200\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-03 22:36+0000\n"
+"PO-Revision-Date: 2016-04-19 21:45+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Virtaal 0.7.1\n"
-"X-Launchpad-Export-Date: 2015-05-20 16:56+0000\n"
+"X-Launchpad-Export-Date: 2016-04-19 19:12+0000\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -93,7 +92,8 @@ msgid "Enable 'Bounce Keys'"
 msgstr "Activar los « Rebombs de tòcas »"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:9
-msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
+msgid ""
+"Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:10
@@ -101,7 +101,8 @@ msgid "Minimum interval in milliseconds"
 msgstr "Interval minimum en millisegondas"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:11
-msgid "Ignore multiple presses of the same key within this many milliseconds."
+msgid ""
+"Ignore multiple presses of the same key within this many milliseconds."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:12
@@ -126,7 +127,8 @@ msgstr "Pixèls per segondas"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:17
 msgid "How many pixels per second to move at the maximum speed."
-msgstr "Nombre de pixèls per segonda per se desplaçar a la velocitat maximala."
+msgstr ""
+"Nombre de pixèls per segonda per se desplaçar a la velocitat maximala."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:18
 msgid "How long to accelerate in milliseconds"
@@ -504,7 +506,8 @@ msgid "Gesture secondary click"
 msgstr "Movement pel clic segondari"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
+msgid ""
+"Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
@@ -560,7 +563,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:3
 msgid "Folder name"
-msgstr ""
+msgstr "Nom del dorsièr"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:4
 msgid "The name of the application folder."
@@ -578,7 +581,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:7
 msgid "Applications"
-msgstr ""
+msgstr "Aplicacions"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:8
 msgid ""
@@ -587,7 +590,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:9
 msgid "Categories"
-msgstr ""
+msgstr "Categorias"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:10
 msgid ""
@@ -606,12 +609,23 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:1
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:37
+msgid "Draw Desktop Background"
+msgstr "Dessenhar lo rèireplan del burèu"
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
+msgid ""
+"Have GNOME draw the desktop background.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:43
 msgid "Picture Options"
 msgstr "Opcions de l'imatge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:44
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -622,68 +636,69 @@ msgstr ""
 "« centered » (centrat), « scaled » (redimensionat), « stretched » (estirat), "
 "« zoom », « spanned » (espandit)."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:3
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:39
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:45
 msgid "Picture URI"
 msgstr "URI de l'imatge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:4
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:46
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:5
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:41
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:47
 msgid "Picture Opacity"
 msgstr "Opacitat de l'imatge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:6
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:42
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
 msgid "Opacity with which to draw the background picture."
 msgstr "Opacitat amb laquina dessenhar l'imatge de rèireplan."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:7
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:43
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:49
 msgid "Primary Color"
 msgstr "Color primària"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:8
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:44
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:50
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Color d'esquèrra o del naut quand se dessenha de degradats, o color unida."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:9
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:45
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:51
 msgid "Secondary Color"
 msgstr "Color segondària"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:10
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:46
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:52
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Color de drecha o de bas quand se dessenha de degradats, pas utilizada per "
 "la color unida."
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:11
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:47
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:53
 msgid "Color Shading Type"
 msgstr "Tipe de color d'ombratge"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:54
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:17
 msgid "Have file manager handle the desktop"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:18
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 
@@ -834,7 +849,7 @@ msgid ""
 "changes the behaviour of the window manager, the panel etc."
 msgstr ""
 "Indica se las animacions devon èsser afichadas. Nòta : es una clau globala, "
-"aquò càmbia lo compòrtament del gestionari de fenèstras, del tablèu de bòrd, "
+"aquò cambia lo compòrtament del gestionari de fenèstras, del tablèu de bòrd, "
 "eca."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:5
@@ -866,249 +881,290 @@ msgid ""
 "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
 "\"text\"."
 msgstr ""
-"Estil de la barra d'aisinas. Las valors validas son « both » (tèxte jos las "
-"icònas), « both-horiz » (tèxte al costat de las icònas), « icons » (icònas "
-"solas) e « text » (tèxte sol)."
+"Estil de la barra d'aisinas. Las valors validas son « both » (tèxt jos las "
+"icònas), « both-horiz » (tèxt al costat de las icònas), « icons » (icònas "
+"solas) e « text » (tèxt sol)."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:11
+msgid "Menus Have Icons"
+msgstr "Los menús an d'icònas"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:12
+msgid "Whether menus may display an icon next to a menu entry."
+msgstr ""
+"Indica se los menús pòdon afichar una icòna al costat del tèxte del menú."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:13
+msgid "Buttons Have Icons"
+msgstr "Los botons an d'icònas"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:14
+msgid "Whether buttons may display an icon in addition to the button text."
+msgstr ""
+"Indica se los botons pòdon afichar una icòna al costat del tèxte del boton."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:15
 msgid "Menubar Detachable"
 msgstr "Barra de menús destacabla"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
 msgid "Whether the user can detach menubars and move them around."
 msgstr ""
 "Indica se l'utilizaire pòt destacar las barras de menús e las desplaçar."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
 msgid "Toolbar Detachable"
 msgstr "Barra d'aisinas destacabla"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:18
 msgid "Whether the user can detach toolbars and move them around."
 msgstr ""
 "Indica se l'utilizaire pòt destacar las barras d'aisinas e las desplaçar."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:19
 msgid "Toolbar Icon Size"
 msgstr "Talha de las icònas de las barras d'aisinas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:20
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:21
 msgid "Cursor Blink"
 msgstr "Cursor clucatejant"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:22
 msgid "Whether the cursor should blink."
 msgstr "Indica se lo cursor deu clucatejar."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:23
 msgid "Cursor Blink Time"
 msgstr "Durada del clucatejament del cursor"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:24
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "Longor del cicle de clucatejament del cursor, en millisegondas."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:25
 msgid "Cursor Blink Timeout"
 msgstr "Expiracion de clucatejament del cursor"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:26
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:27
 msgid "Icon Theme"
 msgstr "Tèma d'icònas"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:28
 msgid "Icon theme to use for the panel, nautilus etc."
 msgstr "Tèma d'icònas d'utilizar pel tablèu de bòrd, nautilus, etc."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:29
 msgid "Gtk+ Theme"
 msgstr "Tèma GTK+"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:30
 msgid "Basename of the default theme used by gtk+."
 msgstr "Nom de basa del tèma per defaut utilisat per GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:31
 msgid "Gtk+ Keybinding Theme"
 msgstr "Tèma dels acorchis de clavièr gtk+"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:32
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:33
 msgid "Default font"
 msgstr "Poliça per defaut"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:30
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:34
 msgid "Name of the default font used by gtk+."
 msgstr "Nom de la poliça per defaut utilizada per GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:31
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:35
 msgid "Text scaling factor"
 msgstr "Factor d'escala del tèxte"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:32
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:36
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:33
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:37
 msgid "Window scaling factor"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:38
 msgid ""
 "Integer factor used to scale windows by. For use on high-dpi screens. 0 "
 "means pick automatically based on monitor."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:39
 msgid "GTK IM Preedit Style"
 msgstr "Estil de preedicion de GTK IM"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:40
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr ""
 "Nom de l'estil de preedicion del metòde de picada GTK+ utilizat per GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:41
 msgid "GTK IM Status Style"
 msgstr "Estil d'estat de GTK IM"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:42
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "Nom de l'estil d'estat del metòde de picada GTK+ utilizat per GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:43
 msgid "GTK IM Module"
 msgstr "Modul GTK IM"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:44
 msgid "Name of the input method module used by GTK+."
 msgstr "Nom del modul de metòde de picada utilizat per GTK+."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:45
 msgid "Document font"
 msgstr "Poliça del document"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:46
 msgid "Name of the default font used for reading documents."
 msgstr "Nom de la poliça per defaut utilizada per legir los documents"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:47
 msgid "Monospace font"
 msgstr "Poliça pas proporcionala"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:48
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
 "Nom d'una poliça pas proporcionala (largor fixa) d'utilizar a d'endreches "
 "tal coma de terminals."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:49
 msgid "Menubar accelerator"
 msgstr "Acorchi de la barra de menús"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:50
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Acorchi de clavièr per dobrir las barras de menús."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:51
+msgid "Show the 'Input Methods' menu"
+msgstr "Afichar lo menú « Metòdes de picada »"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:52
+msgid ""
+"Whether the context menus of entries and text views should offer to change "
+"the input method."
+msgstr ""
+"Indica se los menús contextuals de las zònas de picada e de las vistas de "
+"tèxte devon ofrir la possibilitat de modificar lo metòde de picada."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:53
+msgid "Show the 'Unicode Control Character' menu"
+msgstr "Afichar lo menú « Caractèr de contraròtle Unicode »"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:54
+msgid ""
+"Whether the context menus of entries and text views should offer to insert "
+"control characters."
+msgstr ""
+"Indica se los menús contextuals de las zònas de picada e de las vistas de "
+"tèxte devon ofrir la possibilitat d'inserir de caractèrs de contraròtle."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:55
 msgid "Cursor theme"
 msgstr "Tèma del cursor"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:49
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
 msgid "Cursor size"
 msgstr "Talha del cursor"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:50
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
 msgid "Size of the cursor used as cursor theme."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
 msgid "Timeout before click repeat"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:60
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:61
 msgid "Timeout between click repeats"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:62
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:63
 msgid "Palette used in the color selector"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
 msgid "List of symbolic names and color equivalents"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Whether the clock shows seconds"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid "If true, display seconds in the clock."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:62
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:70
 msgid "Show date in clock"
 msgstr "Afichar la data dins lo relòtge"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:63
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:71
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Se verai, la data s'aficha dins lo relòtge, al costat de l'ora."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
-msgid "Show battery percentage"
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:72
+msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
-#| msgid "If true, display date in the clock, in addition to time."
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:73
 msgid ""
-"If true, display battery percentage in the status menu, in addition to the "
-"icon."
+"Whether mnemonics should be automatically shown and hidden when the user "
+"presses the Alt key."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
@@ -1188,7 +1244,8 @@ msgstr "Desactivar los gestionaris d'URL e de tipe MIME"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:14
 msgid "Prevent running any URL or MIME type handler applications."
-msgstr "Empachar l'aviada d'aplicacions que gerisson las URL e los tipes MIME."
+msgstr ""
+"Empachar l'aviada d'aplicacions que gerisson las URL e los tipes MIME."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:15
 msgid "Disable log out"
@@ -1304,10 +1361,12 @@ msgid "Show notification banners"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:2
-msgid "Whether notification banners are visible for application notifications."
+msgid ""
+"Whether notification banners are visible for application notifications."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:9
 msgid "Show notifications in the lock screen"
 msgstr ""
 
@@ -1376,23 +1435,28 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Whether edge scrolling is enabled"
-msgstr ""
+msgid "Select the touchpad scroll method"
+msgstr "Metòde de desfilament del pavat tactil"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"Select the touchpad scroll method. Supported values are: \"disabled\", "
+"\"edge-scrolling\", \"two-finger-scrolling\"."
 msgstr ""
+"Selecciona lo metòde de desfilament amb lo pavat tactil. Las valors admesas "
+"sont : « disabled » (desactivat), « edge-scrolling » (desfilament suls "
+"bòrds), « two-finger-scrolling » (desfilament amb dos dets)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
-msgstr ""
+msgstr "Activar los clics de mirga amb lo pavat tactil"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
+"Activatz aquesta clau per poder efectuar de clics de mirgas en picant sul "
+"pavat tactil."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid "Touchpad enabled"
@@ -1454,7 +1518,6 @@ msgid "Key Repeat Interval"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
-#| msgid "How long to accelerate in milliseconds"
 msgid "Delay between repeats in milliseconds."
 msgstr ""
 
@@ -1463,17 +1526,16 @@ msgid "Initial Key Repeat Delay"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
-#| msgid "Initial delay in milliseconds"
 msgid "Initial key repeat delay in milliseconds."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "Orientacion del boton de la mirga"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "Invèrsa los botons drecha e esquèrra de la mirga pels esquerrièrs"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid ""
@@ -1608,8 +1670,9 @@ msgstr "Activar quand inactiu"
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle.\n"
 "\n"
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:5
@@ -1631,21 +1694,38 @@ msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
+msgid ""
+"Whether notifications are shown in the lock screen or not. This only affects "
+"the standard experience.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored. It has been superseded by "
+"org.gnome.desktop.notifications show-in-lock-screen."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:13
 msgid "Show full name in the lock screen"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:14
 msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:15
+msgid "Lock on suspend"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
+msgid "Set this to TRUE to lock the screen when the system suspends."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:17
 msgid "Allow embedding a keyboard into the window"
 msgstr "Autorizar l'incorporacion d'un clavièr dins la fenèstra"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:18
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1654,11 +1734,11 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:21
 msgid "Embedded keyboard command"
 msgstr "Comanda de clavièr incorporat"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:22
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1668,11 +1748,11 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:25
 msgid "Allow logout"
 msgstr "Autorizar la desconnexion"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:26
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
@@ -1680,11 +1760,11 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:29
 msgid "Time before logout option"
 msgstr "Relambi abans opcion de desconnexion"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:30
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1693,11 +1773,11 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored"
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
 msgid "Logout command"
 msgstr "Comanda de desconnexion"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1706,11 +1786,11 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:31
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:37
 msgid "Allow user switching"
 msgstr "Autorizar lo cambiament d'utilizaire"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:32
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -1718,11 +1798,11 @@ msgstr ""
 "Definir a VERAI per ofrir una opcion dins la bóstia de dialòg de "
 "desverrolhatge per bascuolar cap a un compte d'utilizaire diferent."
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:39
 msgid "Allow the session status message to be displayed"
 msgstr "Autorizar l'afichatge del messatge d'estat de la session"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
 "Allow the session status message to be displayed when the screen is locked.\n"
 "\n"
@@ -1831,7 +1911,7 @@ msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
-"Talha maximum de lo cache en megaoctets. Definissètz a -1 per desactivar lo "
+"Talha maximum del cache en megaoctets. Definissètz a -1 per desactivar lo "
 "netejatge."
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:1
@@ -1963,7 +2043,8 @@ msgstr "Bascuolar entre las fenèstras d'una aplicacion dirèctament"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:27
 msgid "Reverse switch windows of an app directly"
-msgstr "Bascuolar entre las fenèstras d'una aplicacion, a l'invèrse dirèctament"
+msgstr ""
+"Bascuolar entre las fenèstras d'una aplicacion, a l'invèrse dirèctament"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:28
 msgid "Switch windows directly"
@@ -2027,7 +2108,7 @@ msgstr "Activar o desactivar l'estat enrotlat"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:43
 msgid "Minimize window"
-msgstr "Reduire la fenèstra"
+msgstr "Redusir la fenèstra"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:44
 msgid "Close window"
@@ -2219,8 +2300,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <!"
-"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the \"resize-with-right-button\" key. Modifier is expressed as "
+"<![CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:3
@@ -2272,9 +2353,9 @@ msgstr ""
 "Lo mòde de focus de la fenèstra indica lo biais que las fenèstras son "
 "activadas. Presenta tres valors possiblas ; « click » significa que vos cal "
 "clicar sus las fenèstras per las activar,  « sloppy » (« rajat ») significa "
-"que las fenèstras son activadas quand la mirga s'i plaça e "
-"« mouse » (« mirga »), significa que las fenèstras son activadas quand la "
-"mirga s'i plaça e desactivadas quand las quita."
+"que las fenèstras son activadas quand la mirga s'i plaça e « mouse » "
+"(« mirga »), significa que las fenèstras son activadas quand la mirga s'i "
+"plaça e desactivadas quand las quita."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:9
 msgid "Control how new windows get focus"
@@ -2317,11 +2398,11 @@ msgid ""
 "\n"
 "Current valid options are 'toggle-shade', which will shade/unshade the "
 "window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"maximize-horizontally' and 'toggle-maximize-vertically' which will "
+"maximize/unmaximize the window in that direction only, 'minimize' which will "
+"minimize the window, 'shade' which will roll the window up, 'menu' which "
+"will display the window menu, 'lower' which will put the window behind all "
+"the others, and 'none' which will not do anything."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:19
@@ -2334,11 +2415,11 @@ msgid ""
 "\n"
 "Current valid options are 'toggle-shade', which will shade/unshade the "
 "window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"maximize-horizontally' and 'toggle-maximize-vertically' which will "
+"maximize/unmaximize the window in that direction only, 'minimize' which will "
+"minimize the window, 'shade' which will roll the window up, 'menu' which "
+"will display the window menu, 'lower' which will put the window behind all "
+"the others, and 'none' which will not do anything."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:23
@@ -2351,11 +2432,11 @@ msgid ""
 "\n"
 "Current valid options are 'toggle-shade', which will shade/unshade the "
 "window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"maximize-horizontally' and 'toggle-maximize-vertically' which will "
+"maximize/unmaximize the window in that direction only, 'minimize' which will "
+"minimize the window, 'shade' which will roll the window up, 'menu' which "
+"will display the window menu, 'lower' which will put the window behind all "
+"the others, and 'none' which will not do anything."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:27
@@ -2386,9 +2467,6 @@ msgid "Current theme"
 msgstr "Tèma actual"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:32
-#| msgid ""
-#| "The theme determines the appearance of window borders, titlebar, and so "
-#| "forth."
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth.\n"
@@ -2542,8 +2620,8 @@ msgstr "Mòde de configuracion del servidor mandatari"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\".\n"
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\".\n"
 "\n"
 "If this is \"none\", then proxies are not used.\n"
 "\n"
@@ -2661,7 +2739,8 @@ msgstr "Nom d'òste del servidor mandatari HTTP securizat"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:33
 msgid "The machine name to proxy secure HTTP through."
-msgstr "Lo nom de la maquina que servís de servidor mandatari HTTP securizat."
+msgstr ""
+"Lo nom de la maquina que servís de servidor mandatari HTTP securizat."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:34
 msgid "Secure HTTP proxy port"
@@ -2708,44 +2787,6 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr ""
-
-#~ msgid "Draw Desktop Background"
-#~ msgstr "Dessenhar lo rèireplan del burèu"
-
-#~ msgid "Menus Have Icons"
-#~ msgstr "Los menús an d'icònas"
-
-#~ msgid "Whether menus may display an icon next to a menu entry."
-#~ msgstr ""
-#~ "Indica se los menús pòdon afichar una icòna al costat del tèxte del menú."
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "Los botons an d'icònas"
-
-#~ msgid "Whether buttons may display an icon in addition to the button text."
-#~ msgstr ""
-#~ "Indica se los botons pòdon afichar una icòna al costat del tèxte del "
-#~ "boton."
-
-#~ msgid "Show the 'Input Methods' menu"
-#~ msgstr "Afichar lo menú « Metòdes de picada »"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "change the input method."
-#~ msgstr ""
-#~ "Indica se los menús contextuals de las zònas de picada e de las vistas de "
-#~ "tèxte devon ofrir la possibilitat de modificar lo metòde de picada."
-
-#~ msgid "Show the 'Unicode Control Character' menu"
-#~ msgstr "Afichar lo menú « Caractèr de contraròtle Unicode »"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "insert control characters."
-#~ msgstr ""
-#~ "Indica se los menús contextuals de las zònas de picada e de las vistas de "
-#~ "tèxte devon ofrir la possibilitat d'inserir de caractèrs de contraròtle."
 
 #~ msgid "Whether raising should be a side-effect of other user interactions"
 #~ msgstr ""
