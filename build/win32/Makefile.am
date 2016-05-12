@@ -24,6 +24,7 @@ EXTRA_DIST = \
 	gsettings-desktop-schemas-msvc.mak.in	\
 	gsettings-desktop-schemas-msvc.mak	\
 	introspection-msvc.mak			\
+	genschema.py				\
 	replace.py				\
 	uri.py					\
 	README.txt				\

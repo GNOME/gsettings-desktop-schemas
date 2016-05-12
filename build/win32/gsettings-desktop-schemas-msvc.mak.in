@@ -33,7 +33,7 @@ ERRNUL  = 2>NUL
 _HASH=^#
 
 # Get the Full URI representation of the PREFIX
-!if ![echo PREFIX_URI= ^\> uri.x] \
+!if ![echo PREFIX_POSIX= ^\> uri.x] \
 && ![$(PYTHON) uri.py $(PREFIX) >> uri.x]
 !include uri.x
 !endif
@@ -57,9 +57,7 @@ all: $(gschemas) org.gnome.desktop.enums.xml
 .SUFFIXES: .xml.in .xml
 
 {..\..\schemas\}.xml.in{}.xml:
-	$(PYTHON) replace.py --action=replace-var --input=$< --output=$@.tmp --var=GETTEXT_PACKAGE --outstring=@GETTEXT_PACKAGE@
-	$(PYTHON) replace.py --action=replace-var --input=$@.tmp --output=$@ --var=datadir --outstring=$(PREFIX_URI)/share
-	@-del $@.tmp
+	$(PYTHON) genschema.py --input=$< --output=$@ --package=@GETTEXT_PACKAGE@ --prefix=$(PREFIX_POSIX)
 
 org.gnome.desktop.enums.xml:
 	$(PERL) $(PREFIX)\bin\glib-mkenums --comments "<!-- @comment@ -->"	\
