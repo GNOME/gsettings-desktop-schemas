@@ -91,3 +91,5 @@ clean:
 	@-if exist *.gir @del *.gir
 	@-del $(gschemas)
 	@-del org.gnome.desktop.enums.xml
+	@-if exist *.pyc @del *.pyc
+	@-if exist __pycache__ @rmdir /s /q __pycache__
