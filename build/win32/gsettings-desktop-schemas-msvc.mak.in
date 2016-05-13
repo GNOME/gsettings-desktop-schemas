@@ -76,7 +76,11 @@ setgirbuildenv:
 
 !include introspection.body.mak
 
-install: $(gschemas) org.gnome.desktop.enums.xml
+gsettings-desktop-schemas.pc: ..\..\gsettings-desktop-schemas.pc.in
+	@echo Generating gsettings-desktop-schemas.pc...
+	$(PYTHON) genpc.py --prefix=$(PREFIX) --version=@PACKAGE_VERSION@
+
+install: $(gschemas) org.gnome.desktop.enums.xml gsettings-desktop-schemas.pc
 	@-if not exist $(PREFIX)\share\glib-2.0\schemas mkdir $(PREFIX)\share\glib-2.0\schemas
 	@-copy *.gschema.xml $(PREFIX)\share\glib-2.0\schemas
 	@-copy org.gnome.desktop.enums.xml $(PREFIX)\share\glib-2.0\schemas
@@ -85,8 +89,11 @@ install: $(gschemas) org.gnome.desktop.enums.xml
 	@-if exist *.gir @copy *.gir $(PREFIX)\share\gir-1.0
 	@-if exist *.typelib @copy *.typelib $(PREFIX)\lib\girepository-1.0
 	$(PREFIX)\bin\glib-compile-schemas.exe $(PREFIX)\share\glib-2.0\schemas
+	@-if not exist $(PREFIX)\share\pkgconfig mkdir $(PREFIX)\share\pkgconfig
+	@-copy gsettings-desktop-schemas.pc $(PREFIX)\share\pkgconfig
 
 clean:
+	@-del gsettings-desktop-schemas.pc
 	@-if exist *.typelib @del *.typelib
 	@-if exist *.gir @del *.gir
 	@-del $(gschemas)
