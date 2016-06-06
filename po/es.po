@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-11 11:24+0000\n"
-"PO-Revision-Date: 2016-03-11 16:24+0100\n"
+"POT-Creation-Date: 2016-05-27 17:45+0000\n"
+"PO-Revision-Date: 2016-06-02 09:24+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -59,7 +59,6 @@ msgstr ""
 "Acceso universal cuando no se han activado características de accesibilidad."
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
-#| msgid "Always show the Universal Access status icon"
 msgid "Always show the text caret"
 msgstr "Mostrar siempre el cursor del texto"
 
@@ -834,6 +833,15 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Si es cierto, el gestor de archivos dibujará los iconos en el escritorio."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Mostrar la fecha de la semana en el calendario"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+#| msgid "If true, display seconds in the clock."
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Si es cierta, muestra la fecha ISO de la semana en el calendario."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Actualizar la zona horaria automáticamente"
@@ -937,21 +945,29 @@ msgid "Current input source"
 msgstr "Fuente de entrada actual"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:2
+#| msgid ""
+#| "The zero-based index into the input sources list specifying the current "
+#| "one in effect. The value is automatically capped to remain in the range "
+#| "[0, sources_length) as long as the sources list isn't empty."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "El índice de base cero en la lista de fuentes de entrada que especifica la "
 "actual en este momento. El valor se limita automáticamente para que "
 "permanezca en el rango [0, longitud_fuentes) mientras que la lista de "
-"fuentes no esté vacía."
+"fuentes no esté vacía.\n"
+"\n"
+"OBSOLETO: esta clave está obsoleta y se ignorará"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "Lista de fuentes de entrada"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -969,11 +985,24 @@ msgstr ""
 "lista vacía significa que el la distribución del teclado actual del servidor "
 "X y su variante no se modificarán y que no se usará IBUS."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#| msgid "List of input sources"
+msgid "List of most recently used input sources"
+msgstr "Lista de fuentes de entrada usadas recientemente"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Lista de las fuentes de entradas usadas recientemente. El valor está en el "
+"mismo formato que la lista de fuentes disponibles."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "Lista de opciones de XKB"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -981,22 +1010,22 @@ msgstr ""
 "Lista de opciones de XKB. Cada opción es una cadena de opción de XKB, tal "
 "como se define en los archivos de reglas de xkeyboard-config."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Mostrar todas las fuentes de entrada instaladas"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Hace que todas las fuentes de entrada instaladas estén disponibles para "
 "elegirlas en la configuración del sistema."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Usar diferentes fuentes de entrada para cada ventana"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
