@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gsettings-desktop-schemas master\n"
+"Project-Id-Version: gsettings-desktop-schemas gnome-3-20\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-08-16 21:27+0000\n"
-"PO-Revision-Date: 2015-08-30 17:22+0700\n"
+"POT-Creation-Date: 2016-05-26 13:36+0000\n"
+"PO-Revision-Date: 2016-06-20 00:50+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -55,6 +55,18 @@ msgid ""
 msgstr ""
 "Kunci ini menimpa penyembunyian otomatis ikon status Akses Universal ketika "
 "tak ada fitur aksesibilitas yang difungsikan."
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "Selalu tampilkan karet teks"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr ""
+"Kunci ini menimpa penyembunyian karet teks dalam teks yang tak dapat "
+"disunting di aplikasi."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -1253,6 +1265,18 @@ msgstr "Tampilkan tanggal pada jam"
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Jika bernilai benar (true), tanggal akan ditampilkan."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "Tampilkan persentase baterai"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr ""
+"Jika bernilai true, tampilkan persentase baterai pada menu status, sebagai "
+"tambahan ke ikon."
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Matikan baris perintah"
@@ -1521,17 +1545,16 @@ msgstr ""
 "layar yang terkunci."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "Pilih metoda gulir touchpad"
+msgid "Whether edge scrolling is enabled"
+msgstr "Apakah pengguliran tepi difungsikan"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
+"When disabled, touchpads that only support edge scrolling (and not 2-finger "
+"scrolling) will have that feature disabled."
 msgstr ""
-"Pilih metoda gulir touchpad. Nilai-nilai yang didukung adalah: \"disabled"
-"\" (dinonaktifkan), \"edge-scrolling\" (gulir tepi), \"two-finger-scrolling"
-"\" (gulir dua jari)."
+"Ketika dimatikan, touchpad yang hanya mendukung pengguliran tepi (dan bukan "
+"pengguliran 2 jari) akan dimatikan fiturnya."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid "Enable mouse clicks with touchpad"
@@ -3065,10 +3088,3 @@ msgid ""
 msgstr ""
 "Port pada mesin yang ditentukan oleh \"/system/proxy/socks_host\" yang Anda "
 "proksikan."
-
-#~ msgid ""
-#~ "URI to use for the background image. Not that the backend only supports "
-#~ "local (file://) URIs."
-#~ msgstr ""
-#~ "URI yang dipakai untuk gambar latar. Catatlah bahwa backend hanya "
-#~ "mendukung URI lokal (file://)."
