@@ -9,9 +9,14 @@
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.touchpad" path="/org/gnome/desktop/peripherals/touchpad/">
     <key name="edge-scrolling-enabled" type="b">
+      <default>false</default>
+      <summary>Whether edge scrolling is enabled</summary>
+      <description>When enabled, touchpads that support edge scrolling will have that feature enabled.</description>
+    </key>
+    <key name="two-finger-scrolling-enabled" type="b">
       <default>true</default>
       <summary>Whether edge scrolling is enabled</summary>
-      <description>When disabled, touchpads that only support edge scrolling (and not 2-finger scrolling) will have that feature disabled.</description>
+      <description>When enabled, touchpads that support two-finger scrolling will have that feature enabled.</description>
     </key>
     <key name="tap-to-click" type="b">
       <default>false</default>
