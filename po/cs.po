@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-08 11:25+0000\n"
-"PO-Revision-Date: 2016-03-08 18:12+0100\n"
+"POT-Creation-Date: 2016-07-28 07:21+0000\n"
+"PO-Revision-Date: 2016-08-17 12:44+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +56,6 @@ msgstr ""
 "situaci, kdy nejsou funkce zpřístupnění zapnuty."
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
-#| msgid "Always show the Universal Access status icon"
 msgid "Always show the text caret"
 msgstr "Vždy zobrazovat textový kurzor"
 
@@ -801,6 +800,14 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Pokud je zapnuto, bude správce souborů vykreslovat ikony na pracovní ploše."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Zobrazovat v kalendáři čísla týdnů"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Když je zapnuto, zobrazují se v kalendáři čísla týdnů podle ISO."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Automaticky aktualizovat časové pásmo"
@@ -902,18 +909,21 @@ msgstr "Aktuální vstupní zdroj"
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Index, počítaný od nuly, do seznamu vstupních zdrojů, který určuje platný "
 "aktuální vstupní zdroj. Automaticky se zabraňuje tomu, aby se hodnota "
 "dostala mimo rozsah [0, počet_zdrojů), za předpokladu, že není seznam "
-"prázdný."
+"prázdný.\n"
+"ZAVRŽENO: Tento klíč byl zavržen a je ignorován."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "Seznam vstupních zdrojů"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -930,11 +940,23 @@ msgstr ""
 "druhým řetězcem název výkonné části IBus. Prázdný seznam znamená, že "
 "aktuální rozvržení a varianta XKB serveru X se nemění a IBus se nepoužívá."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+msgid "List of most recently used input sources"
+msgstr "Seznam nedávno použitých vstupních zdrojů"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Seznam nedávno použitých vstupních zdrojů. Hodnoty jsou ve stejném formátu, "
+"jako v seznamu dostupných vstupních zdrojů."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "Seznam voleb XKB"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -942,22 +964,22 @@ msgstr ""
 "Seznam voleb XKB. Každá z voleb je řetězcem volby XKB, tak jak je definován "
 "v souboru pravidel pro xkeyboard-config."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Zobrazovat všechny nainstalované vstupní zdroje"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Zajistí, že všechny nainstalované vstupní zdroje budou k dispozici pro výběr "
 "v systémových nastaveních."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Používat různé vstupní zdroje pro každé okno"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1545,36 +1567,44 @@ msgstr "Zda je povolen posuv u kraje"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"Když je zakázáno, budou mít touchpady, které podporují posuv jen u okraje (a "
-"ne posuv dvěma prsty) tuto funkci zakázanou."
+"Když je zapnuto, budou mít touchpady, které podporují posuv u okraje, tuto "
+"funkci povolenou."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"Když je zapnuto, budou mít touchpady, které podporují posuv dvěma prsty, "
+"tuto funkci povolenou."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "Povolit kliknutí myší pomocí touchpadu"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Když je nastaveno na zapnuto, budete možné provádět kliknutí myší poklepáním "
 "na touchpad."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "Touchpad povolen"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Určuje situace, ve kterých je touchpad povolen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "Uspořádání tlačítek touchpadu"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1582,11 +1612,11 @@ msgstr ""
 "Prohodit levé a pravé tlačítko touchpadu. „left“ je určeno pro leváky, "
 "„right“ pro praváky a „mouse“ se řídí podle nastavení u myši."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Rychlost ukazatele"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1594,21 +1624,21 @@ msgstr ""
 "Rychlost ukazatele touchpadu. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Přirozené posouvání"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Když je nastaveno na ZAPNUTO, bude posuv pomocí touchpadu fungovat v "
 "přirozeném (obráceném) směru."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Metoda klikání"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1618,41 +1648,41 @@ msgstr ""
 "přes určené oblasti („areas“), dané počtem prstů („fingers“) nebo ponecháno "
 "na výchozím nastavení hardwaru („default“)."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Opakování klávesnice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nastavte na ZAPNUTO, pokud má klávesnice opakovat zmáčknutí kláves."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Četnost opakování klávesnice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Prodleva mezi opakováním zmáčknutí kláves, v milisekundách"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Počáteční prodleva opakování klávesnice"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr ""
 "Počáteční zpoždění v milisekundách, než začně klávesnice opakovat zmáčknutí "
 "kláves."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Uspořádání tlačítek myši"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Prohodit levé a pravé tlačítko myši, určeno pro leváky."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1660,17 +1690,38 @@ msgstr ""
 "Rychlost ukazatele myší. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Když je nastaveno na ZAPNUTO, bude posuv pomocí myši fungovat v přirozeném "
 "(obráceném) směru."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Profil zrychlení"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Profil zrychlení používaný pro připojené myši. Profil zrychlení může být "
+"nastaven buď na výchozí („default“), kdy se použije výchozí profil pro "
+"jednotlivá zařízení, stejnoměrný („flat“), kdy se zrychluje konstantním "
+"faktorem odvozeným pro jednotlivá zařízení z nastavené rychlosti ukazatele, "
+"nebo adaptivní („adaptive“), kdy se zrychlení přizpůsobuje podle pohybů "
+"myši. Pokud myš nastavený profil nepodporuje, použije se výchozí."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Mapování kreslícího tabletu"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1678,11 +1729,116 @@ msgstr ""
 "Informace EDID o monitoru, na který je tablet mapován. Musí být ve formátu "
 "[výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] mapování vypne."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+msgid "Tablet mapping"
+msgstr "Mapování tabletu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Jak vstup ovlivňuje ukazatel na obrazovce"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Oblast tabletu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Mrtvá oblast obklopující aktivní oblast, v procentech. Jednotlivě se použije "
+"na levou, pravou, horní a dolní stranu."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Poměr stran tabletu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Zapněte, když chcete omezit oblast tabletu tak, aby odpovídal poměru stran "
+"výstupu."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+msgid "Tablet left-handed mode"
+msgstr "Režim tabletu pro leváky"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr ""
+"Zapněte, když chcete umožnit fyzické otočení tabletu, aby šel nastavit pro "
+"leváky"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Přítlaková křivka stylusu"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr "Nastavte na x1, y1 a x2, y2 přítlakové křivky použité na stylus."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Přítlaková křivka gumy"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr "Nastavte na x1, y1 a x2, y2 přítlakové křivky použité na gumu."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "Činnost tlačítka"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr ""
+"Činnost tlačítka stylusu. Toto tlačítko se nachází v místě úchoupu pera."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+msgid "Secondary button action"
+msgstr "Činnost druhého tlačítka"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Činnost druhého tlačítka stylusu. Toto tlačítko se nachází v místě úchopu "
+"pera u některých stylusů, jako je třeba Grip Pen. Jiné stylusy, jako "
+"Airbrush Pen nebo Inking Pen mají jen jedno tlačítko, a v tom případě nemá "
+"toto nastavení žádný význam."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+msgid "Pad button action type"
+msgstr "Typ činnosti tlačítka plochy"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Typ činnosti spuštěné zmáčknutím tlačítka."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+msgid "Key combination for the custom action"
+msgstr "Kombinace kláves pro vlastní činnost"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Klávesová zkratka vygenerovaná, když je tlačítko zmáčknuto pro vlastní "
+"činnost."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Mapování dotykové obrazovky"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1691,9 +1847,25 @@ msgstr ""
 "ve formátu [výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] mapování "
 "vypne."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emulace tlačítka v kolečku myši. 0 tuto funkci vypne."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Profil zrychlení používaný pro trackball. Profil zrychlení může být nastaven "
+"buď na výchozí („default“), kdy se použije výchozí profil zrychlení, "
+"stejnoměrný („flat“), kdy se zrychluje konstantním faktorem odvozeným pro "
+"jednotlivá zařízení z nastavené rychlosti, nebo adaptivní („adaptive“), kdy "
+"se zrychlení přizpůsobuje podle pohybů. Pokud trackball nastavený profil "
+"nepodporuje, použije se výchozí."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -3076,14 +3248,3 @@ msgid ""
 msgstr ""
 "Port na počítači poskytujícím proxy a definovaném v klíči „/system/proxy/"
 "socks/host“."
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "Výběr metody posuvu pomocí touchpadu"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "Výběr metody posuvu pomocí touchpadu. Podporované hodnoty jsou: "
-#~ "„disabled“ (vypnuto), „edge-scrolling“ (posuvník u hrany), „two-finger-"
-#~ "scrolling“ (posuv pomocí dvou prstů)"
