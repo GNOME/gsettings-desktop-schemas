@@ -1,20 +1,18 @@
 # Serbian translation of gsettings-desktop-schemas.
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2012—2016.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-#
-# Translators: 
+# Translators:
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012—2016.
 # Марко М. Костић <marko.m.kostic@gmail.com>, 2016.
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
 "=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-07 23:25+0000\n"
-"PO-Revision-Date: 2016-03-08 10:04+0200\n"
+"POT-Creation-Date: 2016-08-17 10:47+0000\n"
+"PO-Revision-Date: 2016-08-28 22:35+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <(nothing)>\n"
+"Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +58,6 @@ msgstr ""
 "приступа када нема укључених функција приступачности."
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
-#| msgid "Always show the Universal Access status icon"
 msgid "Always show the text caret"
 msgstr "Увек приказује уметак текста"
 
@@ -812,6 +809,15 @@ msgstr ""
 "Ако је изабрано, онда ће управник датотека исцртавати иконице на радној "
 "површи."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Приказује датум седмице у календару"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+#| msgid "If true, display seconds in the clock."
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Ако је изабрано, приказиваће ИСО датум седмице у календару."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Самостално ажурирање временске зоне"
@@ -911,20 +917,28 @@ msgid "Current input source"
 msgstr "Текући извор улаза"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:2
+#| msgid ""
+#| "The zero-based index into the input sources list specifying the current "
+#| "one in effect. The value is automatically capped to remain in the range "
+#| "[0, sources_length) as long as the sources list isn't empty."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "На нули заснован индекс у списку извора улаза који наводи текући у дејству. "
-"Вредност бива самостално прекривена да би остала у опсегу [0, "
-"sources_length) све док се списак извора не испразни."
+"Вредност бива самостално прекривена да би остала у опсегу [0, sources_length)"
+" све док се списак извора не испразни.\n"
+"\n"
+"ЗАСТАРЕЛО: Овај кључ је застарео и занемарен."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "Списак извора улаза"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -941,11 +955,24 @@ msgstr ""
 "мотора И-сабирнице. Празан списак значи да текући ИксКБ распоред Икс сервера "
 "и варијант неће бити дирани а И-сабирница неће бити коришћена."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#| msgid "List of input sources"
+msgid "List of most recently used input sources"
+msgstr "Списак недавно коришћених извора улаза"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Списак недавно коришћених извора улаза. Вредност је у истом запису као "
+"доступан списак извора."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "Списак ИксКБ опција"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -953,21 +980,21 @@ msgstr ""
 "Списак ИксКБ опција. Свака опција је ниска ИксКБ опције као што је одређено "
 "датотекама правила подешавања икс тастатуре."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Приказује све инсталиране изворе улаза"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Чини све инсталиране изворе улаза доступним за бирање у подешавањима система."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Користи различите изворе улаза за сваки прозор"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1554,37 +1581,51 @@ msgid "Whether edge scrolling is enabled"
 msgstr "Да ли је укључено клизање ивицом"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
+#| msgid ""
+#| "When disabled, touchpads that only support edge scrolling (and not 2-"
+#| "finger scrolling) will have that feature disabled."
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"Када је искључено, код додирних табли које подржавају само клизање ивицом (а "
-"не клизање са два прста) ова функција биће искључена."
+"Када је укључено, код додирних табли које подржавају клизање ивицом ова "
+"функција биће укључена."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+#| msgid ""
+#| "When disabled, touchpads that only support edge scrolling (and not 2-"
+#| "finger scrolling) will have that feature disabled."
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"Када је укључено, код додирних табли које подржавају клизање са два прста "
+"ова функција биће укључена."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "Укључивање притисака миша додирном таблом"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Штиклирајте ово да бисте могли да шаљете притиске миша тапкањем по додирној "
 "табли."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "Укључена додирна табла"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Одређује ситуације у којима је укључена додирна табла."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "Усмерење дугмета додирне табле"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1592,11 +1633,11 @@ msgstr ""
 "Размените места левог и десног дугмета миша за леворуке са „left“, за "
 "десноруке са „right“, са „mouse“ да прати подешавања миша."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Брзина показивача"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1605,20 +1646,20 @@ msgstr ""
 "[-1..1] (од „unaccelerated“ — без убрзања, до „fast“ — брзо). Вредност 0 је "
 "системска основна."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Природно премицање"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Изаберите ово да укључите природно (повратно) премицање за додирне табле."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Начин кликтања"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1628,39 +1669,39 @@ msgstr ""
 "кроз посебне опсеге ('areas'), по броју прстију ('fingers')  или лево као "
 "хардверска подразумевана вредност ('default')."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Понављање тастатуре"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Изаберите ово да укључите понављање тастатуре."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Размак понављања тастера"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Застој између понављања у милисекундама."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Почетни застој понављања тастера"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Почетни застој понављања тастера у милисекундама."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Усмерење дугмета миша"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Замена левог и десног дугмета миша за леворуке."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1669,15 +1710,36 @@ msgstr ""
 "„unaccelerated“ — без убрзања, до „fast“ — брзо). Вредност 0 је системска "
 "основна."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Изаберите ово да укључите природно (повратно) премицање за мишеве."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Профил убрзања"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Профил убрзања који се користи за повезаног миша. Профил убрзања може бити "
+"подешен на основни („default“) који користи основни профил убрзања за сваки "
+"уређај, обичан („flat“), који убрзава нарочитим константним чиниоцем уређаја "
+"који произилази из подешене брзине показивача, или прилагодљиви („adaptive“) "
+"који прилагођава убрзање у зависности од покрета миша. Ако миш не подржава "
+"подешени профил, користиће се „default“."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Мапирање исцртавања таблице"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1685,11 +1747,120 @@ msgstr ""
 "ЕДИД подаци монитора на који је мапирана таблица. Мора бити у запису "
 "[vendor, product, serial]. [\"\",\"\",\"\"] искључује мапирање."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+#| msgid "Drawing tablet mapping"
+msgid "Tablet mapping"
+msgstr "Мапирање таблице"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Како улаз делује на показивач на екрану"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Област таблице"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Попуна мртве области око активне области, у процентима. Редом се примењује "
+"на леву, десну, горњу и доњу страну."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Однос сразмере таблице"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Укључите ово да ограничите област таблице како би одговарала односу сразмере "
+"излаза."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+#| msgid "Enable lens mode"
+msgid "Tablet left-handed mode"
+msgstr "Режим таблице за леворуке"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr ""
+"Укључите ово да омогућите стварно окретање таблице зарад подешавања за "
+"леворуке"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Крива притиска оловке"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+"Подесите ово на x1, y1 и x2, y2 криве притиска који се примењује на оловку."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Крива притиска брисача"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+"Подесите ово на x1, y1 и x2, y2 криве притиска који се примењује на брисач."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "Радња дугмета"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr "Радња дугмета оловке, ово дугме се налази на ручици пенкале."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+#| msgid "Secondary Color"
+msgid "Secondary button action"
+msgstr "Радња другог дугмета"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Радња другог дугмета оловке, ово дугме се налази дуж ручице пенкале на неким "
+"оловкама као што је Грип Пен. Остале оловке попут Ербраш Пен или Инкин Пен "
+"имају само једно дугме, ово подешавање не делује на њих."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+#| msgid "Touchpad button orientation"
+msgid "Pad button action type"
+msgstr "Врста радње дугмета додирне табле"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Врста радње која се окида притиском на дугме."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+#| msgid "Delay in milliseconds for the auto raise option"
+msgid "Key combination for the custom action"
+msgstr "Комбинација тастера за произвољну радњу"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Пречица тастатуре која се ствара када се притисне дугме за произвољне радње."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Мапирање приказа додирног екрана"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1697,9 +1868,25 @@ msgstr ""
 "ЕДИД подаци монитора на који је мапиран додирни екран. Мора бити у запису "
 "[vendor, product, serial]. [\"\",\"\",\"\"] искључује мапирање."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Дугме опонашања точкића миша. 0 искључује функцију."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Профил убрзања који се користи за пратилицу. Профил убрзања може бити "
+"подешен на основни („default“) који користи основни профил убрзања, обичан "
+"(„flat“), који убрзава нарочитим константним чиниоцем уређаја који "
+"произилази из подешене брзине, или прилагодљиви („adaptive“) који "
+"прилагођава убрзање у зависности од покрета. Ако пратилица не подржава "
+"подешени профил, користиће се „default“."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
