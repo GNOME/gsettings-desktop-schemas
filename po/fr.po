@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-13 11:25+0000\n"
-"PO-Revision-Date: 2016-03-13 15:30+0100\n"
+"POT-Creation-Date: 2016-09-04 04:08+0000\n"
+"PO-Revision-Date: 2016-09-05 10:03+0200\n"
 "Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -836,6 +836,14 @@ msgstr ""
 "Si défini à vrai, alors le gestionnaire de fichiers dessine les icônes sur "
 "le bureau."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Afficher le numéro de semaine dans le calendrier"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Si coché, affiche le numéro de semaine ISO dans le calendrier."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Met automatiquement à jour le fuseau horaire"
@@ -937,24 +945,28 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:1
 msgid "Current input source"
-msgstr "Source d'entrée actuelle"
+msgstr "Source de saisie actuelle"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:2
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"L'indice, commençant à zéro, dans la liste des sources d'entrée spécifiant "
+"L'indice, commençant à zéro, dans la liste des sources de saisie spécifiant "
 "celle actuellement en action. La valeur est automatiquement limitée pour "
 "rester dans l'intervalle [0, sources_length) tant que la liste des sources "
-"n'est pas vide."
+"n'est pas vide.\n"
+"\n"
+"OBSOLÈTE : cette clé est osbolète et ignorée."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
-msgstr "Liste des sources d'entrée"
+msgstr "Liste des sources de saisie"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -964,7 +976,7 @@ msgid ""
 "server's current XKB layout and variant won't be touched and IBus won't be "
 "used."
 msgstr ""
-"La liste des identifiants de source d'entrée disponible. Chaque source est "
+"La liste des identifiants de source de saisie disponibles. Chaque source est "
 "spécifiée comme un couple de 2 chaînes de caractères. La première est le "
 "type et peut être soit « xkb », soit « ibus ». Pour les sources « xkb », la "
 "seconde chaîne est « xkb_layout+xkb_variant » ou simplement « xkb_layout » "
@@ -973,11 +985,23 @@ msgstr ""
 "disposition et la variante XKB actuelle du serveur X ne seront pas changés "
 "et IBus ne sera pas utilisé."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+msgid "List of most recently used input sources"
+msgstr "Liste les sources de saisie les plus récemment utilisées"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Liste des sources de saisie les plus récemment utilisées. La valeur utilise "
+"le même format que la liste des sources disponibles."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "Liste des options XKB"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -985,27 +1009,27 @@ msgstr ""
 "Liste des options XKB. Chacune des options est une chaîne d'option tel que "
 "définie dans les fichiers de règles de xkeyboard-config."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
-msgstr "Afficher toutes les sources d'entrée installées"
+msgstr "Afficher toutes les sources de saisie installées"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
-"Rend toutes les sources d'entrée installées disponibles pour sélection dans "
+"Rend toutes les sources de saisie installées disponibles pour sélection dans "
 "les paramètres système."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
-msgstr "Utiliser des sources d'entrée différentes pour chaque fenêtre"
+msgstr "Utiliser des sources de saisie différentes pour chaque fenêtre"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
 msgstr ""
-"Si activé, les sources d'entrée sont attribuées à la fenêtre possédant "
+"Si activé, les sources de saisie sont attribuées à la fenêtre possédant "
 "actuellement le focus lorsqu'elles sont activées."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:1
@@ -1613,36 +1637,44 @@ msgstr "Indique si le défilement latéral est activé"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"Si désactivé, les pavés tactiles qui ne permettent que le défilement latéral "
-"(et pas le défilement à deux doigts) désactivent cette fonctionnalité."
+"Si activé, les pavés tactiles qui permettent le défilement latéral verront "
+"cette fonctionnalité activée."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"Si activé, les pavés tactiles qui permettent le défilement à deux doigts "
+"verront cette fonctionnalité activée."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "Activer les clics de souris avec le pavé tactile"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Définissez cette option à TRUE (VRAI) pour pouvoir produire des clics de "
 "souris en tapotant sur le pavé tactile."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "Pavé tactile activé"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Définit les situations où le pavé numérique est activé"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "Orientation des boutons du pavé tactile"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1651,11 +1683,11 @@ msgstr ""
 "« left » (gauche), « right » (droit) pour une souris pour droitiers, "
 "« mouse » (souris) pour suivre le paramétrage de la souris."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Vitesse du pointeur"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1664,21 +1696,21 @@ msgstr ""
 "acceptées sont dans l'intervalle [-1..1] (de « unaccelerated » (sans "
 "accélération) à « fast ») (rapide). 0 est la valeur par défaut du système."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Défilement naturel (natural scrolling)"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Mettez cette valeur à TRUE (VRAI) pour activer le défilement naturel du pavé "
 "tactile."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Méthode de clic"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1689,43 +1721,43 @@ msgstr ""
 "(« fingers ») ou laissé en fonction de la valeur par défaut du matériel "
 "(« default »)."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Répétition du clavier"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr ""
 "Mettez cette valeur à TRUE (VRAI) pour activer la répétition des touches du "
 "clavier"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Intervalle de répétition des touches"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Délai entre les répétitions en millisecondes"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Délai de répétition des touches initial"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Délai initial, avant le début de la répétition, en millisecondes"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Orientation des boutons de la souris"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Permuter les boutons gauche et droit de la souris pour les souris destinées "
 "aux gauchers."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1734,17 +1766,39 @@ msgstr ""
 "dans l'intervalle [-1..1] (de « unaccelerated » (lent) à « fast ») (rapide). "
 "0 est la valeur par défaut du système."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Mettez cette valeur à TRUE (VRAI) pour activer le défilement naturel "
 "(inverse) de la souris."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Profil d'accélération"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Profil d'accélération utilisé pour les souris connectées. Le profil "
+"d'accélération peut être défini à « default » qui utilise le profil "
+"d'accélération par défaut de chaque périphérique, « flat » (plat) qui "
+"accélère selon un facteur constant spécifique au périphérique et dérivé de "
+"la vitesse du pointeur configuré, « adaptive » qui adapte l'accélération en "
+"fonction du mouvement de la souris. Si une souris ne prend pas en charge le "
+"profil configuré, c'est la valeur « default » qui prime."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Liaison de la tablette graphique"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1754,11 +1808,119 @@ msgstr ""
 "produit), serial (série)]. [\"\",\"\",\"\"] désactive cette mise en "
 "correspondance."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+msgid "Tablet mapping"
+msgstr "Correspondance de tablette"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Interaction entre la saisie et le pointeur à l'écran"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Zone de tablette"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Tampon de zone morte autour de la zone active, en pourcents. S'applique "
+"respectivement aux côtés gauche, droit, supérieur et inférieur."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Proportions de la tablette"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Activez cette clé pour restreindre la zone de tablette afin qu'elle "
+"corresponde aux proportions de la sortie."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+msgid "Tablet left-handed mode"
+msgstr "Mode gaucher de la tablette"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr ""
+"Activez cette clé pour permettre de pivoter physiquement la tablette dans "
+"les configurations pour gauchers"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Courbe de pression du stylet"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+"Définissez cette clé aux valeurs x1, y1 et x2, y2 de la courbe de pression "
+"appliquée au stylet."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Courbe de pression de la gomme"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+"Définissez cette clé aux valeurs x1, y1 et x2, y2 de la courbe de pression "
+"appliquée à la gomme."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "Action de bouton"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr ""
+"Action du bouton du stylet, ce bouton étant situé le long de son corps."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+msgid "Secondary button action"
+msgstr "Action de bouton secondaire"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Action du bouton secondaire du stylet, ce bouton étant situé le long du "
+"corps sur certains stylets comme le Grip Pen. D'autres comme le Airbrush Pen "
+"ou le Inking Pen n'ont qu'un seul bouton, ce réglage est alors sans effet."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+msgid "Pad button action type"
+msgstr "Type d'action du bouton de tablette"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Le type d'action déclenché par une pression sur le bouton."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+msgid "Key combination for the custom action"
+msgstr "Combinaison de touches pour l'action personnalisée"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Le raccourci clavier généré lors d'un appui sur le bouton en vue d'une "
+"action personnalisée."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Liaison de l'écran tactile"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1767,11 +1929,28 @@ msgstr ""
 "respecter le format [vendor (nom du fournisseur), product (nom du produit), "
 "serial (série)]. [\"\",\"\",\"\"] désactive cette mise en correspondance."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Bouton d'émulation de la roulette de la souris. 0 pour désactiver cette "
 "fonctionnalité."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Profil d'accélération utilisé pour la boule de commande. Le profil "
+"d'accélération peut être défini à « default » qui utilise le profil "
+"d'accélération par défaut, « flat » (plat) qui accélère selon un facteur "
+"constant spécifique au périphérique et dérivé de la vitesse configurée, "
+"« adaptive » qui adapte l'accélération en fonction du mouvement. Si une "
+"boule de commande ne prend pas en charge le profil configuré, c'est la "
+"valeur « default » qui prime."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -2548,19 +2727,19 @@ msgstr "Déplacer la fenêtre au centre de l'écran"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:83
 msgid "Switch input source"
-msgstr "Parcourir les sources d'entrée"
+msgstr "Parcourir les sources de saisie"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:84
 msgid "Binding to select the next input source"
-msgstr "Raccourci pour sélectionner la source d'entrée suivante"
+msgstr "Raccourci pour sélectionner la source de saisie suivante"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:85
 msgid "Switch input source backward"
-msgstr "Parcourir les sources d'entrée à l'envers"
+msgstr "Parcourir les sources de saisie à l'envers"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:86
 msgid "Binding to select the previous input source"
-msgstr "Raccourci pour sélectionner la source d'entrée précédente"
+msgstr "Raccourci pour sélectionner la source de saisie précédente"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:87
 msgid "Toggle window to be always on top"
