@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-20 11:30+0000\n"
-"PO-Revision-Date: 2016-03-20 21:31+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsetting"
+"s-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-08-17 10:47+0000\n"
+"PO-Revision-Date: 2016-09-08 20:57+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
+" 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -57,7 +57,6 @@ msgstr ""
 "slēpšanu, ja nav aktivētas pieejamības iespējas."
 
 #: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
-#| msgid "Always show the Universal Access status icon"
 msgid "Always show the text caret"
 msgstr "Vienmēr rādīt teksta kursoru"
 
@@ -790,6 +789,15 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Ja iestatīts uz “patiess”, datņu pārvaldnieks zīmēs ikonas uz darbvirsmas."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Kalendārā rādīt nedēļas datumu"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+#| msgid "If true, display seconds in the clock."
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Ja patiess, kalendārā rādīt ISO nedēļas datumus."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Automātiski atjaunināt laika joslas"
@@ -888,20 +896,28 @@ msgid "Current input source"
 msgstr "Pašreizējais ievades avots"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:2
+#| msgid ""
+#| "The zero-based index into the input sources list specifying the current "
+#| "one in effect. The value is automatically capped to remain in the range "
+#| "[0, sources_length) as long as the sources list isn't empty."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Uz nulles balstīts indekss ievades avotu sarakstā, kas nosaka, kurš tagad ir "
 "aktīvs. Vērtība tiek automātiski ierobežota, lai paliktu intervālā [0;"
-"avotu_garums), kamēr vien avotu saraksts nav tukšs."
+"avotu_garums), kamēr vien avotu saraksts nav tukšs..\n"
+"\n"
+"NOVECOJIS: šī atslēga ir novecojusi un tiek ignorēta."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "Ievades avotu saraksts"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -918,11 +934,24 @@ msgstr ""
 "ir IBus dziņa nosaukums. Tukšs saraksts nozīmē to, ka X servera pašreizējais "
 "XKB izkārtojums un variants netiks aiztikts un IBus netiks izmantots."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#| msgid "List of input sources"
+msgid "List of most recently used input sources"
+msgstr "Nesen izmantoto ievades avotu saraksts"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Nesen izmantoto ievades avotu saraksts. Vērtība ir tādā pat formātā, kā"
+" pieejamo avotu saraksts."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "Saraksts ar XKB opcijām"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -930,21 +959,21 @@ msgstr ""
 "Saraksts ar XKB opcijām. Katra opcija ir XKB opciju virkne, kā to nosaka "
 "xkeyboard-config kārtulu datne."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Rādīt visus instalētos ievades avotus"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Padara visus instalēto ievažu avotus pieejamus izvēlei sistēmas iestatījumos."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Lietot dažādus ievades avotus katram logam"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1525,37 +1554,51 @@ msgid "Whether edge scrolling is enabled"
 msgstr "Vai ir ieslēgta malu ritināšana"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
+#| msgid ""
+#| "When disabled, touchpads that only support edge scrolling (and not 2-"
+#| "finger scrolling) will have that feature disabled."
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"Ja izslēgts, skārienpaliktņiem, kuri atbalsta tikai malu ritināšanu (un "
-"neatbalsta divu pirkstu ritināšanu), šī iespēja būs izslēgta."
+"Ja ieslēgts, skārienpaliktņiem, kuri atbalsta malu ritināšanu, šī iespēja būs"
+" izslēgta."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+#| msgid ""
+#| "When disabled, touchpads that only support edge scrolling (and not 2-"
+#| "finger scrolling) will have that feature disabled."
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"Ja ieslēgts, skārienpaliktņiem, kuri atbalsta divu pirkstu ritināšanu, šī"
+" iespēja būs izslēgta."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "Ieslēgt peles klikšķināšanu ar skārienpaliktni"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Iestatiet to uz “patiess”, lai varētu sūtīt peles klikšķus, uzsitot uz "
 "skārienpaliktņa."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "Skārienpaliktnis ir ieslēgts"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Nosaka situācijas, kurās skārienpaliktnis ir ieslēgts."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "Skārienpaliktņa pogu orientācija."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1563,11 +1606,11 @@ msgstr ""
 "Apmainīt vietām labo un kreiso peles pogu kreisās rokas pelēm ar “left”, "
 "“right” labās rokas pelēm, “mouse”, lai izmantotu peles iestatījumus."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Rādītāja ātrums"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1575,21 +1618,21 @@ msgstr ""
 "Rādītāja ātrums skārienpaliktnim. Pieņemamās vērtības ir apgabalā [-1..1] "
 "(no “nepaātrināts” līdz “ātrs”). Vērtība 0 ir sistēmas noklusējuma."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Dabiskā ritināšana"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Iestatiet šo uz “patiess”, lai ieslēgtu dabisko (pretējo) ritināšanu "
 "skārienpaliktņiem."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Klikšķa metode"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1599,39 +1642,39 @@ msgstr ""
 "noteiktās vietās (“areas”), pirkstu skaits (“fingers”) vai atstāt aparatūras "
 "noklusējumus (“default”)."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Tastatūras atkārtošana"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Iestatiet uz “patiess”, lai ieslēgtu tastatūras atkārtošanu."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Taustiņu atkārtošanas intervāls"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Aizkave starp atkārtojumiem, milisekundēs."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Sākotnējā taustiņu atkārtošanas aizkave"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Sākotnējā taustiņu atkārtošanas aizkave, milisekundēs."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Peles pogu orientācija"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Apmainīt vietām kreiso un labo peles pogu kreiļu pelēm."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1639,16 +1682,38 @@ msgstr ""
 "Rādītāja ātrums pelēm. Pieņemamās vērtības ir apgabalā [-1..1] (no "
 "“nepaātrināts” līdz “ātrs”). Vērtība 0 ir sistēmas noklusējuma."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Iestatiet šo uz “patiess”, lai ieslēgtu dabisko (pretējo) ritināšanu pelēm."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Paātrināšanas profils"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Paātrināšanas profils, ko izmanto pievienotās peles. Paātrināšanas profils"
+" var tikt iestatīts uz noklusējuma  (”default“), kas izmanto noklusējuma"
+" paātrināšans profilu katrai ierīcei, palkans (“flat”), kas paātrina pēc"
+" ierīcei specifiska konstanta koeficienta, ko nosaka pēc rādītāja ātruma, vai"
+" adaptīvais (“adaptive”), kas pielāgojas paātrinājumam atkarībā no peles"
+" kustības. Ja pele neatbalsta konfigurēto profilu, tiks izmantots noklusējuma"
+" profils."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Zīmēšanas planšetes kartēšana"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1656,11 +1721,120 @@ msgstr ""
 "EDID informācija par monitoru, uz kā ir attēlota planšete. Jābūt formātā "
 "[ražotājs, produkts, sērija]. [\"\",\"\",\"\"] izslēdz attēlojumu."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+#| msgid "Drawing tablet mapping"
+msgid "Tablet mapping"
+msgstr "Planšetes kartēšana"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Kā ievade ietekmē rādītāju uz ekrāna"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Grafiskās planšetes laukums"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Neizmantotā laukuma apmale ap aktīvo laukumu, procentos. Attiecīgi pielietots"
+" kreisajai, labajai, augšējai un apakšējai malai."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Planšetes izmēru attiecība"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Aktivējiet šo, lai ierobežotu planšetes laukumu, lai tas atbilstu "
+"izvades izmēru attiecībai."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+#| msgid "Enable lens mode"
+msgid "Tablet left-handed mode"
+msgstr "Planšetes kreiļu režīms"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr "Ļauj fiziski pagriezt planšeti, lai to lietotu ar kreiso roku"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Irbuļa spiediena līkne"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+"Iestatiet šo uz x1, y1 un x2, y2 spiediena līknei, kas tiek piemērota "
+"irbulim."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Dzēšgumijas spiediena līkne"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+"Iestatiet šo uz x1, y1 un x2, y2 spiediena līknei, kas tiek piemērota "
+"dzēšgumijai."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "Pogas darbība"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr "Irbuļa pogas darbība, šī poga ir novietota gar spalvas rokturi."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+#| msgid "Secondary Color"
+msgid "Secondary button action"
+msgstr "Sekundārās pogas darbība"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Sekundārās irbuļa pogas darbība, šī poga ir dažiem irbuļiem, piemēram, Grip"
+" Pen, un tā ir novietota gar spalvas rokturi. Citiem irbuļiem, piemēram"
+" Airbrush Pen vai Inking Pen ir tikai viena poga, un šie iestatījumi šīm"
+" ierīcēm nedarbosies."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+#| msgid "Touchpad button orientation"
+msgid "Pad button action type"
+msgstr "Skārienpaliktņa pogu darbības veids"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Darbības veids, ko izsauc pogas nospiešana."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+#| msgid "Delay in milliseconds for the auto raise option"
+msgid "Key combination for the custom action"
+msgstr "Taustiņu kombinācija pielāgotajai darbībai"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr "Taustiņu kombinācija, kas izmanto pogu pielāgotajām darbībām."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Skārienekrāna attēlošanas kartēšana"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1668,9 +1842,26 @@ msgstr ""
 "EDID informācija par monitoru, uz kā ir attēlots skārienekrāns. Jābūt "
 "formātā [ražotājs, produkts, sērija]. [\"\",\"\",\"\"] izslēdz attēlojumu."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Peles riteņa emulācijas poga. 0 izslēdz šo iespēju."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Paātrināšanas profils, ko izmanto pievienotās kursorbumbas. Paātrināšanas"
+" profils var tikt iestatīts uz noklusējuma  (”default“), kas izmanto"
+" noklusējuma paātrināšans profilu katrai ierīcei, palkans (“flat”), kas"
+" paātrina pēc ierīcei specifiska konstanta koeficienta, ko nosaka pēc"
+" rādītāja ātruma, vai adaptīvais (“adaptive”), kas pielāgojas paātrinājumam"
+" atkarībā no kursorbumbas kustības. Ja kursorbumbas neatbalsta konfigurēto"
+" profilu, tiks izmantots noklusējuma profils."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
