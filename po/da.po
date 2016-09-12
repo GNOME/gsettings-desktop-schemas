@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-20 23:15+0100\n"
-"PO-Revision-Date: 2016-03-20 22:11+0100\n"
+"POT-Creation-Date: 2016-09-12 02:56+0200\n"
+"PO-Revision-Date: 2016-09-12 02:50+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -652,7 +652,7 @@ msgid ""
 "List of relative settings paths at which app-folders are stored. Each folder "
 "uses the org.gnome.desktop.app-folders.folder schema."
 msgstr ""
-"Liste af relative indstillingsstier hvor programmapper lagres. Hver mappe "
+"Liste over relative indstillingsstier hvor programmapper lagres. Hver mappe "
 "bruger skemaet org.gnome.desktop.app-folders.folder."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:3
@@ -693,7 +693,7 @@ msgid ""
 "A list of categories for which apps will be placed into this folder by "
 "default, in addition to the apps that are listed in the apps key."
 msgstr ""
-"En liste af kategorier for hvilke programmer, der som standard vil blive "
+"En liste over kategorier for hvilke programmer, der som standard vil blive "
 "placeret i denne mappe, ud over programmerne som er anført i nøglen apps."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:11
@@ -705,7 +705,7 @@ msgid ""
 "A list of IDs of applications that are excluded from this folder. This can "
 "be used to remove applications that would otherwise be included by category."
 msgstr ""
-"En liste af id'er på programmer, som er ekskluderet fra denne mappe. Dette "
+"En liste over id'er på programmer, som er ekskluderet fra denne mappe. Dette "
 "kan bruges til at fjerne programmer, der ellers ville blive inkluderet af "
 "kategorien."
 
@@ -794,6 +794,14 @@ msgstr "Få filhåndteringen til at håndtere skrivebordet"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "Hvis slået til, vil filhåndteringen tegne ikonerne på skrivebordet."
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Vis ugedato i kalenderen"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Hvis sand vises ISO-ugedato i kalenderen."
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
@@ -896,17 +904,21 @@ msgstr "Nuværende inputkilde"
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Det nulbaserede indeks i inputkildelisten, der angiver den pt. aktive. "
 "Værdien begrænses automatisk så den forbliver i intervallet [0, "
-"sources_length) så længe kildelisten ikke er tom."
+"sources_length) så længe kildelisten ikke er tom.\n"
+"\n"
+"FORÆLDET: Denne nøgle er forældet og ignoreres."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
-msgstr "Liste af inputkilder"
+msgstr "Liste over inputkilder"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -916,7 +928,7 @@ msgid ""
 "server's current XKB layout and variant won't be touched and IBus won't be "
 "used."
 msgstr ""
-"Liste af tilgængelige inputkildeidentifikatorer. Hver kilde angives som en "
+"Liste over tilgængelige inputkildeidentifikatorer. Hver kilde angives som en "
 "tuple af 2 strenge. Første streng er typen, og kan være en af \"xkb\" eller "
 "\"ibus\". For \"xkb\"-kilder er anden streng \"xkb_layout+xkb_variant\" "
 "eller blot \"xkb_layout\" hvis en XKB-variant ikke behøves. For \"ibus\"-"
@@ -924,34 +936,46 @@ msgstr ""
 "serverens nuværende XKB-layout og -variant ikke vil blive berørt, og at IBus "
 "ikke bruges."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
-msgid "List of XKB options"
-msgstr "Liste af XKB-indstillinger"
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+msgid "List of most recently used input sources"
+msgstr "Liste over senest brugte inputkilder."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Vis de senest brugte inputkilder. Værdien er i samme format som listen af "
+"tilgængelige kilder."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+msgid "List of XKB options"
+msgstr "Liste over XKB-indstillinger"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
 msgstr ""
-"Liste af XKB-indstillinger. Hver indstilling er en XKB-indstillingsstreng "
+"Liste over XKB-indstillinger. Hver indstilling er en XKB-indstillingsstreng "
 "som defineret af regelfilerne for xkeyboard-config."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Vis alle installerede inputkilder"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Gør alle installerede inputkilder tilgængelige, så de kan vælges i "
 "Systemindstillinger."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Brug forskellige inputkilder for hvert vindue"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1222,14 +1246,14 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
 msgid "List of symbolic names and color equivalents"
-msgstr "Liste af symbolske navne og farveækvivalenter"
+msgstr "Liste over symbolske navne og farveækvivalenter"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
-"En \"\\n\"-adskilt liste af \"navn:farve\" som defineret af indstillingen "
+"En \"\\n\"-adskilt liste over \"navn:farve\" som defineret af indstillingen "
 "\"gtk-color-scheme\""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
@@ -1407,7 +1431,7 @@ msgstr ""
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
 msgstr ""
-"Liste af x-content/*-typer hvor det foretrukne program vil blive startet"
+"Liste over x-content/*-typer hvor det foretrukne program vil blive startet"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:8
 msgid ""
@@ -1415,13 +1439,14 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
-"Liste af x-content/*-typer for hvile brugeren har valgt at starte et program "
-"i foretrunke programmer-cappletten. Det foretrukne program for den givne "
-"type vil blive startet vil indsættelse af medier der matcher disse typer."
+"Liste over x-content/*-typer for hvile brugeren har valgt at starte et "
+"program i foretrunke programmer-cappletten. Det foretrukne program for den "
+"givne type vil blive startet vil indsættelse af medier der matcher disse "
+"typer."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:9
 msgid "List of x-content/* types set to \"Do Nothing\""
-msgstr "Liste af x-content/*-typer, der er sat til \"Gør intet\""
+msgstr "Liste over x-content/*-typer, der er sat til \"Gør intet\""
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:10
 msgid ""
@@ -1429,14 +1454,14 @@ msgid ""
 "the preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
-"Liste af x-content/*-typer for hvilket brugeren har valgt \"Gør intet\" i "
+"Liste over x-content/*-typer for hvilket brugeren har valgt \"Gør intet\" i "
 "foretrukne programmer-cappletten. Intet spørgsmål vil blive vist, og ingen "
 "passende progammer vil blive startet ved indsættelse af medier, der matcher "
 "disse typer."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:11
 msgid "List of x-content/* types set to \"Open Folder\""
-msgstr "Liste af x-content/*-typer der er sat til \"Åbn mappe\""
+msgstr "Liste over x-content/*-typer der er sat til \"Åbn mappe\""
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:12
 msgid ""
@@ -1444,7 +1469,7 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
-"Liste af x-content/*-typer for hvilke brugeren har valgt \"Åbn mappe\" i "
+"Liste over x-content/*-typer for hvilke brugeren har valgt \"Åbn mappe\" i "
 "foretrukne programmer-cappletten. Der vil blive åbnet et mappevindue ved "
 "indsættelse af medier, som matcher disse typer."
 
@@ -1534,35 +1559,43 @@ msgstr "Om kantrulning er slået til"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"Når deaktiveret, vil pegeplader som kun understøtter kantrulning (og ikke 2-"
-"finger-rulning) have den funktion slået fra."
+"Når aktiveret vil pegeplader som understøtter kantrulning have den funktion "
+"slået til."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"Når aktiveret vil pegeplader som understøtter tofinger-rulning have den "
+"funktion slået til."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "Aktivér museklik med pegeplade"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Sæt denne til TRUE for at kunne sende museklik ved at trykke på pegepladen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "Pegeplade slået til"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Definerer situationerne hvor pegepladen er slået til."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "Knappeorientering for pegeplade"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1570,11 +1603,11 @@ msgstr ""
 "Ombyt venstre og højre museknapper for venstrehåndede mus med \"left\"; "
 "\"right\" for højrehåndet; \"mouse\" for at følge musens indstilling."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Markørhastighed"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1583,20 +1616,20 @@ msgstr ""
 "(fra uaccelereret (unaccelerated) til hurtig (fast). Værdien 0 er "
 "systemstandard."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Naturlig rulning"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulning til for pegeplader."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Klikmetode"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1606,39 +1639,39 @@ msgstr ""
 "\"), gennem specifikke områder (\"areas\"), antal fingre (\"fingers\") eller "
 "overladt til hardware (\"default\")."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Gentagelse på tastatur"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Sæt denne til TRUE for at slå tastaturgentagelse til."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Interval for tastaturgentagelse"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Ventetid mellem gentagelser i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Indledende ventetid for tastegentagelse"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Indledende ventetid for tastegenkendelse i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Orientering af museknapper"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Ombyt venstre og højre museknap for venstrehåndede mus."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1646,17 +1679,39 @@ msgstr ""
 "Markørhastighed for mus. Accepterede værdier er i intervallet [-1..1] (fra "
 "uaccelereret (unaccelerated) til hurtig (fast). Værdien 0 er systemstandard."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulletilstand til for mus."
 
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Accelerationsprofil"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Accelerationsprofil for forbundne mus. Accelerationsprofilen kan sættes "
+"enten til standard (\"default\"), som bruger standardaccelerationsprofilen "
+"for hver enhed; eller flad (\"flat\"), som accelererer med en enhedsspecifik "
+"konstant faktor afledt af den konfigurerede markørhastighed; eller "
+"tilpassende (\"adaptive\") som justerer accelerationen afhængigt af musens "
+"bevægelse. Hvis musen ikke understøtter den konfigurerede profil, bruges "
+"\"default\"."
+
 # sammenlign evt. med efterfølgende
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Skærmafbildning for tegne-tavle-pc"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1665,11 +1720,124 @@ msgstr ""
 "formatet [forhandler, produkt, serienummer]. [\"\",\"\",\"\"] slår "
 "funktionen fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+msgid "Tablet mapping"
+msgstr "Tavle-pc-afbildning"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Hvordan input påvirker markøren på skærmen"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Tavle-pc-område"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Uresponsivt område som omgiver det aktive område i procent. Anvendes "
+"henholdsvis til venstre, højre, over og under."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Højde-/breddeforhold for tavle-pc"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Slå dette til for at begrænse tavle-pc-området, så det passer til højde-/"
+"breddeforholdet af output."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+msgid "Tablet left-handed mode"
+msgstr "Venstrehåndstilstand for tavle-pc"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr ""
+"Slå denne til for at tillade fysisk rotation af tavle-pc'en for at opnå "
+"venstrehåndsopsætning"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Trykkurve for pen"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr "Sæt denne til x1, y1 og x2, y2 på pennens trykkurve."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Trykkurve for viskelæder"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr "Sæt denne til x1, y1 og x2, y2 på viskelæderets trykkurve."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "Knaphandling"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr ""
+"Handling for pen-knap. Denne knap befinder sig et sted på pennens side."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+msgid "Secondary button action"
+msgstr "Handling for sekundær knap"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Handling for sekundær pen-knap. Denne knap sidder et sted på pennens side på "
+"visse digitale penne såsom Grip Pen. Andre, såsom Airbrush Pen eller Inking "
+"Pen har kun én knap, og denne indstilling har ingen virkning for disse."
+
+# Jeg kan ikke rigtig finde ud af hvad det drejer sig om, men:
+#
+#   https://mail.gnome.org/archives/commits-list/2016-July/msg04911.html
+#
+# nævner
+#
+#   org.gnome.desktop.peripherals.tablet.pad-button
+#
+# så det har noget med tablets/tavle-pc at gøre
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+msgid "Pad button action type"
+msgstr "Handlingstype for tavle-pc-knap"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Typen af handling som foretages, når knappen trykkes."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+msgid "Key combination for the custom action"
+msgstr "Tastekombination for den brugertilpassede handling"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Tastaturgenvejen som genereres når knappen trykkes for brugertilpassede "
+"handlinger."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Skærmafbildning for berøringsskærm"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1678,9 +1846,25 @@ msgstr ""
 "Skal have formatet [forhander, produkt, serienummer]. [\"\",\"\",\"\"] slår "
 "dette fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emuleringsknap for musehjul. 0 for at slå funktionen fra."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Accelerationsprofil for trackball. Accelerationsprofilen kan sættes enten "
+"til standard (\"default\"), som bruger standardaccelerationsprofilen; eller "
+"flad (\"flat\"), som accelererer med en enhedsspecifik konstant faktor "
+"afledt af den konfigurerede hastighed; eller tilpassende (\"adaptive\") som "
+"justerer accelerationen afhængigt af bevægelsen. Hvis trackballen ikke "
+"understøtter den konfigurerede profil, bruges \"default\"."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -1968,7 +2152,7 @@ msgid ""
 "List of desktop file IDs for which the associated default-enabled search "
 "provider should be disabled"
 msgstr ""
-"Liste af skrivebordsfil-id'er for hvilke den associerede, som udgangspunkt "
+"Liste over skrivebordsfil-id'er for hvilke den associerede, som udgangspunkt "
 "aktiverede, søgeudbyder skal deaktiveres"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:4
@@ -1984,7 +2168,7 @@ msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
 msgstr ""
-"Liste af skrivebordsfil-id'er for hvilke den associerede, som udgangspunkt "
+"Liste over skrivebordsfil-id'er for hvilke den associerede, som udgangspunkt "
 "deaktiverede, søgeudbyder skal aktiveres"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:6
@@ -1998,7 +2182,7 @@ msgstr ""
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
-"Sorteringsrækkefølge for liste af skrivebordsfil-id'er for søgeudbydere"
+"Sorteringsrækkefølge for liste over skrivebordsfil-id'er for søgeudbydere"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:8
 msgid ""
@@ -2088,7 +2272,7 @@ msgstr ""
 msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
 msgstr ""
-"Liste af mime-typer for hvilke eksterne miniatureprogrammer vil blive "
+"Liste over mime-typer for hvilke eksterne miniatureprogrammer vil blive "
 "deaktiveret"
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:4
@@ -2922,11 +3106,11 @@ msgid ""
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
-"Denne nøgle indeholder en liste af værder, som der er forbundet til direkte "
-"og ikke via proxy (hvis en sådan er aktiv). Værdierne kan være værtsnavne, "
-"domæner (ved brug af et start-\"wildcard\" såsom *.foo.dk), IP-værtsadresser "
-"(både IPv4 og IPv6) og netværksadresser med en netmaske (noget i retning af "
-"192.168.0.0/24)."
+"Denne nøgle indeholder en liste over værter, som der er forbundet til "
+"direkte og ikke via proxy (hvis en sådan er aktiv). Værdierne kan være "
+"værtsnavne, domæner (ved brug af et start-\"wildcard\" såsom *.foo.dk), IP-"
+"værtsadresser (både IPv4 og IPv6) og netværksadresser med en netmaske (noget "
+"i retning af 192.168.0.0/24)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:17
 msgid "Unused; ignore"
@@ -3127,9 +3311,6 @@ msgstr ""
 
 #~ msgid "Whether menus may display an icon next to a menu entry."
 #~ msgstr "Om menuer kan vise et ikon ved siden af et menuelement."
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "Knapper har ikoner"
 
 #~ msgid "Whether buttons may display an icon in addition to the button text."
 #~ msgstr "Om knapper kan vise et ikon ud over knapteksten."
