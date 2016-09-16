@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-07 18:40+0000\n"
-"PO-Revision-Date: 2016-03-13 10:20+0100\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"POT-Creation-Date: 2016-07-28 07:21+0000\n"
+"PO-Revision-Date: 2016-09-15 23:51+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -805,6 +805,14 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Om satt till true så kommer filhanteraren att rita ikonerna på skrivbordet."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Visa veckonummer i kalendern"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Om satt till true (sant), visa veckonummer enligt ISO i kalendern."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Uppdatera automatiskt tidszon"
@@ -906,17 +914,21 @@ msgstr "Aktuell inmatningskälla"
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Ett noll-baserat index in i listan över inmatningskällor som anger den som "
 "används just nu. Värdet begränsas automatiskt till intervallet [0, källängd) "
-"så länge som källistan inte är tom."
+"så länge som källistan inte är tom.\n"
+"\n"
+"FÖRÅLDRAD: Denna nyckel är föråldrad och ignoreras."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "Lista över inmatningskällor"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -934,11 +946,23 @@ msgstr ""
 "lista innebär att Xserverns aktuella XKB-layout och variant inte kommer att "
 "röras och att IBus inte kommer att användas."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+msgid "List of most recently used input sources"
+msgstr "Lista över senast använda inmatningskällor"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Lista över senast använda inmatningskällor. Värdet är i samma format som "
+"listan över tillgängliga källor."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "Lista över XKB-flaggor"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -946,22 +970,22 @@ msgstr ""
 "Lista över XKB-flaggor. Varje flagga är en XKB-flaggsträng som definierats "
 "av xkeyboard-konfigurationens regelfil."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Visa alla installerade inmatningskällor"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Gör så att alla installerade inmatningskällor är tillgängliga att välja i "
 "Systeminställningar."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Använd olika inmatningskällor för varje fönster"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1550,36 +1574,44 @@ msgstr "Huruvida kantrullning är aktiverat"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"När det är inaktiverat kommer styrplattor som bara har stöd för kantrullning "
-"(och inte tvåfingersrullning) att få den funktionen inaktiverad."
+"När det är aktiverat kommer styrplattor som stöder kantrullning att få den "
+"funktionen aktiverad."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
-msgid "Enable mouse clicks with touchpad"
-msgstr "Aktivera musklick med pekplatta"
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"När det är aktiverat kommer styrplattor som stöder tvåfingersrullning att få "
+"den funktionen aktiverad."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+msgid "Enable mouse clicks with touchpad"
+msgstr "Aktivera musklick med styrplatta"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Sätt denna till TRUE för att kunna skicka musklick genom att trycka på "
-"pekplattan."
-
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
-msgid "Touchpad enabled"
-msgstr "Pekplatta aktiverad"
+"styrplattan."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
-msgid "Defines the situations in which the touchpad is enabled."
-msgstr "Definiera i vilka situationer pekplattan är aktiverad."
+msgid "Touchpad enabled"
+msgstr "Styrplatta aktiverad"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
-msgid "Touchpad button orientation"
-msgstr "Pekplattans knapporientering"
+msgid "Defines the situations in which the touchpad is enabled."
+msgstr "Definiera i vilka situationer styrplattan är aktiverad."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+msgid "Touchpad button orientation"
+msgstr "Styrplattans knapporientering"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1587,34 +1619,34 @@ msgstr ""
 "Byt vänster och höger musknappar för vänsterhänta möss med \"left\", \"right"
 "\" för högerhänta, \"mouse\" för att följa musinställningarna."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Markörhastighet"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgstr ""
-"Markörhastighet för pekplattan. Accepterade värden är de inom intervallet "
+"Markörhastighet för styrplattan. Accepterade värden är de inom intervallet "
 "[-1..1] (från ”oaccelererad” till ”snabb”). Om värdet är 0 används systemets "
 "standardvärde."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Naturlig rullning"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Sätt denna till TRUE för att aktivera naturlig (omvänd) rullning för "
-"pekplattor."
+"styrplattor."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Klickmetod"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1624,39 +1656,39 @@ msgstr ""
 "\"), genom specifika områden (\"areas\"), antal fingrar (\"fingers\") eller "
 "lämnat som standard för hårdvaran (\"default\")."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Tangentbordsrepetition"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Sätt denna till TRUE för att aktivera tangentbordsrepetition."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Tangentrepetitionsintervall"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Fördröjning mellan repetitioner i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Initial fördröjning för tangentrepetition"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Initial fördröjning för tangentrepetition i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Musknappsorientering"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Byt vänster och höger musknappar för vänsterhänta möss."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1665,29 +1697,160 @@ msgstr ""
 "(från ”oaccelererad” till ”snabb”). Om värdet är 0 används systemets "
 "standardvärde."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Sätt denna till TRUE för att aktivera naturlig (omvänd) rullning för möss."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Accelerationsprofil"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Accelerationsprofil som används för anslutna möss. Accelerationsprofilen kan "
+"ställas in att vara standardvärdet ('default') vilket använder "
+"standardaccelerationsprofilen för varje enhet, platt ('flat'), vilken "
+"accelererar med en enhetsspecifik konstant faktor som härleds från den "
+"konfigurerade pekarhastigheten, eller adaptiv ('adaptive') vilken anpassar "
+"accelerationen beroende på musrörelsen. Om en mus inte stöder den "
+"konfigurerade profilen kommer 'default' att användas."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Mappning för ritplatta"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
-"EDID-information för skärmen som plattan är mappad till. Måste vara på "
+"EDID-information för skärmen som ritplattan är mappad till. Måste vara på "
 "formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] inaktiverar "
 "mappningen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+msgid "Tablet mapping"
+msgstr "Mappning för ritplatta"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Hur inmatning påverkar pekaren på skärmen"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Ritplatteområde"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Inaktivt utfyllnadsområde kring den aktiva ytan, i procent. Tillämpas på "
+"vänster-, höger-, över- respektive underkanterna."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Bildförhållande för ritplatta"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Aktivera denna för att begränsa ritplattans area till att matcha "
+"utmatningens bildförhållande."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+msgid "Tablet left-handed mode"
+msgstr "Vänsterhänt läge för ritplatta"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr ""
+"Aktivera denna för att möjliggöra att fysiskt rotera ritplattan för "
+"vänsterhänta konfigurationer"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Tryckkurva för styluspenna"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+"Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
+"pennan."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Tryckkurva för raderare"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+"Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
+"raderaren."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "Knappåtgärd"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr "Pennknappsåtgärd, denna knapp är placerad längs pennhandtaget."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+msgid "Secondary button action"
+msgstr "Åtgärd för sekundär knapp"
+
+# Modeller på Wacom-pennor
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Åtgärd för sekundär pennknapp, denna knapp är placerad längs pennhandtaget "
+"på vissa styluspennor som Grip Pen. Andra styluspennor som Airbrush Pen "
+"eller Inking Pen har bara en knapp, denna inställning har ingen effekt på "
+"dessa."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+msgid "Pad button action type"
+msgstr "Åtgärdstyp för styrplatteknapp"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Typen av åtgärd som utlöses av att knappen trycks ned."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+msgid "Key combination for the custom action"
+msgstr "Tangentkombination för den anpassade åtgärden"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade "
+"åtgärder."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Mappning för pekskärm"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1696,9 +1859,26 @@ msgstr ""
 "formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] inaktiverar "
 "mappningen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Mushjulsemuleringsknapp. 0 för att inaktivera funktionen."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Accelerationsprofil som används för styrkulan. Accelerationsprofilen kan "
+"ställas in att vara standardvärdet ('default') vilket använder "
+"standardaccelerationsprofilen, platt ('flat'), vilken accelererar med en "
+"enhetsspecifik konstant faktor som härleds från den konfigurerade "
+"hastigheten, eller adaptiv ('adaptive') vilken anpassar accelerationen "
+"beroende på rörelsen. Om styrkulan inte stöder den konfigurerade profilen "
+"kommer 'default' att användas."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
