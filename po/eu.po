@@ -7,9 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-20 20:12+0100\n"
-"PO-Revision-Date: 2016-03-20 20:19+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gsetting"
+"s-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-08-17 10:47+0000\n"
+"PO-Revision-Date: 2016-09-20 12:03+0100\n"
 "Last-Translator: dooteo <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
 "Language: eu\n"
@@ -821,6 +822,15 @@ msgstr ""
 "'true' (egia) gisa ezartzen bada, fitxategi-kudeatzaileak mahaigaineko "
 "ikonoak marraztuko ditu."
 
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "Erakutsi aste-data egutegian"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+#| msgid "If true, display seconds in the clock."
+msgid "If true, display the ISO week date in the calendar."
+msgstr "Ezarrita badago, ISO aste-data bistaratzen du egutegian."
+
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
 msgstr "Eguneratu automatikoki ordu-zona"
@@ -922,20 +932,28 @@ msgid "Current input source"
 msgstr "Uneko sarreraren iturburua"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:2
+#| msgid ""
+#| "The zero-based index into the input sources list specifying the current "
+#| "one in effect. The value is automatically capped to remain in the range "
+#| "[0, sources_length) as long as the sources list isn't empty."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Sarrerako iturburuen zerrendan dagoen zero balioan oinarritutako indizea   "
-"unekoa zehaztuz. Balioa automatikoki mugatzen da barrutian [0, "
-"sources_length) mantentzeko iturburuen zerrenda hutsik ez dagoen heinean."
+"unekoa zehaztuz. Balioa automatikoki mugatzen da [0, sources_length] "
+"barrutian mantentzeko iturburuen zerrenda hutsik ez dagoen heinean.\n"
+"\n"
+"ZAHARKITUA: gako hau zaharkituta dago eta ez ikusi egingo zaio."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "Sarrerako iturburuen zerrenda"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -953,11 +971,24 @@ msgstr ""
 "huts batek X zerbitzariaren uneko XKB diseinua eta aldaera ez dira ukituko "
 "eta IBus ez dela erabiliko adierazten du."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#| msgid "List of input sources"
+msgid "List of most recently used input sources"
+msgstr "Azken aldian erabilitako sarrerako iturburuak zerrendatzen ditu"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr ""
+"Azken aldian erabilitako sarrerako iturburuak zerrendatzen ditu. "
+"Balioak iturburuen zerrenda erabilgarrien formatu berdina dauka."
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "XKB aukeren zerrenda"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -965,22 +996,22 @@ msgstr ""
 "XKB aukeren zerrenda. Aukera bakoitza XKB aukeraren kate bat da 'xkeyboard-"
 "config'-ren arauen fitxategiak definitzen duen arabera."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "Erakutsi instalatutako sarreren iturburu guztiak"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Instalatutako sarreren iturburu erabilgarri guztiak hautagarri egiten ditu "
 "sistemaren ezarpenetan."
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "Erabili sarrerako iturburu desberdinak leiho bakoitzean"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1301,8 +1332,8 @@ msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr ""
-"True (egia) gisa ezartzen bada, ikonoaz gain "
-"bateriaren ehunekoa bistaratuko da egoera-menuan."
+"True (egia) gisa ezartzen bada, ikonoaz gain bateriaren ehunekoa bistaratuko "
+"da egoera-menuan."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
@@ -1584,37 +1615,51 @@ msgid "Whether edge scrolling is enabled"
 msgstr "Ertzeko korritzea gaituta dagoen edo ez adierazten du"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
+#| msgid ""
+#| "When disabled, touchpads that only support edge scrolling (and not 2-"
+#| "finger scrolling) will have that feature disabled."
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
 msgstr ""
-"Desgaituta dagoenean, soilik ertzean korritzen duten touchpad-ek "
-"(eta ez bi hatzekin korritzea) eginbide hura desgaituta edukiko dute."
+"Gaituta dagoenean, ertzean korritzea onartzen duten touchpad-ak "
+"eginbide hura gaituta edukiko dute."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+#| msgid ""
+#| "When disabled, touchpads that only support edge scrolling (and not 2-"
+#| "finger scrolling) will have that feature disabled."
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr ""
+"Gaituta dagoenean, bi hatzeko  korritzea onartzen duten touchpad-ak "
+"eginbide hura gaituta edukiko dute."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "Gaitu touchpad-arekin klik egitea"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Hau TRUE (egia) gisa ezartzean, touchpad-ak saguaren antzera klik egin "
 "dezake."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "Touchpad-a gaituta"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Touchpad-a zein egoeretan gaituta dagoen zehazten du."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "Touchpad-eko botoiaren orientazioa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1622,11 +1667,11 @@ msgstr ""
 "Trukatu ezkertiarrentzako saguaren ezkerreko eta eskuineko botoiak "
 "eskuindarrentzako saguaren botoiekin (saguaren ezarpenarekin jarraitzeko)."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "Erakuslearen abiadura"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1635,21 +1680,21 @@ msgstr ""
 "barrutikoak dira ('azeleratu gabetik' 'azkarrera'. 0 balioak sistemaren "
 "lehenetsia adierazten du."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "Korritze naturala"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Ezarri TRUE (egia) gisa touchpad-aren (alderantzizko) korritze naturala "
 "gaitzeko."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "Klik egiteko metodoa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1659,39 +1704,39 @@ msgstr ""
 "zehatzaren arabera; 'fingers' hatz kopuruaren arabera; edo 'default' "
 "hardwarearen lehenetsi gisa uzteko."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "Teklatuaren errepikapena"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Ezarri hau TRUE (egia) gisa teklatuaren errepikapena gaitzeko."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "Tekla errepikatzeko bitartea"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "Errepikapenen arteko atzerapena (milisegundotan)."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "Teklaren hasierako errepikapenaren atzerapena"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Teklaren hasierako errepikapenaren atzerapena (milisegundotan)."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "Saguaren botoen orientazioa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Trukatu saguaren ezkerreko eta eskuineko botoiak ezkertiarrentzako."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1700,16 +1745,41 @@ msgstr ""
 "dira ('azeleratu gabetik' 'azkarrera'. 0 balioak sistemaren lehenetsia "
 "adierazten du."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Ezarri TRUE (egia) gisa saguaren (alderantzizko) korritze naturala gaitzeko."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "Azelerazioaren profila"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"Konektatutako saguan erabili den azelerazioaren profila. Azelerazioaren "
+"profilak honako balioak eduki ditzake: 'default' (lehenetsia) gailu"
+" bakoitzaren "
+"azelerazio-profil lehenetsia erabiltzen du; 'flat' (laua) gailu baten "
+"konfiguratutako erakuslearen abiaduratik eratorritako gailuarekiko zehatza"
+" den "
+"faktore konstante baten arabera azeleratzen du; 'adaptive' (moldatzailea) "
+"saguaren mugimenduaren arabera egokitzen du azelerazioa. Sagu batek "
+"konfiguratutako profilik ez badu onartzen, 'default' (lehenetsia) erabiliko"
+" da."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "Marrazki-taularen mapaketa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1718,11 +1788,124 @@ msgstr ""
 "[hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] mapaketa "
 "desgaitzen du."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+#| msgid "Drawing tablet mapping"
+msgid "Tablet mapping"
+msgstr "Taularen mapaketa"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "Sarrerak nola eragiten duen pantailako erakuslea"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "Taularen area"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr ""
+"Area aktiboaren inguruko ezertarako balio ez duen area betegarria"
+" (ehunekotan). "
+"ezkerreko, eskuineko, goiko eta beheko aldeak hurrenez hurren."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "Taularen aspektu-erlazioa"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr ""
+"Gaitu hau taularen area murrizteko irteerako aspektu-erlazioarekin "
+"bat etortzeko."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+#| msgid "Enable lens mode"
+msgid "Tablet left-handed mode"
+msgstr "Taula ezkertiarrentzako moduan"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr ""
+"Gaitu hau taula fisikoki biratzeko esku ezkertiarren konfigurazioentzako"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "Arkatzaren presioaren kurba"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+"Ezarri hau x1, y1 eta x2, y2 koordenatuetara arkatzari aplikatuko zaion "
+"presioaren kurba bezala."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "Borragomaren presioaren kurba"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+"Ezarri hau x1, y1 eta x2, y2 koordenatuetara borragomari aplikatuko zaion "
+"presioaren kurba bezala."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+#| msgid "Buttons Have Icons"
+msgid "Button action"
+msgstr "Botoiaren ekintza"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr ""
+"Arkatzaren botoiaren ekintza. Botoi hau arkatzaren heldulekuan zehar kokatuta"
+" dago."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+#| msgid "Secondary Color"
+msgid "Secondary button action"
+msgstr "Bigarren mailako botoiaren ekintza"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"Arkatzaren bigarren botoiaren ekintza. Botoi hau 'Grip Pen' bezalako arkatzen "
+"heldulekuan zehar kokatuta dago. 'Airbrush Pen' edo 'Inking Pen' bezalakoek "
+"botoi bat bakarrik daukatenez, ezarpen honek ez du haietan eragiten."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+#| msgid "Touchpad button orientation"
+msgid "Pad button action type"
+msgstr "Taularen botoiaren ekintza mota"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "Botoia sakatzean abiaraziko den ekintza mota."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+#| msgid "Delay in milliseconds for the auto raise option"
+msgid "Key combination for the custom action"
+msgstr "Ekintza pertsonalizatuaren teklen konbinazioa"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr "Ekintza pertsonalizatuetan botoia sakatzean sortuko den laster-tekla."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "Ukimen-pantailaren mapaketa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1731,9 +1914,29 @@ msgstr ""
 "behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] "
 "mapaketa desgaitzen du."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Saguaren gurpila emulatzeko botoia. 0 eginbidea desgaitzeko."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"Kontrol-bolan erabili den azelerazioaren profila Azelerazioaren "
+"profilak honako balioak eduki ditzake: 'default' (lehenetsia) gailu"
+" bakoitzaren "
+"azelerazio-profil lehenetsia erabiltzen du; 'flat' (laua) gailu baten "
+"konfiguratutako erakuslearen abiaduratik eratorritako gailuarekiko zehatza"
+" den "
+"faktore konstante baten arabera azeleratzen du; 'adaptive' (moldatzailea) "
+"saguaren mugimenduaren arabera egokitzen du azelerazioa. Kontrol-bola "
+"batek konfiguratutako profilik ez badu onartzen, 'default' (lehenetsia)"
+" erabiliko da."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -3207,9 +3410,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Menuek menu-sarreren ondoan ikonoa bistaratu behar duten ala ez "
 #~ "adierazten du."
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "Botoiek ikonoak dituzte"
 
 #~ msgid "Whether buttons may display an icon in addition to the button text."
 #~ msgstr ""
