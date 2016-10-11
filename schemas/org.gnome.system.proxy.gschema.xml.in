@@ -8,19 +8,19 @@
       <default>'none'</default>
       <summary>Proxy configuration mode</summary>
       <description>
-        Select the proxy configuration mode. Supported values are "none", 
-        "manual", "auto".
+        Select the proxy configuration mode. Supported values are “none”, 
+        “manual”, “auto”.
 
-        If this is "none", then proxies are not used.
+        If this is “none”, then proxies are not used.
 
-        If it is "auto", the autoconfiguration URL described by the
-        "autoconfig-url" key is used.
+        If it is “auto”, the autoconfiguration URL described by the
+        “autoconfig-url” key is used.
 
-        If it is "manual", then the proxies described by
-        "/system/proxy/http", "/system/proxy/https",
-        "/system/proxy/ftp" and "/system/proxy/socks" will be used.
-        Each of the 4 proxy types is enabled if its "host" key is
-        non-empty and its "port" key is non-0.
+        If it is “manual”, then the proxies described by
+        “/system/proxy/http”, “/system/proxy/https”,
+        “/system/proxy/ftp” and “/system/proxy/socks” will be used.
+        Each of the 4 proxy types is enabled if its “host” key is
+        non-empty and its “port” key is non-0.
 
         If an http proxy is configured, but an https proxy is not,
         then the http proxy is also used for https.
@@ -35,7 +35,7 @@
       <summary>Automatic proxy configuration URL</summary>
       <description>
         URL that provides proxy configuration values. When mode is
-        "auto", this URL is used to look up proxy information for all
+        “auto”, this URL is used to look up proxy information for all
         protocols.
       </description>
     </key>
@@ -79,7 +79,7 @@
       <default>8080</default>
       <summary>HTTP proxy port</summary>
       <description>
-        The port on the machine defined by "/system/proxy/http/host" that you 
+        The port on the machine defined by “/system/proxy/http/host” that you 
         proxy through.
       </description>
     </key>
@@ -89,8 +89,8 @@
       <description>
         If true, then connections to the proxy server require authentication. 
         The username/password combo is defined by 
-        "/system/proxy/http/authentication-user" and 
-        "/system/proxy/http/authentication-password".
+        “/system/proxy/http/authentication-user” and 
+        “/system/proxy/http/authentication-password”.
 
         This applies only to the http proxy; when using a separate
         https proxy, there is currently no way to specify that it
@@ -125,7 +125,7 @@
       <default>0</default>
       <summary>Secure HTTP proxy port</summary>
       <description>
-        The port on the machine defined by "/system/proxy/https/host" that you 
+        The port on the machine defined by “/system/proxy/https/host” that you 
         proxy through.
       </description>
     </key>
@@ -143,7 +143,7 @@
       <default>0</default>
       <summary>FTP proxy port</summary>
       <description>
-        The port on the machine defined by "/system/proxy/ftp/host" that you 
+        The port on the machine defined by “/system/proxy/ftp/host” that you 
         proxy through.
       </description>
     </key>
@@ -161,7 +161,7 @@
       <default>0</default>
       <summary>SOCKS proxy port</summary>
       <description>
-        The port on the machine defined by "/system/proxy/socks/host" that you 
+        The port on the machine defined by “/system/proxy/socks/host” that you 
         proxy through.
       </description>
     </key>

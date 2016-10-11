@@ -41,12 +41,12 @@
     <key name="left-handed" enum="org.gnome.desktop.GDesktopTouchpadHandedness">
       <default>'mouse'</default>
       <summary>Touchpad button orientation</summary>
-      <description>Swap left and right mouse buttons for left-handed mice with 'left', 'right' for right-handed, 'mouse' to follow the mouse setting.</description>
+      <description>Swap left and right mouse buttons for left-handed mice with “left”, “right” for right-handed, “mouse” to follow the mouse setting.</description>
     </key>
     <key name="speed" type="d">
       <default>0</default>
       <summary>Pointer speed</summary>
-      <description>Pointer speed for the touchpad. Accepted values are in the [-1..1] range (from "unaccelerated" to "fast"). A value of 0 is the system default.</description>
+      <description>Pointer speed for the touchpad. Accepted values are in the [-1..1] range (from “unaccelerated” to “fast”). A value of 0 is the system default.</description>
       <range min="-1" max="1"/>
     </key>
     <key name="natural-scroll" type="b">
@@ -57,7 +57,7 @@
     <key name="click-method" enum="org.gnome.desktop.GDesktopTouchpadClickMethod">
       <default>'default'</default>
       <summary>Click method</summary>
-      <description>How to generate software-emulated buttons, either disabled ('none'), through specific areas ('areas'), number of fingers ('fingers') or left as hardware default ('default').</description>
+      <description>How to generate software-emulated buttons, either disabled (“none”), through specific areas (“areas”), number of fingers (“fingers”) or left as hardware default (“default”).</description>
     </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.keyboard" path="/org/gnome/desktop/peripherals/keyboard/">
@@ -86,7 +86,7 @@
     <key name="speed" type="d">
       <default>0</default>
       <summary>Pointer speed</summary>
-      <description>Pointer speed for mice. Accepted values are in the [-1..1] range (from "unaccelerated" to "fast"). A value of 0 is the system default.</description>
+      <description>Pointer speed for mice. Accepted values are in the [-1..1] range (from “unaccelerated” to “fast”). A value of 0 is the system default.</description>
       <range min="-1" max="1"/>
     </key>
     <key name="natural-scroll" type="b">
@@ -97,7 +97,7 @@
     <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
       <default>'default'</default>
       <summary>Acceleration profile</summary>
-      <description>Acceleration profile used for connected mice. The acceleration profile can be set to either default ('default') which uses the default acceleration profile for each device, flat ('flat'), which accelerates by a device specific constant factor derived from the configured pointer speed, or adaptive ('adaptive') which adapts the acceleration depending on the mouse movement. If a mouse doesn't support the configured profile, 'default' will be used.</description>
+      <description>Acceleration profile used for connected mice. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile for each device, flat (“flat”), which accelerates by a device specific constant factor derived from the configured pointer speed, or adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement. If a mouse doesn’t support the configured profile, “default” will be used.</description>
     </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.desktop.peripherals.tablet">
@@ -177,7 +177,7 @@
     <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
       <default>'default'</default>
       <summary>Acceleration profile</summary>
-      <description>Acceleration profile used for the trackball. The acceleration profile can be set to either default ('default') which uses the default acceleration profile, flat ('flat'), which accelerates by a device specific constant factor derived from the configured speed, or adaptive ('adaptive') which adapts the acceleration depending on the movement. If the trackball doesn't support the configured profile, 'default' will be used.</description>
+      <description>Acceleration profile used for the trackball. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile, flat (“flat”), which accelerates by a device specific constant factor derived from the configured speed, or adaptive (“adaptive”) which adapts the acceleration depending on the movement. If the trackball doesn’t support the configured profile, “default” will be used.</description>
     </key>
   </schema>
 </schemalist>
