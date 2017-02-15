@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-12-03 22:36+0000\n"
-"PO-Revision-Date: 2016-04-08 20:24+0800\n"
-"Last-Translator: shijing <jingshi@ubuntukylin.com>\n"
+"POT-Creation-Date: 2017-01-30 10:08+0000\n"
+"PO-Revision-Date: 2017-02-15 19:54+0800\n"
+"Last-Translator: Mandy Wang <wangmychn@gmail.com>\n"
 "Language-Team: Chinese Simplified <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-03-22 14:16+0000\n"
-"X-Generator: Poedit 1.8.7\n"
-"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -56,6 +56,16 @@ msgid ""
 "This key overrides the automatic hiding of the Universal Access status icon "
 "when no accessibility features are enabled."
 msgstr "该键将替代“未启用访问功能时自动隐藏通用访问状态图标”的设置。"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "始终显示文本插入光标"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr "此键覆盖应用程序中不可编辑文本中隐藏的文本插入光标。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
@@ -262,7 +272,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:15
 msgid "Caret Tracking Mode"
-msgstr "插入点跟踪模式"
+msgstr "插入光标跟踪模式"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
 msgid ""
@@ -643,26 +653,12 @@ msgstr ""
 "从此文件夹中排除的应用的标识列表。可以用来移除那些按分类会包含进来的应用。"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:1
-msgid "Draw Desktop Background"
-msgstr "绘制桌面背景"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
-msgid ""
-"Have GNOME draw the desktop background.\n"
-"\n"
-"DEPRECATED: This key is deprecated and ignored."
-msgstr ""
-"GNOME 绘制桌面背景。\n"
-"\n"
-"已废弃：该键已废弃和忽略。"
-
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:5
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:43
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:37
 msgid "Picture Options"
 msgstr "图片选项"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:6
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:44
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -672,56 +668,55 @@ msgstr ""
 "有“none”(无)、“wallpaper”(壁纸)、“centered”(居中)、“scaled”(扩"
 "展)、“stretched”(拉伸)、“zoom”(缩放)、“spanned”(平铺)。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:7
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:45
-#| msgid "Picture Opacity"
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:39
 msgid "Picture URI"
 msgstr "图片 URI"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:8
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:46
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr "背景图像的地址(URI)。注意此后端仅支持本地 URI (file://)。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:9
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:47
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:41
 msgid "Picture Opacity"
 msgstr "图片透明度"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:10
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:42
 msgid "Opacity with which to draw the background picture."
 msgstr "绘制背景图所使用的透明度。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:11
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:49
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:43
 msgid "Primary Color"
 msgstr "主色"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:50
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:44
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "绘制渐变时左侧或上侧的颜色，或纯色。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:13
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:45
 msgid "Secondary Color"
 msgstr "副色"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:46
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "绘制渐变时右侧或下侧的颜色，绘制纯色时不使用。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:15
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:47
 msgid "Color Shading Type"
 msgstr "色彩渐变类型"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:16
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
 msgid ""
 "How to shade the background color. Possible values are \"horizontal\", "
 "\"vertical\", and \"solid\"."
@@ -729,13 +724,21 @@ msgstr ""
 "如何进行背景色渐变。可取值为“horizontal”(水平)、“vertical”(竖直)和“solid”(固"
 "定)。"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:13
 msgid "Have file manager handle the desktop"
 msgstr "由文件管理器处理桌面"
 
-#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "如果设为 true，则文件管理器将绘制桌面上的图标。"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "在日历中显示周日历"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+msgid "If true, display the ISO week date in the calendar."
+msgstr "若为 true，则在日历中显示 ISO 周日历。"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
@@ -833,16 +836,20 @@ msgstr "当前输入源"
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn't empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"当前生效的输入源在输入源列表中的索引(从 0 开始)。只要输入源列表非空，该值将自"
-"动调整到 [0, sources_length] 范围内。"
+"当前有效的输入源在输入源列表中的索引(从 0 开始)。只要输入源列表非空，该值将自"
+"动调整到 [0, sources_length) 范围内。\n"
+"\n"
+"废弃：此键已弃用并被忽略。"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "输入源列表"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
@@ -857,11 +864,21 @@ msgstr ""
 "是“xkb_layout”(不需要 XKB 变量时)。对于“ibus”源，第二个字符串为 IBus 引擎名。"
 "空列表代表 X 服务器当前的 XKB 布局和变量将不改动，并且不使用 IBus。"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+msgid "List of most recently used input sources"
+msgstr "最近使用的输入源列表"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr "最近使用的输入源列表。该值的格式与可用源列表相同。"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
 msgstr "XKB 选项列表"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config's rules files."
@@ -869,20 +886,20 @@ msgstr ""
 "XKB 选项列表。每个选项为由 xkeyboard-config 的规则文件所定义的 XKB 选项字符"
 "串。"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "显示已安装的输入源"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr "使全部已安装的输入源在“系统设置”中列出以供选择。"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "为每个窗口使用不同的输入源"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -935,276 +952,240 @@ msgid ""
 msgstr "工具栏样式。有效值有“both”、“both-horiz”、“icon”和“text”。"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:11
-msgid "Menus Have Icons"
-msgstr "菜单带图标"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:12
-msgid "Whether menus may display an icon next to a menu entry."
-msgstr "是否可在菜单项旁显示图标。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:13
-msgid "Buttons Have Icons"
-msgstr "按钮带图标"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:14
-msgid "Whether buttons may display an icon in addition to the button text."
-msgstr "是否可在按钮文本旁显示图标。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:15
 msgid "Menubar Detachable"
 msgstr "菜单栏可脱离"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:12
 msgid "Whether the user can detach menubars and move them around."
 msgstr "用户是否可以脱离并四处移动菜单栏。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:13
 msgid "Toolbar Detachable"
 msgstr "工具栏可脱离"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:14
 msgid "Whether the user can detach toolbars and move them around."
 msgstr "用户是否可以脱离并四处移动工具栏。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:15
 msgid "Toolbar Icon Size"
 msgstr "工具栏按钮尺寸"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
 msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgstr "工具栏中图标的尺寸，“small”(小)或“large”(大)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
 msgid "Cursor Blink"
 msgstr "光标闪烁"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:18
 msgid "Whether the cursor should blink."
 msgstr "光标是否闪烁。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:19
 msgid "Cursor Blink Time"
 msgstr "光标闪烁时间"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:20
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "光标闪烁周期长度，单位为毫秒。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:21
 msgid "Cursor Blink Timeout"
 msgstr "光标闪烁超时"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:22
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr "光标停止闪烁前的等待时间，单位为秒。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:23
 msgid "Icon Theme"
 msgstr "图标主题"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:24
 msgid "Icon theme to use for the panel, nautilus etc."
 msgstr "用于面板、nautilus 等的图标主题。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:25
 msgid "Gtk+ Theme"
 msgstr "Gtk+ 主题"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:30
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:26
 msgid "Basename of the default theme used by gtk+."
 msgstr "gtk+ 使用的默认主题的基名称(不含路径的文件名)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:31
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:27
 msgid "Gtk+ Keybinding Theme"
 msgstr "Gtk+ 按键绑定主题"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:32
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:28
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr "gtk+ 使用的默认按键绑定主题的基名称(不含路径的文件名)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:33
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:29
 msgid "Default font"
 msgstr "默认字体"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:34
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:30
 msgid "Name of the default font used by gtk+."
 msgstr "gtk+ 使用的默认字体的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:35
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:31
 msgid "Text scaling factor"
 msgstr "文本比例因子"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:36
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:32
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr "放大或缩小文本显示的倍数，而不用更改字体大小。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:37
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:33
 msgid "Window scaling factor"
 msgstr "窗口缩放系数"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:38
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:34
 msgid ""
 "Integer factor used to scale windows by. For use on high-dpi screens. 0 "
 "means pick automatically based on monitor."
 msgstr "用于缩放窗口的整数系数。用于高分辨率屏幕。0 表示根据显示器自动选择。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:39
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:35
 msgid "GTK IM Preedit Style"
 msgstr "GTK 输入法预编辑模式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:40
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:36
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "用于 gtk+ 的 GTK+ 输入法预处理样式的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:41
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:37
 msgid "GTK IM Status Style"
 msgstr "GTK 输入法状态样式"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:42
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:38
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "用于 gtk+ 的 GTK+ 输入法状态样式的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:43
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:39
 msgid "GTK IM Module"
 msgstr "GTK 输入法模块"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:44
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:40
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ 使用的默认输入法模块的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:45
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:41
 msgid "Document font"
 msgstr "文档字体"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:46
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:42
 msgid "Name of the default font used for reading documents."
 msgstr "用于阅读文档的默认字体的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:47
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:43
 msgid "Monospace font"
 msgstr "等宽字体"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:48
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:44
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "用于终端等处的等宽字体的名称。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:49
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:45
 msgid "Menubar accelerator"
 msgstr "菜单栏快捷键"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:50
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:46
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "打开菜单栏的键盘快捷键"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:51
-msgid "Show the 'Input Methods' menu"
-msgstr "显示“输入法”菜单"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:52
-msgid ""
-"Whether the context menus of entries and text views should offer to change "
-"the input method."
-msgstr "输入控件和文本视图中的环境菜单是否提供更改输入法的选项。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:53
-msgid "Show the 'Unicode Control Character' menu"
-msgstr "显示“Unicode 控制字符”菜单"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:54
-msgid ""
-"Whether the context menus of entries and text views should offer to insert "
-"control characters."
-msgstr "输入控件和文本视图中的环境菜单是否提供插入控制字符的选项。"
-
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:47
 msgid "Cursor theme"
 msgstr "光标主题"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:48
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr "光标主题名。只由支持 Xcursor 扩展的 Xserver 使用。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:49
 msgid "Cursor size"
 msgstr "光标大小"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:50
 msgid "Size of the cursor used as cursor theme."
 msgstr "用作光标主题的光标尺寸。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:51
 msgid "Timeout before click repeat"
 msgstr "重复点击前的延时"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:60
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:52
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
 msgstr "在一次点击开始重复前延迟的毫秒数(如点击微调按钮时)。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:61
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:53
 msgid "Timeout between click repeats"
 msgstr "重复点击之间的延时"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:62
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:54
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
 msgstr "在用左键单击某个按钮时重复点击之间延迟的毫秒数。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:63
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:55
 msgid "Palette used in the color selector"
 msgstr "颜色选择器中使用的调色盘"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
 msgid ""
 "Palette used in the color selector as defined by the 'gtk-color-palette' "
 "setting"
 msgstr "颜色选择器中所使用的调色盘，正如在 “gtk-color-palette” 设置中定义的"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
 msgid "List of symbolic names and color equivalents"
 msgstr "符号名和颜色代号的对应列表"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
 "一个由“\\n”分隔的“name:color”列表，就像在“gtk-color-scheme”设置中定义的那样"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "时钟以24小时格式还是12小时格式显示"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:60
 msgid "Whether the clock shows seconds"
 msgstr "时钟是否显示秒数"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:61
 msgid "If true, display seconds in the clock."
 msgstr "若为 true，则在时钟处显示秒数。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:70
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:62
 msgid "Show date in clock"
 msgstr "在时钟处显示日期"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:71
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:63
 msgid "If true, display date in the clock, in addition to time."
 msgstr "如果为 true，除了时间，时钟处也显示日期。"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:72
-msgid "Only show mnemonics on when the Alt key is pressed"
-msgstr "只在按下 Alt 键后显示助记符"
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show battery percentage"
+msgstr "显示电池百分比"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:73
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
 msgid ""
-"Whether mnemonics should be automatically shown and hidden when the user "
-"presses the Alt key."
-msgstr "是否在用户按 Alt 键时自动显示和隐藏助记符。"
+"If true, display battery percentage in the status menu, in addition to the "
+"icon."
+msgstr "若为 true，则除了图标外，状态菜单中还会显示电池百分比。"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
@@ -1278,12 +1259,10 @@ msgid "Prevent running any URL or MIME type handler applications."
 msgstr "阻止运行任何 URL 或 MIME 类型的处理器应用程序。"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:15
-#| msgid "Disable lock screen"
 msgid "Disable log out"
 msgstr "禁用注销"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:16
-#| msgid "Prevent the user to lock his screen."
 msgid "Prevent the user from logging out."
 msgstr "阻止用户注销。"
 
@@ -1324,7 +1303,7 @@ msgid ""
 msgstr ""
 "如果设置为 true，Nautilus 将在媒体自动挂载后自动打开文件夹。这只适于未检测到 "
 "x-content/* 类型的媒体；对于检测到已知 x-content 类型的媒体，将执行用户可配置"
-"的动作。"
+"的操作。"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:5
 msgid "Never prompt or autorun/autostart programs when media are inserted"
@@ -1387,7 +1366,6 @@ msgid "Whether notification banners are visible for application notifications."
 msgstr "对应用程序通知来说通知条幅是否可见。"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:3
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:9
 msgid "Show notifications in the lock screen"
 msgstr "锁屏时显示通知"
 
@@ -1456,39 +1434,43 @@ msgid ""
 msgstr "此应用程序的通知摘要和正文是否在锁屏界面上显示。"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-msgid "Select the touchpad scroll method"
-msgstr "选择触摸板滚动方法"
+msgid "Whether edge scrolling is enabled"
+msgstr "是否启用边缘滚动"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"Select the touchpad scroll method. Supported values are: \"disabled\", "
-"\"edge-scrolling\", \"two-finger-scrolling\"."
-msgstr ""
-"选择触摸板滚动方式。 支持的值包括：“disabled”(禁用)，“edge-scrolling”(边缘滚"
-"动)，“two-finger-scrolling”(双指滚动)。"
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
+msgstr "启用时，支持边缘滚动的触摸板将启用该功能。"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr "启用时，支持双指滚动的触摸板将启用该功能。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Enable mouse clicks with touchpad"
 msgstr "用触摸板启用鼠标点击"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr "将此项设为 TRUE，能够通过点击触摸板发送鼠标点击事件。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Touchpad enabled"
 msgstr "启用触摸板"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "定义启用触摸板的情况。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Touchpad button orientation"
 msgstr "触摸板按钮方向"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
 "for right-handed, 'mouse' to follow the mouse setting."
@@ -1496,11 +1478,11 @@ msgstr ""
 "交换鼠标的左右键。左手习惯鼠标为“left”，右手习惯鼠标为“right”，“mouse”表示要"
 "跟随鼠标设置。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Pointer speed"
 msgstr "指针速度"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1508,19 +1490,19 @@ msgstr ""
 "触摸板指针速度。可接受的值在 [-1..1] 范围内，(从 “unaccelerated” 到 "
 "“fast”)。 0 是系统默认值。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Natural scrolling"
 msgstr "自然式滚动"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr "将此项设为 TRUE，启用触摸板自然(反向)滚动。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Click method"
 msgstr "点击方法"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "How to generate software-emulated buttons, either disabled ('none'), through "
 "specific areas ('areas'), number of fingers ('fingers') or left as hardware "
@@ -1529,39 +1511,39 @@ msgstr ""
 "如何生成软件模拟的按钮，禁用 (“none”)，通过特定的区域 (“areas”)，手指的数量"
 "(“fingers”) 或保留为硬件默认值(“default”)。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Keyboard repeat"
 msgstr "键盘重复"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "将此项设为 TRUE 启用键盘重复。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Key Repeat Interval"
 msgstr "按键重复间隔"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid "Delay between repeats in milliseconds."
 msgstr "重复之间的延迟(毫秒)。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Initial Key Repeat Delay"
 msgstr "初始按键重复"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Initial key repeat delay in milliseconds."
 msgstr "初始按键重复延迟(毫秒)"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Mouse button orientation"
 msgstr "鼠标按钮方向"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "为左手习惯鼠标交换鼠标左右键。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
@@ -1569,15 +1551,34 @@ msgstr ""
 "鼠标指针速度。可接受的值在 [-1..1] 范围内，(从 “unaccelerated” 到 “fast”)。 "
 "0 是系统默认值。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "将此项设为 TRUE，启用鼠标自然(反向)滚动。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+msgid "Acceleration profile"
+msgstr "加速度曲线"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default ('default') which uses the default acceleration "
+"profile for each device, flat ('flat'), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn't support the configured profile, 'default' will "
+"be used."
+msgstr ""
+"加速度曲线用于连接鼠标。加速度曲线可以设置为默认(“default”)，即对每个设备都使"
+"用默认的加速度曲线；或平坦(“flat”)，即通过由配置的指针速度得出的设备特定的常"
+"数因子加速；或自适应(“adaptive”)，即通过鼠标移动来适配加速度。如果鼠标不支持"
+"配置的配置文件，将使用“default”。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid "Drawing tablet mapping"
 msgstr "绘制平板映射"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1585,11 +1586,105 @@ msgstr ""
 "平板映射到显示器的 EDID 信息。格式必须是[厂商，产品，序列号]。[\"\",\"\","
 "\"\"]禁用映射。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+msgid "Tablet mapping"
+msgstr "平板映射"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid "How input affects the pointer on the screen"
+msgstr "输入如何影响屏幕上的指针"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+msgid "Tablet area"
+msgstr "平板区域"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr "活动区域周围的死角填充，用百分比表示。 分别应用于左、右、顶部和底部。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet aspect ratio"
+msgstr "平板纵横比"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr "启用此选项可将平板区域限制为与输出的纵横比相匹配。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+msgid "Tablet left-handed mode"
+msgstr "启用左手习惯模式"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr "启用此选项可允许旋转平板来进行左手习惯设置"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Stylus pressure curve"
+msgstr "手写笔压力曲线"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr "将其设为x1、y1和x2、y2，在适用于手写笔的压力曲线上。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Eraser pressure curve"
+msgstr "橡皮压力曲线"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr "将其设为x1、y1和x2、y2，在适用于橡皮的压力曲线上。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Button action"
+msgstr "按钮操作"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr "手写笔按钮操作，该按钮位于笔杆上。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+msgid "Secondary button action"
+msgstr "次要按钮操作"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"次要手写笔按钮操作，对于一些手写笔该按钮位于笔杆上，如 Grip Pen。其他的一些手"
+"写笔比如 Airbrush Pen 或 Inking Pen 仅有一个按钮，此设置对它们无效。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+msgid "Pad button action type"
+msgstr "平板按钮操作类型"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "The type of action triggered by the button being pressed."
+msgstr "通过按下按钮触发的操作类型。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+msgid "Key combination for the custom action"
+msgstr "自定义操作的组合键"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr "当按钮按下时会为自定义操作生成键盘快捷方式。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Touchscreen display mapping"
 msgstr "触摸屏显示映射"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1597,9 +1692,23 @@ msgstr ""
 "触摸屏映射到显示器的 EDID 信息。格式必须是[厂商，产品，序列号]。[\"\",\"\","
 "\"\"]禁用映射。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "鼠标滚轮模拟按钮。 0 代表禁用该功能。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default ('default') which uses the default acceleration "
+"profile, flat ('flat'), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive ('adaptive') which "
+"adapts the acceleration depending on the movement. If the trackball doesn't "
+"support the configured profile, 'default' will be used."
+msgstr ""
+"加速度曲线用于轨迹球。加速度曲线可以设置为默认(“default”)，即使用默认的加速度"
+"曲线；或平坦(“flat”)，即通过由配置速度得出的设备特定的常数因子加速；或自适应"
+"(“adaptive”)，即通过移动来适配加速度。如果轨迹球不支持配置的配置文件，将使"
+"用“default”。"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -1724,50 +1833,26 @@ msgid "Time before locking"
 msgstr "锁屏延时"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:8
-#| msgid ""
-#| "The number of minutes after screensaver activation before locking the "
-#| "screen."
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr "在屏幕保护程序激活后、锁定屏幕前等待的秒数。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
-msgid ""
-"Whether notifications are shown in the lock screen or not. This only affects "
-"the standard experience.\n"
-"\n"
-"DEPRECATED: This key is deprecated and ignored. It has been superseded by "
-"org.gnome.desktop.notifications show-in-lock-screen."
-msgstr ""
-"是否在锁屏时显示通知。这只会影响标准体验。\n"
-"\n"
-"已废弃：该键已废弃和忽略。它已经被 org.gnome.desktop.notifications show-in-"
-"lock-screen 取代。"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:9
 msgid "Show full name in the lock screen"
 msgstr "在锁屏时显示用户全名"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
 msgid ""
 "Whether the user's full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 "是否在锁屏时显示用户全名。这只影响屏幕保护，名称总是在解锁对话框中显示。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:15
-msgid "Lock on suspend"
-msgstr "待机时锁定"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-msgid "Set this to TRUE to lock the screen when the system suspends."
-msgstr "此值设置为 TRUE，当系统进入待机时将锁定屏幕。"
-
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:11
 msgid "Allow embedding a keyboard into the window"
 msgstr "允许将键盘嵌入窗口"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The \"keyboard_command\" key must be set with the appropriate "
@@ -1780,11 +1865,11 @@ msgstr ""
 "\n"
 "已废弃：该键已被废弃和忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:15
 msgid "Embedded keyboard command"
 msgstr "内置键盘命令"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
 msgid ""
 "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
 "set to TRUE, to embed a keyboard widget into the window. This command should "
@@ -1798,11 +1883,11 @@ msgstr ""
 "\n"
 "已废弃：该键已废弃和忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:19
 msgid "Allow logout"
 msgstr "允许注销"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
@@ -1814,11 +1899,11 @@ msgstr ""
 "\n"
 "已废弃：该键已废弃和忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:23
 msgid "Time before logout option"
 msgstr "注销选项延时"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:30
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -1831,11 +1916,11 @@ msgstr ""
 "\n"
 "已废弃：该键已废弃和忽略"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:27
 msgid "Logout command"
 msgstr "注销命令"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -1848,21 +1933,21 @@ msgstr ""
 "\n"
 "已废弃：该键已废弃和忽略。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:37
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:31
 msgid "Allow user switching"
 msgstr "允许用户切换"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:32
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr "将此项设为 TRUE 以在解锁对话框中提供一个切换到另一用户账户的选项。"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:39
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
 msgid "Allow the session status message to be displayed"
 msgstr "允许显示会话状态消息"
 
-#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:40
+#: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
 msgid ""
 "Allow the session status message to be displayed when the screen is locked.\n"
 "\n"
@@ -1928,8 +2013,6 @@ msgid "Time before session is considered idle"
 msgstr "将会话视为空闲前的时间"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:2
-#| msgid ""
-#| "The number of minutes of inactivity before the session is considered idle."
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
 msgstr "多少秒无活动后将会话视为空闲。"
@@ -2453,7 +2536,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:15
 msgid "Action on title bar double-click"
-msgstr "双击标题栏动作"
+msgstr "双击标题栏操作"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:16
 msgid ""
@@ -2476,7 +2559,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:19
 msgid "Action on title bar middle-click"
-msgstr "中键点击标题栏动作"
+msgstr "中键点击标题栏操作"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:20
 msgid ""
@@ -2499,7 +2582,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:23
 msgid "Action on title bar right-click"
-msgstr "右键点击标题栏动作"
+msgstr "右键点击标题栏操作"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:24
 msgid ""
@@ -2707,9 +2790,9 @@ msgid ""
 "level accuracy at best)."
 msgstr ""
 "设置程序所允许查看的最高定位精度。有效的值包括‘地区’，‘城市’，‘街区’，‘街"
-"道’与‘精确’（通常需要GPS接收器）。请记住，这仅仅控制了程序通过GeoClue所能看到"
-"的位置，而各种应用程序还可以通过它自身的网络资源来定位用户（尽管往往最多只能"
-"精确到街道等级）。"
+"道’与‘精确’(通常需要GPS接收器)。请记住，这仅仅控制了程序通过GeoClue所能看到的"
+"位置，而各种应用程序还可以通过它自身的网络资源来定位用户(尽管往往最多只能精确"
+"到街道等级)。"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:1
 msgid "Proxy configuration mode"
@@ -2898,3 +2981,76 @@ msgid ""
 "The port on the machine defined by \"/system/proxy/socks/host\" that you "
 "proxy through."
 msgstr "代理经由的主机端口，在“/system/proxy/socks/host”中定义。"
+
+#~ msgid "Draw Desktop Background"
+#~ msgstr "绘制桌面背景"
+
+#~ msgid ""
+#~ "Have GNOME draw the desktop background.\n"
+#~ "\n"
+#~ "DEPRECATED: This key is deprecated and ignored."
+#~ msgstr ""
+#~ "GNOME 绘制桌面背景。\n"
+#~ "\n"
+#~ "已废弃：该键已废弃和忽略。"
+
+#~ msgid "Menus Have Icons"
+#~ msgstr "菜单带图标"
+
+#~ msgid "Whether menus may display an icon next to a menu entry."
+#~ msgstr "是否可在菜单项旁显示图标。"
+
+#~ msgid "Whether buttons may display an icon in addition to the button text."
+#~ msgstr "是否可在按钮文本旁显示图标。"
+
+#~ msgid "Show the 'Input Methods' menu"
+#~ msgstr "显示“输入法”菜单"
+
+#~ msgid ""
+#~ "Whether the context menus of entries and text views should offer to "
+#~ "change the input method."
+#~ msgstr "输入控件和文本视图中的环境菜单是否提供更改输入法的选项。"
+
+#~ msgid "Show the 'Unicode Control Character' menu"
+#~ msgstr "显示“Unicode 控制字符”菜单"
+
+#~ msgid ""
+#~ "Whether the context menus of entries and text views should offer to "
+#~ "insert control characters."
+#~ msgstr "输入控件和文本视图中的环境菜单是否提供插入控制字符的选项。"
+
+#~ msgid "Only show mnemonics on when the Alt key is pressed"
+#~ msgstr "只在按下 Alt 键后显示助记符"
+
+#~ msgid ""
+#~ "Whether mnemonics should be automatically shown and hidden when the user "
+#~ "presses the Alt key."
+#~ msgstr "是否在用户按 Alt 键时自动显示和隐藏助记符。"
+
+#~ msgid "Select the touchpad scroll method"
+#~ msgstr "选择触摸板滚动方法"
+
+#~ msgid ""
+#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
+#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
+#~ msgstr ""
+#~ "选择触摸板滚动方式。 支持的值包括：“disabled”(禁用)，“edge-scrolling”(边缘"
+#~ "滚动)，“two-finger-scrolling”(双指滚动)。"
+
+#~ msgid ""
+#~ "Whether notifications are shown in the lock screen or not. This only "
+#~ "affects the standard experience.\n"
+#~ "\n"
+#~ "DEPRECATED: This key is deprecated and ignored. It has been superseded by "
+#~ "org.gnome.desktop.notifications show-in-lock-screen."
+#~ msgstr ""
+#~ "是否在锁屏时显示通知。这只会影响标准体验。\n"
+#~ "\n"
+#~ "已废弃：该键已废弃和忽略。它已经被 org.gnome.desktop.notifications show-"
+#~ "in-lock-screen 取代。"
+
+#~ msgid "Lock on suspend"
+#~ msgstr "待机时锁定"
+
+#~ msgid "Set this to TRUE to lock the screen when the system suspends."
+#~ msgstr "此值设置为 TRUE，当系统进入待机时将锁定屏幕。"
