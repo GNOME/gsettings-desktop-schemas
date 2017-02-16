@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-12 02:56+0200\n"
-"PO-Revision-Date: 2016-09-12 02:50+0200\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-01-11 17:50+0000\n"
+"PO-Revision-Date: 2017-02-16 13:09+0100\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -101,11 +102,11 @@ msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr "Ventetiden før tastaturtilgængelighed deaktiveres."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:8
-msgid "Enable 'Bounce Keys'"
+msgid "Enable “Bounce Keys”"
 msgstr "Slå \"rystetaster\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:9
-msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
+msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
 msgstr "Om tastaturtilgængelighedsfunktionen \"rystetaster\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:10
@@ -125,11 +126,11 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Om der skal bippes når en tast afslås."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:14
-msgid "Enable 'Mouse Keys'"
+msgid "Enable “Mouse Keys”"
 msgstr "Slå \"musetastatur\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:15
-msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
+msgid "Whether the “Mouse Keys” accessibility feature is turned on."
 msgstr "Om tilgængelighedsfunktionen \"musetastatur\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:16
@@ -146,7 +147,8 @@ msgstr "Hvor lang tid der skal acceleres i millisekunder"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:19
 msgid "How many milliseconds it takes to go from 0 to maximum speed."
-msgstr "Hvor mange millisekunder det tager at gå fra 0 til maksimal hastighed."
+msgstr ""
+"Hvor mange millisekunder det tager at gå fra 0 til maksimal hastighed."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:20
 msgid "Initial delay in milliseconds"
@@ -160,11 +162,11 @@ msgstr ""
 "virksomme."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:22
-msgid "Enable 'Slow Keys'"
+msgid "Enable “Slow Keys”"
 msgstr "Slå \"langsomme taster\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:23
-msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgid "Whether the “Slow Keys” accessibility feature is turned on."
 msgstr "Om tilgængelighedsfunktionen \"langsomme taster\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:24
@@ -217,11 +219,11 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Om der skal bippes når der trykkes på en modifikationstast."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:35
-msgid "Enable 'Toggle Keys'"
+msgid "Enable “Toggle Keys”"
 msgstr "Slå \"skiftetaster\" til"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:36
-msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
+msgid "Whether the “Toggle Keys” accessibility feature is turned on."
 msgstr "Om tilgængelighedsfunktionen \"skiftetaster\" er slået til."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:1
@@ -229,14 +231,25 @@ msgid "Mouse Tracking Mode"
 msgstr "Musesporingstilstand"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:2
+#, fuzzy
+#| msgid ""
+#| "Determines the position of the magnified mouse image within the magnified "
+#| "view and how it reacts to system mouse movement. The values are - none: no "
+#| "mouse tracking; - centered: the mouse image is displayed at the center of "
+#| "the zoom region (which also represents the point under the system mouse) and "
+#| "the magnified contents are scrolled as the system mouse moves; - "
+#| "proportional: the position of the magnified mouse in the zoom region is "
+#| "proportionally the same as the position of the system mouse on screen; - "
+#| "push: when the magnified mouse intersects a boundary of the zoom region, the "
+#| "contents are scrolled into view."
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
-"view and how it reacts to system mouse movement. The values are - none: no "
-"mouse tracking; - centered: the mouse image is displayed at the center of "
+"view and how it reacts to system mouse movement. The values are • none: no "
+"mouse tracking; • centered: the mouse image is displayed at the center of "
 "the zoom region (which also represents the point under the system mouse) and "
-"the magnified contents are scrolled as the system mouse moves; - "
+"the magnified contents are scrolled as the system mouse moves; • "
 "proportional: the position of the magnified mouse in the zoom region is "
-"proportionally the same as the position of the system mouse on screen; - "
+"proportionally the same as the position of the system mouse on screen; • "
 "push: when the magnified mouse intersects a boundary of the zoom region, the "
 "contents are scrolled into view."
 msgstr ""
@@ -254,21 +267,38 @@ msgid "Focus Tracking Mode"
 msgstr "Fokussporingstilstand"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:4
+#, fuzzy
+#| msgid ""
+#| "Determines the position of the focused widget within magnified view.\n"
+#| "\n"
+#| "The values are:\n"
+#| "\n"
+#| "- none: no focus tracking\n"
+#| "\n"
+#| "- centered: the focused image is displayed at the center of the zoom region "
+#| "(which also represents the point under the system focus) and the magnified "
+#| "contents are scrolled as the system focus moves\n"
+#| "\n"
+#| "- proportional: the position of the magnified focus in the zoom region is "
+#| "proportionally the same as the position of the system focus on screen\n"
+#| "\n"
+#| "- push: when the magnified focus intersects a boundary of the zoom region, "
+#| "the contents are scrolled into view"
 msgid ""
 "Determines the position of the focused widget within magnified view.\n"
 "\n"
 "The values are:\n"
 "\n"
-"- none: no focus tracking\n"
+"• none: no focus tracking\n"
 "\n"
-"- centered: the focused image is displayed at the center of the zoom region "
+"• centered: the focused image is displayed at the center of the zoom region "
 "(which also represents the point under the system focus) and the magnified "
 "contents are scrolled as the system focus moves\n"
 "\n"
-"- proportional: the position of the magnified focus in the zoom region is "
+"• proportional: the position of the magnified focus in the zoom region is "
 "proportionally the same as the position of the system focus on screen\n"
 "\n"
-"- push: when the magnified focus intersects a boundary of the zoom region, "
+"• push: when the magnified focus intersects a boundary of the zoom region, "
 "the contents are scrolled into view"
 msgstr ""
 "Angiver positionen af den fokuserede kontrol i forstørret tilstand.\n"
@@ -292,19 +322,34 @@ msgid "Caret Tracking Mode"
 msgstr "Markørsporingstilstand"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
+#, fuzzy
+#| msgid ""
+#| "Determines the position of the caret within magnified view. The values are:\n"
+#| "\n"
+#| "- none: no caret tracking\n"
+#| "\n"
+#| "- centered: the image of the caret is displayed at the center of the zoom "
+#| "region (which also represents the point under the system caret) and the "
+#| "magnified contents are scrolled as the system caret moves\n"
+#| "\n"
+#| "- proportional: the position of the magnified caret in the zoom region is "
+#| "proportionally the same as the position of the system caret on screen\n"
+#| "\n"
+#| "- push: when the magnified caret intersects a boundary of the zoom region, "
+#| "the contents are scrolled into view"
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
-"- none: no caret tracking\n"
+"• none: no caret tracking\n"
 "\n"
-"- centered: the image of the caret is displayed at the center of the zoom "
+"• centered: the image of the caret is displayed at the center of the zoom "
 "region (which also represents the point under the system caret) and the "
 "magnified contents are scrolled as the system caret moves\n"
 "\n"
-"- proportional: the position of the magnified caret in the zoom region is "
+"• proportional: the position of the magnified caret in the zoom region is "
 "proportionally the same as the position of the system caret on screen\n"
 "\n"
-"- push: when the magnified caret intersects a boundary of the zoom region, "
+"• push: when the magnified caret intersects a boundary of the zoom region, "
 "the contents are scrolled into view"
 msgstr ""
 "Angiver positionen af det tekstmarkøren inden i den forstørrede visning. "
@@ -570,7 +615,7 @@ msgid "Gesture single click"
 msgstr "Enkeltkliksgestus"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
+msgid "Direction to perform a single click (“left”, “right”, “up”, “down”)."
 msgstr ""
 "Retning for at udføre et enkeltklik (\"left\", \"right\", \"up\", \"down\")."
 
@@ -579,7 +624,7 @@ msgid "Gesture double click"
 msgstr "Dobbeltklikgestus"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
+msgid "Direction to perform a double click (“left”, “right”, “up”, “down”)."
 msgstr ""
 "Retning for at udføre et dobbeltklik (\"left\", \"right\", \"up\", \"down\")."
 
@@ -588,18 +633,20 @@ msgid "Gesture drag click"
 msgstr "Trækkegestusklik"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
-msgstr "Retning for at udføre et træk (\"left\", \"right\", \"up\", \"down\")."
+msgid "Direction to perform dragging (“left”, “right”, “up”, “down”)."
+msgstr ""
+"Retning for at udføre et træk (\"left\", \"right\", \"up\", \"down\")."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:11
 msgid "Gesture secondary click"
 msgstr "Sekundært gestusklik"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
+msgid ""
+"Direction to perform a secondary click (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Retning for at udføre et sekundært klik (\"left\", \"right\", \"up\", \"down"
-"\")."
+"Retning for at udføre et sekundært klik (\"left\", \"right\", \"up\", "
+"\"down\")."
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
 msgid "Dwell click mode"
@@ -607,7 +654,7 @@ msgstr "Hvilekliktilstand"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:14
 msgid ""
-"The active dwell click mode. Possible values are 'window' and 'gesture'."
+"The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr ""
 "Den aktive hvilekliktilstand. Mulige værdier er \"window\" og \"gesture\"."
 
@@ -669,11 +716,11 @@ msgstr "Oversæt navnet"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:6
 msgid ""
-"Whether the name key is a filename to be looked up in /usr/share/desktop-"
-"directories."
+"Whether the name key is a filename to be looked up in "
+"/usr/share/desktop-directories."
 msgstr ""
-"Om navnenøglen er et filnavn, der skal slås op i /usr/share/desktop-"
-"directories."
+"Om navnenøglen er et filnavn, der skal slås op i "
+"/usr/share/desktop-directories."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:7
 msgid "Applications"
@@ -682,7 +729,8 @@ msgstr "Programmer"
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:8
 msgid ""
 "The list of IDs of applications that are explicitly included in this folder."
-msgstr "Listen af id'er på programmer, som eksplicit inkluderes i denne mappe."
+msgstr ""
+"Listen af id'er på programmer, som eksplicit inkluderes i denne mappe."
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:9
 msgid "Categories"
@@ -718,8 +766,8 @@ msgstr "Billedindstillinger"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\", \"spanned\"."
+"values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
+"“spanned”."
 msgstr ""
 "Angiver hvordan billedet angivet af wallpaper_filename tegnes. Mulige "
 "værdier er \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
@@ -768,7 +816,8 @@ msgstr "Sekundær farve"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:10
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:46
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Højre eller nederste farve når der tegnes gradienter; bruges ikke hvis "
 "ensfarvet."
@@ -781,8 +830,8 @@ msgstr "Farveskyggetype"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
 msgid ""
-"How to shade the background color. Possible values are \"horizontal\", "
-"\"vertical\", and \"solid\"."
+"How to shade the background color. Possible values are “horizontal”, "
+"“vertical”, and “solid”."
 msgstr ""
 "Hvordan baggrundsfarven skyggelægges. Mulige værdier er \"horizontal\", "
 "\"vertical\" og \"solid\"."
@@ -884,7 +933,7 @@ msgstr "Eksekveringsargumenter"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:18
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' "
+"Argument used to execute programs in the terminal defined by the “exec” "
 "key.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored. The default terminal and how "
@@ -904,7 +953,7 @@ msgstr "Nuværende inputkilde"
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty.\n"
+"sources_length) as long as the sources list isn’t empty.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
@@ -921,24 +970,24 @@ msgstr "Liste over inputkilder"
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
-"tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
-"'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or "
-"just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the "
+"tuple of 2 strings. The first string is the type and can be one of “xkb” or "
+"“ibus”. For “xkb” sources the second string is “xkb_layout+xkb_variant” or "
+"just “xkb_layout” if a XKB variant isn’t needed. For “ibus” sources the "
 "second string is the IBus engine name. An empty list means that the X "
-"server's current XKB layout and variant won't be touched and IBus won't be "
+"server’s current XKB layout and variant won’t be touched and IBus won’t be "
 "used."
 msgstr ""
 "Liste over tilgængelige inputkildeidentifikatorer. Hver kilde angives som en "
 "tuple af 2 strenge. Første streng er typen, og kan være en af \"xkb\" eller "
 "\"ibus\". For \"xkb\"-kilder er anden streng \"xkb_layout+xkb_variant\" "
-"eller blot \"xkb_layout\" hvis en XKB-variant ikke behøves. For \"ibus\"-"
-"kilder er anden streng IBus-motornavnet. En tom liste betyder, at X-"
-"serverens nuværende XKB-layout og -variant ikke vil blive berørt, og at IBus "
-"ikke bruges."
+"eller blot \"xkb_layout\" hvis en XKB-variant ikke behøves. For "
+"\"ibus\"-kilder er anden streng IBus-motornavnet. En tom liste betyder, at "
+"X-serverens nuværende XKB-layout og -variant ikke vil blive berørt, og at "
+"IBus ikke bruges."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
 msgid "List of most recently used input sources"
-msgstr "Liste over senest brugte inputkilder."
+msgstr "Liste over senest brugte inputkilder"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
 msgid ""
@@ -955,7 +1004,7 @@ msgstr "Liste over XKB-indstillinger"
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
-"xkeyboard-config's rules files."
+"xkeyboard-config’s rules files."
 msgstr ""
 "Liste over XKB-indstillinger. Hver indstilling er en XKB-indstillingsstreng "
 "som defineret af regelfilerne for xkeyboard-config."
@@ -1029,8 +1078,7 @@ msgstr "Værktøjsbjælkestil"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:10
 msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
+"Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
 "Værktøjslinjestil. Gyldige værdier er \"both\", \"both-horiz\", \"icons\" og "
 "\"text\"."
@@ -1056,8 +1104,9 @@ msgid "Toolbar Icon Size"
 msgstr "Ikonstørrelse til værktøjslinjer"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
-msgid "Size of icons in toolbars, either \"small\" or \"large\"."
-msgstr "Størrelse af ikoner i værktøjslinjer, enten \"small\" eller \"large\"."
+msgid "Size of icons in toolbars, either “small” or “large”."
+msgstr ""
+"Størrelse af ikoner i værktøjslinjer, enten \"small\" eller \"large\"."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
 msgid "Cursor Blink"
@@ -1238,11 +1287,11 @@ msgstr "Plaet, der bruges i farvevælger"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
 msgid ""
-"Palette used in the color selector as defined by the 'gtk-color-palette' "
+"Palette used in the color selector as defined by the “gtk-color-palette” "
 "setting"
 msgstr ""
-"Paletten, der bruges i farvevælgeren som defineret af indstillingen \"gtk-"
-"color-palette\""
+"Paletten, der bruges i farvevælgeren som defineret af indstillingen "
+"\"gtk-color-palette\""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
 msgid "List of symbolic names and color equivalents"
@@ -1250,10 +1299,11 @@ msgstr "Liste over symbolske navne og farveækvivalenter"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
 msgid ""
-"A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
-"scheme' setting"
+"A “\\n"
+"” separated list of “name:color” as defined by the “gtk-color-scheme” setting"
 msgstr ""
-"En \"\\n\"-adskilt liste over \"navn:farve\" som defineret af indstillingen "
+"En \"\\n"
+"\"-adskilt liste over \"navn:farve\" som defineret af indstillingen "
 "\"gtk-color-scheme\""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
@@ -1288,6 +1338,16 @@ msgstr ""
 "Hvis true, vises batteriniveauet i procent i statusmenuen ud over blot "
 "ikonet."
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+msgid "Enable the primary paste selection"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+msgid ""
+"If true, gtk+ uses the primary paste selection, usually triggered by a "
+"middle mouse button click."
+msgstr ""
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Deaktivér kommandolinje"
@@ -1295,8 +1355,8 @@ msgstr "Deaktivér kommandolinje"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:2
 msgid ""
 "Prevent the user from accessing the terminal or specifying a command line to "
-"be executed. For example, this would disable access to the panel's \"Run "
-"Application\" dialog."
+"be executed. For example, this would disable access to the panel’s “Run "
+"Application” dialog."
 msgstr ""
 "Forhindr brugeren i at tilgå terminalen eller i at angive en kommandolinje "
 "der skal køres. For eksempel vil dette deaktivere adgang til panelets \"Kør "
@@ -1309,7 +1369,7 @@ msgstr "Deaktivér gemning af filer til disken"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:4
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
-"access to all applications' \"Save as\" dialogs."
+"access to all applications’ “Save as” dialogs."
 msgstr ""
 "Forhindr brugeren i at gemme filer til disken. For eksempel vil dette "
 "deaktivere adgang til alle programmers \"Gem som\"-dialoger."
@@ -1321,7 +1381,7 @@ msgstr "Deaktivér udskrift"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:6
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
-"all applications' \"Print\" dialogs."
+"all applications’ “Print” dialogs."
 msgstr ""
 "Forhindr brugeren i at udskrive. For eksempel vil dette deaktivere adgang "
 "til alle programmers \"Udskriv\"-dialoger."
@@ -1333,7 +1393,7 @@ msgstr "Deaktivér udskriftsopsætning"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:8
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
-"disable access to all applications' \"Print Setup\" dialogs."
+"disable access to all applications’ “Print Setup” dialogs."
 msgstr ""
 "Forhindr brugeren i at ændre udskriftsindstillinger. For eksempel vil dette "
 "deaktivere adgang til alle programmers \"Udskriftsopsætning\"-dialoger."
@@ -1392,8 +1452,8 @@ msgstr "Om medier automatisk monteres"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:2
 msgid ""
-"If set to true, then Nautilus will automatically mount media such as user-"
-"visible hard disks and removable media on start-up and media insertion."
+"If set to true, then Nautilus will automatically mount media such as "
+"user-visible hard disks and removable media on start-up and media insertion."
 msgstr ""
 "Hvis sat til sand, vil Nautilus automatisk montere medier såsom "
 "brugersynlige harddiske og flytbare medier ved opstart og indsættelse."
@@ -1410,8 +1470,8 @@ msgid ""
 "configurable action will be taken instead."
 msgstr ""
 "Hvis sat til and, vil Nautilus automatisk åbne en mappe når der automonteres "
-"medier. Dette gælder kun for medier, hvor der ikke blev fundet nogen x-"
-"content/*-type; for medier hvor der findes en kendt x-content-type, vil "
+"medier. Dette gælder kun for medier, hvor der ikke blev fundet nogen "
+"x-content/*-type; for medier hvor der findes en kendt x-content-type, vil "
 "handlingen, der kan konfigureres af brugeren, blive udført i stedet."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:5
@@ -1445,13 +1505,13 @@ msgstr ""
 "typer."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:9
-msgid "List of x-content/* types set to \"Do Nothing\""
+msgid "List of x-content/* types set to “Do Nothing”"
 msgstr "Liste over x-content/*-typer, der er sat til \"Gør intet\""
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:10
 msgid ""
-"List of x-content/* types for which the user have chosen \"Do Nothing\" in "
-"the preference capplet. No prompt will be shown nor will any matching "
+"List of x-content/* types for which the user have chosen “Do Nothing” in the "
+"preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
 "Liste over x-content/*-typer for hvilket brugeren har valgt \"Gør intet\" i "
@@ -1460,12 +1520,12 @@ msgstr ""
 "disse typer."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:11
-msgid "List of x-content/* types set to \"Open Folder\""
+msgid "List of x-content/* types set to “Open Folder”"
 msgstr "Liste over x-content/*-typer der er sat til \"Åbn mappe\""
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:12
 msgid ""
-"List of x-content/* types for which the user have chosen \"Open Folder\" in "
+"List of x-content/* types for which the user have chosen “Open Folder” in "
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
@@ -1478,7 +1538,8 @@ msgid "Show notification banners"
 msgstr "Vis påmindelser i bannere"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:2
-msgid "Whether notification banners are visible for application notifications."
+msgid ""
+"Whether notification banners are visible for application notifications."
 msgstr "Om påmindelsesbannere er synlige for programpåmindelser."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:3
@@ -1529,7 +1590,8 @@ msgstr "Tving automatisk udfoldelse af bannere"
 msgid ""
 "Whether notifications from this application are expanded automatically when "
 "in banner mode."
-msgstr "Om påmindelser fra dette program udfoldes automatisk i bannertilstand."
+msgstr ""
+"Om påmindelser fra dette program udfoldes automatisk i bannertilstand."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:14
 msgid "Show in the lock screen"
@@ -1574,128 +1636,152 @@ msgstr ""
 "funktion slået til."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+msgid "Whether to disable the touchpad while typing"
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+msgid "When enabled, touchpads will be disabled while typing on the keyboard."
+msgstr ""
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Enable mouse clicks with touchpad"
 msgstr "Aktivér museklik med pegeplade"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Sæt denne til TRUE for at kunne sende museklik ved at trykke på pegepladen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#, fuzzy
+#| msgid "Enable mouse clicks with touchpad"
+msgid "Enable tap-and-drag with touchpad"
+msgstr "Aktivér museklik med pegeplade"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#, fuzzy
+#| msgid ""
+#| "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgid ""
+"Set this to TRUE to be able to start a drag by tapping and immediately "
+"moving the finger that’s now pressed on the touchpad."
+msgstr ""
+"Sæt denne til TRUE for at kunne sende museklik ved at trykke på pegepladen."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Touchpad enabled"
 msgstr "Pegeplade slået til"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Definerer situationerne hvor pegepladen er slået til."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Touchpad button orientation"
 msgstr "Knappeorientering for pegeplade"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid ""
-"Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
-"for right-handed, 'mouse' to follow the mouse setting."
+"Swap left and right mouse buttons for left-handed mice with “left”, “right” "
+"for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
 "Ombyt venstre og højre museknapper for venstrehåndede mus med \"left\"; "
 "\"right\" for højrehåndet; \"mouse\" for at følge musens indstilling."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Pointer speed"
 msgstr "Markørhastighed"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
-"(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
+"(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "Markørhastighed for pegepladen. Accepterede værdier er i intervallet [-1..1] "
 "(fra uaccelereret (unaccelerated) til hurtig (fast). Værdien 0 er "
 "systemstandard."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Natural scrolling"
 msgstr "Naturlig rulning"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulning til for pegeplader."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Click method"
 msgstr "Klikmetode"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid ""
-"How to generate software-emulated buttons, either disabled ('none'), through "
-"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
-"default ('default')."
+"How to generate software-emulated buttons, either disabled (“none”), through "
+"specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
+"default (“default”)."
 msgstr ""
-"Hvordan softwareemulerede knapper skal genereres. Enten slået fra (\"none"
-"\"), gennem specifikke områder (\"areas\"), antal fingre (\"fingers\") eller "
-"overladt til hardware (\"default\")."
+"Hvordan softwareemulerede knapper skal genereres. Enten slået fra "
+"(\"none\"), gennem specifikke områder (\"areas\"), antal fingre "
+"(\"fingers\") eller overladt til hardware (\"default\")."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Keyboard repeat"
 msgstr "Gentagelse på tastatur"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Sæt denne til TRUE for at slå tastaturgentagelse til."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Key Repeat Interval"
 msgstr "Interval for tastaturgentagelse"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Delay between repeats in milliseconds."
 msgstr "Ventetid mellem gentagelser i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Initial Key Repeat Delay"
 msgstr "Indledende ventetid for tastegentagelse"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Indledende ventetid for tastegenkendelse i millisekunder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid "Mouse button orientation"
 msgstr "Orientering af museknapper"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Ombyt venstre og højre museknap for venstrehåndede mus."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-"\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
+"“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "Markørhastighed for mus. Accepterede værdier er i intervallet [-1..1] (fra "
 "uaccelereret (unaccelerated) til hurtig (fast). Værdien 0 er systemstandard."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulletilstand til for mus."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
 msgid "Acceleration profile"
 msgstr "Accelerationsprofil"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
-"be set to either default ('default') which uses the default acceleration "
-"profile for each device, flat ('flat'), which accelerates by a device "
+"be set to either default (“default”) which uses the default acceleration "
+"profile for each device, flat (“flat”), which accelerates by a device "
 "specific constant factor derived from the configured pointer speed, or "
-"adaptive ('adaptive') which adapts the acceleration depending on the mouse "
-"movement. If a mouse doesn't support the configured profile, 'default' will "
+"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn’t support the configured profile, “default” will "
 "be used."
 msgstr ""
 "Accelerationsprofil for forbundne mus. Accelerationsprofilen kan sættes "
@@ -1707,11 +1793,11 @@ msgstr ""
 "\"default\"."
 
 # sammenlign evt. med efterfølgende
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
 msgid "Drawing tablet mapping"
 msgstr "Skærmafbildning for tegne-tavle-pc"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1720,19 +1806,19 @@ msgstr ""
 "formatet [forhandler, produkt, serienummer]. [\"\",\"\",\"\"] slår "
 "funktionen fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
 msgid "Tablet mapping"
 msgstr "Tavle-pc-afbildning"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
 msgid "How input affects the pointer on the screen"
 msgstr "Hvordan input påvirker markøren på skærmen"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
 msgid "Tablet area"
 msgstr "Tavle-pc-område"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1740,61 +1826,61 @@ msgstr ""
 "Uresponsivt område som omgiver det aktive område i procent. Anvendes "
 "henholdsvis til venstre, højre, over og under."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
 msgid "Tablet aspect ratio"
 msgstr "Højde-/breddeforhold for tavle-pc"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
-"Slå dette til for at begrænse tavle-pc-området, så det passer til højde-/"
-"breddeforholdet af output."
+"Slå dette til for at begrænse tavle-pc-området, så det passer til "
+"højde-/breddeforholdet af output."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
 msgid "Tablet left-handed mode"
 msgstr "Venstrehåndstilstand for tavle-pc"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Slå denne til for at tillade fysisk rotation af tavle-pc'en for at opnå "
 "venstrehåndsopsætning"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
 msgid "Stylus pressure curve"
 msgstr "Trykkurve for pen"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Sæt denne til x1, y1 og x2, y2 på pennens trykkurve."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
 msgid "Eraser pressure curve"
 msgstr "Trykkurve for viskelæder"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Sæt denne til x1, y1 og x2, y2 på viskelæderets trykkurve."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
 msgid "Button action"
 msgstr "Knaphandling"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Handling for pen-knap. Denne knap befinder sig et sted på pennens side."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
 msgid "Secondary button action"
 msgstr "Handling for sekundær knap"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1813,19 +1899,19 @@ msgstr ""
 #   org.gnome.desktop.peripherals.tablet.pad-button
 #
 # så det har noget med tablets/tavle-pc at gøre
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Pad button action type"
 msgstr "Handlingstype for tavle-pc-knap"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typen af handling som foretages, når knappen trykkes."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Key combination for the custom action"
 msgstr "Tastekombination for den brugertilpassede handling"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1833,11 +1919,11 @@ msgstr ""
 "Tastaturgenvejen som genereres når knappen trykkes for brugertilpassede "
 "handlinger."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Touchscreen display mapping"
 msgstr "Skærmafbildning for berøringsskærm"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1846,18 +1932,18 @@ msgstr ""
 "Skal have formatet [forhander, produkt, serienummer]. [\"\",\"\",\"\"] slår "
 "dette fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emuleringsknap for musehjul. 0 for at slå funktionen fra."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
-"set to either default ('default') which uses the default acceleration "
-"profile, flat ('flat'), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive ('adaptive') which "
-"adapts the acceleration depending on the movement. If the trackball doesn't "
-"support the configured profile, 'default' will be used."
+"set to either default (“default”) which uses the default acceleration "
+"profile, flat (“flat”), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive (“adaptive”) which "
+"adapts the acceleration depending on the movement. If the trackball doesn’t "
+"support the configured profile, “default” will be used."
 msgstr ""
 "Accelerationsprofil for trackball. Accelerationsprofilen kan sættes enten "
 "til standard (\"default\"), som bruger standardaccelerationsprofilen; eller "
@@ -1872,7 +1958,7 @@ msgstr "Styrer synligheden af personlige oplysninger"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:2
 msgid ""
-"If set to true, the system will make an effort to not divulge the user's "
+"If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
 msgstr ""
 "Hvis sat til sand, vil systemet forsøge ikke at afsløre brugerens identitet "
@@ -1893,7 +1979,7 @@ msgstr "Om gamle filer skal fjernes automatisk fra papirkurven"
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:6
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
-"'old-files-age' days."
+"“old-files-age” days."
 msgstr ""
 "Hvis sand, fjernes filer automatisk fra papirkurven når de er ældre end "
 "\"old-files-age\" dage."
@@ -1904,15 +1990,16 @@ msgstr "Om gamle midlertidige filer skal fjernes automatisk"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:8
 msgid ""
-"If TRUE, automatically remove temporary files when they are older than 'old-"
-"files-age' days."
+"If TRUE, automatically remove temporary files when they are older than "
+"“old-files-age” days."
 msgstr ""
-"Hvis sand, fjernes midlertidige filer automatisk når de er ældre end \"old-"
-"files-age\" dage."
+"Hvis sand, fjernes midlertidige filer automatisk når de er ældre end "
+"\"old-files-age\" dage."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:9
 msgid "Number of days to keep trash and temporary files"
-msgstr "Antal dage som midlertidige filer og filer i papirkurven skal beholdes"
+msgstr ""
+"Antal dage som midlertidige filer og filer i papirkurven skal beholdes"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:10
 msgid "Consider trash and temporary files old after this many days."
@@ -1978,13 +2065,14 @@ msgstr "Aktivér ved tomgang"
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle.\n"
 "\n"
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Sæt denne til sand for at aktivere pauseskærmen når sessionen er inaktiv.\n"
 "\n"
-"FORÆLDET: Denne nøgle er forældet og ignoreres. Sæt idle-delay i org.gnome."
-"desktop.session til 0 hvis du ikke vil aktivere pauseskærmen."
+"FORÆLDET: Denne nøgle er forældet og ignoreres. Sæt idle-delay i "
+"org.gnome.desktop.session til 0 hvis du ikke vil aktivere pauseskærmen."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:5
 msgid "Lock on activation"
@@ -2010,7 +2098,7 @@ msgstr "Vis fulde navn ved låst skærm"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
 msgid ""
-"Whether the user's full name is shown in the lock screen or not. This only "
+"Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 "Om brugerens fulde navn vises ved låst skærm eller ikke. Dette påvirker kun "
@@ -2023,7 +2111,7 @@ msgstr "Tillad indlejring af tastatur i vinduet"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
-"to unlock. The \"keyboard_command\" key must be set with the appropriate "
+"to unlock. The “keyboard_command” key must be set with the appropriate "
 "command.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
@@ -2040,8 +2128,8 @@ msgstr "Kommando til indlejret tastatur"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
 msgid ""
-"The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-"set to TRUE, to embed a keyboard widget into the window. This command should "
+"The command that will be run, if the “embedded_keyboard_enabled” key is set "
+"to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
 "output.\n"
 "\n"
@@ -2061,13 +2149,13 @@ msgstr "Tillad udlogning"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key.\n"
+"out after a delay. The delay is specified in the “logout_delay” key.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Sæt denne til sand for at tilbyde en indstilling i lås op-dialogen som lader "
-"en logge ud efter en ventetid. Ventetiden angives i nøglen \"logout_delay"
-"\".\n"
+"en logge ud efter en ventetid. Ventetiden angives i nøglen "
+"\"logout_delay\".\n"
 "\n"
 "FORÆLDET: Denne nøgle er forældet og ignoreres."
 
@@ -2079,7 +2167,7 @@ msgstr "Tid før udlogningsmulighed"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE.\n"
+"“logout_enable” key is set to TRUE.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored"
 msgstr ""
@@ -2097,7 +2185,7 @@ msgstr "Udlogningskommando"
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE.\n"
+"the “logout_enable” key is set to TRUE.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
@@ -2210,11 +2298,11 @@ msgstr "Sessionstype"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:4
 msgid ""
-"The name of the session to use. Known values are \"gnome\" and \"gnome-"
-"fallback\"."
+"The name of the session to use. Known values are “gnome” and "
+"“gnome-fallback”."
 msgstr ""
-"Navnet på sessionen, der skal bruges. Kendte værdier er \"gnome\" og \"gnome-"
-"fallback\"."
+"Navnet på sessionen, der skal bruges. Kendte værdier er \"gnome\" og "
+"\"gnome-fallback\"."
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:1
 msgid "Sounds for events"
@@ -2420,7 +2508,7 @@ msgid "Show the run command prompt"
 msgstr "Vis kør-kommandoprompten"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:35
-msgid "Don't use"
+msgid "Don’t use"
 msgstr "Brug ikke"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:36
@@ -2644,14 +2732,14 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <!"
-"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the “resize-with-right-button” key. Modifier is expressed as "
+"<![CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
 "Hvis et vindue klikkes når denne modifikationstast holdes nede, vil vinduet "
 "flyttes (venstreklik), ændre størrelse (midterklik) eller vise vinduesmenuen "
 "(højreklik). Midter- og højreklikoperationerne kan byttes ved brug af nøglen "
-"\"resize-with-right-button\". Modifikatoren udtrykkes som <![CDATA[\"<Alt>"
-"\"]]> eller <![CDATA[\"<Super>\"]]>, for eksempel."
+"\"resize-with-right-button\". Modifikatoren udtrykkes som "
+"<![CDATA[\"<Alt>\"]]> eller <![CDATA[\"<Super>\"]]>, for eksempel."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:3
 msgid "Whether to resize with the right button"
@@ -2660,7 +2748,7 @@ msgstr "Om der skal ændres størrelse med højre knap"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:4
 msgid ""
 "Set this to true to resize with the right button and show a menu with the "
-"middle button while holding down the key given in \"mouse-button-modifier\"; "
+"middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
 "Sæt denne til sand for at ændre størrelse med højre knap og vise en menu med "
@@ -2674,9 +2762,9 @@ msgstr "Knaparrangement i titellinjen"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:6
 msgid ""
 "Arrangement of buttons on the titlebar. The value should be a string, such "
-"as \"menu:minimize,maximize,spacer,close\"; the colon separates the left "
-"corner of the window from the right corner, and the button names are comma-"
-"separated. Duplicate buttons are not allowed. Unknown button names are "
+"as “menu:minimize,maximize,spacer,close”; the colon separates the left "
+"corner of the window from the right corner, and the button names are "
+"comma-separated. Duplicate buttons are not allowed. Unknown button names are "
 "silently ignored so that buttons can be added in future metacity versions "
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
@@ -2696,9 +2784,9 @@ msgstr "Vinduesfokustilstand"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:8
 msgid ""
 "The window focus mode indicates how windows are activated. It has three "
-"possible values; \"click\" means windows must be clicked in order to focus "
-"them, \"sloppy\" means windows are focused when the mouse enters the window, "
-"and \"mouse\" means windows are focused when the mouse enters the window and "
+"possible values; “click” means windows must be clicked in order to focus "
+"them, “sloppy” means windows are focused when the mouse enters the window, "
+"and “mouse” means windows are focused when the mouse enters the window and "
 "unfocused when the mouse leaves the window."
 msgstr ""
 "Vinduesfokustilstanden angiver hvordan vinduer aktiveres. Den har tre mulige "
@@ -2714,8 +2802,8 @@ msgstr "Angiv hvordan nye vinduer får fokus"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:10
 msgid ""
 "This option provides additional control over how newly created windows get "
-"focus. It has two possible values; \"smart\" applies the user's normal focus "
-"mode, and \"strict\" results in windows started from a terminal not being "
+"focus. It has two possible values; “smart” applies the user’s normal focus "
+"mode, and “strict” results in windows started from a terminal not being "
 "given focus."
 msgstr ""
 "Denne indstilling giver yderligere kontrol over hvordan nyoprettede vinduer "
@@ -2734,7 +2822,7 @@ msgid ""
 "\n"
 "Setting this to false means that a window will not be raised if it is "
 "clicked on the client area. To raise it, one can click anywhere in the "
-"window's frame, or Super-click on any part of the window. This mode is "
+"window’s frame, or Super-click on any part of the window. This mode is "
 "useful if one uses many overlapping windows."
 msgstr ""
 "Standardværdien, true, angiver at et vindue hæves når der klikkes i dets "
@@ -2753,23 +2841,24 @@ msgstr "Handling vil dobbeltklik på titellinje"
 msgid ""
 "This option determines the effects of double-clicking on the title bar.\n"
 "\n"
-"Current valid options are 'toggle-shade', which will shade/unshade the "
-"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"Current valid options are “toggle-shade”, which will shade/unshade the "
+"window, “toggle-maximize” which will maximize/unmaximize the window, "
+"“toggle-maximize-horizontally” and “toggle-maximize-vertically” which will "
+"maximize/unmaximize the window in that direction only, “minimize” which will "
+"minimize the window, “shade” which will roll the window up, “menu” which "
+"will display the window menu, “lower” which will put the window behind all "
+"the others, and “none” which will not do anything."
 msgstr ""
 "Denne indstilling bestemmer effekten af at dobbeltklikke på titellinjen.\n"
 "\n"
 "Nuværende gyldige indstillinger er \"toggle-shade\", som vil sætte vinduet "
-"ind i og ud af skyggetilstand, \"toggle-maximize\" som vil maksimere/"
-"afmaksimere vinduet, \"toggle-maximize-horizontally\" og \"toggle-maximize-"
-"vertically\" som vil maksimere/afmaksimere vinduet i respektive retninger, "
-"\"minimize\" som ikke overraskende vil minimere vinduet, \"shade\" som vil "
-"rulle vinduet op, \"menu\" som vil vise vinduesmenuen, \"lower\" som vil "
-"sætte vinduet bag alle andre samt \"none\" som ikke gør noget."
+"ind i og ud af skyggetilstand, \"toggle-maximize\" som vil "
+"maksimere/afmaksimere vinduet, \"toggle-maximize-horizontally\" og "
+"\"toggle-maximize-vertically\" som vil maksimere/afmaksimere vinduet i "
+"respektive retninger, \"minimize\" som ikke overraskende vil minimere "
+"vinduet, \"shade\" som vil rulle vinduet op, \"menu\" som vil vise "
+"vinduesmenuen, \"lower\" som vil sætte vinduet bag alle andre samt \"none\" "
+"som ikke gør noget."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:19
 msgid "Action on title bar middle-click"
@@ -2779,23 +2868,24 @@ msgstr "Handling vil midterklik på titellinje"
 msgid ""
 "This option determines the effects of middle-clicking on the title bar.\n"
 "\n"
-"Current valid options are 'toggle-shade', which will shade/unshade the "
-"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"Current valid options are “toggle-shade”, which will shade/unshade the "
+"window, “toggle-maximize” which will maximize/unmaximize the window, "
+"“toggle-maximize-horizontally” and “toggle-maximize-vertically” which will "
+"maximize/unmaximize the window in that direction only, “minimize” which will "
+"minimize the window, “shade” which will roll the window up, “menu” which "
+"will display the window menu, “lower” which will put the window behind all "
+"the others, and “none” which will not do anything."
 msgstr ""
 "Denne indstilling bestemmer effekten af at midterklikke på titellinjen.\n"
 "\n"
 "Nuværende gyldige indstillinger er \"toggle-shade\", som vil sætte vinduet "
-"ind i og ud af skyggetilstand, \"toggle-maximize\" som vil maksimere/"
-"afmaksimere vinduet, \"toggle-maximize-horizontally\" og \"toggle-maximize-"
-"vertically\" som vil maksimere/afmaksimere vinduet i respektive retninger, "
-"\"minimize\" som ikke overraskende vil minimere vinduet, \"shade\" som vil "
-"rulle vinduet op, \"menu\" som vil vise vinduesmenuen, \"lower\" som vil "
-"sætte vinduet bag alle andre samt \"none\" som ikke gør noget."
+"ind i og ud af skyggetilstand, \"toggle-maximize\" som vil "
+"maksimere/afmaksimere vinduet, \"toggle-maximize-horizontally\" og "
+"\"toggle-maximize-vertically\" som vil maksimere/afmaksimere vinduet i "
+"respektive retninger, \"minimize\" som ikke overraskende vil minimere "
+"vinduet, \"shade\" som vil rulle vinduet op, \"menu\" som vil vise "
+"vinduesmenuen, \"lower\" som vil sætte vinduet bag alle andre samt \"none\" "
+"som ikke gør noget."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:23
 msgid "Action on title bar right-click"
@@ -2805,23 +2895,24 @@ msgstr "Handling ved højreklik på titellinje"
 msgid ""
 "This option determines the effects of right-clicking on the title bar.\n"
 "\n"
-"Current valid options are 'toggle-shade', which will shade/unshade the "
-"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"Current valid options are “toggle-shade”, which will shade/unshade the "
+"window, “toggle-maximize” which will maximize/unmaximize the window, "
+"“toggle-maximize-horizontally” and “toggle-maximize-vertically” which will "
+"maximize/unmaximize the window in that direction only, “minimize” which will "
+"minimize the window, “shade” which will roll the window up, “menu” which "
+"will display the window menu, “lower” which will put the window behind all "
+"the others, and “none” which will not do anything."
 msgstr ""
 "Denne indstilling bestemmer effekten af at højreklikke på titellinjen.\n"
 "\n"
 "Nuværende gyldige indstillinger er \"toggle-shade\", som vil sætte vinduet "
-"ind i og ud af skyggetilstand, \"toggle-maximize\" som vil maksimere/"
-"afmaksimere vinduet, \"toggle-maximize-horizontally\" og \"toggle-maximize-"
-"vertically\" som vil maksimere/afmaksimere vinduet i respektive retninger, "
-"\"minimize\" som ikke overraskende vil minimere vinduet, \"shade\" som vil "
-"rulle vinduet op, \"menu\" som vil vise vinduesmenuen, \"lower\" som vil "
-"sætte vinduet bag alle andre samt \"none\" som ikke gør noget."
+"ind i og ud af skyggetilstand, \"toggle-maximize\" som vil "
+"maksimere/afmaksimere vinduet, \"toggle-maximize-horizontally\" og "
+"\"toggle-maximize-vertically\" som vil maksimere/afmaksimere vinduet i "
+"respektive retninger, \"minimize\" som ikke overraskende vil minimere "
+"vinduet, \"shade\" som vil rulle vinduet op, \"menu\" som vil vise "
+"vinduesmenuen, \"lower\" som vil sætte vinduet bag alle andre samt \"none\" "
+"som ikke gør noget."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:27
 msgid "Automatically raises the focused window"
@@ -2829,16 +2920,16 @@ msgstr "Hæver automatisk det fokuserede vindue"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:28
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focused window will be automatically raised after a delay specified by "
-"the auto-raise-delay key. This is not related to clicking on a window to "
-"raise it, nor to entering a window during drag-and-drop."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focused window will be automatically raised after a delay specified by the "
+"auto-raise-delay key. This is not related to clicking on a window to raise "
+"it, nor to entering a window during drag-and-drop."
 msgstr ""
 "Hvis sat til sand, og fokustilstanden er enten \"sloppy\" eller \"mouse\", "
 "så vil det fokuserede vindue automatisk blive hævet efter en ventetid "
 "angivet af nøglen auto-raise-delay. Dette er ikke relateret til at klikke på "
-"et vindue for at hæve det, ej heller til at komme ind i et vindue under træk-"
-"og-slip."
+"et vindue for at hæve det, ej heller til at komme ind i et vindue under "
+"træk-og-slip."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:29
 msgid "Delay in milliseconds for the auto raise option"
@@ -2915,8 +3006,8 @@ msgstr "Systemklokke kan høres"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:42
 msgid ""
-"Determines whether applications or the system can generate audible 'beeps'; "
-"may be used in conjunction with 'visual bell' to allow silent 'beeps'."
+"Determines whether applications or the system can generate audible “beeps”; "
+"may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
 "Angiver om programmer eller systemet kan generere \"bip\" som kan høres; kan "
 "bruges sammen med \"synlig klokke\" for at tillade stille \"bip\"."
@@ -2928,7 +3019,7 @@ msgstr "Slå synlig klokke til"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:44
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
-"'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
+"“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
 "Slår en visuel angivelse til når et program eller systemet afgiver en "
@@ -2942,14 +3033,14 @@ msgstr "Type af visuel klokke"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:46
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
-"another application 'bell' indicator has been rung.\n"
+"another application “bell” indicator has been rung.\n"
 "\n"
-"Currently there are two valid values, \"fullscreen-flash\", which causes a "
-"fullscreen white-black flash, and \"frame-flash\" which causes the titlebar "
-"of the application which sent the bell signal to flash.\n"
+"Currently there are two valid values, “fullscreen-flash”, which causes a "
+"fullscreen white-black flash, and “frame-flash” which causes the titlebar of "
+"the application which sent the bell signal to flash.\n"
 "\n"
 "If the application which sent the bell is unknown (as is usually the case "
-"for the default \"system beep\"), the currently focused window's titlebar is "
+"for the default “system beep”), the currently focused window’s titlebar is "
 "flashed."
 msgstr ""
 "Fortæller vindueshåndteringen hvordan den visuelle indikation, som angiver "
@@ -2992,7 +3083,7 @@ msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
 "If the list is too short, or includes empty names, missing values will be "
-"replaced with the default (\"Workspace N\")."
+"replaced with the default (“Workspace N”)."
 msgstr ""
 "Definerer navnene som skal tildeles arbejdsområderne. Hvis listen er for "
 "lang til det nuværende antal arbejdsområder, vil de ekstra navne blive "
@@ -3017,7 +3108,8 @@ msgstr "Geolokaliseringstjenester er slået til."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:2
 msgid "If true, applications are allowed to access location information."
-msgstr "Hvis sand, vil programmer kunne tilgå oplysninger om fysisk placering."
+msgstr ""
+"Hvis sand, vil programmer kunne tilgå oplysninger om fysisk placering."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:3
 msgid "The maximum accuracy level of location."
@@ -3026,11 +3118,11 @@ msgstr "Det maksimale nøjagtignedsniveau for placering."
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:4
 msgid ""
 "Configures the maximum level of location accuracy applications are allowed "
-"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
-"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"to see. Valid options are “country”, “city”, “neighborhood”, “street”, and "
+"“exact” (typically requires GPS receiver). Please keep in mind that this "
 "only controls what GeoClue will allow applications to see and they can find "
-"user's location on their own using network resources (albeit with street-"
-"level accuracy at best)."
+"user’s location on their own using network resources (albeit with "
+"street-level accuracy at best)."
 msgstr ""
 "Indstiller det maksimale niveau af placeringsnøjagtighed, som programmer har "
 "lov til at se. Gyldige værdier er \"country\", \"city\", \"neighborhood\", "
@@ -3044,18 +3136,18 @@ msgstr "Proxykonfigurationstilstand"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\".\n"
+"Select the proxy configuration mode. Supported values are “none”, “manual”, "
+"“auto”.\n"
 "\n"
-"If this is \"none\", then proxies are not used.\n"
+"If this is “none”, then proxies are not used.\n"
 "\n"
-"If it is \"auto\", the autoconfiguration URL described by the \"autoconfig-"
-"url\" key is used.\n"
+"If it is “auto”, the autoconfiguration URL described by the “autoconfig-url” "
+"key is used.\n"
 "\n"
-"If it is \"manual\", then the proxies described by \"/system/proxy/http\", "
-"\"/system/proxy/https\", \"/system/proxy/ftp\" and \"/system/proxy/socks\" "
-"will be used. Each of the 4 proxy types is enabled if its \"host\" key is "
-"non-empty and its \"port\" key is non-0.\n"
+"If it is “manual”, then the proxies described by “/system/proxy/http”, "
+"“/system/proxy/https”, “/system/proxy/ftp” and “/system/proxy/socks” will be "
+"used. Each of the 4 proxy types is enabled if its “host” key is non-empty "
+"and its “port” key is non-0.\n"
 "\n"
 "If an http proxy is configured, but an https proxy is not, then the http "
 "proxy is also used for https.\n"
@@ -3071,13 +3163,13 @@ msgstr ""
 "Hvis den er \"auto\", bruges autokonfigurations-URL'en beskrevet af nøglen "
 "\"autoconfig-url\".\n"
 "\n"
-"Hvis den er \"manual\", bruges proxyerne beskrevet af \"/system/proxy/http"
-"\", \"/system/proxy/https\", \"/system/proxy/ftp\" og \"/system/proxy/socks"
-"\". Hver af de 4 proxytyper er slået til, hvis dens \"værts\"-nøgle er ikke-"
-"tom og dens \"port\"-nøgle er forskellig fra 0.\n"
+"Hvis den er \"manual\", bruges proxyerne beskrevet af "
+"\"/system/proxy/http\", \"/system/proxy/https\", \"/system/proxy/ftp\" og "
+"\"/system/proxy/socks\". Hver af de 4 proxytyper er slået til, hvis dens "
+"\"værts\"-nøgle er ikke-tom og dens \"port\"-nøgle er forskellig fra 0.\n"
 "\n"
-"Hvis der er konfigureret en http-proxy, men ikke https-proxy, bruges http-"
-"proxyen også til https.\n"
+"Hvis der er konfigureret en http-proxy, men ikke https-proxy, bruges "
+"http-proxyen også til https.\n"
 "\n"
 "Hvis der er konfigureret en SOCKS-proxy, bruges den til alle protokoller "
 "pånær at http-, https- og ftp-proxyindstillinger tilsidesætter den for disse "
@@ -3089,8 +3181,8 @@ msgstr "Automatisk proxykonfigurations-URL"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:14
 msgid ""
-"URL that provides proxy configuration values. When mode is \"auto\", this "
-"URL is used to look up proxy information for all protocols."
+"URL that provides proxy configuration values. When mode is “auto”, this URL "
+"is used to look up proxy information for all protocols."
 msgstr ""
 "URL der giver proxykonfigurationsværdier. Når tilstanden er \"auto\", bruges "
 "denne \"URL\" til at slå proxyinformationer op for alle protokoller."
@@ -3108,9 +3200,9 @@ msgid ""
 msgstr ""
 "Denne nøgle indeholder en liste over værter, som der er forbundet til "
 "direkte og ikke via proxy (hvis en sådan er aktiv). Værdierne kan være "
-"værtsnavne, domæner (ved brug af et start-\"wildcard\" såsom *.foo.dk), IP-"
-"værtsadresser (både IPv4 og IPv6) og netværksadresser med en netmaske (noget "
-"i retning af 192.168.0.0/24)."
+"værtsnavne, domæner (ved brug af et start-\"wildcard\" såsom *.foo.dk), "
+"IP-værtsadresser (både IPv4 og IPv6) og netværksadresser med en netmaske "
+"(noget i retning af 192.168.0.0/24)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:17
 msgid "Unused; ignore"
@@ -3122,8 +3214,8 @@ msgstr "Denne nøgle bruges ikke og bør ikke sættes eller ændres."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:19
 msgid ""
-"This key is not used; HTTP proxying is enabled when the host key is non-"
-"empty and the port is non-0."
+"This key is not used; HTTP proxying is enabled when the host key is "
+"non-empty and the port is non-0."
 msgstr ""
 "Denne nøgle bruges ikke; HTTP-proxyaktivitet er slået til når værtsnøglen er "
 "ikke-tom og porten er forskellig fra 0."
@@ -3142,8 +3234,8 @@ msgstr "HTTP-proxyport"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:23
 msgid ""
-"The port on the machine defined by \"/system/proxy/http/host\" that you "
-"proxy through."
+"The port on the machine defined by “/system/proxy/http/host” that you proxy "
+"through."
 msgstr ""
 "Porten for maskinen defineret af \"/system/proxy/http/host\", som du bruger "
 "som proxy."
@@ -3155,15 +3247,17 @@ msgstr "Godkend proxyserverforbindelser"
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:25
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/proxy/http/authentication-"
-"user\" and \"/system/proxy/http/authentication-password\".\n"
+"username/password combo is defined by "
+"“/system/proxy/http/authentication-user” and "
+"“/system/proxy/http/authentication-password”.\n"
 "\n"
 "This applies only to the http proxy; when using a separate https proxy, "
 "there is currently no way to specify that it should use authentication."
 msgstr ""
 "Hvis sand, vil forbindelser til proxyserveren kræve godkendelse. "
-"Kombinationen af brugernavn/adgangskode defineres af \"/system/proxy/http/"
-"authentication-user\" og \"/system/proxy/http/authentication-password\".\n"
+"Kombinationen af brugernavn/adgangskode defineres af "
+"\"/system/proxy/http/authentication-user\" og "
+"\"/system/proxy/http/authentication-password\".\n"
 "\n"
 "Dette gælder kun for http-proxyen; når der bruges en separat https-proxy, er "
 "der pt. ingen måde at angive at den skal bruge godkendelse."
@@ -3182,7 +3276,8 @@ msgstr "HTTP-proxyadgangskode"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:31
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr "Adgangskode, der skal gives ved godkendelse når der bruges HTTP-proxy."
+msgstr ""
+"Adgangskode, der skal gives ved godkendelse når der bruges HTTP-proxy."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:32
 msgid "Secure HTTP proxy host name"
@@ -3198,8 +3293,8 @@ msgstr "Port for sikker HTTP-proxy"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:35
 msgid ""
-"The port on the machine defined by \"/system/proxy/https/host\" that you "
-"proxy through."
+"The port on the machine defined by “/system/proxy/https/host” that you proxy "
+"through."
 msgstr ""
 "Porten på maskinen defineret af \"/system/proxy/https/host\", som du bruger "
 "som proxy."
@@ -3218,7 +3313,7 @@ msgstr "FTP-proxyport"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:39
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
+"The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
 msgstr ""
 "Porten på maskinen defineret af \"/system/proxy/ftp/host\", som du bruger "
@@ -3238,8 +3333,8 @@ msgstr "SOCKS-proxyport"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:43
 msgid ""
-"The port on the machine defined by \"/system/proxy/socks/host\" that you "
-"proxy through."
+"The port on the machine defined by “/system/proxy/socks/host” that you proxy "
+"through."
 msgstr ""
 "Porten på maskinen defineret af \"/system/proxy/socks/host\", som du bruger "
 "som proxy."
@@ -3266,45 +3361,44 @@ msgstr ""
 
 #~ msgid ""
 #~ "Setting this option to false can lead to buggy behavior, so users are "
-#~ "strongly discouraged from changing it from the default of true. Many "
-#~ "actions (e.g. clicking in the client area, moving or resizing the window) "
-#~ "normally raise the window as a side-effect. Setting this option to false, "
-#~ "which is strongly discouraged, will decouple raising from other user "
-#~ "actions, and ignore raise requests generated by applications. See http://"
-#~ "bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Even when this option is "
-#~ "false, windows can still be raised by an alt-left-click anywhere on the "
+#~ "strongly discouraged from changing it from the default of true. Many actions "
+#~ "(e.g. clicking in the client area, moving or resizing the window) normally "
+#~ "raise the window as a side-effect. Setting this option to false, which is "
+#~ "strongly discouraged, will decouple raising from other user actions, and "
+#~ "ignore raise requests generated by applications. See "
+#~ "http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Even when this option "
+#~ "is false, windows can still be raised by an alt-left-click anywhere on the "
 #~ "window, a normal click on the window decorations, or by special messages "
-#~ "from pagers, such as activation requests from tasklist applets. This "
-#~ "option is currently disabled in click-to-focus mode. Note that the list "
-#~ "of ways to raise windows when raise-on-click is false does not include "
-#~ "programmatic requests from applications to raise windows; such requests "
-#~ "will be ignored regardless of the reason for the request. If you are an "
-#~ "application developer and have a user complaining that your application "
-#~ "does not work with this setting disabled, tell them it is -their- fault "
-#~ "for breaking their window manager and that they need to change this "
-#~ "option back to true or live with the \"bug\" they requested."
+#~ "from pagers, such as activation requests from tasklist applets. This option "
+#~ "is currently disabled in click-to-focus mode. Note that the list of ways to "
+#~ "raise windows when raise-on-click is false does not include programmatic "
+#~ "requests from applications to raise windows; such requests will be ignored "
+#~ "regardless of the reason for the request. If you are an application "
+#~ "developer and have a user complaining that your application does not work "
+#~ "with this setting disabled, tell them it is -their- fault for breaking their "
+#~ "window manager and that they need to change this option back to true or live "
+#~ "with the \"bug\" they requested."
 #~ msgstr ""
-#~ "Sættes denne indstilling til false, kan det føre til fejlagtig opførsel, "
-#~ "så brugere frarådes stærkt at ændre den fra sin standardværdi som er "
-#~ "true. Mange handlinger (f.eks. at klikke i klientområdet, flytte eller "
-#~ "ændre størrelse på et vindue) hæver normalt vinduet som bivirkning. "
-#~ "Sættes denne indstilling til falsk, hvilket jo altså som sagt stærkt "
-#~ "frarådes, vil hævning blive frakoblet fra andre brugerhandlinger, "
-#~ "hævningsforespørgsler genereret af programmer vil blive ignoreret. Se See "
+#~ "Sættes denne indstilling til false, kan det føre til fejlagtig opførsel, så "
+#~ "brugere frarådes stærkt at ændre den fra sin standardværdi som er true. "
+#~ "Mange handlinger (f.eks. at klikke i klientområdet, flytte eller ændre "
+#~ "størrelse på et vindue) hæver normalt vinduet som bivirkning. Sættes denne "
+#~ "indstilling til falsk, hvilket jo altså som sagt stærkt frarådes, vil "
+#~ "hævning blive frakoblet fra andre brugerhandlinger, hævningsforespørgsler "
+#~ "genereret af programmer vil blive ignoreret. Se See "
 #~ "http://bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Selv når denne "
-#~ "indstilling er falsk, kan vinduer stadig hæves ved en alt-venstreklik "
-#~ "hvor som helst på vinduet, et normalt klik på vinduesdekorationerne, "
-#~ "eller af særlige beskeder fra \"pagers\" såsom aktiveringsforespørgsler "
-#~ "fra opgavelistepanelprogrammer. Denne indstilling er pt. slået fra i hæv-"
-#~ "ved-klik-tilstand. Bemærk at listen af måder hvorpå vinduer kan hæves når "
-#~ "hæv-ved-klik er falsk ikke inkluderer programmatiske forespørgsler fra "
-#~ "programmer om hævning af vinduer; sådanne forespørgsler vil blive "
-#~ "ignoreret uanset årsagen for forespørgslen. Hvis du er en programudvikler "
-#~ "og har en bruger som brokker sig over at dit program ikke fungerer med "
-#~ "denne indstilling slået fra, så sig til dem at det er -deres- skyld for "
-#~ "at ødelægge deres vindueshåndtering, og at de skal ændre denne "
-#~ "indstilling tilbage til sand, eller leve med \"fejlen\" som de nærmest "
-#~ "selv har bedt om."
+#~ "indstilling er falsk, kan vinduer stadig hæves ved en alt-venstreklik hvor "
+#~ "som helst på vinduet, et normalt klik på vinduesdekorationerne, eller af "
+#~ "særlige beskeder fra \"pagers\" såsom aktiveringsforespørgsler fra "
+#~ "opgavelistepanelprogrammer. Denne indstilling er pt. slået fra i "
+#~ "hæv-ved-klik-tilstand. Bemærk at listen af måder hvorpå vinduer kan hæves "
+#~ "når hæv-ved-klik er falsk ikke inkluderer programmatiske forespørgsler fra "
+#~ "programmer om hævning af vinduer; sådanne forespørgsler vil blive ignoreret "
+#~ "uanset årsagen for forespørgslen. Hvis du er en programudvikler og har en "
+#~ "bruger som brokker sig over at dit program ikke fungerer med denne "
+#~ "indstilling slået fra, så sig til dem at det er -deres- skyld for at "
+#~ "ødelægge deres vindueshåndtering, og at de skal ændre denne indstilling "
+#~ "tilbage til sand, eller leve med \"fejlen\" som de nærmest selv har bedt om."
 
 #~ msgid "Menus Have Icons"
 #~ msgstr "Menuer har ikoner"
@@ -3319,21 +3413,21 @@ msgstr ""
 #~ msgstr "Vis menuen \"Inputmetoder\""
 
 #~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "change the input method."
+#~ "Whether the context menus of entries and text views should offer to change "
+#~ "the input method."
 #~ msgstr ""
-#~ "Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde "
-#~ "at ændre inputmetoden."
+#~ "Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde at "
+#~ "ændre inputmetoden."
 
 #~ msgid "Show the 'Unicode Control Character' menu"
 #~ msgstr "Vis menuen \"Unicode Control Character\""
 
 #~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "insert control characters."
+#~ "Whether the context menus of entries and text views should offer to insert "
+#~ "control characters."
 #~ msgstr ""
-#~ "Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde "
-#~ "at indsætte kontroltegn."
+#~ "Om kontekstmenuer for indtastningsfelter og tekstvisninger skal tilbyde at "
+#~ "indsætte kontroltegn."
 
 #~ msgid "Only show mnemonics on when the Alt key is pressed"
 #~ msgstr "Vis kun genvejstaster når Alt-tasten holdes nede"
@@ -3347,25 +3441,24 @@ msgstr ""
 
 #~ msgid ""
 #~ "(Not implemented) Navigation works in terms of applications not windows"
-#~ msgstr ""
-#~ "(Ikke implementeret) Navigation virker mht. programmer, ikke vinduer"
+#~ msgstr "(Ikke implementeret) Navigation virker mht. programmer, ikke vinduer"
 
 #~ msgid ""
-#~ "If true, then the WM works in terms of applications rather than windows. "
-#~ "The concept is a bit abstract, but in general an application-based setup "
-#~ "is more like the Mac and less like Windows. When you focus a window in "
-#~ "application-based mode, all the windows in the application will be "
-#~ "raised. Also, in application-based mode, focus clicks are not passed "
-#~ "through to windows in other applications. Application-based mode is, "
-#~ "however, largely unimplemented at the moment."
+#~ "If true, then the WM works in terms of applications rather than windows. The "
+#~ "concept is a bit abstract, but in general an application-based setup is more "
+#~ "like the Mac and less like Windows. When you focus a window in "
+#~ "application-based mode, all the windows in the application will be raised. "
+#~ "Also, in application-based mode, focus clicks are not passed through to "
+#~ "windows in other applications. Application-based mode is, however, largely "
+#~ "unimplemented at the moment."
 #~ msgstr ""
-#~ "Hvis sand, vil indueshåndteringen arbejde med programmer frem for "
-#~ "vinduer. Konceptet er lidt abstrakt, men generelt vil en programbaseret "
-#~ "opsætning være mere Mac-agtig og mindre Windows-agtig. Når du fokuserer "
-#~ "et vindue i programbaseret tilstand, vil alle vinduer i programmet blive "
-#~ "hævet. Der ud over, i programbaseret tilstand, vil fokusklik ikke sendes "
-#~ "videre til vinduer i andre programmer. Programbaseret tilstand er dog "
-#~ "stort set ikke implementeret lige nu."
+#~ "Hvis sand, vil indueshåndteringen arbejde med programmer frem for vinduer. "
+#~ "Konceptet er lidt abstrakt, men generelt vil en programbaseret opsætning "
+#~ "være mere Mac-agtig og mindre Windows-agtig. Når du fokuserer et vindue i "
+#~ "programbaseret tilstand, vil alle vinduer i programmet blive hævet. Der ud "
+#~ "over, i programbaseret tilstand, vil fokusklik ikke sendes videre til "
+#~ "vinduer i andre programmer. Programbaseret tilstand er dog stort set ikke "
+#~ "implementeret lige nu."
 
 #~ msgid "Draw Desktop Background"
 #~ msgstr "Tegn skrivebordsbaggrund"
@@ -3380,14 +3473,12 @@ msgstr ""
 #~ msgstr "Om standardkalenderprogrammet kræver en terminal for at kunne køre."
 
 #~ msgid ""
-#~ "Argument used to execute programs in the terminal defined by the 'exec' "
-#~ "key."
+#~ "Argument used to execute programs in the terminal defined by the 'exec' key."
 #~ msgstr ""
 #~ "Argument, der bruges til at køre programmer i terminalen defineret ved "
 #~ "\"exec\"-nøglen."
 
-#~ msgid ""
-#~ "Set this to TRUE to activate the screensaver when the session is idle."
+#~ msgid "Set this to TRUE to activate the screensaver when the session is idle."
 #~ msgstr ""
-#~ "Sæt denne til sand for at aktivere pauseskærmen, når sessionen intet "
-#~ "laver."
+#~ "Sæt denne til sand for at aktivere pauseskærmen, når sessionen intet laver."
+
