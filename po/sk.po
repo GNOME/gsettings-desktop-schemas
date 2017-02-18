@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-01-11 17:50+0000\n"
-"PO-Revision-Date: 2017-01-29 11:17+0100\n"
-"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
+"POT-Creation-Date: 2017-02-15 11:55+0000\n"
+"PO-Revision-Date: 2017-02-17 16:42+0100\n"
+"Last-Translator: Peter Mráz <etkinator@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 # summary
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -1057,15 +1057,6 @@ msgstr "Zoznam zdrojov vstupu"
 
 # description
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
-#, fuzzy
-#| msgid ""
-#| "List of input source identifiers available. Each source is specified as a "
-#| "tuple of 2 strings. The first string is the type and can be one of 'xkb' "
-#| "or 'ibus'. For 'xkb' sources the second string is 'xkb_layout"
-#| "+xkb_variant' or just 'xkb_layout' if a XKB variant isn't needed. For "
-#| "'ibus' sources the second string is the IBus engine name. An empty list "
-#| "means that the X server's current XKB layout and variant won't be touched "
-#| "and IBus won't be used."
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of “xkb” or "
@@ -1466,13 +1457,15 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid "Enable the primary paste selection"
-msgstr ""
+msgstr "Povolí hlavné vloženie výberu"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
+"Ak je nastavené na true, gtk+ použije hlavné vloženie výberu, zvyčajne "
+"vyvolávané stredným tlačidlom myši."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
@@ -1778,11 +1771,11 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Whether to disable the touchpad while typing"
-msgstr ""
+msgstr "Či sa má počas písania vypnúť touchpad"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
-msgstr ""
+msgstr "Keď je povolené, tochpady budú počas písania na klávesnici zakázané."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Enable mouse clicks with touchpad"
@@ -1800,16 +1793,12 @@ msgid "Enable tap-and-drag with touchpad"
 msgstr "Povoliť kliknutie a ťahanie touchpadom"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#| "touchpad."
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
-"Nastavte na TRUE, keď chcete klepnutiami na touchpad odosielať kliknutia "
-"myši."
+"Nastavte na TRUE, keď chcete  ťahať klepnutím a následným presunom prsta, "
+"ktorý teraz zatlačil na touchpad."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Touchpad enabled"
@@ -1836,10 +1825,6 @@ msgid "Pointer speed"
 msgstr "Rýchlosť ukazovateľa"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
-#, fuzzy
-#| msgid ""
-#| "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
-#| "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1862,11 +1847,6 @@ msgid "Click method"
 msgstr "Metóda kliknutia"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
-#, fuzzy
-#| msgid ""
-#| "How to generate software-emulated buttons, either disabled ('none'), "
-#| "through specific areas ('areas'), number of fingers ('fingers') or left "
-#| "as hardware default ('default')."
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1911,10 +1891,6 @@ msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Prepína ľavé a pravé tlačidlo myši pre ľavákov."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
-#, fuzzy
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1932,15 +1908,6 @@ msgid "Acceleration profile"
 msgstr "Profil zrýchlenia"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
-#, fuzzy
-#| msgid ""
-#| "Acceleration profile used for connected mice. The acceleration profile "
-#| "can be set to either default ('default') which uses the default "
-#| "acceleration profile for each device, flat ('flat'), which accelerates by "
-#| "a device specific constant factor derived from the configured pointer "
-#| "speed, or adaptive ('adaptive') which adapts the acceleration depending "
-#| "on the mouse movement. If a mouse doesn't support the configured profile, "
-#| "'default' will be used."
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -2089,14 +2056,6 @@ msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Simulácia tlačidla kolieska myši. 0 túto funkcionalitu zakáže."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
-#, fuzzy
-#| msgid ""
-#| "Acceleration profile used for the trackball. The acceleration profile can "
-#| "be set to either default ('default') which uses the default acceleration "
-#| "profile, flat ('flat'), which accelerates by a device specific constant "
-#| "factor derived from the configured speed, or adaptive ('adaptive') which "
-#| "adapts the acceleration depending on the movement. If the trackball "
-#| "doesn't support the configured profile, 'default' will be used."
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2119,10 +2078,6 @@ msgstr "Ovládať viditeľnosť osobných informácií"
 
 # description
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:2
-#, fuzzy
-#| msgid ""
-#| "If set to true, the system will make an effort to not divulge the user's "
-#| "identity on screen or on the network."
 msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
@@ -2145,10 +2100,6 @@ msgstr "Určiť, či sa majú automaticky odstrániť staré súbory z Koša"
 
 # description
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:6
-#, fuzzy
-#| msgid ""
-#| "If TRUE, automatically remove files from the trash when they are older "
-#| "than 'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
@@ -2162,10 +2113,6 @@ msgid "Whether to remove old temporary files automatically"
 msgstr "Určiť, či sa majú automaticky odstrániť staré dočasné súbory"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:8
-#, fuzzy
-#| msgid ""
-#| "If TRUE, automatically remove temporary files when they are older than "
-#| "'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove temporary files when they are older than “old-"
 "files-age” days."
@@ -2290,11 +2237,6 @@ msgstr "Zobraziť celé meno na uzamknutej obrazovke"
 # MČ: „štít“? Čo si mám pod tým predstaviť?
 #  PM: ja neviem ani čo si mám predstaviť pod screen shield
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
-#, fuzzy
-#| msgid ""
-#| "Whether the user's full name is shown in the lock screen or not. This "
-#| "only affects the screen shield, the name is always shown in the unlock "
-#| "dialog."
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -2308,13 +2250,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Povoliť zabudovanie klávesnice do okna"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2335,14 +2270,6 @@ msgstr "Príkaz zabudovanej klávesnice"
 
 # description
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-#, fuzzy
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2365,12 +2292,6 @@ msgstr "Povoliť odhlásenie"
 
 # description
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key.\n"
@@ -2390,13 +2311,6 @@ msgstr "Čas pred zobrazením voľby na odhlásenie"
 
 # description
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
-#, fuzzy
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2415,13 +2329,6 @@ msgid "Logout command"
 msgstr "Príkaz na odhlásenie"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
-#, fuzzy
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2543,10 +2450,6 @@ msgid "Session type"
 msgstr "Typ relácie"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:4
-#, fuzzy
-#| msgid ""
-#| "The name of the session to use. Known values are \"gnome\" and \"gnome-"
-#| "fallback\"."
 msgid ""
 "The name of the session to use. Known values are “gnome” and “gnome-"
 "fallback”."
@@ -2994,13 +2897,6 @@ msgstr ""
 
 # description
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:2
-#, fuzzy
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the \"resize-with-right-button\" key. Modifier is expressed as <!"
-#| "[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -3021,11 +2917,6 @@ msgstr "Určiť, či sa má umožniť zmena veľkosti pravým tlačidlom"
 
 # description
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:4
-#, fuzzy
-#| msgid ""
-#| "Set this to true to resize with the right button and show a menu with the "
-#| "middle button while holding down the key given in \"mouse-button-modifier"
-#| "\"; set it to false to make it work the opposite way around."
 msgid ""
 "Set this to true to resize with the right button and show a menu with the "
 "middle button while holding down the key given in “mouse-button-modifier”; "
@@ -3042,15 +2933,6 @@ msgstr "Rozloženie tlačidiel na titulku okna"
 
 # description
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:6
-#, fuzzy
-#| msgid ""
-#| "Arrangement of buttons on the titlebar. The value should be a string, "
-#| "such as \"menu:minimize,maximize,spacer,close\"; the colon separates the "
-#| "left corner of the window from the right corner, and the button names are "
-#| "comma-separated. Duplicate buttons are not allowed. Unknown button names "
-#| "are silently ignored so that buttons can be added in future metacity "
-#| "versions without breaking older versions. A special spacer tag can be "
-#| "used to insert some space between two adjacent buttons."
 msgid ""
 "Arrangement of buttons on the titlebar. The value should be a string, such "
 "as “menu:minimize,maximize,spacer,close”; the colon separates the left "
@@ -3073,13 +2955,6 @@ msgid "Window focus mode"
 msgstr "Režim spôsobu zamerania okna"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:8
-#, fuzzy
-#| msgid ""
-#| "The window focus mode indicates how windows are activated. It has three "
-#| "possible values; \"click\" means windows must be clicked in order to "
-#| "focus them, \"sloppy\" means windows are focused when the mouse enters "
-#| "the window, and \"mouse\" means windows are focused when the mouse enters "
-#| "the window and unfocused when the mouse leaves the window."
 msgid ""
 "The window focus mode indicates how windows are activated. It has three "
 "possible values; “click” means windows must be clicked in order to focus "
@@ -3099,12 +2974,6 @@ msgstr "Ovláda ako budú okná zamerané"
 
 # description
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:10
-#, fuzzy
-#| msgid ""
-#| "This option provides additional control over how newly created windows "
-#| "get focus. It has two possible values; \"smart\" applies the user's "
-#| "normal focus mode, and \"strict\" results in windows started from a "
-#| "terminal not being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
@@ -3123,15 +2992,6 @@ msgstr ""
 "oblasť"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:12
-#, fuzzy
-#| msgid ""
-#| "The default, true, indicates that a window will be raised whenever its "
-#| "client area or its frame is clicked.\n"
-#| "\n"
-#| "Setting this to false means that a window will not be raised if it is "
-#| "clicked on the client area. To raise it, one can click anywhere in the "
-#| "window's frame, or Super-click on any part of the window. This mode is "
-#| "useful if one uses many overlapping windows."
 msgid ""
 "The default, true, indicates that a window will be raised whenever its "
 "client area or its frame is clicked.\n"
@@ -3142,7 +3002,7 @@ msgid ""
 "useful if one uses many overlapping windows."
 msgstr ""
 "Predvolená hodnota true určuje, že okno bude prenesené do popredia keď "
-"nastane kliknutie na jeho klientrkú oblasť alebo orámovanie.\n"
+"nastane kliknutie na jeho klientskú oblasť alebo orámovanie.\n"
 "\n"
 "Nastavenie na false znamená, že okno nebude prenesené do popredia, ak "
 "nastane kliknutie na jeho klientskú oblasť. Na jeho presunutie je potrebné "
@@ -3154,17 +3014,6 @@ msgid "Action on title bar double-click"
 msgstr "Akcia pri dvojitom kliknutí na titulok okna"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:16
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar.\n"
 "\n"
@@ -3191,17 +3040,6 @@ msgid "Action on title bar middle-click"
 msgstr "Akcia pri kliknutí stredným tlačidlom na titulok okna"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:20
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar.\n"
 "\n"
@@ -3229,17 +3067,6 @@ msgid "Action on title bar right-click"
 msgstr "Akcia pri kliknutí pravým tlačidlom na titulok okna"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:24
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar.\n"
 "\n"
