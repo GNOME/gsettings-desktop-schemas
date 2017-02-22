@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-12 23:22+0000\n"
-"PO-Revision-Date: 2016-02-13 08:41+0800\n"
+"POT-Creation-Date: 2017-01-11 17:50+0000\n"
+"PO-Revision-Date: 2017-02-20 15:34+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Taiwan) <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -54,6 +54,16 @@ msgid ""
 "when no accessibility features are enabled."
 msgstr "這個設定鍵會在未啟用無障礙功能時覆蓋無障礙存取狀態圖示的自動隱藏。"
 
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:3
+msgid "Always show the text caret"
+msgstr "永遠顯示鍵盤瀏覽"
+
+#: ../schemas/org.gnome.desktop.a11y.gschema.xml.in.h:4
+msgid ""
+"This key overrides the hiding of the text caret in noneditable text in "
+"applications."
+msgstr "這個設定鍵覆蓋了在應用程式的不可編輯文字上文字導覽的隱藏。"
+
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:1
 msgid "Enable accessibility keyboard shortcuts"
 msgstr "啟用鍵盤無障礙捷徑鍵"
@@ -86,11 +96,11 @@ msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr "在停用鍵盤無障礙功能前等待的時間。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:8
-msgid "Enable 'Bounce Keys'"
+msgid "Enable “Bounce Keys”"
 msgstr "啟用「彈跳鍵」"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:9
-msgid "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
+msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
 msgstr "「彈跳鍵」無障礙功能是否開啟。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:10
@@ -110,11 +120,11 @@ msgid "Whether to beep when a key is rejected."
 msgstr "當拒絕按鍵動作後是否發出聲響。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:14
-msgid "Enable 'Mouse Keys'"
+msgid "Enable “Mouse Keys”"
 msgstr "啟用「滑鼠按鍵」"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:15
-msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
+msgid "Whether the “Mouse Keys” accessibility feature is turned on."
 msgstr "「滑鼠鍵」無障礙功能是否開啟。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:16
@@ -143,11 +153,11 @@ msgid ""
 msgstr "在滑鼠移動鍵開始動作前要等待幾毫秒。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:22
-msgid "Enable 'Slow Keys'"
+msgid "Enable “Slow Keys”"
 msgstr "啟用「遲緩鍵」"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:23
-msgid "Whether the 'Slow Keys' accessibility feature is turned on."
+msgid "Whether the “Slow Keys” accessibility feature is turned on."
 msgstr "「遲緩鍵」無障礙功能是否開啟。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:24
@@ -197,11 +207,11 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "當按下特殊按鍵後是否發出聲響。"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:35
-msgid "Enable 'Toggle Keys'"
+msgid "Enable “Toggle Keys”"
 msgstr "啟用「切換鍵」"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:36
-msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
+msgid "Whether the “Toggle Keys” accessibility feature is turned on."
 msgstr "「切換鍵」無障礙功能是否開啟。"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:1
@@ -211,19 +221,19 @@ msgstr "滑鼠追蹤模式"
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:2
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
-"view and how it reacts to system mouse movement. The values are - none: no "
-"mouse tracking; - centered: the mouse image is displayed at the center of "
+"view and how it reacts to system mouse movement. The values are • none: no "
+"mouse tracking; • centered: the mouse image is displayed at the center of "
 "the zoom region (which also represents the point under the system mouse) and "
-"the magnified contents are scrolled as the system mouse moves; - "
+"the magnified contents are scrolled as the system mouse moves; • "
 "proportional: the position of the magnified mouse in the zoom region is "
-"proportionally the same as the position of the system mouse on screen; - "
+"proportionally the same as the position of the system mouse on screen; • "
 "push: when the magnified mouse intersects a boundary of the zoom region, the "
 "contents are scrolled into view."
 msgstr ""
-"決定放大的滑鼠圖示在放大檢視中的位置，以及如何反應系統滑鼠的移動。數值有 - "
-"none：不追蹤滑鼠； - centered：滑鼠圖示顯示在放大區域的中央 (也表示了系統滑鼠"
-"下的點) 而放大的內容會隨著系統滑鼠移動而捲動； - proportional：放大的滑鼠圖示"
-"在縮放區域中正如同系統滑鼠在畫面中的對應位置； - push：當放大的滑鼠接觸到縮放"
+"決定放大的滑鼠圖示在放大檢視中的位置，以及如何反應系統滑鼠的移動。數值有 • "
+"none：不追蹤滑鼠； • centered：滑鼠圖示顯示在放大區域的中央 (也表示了系統滑鼠"
+"下的點) 而放大的內容會隨著系統滑鼠移動而捲動； • proportional：放大的滑鼠圖示"
+"在縮放區域中正如同系統滑鼠在畫面中的對應位置； • push：當放大的滑鼠接觸到縮放"
 "區域的邊緣時，內容就會隨著捲動到檢視中。"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:3
@@ -236,29 +246,29 @@ msgid ""
 "\n"
 "The values are:\n"
 "\n"
-"- none: no focus tracking\n"
+"• none: no focus tracking\n"
 "\n"
-"- centered: the focused image is displayed at the center of the zoom region "
+"• centered: the focused image is displayed at the center of the zoom region "
 "(which also represents the point under the system focus) and the magnified "
 "contents are scrolled as the system focus moves\n"
 "\n"
-"- proportional: the position of the magnified focus in the zoom region is "
+"• proportional: the position of the magnified focus in the zoom region is "
 "proportionally the same as the position of the system focus on screen\n"
 "\n"
-"- push: when the magnified focus intersects a boundary of the zoom region, "
+"• push: when the magnified focus intersects a boundary of the zoom region, "
 "the contents are scrolled into view"
 msgstr ""
 "決定聚焦的元件在放大檢視中的位置。\n"
 "\n"
 "數值有：\n"
-" - none：不追蹤焦點\n"
+"• none：不追蹤焦點\n"
 "\n"
-" - centered：聚焦的影像會顯示在放大區域的中央 (也表示了系統焦點下的點) 而放大"
+"• centered：聚焦的影像會顯示在放大區域的中央 (也表示了系統焦點下的點) 而放大"
 "的內容會隨著系統焦點移動而捲動\n"
 "\n"
-" - proportional：放大的焦點位置在縮放區域中正如同系統焦點在畫面中的對應位置\n"
+"• proportional：放大的焦點位置在縮放區域中正如同系統焦點在畫面中的對應位置\n"
 "\n"
-" - push：當放大的焦點接觸到縮放區域的邊緣時，內容就會隨著捲動到檢視中"
+"• push：當放大的焦點接觸到縮放區域的邊緣時，內容就會隨著捲動到檢視中"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:15
 msgid "Caret Tracking Mode"
@@ -268,29 +278,29 @@ msgstr "鍵盤瀏覽追蹤模式"
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
-"- none: no caret tracking\n"
+"• none: no caret tracking\n"
 "\n"
-"- centered: the image of the caret is displayed at the center of the zoom "
+"• centered: the image of the caret is displayed at the center of the zoom "
 "region (which also represents the point under the system caret) and the "
 "magnified contents are scrolled as the system caret moves\n"
 "\n"
-"- proportional: the position of the magnified caret in the zoom region is "
+"• proportional: the position of the magnified caret in the zoom region is "
 "proportionally the same as the position of the system caret on screen\n"
 "\n"
-"- push: when the magnified caret intersects a boundary of the zoom region, "
+"• push: when the magnified caret intersects a boundary of the zoom region, "
 "the contents are scrolled into view"
 msgstr ""
 "決定鍵盤瀏覽在放大檢視中的位置。數值有：\n"
 "\n"
-" - none：不追蹤鍵盤瀏覽\n"
+"• none：不追蹤鍵盤瀏覽\n"
 "\n"
-" - centered：鍵盤瀏覽顯示在放大區域的中央 (也表示了系統鍵盤瀏覽下的點) 而放大"
+"• centered：鍵盤瀏覽顯示在放大區域的中央 (也表示了系統鍵盤瀏覽下的點) 而放大"
 "的內容會隨著系統鍵盤瀏覽移動而捲動\n"
 "\n"
-" - proportional：放大的鍵盤瀏覽在縮放區域中正如同系統鍵盤瀏覽在畫面中的對應位"
+"• proportional：放大的鍵盤瀏覽在縮放區域中正如同系統鍵盤瀏覽在畫面中的對應位"
 "置\n"
 "\n"
-" - push：當放大的鍵盤瀏覽接觸到縮放區域的邊緣時，內容就會隨著捲動到檢視中"
+"• push：當放大的鍵盤瀏覽接觸到縮放區域的邊緣時，內容就會隨著捲動到檢視中"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:25
 msgid "Screen position"
@@ -518,32 +528,32 @@ msgid "Gesture single click"
 msgstr "單擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
-msgstr "執行單擊動作的方向(「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform a single click (“left”, “right”, “up”, “down”)."
+msgstr "進行單擊動作的方向 (「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:7
 msgid "Gesture double click"
 msgstr "雙擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
-msgstr "執行雙擊動作的方向(「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform a double click (“left”, “right”, “up”, “down”)."
+msgstr "進行雙擊動作的方向 (「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:9
 msgid "Gesture drag click"
 msgstr "拖曳手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
-msgstr "執行拖曳動作的方向(「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform dragging (“left”, “right”, “up”, “down”)."
+msgstr "進行拖曳動作的方向 (「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:11
 msgid "Gesture secondary click"
 msgstr "次要點擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-msgid "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
-msgstr "執行次要點擊動作的方向(「左」、「右」、「上」、「下」)。"
+msgid "Direction to perform a secondary click (“left”, “right”, “up”, “down”)."
+msgstr "進行次要點擊動作的方向 (「左」、「右」、「上」、「下」)。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:13
 msgid "Dwell click mode"
@@ -551,7 +561,7 @@ msgstr "替代點擊手勢"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:14
 msgid ""
-"The active dwell click mode. Possible values are 'window' and 'gesture'."
+"The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr "替代點擊模式的使用。可能的數值有「window」和「gesture」。"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:15
@@ -595,7 +605,7 @@ msgid ""
 "List of relative settings paths at which app-folders are stored. Each folder "
 "uses the org.gnome.desktop.app-folders.folder schema."
 msgstr ""
-"儲存 app-folders 相關設定值路徑的清單。每個資料夾會使用 org.gnome.desktop."
+"儲存 app-folders 相關設定值路徑的列表。每個資料夾會使用 org.gnome.desktop."
 "app-folders.folder 基模。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:3
@@ -623,7 +633,7 @@ msgstr "應用程式"
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:8
 msgid ""
 "The list of IDs of applications that are explicitly included in this folder."
-msgstr "明確包含這個資料夾的應用程式 ID 清單。"
+msgstr "明確包含這個資料夾的應用程式 ID 列表。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:9
 msgid "Categories"
@@ -633,7 +643,7 @@ msgstr "分類"
 msgid ""
 "A list of categories for which apps will be placed into this folder by "
 "default, in addition to the apps that are listed in the apps key."
-msgstr "app 預設放到這個資料夾的分類清單，此外還有在 apps 設定鍵中列出的 app。"
+msgstr "app 預設放到這個資料夾的分類列表，此外還有在 apps 設定鍵中列出的 app。"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:11
 msgid "Excluded applications"
@@ -644,7 +654,7 @@ msgid ""
 "A list of IDs of applications that are excluded from this folder. This can "
 "be used to remove applications that would otherwise be included by category."
 msgstr ""
-"從這個資料夾排除的應用程式 ID 清單。這可以用來移除可能被依分類包含進來的應用"
+"從這個資料夾排除的應用程式 ID 列表。這可以用來移除可能被依分類包含進來的應用"
 "程式。"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:1
@@ -656,12 +666,12 @@ msgstr "影像選項"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\", \"spanned\"."
+"values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
+"“spanned”."
 msgstr ""
 "決定由 wallpaper_filename 設定的影像要如何繪製。可能的數值有「none」(無)、"
 "「wallpaper」(桌布)、「centerd」(置中)、「scaled」(縮放)、「stretched」(延"
-"展)、「zoom」、「spanned」。"
+"展)、「zoom」(放大)、「spanned」(跨越)。"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:3
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:39
@@ -713,8 +723,8 @@ msgstr "顏色漸層類型"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
 msgid ""
-"How to shade the background color. Possible values are \"horizontal\", "
-"\"vertical\", and \"solid\"."
+"How to shade the background color. Possible values are “horizontal”, "
+"“vertical”, and “solid”."
 msgstr ""
 "如果呈現背景顏色。可能的數值有「horizontal」(水平)、「vertical」(垂直) 和"
 "「solid」(固定)。"
@@ -726,6 +736,14 @@ msgstr "讓檔案管理員來處理桌面"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "如果設為「true」，檔案管理員就會在桌面上繪出圖示。"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
+msgid "Show the week date in the calendar"
+msgstr "在行事曆顯示週日期"
+
+#: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:2
+msgid "If true, display the ISO week date in the calendar."
+msgstr "如設定為「true」，在行事曆中顯示 ISO 週日期。"
 
 #: ../schemas/org.gnome.desktop.datetime.gschema.xml.in.h:1
 msgid "Automatically update timezone"
@@ -803,7 +821,7 @@ msgstr "執行的引數"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:18
 msgid ""
-"Argument used to execute programs in the terminal defined by the 'exec' "
+"Argument used to execute programs in the terminal defined by the “exec” "
 "key.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored. The default terminal and how "
@@ -821,57 +839,71 @@ msgstr "目前的輸入來源"
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
-"sources_length) as long as the sources list isn't empty."
+"sources_length) as long as the sources list isn’t empty.\n"
+"\n"
+"DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"輸入來源清單中以零為基礎的索引，用以指定目前使用的輸入來源。當來源清單不是空"
-"白時數值會自動轉為範圍  [0, sources_length) 中。"
+"輸入來源列表中以零為基礎的索引，用以指定目前使用的輸入來源。當來源列表不是空"
+"白時數值會自動轉為範圍  [0, sources_length) 中。\n"
+"\n"
+"已廢棄：這個設定鍵已廢棄並忽略。"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:3
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
 msgid "List of input sources"
 msgstr "編輯輸入來源"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:4
-msgid ""
-"List of input source identifiers available. Each source is specified as a "
-"tuple of 2 strings. The first string is the type and can be one of 'xkb' or "
-"'ibus'. For 'xkb' sources the second string is 'xkb_layout+xkb_variant' or "
-"just 'xkb_layout' if a XKB variant isn't needed. For 'ibus' sources the "
-"second string is the IBus engine name. An empty list means that the X "
-"server's current XKB layout and variant won't be touched and IBus won't be "
-"used."
-msgstr ""
-"可用輸入來源識別碼的清單。每個來源是由 2 個字串組成。第一個字串表示類型，可以"
-"是「xkb」或「ibus」。當來源是「xkb」時第二個字串是「xkb_layout+xkb_variant」"
-"或當不需要 XKB 變體時只需要「xkb_layout」。當來源是「ibus」時第二個字串是 "
-"IBus 引擎的名稱。空白清單表示不會處理 X server 目前的 XKB 配置與變體，也不會"
-"使用 IBus。"
-
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:5
-msgid "List of XKB options"
-msgstr "XKB 選項清單"
-
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
 msgid ""
-"List of XKB options. Each option is an XKB option string as defined by "
-"xkeyboard-config's rules files."
+"List of input source identifiers available. Each source is specified as a "
+"tuple of 2 strings. The first string is the type and can be one of “xkb” or "
+"“ibus”. For “xkb” sources the second string is “xkb_layout+xkb_variant” or "
+"just “xkb_layout” if a XKB variant isn’t needed. For “ibus” sources the "
+"second string is the IBus engine name. An empty list means that the X "
+"server’s current XKB layout and variant won’t be touched and IBus won’t be "
+"used."
 msgstr ""
-"XKB 選項的清單。其中的每個選項都是 xkeyboard-config 規則檔案中定義的 XKB 選項"
-"字串。"
+"可用輸入來源識別碼的列表。每個來源是由 2 個字串組成。第一個字串表示類型，可以"
+"是「xkb」或「ibus」。當來源是「xkb」時第二個字串是「xkb_layout+xkb_variant」"
+"或當不需要 XKB 變體時只需要「xkb_layout」。當來源是「ibus」時第二個字串是 "
+"IBus 引擎的名稱。空白列表表示不會處理 X server 目前的 XKB 配置與變體，也不會"
+"使用 IBus。"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
+msgid "List of most recently used input sources"
+msgstr "最近使用的輸入來源列表"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+msgid ""
+"List of most recently used input sources. The value is in the same format as "
+"the available sources list."
+msgstr "最近使用過的輸入來源列表。這個數值與可用的輸入來源列表格式相同。"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+msgid "List of XKB options"
+msgstr "XKB 選項列表"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+msgid ""
+"List of XKB options. Each option is an XKB option string as defined by "
+"xkeyboard-config’s rules files."
+msgstr ""
+"XKB 選項的列表。其中的每個選項都是 xkeyboard-config 規則檔案中定義的 XKB 選項"
+"字串。"
+
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:11
 msgid "Show all installed input sources"
 msgstr "顯示所有安裝的輸入來源"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:12
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr "讓所有安裝的輸入來源都能在系統設定值中選擇。"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
 msgstr "每個視窗使用不同的輸入來源"
 
-#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:14
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -921,8 +953,7 @@ msgstr "工具列樣式"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:10
 msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
+"Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
 "工具列樣式。有效的數值有「both」(兩者)、「both-horiz」(兩者-水平)、「icons」"
 "(圖示)和「text」(文字)。"
@@ -948,7 +979,7 @@ msgid "Toolbar Icon Size"
 msgstr "工具列圖示尺寸"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
-msgid "Size of icons in toolbars, either \"small\" or \"large\"."
+msgid "Size of icons in toolbars, either “small” or “large”."
 msgstr "工具列中圖示的尺寸，可以為「small」(小)或「large」(大)。"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
@@ -1118,20 +1149,20 @@ msgstr "顏色選擇器使用的調色盤"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
 msgid ""
-"Palette used in the color selector as defined by the 'gtk-color-palette' "
+"Palette used in the color selector as defined by the “gtk-color-palette” "
 "setting"
 msgstr "用於顏色選擇器的調色盤，如「gtk-color-palette」設定值所定義"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
 msgid "List of symbolic names and color equivalents"
-msgstr "符號名稱與顏色同義字的清單"
+msgstr "符號名稱與顏色同義字的列表"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
 msgid ""
-"A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
-"scheme' setting"
+"A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
+"setting"
 msgstr ""
-"一種 '\\n' 分隔的「name:color」清單，如「gtk-color-scheme」設定值所定義"
+"一種 '\\n' 分隔的「name:color」列表，如「gtk-color-scheme」設定值所定義"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
@@ -1163,6 +1194,16 @@ msgid ""
 "icon."
 msgstr "如設定為「true」，在狀態列中除了顯示圖示外還顯示電池百分比。"
 
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+msgid "Enable the primary paste selection"
+msgstr "啟用主要剪貼選擇範圍"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+msgid ""
+"If true, gtk+ uses the primary paste selection, usually triggered by a "
+"middle mouse button click."
+msgstr "如果為 true，gtk + 使用主要剪貼選擇範圍，通常由按一下滑鼠中鍵觸發。"
+
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "停用命令列"
@@ -1170,8 +1211,8 @@ msgstr "停用命令列"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:2
 msgid ""
 "Prevent the user from accessing the terminal or specifying a command line to "
-"be executed. For example, this would disable access to the panel's \"Run "
-"Application\" dialog."
+"be executed. For example, this would disable access to the panel’s “Run "
+"Application” dialog."
 msgstr ""
 "防止使用者存取終端機或指定要執行的命令列。舉例來說，這會停用面板的「執行應用"
 "程式」對話盒。"
@@ -1183,7 +1224,7 @@ msgstr "停用儲存到磁碟"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:4
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
-"access to all applications' \"Save as\" dialogs."
+"access to all applications’ “Save as” dialogs."
 msgstr ""
 "防止使用者儲存檔案到磁碟。舉例來說，這會停用所有應用程式的「另存為」對話盒。"
 
@@ -1194,7 +1235,7 @@ msgstr "停用列印"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:6
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
-"all applications' \"Print\" dialogs."
+"all applications’ “Print” dialogs."
 msgstr "防止使用者進行列印。舉例來說，這會停用所有應用程式的「列印」對話盒。"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:7
@@ -1204,7 +1245,7 @@ msgstr "停用列印設定"
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:8
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
-"disable access to all applications' \"Print Setup\" dialogs."
+"disable access to all applications’ “Print Setup” dialogs."
 msgstr ""
 "防止使用者修改列印設定值。舉例來說，這會停用所有應用程式的「列印設定」對話"
 "盒。"
@@ -1217,7 +1258,7 @@ msgstr "停用使用者切換"
 msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
-msgstr "防止使用者在作業階段使用中時切換到另一個帳號。"
+msgstr "防止使用者在工作階段使用中時切換到另一個帳號。"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:11
 msgid "Disable lock screen"
@@ -1295,7 +1336,7 @@ msgstr "如果設為「true」，Nautilus 在媒體插入時永不提示或自�
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:7
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
-msgstr "偏好執行的 x-content/* 類型應用程式的清單"
+msgstr "偏好執行的 x-content/* 類型應用程式的列表"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:8
 msgid ""
@@ -1303,33 +1344,33 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
-"使用者在偏好設定中選擇執行的 x-content/* 類型應用程式的清單。特定類型的偏好應"
+"使用者在偏好設定中選擇執行的 x-content/* 類型應用程式的列表。特定類型的偏好應"
 "用程式會在符合這些類型的媒體插入時執行。"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:9
-msgid "List of x-content/* types set to \"Do Nothing\""
-msgstr "設定為「Do Nothing」的 x-content/* 類型的清單"
+msgid "List of x-content/* types set to “Do Nothing”"
+msgstr "設定為「Do Nothing」的 x-content/* 類型的列表"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:10
 msgid ""
-"List of x-content/* types for which the user have chosen \"Do Nothing\" in "
-"the preference capplet. No prompt will be shown nor will any matching "
+"List of x-content/* types for which the user have chosen “Do Nothing” in the "
+"preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
-"使用者在偏好設定中選擇「Do Nothing」(不做任何事) 的 x-content/* 類型的清單。"
+"使用者在偏好設定中選擇「Do Nothing」(不做任何事) 的 x-content/* 類型的列表。"
 "當符合這些類型的媒體插入時不會有提示，也不會執行符合的應用程式。"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:11
-msgid "List of x-content/* types set to \"Open Folder\""
-msgstr "設定為「Open Folder」的 x-content/* 類型的清單"
+msgid "List of x-content/* types set to “Open Folder”"
+msgstr "設定為「Open Folder」的 x-content/* 類型的列表"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:12
 msgid ""
-"List of x-content/* types for which the user have chosen \"Open Folder\" in "
+"List of x-content/* types for which the user have chosen “Open Folder” in "
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
-"使用者在偏好設定中選擇「Open Folder」(開啟資料夾) 的 x-content/* 類型的清單。"
+"使用者在偏好設定中選擇「Open Folder」(開啟資料夾) 的 x-content/* 類型的列表。"
 "當符合這些類型的媒體插入時會開啟資料夾視窗。"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:1
@@ -1414,121 +1455,166 @@ msgstr "是否啟用邊緣捲動"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
-"When disabled, touchpads that only support edge scrolling (and not 2-finger "
-"scrolling) will have that feature disabled."
-msgstr "當停用時，只支援邊緣捲動 (非 2 指捲動)的觸控板會將該功能停用。"
+"When enabled, touchpads that support edge scrolling will have that feature "
+"enabled."
+msgstr "當啟用時，支援邊緣捲動的觸控板會將該功能啟用。"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
+msgid ""
+"When enabled, touchpads that support two-finger scrolling will have that "
+"feature enabled."
+msgstr "當啟用時，支援 2 指捲動的觸控板會將該功能啟用。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+msgid "Whether to disable the touchpad while typing"
+msgstr "打字時是否停用觸控板"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+msgid "When enabled, touchpads will be disabled while typing on the keyboard."
+msgstr "當啟用時，將在鍵盤上打字時停用觸控板。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Enable mouse clicks with touchpad"
 msgstr "啟用觸控板的滑鼠點擊"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr "設定此項為 TRUE 可以在觸控板上輕點來送出滑鼠點擊的指令。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+msgid "Enable tap-and-drag with touchpad"
+msgstr "啟用觸控板的滑鼠點擊拖放"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+msgid ""
+"Set this to TRUE to be able to start a drag by tapping and immediately "
+"moving the finger that’s now pressed on the touchpad."
+msgstr ""
+"設定此項為 TRUE 可以在觸控板上輕點並馬上將手指按在觸控板上滑動來送出滑鼠拖放"
+"的指令。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Touchpad enabled"
 msgstr "觸控板啟用"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "定義啟用觸控板的情形。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Touchpad button orientation"
 msgstr "觸控板按鈕方向"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
 msgid ""
-"Swap left and right mouse buttons for left-handed mice with 'left', 'right' "
-"for right-handed, 'mouse' to follow the mouse setting."
+"Swap left and right mouse buttons for left-handed mice with “left”, “right” "
+"for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
-"「left」為左手滑鼠交換左右滑鼠鍵，「right」為右手滑鼠，「mouse」為跟隨滑鼠設"
-"定值。"
+"交換左右滑鼠鍵，「left」為左手滑鼠，「right」為右手滑鼠，「mouse」為跟隨滑鼠"
+"設定值。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Pointer speed"
 msgstr "指標速度"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
-"(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
+"(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "觸控板指標速度。接受的數值在 [-1..1] 範圍 (從「unaccelerated」到「fast」)。系"
 "統預設值的數值為 0。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Natural scrolling"
 msgstr "自然捲動"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr "設定為「TRUE」則啟用觸控板自然(反向)捲動。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Click method"
 msgstr "點擊方法"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
 msgid ""
-"How to generate software-emulated buttons, either disabled ('none'), through "
-"specific areas ('areas'), number of fingers ('fingers') or left as hardware "
-"default ('default')."
+"How to generate software-emulated buttons, either disabled (“none”), through "
+"specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
+"default (“default”)."
 msgstr ""
-"如何產生軟體模擬按鈕，可以是停用 ('none')，透過指定的區域 ('areas')，手指數 "
-"('fingers') 或保持硬體預設值 ('default')。"
+"如何產生軟體模擬按鈕，可以是停用 (「none」)，透過指定的區域 (「areas」)，手指"
+"數 (「fingers」) 或保持硬體預設值 (「default」)。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Keyboard repeat"
 msgstr "鍵盤重複"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "設定此項為 TRUE 以啟用鍵盤重複。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Key Repeat Interval"
 msgstr "鍵盤重複間隔"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
 msgid "Delay between repeats in milliseconds."
 msgstr "重複之間的延遲時間，以毫秒計。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
 msgid "Initial Key Repeat Delay"
 msgstr "初始按鍵重複延遲"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
 msgid "Initial key repeat delay in milliseconds."
 msgstr "初始按鍵重複延遲，以毫秒計"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid "Mouse button orientation"
 msgstr "滑鼠按鈕方向"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "為左手用滑鼠交換左、右滑鼠按鍵。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-"\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
+"“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "滑鼠指標速度。接受的數值在 [-1..1] 範圍 (從「unaccelerated」到「fast」)。系統"
 "預設值的數值為 0。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "設定為「TRUE」則啟用滑鼠自然(反向)捲動。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
+msgid "Acceleration profile"
+msgstr "加速設定檔"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
+msgid ""
+"Acceleration profile used for connected mice. The acceleration profile can "
+"be set to either default (“default”) which uses the default acceleration "
+"profile for each device, flat (“flat”), which accelerates by a device "
+"specific constant factor derived from the configured pointer speed, or "
+"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
+"movement. If a mouse doesn’t support the configured profile, “default” will "
+"be used."
+msgstr ""
+"用於連接滑鼠的加速設定檔。加速設定檔可以設定為預設值(「default」)，即每個裝都"
+"會使用的預設加速設定檔；個別(「flat」)，從設定好的指標速度來加速裝置個別的常"
+"數因數；自適應(「adaptive」)，依照滑鼠移動來調整加速。如果滑鼠不支援設定的設"
+"定檔，將會使用「default」。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
 msgid "Drawing tablet mapping"
 msgstr "繪圖板對映"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:33
 msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1536,11 +1622,105 @@ msgstr ""
 "要對映到繪圖板的螢幕 EDID 資訊。必須為 [vendor, product, serial] 格式。 "
 "[\"\",\"\",\"\"] 則會停用對映。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+msgid "Tablet mapping"
+msgstr "繪圖板對映"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
+msgid "How input affects the pointer on the screen"
+msgstr "輸入如何影響螢幕上的指標"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
+msgid "Tablet area"
+msgstr "繪圖板區域"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:37
+msgid ""
+"Dead area padding around the active area, in percentages. Respectively "
+"applied to left,right,top and bottom sides."
+msgstr "使用中區域周圍的禁區墊充，以百分比計。分別可以套用到左、右、上、下方。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
+msgid "Tablet aspect ratio"
+msgstr "繪圖板長寬比"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:39
+msgid ""
+"Enable this to restrict the tablet area to match the aspect ratio of the "
+"output."
+msgstr "啟用此選項以限制繪圖板的區域以符合輸出長寬比。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
+msgid "Tablet left-handed mode"
+msgstr "繪圖板左手模式"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:41
+msgid ""
+"Enable this to allow physically rotating the tablet for left-handed setups"
+msgstr "啟用此選項以允許左手設定能實體旋轉繪圖板"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
+msgid "Stylus pressure curve"
+msgstr "手寫筆壓力曲線"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr "將此設定為 x1，y1 和 x2，y2 以套用於手寫筆的壓力曲線。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
+msgid "Eraser pressure curve"
+msgstr "橡皮擦壓力曲線"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr "將此設定為 x1，y1 和 x2，y2 以套用於橡皮擦的壓力曲線。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
+msgid "Button action"
+msgstr "按鈕動作"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
+msgid "Stylus button action, this button is located along the pen handle."
+msgstr "手寫筆按鈕動作，此按鈕位於畫筆上。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+msgid "Secondary button action"
+msgstr "第二按鈕動作"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
+msgid ""
+"Secondary stylus button action, this button is located along the pen handle "
+"on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
+"Inking Pen only have one button, this setting is ineffective on those."
+msgstr ""
+"第二手寫筆按鈕動作，此按鈕位於某些畫筆上，像是 Grip Pen。其他像是 Airbrush "
+"Pen 或 Inking Pen 等手寫筆只有一個按鈕，這個設定值就沒有任何作用。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+msgid "Pad button action type"
+msgstr "觸控板按鈕動作類型"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+msgid "The type of action triggered by the button being pressed."
+msgstr "由按下該按鈕觸發的動作的類型。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+msgid "Key combination for the custom action"
+msgstr "自訂動作的按鍵組合"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr "當按鈕按下自訂動作時產生的鍵盤快捷鍵。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Touchscreen display mapping"
 msgstr "觸控螢幕顯示對映"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1548,9 +1728,23 @@ msgstr ""
 "要對應到觸控螢幕的螢幕 EDID 資訊。必須為 [vendor, product, serial] 格式。 "
 "[\"\",\"\",\"\"] 則會停用對應。"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "滑鼠滾輪模擬按鈕。0 為停用此功能。"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
+msgid ""
+"Acceleration profile used for the trackball. The acceleration profile can be "
+"set to either default (“default”) which uses the default acceleration "
+"profile, flat (“flat”), which accelerates by a device specific constant "
+"factor derived from the configured speed, or adaptive (“adaptive”) which "
+"adapts the acceleration depending on the movement. If the trackball doesn’t "
+"support the configured profile, “default” will be used."
+msgstr ""
+"用於連接軌跡球的加速設定檔。加速設定檔可以設定為預設值(「default」)，即每個裝"
+"都會使用的預設加速設定檔；個別(「flat」)，從設定好的指標速度來加速裝置個別的"
+"常數因數；自適應(「adaptive」)，依照軌跡球移動來調整加速。如果軌跡球不支援設"
+"定的設定檔，將會使用「default」。"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -1558,7 +1752,7 @@ msgstr "控制個人資訊的顯示"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:2
 msgid ""
-"If set to true, the system will make an effort to not divulge the user's "
+"If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
 msgstr "如果設定為 true，系統會減少個人身分識別出現在螢幕或網路的程度。"
 
@@ -1577,7 +1771,7 @@ msgstr "是否自動移除回收筒中的舊檔案"
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:6
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
-"'old-files-age' days."
+"“old-files-age” days."
 msgstr "如果設定為 TRUE，會自動移除回收筒中比「old-files-age」日數更早的檔案。"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:7
@@ -1586,8 +1780,8 @@ msgstr "是否自動移除舊的暫存檔案"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:8
 msgid ""
-"If TRUE, automatically remove temporary files when they are older than 'old-"
-"files-age' days."
+"If TRUE, automatically remove temporary files when they are older than “old-"
+"files-age” days."
 msgstr "如果設定為 TRUE，會自動移除比「old-files-age」日數更早的暫存檔案。"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:9
@@ -1656,7 +1850,7 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
 "session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"設定此項為 TRUE 則作業階段閒置時會啟用螢幕保護程式。\n"
+"設定此項為 TRUE 則工作階段閒置時會啟用螢幕保護程式。\n"
 "\n"
 "已廢棄：這個設定鍵已廢棄並忽略。如果您不想要使用螢幕保護程式，請將「org."
 "gnome.session.idle-delay」設為 0。"
@@ -1684,7 +1878,7 @@ msgstr "在鎖定畫面中顯示全名"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
 msgid ""
-"Whether the user's full name is shown in the lock screen or not. This only "
+"Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 "是否要在鎖定畫面中顯示使用者的全名。這只對螢幕護罩有影響，名稱在解鎖對話盒中"
@@ -1697,7 +1891,7 @@ msgstr "允許內嵌鍵盤到視窗"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
-"to unlock. The \"keyboard_command\" key must be set with the appropriate "
+"to unlock. The “keyboard_command” key must be set with the appropriate "
 "command.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
@@ -1712,8 +1906,8 @@ msgstr "內嵌鍵盤指令"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
 msgid ""
-"The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-"set to TRUE, to embed a keyboard widget into the window. This command should "
+"The command that will be run, if the “embedded_keyboard_enabled” key is set "
+"to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
 "output.\n"
 "\n"
@@ -1731,7 +1925,7 @@ msgstr "允許登出"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-"out after a delay. The delay is specified in the \"logout_delay\" key.\n"
+"out after a delay. The delay is specified in the “logout_delay” key.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
@@ -1748,7 +1942,7 @@ msgstr "登出選項時間"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE.\n"
+"“logout_enable” key is set to TRUE.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored"
 msgstr ""
@@ -1765,7 +1959,7 @@ msgstr "登出指令"
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE.\n"
+"the “logout_enable” key is set to TRUE.\n"
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
@@ -1786,7 +1980,7 @@ msgstr "設定此項為 TRUE 以在解鎖對話盒中提供切換到不同使用
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
 msgid "Allow the session status message to be displayed"
-msgstr "允許顯示作業階段狀態訊息"
+msgstr "允許顯示工作階段狀態訊息"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:34
 msgid ""
@@ -1794,7 +1988,7 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"當螢幕鎖定時允許顯示作業階段狀態訊息。\n"
+"當螢幕鎖定時允許顯示工作階段狀態訊息。\n"
 "\n"
 "已廢棄：這個設定鍵已廢棄並忽略。"
 
@@ -1815,29 +2009,29 @@ msgstr ""
 msgid ""
 "List of desktop file IDs for which the associated default-enabled search "
 "provider should be disabled"
-msgstr "會停用的關聯預設啟用搜尋提供者的 desktop 檔案 ID 清單"
+msgstr "會停用的關聯預設啟用搜尋提供者的 desktop 檔案 ID 列表"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:4
 msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
-msgstr "當搜尋時，讓包含於這個清單中的應用程式不會被顯示。"
+msgstr "當搜尋時，讓包含於這個列表中的應用程式不會被顯示。"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:5
 msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
-msgstr "會停用的關聯預設啟用搜尋提供者的 desktop 檔案 ID 清單"
+msgstr "會停用的關聯預設啟用搜尋提供者的 desktop 檔案 ID 列表"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:6
 msgid ""
 "Results for applications contained in this list will be displayed when "
 "searching."
-msgstr "當搜尋時，讓包含於這個清單中的應用程式結果不會被顯示。"
+msgstr "當搜尋時，讓包含於這個列表中的應用程式結果不會被顯示。"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
-msgstr "用於搜尋提供者順序排序的 desktop 檔案 ID 清單"
+msgstr "用於搜尋提供者順序排序的 desktop 檔案 ID 列表"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:8
 msgid ""
@@ -1845,27 +2039,27 @@ msgid ""
 "specified order. Results for applications not specified in this list will be "
 "displayed last, sorted alphabetically."
 msgstr ""
-"讓包含於這個清單中的應用程式以指定的順序排序。清單中沒有指定的應用程式結果會"
-"在清單的最後一個項目前顯示，以字母順序排序。"
+"讓包含於這個列表中的應用程式以指定的順序排序。列表中沒有指定的應用程式結果會"
+"在列表的最後一個項目前顯示，以字母順序排序。"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:1
 msgid "Time before session is considered idle"
-msgstr "作業階段被認定為閒置的時間"
+msgstr "工作階段被認定為閒置的時間"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:2
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
-msgstr "作業階段被認定為閒置的不使用電腦秒數。"
+msgstr "工作階段被認定為閒置的不使用電腦秒數。"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:3
 msgid "Session type"
-msgstr "作業階段類型"
+msgstr "工作階段類型"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:4
 msgid ""
-"The name of the session to use. Known values are \"gnome\" and \"gnome-"
-"fallback\"."
-msgstr "要使用的作業階段名稱。已知的數值有「gnome」和「gnome-fallback」。"
+"The name of the session to use. Known values are “gnome” and “gnome-"
+"fallback”."
+msgstr "要使用的工作階段名稱。已知的數值有「gnome」和「gnome-fallback」。"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:1
 msgid "Sounds for events"
@@ -1916,13 +2110,13 @@ msgstr "設定為「true」以停用所有外部縮圖程式，不論它們各�
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:3
 msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
-msgstr "會停用的外部縮圖程式 mime 類型清單"
+msgstr "會停用的外部縮圖程式 mime 類型列表"
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:4
 msgid ""
 "Thumbnails will not be created for files whose mime-type is contained in the "
 "list."
-msgstr "包含於這個清單中的 mime 類型的檔案將不會建立縮圖。"
+msgstr "包含於這個列表中的 mime 類型的檔案將不會建立縮圖。"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:1
 msgid "Switch to workspace 1"
@@ -2061,7 +2255,7 @@ msgid "Show the run command prompt"
 msgstr "顯示執行指令提示"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:35
-msgid "Don't use"
+msgid "Don’t use"
 msgstr "不要使用"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:36
@@ -2285,13 +2479,13 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the \"resize-with-right-button\" key. Modifier is expressed as <!"
-"[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
+"the “resize-with-right-button” key. Modifier is expressed as <![CDATA[\"<Alt>"
+"\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
-"當在視窗中按下滑鼠按鈕及本特殊按鍵會：移動視窗（左按鈕）、調整視窗尺寸（中按"
-"鈕）或顯示視窗選單（右按鈕）。使用「resize-with-right-button」設定鍵可以交換"
-"中和右鍵的操作。特殊按鍵可以表示為 <![CDATA[\"<Alt>\"]]> 或 <!"
-"[CDATA[\"<Super>\"]]>。"
+"當在視窗中按下滑鼠按鈕及本特殊按鍵會：移動視窗 (左按鈕)、調整視窗尺寸 (中按"
+"鈕) 或顯示視窗選單 (右按鈕)。使用「resize-with-right-button」設定鍵可以交換中"
+"和右鍵的操作。特殊按鍵可以表示為 <![CDATA[\"<Alt>\"]]> 或 <![CDATA[\"<Super>"
+"\"]]>。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:3
 msgid "Whether to resize with the right button"
@@ -2300,7 +2494,7 @@ msgstr "是否以右鍵調整大小"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:4
 msgid ""
 "Set this to true to resize with the right button and show a menu with the "
-"middle button while holding down the key given in \"mouse-button-modifier\"; "
+"middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
 "將此項設為 true 則按下「mouse-button-modifier」指定的按鍵時，可用右鍵調整大小"
@@ -2313,15 +2507,15 @@ msgstr "標題列上的按鈕排列"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:6
 msgid ""
 "Arrangement of buttons on the titlebar. The value should be a string, such "
-"as \"menu:minimize,maximize,spacer,close\"; the colon separates the left "
+"as “menu:minimize,maximize,spacer,close”; the colon separates the left "
 "corner of the window from the right corner, and the button names are comma-"
 "separated. Duplicate buttons are not allowed. Unknown button names are "
 "silently ignored so that buttons can be added in future metacity versions "
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
-"標題列上的按鈕排列。設定值必須為字串，例如“menu:minimize,maximize,spacer,"
-"close”；冒號表示將視窗左上角及右上角分開，而按鈕名稱則以逗號分開。不接受重複"
+"標題列上的按鈕排列。設定值必須為字串，例如「menu:minimize,maximize,spacer,"
+"close」；冒號表示將視窗左上角及右上角分開，而按鈕名稱則以逗號分開。不接受重複"
 "的按鈕。不明的按鈕會忽略不理，使得在日後的 metacity 版本增加新的按鈕時也不會"
 "令舊版本無法使用。特殊的 spacer 標籤則是用來在兩個相鄰的按鈕之間加入空白。"
 
@@ -2332,15 +2526,15 @@ msgstr "視窗焦點模式"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:8
 msgid ""
 "The window focus mode indicates how windows are activated. It has three "
-"possible values; \"click\" means windows must be clicked in order to focus "
-"them, \"sloppy\" means windows are focused when the mouse enters the window, "
-"and \"mouse\" means windows are focused when the mouse enters the window and "
+"possible values; “click” means windows must be clicked in order to focus "
+"them, “sloppy” means windows are focused when the mouse enters the window, "
+"and “mouse” means windows are focused when the mouse enters the window and "
 "unfocused when the mouse leaves the window."
 msgstr ""
-"「視窗焦點模式」表示視窗如何進入「使用中」狀態。它有 3 個可能的數：「click」"
-"表示必須在視窗按滑鼠按鈕才會令視窗獲取焦點，「sloppy」表示當滑鼠指標在某視窗"
-"上時會令該視窗獲取焦點，「mouse」表示當滑鼠指標在某視窗上時會令該視窗獲取焦"
-"點，而且當鼠標移離視窗時焦點也會脫離該視窗。"
+"「視窗焦點模式」表示視窗如何進入「使用中」狀態。它有 3 個可能的數值："
+"「click」表示必須在視窗按滑鼠按鈕才會令視窗獲取焦點，「sloppy」表示當滑鼠指標"
+"在某視窗上時會令該視窗獲取焦點，「mouse」表示當滑鼠指標在某視窗上時會令該視窗"
+"獲取焦點，而且當鼠標移離視窗時焦點也會脫離該視窗。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:9
 msgid "Control how new windows get focus"
@@ -2349,13 +2543,13 @@ msgstr "控制新視窗如何取得焦點"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:10
 msgid ""
 "This option provides additional control over how newly created windows get "
-"focus. It has two possible values; \"smart\" applies the user's normal focus "
-"mode, and \"strict\" results in windows started from a terminal not being "
+"focus. It has two possible values; “smart” applies the user’s normal focus "
+"mode, and “strict” results in windows started from a terminal not being "
 "given focus."
 msgstr ""
-"本選項會在新建視窗取得焦點上提供附加的控制。它有兩個可用的值「smart」會套用使"
-"用者平常使用的焦點模式，及「strict」會導致在終端中執行的視窗在開始時不會取得"
-"焦點。"
+"本選項會在新建視窗取得焦點上提供附加的控制。它有兩個可用的值；「smart」會套用"
+"使用者平常使用的焦點模式，及「strict」會導致在終端中執行的視窗在開始時不會取"
+"得焦點。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:11
 msgid "Whether windows should be raised when their client area is clicked"
@@ -2368,13 +2562,14 @@ msgid ""
 "\n"
 "Setting this to false means that a window will not be raised if it is "
 "clicked on the client area. To raise it, one can click anywhere in the "
-"window's frame, or Super-click on any part of the window. This mode is "
+"window’s frame, or Super-click on any part of the window. This mode is "
 "useful if one uses many overlapping windows."
 msgstr ""
 "預設值，true，表示當客戶端區域或其框架被點選時視窗會被抬升。\n"
 "\n"
 "將這個數值設定為 false 表示視窗在客戶端區域被點擊時不會被抬升。要抬升它，可以"
-"在視窗框架任何地方點擊。這個模式在使用者有很多重疊的視窗時很有幫助。"
+"在視窗框架任何地方點擊，或是在視窗的任何地方以 Super 鍵點擊。這個模式在使用者"
+"有很多重疊的視窗時很有幫助。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:15
 msgid "Action on title bar double-click"
@@ -2384,13 +2579,13 @@ msgstr "雙擊標題列代表的動作"
 msgid ""
 "This option determines the effects of double-clicking on the title bar.\n"
 "\n"
-"Current valid options are 'toggle-shade', which will shade/unshade the "
-"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"Current valid options are “toggle-shade”, which will shade/unshade the "
+"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
+"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
+"unmaximize the window in that direction only, “minimize” which will minimize "
+"the window, “shade” which will roll the window up, “menu” which will display "
+"the window menu, “lower” which will put the window behind all the others, "
+"and “none” which will not do anything."
 msgstr ""
 "本選項決定在標題列上雙擊滑鼠按鈕的效果。\n"
 "\n"
@@ -2408,13 +2603,13 @@ msgstr "中鍵點選標題列代表的動作"
 msgid ""
 "This option determines the effects of middle-clicking on the title bar.\n"
 "\n"
-"Current valid options are 'toggle-shade', which will shade/unshade the "
-"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"Current valid options are “toggle-shade”, which will shade/unshade the "
+"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
+"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
+"unmaximize the window in that direction only, “minimize” which will minimize "
+"the window, “shade” which will roll the window up, “menu” which will display "
+"the window menu, “lower” which will put the window behind all the others, "
+"and “none” which will not do anything."
 msgstr ""
 "本選項決定在標題列上按下滑鼠中鍵的效果。\n"
 "\n"
@@ -2432,13 +2627,13 @@ msgstr "右擊標題列代表的動作"
 msgid ""
 "This option determines the effects of right-clicking on the title bar.\n"
 "\n"
-"Current valid options are 'toggle-shade', which will shade/unshade the "
-"window, 'toggle-maximize' which will maximize/unmaximize the window, 'toggle-"
-"maximize-horizontally' and 'toggle-maximize-vertically' which will maximize/"
-"unmaximize the window in that direction only, 'minimize' which will minimize "
-"the window, 'shade' which will roll the window up, 'menu' which will display "
-"the window menu, 'lower' which will put the window behind all the others, "
-"and 'none' which will not do anything."
+"Current valid options are “toggle-shade”, which will shade/unshade the "
+"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
+"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
+"unmaximize the window in that direction only, “minimize” which will minimize "
+"the window, “shade” which will roll the window up, “menu” which will display "
+"the window menu, “lower” which will put the window behind all the others, "
+"and “none” which will not do anything."
 msgstr ""
 "本選項決定在標題列上按下滑鼠右鍵的效果。\n"
 "\n"
@@ -2454,14 +2649,14 @@ msgstr "自動抬升取得焦點的視窗"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:28
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focused window will be automatically raised after a delay specified by "
-"the auto-raise-delay key. This is not related to clicking on a window to "
-"raise it, nor to entering a window during drag-and-drop."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focused window will be automatically raised after a delay specified by the "
+"auto-raise-delay key. This is not related to clicking on a window to raise "
+"it, nor to entering a window during drag-and-drop."
 msgstr ""
 "如設定為「true」，而且焦點模式是「sloppy」或「mouse」的時候，輸入焦點所在的視"
-"窗經過某段時間後會自動完全顯示（auto-raise-delay 設定鍵指定了延遲的時間）。這"
-"跟按下視窗將視窗升起，及以在拖曳時進入視窗無關。"
+"窗經過某段時間後會自動抬升（auto-raise-delay 設定鍵指定了延遲的時間）。這跟按"
+"下視窗將視窗升起，及以在拖曳時進入視窗無關。"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:29
 msgid "Delay in milliseconds for the auto raise option"
@@ -2535,8 +2730,8 @@ msgstr "系統聲響可發出聲音"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:42
 msgid ""
-"Determines whether applications or the system can generate audible 'beeps'; "
-"may be used in conjunction with 'visual bell' to allow silent 'beeps'."
+"Determines whether applications or the system can generate audible “beeps”; "
+"may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
 "決定程式或系統可否發出可聽見的「聲響」；配合「視覺鈴聲」後，就可以產生不發出"
 "聲音的「聲響」。"
@@ -2548,7 +2743,7 @@ msgstr "啟用視覺鈴聲"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:44
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
-"'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
+"“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
 "當程式系統發出「聲響」或「鈴聲」時，以視覺方式表示；對於聽障人士、在嘈雜的環"
@@ -2561,14 +2756,14 @@ msgstr "視覺鈴聲類型"
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:46
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
-"another application 'bell' indicator has been rung.\n"
+"another application “bell” indicator has been rung.\n"
 "\n"
-"Currently there are two valid values, \"fullscreen-flash\", which causes a "
-"fullscreen white-black flash, and \"frame-flash\" which causes the titlebar "
-"of the application which sent the bell signal to flash.\n"
+"Currently there are two valid values, “fullscreen-flash”, which causes a "
+"fullscreen white-black flash, and “frame-flash” which causes the titlebar of "
+"the application which sent the bell signal to flash.\n"
 "\n"
 "If the application which sent the bell is unknown (as is usually the case "
-"for the default \"system beep\"), the currently focused window's titlebar is "
+"for the default “system beep”), the currently focused window’s titlebar is "
 "flashed."
 msgstr ""
 "讓 WM 知道當系統或程式發出「鈴聲」時，如何顯示該「鈴聲」的視覺效果。\n"
@@ -2602,10 +2797,10 @@ msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
 "If the list is too short, or includes empty names, missing values will be "
-"replaced with the default (\"Workspace N\")."
+"replaced with the default (“Workspace N”)."
 msgstr ""
-"定義指派給工作區的名稱。如果清單比目前的工作區數量多，超過的名稱會被忽略。如"
-"果清單太短，或是包含空白名稱，缺少的數值會以預設值取代 (\"工作區 N\")。"
+"定義指派給工作區的名稱。如果列表比目前的工作區數量多，超過的名稱會被忽略。如"
+"果列表太短，或是包含空白名稱，缺少的數值會以預設值取代 (\"工作區 N\")。"
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.h:1
 msgid "The locale to use for dates / numbers formats"
@@ -2632,17 +2827,17 @@ msgstr "地理位置的最高精確等級。"
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:4
 msgid ""
 "Configures the maximum level of location accuracy applications are allowed "
-"to see. Valid options are 'country', 'city', 'neighborhood', 'street', and "
-"'exact' (typically requires GPS receiver). Please keep in mind that this "
+"to see. Valid options are “country”, “city”, “neighborhood”, “street”, and "
+"“exact” (typically requires GPS receiver). Please keep in mind that this "
 "only controls what GeoClue will allow applications to see and they can find "
-"user's location on their own using network resources (albeit with street-"
+"user’s location on their own using network resources (albeit with street-"
 "level accuracy at best)."
 msgstr ""
-"設定應用程式可查看的地理位置最高精確等級。有效的選項為「off」(停用地理位置追"
-"蹤)、「country」(國家)、「city」(縣市)、「neiborhood」(鄰里)、「street」(街"
-"路)、「exact」(一般需要 GPS 接收器)。請務必記住這只能控制 GeoClue 所允許應用"
-"程式查看的等級，而程式可自行使用本身的網路資源尋找使用者的所在位置 (雖然精確"
-"度最高只能到達街路等級)。"
+"設定應用程式可查看的地理位置最高精確等級。有效的選項為「country」(國家)、"
+"「city」(縣市)、「neiborhood」(鄰里)、「street」(街路)、「exact」(精確，一般"
+"需要 GPS 接收器)。請務必記住這只能控制 GeoClue 所允許應用程式查看的等級，而程"
+"式可自行使用本身的網路資源尋找使用者的所在位置 (雖然精確度最高只能到達街路等"
+"級)。"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:1
 msgid "Proxy configuration mode"
@@ -2650,18 +2845,18 @@ msgstr "代理伺服器設定模式"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\".\n"
+"Select the proxy configuration mode. Supported values are “none”, “manual”, "
+"“auto”.\n"
 "\n"
-"If this is \"none\", then proxies are not used.\n"
+"If this is “none”, then proxies are not used.\n"
 "\n"
-"If it is \"auto\", the autoconfiguration URL described by the \"autoconfig-"
-"url\" key is used.\n"
+"If it is “auto”, the autoconfiguration URL described by the “autoconfig-url” "
+"key is used.\n"
 "\n"
-"If it is \"manual\", then the proxies described by \"/system/proxy/http\", "
-"\"/system/proxy/https\", \"/system/proxy/ftp\" and \"/system/proxy/socks\" "
-"will be used. Each of the 4 proxy types is enabled if its \"host\" key is "
-"non-empty and its \"port\" key is non-0.\n"
+"If it is “manual”, then the proxies described by “/system/proxy/http”, “/"
+"system/proxy/https”, “/system/proxy/ftp” and “/system/proxy/socks” will be "
+"used. Each of the 4 proxy types is enabled if its “host” key is non-empty "
+"and its “port” key is non-0.\n"
 "\n"
 "If an http proxy is configured, but an https proxy is not, then the http "
 "proxy is also used for https.\n"
@@ -2692,8 +2887,8 @@ msgstr "自動代理伺服器設定網址"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:14
 msgid ""
-"URL that provides proxy configuration values. When mode is \"auto\", this "
-"URL is used to look up proxy information for all protocols."
+"URL that provides proxy configuration values. When mode is “auto”, this URL "
+"is used to look up proxy information for all protocols."
 msgstr ""
 "提供代理伺服器設定數值的 URL。當模式為「auto」，這個 URL 會用來查詢所有通訊協"
 "定的代理伺服器資訊。"
@@ -2743,8 +2938,8 @@ msgstr "HTTP 代理伺服器連接埠"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:23
 msgid ""
-"The port on the machine defined by \"/system/proxy/http/host\" that you "
-"proxy through."
+"The port on the machine defined by “/system/proxy/http/host” that you proxy "
+"through."
 msgstr "「/system/proxy/http/host」定義您的代理伺服器通過的機器連接埠。"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:24
@@ -2754,8 +2949,8 @@ msgstr "驗證代理伺服器連線"
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:25
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/proxy/http/authentication-"
-"user\" and \"/system/proxy/http/authentication-password\".\n"
+"username/password combo is defined by “/system/proxy/http/authentication-"
+"user” and “/system/proxy/http/authentication-password”.\n"
 "\n"
 "This applies only to the http proxy; when using a separate https proxy, "
 "there is currently no way to specify that it should use authentication."
@@ -2797,8 +2992,8 @@ msgstr "安全式 HTTP 代理伺服器通訊埠"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:35
 msgid ""
-"The port on the machine defined by \"/system/proxy/https/host\" that you "
-"proxy through."
+"The port on the machine defined by “/system/proxy/https/host” that you proxy "
+"through."
 msgstr "「/system/proxy/https/host」定義您的代理伺服器通過的機器連接埠。"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:36
@@ -2815,7 +3010,7 @@ msgstr "FTP 代理伺服器連接埠"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:39
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp/host\" that you proxy "
+"The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
 msgstr "「/system/proxy/ftp/host」定義您的代理伺服器通過的機器連接埠。"
 
@@ -2833,9 +3028,22 @@ msgstr "SOCKS 代理伺服器通訊埠"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:43
 msgid ""
-"The port on the machine defined by \"/system/proxy/socks/host\" that you "
-"proxy through."
+"The port on the machine defined by “/system/proxy/socks/host” that you proxy "
+"through."
 msgstr "「/system/proxy/socks/host」定義您的代理伺服器通過的機器連接埠。"
+
+#~ msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
+#~ msgstr "執行單擊動作的方向(「左」、「右」、「上」、「下」)。"
+
+#~ msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
+#~ msgstr "執行雙擊動作的方向(「左」、「右」、「上」、「下」)。"
+
+#~ msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
+#~ msgstr "執行拖曳動作的方向(「左」、「右」、「上」、「下」)。"
+
+#~ msgid ""
+#~ "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
+#~ msgstr "執行次要點擊動作的方向(「左」、「右」、「上」、「下」)。"
 
 #~ msgid "Select the touchpad scroll method"
 #~ msgstr "選擇觸控板捲動方式"
@@ -2846,19 +3054,6 @@ msgstr "「/system/proxy/socks/host」定義您的代理伺服器通過的機器
 #~ msgstr ""
 #~ "選擇觸控板的捲動方式。支援的數值有：「disabled」(停用)、「edge-scrolling」"
 #~ "(邊緣捲動)、「two-finger-scrolling」(兩指式捲動)。"
-
-#~ msgid "Direction to perform a single click ('left', 'right', 'up', 'down)."
-#~ msgstr "進行單擊動作的方向 (「左」、「右」、「上」、「下」)。"
-
-#~ msgid "Direction to perform a double click ('left', 'right', 'up', 'down)."
-#~ msgstr "進行雙擊動作的方向 (「左」、「右」、「上」、「下」)。"
-
-#~ msgid "Direction to perform dragging ('left', 'right', 'up', 'down)."
-#~ msgstr "進行拖曳動作的方向 (「左」、「右」、「上」、「下」)。"
-
-#~ msgid ""
-#~ "Direction to perform a secondary click ('left', 'right', 'up', 'down)."
-#~ msgstr "進行次要點擊動作的方向 (「左」、「右」、「上」、「下」)。"
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
@@ -2915,9 +3110,6 @@ msgstr "「/system/proxy/socks/host」定義您的代理伺服器通過的機器
 
 #~ msgid "Whether menus may display an icon next to a menu entry."
 #~ msgstr "選單是否要在選單項目旁顯示圖示。"
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "按鈕具有圖示"
 
 #~ msgid "Whether buttons may display an icon in addition to the button text."
 #~ msgstr "按鍵是否要在按鈕文字中顯示圖示。"
