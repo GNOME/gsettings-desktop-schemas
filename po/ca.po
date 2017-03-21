@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-15 21:20+0100\n"
+"POT-Creation-Date: 2017-03-21 07:24+0100\n"
 "PO-Revision-Date: 2016-09-18 15:55+0200\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -108,7 +108,6 @@ msgid "Enable “Bounce Keys”"
 msgstr "Habilita les «Tecles de salt»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:9
-#, fuzzy
 msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
 msgstr "Si la funció d'accessibilitat de teclat «Tecles de salt» està activa."
 
@@ -131,12 +130,10 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Si s'ha d'emetre un to quan es rebutgi una tecla."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:14
-#, fuzzy
 msgid "Enable “Mouse Keys”"
 msgstr "Habilita les «Tecles de ratolí»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:15
-#, fuzzy
 msgid "Whether the “Mouse Keys” accessibility feature is turned on."
 msgstr "Si la funció d'accessibilitat de les «Tecles de ratolí» està activa."
 
@@ -168,12 +165,10 @@ msgstr ""
 "comencen a funcionar."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:22
-#, fuzzy
 msgid "Enable “Slow Keys”"
 msgstr "Habilita les «Tecles lentes»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:23
-#, fuzzy
 msgid "Whether the “Slow Keys” accessibility feature is turned on."
 msgstr "Si la funció d'accessibilitat de les «Tecles lentes» està activa."
 
@@ -226,12 +221,10 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Si s'ha d'emetre un to quan es prem una tecla modificadora."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:35
-#, fuzzy
 msgid "Enable “Toggle Keys”"
 msgstr "Habilita les «Tecles de commutació»"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:36
-#, fuzzy
 msgid "Whether the “Toggle Keys” accessibility feature is turned on."
 msgstr ""
 "Si la funció d'accessibilitat de les «Tecles de commutació» està activa."
@@ -241,7 +234,6 @@ msgid "Mouse Tracking Mode"
 msgstr "Mode de seguiment del ratolí"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:2
-#, fuzzy
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
 "view and how it reacts to system mouse movement. The values are • none: no "
@@ -307,7 +299,6 @@ msgid "Caret Tracking Mode"
 msgstr "Mode de seguiment del cursor"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
-#, fuzzy
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
@@ -326,16 +317,16 @@ msgstr ""
 "Estableix la posició del cursor dins la vista ampliada. Els valors són "
 "aquests:\n"
 "\n"
-"«none» (cap), no es segueix el moviment del cursor,\n"
+"• «none» (cap), no es segueix el moviment del cursor,\n"
 "\n"
-"«centered» (centrat), la imatge del cursor es mostra al centre de la regió "
+"• «centered» (centrat), la imatge del cursor es mostra al centre de la regió "
 "ampliada, que també representa el punt del ratolí, els continguts ampliats "
 "es desplacen quan es mou el cursor,\n"
 "\n"
-"«proportional» (proporcional), la posició del cursor ampliat a la regió "
+"• «proportional» (proporcional), la posició del cursor ampliat a la regió "
 "ampliada és proporcional a la posició del cursor a la pantalla,\n"
 "\n"
-"«push» (empeny), quan el cursor ampliat arriba a la vora de la regió "
+"• «push» (empeny), quan el cursor ampliat arriba a la vora de la regió "
 "ampliada, els continguts es desplacen a la regió visible."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:25
@@ -609,7 +600,6 @@ msgid "Gesture drag click"
 msgstr "Gest del clic d'arrossegament"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#, fuzzy
 msgid "Direction to perform dragging (“left”, “right”, “up”, “down”)."
 msgstr ""
 "La direcció perquè es reconegui com a un clic d'arrossegament: "
@@ -620,7 +610,6 @@ msgid "Gesture secondary click"
 msgstr "Gest del clic secundari"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#, fuzzy
 msgid "Direction to perform a secondary click (“left”, “right”, “up”, “down”)."
 msgstr ""
 "La direcció perquè es reconegui com a un clic secundari: «left» (esquerra), "
@@ -631,7 +620,6 @@ msgid "Dwell click mode"
 msgstr "Mode de clic en pausa"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:14
-#, fuzzy
 msgid ""
 "The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr ""
@@ -746,7 +734,6 @@ msgstr "Opcions de la imatge"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
-#, fuzzy
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -1623,9 +1610,8 @@ msgstr ""
 "pantalla de bloqueig."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
-#, fuzzy
 msgid "Whether edge scrolling is enabled"
-msgstr "Desplaçament per la _vora"
+msgstr "Si el desplaçament per la vora està activat"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
@@ -1940,7 +1926,6 @@ msgid "Controls visibility of personal information"
 msgstr "Controla la visibilitat de la informació personal"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:2
-#, fuzzy
 msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
@@ -1961,12 +1946,11 @@ msgid "Whether to remove old files from the trash automatically"
 msgstr "Si s'han d'eliminar automàticament els fitxers vells de la paperera"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:6
-#, fuzzy
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
 msgstr ""
-"Si és «TRUE» (cert), els fitxers vells es suprimeixen automàticament de la "
+"Si és «TRUE» (cert), els fitxers es suprimeixen automàticament de la "
 "paperera quan siguin de fa més dies dels especificats a la clau «old-files-"
 "age»."
 
@@ -1975,7 +1959,6 @@ msgid "Whether to remove old temporary files automatically"
 msgstr "Si s'han d'eliminar automàticament els fitxers temporals"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:8
-#, fuzzy
 msgid ""
 "If TRUE, automatically remove temporary files when they are older than “old-"
 "files-age” days."
@@ -2107,7 +2090,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Permet incrustar un teclat a la finestra"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
-#, fuzzy
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2126,7 +2108,6 @@ msgid "Embedded keyboard command"
 msgstr "Ordre per incrustar el teclat"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-#, fuzzy
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2147,7 +2128,6 @@ msgid "Allow logout"
 msgstr "Permet sortir"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
-#, fuzzy
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key.\n"
@@ -2165,7 +2145,6 @@ msgid "Time before logout option"
 msgstr "Temps d'espera per mostrar l'opció de sortida"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
-#, fuzzy
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2184,7 +2163,6 @@ msgid "Logout command"
 msgstr "Ordre de sortida"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
-#, fuzzy
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -3152,7 +3130,6 @@ msgid "The maximum accuracy level of location."
 msgstr "Nivell màxim de precisió de la ubicació."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:4
-#, fuzzy
 msgid ""
 "Configures the maximum level of location accuracy applications are allowed "
 "to see. Valid options are “country”, “city”, “neighborhood”, “street”, and "
@@ -3174,7 +3151,6 @@ msgid "Proxy configuration mode"
 msgstr "Mode de configuració del servidor intermediari"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
-#, fuzzy
 msgid ""
 "Select the proxy configuration mode. Supported values are “none”, “manual”, "
 "“auto”.\n"
@@ -3221,7 +3197,6 @@ msgid "Automatic proxy configuration URL"
 msgstr "URL de configuració automàtica del servidor intermediari"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:14
-#, fuzzy
 msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
@@ -3278,7 +3253,6 @@ msgid "HTTP proxy port"
 msgstr "Port del servidor intermediari per a l'HTTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:23
-#, fuzzy
 msgid ""
 "The port on the machine defined by “/system/proxy/http/host” that you proxy "
 "through."
@@ -3291,7 +3265,6 @@ msgid "Authenticate proxy server connections"
 msgstr "Autentica les connexions al servidor intermediari"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:25
-#, fuzzy
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
 "username/password combo is defined by “/system/proxy/http/authentication-"
@@ -3343,7 +3316,6 @@ msgid "Secure HTTP proxy port"
 msgstr "Port del servidor intermediari per a l'HTTP segur"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:35
-#, fuzzy
 msgid ""
 "The port on the machine defined by “/system/proxy/https/host” that you proxy "
 "through."
@@ -3364,7 +3336,6 @@ msgid "FTP proxy port"
 msgstr "Port del servidor intermediari d'FTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:39
-#, fuzzy
 msgid ""
 "The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
@@ -3385,7 +3356,6 @@ msgid "SOCKS proxy port"
 msgstr "Port del servidor intermediari de SOCKS"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:43
-#, fuzzy
 msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
