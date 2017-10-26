@@ -8,17 +8,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-01-30 10:08+0000\n"
-"PO-Revision-Date: 2017-02-06 23:14+0100\n"
+"POT-Creation-Date: 2017-09-11 18:51+0000\n"
+"PO-Revision-Date: 2017-10-26 23:08+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -799,7 +799,8 @@ msgstr "Låt filhanteraren hantera skrivbordet"
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:14
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
-"Om satt till true så kommer filhanteraren att rita ikonerna på skrivbordet."
+"Om satt till true (sant) så kommer filhanteraren att rita ikonerna på "
+"skrivbordet."
 
 #: ../schemas/org.gnome.desktop.calendar.gschema.xml.in.h:1
 msgid "Show the week date in the calendar"
@@ -1276,7 +1277,7 @@ msgstr "Huruvida klockan visar sekunder"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:61
 msgid "If true, display seconds in the clock."
-msgstr "Om true så visas sekunder i klockan."
+msgstr "Om true (sant) så visas sekunder i klockan."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:62
 msgid "Show date in clock"
@@ -1284,23 +1285,31 @@ msgstr "Visa datum i klocka"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:63
 msgid "If true, display date in the clock, in addition to time."
-msgstr "Om true så visas, förutom tid, datum i klockan."
+msgstr "Om true (sant) så visas, förutom tid, datum i klockan."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show weekday in clock"
+msgstr "Visa veckodag i klocka"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid "If true, display weekday in the clock, in addition to time."
+msgstr "Om true (sant) så visas, förutom tid, veckodag i klockan."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid "Show battery percentage"
 msgstr "Visa batteriprocent"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
-msgstr "Om true, visa batteriprocent i statusmenyn, förutom ikonen."
+msgstr "Om true (sant), visa batteriprocent i statusmenyn, förutom ikonen."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
 msgstr "Aktiva den primära inklistringsmarkeringen"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1417,9 +1426,9 @@ msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
-"Om satt till true så kommer Nautilus automatiskt att montera media som "
-"exempelvis användarsynliga diskar och borttagningsbara media vid uppstart "
-"och när media ansluts."
+"Om satt till true (sant) så kommer Nautilus automatiskt att montera media "
+"som exempelvis användarsynliga diskar och borttagningsbara media vid "
+"uppstart och när media ansluts."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:3
 msgid "Whether to automatically open a folder for automounted media"
@@ -1432,9 +1441,9 @@ msgid ""
 "detected; for media where a known x-content type is detected, the user "
 "configurable action will be taken instead."
 msgstr ""
-"Om satt till true så kommer Nautilus automatiskt att öppna en mapp när media "
-"automonteras. Detta gäller bara för media där ingen känd x-content/*-typ "
-"detekteras; för media där en känd x-content-typ detekteras kommer den "
+"Om satt till true (sant) så kommer Nautilus automatiskt att öppna en mapp "
+"när media automonteras. Detta gäller bara för media där ingen känd x-content/"
+"*-typ detekteras; för media där en känd x-content-typ detekteras kommer den "
 "användarkonfigurerade åtgärden att utföras istället."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:5
@@ -1446,8 +1455,8 @@ msgid ""
 "If set to true, then Nautilus will never prompt nor autorun/autostart "
 "programs when a medium is inserted."
 msgstr ""
-"Om satt till true så kommer Nautilus aldrig att fråga eller automatiskt köra/"
-"starta program när ett media matas in."
+"Om satt till true (sant) så kommer Nautilus aldrig att fråga eller "
+"automatiskt köra/starta program när ett media matas in."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:7
 msgid ""
@@ -1613,8 +1622,8 @@ msgstr "Aktivera musklick med styrplatta"
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
-"Sätt denna till TRUE för att kunna skicka musklick genom att trycka på "
-"styrplattan."
+"Sätt denna till TRUE (sant) för att kunna skicka musklick genom att trycka "
+"på styrplattan."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Enable tap-and-drag with touchpad"
@@ -1668,7 +1677,7 @@ msgstr "Naturlig rullning"
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
-"Sätt denna till TRUE för att aktivera naturlig (omvänd) rullning för "
+"Sätt denna till TRUE (sant) för att aktivera naturlig (omvänd) rullning för "
 "styrplattor."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
@@ -1691,7 +1700,7 @@ msgstr "Tangentbordsrepetition"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Set this to TRUE to enable keyboard repeat."
-msgstr "Sätt denna till TRUE för att aktivera tangentbordsrepetition."
+msgstr "Sätt denna till TRUE (sant) för att aktivera tangentbordsrepetition."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Key Repeat Interval"
@@ -1729,7 +1738,8 @@ msgstr ""
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
-"Sätt denna till TRUE för att aktivera naturlig (omvänd) rullning för möss."
+"Sätt denna till TRUE (sant) för att aktivera naturlig (omvänd) rullning för "
+"möss."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
 msgid "Acceleration profile"
@@ -1967,7 +1977,9 @@ msgstr "Huruvida nyligen använda filer ska kommas ihåg"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:12
 msgid "If FALSE, applications will not remember recently used files."
-msgstr "Om FALSE så kommer program inte att komma ihåg nyligen använda filer."
+msgstr ""
+"Om FALSE (falskt) så kommer program inte att komma ihåg nyligen använda "
+"filer."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:13
 msgid "Number of days to remember recently used files for"
@@ -1989,7 +2001,8 @@ msgstr "Huruvida programanvändning ska kommas ihåg"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:16
 msgid "If FALSE, application usage will not be monitored and recorded."
-msgstr "Om FALSE så kommer programanvändning inte att övervakas och sparas."
+msgstr ""
+"Om FALSE (falskt) så kommer programanvändning inte att övervakas och sparas."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:17
 msgid "Send statistics when applications are removed or installed"
@@ -2000,8 +2013,8 @@ msgid ""
 "If FALSE, no anonymous installation or removal information will be sent to "
 "the vendor."
 msgstr ""
-"Om FALSE så kommer inte anonym installations- och borttagningsinformation "
-"att skickas till tillverkaren."
+"Om FALSE (falskt) så kommer inte anonym installations- och "
+"borttagningsinformation att skickas till tillverkaren."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:19
 msgid "Send reports of technical problems to the vendor"
@@ -2010,7 +2023,7 @@ msgstr "Skicka rapporter om tekniska program till tillverkaren"
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:20
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
 msgstr ""
-"Om TRUE så kommer anonyma rapporter att automatiskt skickas till "
+"Om TRUE (sant) så kommer anonyma rapporter att automatiskt skickas till "
 "tillverkaren."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:1
@@ -2024,7 +2037,7 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
 "session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
-"Sätt denna till TRUE för att aktivera skärmsläckaren när sessionen är "
+"Sätt denna till TRUE (sant) för att aktivera skärmsläckaren när sessionen är "
 "inaktiv.\n"
 "\n"
 "FÖRÅLDRAD: Denna nyckel är föråldrad och ignorerad. Sätt org.gnome.desktop."
@@ -2037,7 +2050,8 @@ msgstr "Lås vid aktivering"
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:6
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
-"Sätt denna till TRUE för att låsa skärmen när skärmsläckaren aktiveras."
+"Sätt denna till TRUE (sant) för att låsa skärmen när skärmsläckaren "
+"aktiveras."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:7
 msgid "Time before locking"
@@ -2093,8 +2107,8 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Kommandot som körs om nyckeln ”embedded_keyboard_enabled” är satt till TRUE "
-"för att bädda in en tangentbordskontroll i fönstret. Detta kommando bör "
-"implementera XEMBED-insticksgränssnittet och mata ut ett fönster-XID på "
+"(sant) för att bädda in en tangentbordskontroll i fönstret. Detta kommando "
+"bör implementera XEMBED-insticksgränssnittet och mata ut ett fönster-XID på "
 "standard ut.\n"
 "\n"
 "FÖRÅLDRAD: Denna nyckel är föråldrad och ignorerad."
@@ -2110,9 +2124,9 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Sätt denna till TRUE för att erbjuda ett alternativ i upplåsningsdialogen "
-"som efter en fördröjning tillåter utloggning. Fördröjningen anges i nyckeln "
-"”logout_delay”.\n"
+"Sätt denna till TRUE (sant) för att erbjuda ett alternativ i "
+"upplåsningsdialogen som efter en fördröjning tillåter utloggning. "
+"Fördröjningen anges i nyckeln ”logout_delay”.\n"
 "\n"
 "FÖRÅLDRAD: Denna nyckel är föråldrad och ignorerad."
 
@@ -2130,7 +2144,7 @@ msgid ""
 msgstr ""
 "Antalet sekunder efter att skärmsläckaren aktiverats innan ett "
 "utloggningsalternativ kommer att synas i upplåsningsdialogen. Denna nyckel "
-"har bara effekt om nyckeln ”logout_enable” är satt till TRUE.\n"
+"har bara effekt om nyckeln ”logout_enable” är satt till TRUE (sant).\n"
 "\n"
 "FÖRÅLDRAD: Denna nyckel är föråldrad och ignorerad"
 
@@ -2161,8 +2175,8 @@ msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr ""
-"Sätt denna till TRUE för att erbjuda ett alternativ i upplåsningsdialogen "
-"för att byta till ett annat användarkonto."
+"Sätt denna till TRUE (sant) för att erbjuda ett alternativ i "
+"upplåsningsdialogen för att byta till ett annat användarkonto."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
 msgid "Allow the session status message to be displayed"
@@ -2188,9 +2202,10 @@ msgid ""
 "they are independently disabled or enabled. External search providers are "
 "installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
 msgstr ""
-"Sätt till true för att inaktivera alla externa söktjänstsprogram, oavsett om "
-"de är individuellt inaktiverade eller aktiverade. Externa söktjänster "
-"installeras av program i $XDG_DATA_DIR/gnome-shell/search-providers."
+"Sätt till true (sant) för att inaktivera alla externa söktjänstsprogram, "
+"oavsett om de är individuellt inaktiverade eller aktiverade. Externa "
+"söktjänster installeras av program i $XDG_DATA_DIR/gnome-shell/search-"
+"providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:3
 msgid ""
@@ -2305,7 +2320,7 @@ msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
-"Sätt till sant för att inaktivera alla externa miniatyrbildsprogram, "
+"Sätt till true (sant) för att inaktivera alla externa miniatyrbildsprogram, "
 "oberoende av huruvida de är individuellt inaktiverade/aktiverade."
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:3
@@ -2877,8 +2892,8 @@ msgid ""
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
-"Om satt till true och fokusläget är antingen ”sloppy” eller ”mouse” så "
-"kommer fönstret med fokus automatiskt att höjas efter en fördröjning som "
+"Om satt till true (sant) och fokusläget är antingen ”sloppy” eller ”mouse” "
+"så kommer fönstret med fokus automatiskt att höjas efter en fördröjning som "
 "anges av nyckeln auto-raise-delay. Detta är inte relaterat till att klicka "
 "på ett fönster för att höja det, och inte heller att föra in musen över ett "
 "fönster under dra-och-släpp."
@@ -2892,8 +2907,8 @@ msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
 msgstr ""
-"Tidsfördröjningen innan ett fönster höjs om auto-raise är satt till true. "
-"Fördröjningen anges i tusendelar av en sekund."
+"Tidsfördröjningen innan ett fönster höjs om auto-raise är satt till true "
+"(sant). Fördröjningen anges i tusendelar av en sekund."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:31
 msgid "Current theme"
@@ -2919,7 +2934,7 @@ msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
-"Om true, ignorera alternativet titlebar-font och använd programmets "
+"Om true (sant), ignorera alternativet titlebar-font och använd programmets "
 "standardtypsnitt för fönsters namnlister."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:37
@@ -2936,7 +2951,8 @@ msgstr ""
 "En typsnittsbeskrivningssträng som beskriver ett typsnitt för fönsters "
 "namnlister. Storleken i beskrivningen kommer bara att användas om "
 "alternativet titlebar-font-size är satt till 0. Dessutom är detta alternativ "
-"inaktiverat om alternativet titlebar-uses-desktop-font är satt till true."
+"inaktiverat om alternativet titlebar-uses-desktop-font är satt till true "
+"(sant)."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:39
 msgid "Number of workspaces"
@@ -3055,7 +3071,8 @@ msgstr "Positioneringstjänster är aktiverade."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:2
 msgid "If true, applications are allowed to access location information."
-msgstr "Om true kommer program att tillåtas få tillgång till platsinformation."
+msgstr ""
+"Om true (sant) kommer program att tillåtas få tillgång till platsinformation."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:3
 msgid "The maximum accuracy level of location."
@@ -3200,9 +3217,9 @@ msgid ""
 "This applies only to the http proxy; when using a separate https proxy, "
 "there is currently no way to specify that it should use authentication."
 msgstr ""
-"Om sant, så kommer anslutningar till proxyservern att kräva autentisering. "
-"Användar/lösenords-kombinationen definieras av ”/system/proxy/http/"
-"authentication-user” och ”/system/proxy/http/authentication-password”.\n"
+"Om true (sant), så kommer anslutningar till proxyservern att kräva "
+"autentisering. Användar/lösenords-kombinationen definieras av ”/system/proxy/"
+"http/authentication-user” och ”/system/proxy/http/authentication-password”.\n"
 "\n"
 "Detta gäller bara för http-proxyn; när en separat https-proxy används finns "
 "det för närvarande inget sätt att ange att den bör använda autentisering."
