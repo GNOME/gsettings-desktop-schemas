@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-11-14 10:58+0000\n"
-"PO-Revision-Date: 2017-11-16 11:38+0700\n"
+"POT-Creation-Date: 2018-01-30 20:07+0000\n"
+"PO-Revision-Date: 2018-01-31 13:28+0700\n"
 "Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -1866,29 +1866,43 @@ msgstr ""
 "Inking Pen hanya punya satu tombol, pengaturan ini tidak efektif pada mereka."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+msgid "Tertiary button action"
+msgstr "Aksi tombol tersier"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+msgid ""
+"Tertiary stylus button action, this button is located along the pen handle "
+"on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
+"buttons, this setting is ineffective on those."
+msgstr ""
+"Aksi tombol stylus tersier, tombol ini terletak sepanjang pegangan pena pada "
+"beberapa stylus seperti Pen 3D. Stylus lain seperti Airbrush Pen atau Inking "
+"Pen hanya punya satu tombol, pengaturan ini tidak efektif pada mereka."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
 msgstr "Tipe aksi tombol pad"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
 msgstr "Tipe aksi yang dipicu oleh tombol yang ditekan."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
 msgstr "Kombinasi tombol untuk aksi ubahan"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Pintasan papan ketik yang dihasilkan ketika tombol ditekan untuk aksi ubahan."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
 msgstr "Pemetaan tampilan layar sentuh"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1896,11 +1910,11 @@ msgstr ""
 "Informasi EDID dari monitor tempat layar sentuh dipetakan. Mesti dalam "
 "format [vendor, produk, nomor seri]. [\"\",\"\",\"\"] mematikan pemetaan."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Tombol emulasi roda tetikus. 0 untuk mematikan fitur ini."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2306,12 +2320,10 @@ msgstr "Izinkan volume di atas 100%"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
 #, no-c-format
-msgid ""
-"Whether volume can be change to be set above 100%, using software "
-"amplification."
+msgid "Whether volume can be set above 100%, using software amplification."
 msgstr ""
-"Apakah volume bisa berubah untuk diatur di atas 100%, menggunakan "
-"amplifikasi perangkat lunak."
+"Apakah volume bisa diatur di atas 100%, menggunakan amplifikasi perangkat "
+"lunak."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:1
 msgid ""
