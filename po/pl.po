@@ -1,20 +1,20 @@
 # Polish translation for gsettings-desktop-schemas.
-# Copyright © 2002-2017 the gsettings-desktop-schemas authors.
+# Copyright © 2002-2018 the gsettings-desktop-schemas authors.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003.
 # Artur Flinta <aflinta@at.kernel.pl>, 2003-2005.
 # Marek Stępień <marcoos@aviary.pl>, 2007.
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2008-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2017.
-# Aviary.pl <community-poland@mozilla.org>, 2007-2017.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2018.
+# Aviary.pl <community-poland@mozilla.org>, 2007-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-21 20:33+0100\n"
-"PO-Revision-Date: 2017-01-21 20:34+0100\n"
+"POT-Creation-Date: 2018-02-05 00:14+0100\n"
+"PO-Revision-Date: 2018-02-05 00:15+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -1299,10 +1299,18 @@ msgid "If true, display date in the clock, in addition to time."
 msgstr "Jeśli wynosi „true”, to zegar wyświetla także datę."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show weekday in clock"
+msgstr "Wyświetlanie dnia tygodnia w zegarze"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid "If true, display weekday in the clock, in addition to time."
+msgstr "Jeśli wynosi „true”, to zegar wyświetla także dzień tygodnia."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid "Show battery percentage"
 msgstr "Wyświetlanie procentu zużycia akumulatora"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1310,11 +1318,11 @@ msgstr ""
 "Jeśli wynosi „true”, to w menu stanu obok ikony wyświetlany będzie procent "
 "zużycia akumulatora."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
 msgstr "Wklejanie zaznaczenia typu „primary”"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1872,18 +1880,32 @@ msgstr ""
 "przycisk, a to ustawienie dla nich nie działa."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+msgid "Tertiary button action"
+msgstr "Działanie trzeciego przycisku"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+msgid ""
+"Tertiary stylus button action, this button is located along the pen handle "
+"on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
+"buttons, this setting is ineffective on those."
+msgstr ""
+"Działanie trzeciego przycisku, położonego na uchwycie niektórych rysików, "
+"np. 3D Pen. Inne rysiki, np. Grip Pen, mają tylko dwa przyciski, a to "
+"ustawienie dla nich nie działa."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
 msgstr "Typ działania przycisku płytki"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typ działania wyzwalanego przez naciśnięcie przycisku."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
 msgstr "Kombinacja klawiszy dla niestandardowego działania"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1891,11 +1913,11 @@ msgstr ""
 "Skrót klawiszowy używany po naciśnięciu przycisku dla niestandardowych "
 "działań."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
 msgstr "Mapowanie ekranu dotykowego"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1904,12 +1926,12 @@ msgstr ""
 "w formacie [producent, produkt, numer seryjny]. [\"\",\"\",\"\"] wyłącza "
 "mapowanie."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Przycisk emulacji przewijania za pomocą myszy. Wartość 0 wyłącza tę funkcję."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2311,6 +2333,17 @@ msgstr "Dźwięki zwrotne wprowadzania"
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:6
 msgid "Whether to play sounds on input events."
 msgstr "Określa, czy odtwarzać dźwięki podczas zdarzeń wprowadzania."
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:8
+#, no-c-format
+msgid "Allow volume above 100%"
+msgstr "Głośność ponad 100%"
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
+#, no-c-format
+msgid "Whether volume can be set above 100%, using software amplification."
+msgstr ""
+"Czy można ustawiać głośność ponad 100% za pomocą wzmocnienia programowego."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:1
 msgid ""
