@@ -6,15 +6,15 @@
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015.
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2017.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-09-10 06:54+0000\n"
-"PO-Revision-Date: 2017-09-11 19:58+0300\n"
+"POT-Creation-Date: 2017-12-29 15:50+0000\n"
+"PO-Revision-Date: 2018-01-21 11:36+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -1293,21 +1293,31 @@ msgid "If true, display date in the clock, in addition to time."
 msgstr "Eğer seçiliyse, zamana ek olarak saatin içinde tarihi göster."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+#| msgid "Show date in clock"
+msgid "Show weekday in clock"
+msgstr "Saatte iş gününü göster"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#| msgid "If true, display date in the clock, in addition to time."
+msgid "If true, display weekday in the clock, in addition to time."
+msgstr "Eğer seçiliyse, zamana ek olarak saatin içinde iş gününü göster."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid "Show battery percentage"
 msgstr "Batarya yüzdesini göster"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr ""
 "Eğer seçiliyse, simgeye ek olarak durum çubuğunda batarya yüzdesini göster."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
 msgstr "Birincil yapıştırma seçimini etkinleştir"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -2285,6 +2295,18 @@ msgstr "Giriş geri bildirim sesleri"
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:6
 msgid "Whether to play sounds on input events."
 msgstr "Giriş olaylarında ses çalınması."
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:8
+#, no-c-format
+msgid "Allow volume above 100%"
+msgstr "Sesin %100'ü geçmesine izin ver"
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
+#, no-c-format
+msgid "Whether volume can be set above 100%, using software amplification."
+msgstr ""
+"Yazılımsal yükseltme kullanılarak sesin %100'ün üstünde belirlenip "
+"belirlenemeyeceği."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:1
 msgid ""
