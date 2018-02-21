@@ -4,15 +4,15 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Nicolás Satragno <nicoymatu9@hotmail.com>, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-11-14 10:58+0000\n"
-"PO-Revision-Date: 2017-12-14 12:57+0100\n"
+"POT-Creation-Date: 2018-01-30 20:07+0000\n"
+"PO-Revision-Date: 2018-02-21 17:29+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -1332,12 +1332,10 @@ msgid "If true, display date in the clock, in addition to time."
 msgstr "Si es cierta, muestra la fecha en el reloj, además de la hora."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
-#| msgid "Show date in clock"
 msgid "Show weekday in clock"
 msgstr "Mostrar día de la semana en el reloj"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
-#| msgid "If true, display date in the clock, in addition to time."
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr ""
 "Si es cierta, muestra el día de la semana en el reloj, además de la hora."
@@ -1933,18 +1931,38 @@ msgstr ""
 "Pen sólo tienen un botón, por lo que esta opción no tiene efecto en ellos."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+#| msgid "Secondary button action"
+msgid "Tertiary button action"
+msgstr "Acción del botón terciario"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#| msgid ""
+#| "Secondary stylus button action, this button is located along the pen "
+#| "handle on some styli like the Grip Pen. Other styli like the Airbrush Pen "
+#| "or the Inking Pen only have one button, this setting is ineffective on "
+#| "those."
+msgid ""
+"Tertiary stylus button action, this button is located along the pen handle "
+"on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
+"buttons, this setting is ineffective on those."
+msgstr ""
+"Acción del botón terciario de la Stylus. Este botón se encuentra a lo largo "
+"de algunos lápices como el Grip Pen. Otros como el Airbrush Pen o el Inking "
+"Pen sólo tienen un botón, por lo que esta opción no tiene efecto en ellos."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
 msgstr "Tipo de acción para el botón del «touchpad»"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
 msgstr "El tipo de acción que ejecutar cuando se pulsa el botón."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
 msgstr "Combinación de teclas para la acción personalizada"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1952,11 +1970,11 @@ msgstr ""
 "El atajo del teclado generado cuando se pulsa el botón para acciones "
 "personalizadas."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
 msgstr "Mapeado de la pantalla táctil"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1965,13 +1983,13 @@ msgstr ""
 "estar en formato [fabricante, producto, serie]. [\"\",\"\",\"\"] desactiva "
 "el mapeado."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Emulación del botón con la rueda del ratón. 0 para desactivar esta "
 "característica."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2385,9 +2403,10 @@ msgstr "Permitir volumen por encima del 100%"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
 #, no-c-format
-msgid ""
-"Whether volume can be change to be set above 100%, using software "
-"amplification."
+#| msgid ""
+#| "Whether volume can be change to be set above 100%, using software "
+#| "amplification."
+msgid "Whether volume can be set above 100%, using software amplification."
 msgstr ""
 "Indica si el volumen se puede establecer por encima del 100% usando un "
 "software de amplificación."
