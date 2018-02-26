@@ -1,8 +1,8 @@
 # Italian translation for gsettings-desktop-schemas.
-# Copyright (C) 2011, 2012, 2013, 2014, 2015, 2016, 2017 gsettings-desktop-schemas's COPYRIGHT HOLDER
+# Copyright (C) 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Luca Ferretti <lferrett@gnome.org>, 2011, 2012.
-# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015, 2016, 2017.
+# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 # Claudio Arseni <claudio.arseni@ubuntu.com>, 2013, 2015.
 # Gianvito Cavasoli <gianvito@gmx.it>, 2016.
 #
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-02-22 12:45+0000\n"
-"PO-Revision-Date: 2017-02-24 16:50+0100\n"
+"POT-Creation-Date: 2018-01-30 20:07+0000\n"
+"PO-Revision-Date: 2018-02-12 15:09+0100\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italiano <gnome-it-list@gnome.org>\n"
 "Language: it\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0beta3\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -1319,10 +1319,19 @@ msgid "If true, display date in the clock, in addition to time."
 msgstr "Se VERO, mostra nell'orologio si la data che l'ora."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+msgid "Show weekday in clock"
+msgstr "Mostra il giorno della settimana nell'orologio"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+msgid "If true, display weekday in the clock, in addition to time."
+msgstr ""
+"Se VERO, mostra il giorno della settimana nell'orologio, oltre all'ora."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid "Show battery percentage"
 msgstr "Mostra la percentuale della batteria"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1330,11 +1339,11 @@ msgstr ""
 "Se VERO, mostra la percentuale di carica della batteria nel menù di stato, "
 "in aggiunta all'icona."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
 msgstr "Abilita la selezione primaria per l'azione incolla"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1906,18 +1915,32 @@ msgstr ""
 "esse."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+msgid "Tertiary button action"
+msgstr "Azione pulsante terziario"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+msgid ""
+"Tertiary stylus button action, this button is located along the pen handle "
+"on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
+"buttons, this setting is ineffective on those."
+msgstr ""
+"Azione pulsante terziario della penna, questo pulsante si trova lungo il "
+"manico della penna di alcune tipo 3D Pen. Altre penne tipo Grip Pen hanno "
+"solamente due pulsanti e questa impostazione non ha effetto su di esse."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
 msgstr "Tipo azione pulsante del pad"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
 msgstr "Il tipo di azione attivata dalla pressione del pulsante."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
 msgstr "Combinazione di tasti per l'azione personalizzata"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1925,11 +1948,11 @@ msgstr ""
 "La scorciatoia da tastiera generata quando viene premuto il pulsante per le "
 "azioni personalizzate."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
 msgstr "Mappatura display touch"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1938,13 +1961,13 @@ msgstr ""
 "nel formato [fornitore, prodotto, seriale]. Con [\"\",\"\",\"\"] si "
 "disabilita la mappatura."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Pulsante di emulazione della rotellina del mouse. 0 per disabilitare questa "
 "funzionalità."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2345,6 +2368,18 @@ msgstr "Suoni di riscontro dell'input"
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:6
 msgid "Whether to play sounds on input events."
 msgstr "Indica se usare suoni quando si verificano eventi di input."
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:8
+#, no-c-format
+msgid "Allow volume above 100%"
+msgstr "Consente il volume oltre 100%"
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
+#, no-c-format
+msgid "Whether volume can be set above 100%, using software amplification."
+msgstr ""
+"Indica se il volume può essere impostato oltre il 100%, utilizzando "
+"l'amplificazione software."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:1
 msgid ""
