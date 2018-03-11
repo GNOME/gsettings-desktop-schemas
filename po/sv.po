@@ -1,24 +1,24 @@
 # Swedish translation for gsettings-desktop-schemas.
-# Copyright © 2011-2017 Free Software Foundation, Inc.
+# Copyright © 2011-2018 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel Nylander <po@danielnylander.se>, 2011.
 # Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-09-11 18:51+0000\n"
-"PO-Revision-Date: 2017-10-26 23:08+0200\n"
+"POT-Creation-Date: 2018-01-30 20:07+0000\n"
+"PO-Revision-Date: 2018-02-04 22:36+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.5\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -1866,18 +1866,33 @@ msgstr ""
 "dessa."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+msgid "Tertiary button action"
+msgstr "Åtgärd för tertiär knapp"
+
+# Modeller på Wacom-pennor
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+msgid ""
+"Tertiary stylus button action, this button is located along the pen handle "
+"on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
+"buttons, this setting is ineffective on those."
+msgstr ""
+"Åtgärd för tertiär pennknapp, denna knapp är placerad längs pennhandtaget på "
+"vissa styluspennor som 3D Pen. Andra styluspennor som Grip Pen har bara två "
+"knappar, denna inställning har ingen effekt på dessa."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
 msgstr "Åtgärdstyp för styrplatteknapp"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typen av åtgärd som utlöses av att knappen trycks ned."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
 msgstr "Tangentkombination för den anpassade åtgärden"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1885,11 +1900,11 @@ msgstr ""
 "Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade "
 "åtgärder."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
 msgstr "Mappning för pekskärm"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -1898,11 +1913,11 @@ msgstr ""
 "formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] inaktiverar "
 "mappningen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Mushjulsemuleringsknapp. 0 för att inaktivera funktionen."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2294,6 +2309,17 @@ msgstr "Återkopplingsljud för inmatning"
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:6
 msgid "Whether to play sounds on input events."
 msgstr "Huruvida ljud ska spelas vid inmatningshändelser."
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:8
+#, no-c-format
+msgid "Allow volume above 100%"
+msgstr "Tillåt volym över 100%"
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
+#, no-c-format
+msgid "Whether volume can be set above 100%, using software amplification."
+msgstr ""
+"Huruvida volym kan ställas högre än 100%, med programvaruamplifikation."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:1
 msgid ""
