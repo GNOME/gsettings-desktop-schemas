@@ -26,7 +26,7 @@ AC_OUTPUT([
 Makefile
 gsettings-desktop-schemas.pc
 win32/Makefile
-win32/gsettings-desktop-schemas-msvc.mak
+win32/config-msvc.mak
 headers/Makefile
 schemas/Makefile
 po/Makefile.in

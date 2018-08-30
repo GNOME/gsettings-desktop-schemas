@@ -3,63 +3,69 @@ instructions on building this package with Visual C++:
 
 https://live.gnome.org/GTK%2B/Win32/MSVCCompilationOfGTKStack
 
-The gsettings-desktop-schemas-msvc.mak is an NMake Makefile that is meant
-to be used to generate the gsettings schema files and an enumeration
-XML file that is to be copied and "installed" on the running system
-by being copied to your gsettings schemas folder and processed by the
-glib-compile-schemas tool, where glib-compile-schemas is a part of the
-GLib package.
+The Makefile.vc is an NMake Makefile that is meant to be used to generate
+the gsettings schema files and an enumeration XML file that is to be copied
+and "installed" on the running system by being copied to your gsettings
+schemas folder and processed by the glib-compile-schemas tool, where
+glib-compile-schemas is a part of the GLib package.
 
 The required dependencies are as follows:
 
 -An up-to-date GLib installation that was built with the Visual Studio version that
- you intend to run gsettings-desktop-schemas-msvc.mak with, in the location pointed
+ you intend to run Makefile.vc with, in the location pointed
  to by $(PREFIX), which is <parentdir_of_srcroot>\vs<Visual Studio Version>\$(Platform)
  unless set as some other paths otherwise, where Platform is Win32 for 32-bit builds
  and x64 for x86-64 builds.
 
--The glib-mkenums PERL script, that is found from the GLib sources that you have built
- and installed above.  Copy gobject\glib-mkenums.in from the GLib source tree to
- $(PREFIX)\bin\glib-mkenums, and change the
- @GLIB_VERSION@ in that file to match the version of GLib that you have built and
- installed, if it is not there yet.
+-The glib-mkenums PERL/Python script, that is found from the GLib sources that you have
+ built and installed above.  Copy gobject\glib-mkenums.in from the GLib source tree to
+ $(PREFIX)\bin\glib-mkenums, and change the @GLIB_VERSION@ in that file to match the
+ version of GLib that you have built and installed, if it is not there yet.
 
 -A working installation of PERL, which could either be built from the sources or obtained
- from distributions such as Strawberry PERL or ActiveState PERL.
+ from distributions such as Strawberry PERL or ActiveState PERL.  This is needed if the
+ GLib used is 2.52.x or earlier.
 
 -A working installation of Python 2.7.x+ or 3.x, which could be built from the sources or
  obtained from the installers from http://www.python.org.
 
 For introspection building, you will also need:
 -An up-to-date gobject-introspection installation that was built with the Visual Studio
- version that you intend to run gsettings-desktop-schemas-msvc.mak with, including the
- introspection files that are built with that package, in $(PREFIX).  Currently,
- for introspection building, Python 2.7.x must be used; Python 3.x is currently not
- supported.
+ version that you intend to run Makefile.vc with, including the
+ introspection files that are built with that package, in $(PREFIX).  You will need to
+ ensure that the Python in your PATH (or the one specified with $(PYTHON) matches the
+ Python installation and configuration that was used to build gobject-introspection.
 
-Run 'nmake /f gsettings-desktop-schemas-msvc.mak' to generate the needed schema files.
-If building the introspection files is desired, run 
-'nmake /f gsettings-desktop-schemas-msvc.mak introspection'.  A 'clean' target is
-provided to remove all the generated files.
+Run 'nmake /f Makefile.vc' to generate the needed schema files.  If building the
+introspection files is desired, run 'nmake /f Makefile.vc introspection'.  A 'clean'
+target is provided to remove all the generated files.  You may also specify the following
+items in the NMake command line with item=xxx:
 
-Please refer to the README.txt file in $(GLib_src_root)\build\win32\vs<Visual Studio Version>
-on how to build GLib using your version of Visual Studio.  Versions 2008 through 2015 are
+PREFIX: Installation prefix, <parentdir_of_srcroot>\vs<Visual Studio Version>\<PlatformName>
+        by default.
+GLIB_COMPILE_SCHEMAS: Location of the glib-compile-schemas tool,
+                      $(PREFIX)\bin\glib-compile-schemas.exe by default
+GLIB_MKENUMS: Location of the glib-mkenums tool script, $(PREFIX)\bin\glib-mkenums by default
+PYTHON: Location of the Python 2.7.x/3.x interpreter, needed if it is not in your PATH.
+PERL: Location of the PERL interpreter, needed if not in your PATH.
+
+Please refer to the README.txt file in $(GLib_src_root)\win32\vs<Visual Studio Version>
+on how to build GLib using your version of Visual Studio, for GLib 2.56.x or earlier, or
+in $(GLib_src_root)\README.win32 for GLib 2.57.x or later.  Versions 2008 through 2017 are
 currently supported.
 
 Set up the source tree as follows under some arbitrary top
 folder <root>:
 
 <root>\<this-gsettings-desktop-schemas-source-tree>
-<root>\<Visual Studio Version>\<PlatformName>
 
 *this* file you are now reading is thus located at
-<root>\<this-gsettings-desktop-schemas-source-tree>\build\README.txt
+<root>\<this-gsettings-desktop-schemas-source-tree>\win32\README.txt
 
 The "install" target will copy build results and headers into their
-appropriate location under <root>\vs<Visual Studio Version>\<PlatformName>.
+appropriate location under $(PREFIX).
 For instance, the *.schema.xml and *.enums.xml files will go into
-<root>\vs<Visual Studio Version>\<PlatformName>\share\glib-2.0\schemas,
-the header file goes into
-<root>\vs<Visual Studio Version>\<PlatformName>\include\gsettings-desktop-schemas.
+$(PREFIX)\share\glib-2.0\schemas,
+the header file goes into $(PREFIX)\include\gsettings-desktop-schemas.
 
 --Chun-wei Fan <fanc999@gmail.com>

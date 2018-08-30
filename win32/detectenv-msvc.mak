@@ -1,7 +1,26 @@
 # Common NMake Makefile module for checking the build environment
-# This can be copied from $(glib_srcroot)\build\win32 for GNOME items
-# that support MSVC builds and introspection under MSVC, and can be used
-# for building test programs as well.
+# This can be copied from $(glib_srcroot)\win32 for GNOME items
+# that support MSVC builds and introspection under MSVC which do
+# not yet support building via Meson.
+
+# Python.exe either needs to be in your PATH or you need to pass
+# in PYTHON=<full-path-to-your-Python-executable>.
+
+!IF "$(PYTHON)" == ""
+PYTHON=python
+!ENDIF
+
+# The PERL interpretor needs to be in your path or you need to pass in
+# PERL=<full-path-to-your-PERL-executable>
+!IF "$(PERL)" == ""
+PERL=perl.exe
+!ENDIF
+
+# Prefix of your installation.  Pass in PREFIX=<your-installation-prefix>
+# if needed.
+!IF "$(PREFIX)" == ""
+PREFIX=..\..\vs$(VSVER)\$(PLAT)
+!ENDIF
 
 # Check to see we are configured to build with MSVC (MSDEVDIR, MSVCDIR or
 # VCINSTALLDIR) or with the MS Platform SDK (MSSDK or WindowsSDKDir)

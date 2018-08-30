@@ -1,0 +1,16 @@
+# NMake Makefile to Generate The
+# Complete gschema.xml Files, create the
+# enums.xml file, and install the schemas
+
+!include detectenv-msvc.mak
+!include config-msvc.mak
+
+!include introspection-msvc.mak
+
+!include create-lists-msvc.mak
+
+all: $(gschemas) org.gnome.desktop.enums.xml
+
+!include generate-msvc.mak
+
+!include build-rules-msvc.mak

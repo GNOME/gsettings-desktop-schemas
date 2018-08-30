@@ -20,16 +20,21 @@ GENERATED_ITEMS =
 endif
 
 EXTRA_DIST = \
-	detectenv-msvc.mak			\
-	gsettings-desktop-schemas-msvc.mak.in	\
-	gsettings-desktop-schemas-msvc.mak	\
-	introspection-msvc.mak			\
-	genschema.py				\
-	genpc.py				\
-	pc_base.py				\
-	replace.py				\
-	uri.py					\
-	README.txt				\
+	build-rules-msvc.mak		\
+	config-msvc.mak			\
+	config-msvc.mak.in		\
+	create-lists.bat		\
+	create-lists-msvc.mak		\
+	detectenv-msvc.mak		\
+	generate-msvc.mak		\
+	genschema.py			\
+	genpc.py			\
+	introspection-msvc.mak		\
+	Makefile.vc			\
+	pc_base.py			\
+	replace.py			\
+	uri.py				\
+	README.txt			\
 	$(GENERATED_ITEMS)
 
 -include $(top_srcdir)/git.mk
