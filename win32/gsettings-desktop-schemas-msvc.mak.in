@@ -17,7 +17,7 @@ PYTHON=python
 # if needed.  glib-compile-schemas.exe and glib-mkenums need to be found
 # in $(PREFIX)\bin
 !IF "$(PREFIX)" == ""
-PREFIX=..\..\..\vs$(VSVER)\$(PLAT)
+PREFIX=..\..\vs$(VSVER)\$(PLAT)
 !ENDIF
 
 !include introspection-msvc.mak
@@ -41,7 +41,7 @@ _HASH=^#
 !if ![del $(ERRNUL) /q/f uri.x]
 !endif
 
-!include ..\..\schemas\Makefile-schemas.include
+!include ..\schemas\Makefile-schemas.include
 
 !if ![@echo gschemas = ^\> schemas.files] \
 &&  ![for %f in ($(desktop_gschemas_in)) do @echo.  %~nf ^\>> schemas.files]
@@ -56,15 +56,15 @@ all: $(gschemas) org.gnome.desktop.enums.xml
 
 .SUFFIXES: .xml.in .xml
 
-{..\..\schemas\}.xml.in{}.xml:
+{..\schemas\}.xml.in{}.xml:
 	$(PYTHON) genschema.py --input=$< --output=$@ --package=@GETTEXT_PACKAGE@ --prefix=$(PREFIX_POSIX)
 
-org.gnome.desktop.enums.xml:
+org.gnome.desktop.enums.xml: ..\headers\gdesktop-enums.h
 	$(PERL) $(PREFIX)\bin\glib-mkenums --comments "<!-- @comment@ -->"	\
 	--fhead "<schemalist>"	\
 	--vhead "  <@type@ id='org.gnome.desktop.@EnumName@'>"	\
 	--vprod "    <value nick='@valuenick@' value='@valuenum@'/>"	\
-	--vtail "  </@type@>" --ftail "</schemalist>" ..\..\headers\gdesktop-enums.h	\
+	--vtail "  </@type@>" --ftail "</schemalist>" ..\headers\gdesktop-enums.h	\
 	> $@
 
 introspection: setgirbuildenv GDesktopEnums-3.0.gir GDesktopEnums-3.0.typelib
@@ -76,7 +76,7 @@ setgirbuildenv:
 
 !include introspection.body.mak
 
-gsettings-desktop-schemas.pc: ..\..\gsettings-desktop-schemas.pc.in
+gsettings-desktop-schemas.pc: ..\gsettings-desktop-schemas.pc.in
 	@echo Generating gsettings-desktop-schemas.pc...
 	$(PYTHON) genpc.py --prefix=$(PREFIX) --version=@PACKAGE_VERSION@
 
@@ -85,7 +85,7 @@ install: $(gschemas) org.gnome.desktop.enums.xml gsettings-desktop-schemas.pc
 	@-copy *.gschema.xml $(PREFIX)\share\glib-2.0\schemas
 	@-copy org.gnome.desktop.enums.xml $(PREFIX)\share\glib-2.0\schemas
 	@-if not exist $(PREFIX)\include\gsettings-desktop-schemas mkdir $(PREFIX)\include\gsettings-desktop-schemas
-	@-copy ..\..\headers\gdesktop-enums.h $(PREFIX)\include\gsettings-desktop-schemas
+	@-copy ..\headers\gdesktop-enums.h $(PREFIX)\include\gsettings-desktop-schemas
 	@-if exist *.gir @copy *.gir $(PREFIX)\share\gir-1.0
 	@-if exist *.typelib @copy *.typelib $(PREFIX)\lib\girepository-1.0
 	$(PREFIX)\bin\glib-compile-schemas.exe $(PREFIX)\share\glib-2.0\schemas
