@@ -31,7 +31,10 @@ NULL=
 !if [call create-lists.bat header gschema-desktop-settings.mak gschemas]
 !endif
 
-!if [for %f in ($(desktop_gschemas_in)) do @call create-lists.bat file gschema-desktop-settings.mak %~nf]
+!if [for %f in ($(desktop_gschemas_in)) do @call create-lists.bat file gschema-desktop-settings.mak .\outputdir\%~nf]
+!endif
+
+!if [@call create-lists.bat file gschema-desktop-settings.mak .\outputdir\org.gnome.desktop.enums.xml]
 !endif
 
 !if [call create-lists.bat footer gschema-desktop-settings.mak]
