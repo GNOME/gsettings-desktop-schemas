@@ -13,14 +13,14 @@ setgirbuildenv:
 	@set PKG_CONFIG_PATH=$(PREFIX)\lib\pkgconfig
 
 install: $(gschemas) org.gnome.desktop.enums.xml gsettings-desktop-schemas.pc
-	@if not exist $(PREFIX)\share\glib-2.0\schemas\ mkdir $(PREFIX)\share\glib-2.0\schemas
-	@copy *.gschema.xml $(PREFIX)\share\glib-2.0\schemas
-	@copy org.gnome.desktop.enums.xml $(PREFIX)\share\glib-2.0\schemas
+	@if not exist $(INSTALL_DATA_DIR)\glib-2.0\schemas\ mkdir $(INSTALL_DATA_DIR)\glib-2.0\schemas
+	@copy *.gschema.xml $(INSTALL_DATA_DIR)\glib-2.0\schemas
+	@copy org.gnome.desktop.enums.xml $(INSTALL_DATA_DIR)\glib-2.0\schemas
 	@if not exist $(PREFIX)\include\gsettings-desktop-schemas\ mkdir $(PREFIX)\include\gsettings-desktop-schemas
 	@copy ..\headers\gdesktop-enums.h $(PREFIX)\include\gsettings-desktop-schemas
 	@if exist *.gir copy *.gir $(PREFIX)\share\gir-1.0
 	@if exist *.typelib copy *.typelib $(PREFIX)\lib\girepository-1.0
-	$(GLIB_COMPILE_SCHEMAS) $(PREFIX)\share\glib-2.0\schemas
+	$(GLIB_COMPILE_SCHEMAS) $(INSTALL_DATA_DIR)\glib-2.0\schemas
 	@if not exist $(PREFIX)\share\pkgconfig\ mkdir $(PREFIX)\share\pkgconfig
 	@copy gsettings-desktop-schemas.pc $(PREFIX)\share\pkgconfig
 
