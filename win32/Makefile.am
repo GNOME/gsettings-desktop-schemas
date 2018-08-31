@@ -33,7 +33,6 @@ EXTRA_DIST = \
 	Makefile.vc			\
 	pc_base.py			\
 	replace.py			\
-	uri.py				\
 	README.txt			\
 	$(GENERATED_ITEMS)
 

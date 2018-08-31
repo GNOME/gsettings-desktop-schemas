@@ -48,14 +48,3 @@ GLIB_MKENUMS_INTERP = $(PYTHON)
 !elseif "$(GLIB_MKENUMS_TYPE)" == "PERL"
 GLIB_MKENUMS_INTERP = $(PERL)
 !endif
-
-ERRNUL  = 2>NUL
-
-# Get the Full URI representation of the PREFIX
-!if ![echo PREFIX_POSIX= ^\> uri.x] \
-&& ![$(PYTHON) uri.py $(PREFIX) >> uri.x]
-!include uri.x
-!endif
-
-!if ![del $(ERRNUL) /q/f uri.x]
-!endif

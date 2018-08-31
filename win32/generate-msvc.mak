@@ -7,7 +7,7 @@
 
 # Generate the final xml files
 {..\schemas\}.xml.in{}.xml:
-	$(PYTHON) genschema.py --input=$< --output=$@ --package=$(GETTEXT_PACKAGE) --prefix=$(PREFIX_POSIX)
+	$(PYTHON) genschema.py --input=$< --output=$@ --package=$(GETTEXT_PACKAGE) --prefix=$(PREFIX)
 
 org.gnome.desktop.enums.xml: ..\headers\gdesktop-enums.h
 	$(GLIB_MKENUMS_INTERP) $(GLIB_MKENUMS) --comments "<!-- @comment@ -->"	\
