@@ -11,6 +11,21 @@ GLIB_COMPILE_SCHEMAS = $(PREFIX)\bin\glib-compile-schemas.exe
 GLIB_MKENUMS = $(PREFIX)\bin\glib-mkenums
 !endif
 
+# For processing the translations (not enabled by default)
+!ifndef INTLTOOL_UPDATE
+INTLTOOL_UPDATE = $(PREFIX)\bin\intltool-update
+!endif
+
+!ifndef INTLTOOL_EXTRACT
+INTLTOOL_EXTRACT = $(PREFIX)\binintltool-extract
+!endif
+
+!ifdef GENERATE_MO
+GSETTINGS_DESKTOP_SCHEMAS_MO = $(gschemas_mo)
+!else
+GSETTINGS_DESKTOP_SCHEMAS_MO =
+!endif
+
 # Please do not modify the following unless maintaining
 # the NMake Makefiles
 

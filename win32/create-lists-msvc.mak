@@ -40,6 +40,15 @@ NULL=
 !if [call create-lists.bat footer gschema-desktop-settings.mak]
 !endif
 
+!if [call create-lists.bat header gschema-desktop-settings.mak gschemas_mo]
+!endif
+
+!if [for %f in (..\po\*.po) do @call create-lists.bat file gschema-desktop-settings.mak .\outputdir\%~nf.mo]
+!endif
+
+!if [call create-lists.bat footer gschema-desktop-settings.mak]
+!endif
+
 !include gschema-desktop-settings.mak
 
 !if [del /f /q gschema-desktop-settings.mak]

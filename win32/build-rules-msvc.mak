@@ -23,8 +23,13 @@ install: $(gschemas) .\outputdir\gsettings-desktop-schemas.pc
 	$(GLIB_COMPILE_SCHEMAS) $(INSTALL_DATA_DIR)\glib-2.0\schemas
 	@if not exist $(PREFIX)\share\pkgconfig\ mkdir $(PREFIX)\share\pkgconfig
 	@copy .\outputdir\gsettings-desktop-schemas.pc $(PREFIX)\share\pkgconfig
+	@for %l in (.\outputdir\*.mo) do	\
+	@((if not exist $(PREFIX)\share\locale\%~nl\LC_MESSAGES\ mkdir $(PREFIX)\share\locale\%~nl\LC_MESSAGES) &	\
+	  (copy /b %l $(PREFIX)\share\locale\%~nl\LC_MESSAGES\$(GETTEXT_PACKAGE).mo))
 
 clean:
+	@if exist .\outputdir\*.mo del .\outputdir\*.mo
+	@if exist ..\po\$(GETTEXT_PACKAGE).pot del ..\po\$(GETTEXT_PACKAGE).pot
 	@if exist .\outputdir\gsettings-desktop-schemas.pc del .\outputdir\gsettings-desktop-schemas.pc
 	@if exist *.typelib del *.typelib
 	@if exist *.gir del *.gir
