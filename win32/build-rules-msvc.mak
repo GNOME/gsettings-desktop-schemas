@@ -6,8 +6,6 @@
 
 !include introspection.body.mak
 
-introspection: setgirbuildenv GDesktopEnums-3.0.gir GDesktopEnums-3.0.typelib
-
 setgirbuildenv:
 	@set PATH=$(PREFIX)\bin;$(PATH)
 	@set PKG_CONFIG_PATH=$(PREFIX)\lib\pkgconfig
