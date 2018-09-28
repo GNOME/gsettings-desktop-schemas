@@ -14,7 +14,7 @@ def main(argv):
 
     # Generate gsettings-desktop-schemas.pc
     replace_multi(base_pc.top_srcdir + '/gsettings-desktop-schemas.pc.in',
-                  base_pc.srcdir + '/gsettings-desktop-schemas.pc',
+                  base_pc.srcdir + '/outputdir/gsettings-desktop-schemas.pc',
                   base_pc.base_replace_items)
 
 if __name__ == '__main__':

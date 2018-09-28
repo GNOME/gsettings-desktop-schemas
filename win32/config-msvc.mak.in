@@ -1,0 +1,81 @@
+# NMake Makefile portion for configuring various items
+# for building and installing gsettings-desktop-schemas
+
+# User-settable items
+
+!ifndef GLIB_COMPILE_SCHEMAS
+GLIB_COMPILE_SCHEMAS = $(PREFIX)\bin\glib-compile-schemas.exe
+!endif
+
+!ifndef GLIB_MKENUMS
+GLIB_MKENUMS = $(PREFIX)\bin\glib-mkenums
+!endif
+
+# For processing the translations (not enabled by default)
+!ifndef INTLTOOL_UPDATE
+INTLTOOL_UPDATE = $(PREFIX)\bin\intltool-update
+!endif
+
+!ifndef INTLTOOL_EXTRACT
+INTLTOOL_EXTRACT = $(PREFIX)\binintltool-extract
+!endif
+
+# Please do not modify the following unless maintaining
+# the NMake Makefiles
+
+GETTEXT_PACKAGE = @GETTEXT_PACKAGE@
+PACKAGE_VERSION = @PACKAGE_VERSION@
+
+CHECK_PACKAGE=gio-2.0
+
+# Whether to process translations
+!ifdef GENERATE_MO
+GSETTINGS_DESKTOP_SCHEMAS_MO = $(gschemas_mo)
+!else
+GSETTINGS_DESKTOP_SCHEMAS_MO =
+!endif
+
+# Whether to build intropsection files
+!ifdef INTROSPECTION
+INTROSPECTION_TARGETS = setgirbuildenv GDesktopEnums-3.0.gir GDesktopEnums-3.0.typelib
+!else
+INTROSPECTION_TARGETS =
+!endif
+
+# The Python interpreter is always required.  The PERL interpreter is
+# also required if a glib-mkenums script from GLib 2.52.x or earlier
+# is used, or when generating the gschema files with translations
+# Please see detectenv-msvc.mak for how Python and PERL can be found
+# or specified
+
+# We need to first check whether glib-mkenums is a Python script or a PERL
+# script.  Note that Windows cmd.exe by itself does not support shebang
+# lines, so test run the script with Python and see whether that shows the
+# version info correctly.
+!if ![$(PYTHON) $(GLIB_MKENUMS) -v >NUL 2> mkenums.test.x]
+!endif
+
+!if ![for %f in (mkenums.test.x) do @if %~zf equ 0 echo GLIB_MKENUMS_TYPE = PYTHON > glibmkenums.type.x]
+!endif
+
+!if ![for %f in (mkenums.test.x) do @if %~zf gtr 0 echo GLIB_MKENUMS_TYPE = PERL > glibmkenums.type.x]
+!endif
+
+!include glibmkenums.type.x
+
+!if ![del glibmkenums.type.x mkenums.test.x]
+!endif
+
+!if "$(GLIB_MKENUMS_TYPE)" == "PYTHON"
+GLIB_MKENUMS_INTERP = $(PYTHON)
+!elseif "$(GLIB_MKENUMS_TYPE)" == "PERL"
+GLIB_MKENUMS_INTERP = $(PERL)
+!endif
+
+!ifdef DATADIR
+GENSCHEMA_DATADIR_ARG = --datadir=$(DATADIR)
+INSTALL_DATA_DIR = $(DATADIR)
+!else
+GENSCHEMA_DATADIR_ARG = --prefix=$(PREFIX)
+INSTALL_DATA_DIR = $(PREFIX)\share
+!endif
