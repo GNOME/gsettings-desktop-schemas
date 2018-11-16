@@ -5,8 +5,12 @@ headers = files(
 install_headers(headers, subdir: gsettings_desktop_schemas_name)
 
 if not meson.is_cross_build() and get_option('introspection')
-  gnome.generate_gir(
-    header: headers,
+  noinst_lib = shared_library('noinst',
+                              headers,
+                              install: false)
+
+  gnome.generate_gir(noinst_lib,
+    sources: headers,
     namespace: 'GDesktopEnums',
     identifier_prefix: 'GDesktop',
     nsversion : '3.0',
