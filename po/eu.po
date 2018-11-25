@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 #
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gsettings-desktop-schemas&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-01-11 17:50+0000\n"
-"PO-Revision-Date: 2017-02-18 19:49+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
+"/issues\n"
+"POT-Creation-Date: 2018-09-28 11:56+0000\n"
+"PO-Revision-Date: 2018-11-25 13:02+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
 msgid "On-screen keyboard"
@@ -106,18 +106,14 @@ msgstr ""
 "Denbora-mugaren iraupena teklatuaren erabilerraztasuna desgaitu aurretik."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:8
-#| msgid "Enable 'Bounce Keys'"
 msgid "Enable “Bounce Keys”"
 msgstr "Gaitu “errebote-teklak“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:9
-#| msgid ""
-#| "Whether the 'Bounce Keys' keyboard accessibility feature is turned on."
 msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
 msgstr ""
 "Teklatuaren “errebote-teklen“ erabilerraztasunaren eginbidea aktibatuta "
-"dagoen "
-"ala ez."
+"dagoen ala ez."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:10
 msgid "Minimum interval in milliseconds"
@@ -138,12 +134,10 @@ msgid "Whether to beep when a key is rejected."
 msgstr "Tekla bat ezestean soinua jo behar duen edo ez."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:14
-#| msgid "Enable 'Mouse Keys'"
 msgid "Enable “Mouse Keys”"
 msgstr "Gaitu “Sagu-teklak“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:15
-#| msgid "Whether the 'Mouse Keys' accessibility feature is turned on."
 msgid "Whether the “Mouse Keys” accessibility feature is turned on."
 msgstr "“Sagu-teklen“ erabilerraztasunaren eginbidea aktibatuta dagoen ala ez."
 
@@ -176,12 +170,10 @@ msgstr ""
 "denbora (milisegundotan)."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:22
-#| msgid "Enable 'Slow Keys'"
 msgid "Enable “Slow Keys”"
 msgstr "Gaitu “Tekla motelak“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:23
-#| msgid "Whether the 'Slow Keys' accessibility feature is turned on."
 msgid "Whether the “Slow Keys” accessibility feature is turned on."
 msgstr ""
 "“Tekla motelen“ erabilerraztasunaren eginbidea aktibatuta dagoen ala ez."
@@ -238,12 +230,10 @@ msgid "Whether to beep when a modifier key is pressed."
 msgstr "Jo soinu-seinalea aldatzailea sakatutakoan."
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:35
-#| msgid "Enable 'Toggle Keys'"
 msgid "Enable “Toggle Keys”"
 msgstr "Gaitu “Txandakatze-teklak“"
 
 #: ../schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in.h:36
-#| msgid "Whether the 'Toggle Keys' accessibility feature is turned on."
 msgid "Whether the “Toggle Keys” accessibility feature is turned on."
 msgstr ""
 "“Txandakatze-teklen“ erabilerraztasunaren eginbidea aktibatuta dagoen ala ez."
@@ -253,16 +243,6 @@ msgid "Mouse Tracking Mode"
 msgstr "Saguaren jarraipen mota"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:2
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
 "view and how it reacts to system mouse movement. The values are • none: no "
@@ -290,22 +270,6 @@ msgid "Focus Tracking Mode"
 msgstr "Fokuaren jarraipen mota"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:4
-#| msgid ""
-#| "Determines the position of the focused widget within magnified view.\n"
-#| "\n"
-#| "The values are:\n"
-#| "\n"
-#| "- none: no focus tracking\n"
-#| "\n"
-#| "- centered: the focused image is displayed at the center of the zoom "
-#| "region (which also represents the point under the system focus) and the "
-#| "magnified contents are scrolled as the system focus moves\n"
-#| "\n"
-#| "- proportional: the position of the magnified focus in the zoom region is "
-#| "proportionally the same as the position of the system focus on screen\n"
-#| "\n"
-#| "- push: when the magnified focus intersects a boundary of the zoom "
-#| "region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the focused widget within magnified view.\n"
 "\n"
@@ -345,21 +309,6 @@ msgid "Caret Tracking Mode"
 msgstr "Kurtsorearen jarraipen mota"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
-#| msgid ""
-#| "Determines the position of the caret within magnified view. The values "
-#| "are:\n"
-#| "\n"
-#| "- none: no caret tracking\n"
-#| "\n"
-#| "- centered: the image of the caret is displayed at the center of the zoom "
-#| "region (which also represents the point under the system caret) and the "
-#| "magnified contents are scrolled as the system caret moves\n"
-#| "\n"
-#| "- proportional: the position of the magnified caret in the zoom region is "
-#| "proportionally the same as the position of the system caret on screen\n"
-#| "\n"
-#| "- push: when the magnified caret intersects a boundary of the zoom "
-#| "region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
@@ -644,7 +593,6 @@ msgid "Gesture single click"
 msgstr "Klik bakunaren keinua"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:6
-#| msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
 msgid "Direction to perform a single click (“left”, “right”, “up”, “down”)."
 msgstr ""
 "Norabidea klik bakuna lantzeko: “left“ (ezkerrera), “right“ (eskuinera), "
@@ -655,7 +603,6 @@ msgid "Gesture double click"
 msgstr "Klik bikoitzaren keinua"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:8
-#| msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
 msgid "Direction to perform a double click (“left”, “right”, “up”, “down”)."
 msgstr ""
 "Norabidea klik bikoitza lantzeko: “left“ (ezkerrera), “right“ (eskuinera), "
@@ -666,7 +613,6 @@ msgid "Gesture drag click"
 msgstr "Arrastatzeko klik-aren keinua"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:10
-#| msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
 msgid "Direction to perform dragging (“left”, “right”, “up”, “down”)."
 msgstr ""
 "Norabidea arrastatzea lantzeko: “left“ (ezkerrera), “right“ (eskuinera), "
@@ -677,8 +623,6 @@ msgid "Gesture secondary click"
 msgstr "2. mailako klik-aren keinua"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:12
-#| msgid ""
-#| "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
 msgid "Direction to perform a secondary click (“left”, “right”, “up”, “down”)."
 msgstr ""
 "Norabidea 2. mailako klik-a lantzeko: “left“ (ezkerrera), "
@@ -689,8 +633,6 @@ msgid "Dwell click mode"
 msgstr "Klik-tenporizatuaren modua"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:14
-#| msgid ""
-#| "The active dwell click mode. Possible values are 'window' and 'gesture'."
 msgid ""
 "The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr ""
@@ -802,10 +744,6 @@ msgstr "Irudiaren aukerak"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:2
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:38
-#| msgid ""
-#| "Determines how the image set by wallpaper_filename is rendered. Possible "
-#| "values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched"
-#| "\", \"zoom\", \"spanned\"."
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -868,9 +806,6 @@ msgstr "Koloreen itzaldura-mota"
 
 #: ../schemas/org.gnome.desktop.background.gschema.xml.in.h:12
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:48
-#| msgid ""
-#| "How to shade the background color. Possible values are \"horizontal\", "
-#| "\"vertical\", and \"solid\"."
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -980,12 +915,6 @@ msgid "Exec Arguments"
 msgstr "Exekutatzeko argumentuak"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:18
-#| msgid ""
-#| "Argument used to execute programs in the terminal defined by the 'exec' "
-#| "key.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored. The default terminal and "
-#| "how to invoke it is handled in GIO."
 msgid ""
 "Argument used to execute programs in the terminal defined by the “exec” "
 "key.\n"
@@ -1003,12 +932,6 @@ msgid "Current input source"
 msgstr "Uneko sarreraren iturburua"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:2
-#| msgid ""
-#| "The zero-based index into the input sources list specifying the current "
-#| "one in effect. The value is automatically capped to remain in the range "
-#| "[0, sources_length) as long as the sources list isn't empty.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
@@ -1027,14 +950,6 @@ msgid "List of input sources"
 msgstr "Sarrerako iturburuen zerrenda"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:6
-#| msgid ""
-#| "List of input source identifiers available. Each source is specified as a "
-#| "tuple of 2 strings. The first string is the type and can be one of 'xkb' "
-#| "or 'ibus'. For 'xkb' sources the second string is 'xkb_layout"
-#| "+xkb_variant' or just 'xkb_layout' if a XKB variant isn't needed. For "
-#| "'ibus' sources the second string is the IBus engine name. An empty list "
-#| "means that the X server's current XKB layout and variant won't be touched "
-#| "and IBus won't be used."
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of “xkb” or "
@@ -1069,9 +984,6 @@ msgid "List of XKB options"
 msgstr "XKB aukeren zerrenda"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:10
-#| msgid ""
-#| "List of XKB options. Each option is an XKB option string as defined by "
-#| "xkeyboard-config's rules files."
 msgid ""
 "List of XKB options. Each option is an XKB option string as defined by "
 "xkeyboard-config’s rules files."
@@ -1150,9 +1062,6 @@ msgid "Toolbar Style"
 msgstr "Tresna-barraren estiloa"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:10
-#| msgid ""
-#| "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-#| "\"text\"."
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
@@ -1184,7 +1093,6 @@ msgid "Toolbar Icon Size"
 msgstr "Tresna-barrako ikonoen tamaina"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:16
-#| msgid "Size of icons in toolbars, either \"small\" or \"large\"."
 msgid "Size of icons in toolbars, either “small” or “large”."
 msgstr "Tresna-barrako ikonoen tamaina: “small“ (txikia) edo “large“ (handia)."
 
@@ -1370,9 +1278,6 @@ msgid "Palette used in the color selector"
 msgstr "Kolore-hautatzailean erabilitako paleta"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
-#| msgid ""
-#| "Palette used in the color selector as defined by the 'gtk-color-palette' "
-#| "setting"
 msgid ""
 "Palette used in the color selector as defined by the “gtk-color-palette” "
 "setting"
@@ -1385,15 +1290,12 @@ msgid "List of symbolic names and color equivalents"
 msgstr "Izen sinboliko eta koloreen baliokideen zerrenda"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
-#| msgid ""
-#| "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
-#| "scheme' setting"
 msgid ""
 "A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
 "setting"
 msgstr ""
-"“\\n“-rekin bereiztutako “izena:kolorea“ tuplen zerrenda "
-"“gtk-color-scheme“ ezarpenean definituta bezala."
+"“\\n“-rekin bereiztutako “izena:kolorea“ tuplen zerrenda “gtk-color-scheme“ "
+"ezarpenean definituta bezala."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
@@ -1416,10 +1318,20 @@ msgid "If true, display date in the clock, in addition to time."
 msgstr "Ezarrita badago, orduaz gain data ere erakusten du."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:64
+#| msgid "Show date in clock"
+msgid "Show weekday in clock"
+msgstr "Erakutsi asteko eguna erlojuan"
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#| msgid "If true, display date in the clock, in addition to time."
+msgid "If true, display weekday in the clock, in addition to time."
+msgstr "Ezarrita badago, orduaz gain asteko eguna ere erlojuan erakusten du."
+
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
 msgid "Show battery percentage"
 msgstr "Erakutsi bateriaren ehunekoa"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:65
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1427,45 +1339,37 @@ msgstr ""
 "True (egia) gisa ezartzen bada, ikonoaz gain bateriaren ehunekoa bistaratuko "
 "da egoera-menuan."
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:66
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
 msgstr "Gaitu itsaste nagusiaren hautapena"
 
-#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
 "“true“ (egia) bada, gtk+ liburutegiak itsaste nagusiaren hautapena erabiliko "
-"du, "
-"saguaren erdiko botoiarekin klik egitean abiarazi ohi da."
+"du, saguaren erdiko botoiarekin klik egitean abiarazi ohi da."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
 msgstr "Desgaitu komando-lerroa"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:2
-#| msgid ""
-#| "Prevent the user from accessing the terminal or specifying a command line "
-#| "to be executed. For example, this would disable access to the panel's "
-#| "\"Run Application\" dialog."
 msgid ""
 "Prevent the user from accessing the terminal or specifying a command line to "
 "be executed. For example, this would disable access to the panel’s “Run "
 "Application” dialog."
 msgstr ""
-"Erabiltzaileak terminal batera sarbidea edo komando-lerro bat "
-"exekutatzeko zehaztea eragozten du. Adibidez, honek paneleko “Exekutatu "
-"aplikazioa“ elkarrizketa-koadroa desgaitzen du."
+"Erabiltzaileak terminal batera sarbidea edo komando-lerro bat exekutatzeko "
+"zehaztea eragozten du. Adibidez, honek paneleko “Exekutatu aplikazioa“ "
+"elkarrizketa-koadroa desgaitzen du."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:3
 msgid "Disable saving files to disk"
 msgstr "Desgaitu fitxategiak diskoan gordetzea"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:4
-#| msgid ""
-#| "Prevent the user from saving files to disk. For example, this would "
-#| "disable access to all applications' \"Save as\" dialogs."
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications’ “Save as” dialogs."
@@ -1479,9 +1383,6 @@ msgid "Disable printing"
 msgstr "Desgaitu inprimatzea"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:6
-#| msgid ""
-#| "Prevent the user from printing. For example, this would disable access to "
-#| "all applications' \"Print\" dialogs."
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications’ “Print” dialogs."
@@ -1494,9 +1395,6 @@ msgid "Disable print setup"
 msgstr "Desgaitu inprimagailuaren konfigurazioa"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:8
-#| msgid ""
-#| "Prevent the user from modifying print settings. For example, this would "
-#| "disable access to all applications' \"Print Setup\" dialogs."
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications’ “Print Setup” dialogs."
@@ -1615,15 +1513,10 @@ msgstr ""
 "abiaraziko da mota hauekin bat datorren euskarria sartzean."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:9
-#| msgid "List of x-content/* types set to \"Do Nothing\""
 msgid "List of x-content/* types set to “Do Nothing”"
 msgstr "x-content/* moten zerrenda (“Ezer ez egin“-ekin ezarritakoa)"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:10
-#| msgid ""
-#| "List of x-content/* types for which the user have chosen \"Do Nothing\" "
-#| "in the preference capplet. No prompt will be shown nor will any matching "
-#| "application be started on insertion of media matching these types."
 msgid ""
 "List of x-content/* types for which the user have chosen “Do Nothing” in the "
 "preference capplet. No prompt will be shown nor will any matching "
@@ -1634,15 +1527,10 @@ msgstr ""
 "abiaraziko mota hauekin bat datorren euskarria sartzean."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:11
-#| msgid "List of x-content/* types set to \"Open Folder\""
 msgid "List of x-content/* types set to “Open Folder”"
 msgstr "x-content/* moten zerrenda (“Ireki karpeta“-rekin ezarritakoa)"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:12
-#| msgid ""
-#| "List of x-content/* types for which the user have chosen \"Open Folder\" "
-#| "in the preferences capplet. A folder window will be opened on insertion "
-#| "of media matching these types."
 msgid ""
 "List of x-content/* types for which the user have chosen “Open Folder” in "
 "the preferences capplet. A folder window will be opened on insertion of "
@@ -1765,8 +1653,8 @@ msgstr "“Touchpad“-a deskatibatu edo ez idaztean"
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
-"Gaituta dagoenean, “touchpad“-ak desgaitu egiten dira teklatuarekin "
-"idazten den bitartean"
+"Gaituta dagoenean, “touchpad“-ak desgaitu egiten dira teklatuarekin idazten "
+"den bitartean"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Enable mouse clicks with touchpad"
@@ -1780,20 +1668,16 @@ msgstr ""
 "dezake."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
-#| msgid "Enable mouse clicks with touchpad"
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Gaitu touchpad-arekin ukitu eta arrastatzea"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
-#| msgid ""
-#| "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#| "touchpad."
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
-"Hau TRUE (egia) gisa ezartzean, touchpad-ean ukitu eta berehala hatza mugituz "
-"arrastatzen hasiko da."
+"Hau TRUE (egia) gisa ezartzean, touchpad-ean ukitu eta berehala hatza "
+"mugituz arrastatzen hasiko da."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Touchpad enabled"
@@ -1808,9 +1692,6 @@ msgid "Touchpad button orientation"
 msgstr "Touchpad-eko botoiaren orientazioa"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:13
-#| msgid ""
-#| "Swap left and right mouse buttons for left-handed mice with 'left', "
-#| "'right' for right-handed, 'mouse' to follow the mouse setting."
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1823,9 +1704,6 @@ msgid "Pointer speed"
 msgstr "Erakuslearen abiadura"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
-#| msgid ""
-#| "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
-#| "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1849,10 +1727,6 @@ msgid "Click method"
 msgstr "Klik egiteko metodoa"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:19
-#| msgid ""
-#| "How to generate software-emulated buttons, either disabled ('none'), "
-#| "through specific areas ('areas'), number of fingers ('fingers') or left "
-#| "as hardware default ('default')."
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1895,9 +1769,6 @@ msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Trukatu saguaren ezkerreko eta eskuineko botoiak ezkertiarrentzako."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1916,14 +1787,6 @@ msgid "Acceleration profile"
 msgstr "Azelerazioaren profila"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:31
-#| msgid ""
-#| "Acceleration profile used for connected mice. The acceleration profile "
-#| "can be set to either default ('default') which uses the default "
-#| "acceleration profile for each device, flat ('flat'), which accelerates by "
-#| "a device specific constant factor derived from the configured pointer "
-#| "speed, or adaptive ('adaptive') which adapts the acceleration depending "
-#| "on the mouse movement. If a mouse doesn't support the configured profile, "
-#| "'default' will be used."
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -2045,28 +1908,49 @@ msgstr ""
 "eragiten."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
+#| msgid "Secondary button action"
+msgid "Tertiary button action"
+msgstr "Hirugarren mailako botoiaren ekintza"
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#| msgid ""
+#| "Secondary stylus button action, this button is located along the pen "
+#| "handle on some styli like the Grip Pen. Other styli like the Airbrush Pen "
+#| "or the Inking Pen only have one button, this setting is ineffective on "
+#| "those."
+msgid ""
+"Tertiary stylus button action, this button is located along the pen handle "
+"on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
+"buttons, this setting is ineffective on those."
+msgstr ""
+"Arkatzaren hirugarren botoiaren ekintza. Botoi hau '3D Pen' bezalako "
+"arkatzen heldulekuan zehar kokatuta dago. 'Grip Pen' bezalakoek bi botoi"
+" bakarrik "
+"daukatenez, ezarpen honek ez du haietan eragiten."
+
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
 msgstr "Taularen botoiaren ekintza mota"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:51
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
 msgstr "Botoia sakatzean abiaraziko den ekintza mota."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
 msgstr "Ekintza pertsonalizatuaren teklen konbinazioa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "Ekintza pertsonalizatuetan botoia sakatzean sortuko den laster-tekla."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
 msgstr "Ukimen-pantailaren mapaketa"
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:55
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -2075,18 +1959,11 @@ msgstr ""
 "behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] "
 "mapaketa desgaitzen du."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Saguaren gurpila emulatzeko botoia. 0 eginbidea desgaitzeko."
 
-#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
-#| msgid ""
-#| "Acceleration profile used for the trackball. The acceleration profile can "
-#| "be set to either default ('default') which uses the default acceleration "
-#| "profile, flat ('flat'), which accelerates by a device specific constant "
-#| "factor derived from the configured speed, or adaptive ('adaptive') which "
-#| "adapts the acceleration depending on the movement. If the trackball "
-#| "doesn't support the configured profile, 'default' will be used."
+#: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2109,9 +1986,6 @@ msgid "Controls visibility of personal information"
 msgstr "Informazio pertsonalaren ikusgaitasuna kontrolatzen du"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:2
-#| msgid ""
-#| "If set to true, the system will make an effort to not divulge the user's "
-#| "identity on screen or on the network."
 msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
@@ -2133,9 +2007,6 @@ msgid "Whether to remove old files from the trash automatically"
 msgstr "Fitxategi zaharrak zakarrontzitik automatikoki kentzea edo ez"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:6
-#| msgid ""
-#| "If TRUE, automatically remove files from the trash when they are older "
-#| "than 'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
@@ -2148,9 +2019,6 @@ msgid "Whether to remove old temporary files automatically"
 msgstr "Aldi baterako fitxategi zaharrak automatikoki kentzea edo ez"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:8
-#| msgid ""
-#| "If TRUE, automatically remove temporary files when they are older than "
-#| "'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove temporary files when they are older than “old-"
 "files-age” days."
@@ -2267,10 +2135,6 @@ msgid "Show full name in the lock screen"
 msgstr "Erakutsi izen osoa blokeatutako pantailan"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
-#| msgid ""
-#| "Whether the user's full name is shown in the lock screen or not. This "
-#| "only affects the screen shield, the name is always shown in the unlock "
-#| "dialog."
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -2284,12 +2148,6 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Baimendu teklatua leihoan kapsulatzea"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2308,13 +2166,6 @@ msgid "Embedded keyboard command"
 msgstr "Kapsulatutako teklatu komandoa"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2335,11 +2186,6 @@ msgid "Allow logout"
 msgstr "Baimendu saio-amaiera"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:20
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key.\n"
@@ -2357,12 +2203,6 @@ msgid "Time before logout option"
 msgstr "Denbora saioa amaitzeko aukeraren aurretik"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2381,12 +2221,6 @@ msgid "Logout command"
 msgstr "Saio-amaierako komandoa"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:28
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2500,15 +2334,12 @@ msgid "Session type"
 msgstr "Saio mota"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:4
-#| msgid ""
-#| "The name of the session to use. Known values are \"gnome\" and \"gnome-"
-#| "fallback\"."
 msgid ""
 "The name of the session to use. Known values are “gnome” and “gnome-"
 "fallback”."
 msgstr ""
-"Saioaren izena erabiltzeko. Balio ezagunak: “gnome“ eta "
-"“gnome-fallback“ (gnome klasikoa)"
+"Saioaren izena erabiltzeko. Balio ezagunak: “gnome“ eta “gnome-"
+"fallback“ (gnome klasikoa)"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:1
 msgid "Sounds for events"
@@ -2534,6 +2365,18 @@ msgstr "Sarrerako berrelikaduren soinuak"
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:6
 msgid "Whether to play sounds on input events."
 msgstr "Sarrerako gertaeretan soinuak erreproduzitu ala ez adierazten du."
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:8
+#, no-c-format
+msgid "Allow volume above 100%"
+msgstr "Baimendu bolumena %100-tik gora"
+
+#: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:10
+#, no-c-format
+msgid "Whether volume can be set above 100%, using software amplification."
+msgstr ""
+"Bolumena % 100-etik gora ezartzea (software bidezko anplifikazioa erabiliz)"
+" baimentzen den edo ez."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:1
 msgid ""
@@ -2712,7 +2555,6 @@ msgid "Show the run command prompt"
 msgstr "Erakutsi gonbitea komandoa exekutatzeko"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:35
-#| msgid "Don't use"
 msgid "Don’t use"
 msgstr "Ez erabili"
 
@@ -2933,12 +2775,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Aldatzailea leihoen klik-ekintza aldatuetan erabiltzeko"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:2
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the \"resize-with-right-button\" key. Modifier is expressed as <!"
-#| "[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -2950,18 +2786,14 @@ msgstr ""
 "aldatuko da (klik egin saguaren ezkerreko botoiarekin), leihoaren tamaina "
 "aldatuko da (klik egin saguaren erdiko botoiarekin), edo leihoaren menua "
 "erakutsiko da (klik egin saguaren eskuineko botoiarekin). Erdi eta eskuineko "
-"eragiketak truka daitezke “resize-with-right-button“ erabiliz. Aldatzailea "
-"<![CDATA[\"<Alt>\"]]> edo <![CDATA[\"<Super>\"]]> izango da, adibidez."
+"eragiketak truka daitezke “resize-with-right-button“ erabiliz. Aldatzailea <!"
+"[CDATA[\"<Alt>\"]]> edo <![CDATA[\"<Super>\"]]> izango da, adibidez."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:3
 msgid "Whether to resize with the right button"
 msgstr "Saguaren eskuineko botoiarekin tamaina aldatu ala ez"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:4
-#| msgid ""
-#| "Set this to true to resize with the right button and show a menu with the "
-#| "middle button while holding down the key given in \"mouse-button-modifier"
-#| "\"; set it to false to make it work the opposite way around."
 msgid ""
 "Set this to true to resize with the right button and show a menu with the "
 "middle button while holding down the key given in “mouse-button-modifier”; "
@@ -2977,14 +2809,6 @@ msgid "Arrangement of buttons on the titlebar"
 msgstr "Titulu-barrako botoien antolamendua"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:6
-#| msgid ""
-#| "Arrangement of buttons on the titlebar. The value should be a string, "
-#| "such as \"menu:minimize,maximize,spacer,close\"; the colon separates the "
-#| "left corner of the window from the right corner, and the button names are "
-#| "comma-separated. Duplicate buttons are not allowed. Unknown button names "
-#| "are silently ignored so that buttons can be added in future metacity "
-#| "versions without breaking older versions. A special spacer tag can be "
-#| "used to insert some space between two adjacent buttons."
 msgid ""
 "Arrangement of buttons on the titlebar. The value should be a string, such "
 "as “menu:minimize,maximize,spacer,close”; the colon separates the left "
@@ -3008,12 +2832,6 @@ msgid "Window focus mode"
 msgstr "Leiho-fokuaren modua"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:8
-#| msgid ""
-#| "The window focus mode indicates how windows are activated. It has three "
-#| "possible values; \"click\" means windows must be clicked in order to "
-#| "focus them, \"sloppy\" means windows are focused when the mouse enters "
-#| "the window, and \"mouse\" means windows are focused when the mouse enters "
-#| "the window and unfocused when the mouse leaves the window."
 msgid ""
 "The window focus mode indicates how windows are activated. It has three "
 "possible values; “click” means windows must be clicked in order to focus "
@@ -3032,11 +2850,6 @@ msgid "Control how new windows get focus"
 msgstr "Kontrolatu leiho berriek fokua nola lortzea"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:10
-#| msgid ""
-#| "This option provides additional control over how newly created windows "
-#| "get focus. It has two possible values; \"smart\" applies the user's "
-#| "normal focus mode, and \"strict\" results in windows started from a "
-#| "terminal not being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
@@ -3053,14 +2866,6 @@ msgid "Whether windows should be raised when their client area is clicked"
 msgstr "Leihoak goratu behar diren edo ez haien bezero-arean klik egitean"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:12
-#| msgid ""
-#| "The default, true, indicates that a window will be raised whenever its "
-#| "client area or its frame is clicked.\n"
-#| "\n"
-#| "Setting this to false means that a window will not be raised if it is "
-#| "clicked on the client area. To raise it, one can click anywhere in the "
-#| "window's frame, or Super-click on any part of the window. This mode is "
-#| "useful if one uses many overlapping windows."
 msgid ""
 "The default, true, indicates that a window will be raised whenever its "
 "client area or its frame is clicked.\n"
@@ -3083,16 +2888,6 @@ msgid "Action on title bar double-click"
 msgstr "Titulu-barran klik bikoitza egitearen eragina"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:16
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar.\n"
 "\n"
@@ -3120,16 +2915,6 @@ msgid "Action on title bar middle-click"
 msgstr "Ekintza titulu-barran erdiko botoiarekin klik egitean"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:20
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar.\n"
 "\n"
@@ -3157,16 +2942,6 @@ msgid "Action on title bar right-click"
 msgstr "Ekintza titulu-barran eskuineko botoiarekin klik egitean"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:24
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar.\n"
 "\n"
@@ -3194,22 +2969,16 @@ msgid "Automatically raises the focused window"
 msgstr "Automatikoki goratzen du fokua duen leihoa"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:28
-#| msgid ""
-#| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-#| "the focused window will be automatically raised after a delay specified "
-#| "by the auto-raise-delay key. This is not related to clicking on a window "
-#| "to raise it, nor to entering a window during drag-and-drop."
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
-"Egia bada, eta fokuaren modua “sloppy“ edo “mouse“ bada, fokua duen "
-"leihoa automatikoki goratuko da “auto-raise-delay“ gakoan zehaztutako "
-"atzerapena igarotakoan. Honek ez dauka zerikusirik leiho baten klik "
-"egitearekin goratzeko, ezta leiho batean sartzearekin arrastatu eta "
-"jaregitean."
+"Egia bada, eta fokuaren modua “sloppy“ edo “mouse“ bada, fokua duen leihoa "
+"automatikoki goratuko da “auto-raise-delay“ gakoan zehaztutako atzerapena "
+"igarotakoan. Honek ez dauka zerikusirik leiho baten klik egitearekin "
+"goratzeko, ezta leiho batean sartzearekin arrastatu eta jaregitean."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:29
 msgid "Delay in milliseconds for the auto raise option"
@@ -3287,10 +3056,6 @@ msgid "System Bell is Audible"
 msgstr "Sistema-soinua entzungarri"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:42
-#| msgid ""
-#| "Determines whether applications or the system can generate audible "
-#| "'beeps'; may be used in conjunction with 'visual bell' to allow silent "
-#| "'beeps'."
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3304,10 +3069,6 @@ msgid "Enable Visual Bell"
 msgstr "Gaitu soinu bisuala"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:44
-#| msgid ""
-#| "Turns on a visual indication when an application or the system issues a "
-#| "'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
-#| "environments."
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3322,17 +3083,6 @@ msgid "Visual Bell Type"
 msgstr "Soinu bisual mota"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:46
-#| msgid ""
-#| "Tells the WM how to implement the visual indication that the system bell "
-#| "or another application 'bell' indicator has been rung.\n"
-#| "\n"
-#| "Currently there are two valid values, \"fullscreen-flash\", which causes "
-#| "a fullscreen white-black flash, and \"frame-flash\" which causes the "
-#| "titlebar of the application which sent the bell signal to flash.\n"
-#| "\n"
-#| "If the application which sent the bell is unknown (as is usually the case "
-#| "for the default \"system beep\"), the currently focused window's titlebar "
-#| "is flashed."
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung.\n"
@@ -3379,11 +3129,6 @@ msgid "The names of the workspaces"
 msgstr "Laneko areen izenak"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:54
-#| msgid ""
-#| "Defines the names that should be assigned to workspaces. If the list is "
-#| "too long for the current number of workspaces, names in excess will be "
-#| "ignored. If the list is too short, or includes empty names, missing "
-#| "values will be replaced with the default (\"Workspace N\")."
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3422,13 +3167,6 @@ msgid "The maximum accuracy level of location."
 msgstr "Kokalekuaren gehienezko zehaztasun maila."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:4
-#| msgid ""
-#| "Configures the maximum level of location accuracy applications are "
-#| "allowed to see. Valid options are 'country', 'city', 'neighborhood', "
-#| "'street', and 'exact' (typically requires GPS receiver). Please keep in "
-#| "mind that this only controls what GeoClue will allow applications to see "
-#| "and they can find user's location on their own using network resources "
-#| "(albeit with street-level accuracy at best)."
 msgid ""
 "Configures the maximum level of location accuracy applications are allowed "
 "to see. Valid options are “country”, “city”, “neighborhood”, “street”, and "
@@ -3450,26 +3188,6 @@ msgid "Proxy configuration mode"
 msgstr "Proxy-aren konfigurazio modua"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:2
-#| msgid ""
-#| "Select the proxy configuration mode. Supported values are \"none\", "
-#| "\"manual\", \"auto\".\n"
-#| "\n"
-#| "If this is \"none\", then proxies are not used.\n"
-#| "\n"
-#| "If it is \"auto\", the autoconfiguration URL described by the "
-#| "\"autoconfig-url\" key is used.\n"
-#| "\n"
-#| "If it is \"manual\", then the proxies described by \"/system/proxy/http"
-#| "\", \"/system/proxy/https\", \"/system/proxy/ftp\" and \"/system/proxy/"
-#| "socks\" will be used. Each of the 4 proxy types is enabled if its \"host"
-#| "\" key is non-empty and its \"port\" key is non-0.\n"
-#| "\n"
-#| "If an http proxy is configured, but an https proxy is not, then the http "
-#| "proxy is also used for https.\n"
-#| "\n"
-#| "If a SOCKS proxy is configured, it is used for all protocols, except that "
-#| "the http, https, and ftp proxy settings override it for those protocols "
-#| "only."
 msgid ""
 "Select the proxy configuration mode. Supported values are “none”, “manual”, "
 "“auto”.\n"
@@ -3514,9 +3232,6 @@ msgid "Automatic proxy configuration URL"
 msgstr "Proxy konfigurazio automatikoaren URLa"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:14
-#| msgid ""
-#| "URL that provides proxy configuration values. When mode is \"auto\", this "
-#| "URL is used to look up proxy information for all protocols."
 msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
@@ -3571,28 +3286,18 @@ msgid "HTTP proxy port"
 msgstr "HTTP proxy-aren ataka"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:23
-#| msgid ""
-#| "The port on the machine defined by \"/system/proxy/http/host\" that you "
-#| "proxy through."
 msgid ""
 "The port on the machine defined by “/system/proxy/http/host” that you proxy "
 "through."
 msgstr ""
-"Ordenagailuaren ataka, “/system/proxy/http/host“-ean definituta proxy-"
-"arena egiteko."
+"Ordenagailuaren ataka, “/system/proxy/http/host“-ean definituta proxy-arena "
+"egiteko."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:24
 msgid "Authenticate proxy server connections"
 msgstr "Autentifikatu proxy zerbitzariaren konexioak"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:25
-#| msgid ""
-#| "If true, then connections to the proxy server require authentication. The "
-#| "username/password combo is defined by \"/system/proxy/http/authentication-"
-#| "user\" and \"/system/proxy/http/authentication-password\".\n"
-#| "\n"
-#| "This applies only to the http proxy; when using a separate https proxy, "
-#| "there is currently no way to specify that it should use authentication."
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
 "username/password combo is defined by “/system/proxy/http/authentication-"
@@ -3602,9 +3307,9 @@ msgid ""
 "there is currently no way to specify that it should use authentication."
 msgstr ""
 "“true“ (egia) ezartzean proxy zerbitzarira bideratutako konexioek "
-"autentifikazioa eskatuko dute. Erabiltzaile-izena/pasahitza konbinazioa "
-"“/system/proxy/http/authentication-user“ eta "
-"“/system/proxy/http/authentication-password“ lekuetan definitzen dira.\n"
+"autentifikazioa eskatuko dute. Erabiltzaile-izena/pasahitza konbinazioa “/"
+"system/proxy/http/authentication-user“ eta “/system/proxy/http/"
+"authentication-password“ lekuetan definitzen dira.\n"
 "\n"
 "Honek HTTP proxy-ari soilik eragiten dio; bereiztutako HTTPS proxy-a "
 "erabiltzean oraingoz ez dago honek autentifikazioa erabiltzeko zehazteko "
@@ -3639,15 +3344,12 @@ msgid "Secure HTTP proxy port"
 msgstr "HTTP Seguruaren proxy-aren ataka"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:35
-#| msgid ""
-#| "The port on the machine defined by \"/system/proxy/https/host\" that you "
-#| "proxy through."
 msgid ""
 "The port on the machine defined by “/system/proxy/https/host” that you proxy "
 "through."
 msgstr ""
-"Ordenagailuaren ataka, “/system/proxy/https/host“-ean definituta proxy-"
-"arena egiteko."
+"Ordenagailuaren ataka, “/system/proxy/https/host“-ean definituta proxy-arena "
+"egiteko."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:36
 msgid "FTP proxy host name"
@@ -3662,9 +3364,6 @@ msgid "FTP proxy port"
 msgstr "FTP proxy-aren ataka"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:39
-#| msgid ""
-#| "The port on the machine defined by \"/system/proxy/ftp/host\" that you "
-#| "proxy through."
 msgid ""
 "The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
@@ -3685,15 +3384,12 @@ msgid "SOCKS proxy port"
 msgstr "SOCKS proxy-aren ataka"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:43
-#| msgid ""
-#| "The port on the machine defined by \"/system/proxy/socks/host\" that you "
-#| "proxy through."
 msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
 msgstr ""
-"Ordenagailuaren ataka, “/system/proxy/socks/host“-ean definituta proxy-"
-"arena egiteko."
+"Ordenagailuaren ataka, “/system/proxy/socks/host“-ean definituta proxy-arena "
+"egiteko."
 
 #~ msgid "Select the touchpad scroll method"
 #~ msgstr "Hautatu 'touchpad'aren korritzeko metodoa"
