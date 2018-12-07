@@ -49,3 +49,9 @@ foreach schema: schemas_in
 endforeach
 
 gnome.compile_schemas(build_by_default: true)
+
+install_data(
+  'gsettings-desktop-schemas.convert',
+  'wm-schemas.convert',
+  install_dir: join_paths(datadir, 'GConf', 'gsettings'),
+)
