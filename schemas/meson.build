@@ -1,33 +1,33 @@
-schemas_in = files(
-  'org.gnome.desktop.default-applications.gschema.xml.in',
-  'org.gnome.desktop.interface.gschema.xml.in',
-  'org.gnome.desktop.lockdown.gschema.xml.in',
-  'org.gnome.system.locale.gschema.xml.in',
-  'org.gnome.system.location.gschema.xml.in',
-  'org.gnome.system.proxy.gschema.xml.in',
-  'org.gnome.desktop.sound.gschema.xml.in',
-  'org.gnome.desktop.thumbnail-cache.gschema.xml.in',
-  'org.gnome.desktop.a11y.gschema.xml.in',
-  'org.gnome.desktop.a11y.keyboard.gschema.xml.in',
-  'org.gnome.desktop.a11y.applications.gschema.xml.in',
-  'org.gnome.desktop.a11y.magnifier.gschema.xml.in',
-  'org.gnome.desktop.a11y.mouse.gschema.xml.in',
-  'org.gnome.desktop.thumbnailers.gschema.xml.in',
-  'org.gnome.desktop.session.gschema.xml.in',
-  'org.gnome.desktop.background.gschema.xml.in',
-  'org.gnome.desktop.calendar.gschema.xml.in',
-  'org.gnome.desktop.datetime.gschema.xml.in',
-  'org.gnome.desktop.media-handling.gschema.xml.in',
-  'org.gnome.desktop.screensaver.gschema.xml.in',
-  'org.gnome.desktop.search-providers.gschema.xml.in',
-  'org.gnome.desktop.wm.keybindings.gschema.xml.in',
-  'org.gnome.desktop.wm.preferences.gschema.xml.in',
-  'org.gnome.desktop.input-sources.gschema.xml.in',
-  'org.gnome.desktop.privacy.gschema.xml.in',
-  'org.gnome.desktop.notifications.gschema.xml.in',
-  'org.gnome.desktop.app-folders.gschema.xml.in',
-  'org.gnome.desktop.peripherals.gschema.xml.in',
-)
+schemas = [
+  'org.gnome.desktop.default-applications.gschema.xml',
+  'org.gnome.desktop.interface.gschema.xml',
+  'org.gnome.desktop.lockdown.gschema.xml',
+  'org.gnome.system.locale.gschema.xml',
+  'org.gnome.system.location.gschema.xml',
+  'org.gnome.system.proxy.gschema.xml',
+  'org.gnome.desktop.sound.gschema.xml',
+  'org.gnome.desktop.thumbnail-cache.gschema.xml',
+  'org.gnome.desktop.a11y.gschema.xml',
+  'org.gnome.desktop.a11y.keyboard.gschema.xml',
+  'org.gnome.desktop.a11y.applications.gschema.xml',
+  'org.gnome.desktop.a11y.magnifier.gschema.xml',
+  'org.gnome.desktop.a11y.mouse.gschema.xml',
+  'org.gnome.desktop.thumbnailers.gschema.xml',
+  'org.gnome.desktop.session.gschema.xml',
+  'org.gnome.desktop.background.gschema.xml',
+  'org.gnome.desktop.calendar.gschema.xml',
+  'org.gnome.desktop.datetime.gschema.xml',
+  'org.gnome.desktop.media-handling.gschema.xml',
+  'org.gnome.desktop.screensaver.gschema.xml',
+  'org.gnome.desktop.search-providers.gschema.xml',
+  'org.gnome.desktop.wm.keybindings.gschema.xml',
+  'org.gnome.desktop.wm.preferences.gschema.xml',
+  'org.gnome.desktop.input-sources.gschema.xml',
+  'org.gnome.desktop.privacy.gschema.xml',
+  'org.gnome.desktop.notifications.gschema.xml',
+  'org.gnome.desktop.app-folders.gschema.xml',
+  'org.gnome.desktop.peripherals.gschema.xml',
+]
 
 conf = configuration_data()
 conf.set('prefix', prefix)
@@ -39,14 +39,16 @@ conf.set('datarootdir', datadir)
 conf.set('datadir', datadir)
 conf.set('includedir', includedir)
 
-foreach schema: schemas_in
-  generated_schema = configure_file(
-    output: '@BASENAME@',
-    input: schema,
-    configuration: conf
+generated_schemas = []
+foreach schema: schemas
+  generated_schemas += configure_file(
+    output: schema,
+    input: schema + '.in',
+    configuration: conf,
   )
-  install_data(generated_schema, install_dir: schemasdir)
 endforeach
+
+install_data(generated_schemas, install_dir: schemasdir)
 
 gnome.compile_schemas(build_by_default: true)
 
