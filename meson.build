@@ -32,6 +32,7 @@ gnome = import('gnome')
 pkg = import('pkgconfig')
 
 pkg.generate(name: gsettings_desktop_schemas_name,
+             subdirs: gsettings_desktop_schemas_name,
              install_dir: join_paths(datadir, 'pkgconfig'),
              version: gsettings_desktop_schemas_version,
              description: 'Shared GSettings schemas for the desktop, including helper headers')
