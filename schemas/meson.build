@@ -50,8 +50,6 @@ endforeach
 
 install_data(generated_schemas, install_dir: schemasdir)
 
-gnome.compile_schemas(build_by_default: true)
-
 install_data(
   'gsettings-desktop-schemas.convert',
   'wm-schemas.convert',

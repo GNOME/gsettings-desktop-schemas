@@ -40,3 +40,7 @@ pkg.generate(name: gsettings_desktop_schemas_name,
 subdir('headers')
 subdir('schemas')
 subdir('po')
+
+# Keep this in sync with post-install.sh expected arguments
+meson.add_install_script('build-aux/meson/post-install.sh',
+                         datadir)
