@@ -74,13 +74,20 @@
       <summary>Don’t allow applications to output sound</summary>
       <description>If TRUE, applications should not make sound.</description>
     </key>
-    <key name="usbguard" type="u">
+    <key name="usb-protection" type="b">
+      <default>false</default>
+      <summary>Whether to protect USB devices</summary>
+      <description>If TRUE, USB devices will be protected as configured in
+        the key usb-protection-level.
+      </description>
+    </key>
+    <key name="usb-protection-level" type="u">
       <default>0</default>
-      <summary>Wheter to enable the USBGuard protection</summary>
+      <summary>When USB devices should be rejected</summary>
       <description>
-        If set to 0, USBGuard protection will be disabled; if set to 1, USBGuard
-        protection will be active only when the lock screen is present; if set
-	to 2, USBGuard protection will always be active.
+        If set to 0, all USB devices will be authorized; if set to 1, only
+        when the lock screen is present new USB devices will be rejected; if
+        set to 2, all new USB devices will always be rejected.
       </description>
     </key>
   </schema>
