@@ -20,6 +20,7 @@ schemas = [
   'org.gnome.desktop.media-handling.gschema.xml',
   'org.gnome.desktop.screensaver.gschema.xml',
   'org.gnome.desktop.search-providers.gschema.xml',
+  'org.gnome.desktop.thunderbolt.gschema.xml',
   'org.gnome.desktop.wm.keybindings.gschema.xml',
   'org.gnome.desktop.wm.preferences.gschema.xml',
   'org.gnome.desktop.input-sources.gschema.xml',
