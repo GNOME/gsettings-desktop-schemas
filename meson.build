@@ -37,6 +37,8 @@ pkg.generate(name: gsettings_desktop_schemas_name,
              version: gsettings_desktop_schemas_version,
              description: 'Shared GSettings schemas for the desktop, including helper headers')
 
+glib_mkenums = find_program('glib-mkenums')
+
 subdir('headers')
 subdir('schemas')
 subdir('po')
