@@ -39,6 +39,19 @@ conf.set('datarootdir', datadir)
 conf.set('datadir', datadir)
 conf.set('includedir', includedir)
 
+gnome.mkenums(
+  'org.gnome.desktop.enums.xml',
+  sources: headers,
+  comments: '<!-- @comment@ -->',
+  fhead: '<schemalist>',
+  vhead: '  <@type@ id="org.gnome.desktop.@EnumName@">',
+  vprod: '    <value nick="@valuenick@" value="@valuenum@"/>',
+  vtail: '  </@type@>',
+  ftail: '</schemalist>',
+  install_header: true,
+  install_dir: schemasdir
+)
+
 generated_schemas = []
 foreach schema: schemas
   generated_schemas += configure_file(
