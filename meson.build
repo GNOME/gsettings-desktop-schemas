@@ -29,13 +29,16 @@ schemasdir = join_paths(datadir, 'glib-2.0/schemas')
 gnome = import('gnome')
 
 # Generate pc file
-pkg = import('pkgconfig')
+# Can't use pkgconfig helper https://github.com/mesonbuild/meson/issues/2253
+conf = configuration_data()
+conf.set('prefix', prefix)
+conf.set('VERSION', meson.project_version())
 
-pkg.generate(name: gsettings_desktop_schemas_name,
-             subdirs: gsettings_desktop_schemas_name,
-             install_dir: join_paths(datadir, 'pkgconfig'),
-             version: gsettings_desktop_schemas_version,
-             description: 'Shared GSettings schemas for the desktop, including helper headers')
+pkg = configure_file(configuration: conf,
+                     input: 'gsettings-desktop-schemas.pc.in',
+                     install: true,
+                     install_dir: join_paths(datadir, 'pkgconfig'),
+                     output: 'gsettings-desktop-schemas.pc')
 
 glib_mkenums = find_program('glib-mkenums')
 
