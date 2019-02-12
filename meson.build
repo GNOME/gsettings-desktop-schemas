@@ -45,7 +45,9 @@ glib_mkenums = find_program('glib-mkenums')
 
 subdir('headers')
 subdir('schemas')
-subdir('po')
+if get_option('nls')
+  subdir('po')
+endif
 
 # Keep this in sync with post-install.py expected arguments
 meson.add_install_script('build-aux/meson/post-install.py',
