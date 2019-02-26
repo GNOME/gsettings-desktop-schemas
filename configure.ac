@@ -25,8 +25,6 @@ IT_PROG_INTLTOOL([0.50.1])
 AC_OUTPUT([
 Makefile
 gsettings-desktop-schemas.pc
-win32/Makefile
-win32/config-msvc.mak
 headers/Makefile
 schemas/Makefile
 po/Makefile.in

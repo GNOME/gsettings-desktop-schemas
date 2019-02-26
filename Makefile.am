@@ -1,4 +1,4 @@
-SUBDIRS = headers schemas po win32
+SUBDIRS = headers schemas po
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
