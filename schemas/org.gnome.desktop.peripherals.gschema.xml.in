@@ -5,6 +5,7 @@
     <child name="keyboard" schema="org.gnome.desktop.peripherals.keyboard"/>
     <child name="mouse" schema="org.gnome.desktop.peripherals.mouse"/>
     <child name="trackball" schema="org.gnome.desktop.peripherals.trackball"/>
+    <child name="pointingstick" schema="org.gnome.desktop.peripherals.pointingstick"/>
     <child name="tablet" schema="org.gnome.desktop.peripherals.tablet"/>
     <child name="touchscreen" schema="org.gnome.desktop.peripherals.touchscreen"/>
   </schema>
@@ -184,6 +185,13 @@
       <default>'default'</default>
       <summary>Acceleration profile</summary>
       <description>Acceleration profile used for the trackball. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile, flat (“flat”), which accelerates by a device specific constant factor derived from the configured speed, or adaptive (“adaptive”) which adapts the acceleration depending on the movement. If the trackball doesn’t support the configured profile, “default” will be used.</description>
+    </key>
+  </schema>
+  <schema id="org.gnome.desktop.peripherals.pointingstick" path="/org/gnome/desktop/peripherals/pointingstick/">
+    <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
+      <default>'default'</default>
+      <summary>Acceleration profile</summary>
+      <description>Acceleration profile used for the pointing stick. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile, flat (“flat”), which accelerates by a device specific constant factor derived from the configured speed, or adaptive (“adaptive”) which adapts the acceleration depending on the movement. If the pointing stick doesn’t support the configured profile, “default” will be used.</description>
     </key>
   </schema>
 </schemalist>
