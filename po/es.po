@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-01-18 08:46+0000\n"
-"PO-Revision-Date: 2019-02-06 11:24+0100\n"
+"POT-Creation-Date: 2019-05-14 13:47+0000\n"
+"PO-Revision-Date: 2019-05-16 12:51+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 3.31.90\n"
+"X-Generator: Gtranslator 3.32.0\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1429,6 +1429,19 @@ msgstr ""
 "predeterminada, se permite añadir y quitar usuarios, así como cambiar la "
 "configuración de otros usuarios."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
+msgid "Mount removable storage devices as read-only"
+msgstr "Montar dispositivos de almacenamiento extraíbles como sólo lectura"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
+msgid ""
+"Prevent users from writing or modifying files on removable storage devices "
+"(i.e. flash disks, mobile phones, cameras)."
+msgstr ""
+"Evita que los usuarios puedan escribir o modificar los archivos en "
+"dispositivos de almacenamiento extraíbles (ej. discos flash, teléfonos "
+"móviles, cámaras)."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "Indica si se deben montar automáticamente los soportes"
@@ -1802,9 +1815,6 @@ msgid "Drawing tablet mapping"
 msgstr "Mapeado de tableta de dibujo"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
-#| msgid ""
-#| "EDID information of the monitor the tablet is mapped to. Must be in the "
-#| "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1936,14 +1946,10 @@ msgstr ""
 "personalizadas."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
-#| msgid "Touchscreen display mapping"
 msgid "Touchscreen output mapping"
 msgstr "Mapeado de salida de la pantalla táctil"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
-#| msgid ""
-#| "EDID information of the monitor the touchscreen is mapped to. Must be in "
-#| "the format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2050,10 +2056,6 @@ msgstr ""
 "Número de días durante los que recordar los archivos usados recientemente"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:42
-#| msgid ""
-#| "Recently used files will be remembered for this many days. If set to 0, "
-#| "recent files will not be remembered; if set to -1, they will be retained "
-#| "indefinitively."
 msgid ""
 "Recently used files will be remembered for this many days. If set to 0, "
 "recent files will not be remembered; if set to -1, they will be retained "
