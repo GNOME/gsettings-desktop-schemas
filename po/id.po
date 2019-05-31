@@ -2,14 +2,15 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Andika Triwidada <andika@gmail.com>, 2012, 2013, 2015.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>,2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2018-12-28 23:21+0000\n"
-"PO-Revision-Date: 2019-02-02 22:38+0700\n"
+"POT-Creation-Date: 2019-05-28 16:43+0000\n"
+"PO-Revision-Date: 2019-05-31 12:56+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -1288,6 +1289,19 @@ msgstr ""
 "Jika true, gtk+ menggunakan pilihan tempel primer, biasanya dipicu oleh "
 "tombol tetikus klik tengah."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:247
+msgid "Allow overlay scrolling"
+msgstr "Izinkan pengguliran overlay"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+msgid ""
+"Whether scrollbars should be overlayed as indicators. Depending on input "
+"devices in use, permanent scrollbars may still be displayed."
+msgstr ""
+"Apakah bilah gulir harus di-overlay sebagai indikator. Tergantung pada "
+"perangkat masukan yang digunakan, bilah gulir permanen mungkin masih "
+"ditampilkan."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Matikan baris perintah"
@@ -1384,6 +1398,18 @@ msgstr ""
 "Mencegah pengguna mengubah akun pengguna. Secara baku, kami mengijinkan "
 "penambahan dan penghapusan pengguna, maupun pengubahan pengaturan pengguna "
 "lain."
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
+msgid "Mount removable storage devices as read-only"
+msgstr "Kaitkan perangkat penyimpanan yang dapat dilepas sebagai hanya-baca"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
+msgid ""
+"Prevent users from writing or modifying files on removable storage devices "
+"(i.e. flash disks, mobile phones, cameras)."
+msgstr ""
+"Cegah pengguna dari menulis atau memodifikasi berkas pada perangkat "
+"penyimpanan yang dapat dilepas (mis. flash disk, ponsel, kamera)."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -3186,7 +3212,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:89
 msgid "Authenticate proxy server connections"
-msgstr "Otentikasi koneksi server proksi"
+msgstr "Autentikasi koneksi server proksi"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:90
 msgid ""
@@ -3196,11 +3222,12 @@ msgid ""
 "the http proxy; when using a separate https proxy, there is currently no way "
 "to specify that it should use authentication."
 msgstr ""
-"Bila berisi true, maka koneksi ke server proksi memerlukan otentikasi. Kombo "
-"nama pengguna/sandi didefinisikan oleh \"/system/proxy/http/authentication-"
-"user\" dan \"/system/proxy/http/authentication-password\". Ini hanya berlaku "
-"pada proksi http; ketika memakai proksi https yang terpisah, kini belum ada "
-"cara untuk menyatakan bahwa itu mesti memakai otentikasi."
+"Bila berisi true, maka koneksi ke server proksi memerlukan autentikasi. "
+"Kombo nama pengguna/sandi didefinisikan oleh \"/system/proxy/http/"
+"authentication-user\" dan \"/system/proxy/http/authentication-password\". "
+"Ini hanya berlaku pada proksi http; ketika memakai proksi https yang "
+"terpisah, kini belum ada cara untuk menyatakan bahwa itu mesti memakai "
+"autentikasi."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:103
 msgid "HTTP proxy username"
@@ -3216,7 +3243,7 @@ msgstr "Sandi proksi HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:111
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr "Kata sandi untuk otentikasi ketika memakai proxy HTTP."
+msgstr "Kata sandi untuk autentikasi ketika memakai proxy HTTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:119
 msgid "Secure HTTP proxy host name"
