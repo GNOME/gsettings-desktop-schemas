@@ -81,12 +81,12 @@
         the key usb-protection-level.
       </description>
     </key>
-    <key name="usb-protection-level" type="u">
-      <default>1</default>
+    <key name="usb-protection-level" enum="org.gnome.desktop.GDesktopUsbProtection">
+      <default>'lockscreen'</default>
       <summary>When USB devices should be rejected</summary>
       <description>
-        If set to 1, only when the lock screen is present new USB devices will
-        be rejected; if set to 2, all new USB devices will always be rejected.
+        If set to "lockscreen", only when the lock screen is present new USB devices will
+        be rejected; if set to "always", all new USB devices will always be rejected.
       </description>
     </key>
   </schema>
