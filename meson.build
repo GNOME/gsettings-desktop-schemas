@@ -5,7 +5,7 @@ project(
     'warning_level=2'
   ],
   license: 'LGPL',
-  meson_version: '>= 0.46.0'
+  meson_version: '>= 0.50.0'
 )
 
 gsettings_desktop_schemas_name = meson.project_name()
