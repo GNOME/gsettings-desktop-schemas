@@ -8,17 +8,18 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2018-06-10 17:28+0000\n"
-"PO-Revision-Date: 2018-08-21 15:12+0200\n"
+"POT-Creation-Date: 2019-08-15 13:27+0000\n"
+"PO-Revision-Date: 2019-08-15 20:47+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
-"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
+"%100<=19) ? 1 : 2);\n"
+"20)) ? 1: 2);;\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Project-Style: gnome\n"
 
 #: ../schemas/org.gnome.desktop.a11y.applications.gschema.xml.in.h:1
@@ -240,17 +241,6 @@ msgid "Mouse Tracking Mode"
 msgstr "Modul de urmărire a mausului"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:2
-#, fuzzy
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
 "view and how it reacts to system mouse movement. The values are • none: no "
@@ -263,31 +253,20 @@ msgid ""
 "contents are scrolled into view."
 msgstr ""
 "Determină poziția imaginii mausului mărite în cadrul vizualizării mărite și "
-"cum reacționează la mișcarea mausului sistemului. Valorile sunt - niciuna: "
-"fără monitorizare a mausului; - centrată: imaginea mausului este afișată în "
+"cum reacționează la mișcarea mausului sistemului. Valorile sunt • niciuna: "
+"fără monitorizare a mausului; • centrată: imaginea mausului este afișată în "
 "centru regiunii de zoom (care reprezintă de asemenea punctul de sub mausul "
 "sistemului) și conținutul mărit este derulat în timp ce mausul sistemului se "
-"mișcă; - proporțional: poziția mausului mărit în regiunea de zoom este "
-"proporțional la fel cu regiunea mausului sistemului pe ecran; - împinge: "
+"mișcă; • proporțional: poziția mausului mărit în regiunea de zoom este "
+"proporțional la fel cu regiunea mausului sistemului pe ecran; • împinge: "
 "când mausul mărit intersectează limita regiunii de zoom, conținutul este "
 "derulat în spațiul vizual."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:3
 msgid "Focus Tracking Mode"
-msgstr ""
+msgstr "Modul de urmărire a focusului"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:4
-#, fuzzy
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the focused widget within magnified view.\n"
 "\n"
@@ -305,32 +284,27 @@ msgid ""
 "• push: when the magnified focus intersects a boundary of the zoom region, "
 "the contents are scrolled into view"
 msgstr ""
-"Determină poziția imaginii mausului mărite în cadrul vizualizării mărite și "
-"cum reacționează la mișcarea mausului sistemului. Valorile sunt - niciuna: "
-"fără monitorizare a mausului; - centrată: imaginea mausului este afișată în "
-"centru regiunii de zoom (care reprezintă de asemenea punctul de sub mausul "
-"sistemului) și conținutul mărit este derulat în timp ce mausul sistemului se "
-"mișcă; - proporțional: poziția mausului mărit în regiunea de zoom este "
-"proporțional la fel cu regiunea mausului sistemului pe ecran; - împinge: "
-"când mausul mărit intersectează limita regiunii de zoom, conținutul este "
-"derulat în spațiul vizual."
+"Determină poziția widgetului focusat în cadrul vizualizării mărite.\n"
+"\n"
+"Valorile sunt:\n"
+"\n"
+"• niciuna: fără monitorizare focusului\n"
+"\n"
+"• centrată: imaginea focusată este afișată în centru regiunii de zoom (care "
+"reprezintă de asemenea punctul de sub focusul sistemului) și conținutul "
+"mărit este derulat în timp ce focusul sistemului se mișcă\n"
+"\n"
+"• proporționată: poziția focusului mărit în regiunea de zoom este "
+"proporțională la fel cu poziția focusului sistemului pe ecran\n"
+"\n"
+"• împinge: când focusul mărit intersectează limita regiunii de zoom, "
+"conținutul este derulat în spațiul vizual"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:15
 msgid "Caret Tracking Mode"
-msgstr ""
+msgstr "Modul de urmărire al caretului"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:16
-#, fuzzy
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the caret within magnified view. The values are:\n"
 "\n"
@@ -346,15 +320,20 @@ msgid ""
 "• push: when the magnified caret intersects a boundary of the zoom region, "
 "the contents are scrolled into view"
 msgstr ""
-"Determină poziția imaginii mausului mărite în cadrul vizualizării mărite și "
-"cum reacționează la mișcarea mausului sistemului. Valorile sunt - niciuna: "
-"fără monitorizare a mausului; - centrată: imaginea mausului este afișată în "
-"centru regiunii de zoom (care reprezintă de asemenea punctul de sub mausul "
-"sistemului) și conținutul mărit este derulat în timp ce mausul sistemului se "
-"mișcă; - proporțional: poziția mausului mărit în regiunea de zoom este "
-"proporțional la fel cu regiunea mausului sistemului pe ecran; - împinge: "
-"când mausul mărit intersectează limita regiunii de zoom, conținutul este "
-"derulat în spațiul vizual."
+"Determină poziția caretului mărit în cadrul vizualizării mărite. Valorile "
+"sunt:\n"
+"\n"
+"• niciuna: fără monitorizare caretului\n"
+"\n"
+"• centrată: imaginea caretului este afișată în centru regiunii de zoom (care "
+"reprezintă de asemenea punctul de sub caretul sistemului) și conținutul "
+"mărit este derulat în timp ce caretul sistemului se mișcă\n"
+"\n"
+"• proporțional: poziția caretului mărit în regiunea de zoom este "
+"proporțional la fel cu poziția caretului sistemului pe ecran\n"
+"\n"
+"• împinge: când caretul mărit intersectează limita regiunii de zoom, "
+"conținutul este derulat în spațiul vizual"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:25
 msgid "Screen position"
@@ -378,7 +357,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:29
 msgid "Enable lens mode"
-msgstr ""
+msgstr "Activează modul lentilă"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:30
 msgid ""
@@ -409,7 +388,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:35
 msgid "Thickness of the crosshairs in pixels"
-msgstr ""
+msgstr "Grosimea reticulelor în pixeli"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:36
 msgid ""
@@ -427,7 +406,7 @@ msgstr "Culoarea reticulelor"
 msgid ""
 "The color of the the vertical and horizontal lines that make up the "
 "crosshairs."
-msgstr ""
+msgstr "Culoarea liniilor verticale și orizontale care alcătuiesc reticulele."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:39
 msgid "Opacity of the crosshairs"
@@ -441,13 +420,15 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:41
 msgid "Length of the crosshairs in pixels"
-msgstr ""
+msgstr "Lungimea reticulelor în pixeli"
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:42
 msgid ""
 "Determines the length in pixels of the vertical and horizontal lines that "
 "make up the crosshairs."
 msgstr ""
+"Determină lungimea în pixeli a liniilor verticale și orizontale care "
+"alcătuiesc reticulele."
 
 #: ../schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in.h:43
 msgid "Clip the crosshairs at the center"
@@ -605,7 +586,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:15
 msgid "Show click type window"
-msgstr ""
+msgstr "Arată fereastra tipului de clic"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:16
 msgid "Show click type window."
@@ -629,7 +610,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:21
 msgid "Secondary click time"
-msgstr ""
+msgstr "Timp clic secundar"
 
 #: ../schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in.h:22
 msgid "Time in seconds before a simulated secondary click is triggered."
@@ -684,7 +665,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:11
 msgid "Excluded applications"
-msgstr ""
+msgstr "Aplicații excluse"
 
 #: ../schemas/org.gnome.desktop.app-folders.gschema.xml.in.h:12
 msgid ""
@@ -818,7 +799,7 @@ msgstr "Aplicația pentru sarcini implicite."
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:11
 msgid "Tasks needs terminal"
-msgstr ""
+msgstr "Sarcini ce au nevoie de terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:12
 msgid "Whether the default tasks application needs a terminal to run."
@@ -826,7 +807,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:13
 msgid "Terminal application"
-msgstr ""
+msgstr "Aplicație terminal"
 
 #: ../schemas/org.gnome.desktop.default-applications.gschema.xml.in.h:14
 msgid ""
@@ -879,7 +860,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
 msgid "List of most recently used input sources"
-msgstr ""
+msgstr "Lista celor mai recent folosite tipuri de intrări"
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:8
 msgid ""
@@ -967,7 +948,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:11
 msgid "Menubar Detachable"
-msgstr ""
+msgstr "Bara de meniu detașabilă"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:12
 msgid "Whether the user can detach menubars and move them around."
@@ -991,15 +972,15 @@ msgstr "Dimensiunea iconițelor în barele de unelte, fie „mică” sau „mar
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:17
 msgid "Cursor Blink"
-msgstr ""
+msgstr "Clipire cursor"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:18
 msgid "Whether the cursor should blink."
-msgstr ""
+msgstr "Dacă cursorul ar trebui să clipească."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:19
 msgid "Cursor Blink Time"
-msgstr ""
+msgstr "Timp de clipire al cursorului"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:20
 msgid "Length of the cursor blink cycle, in milliseconds."
@@ -1027,15 +1008,16 @@ msgstr "Temă Gtk+"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:26
 msgid "Basename of the default theme used by gtk+."
-msgstr ""
+msgstr "Numele de bază al temei implicite utilizat de gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:27
 msgid "Gtk+ Keybinding Theme"
-msgstr ""
+msgstr "Temă de combinație de taste Gtk+"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:28
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr ""
+"Numele de bază al temei combinației de taste implicite utilizată de gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:29
 msgid "Default font"
@@ -1047,7 +1029,7 @@ msgstr "Numele fontului implicit utilizat de gtk+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:31
 msgid "Text scaling factor"
-msgstr ""
+msgstr "Factorul de scalare al textului"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:32
 msgid ""
@@ -1069,16 +1051,20 @@ msgid "GTK IM Preedit Style"
 msgstr "Stil pre-editare IM GTK"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:36
+#, fuzzy
+#| msgid "Name of the input method module used by GTK+."
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
-msgstr ""
+msgstr "Numele modulului metodei de intrare utilizat de GTK+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:37
 msgid "GTK IM Status Style"
 msgstr "Stil de stare IM GTK"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:38
+#, fuzzy
+#| msgid "Name of the input method module used by GTK+."
 msgid "Name of the GTK+ input method Status Style used by gtk+."
-msgstr ""
+msgstr "Numele modulului metodei de intrare utilizat de GTK+."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:39
 msgid "GTK IM Module"
@@ -1205,10 +1191,12 @@ msgid "Show battery percentage"
 msgstr "Arată procentajul bateriei"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:67
+#, fuzzy
+#| msgid "If true, display date in the clock, in addition to time."
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
-msgstr ""
+msgstr "Dacă este adevărat, afișează data pe ceas, pe lângă oră."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
@@ -1372,8 +1360,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:1
+#, fuzzy
+#| msgid "Enable notifications"
 msgid "Show notification banners"
-msgstr ""
+msgstr "Activează notificările"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:2
 msgid "Whether notification banners are visible for application notifications."
@@ -1384,8 +1374,12 @@ msgid "Show notifications in the lock screen"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:4
+#, fuzzy
+#| msgid "Whether the users full name is shown in the user menu or not."
 msgid "Whether notifications are shown in the lock screen or not."
 msgstr ""
+"Dacă se arată sau nu numele complet al utilizatorului în meniul "
+"utilizatorului."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:5
 msgid "Application ID"
@@ -1438,8 +1432,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:16
+#, fuzzy
+#| msgid "Show date in clock"
 msgid "Show details in the lock screen"
-msgstr ""
+msgstr "Arată data pe ceas"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:17
 msgid ""
@@ -1550,16 +1546,22 @@ msgid "Key Repeat Interval"
 msgstr "Intervalul de repetare a tastei"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:23
+#, fuzzy
+#| msgid "How long to accelerate in milliseconds"
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "Cât de mult să se accelereze în milisecunde"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:24
+#, fuzzy
+#| msgid "Key Repeat Interval"
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "Intervalul de repetare a tastei"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:25
+#, fuzzy
+#| msgid "Initial delay in milliseconds"
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "Întârzierea inițială în milisecunde"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid "Mouse button orientation"
@@ -1605,8 +1607,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
+#, fuzzy
+#| msgid "Disable printing"
 msgid "Tablet mapping"
-msgstr ""
+msgstr "Dezactivează tipărirea"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
 msgid "How input affects the pointer on the screen"
@@ -1668,8 +1672,10 @@ msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
+#, fuzzy
+#| msgid "Secondary Color"
 msgid "Secondary button action"
-msgstr ""
+msgstr "Culoare secundară"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:49
 msgid ""
@@ -1788,8 +1794,10 @@ msgid "If FALSE, applications will not remember recently used files."
 msgstr "Dacă este FALS, aplicațiile nu vor memora fișierele utilizate recent."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:13
+#, fuzzy
+#| msgid "Whether to remember recently used files"
 msgid "Number of days to remember recently used files for"
-msgstr ""
+msgstr "Dacă să se memoreze fișierele utilizate recent"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:14
 msgid ""
@@ -1855,8 +1863,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:9
+#, fuzzy
+#| msgid "Show full name in the user menu"
 msgid "Show full name in the lock screen"
-msgstr ""
+msgstr "Arată numele complet în meniul utilizatorului"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:10
 msgid ""
@@ -2156,24 +2166,30 @@ msgid "Switch windows of an application"
 msgstr "Comută ferestrele unei aplicații"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:19
+#, fuzzy
+#| msgid "Switch windows of an application"
 msgid "Reverse switch windows of an application"
-msgstr ""
+msgstr "Comută ferestrele unei aplicații"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:20
 msgid "Switch applications"
 msgstr "Comută aplicațiile"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:21
+#, fuzzy
+#| msgid "Switch applications"
 msgid "Reverse switch applications"
-msgstr ""
+msgstr "Comută aplicațiile"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:22
 msgid "Switch windows"
 msgstr "Comută ferestrele"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:23
+#, fuzzy
+#| msgid "Switch windows"
 msgid "Reverse switch windows"
-msgstr ""
+msgstr "Comută ferestrele"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:24
 msgid "Switch system controls"
@@ -2188,20 +2204,26 @@ msgid "Switch windows of an app directly"
 msgstr "Comută ferestrele unei aplicații direct"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:27
+#, fuzzy
+#| msgid "Switch windows of an app directly"
 msgid "Reverse switch windows of an app directly"
-msgstr ""
+msgstr "Comută ferestrele unei aplicații direct"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:28
 msgid "Switch windows directly"
 msgstr "Comută ferestrele direct"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:29
+#, fuzzy
+#| msgid "Switch windows directly"
 msgid "Reverse switch windows directly"
-msgstr ""
+msgstr "Comută ferestrele direct"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:30
+#, fuzzy
+#| msgid "Switch windows directly"
 msgid "Switch system controls directly"
-msgstr ""
+msgstr "Comută ferestrele direct"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:31
 msgid "Reverse switch system controls directly"
@@ -2248,8 +2270,10 @@ msgid "Restore window"
 msgstr "Restaurează fereastra"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:42
+#, fuzzy
+#| msgid "Toggle maximization state"
 msgid "Toggle shaded state"
-msgstr ""
+msgstr "Comută starea de maximizare"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:43
 msgid "Minimize window"
@@ -2268,8 +2292,10 @@ msgid "Resize window"
 msgstr "Redimensionează fereastra"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:47
+#, fuzzy
+#| msgid "Move window one workspace down"
 msgid "Toggle window on all workspaces or one"
-msgstr ""
+msgstr "Mută fereastra cu un spațiu de lucru în jos"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:48
 msgid "Move window to workspace 1"
@@ -2356,24 +2382,32 @@ msgid "Move window to the next monitor below"
 msgstr "Mută fereastra pe următorul monitor dedesubt"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:69
+#, fuzzy
+#| msgid "Raise window above other windows"
 msgid "Raise window if covered, otherwise lower it"
-msgstr ""
+msgstr "Ridică fereastra deasupra altor ferestre"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:70
 msgid "Raise window above other windows"
 msgstr "Ridică fereastra deasupra altor ferestre"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:71
+#, fuzzy
+#| msgid "Raise window above other windows"
 msgid "Lower window below other windows"
-msgstr ""
+msgstr "Ridică fereastra deasupra altor ferestre"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:72
+#, fuzzy
+#| msgid "Maximize window"
 msgid "Maximize window vertically"
-msgstr ""
+msgstr "Maximizează fereastra"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:73
+#, fuzzy
+#| msgid "Maximize window"
 msgid "Maximize window horizontally"
-msgstr ""
+msgstr "Maximizează fereastra"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:74
 msgid "Move window to top left corner"
@@ -2420,16 +2454,20 @@ msgid "Binding to select the next input source"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:85
+#, fuzzy
+#| msgid "Switch input source"
 msgid "Switch input source backward"
-msgstr ""
+msgstr "Comută sursa de intrare"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:86
 msgid "Binding to select the previous input source"
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:87
+#, fuzzy
+#| msgid "Move window to last workspace"
 msgid "Toggle window to be always on top"
-msgstr ""
+msgstr "Mută fereastra în ultimul spațiu de lucru"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:88
 msgid "Set or unset window to appear always on top"
@@ -2580,8 +2618,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:29
+#, fuzzy
+#| msgid "Key combination for the custom action"
 msgid "Delay in milliseconds for the auto raise option"
-msgstr ""
+msgstr "Combinația de taste pentru acțiunea personalizată"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:30
 msgid ""
@@ -2645,8 +2685,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:43
+#, fuzzy
+#| msgid "Enable sound alerts"
 msgid "Enable Visual Bell"
-msgstr ""
+msgstr "Activează semnalele sonore"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:44
 msgid ""
@@ -2756,8 +2798,10 @@ msgid ""
 msgstr ""
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:13
+#, fuzzy
+#| msgid "Proxy configuration mode"
 msgid "Automatic proxy configuration URL"
-msgstr ""
+msgstr "Modul de configurare proxy"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:14
 msgid ""
@@ -2796,8 +2840,10 @@ msgid "HTTP proxy host name"
 msgstr "Nume de gazdă proxy HTTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:21
+#, fuzzy
+#| msgid "The machine name to use as a SOCKS proxy."
 msgid "The machine name to proxy HTTP through."
-msgstr ""
+msgstr "Numele de mașină de utilizat ca un proxy SOCKS."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:22
 msgid "HTTP proxy port"
@@ -2844,8 +2890,10 @@ msgid "Secure HTTP proxy host name"
 msgstr "Nume de gazdă proxy HTTP sigur"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:33
+#, fuzzy
+#| msgid "The machine name to use as a SOCKS proxy."
 msgid "The machine name to proxy secure HTTP through."
-msgstr ""
+msgstr "Numele de mașină de utilizat ca un proxy SOCKS."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:34
 msgid "Secure HTTP proxy port"
@@ -2862,8 +2910,10 @@ msgid "FTP proxy host name"
 msgstr "Nume de gazdă proxy FTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:37
+#, fuzzy
+#| msgid "The machine name to use as a SOCKS proxy."
 msgid "The machine name to proxy FTP through."
-msgstr ""
+msgstr "Numele de mașină de utilizat ca un proxy SOCKS."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:38
 msgid "FTP proxy port"
