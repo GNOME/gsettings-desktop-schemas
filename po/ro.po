@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
 "POT-Creation-Date: 2019-08-16 07:20+0000\n"
-"PO-Revision-Date: 2019-08-16 18:26+0200\n"
+"PO-Revision-Date: 2019-08-16 19:54+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -951,6 +951,14 @@ msgid ""
 "server’s current XKB layout and variant won’t be touched and IBus won’t be "
 "used."
 msgstr ""
+"Lista de identificatori de surse de intrare disponibili. Fiecare sursă este "
+"specificată ca un tuplu de 2 șiruri de caractere. Primul șir este tipul și "
+"poate fi una dintre „xkb” și „ibus”. Pentru sursele „xkb” al doilea șir de "
+"caractere este „xkb_layout+xkb_variant” sau doar „xkb_layout” dacă o "
+"variantă XKB nu este necesară. Pentru sursele „ibus” al doilea șir de "
+"caractere este numele motorului IBus. O listă goală înseamnă că aranjamentul "
+"și varianta XKB curentă a serverului X nu vor fi atinse și IBus nu va fi "
+"folosit."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:7
 msgid "List of most recently used input sources"
@@ -961,6 +969,8 @@ msgid ""
 "List of most recently used input sources. The value is in the same format as "
 "the available sources list."
 msgstr ""
+"Lista celor mai recent utilizate surse de intrare. Valoarea este în același "
+"format ca lista de surse disponibile."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:9
 msgid "List of XKB options"
@@ -982,6 +992,8 @@ msgstr "Arată toate sursele de intrare instalate"
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
+"Face toate sursele de intrare instalate curent disponibile pentru alegere în "
+"Configurările de sistem."
 
 #: ../schemas/org.gnome.desktop.input-sources.gschema.xml.in.h:13
 msgid "Use different input sources for each window"
@@ -992,10 +1004,12 @@ msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
 msgstr ""
+"Când este activat, sursele de intrare sunt atașate la fereastra focusată "
+"curent."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:1
 msgid "Enable Toolkit Accessibility"
-msgstr ""
+msgstr "Activează accesibilitatea trusei de unelte"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:2
 msgid "Whether toolkits should load accessibility related modules."
@@ -1012,24 +1026,28 @@ msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
 msgstr ""
+"Dacă animațiile ar trebui să fie afișate. Notă: Aceasta este o cheie "
+"globală, modifică comportamentul managerului de ferestre, panoului etc."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:5
 msgid "Menus Have Tearoff"
-msgstr ""
+msgstr "Meniurile sunt detașabile"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:6
 msgid "Whether menus should have a tearoff."
-msgstr ""
+msgstr "Dacă sau nu meniurile ar trebui să fie detașabile."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:7
 msgid "Can Change Accels"
-msgstr ""
+msgstr "Poate modifica acceleratorii"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:8
 msgid ""
 "Whether the user can dynamically type a new accelerator when positioned over "
 "an active menuitem."
 msgstr ""
+"Dacă utilizatorul poate tasta dinamic un nou accelerator când este "
+"poziționat deasupra unui element de meniu activ."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:9
 msgid "Toolbar Style"
@@ -1039,6 +1057,8 @@ msgstr "Stil bară de unelte"
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
+"Stil bară de unelte. Valorile valide sunt „both”, “both-horiz”, “icons” "
+"și“text”."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:11
 msgid "Menubar Detachable"
@@ -1078,7 +1098,7 @@ msgstr "Timp de clipire al cursorului"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:20
 msgid "Length of the cursor blink cycle, in milliseconds."
-msgstr ""
+msgstr "Lungimea ciclului de clipire al cursorului, în milisecunde."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:21
 msgid "Cursor Blink Timeout"
@@ -1086,7 +1106,7 @@ msgstr "Limita de timp pentru clipirea cursorului"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:22
 msgid "Time after which the cursor stops blinking, in seconds."
-msgstr ""
+msgstr "Timp după care cursorul oprește clipirea, în secunde."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:23
 msgid "Icon Theme"
@@ -1094,7 +1114,7 @@ msgstr "Temă de iconițe"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:24
 msgid "Icon theme to use for the panel, nautilus etc."
-msgstr ""
+msgstr "Tema iconițelor de folosit pentru panou, nautilus etc."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:25
 msgid "Gtk+ Theme"
@@ -1129,6 +1149,8 @@ msgstr "Factorul de scalare al textului"
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
+"Factor folosit la mărirea sau micșorarea afișajului text, fără a modifica "
+"dimensiunea textului."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:33
 msgid "Window scaling factor"
@@ -1139,6 +1161,8 @@ msgid ""
 "Integer factor used to scale windows by. For use on high-dpi screens. 0 "
 "means pick automatically based on monitor."
 msgstr ""
+"Factor întreg de folosit pentru scalarea ferestrelor. De utilizat pentru "
+"ecrane cu DPI ridicat. 0 înseamnă alegere bazată pe monitor."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:35
 msgid "GTK IM Preedit Style"
@@ -1190,7 +1214,7 @@ msgstr "Accelerator al barei de meniu"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:46
 msgid "Keyboard shortcut to open the menu bars."
-msgstr ""
+msgstr "Scurtătură de tastatură pentru deschiderea barelor de meniu."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:47
 msgid "Cursor theme"
@@ -1200,6 +1224,8 @@ msgstr "Temă cursor"
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr ""
+"Numele temei pentru cursor. Utilizat numai de servere X care suportă "
+"extensia Xcursor."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:49
 msgid "Cursor size"
@@ -1211,43 +1237,51 @@ msgstr "Dimensiunea cursorului utilizat ca temă de cursor."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:51
 msgid "Timeout before click repeat"
-msgstr ""
+msgstr "Limită de timp dinaintea repetării clicului"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:52
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
 msgstr ""
+"Limită de timp în milisecunde înainte de începerea repetării clicului (de "
+"exemplu la butoane incrementale)."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:53
 msgid "Timeout between click repeats"
-msgstr ""
+msgstr "Limită de timp dintre repetări ale clicului"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:54
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
 msgstr ""
+"Limită de timp în milisecunde între clicuri repetate când un buton este "
+"menținut apăsat."
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:55
 msgid "Palette used in the color selector"
-msgstr ""
+msgstr "Paleta utilizată la selectorul de culoare"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:56
 msgid ""
 "Palette used in the color selector as defined by the “gtk-color-palette” "
 "setting"
 msgstr ""
+"Paleta utilizată la selectorul de culoare definită de configurarea „gtk-"
+"color-palette”"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:57
 msgid "List of symbolic names and color equivalents"
-msgstr ""
+msgstr "Listă de nume simbolice și echivalente de culori"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:58
 msgid ""
 "A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
 "setting"
 msgstr ""
+"O listă separată prin „\\n” de „nume:culoare” definită de configurarea „gtk-"
+"color-scheme”"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:59
 msgid "Whether the clock displays in 24h or 12h format"
@@ -1291,13 +1325,15 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:68
 msgid "Enable the primary paste selection"
-msgstr ""
+msgstr "Activează lipirea selecției principale"
 
 #: ../schemas/org.gnome.desktop.interface.gschema.xml.in.h:69
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
+"Dacă este adevărat, gtk+ utilizează lipirea selecției principale, de obicei "
+"declanșată de un clic pe butonul din mijloc al mausului."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:1
 msgid "Disable command line"
@@ -1309,6 +1345,9 @@ msgid ""
 "be executed. For example, this would disable access to the panel’s “Run "
 "Application” dialog."
 msgstr ""
+"Previne utilizatorul de la accesarea terminalului sau specificarea unei "
+"linii de comenzi de executat. De exemplu, aceasta va dezactiva accesul la "
+"dialogul „Rulează aplicația” din panou."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:3
 msgid "Disable saving files to disk"
@@ -1319,6 +1358,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications’ “Save as” dialogs."
 msgstr ""
+"Previne utilizatorul de la salvarea fișierelor pe disc. De exemplu,aceasta "
+"ar dezactiva accesul la dialogurile „Salvează ca” din toate aplicațiile."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:5
 msgid "Disable printing"
@@ -1329,6 +1370,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications’ “Print” dialogs."
 msgstr ""
+"Previne utilizatorul de la tipărire. De exemplu, aceasta ar dezactiva "
+"accesul la dialogurile „Tipărește” din toate aplicațiile."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:7
 msgid "Disable print setup"
@@ -1339,6 +1382,9 @@ msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications’ “Print Setup” dialogs."
 msgstr ""
+"Previne utilizatorul de la modificarea configurărilor de tipărire. De "
+"exemplu, aceasta ar dezactiva accesul la dialogurile „Configurare tipărire” "
+"din toate aplicațiile."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:9
 msgid "Disable user switching"
@@ -1349,6 +1395,8 @@ msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
 msgstr ""
+"Previne utilizatorul de la comutarea la alt cont când sesiunea lui este "
+"activă."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:11
 msgid "Disable lock screen"
@@ -1356,23 +1404,23 @@ msgstr "Dezactivează blocarea ecranului"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:12
 msgid "Prevent the user to lock his screen."
-msgstr ""
+msgstr "Previne utilizatorul de la blocarea ecranului."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:13
 msgid "Disable URL and MIME type handlers"
-msgstr ""
+msgstr "Dezactivează operatorii URL și MIME"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:14
 msgid "Prevent running any URL or MIME type handler applications."
-msgstr ""
+msgstr "Previne rularea oricărei aplicații ce operează URL-uri și tipuri MIME."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:15
 msgid "Disable log out"
-msgstr ""
+msgstr "Dezactivează deconectarea"
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:16
 msgid "Prevent the user from logging out."
-msgstr ""
+msgstr "Previne deconectarea utilizatorului."
 
 #: ../schemas/org.gnome.desktop.lockdown.gschema.xml.in.h:17
 msgid "Disable user administration"
@@ -1383,6 +1431,9 @@ msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
+"Oprește utilizatorul de la modificarea conturilor de utilizator. Implicit, "
+"se permite adăugarea și eliminarea de utilizatori, la fel și modificarea "
+"altor configurări ale utilizatorilor."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:1
 msgid "Whether to automatically mount media"
@@ -1393,6 +1444,9 @@ msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
+"Dacă este stabilit la adevărat, atunci Nautilus va monta medii automat cum "
+"ar fi harddisk-uri vizibile de utilizator și medii amovibile la pornire și "
+"la introducere de menii."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:3
 msgid "Whether to automatically open a folder for automounted media"
@@ -1405,21 +1459,30 @@ msgid ""
 "detected; for media where a known x-content type is detected, the user "
 "configurable action will be taken instead."
 msgstr ""
+"Dacă este stabilit la adevărat, atunci Nautilus va deschide automat un dosar "
+"când mediul este montat automat. Aceasta se aplică numai la medii unde "
+"niciun tip „x-content/*” nu a fost detectat; pentru medii unde un tip "
+"cunoscut x-content este detectat, acțiunea configurabilă de utilizator va fi "
+"efectuată în loc."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:5
 msgid "Never prompt or autorun/autostart programs when media are inserted"
 msgstr ""
+"Nu solicita niciodată rularea/pornirea automată a programelor când mediile "
+"sunt introduse"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:6
 msgid ""
 "If set to true, then Nautilus will never prompt nor autorun/autostart "
 "programs when a medium is inserted."
 msgstr ""
+"Dacă este stabilit la adevărat, atunci Nautilus nu va solicit niciodată nici "
+"nu va rula/porni automat programe când un mediu este introdus."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:7
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
-msgstr ""
+msgstr "Listă de tipuri „x-content/*” unde aplicația preferată va fi lansată"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:8
 msgid ""
@@ -1427,10 +1490,13 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
+"Listă de tipuri „x-content/*” pentru care utilizatorul a ales să pornească o "
+"aplicație în aplicația de preferințe. Aplicația preferată pentru tipul dat "
+"va fi pornită la introducerea mediului corespunzător acestor tipuri."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:9
 msgid "List of x-content/* types set to “Do Nothing”"
-msgstr ""
+msgstr "Listă de tipuri „x-content/*” stabilite la „Nu efectua nimic”"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:10
 msgid ""
@@ -1438,10 +1504,14 @@ msgid ""
 "preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
+"Listă de tipuri „x-content/*” pentru care utilizatorul a ales „Nu efectua "
+"nimic” în aplicația de preferințe. Nicio solicitare nu va fi afișată și "
+"nicio aplicație corespunzătoare nu va fi pornită la introducerea mediilor "
+"corespunzătoare acestor tipuri."
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:11
 msgid "List of x-content/* types set to “Open Folder”"
-msgstr ""
+msgstr "Listă de tipuri „x-content/*” stabilite la „Deschide dosarul”"
 
 #: ../schemas/org.gnome.desktop.media-handling.gschema.xml.in.h:12
 msgid ""
@@ -1449,6 +1519,9 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
+"Listă de tipuri „x-content/*” pentru care utilizatorul a ales „Deschide "
+"dosarul” în aplicația de preferințe. O fereastră dosar va fi deschisă la "
+"introducerea mediilor corespunzătoare acestor tipuri."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:1
 msgid "Show notification banners"
@@ -1473,7 +1546,7 @@ msgstr "ID aplicație"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:6
 msgid "The application that this policy is for."
-msgstr ""
+msgstr "Aplicația pentru care această politică este valabilă."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:7
 msgid "Enable notifications"
@@ -1496,16 +1569,20 @@ msgid ""
 "Whether notification banners for this application are shown or not. Does not "
 "affect clicking on message tray buttons."
 msgstr ""
+"Dacă banerele de notificare pentru această aplicație sunt afișate sau nu. Nu "
+"afectează clicul pe butoanele din zona de notificare."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:12
 msgid "Force automatic expanding of banners"
-msgstr ""
+msgstr "Forțează auto-expandarea bannerelor"
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:13
 msgid ""
 "Whether notifications from this application are expanded automatically when "
 "in banner mode."
 msgstr ""
+"Dacă notificările acestei aplicații sunt expandate automat când sunt în "
+"modul banner."
 
 #: ../schemas/org.gnome.desktop.notifications.gschema.xml.in.h:14
 msgid "Show in the lock screen"
@@ -1527,22 +1604,28 @@ msgid ""
 "Whether the summary and body of notifications from this application will be "
 "visible in the locked screen."
 msgstr ""
+"Dacă sumarul și corpul notificărilor din această aplicație vor fi vizibile "
+"pe ecranul blocat."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:1
 msgid "Whether edge scrolling is enabled"
-msgstr ""
+msgstr "Dacă derularea la margine este activată"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:2
 msgid ""
 "When enabled, touchpads that support edge scrolling will have that feature "
 "enabled."
 msgstr ""
+"Când este activată, panourile tactile (touchpad-urile) care suportă "
+"derularea la marini vor avea această funcționalitate activată."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:3
 msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
 msgstr ""
+"Când este activată, panourile tactile (touchpad-urile) care suportă "
+"derularea cu două degete vor avea acea funcționalitate activată."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:4
 msgid "Whether to disable the touchpad while typing"
@@ -1551,25 +1634,31 @@ msgstr "Dacă să se dezactiveze touchpad-ul în timpul tastării"
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:5
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
+"Când este activată, panourile tactile (touchpad-urile) vor fi dezactivate "
+"când se tastează la tastatură."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:6
 msgid "Enable mouse clicks with touchpad"
-msgstr ""
+msgstr "Activează clicurile de maus cu panoul tactil (touchpad)"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:7
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
+"Stabiliți la adevărat pentru a putea trimite clicuri de maus atingând panoul "
+"tactil (touchpad-ul)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:8
 msgid "Enable tap-and-drag with touchpad"
-msgstr ""
+msgstr "Activează atinge-și-plasează cu panoul tactil (touchpad)"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:9
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
+"Stabiliți la adevărat pentru a putea începe o tragere prin atingerea și "
+"mutarea imediată a degetului care este apăsat pe panoul tactil (touchpad)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:10
 msgid "Touchpad enabled"
@@ -1577,7 +1666,7 @@ msgstr "Touchpad activat"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:11
 msgid "Defines the situations in which the touchpad is enabled."
-msgstr ""
+msgstr "Definește situațiile în care panoul tactil (touchpad-ul) este activat."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:12
 msgid "Touchpad button orientation"
@@ -1588,16 +1677,22 @@ msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
+"Interschimbă butoanele de maus stânga și dreapta pentru mausuri pentru "
+"stângaci cu „stânga”, „dreapta” pentru dreptaci, „mouse” pentru a urma "
+"configurarea mausului."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:14
 msgid "Pointer speed"
-msgstr ""
+msgstr "Viteza cursorului"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:15
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
+"Viteza cursorului pentru panoul tactil (touchpad). Valorile acceptate sunt "
+"în intervalul [-1..1] (de la „unaccelerated” la „fast”). O valoare de 0 este "
+"implicita sistemului."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:16
 msgid "Natural scrolling"
@@ -1624,7 +1719,7 @@ msgstr "Repetarea tastaturii"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:21
 msgid "Set this to TRUE to enable keyboard repeat."
-msgstr ""
+msgstr "Stabiliți aceasta la adevărat pentru a activa repetarea tastelor."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:22
 msgid "Key Repeat Interval"
@@ -1644,11 +1739,12 @@ msgstr "Întârzierea inițială a repetării tastei în milisecunde."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:26
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "Orientarea butoanelor mausului"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:27
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
+"Interschimbă butoanele stânga cu dreapta pentru mausuri pentru stângaci."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:28
 msgid ""
@@ -1724,7 +1820,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
 msgid "Stylus pressure curve"
-msgstr ""
+msgstr "Curba de presiune a stiloului tactil (stylus)"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:43
 msgid ""
@@ -1733,7 +1829,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
 msgid "Eraser pressure curve"
-msgstr ""
+msgstr "Curba de presiune a gumei de șters"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:45
 msgid ""
@@ -1790,7 +1886,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
-msgstr ""
+msgstr "Maparea afișării ecranului tactil"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:57
 msgid ""
@@ -2114,7 +2210,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:5
 msgid "Input feedback sounds"
-msgstr ""
+msgstr "Introdu sunetele de feedback"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:6
 msgid "Whether to play sounds on input events."
@@ -2601,7 +2697,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:15
 msgid "Action on title bar double-click"
-msgstr ""
+msgstr "Acțiune la dublu clic pe bara de titlu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:16
 msgid ""
@@ -2618,7 +2714,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:19
 msgid "Action on title bar middle-click"
-msgstr ""
+msgstr "Acțiune la clic mijloc pe bara de titlu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:20
 msgid ""
@@ -2635,7 +2731,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:23
 msgid "Action on title bar right-click"
-msgstr ""
+msgstr "Acțiune la clic dreapta pe bara de titlu"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:24
 msgid ""
@@ -2719,7 +2815,7 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:41
 msgid "System Bell is Audible"
-msgstr ""
+msgstr "Clopoțelul sistemului este audibil"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:42
 msgid ""
@@ -2913,6 +3009,8 @@ msgstr "Nume de utilizator proxy HTTP"
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:29
 msgid "User name to pass as authentication when doing HTTP proxying."
 msgstr ""
+"Numele de utilizator de trimis ca autentificare când se face delegarea "
+"(proxy) HTTP."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:30
 msgid "HTTP proxy password"
@@ -2920,7 +3018,7 @@ msgstr "Parolă proxy HTTP"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:31
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
+msgstr "Parola de trimis ca autentificare când se face delegarea (proxy) HTTP."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:32
 msgid "Secure HTTP proxy host name"
@@ -2939,6 +3037,8 @@ msgid ""
 "The port on the machine defined by “/system/proxy/https/host” that you proxy "
 "through."
 msgstr ""
+"Portul mașinii definit de „/system/proxy/https/host” prin care se deleghează "
+"(proxy)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:36
 msgid "FTP proxy host name"
@@ -2957,6 +3057,8 @@ msgid ""
 "The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
 msgstr ""
+"Portul mașinii definit de „/system/proxy/ftp/host” prin care se deleghează "
+"(proxy)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:40
 msgid "SOCKS proxy host name"
@@ -2975,3 +3077,5 @@ msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
 msgstr ""
+"Portul mașinii definit de „/system/proxy/socks/host” prin care se deleghează "
+"(proxy)."
