@@ -1,15 +1,14 @@
 # Romanian translation for gsettings-desktop-schemas.
 # Copyright (C) 2015 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Daniel Șerbănescu <daniel@serbanescu.dk>, 2015.
-# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
 "POT-Creation-Date: 2019-08-16 07:20+0000\n"
-"PO-Revision-Date: 2019-08-16 19:54+0200\n"
+"PO-Revision-Date: 2019-08-17 22:43+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -1701,6 +1700,8 @@ msgstr "Derulare naturală"
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:17
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
+"Stabiliți la adevărat pentru a activa derularea naturală (inversă) pentru "
+"panouri tactile (touchpad-uri)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:18
 msgid "Click method"
@@ -1712,6 +1713,9 @@ msgid ""
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
 "default (“default”)."
 msgstr ""
+"Cum să se genereze butoane emulate prin software, fie dezactivat („none”), "
+"prin zone specifice („areas”), număr de degete („fingers”) sau lăsat ca "
+"implicitele hardware („default”)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:20
 msgid "Keyboard repeat"
@@ -1751,10 +1755,14 @@ msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
+"Viteza cursorului mausurilor. Valorile acceptate sunt în intervalul [-1..1] "
+"(de la „unaccelerated” la „fast”). O valoare de 0 este implicită în sistem."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:29
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
+"Stabiliți la adevărat pentru a activa derularea naturală (inversă) pentru "
+"mausuri."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:30
 msgid "Acceleration profile"
@@ -1770,6 +1778,13 @@ msgid ""
 "movement. If a mouse doesn’t support the configured profile, “default” will "
 "be used."
 msgstr ""
+"Profilul de accelerare utilizat pentru mausurile conectate. Profilul de "
+"accelerare poate fi stabilit fie la implicit („default”) care folosește "
+"profilul de accelerare implicit pentru fiecare dispozitiv, plat („flat”), "
+"care accelerează printr-un factor constant al dispozitivului derivat din "
+"viteza configurată a cursorului, sau adaptiv („adaptive”) care adaptează "
+"accelerația în funcție de mișcarea mausului. Dacă mausul nu suportă profilul "
+"de configurare, „default” va fi folosit."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:32
 msgid "Drawing tablet mapping"
@@ -1780,6 +1795,8 @@ msgid ""
 "EDID information of the monitor the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
+"Informațiile EDID ale monitorului la care tableta este mapat. Trebuie să fie "
+"în formatul [furnizor, produs, serie]. [\"\",\"\",\"\"] dezactivează maparea."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:34
 msgid "Tablet mapping"
@@ -1787,7 +1804,7 @@ msgstr "Mapare tabletă"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:35
 msgid "How input affects the pointer on the screen"
-msgstr ""
+msgstr "Cum intrarea afectează cursorului de pe ecran"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:36
 msgid "Tablet area"
@@ -1798,6 +1815,8 @@ msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr ""
+"Zonă moartă de umplere în jurul zonei active, în procente. Aplicată "
+"respectiv marginilor stânga, dreapta, sus și jos."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:38
 msgid "Tablet aspect ratio"
@@ -1808,6 +1827,8 @@ msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
+"Activați aceasta pentru a restricționa zona tabletei să se potrivească la "
+"raportul de aspect al ieșirii."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:40
 msgid "Tablet left-handed mode"
@@ -1817,6 +1838,8 @@ msgstr "Modul de mâna-stângă al tabletei"
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
+"Activați aceasta pentru a permite rotirea fizică a tabletei pentru instalări "
+"pentru stângaci"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:42
 msgid "Stylus pressure curve"
@@ -1826,6 +1849,8 @@ msgstr "Curba de presiune a stiloului tactil (stylus)"
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
+"Stabiliți aceasta la x1, y1 și x2, y2 din curba presiunii aplicate de stilou "
+"(stylus)."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:44
 msgid "Eraser pressure curve"
@@ -1835,6 +1860,8 @@ msgstr "Curba de presiune a gumei de șters"
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
+"Stabiliți aceasta la x1, y1 și x2, y2 din curba presiunii aplicate de guma "
+"de șters."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:46
 msgid "Button action"
@@ -1843,6 +1870,8 @@ msgstr "Acțiune buton"
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:47
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
+"Buton de acțiune stilou (stylus), acest buton este localizat dea-lungul "
+"mânerului stiloului."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:48
 msgid "Secondary button action"
@@ -1854,6 +1883,10 @@ msgid ""
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr ""
+"Acțiune buton secundar al stiloului (stylus), acest buton este localizat dea-"
+"lungul mânerului stiloului adesea la același nivel ca un pix cu gel. La alte "
+"stilouri cum ar fi stilouri Airbursh sau stilouri Inking care au numai un "
+"buton, această configurare este neefectivă pe acestea."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:50
 msgid "Tertiary button action"
@@ -1865,6 +1898,10 @@ msgid ""
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr ""
+"Acțiune buton terțiar al stiloului, acest buton este localizat dea-lungul "
+"mânerului stiloului la unele stilouri cum ar fi stiloul 3D. Alte stilouri "
+"cum ar fi Grip Pen au numai două butoane, această configurare este "
+"neefectivă pe acestea."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:52
 msgid "Pad button action type"
@@ -1872,7 +1909,7 @@ msgstr "Tip de acțiune buton tabletă"
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:53
 msgid "The type of action triggered by the button being pressed."
-msgstr ""
+msgstr "Tip de acțiune declanșată de butonul apăsat."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:54
 msgid "Key combination for the custom action"
@@ -1883,6 +1920,8 @@ msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
+"Scurtătura de tastatură generată când butonul este apăsat pentru acțiuni "
+"personalizate."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:56
 msgid "Touchscreen display mapping"
@@ -1893,10 +1932,15 @@ msgid ""
 "EDID information of the monitor the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
+"Informațiile EDID ale monitorului la care ecranul tactil este mapat. Trebuie "
+"să fie în formatul [furnizor, produs, serie]. [\"\",\"\",\"\"] dezactivează "
+"maparea."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:58
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
+"Butonul de emulare al rotiței mausului. 0 pentru a dezactiva "
+"funcționalitatea."
 
 #: ../schemas/org.gnome.desktop.peripherals.gschema.xml.in.h:59
 msgid ""
@@ -1907,6 +1951,12 @@ msgid ""
 "adapts the acceleration depending on the movement. If the trackball doesn’t "
 "support the configured profile, “default” will be used."
 msgstr ""
+"Profilul de accelerare utilizat pentru trackball. Profilul de accelerare "
+"poate fi stabilit implicit („default”) care folosește profilul de accelerare "
+"implicit, plat („flat”), care accelerează cu un factor de constantă "
+"specifică dispozitivului derivată din viteza configurată, sau adaptivă "
+"(„adaptive”) care adaptează accelerația în funcție de mișcare. Dacă "
+"trackball-ul nu suportă profilul configurat, „default” va fi folosit."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:1
 msgid "Controls visibility of personal information"
@@ -1917,6 +1967,8 @@ msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
 msgstr ""
+"Dacă este stabilit la adevărat, sistemul va face efortul de a nu divulga "
+"identitatea utilizatorului pe ecran sau prin rețea."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:3
 msgid "Show full name in the user menu"
@@ -1937,6 +1989,8 @@ msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
 msgstr ""
+"Dacă este adevărat, elimină automat fișierele din coșul de gunoi când sunt "
+"mai vechi decât „old-files-age” zile."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:7
 msgid "Whether to remove old temporary files automatically"
@@ -1947,6 +2001,8 @@ msgid ""
 "If TRUE, automatically remove temporary files when they are older than “old-"
 "files-age” days."
 msgstr ""
+"Dacă este adevărat, elimină automat fișierele temporare când sunt mai vechi "
+"decât „old-files-age” zile."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:9
 msgid "Number of days to keep trash and temporary files"
@@ -1955,6 +2011,7 @@ msgstr "Număr de zile de păstrat fișierele temporare și de la gunoi"
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:10
 msgid "Consider trash and temporary files old after this many days."
 msgstr ""
+"Consideră fișierele temporare și din coșul de gunoi vechi după atâtea zile."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:11
 msgid "Whether to remember recently used files"
@@ -1974,6 +2031,9 @@ msgid ""
 "recent files will not be remembered; if set to -1, they will be retained "
 "indefinitively."
 msgstr ""
+"Fișierele utilizate recent vor fi păstrate pentru atâtea zile. Dacă este "
+"stabilit la 0, fișierele recente nu vor fi păstrate; dacă este stabilit la "
+"-1, vor fi reținute indefinit."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:15
 msgid "Whether to remember application usage"
@@ -1986,21 +2046,24 @@ msgstr ""
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:17
 msgid "Send statistics when applications are removed or installed"
-msgstr ""
+msgstr "Trimite statistici când aplicațiile sunt eliminate sau instalate"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:18
 msgid ""
 "If FALSE, no anonymous installation or removal information will be sent to "
 "the vendor."
 msgstr ""
+"Dacă este fals, nicio informație anonimă de instalare sau eliminare nu va fi "
+"trimisă la furnizor."
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:19
 msgid "Send reports of technical problems to the vendor"
-msgstr ""
+msgstr "Trimite raporturi de probleme tehnice către furnizor"
 
 #: ../schemas/org.gnome.desktop.privacy.gschema.xml.in.h:20
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
 msgstr ""
+"Dacă este adevărat, rapoarte anonime vor fi trimise automat furnizorului."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:1
 msgid "Activate when idle"
@@ -2013,23 +2076,33 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
 "session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
+"Stabiliți la adevărat pentru a activa protectorul de ecran când sesiunea "
+"este inactiv.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată. Stabiliți întârzierea "
+"de inactivitate la 0 pentru org.gnome.desktop.session idle dacă nu doriți să "
+"activați acest protector de ecran."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:5
 msgid "Lock on activation"
-msgstr ""
+msgstr "Blochează la activare"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:6
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
+"Stabiliți la adevărat pentru a bloca ecranul când protectorul de ecran se "
+"activează."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:7
 msgid "Time before locking"
-msgstr ""
+msgstr "Timp înainte de blocare"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:8
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
+"Numărul de secunde după care activarea protectorului de ecran înainte de "
+"blocarea ecranului."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:9
 msgid "Show full name in the lock screen"
@@ -2040,10 +2113,13 @@ msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
+"Dacă numele complet al utilizatorului este afișat în ecranul de blocare sau "
+"nu. Aceasta afectează numai protectorul ecranului, numele este afișat "
+"întotdeauna în dialogul de deblocare."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:11
 msgid "Allow embedding a keyboard into the window"
-msgstr ""
+msgstr "Permite înglobarea unei tastaturi în fereastră"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:12
 msgid ""
@@ -2053,10 +2129,15 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Stabiliți la adevărat pentru a permite înglobarea unei tastaturi în "
+"fereastră când se încearcă deblocarea. Tasta „keyboard_command” trebuie să "
+"fie stabilită cu comanda corespunzătoare.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:15
 msgid "Embedded keyboard command"
-msgstr ""
+msgstr "Comanda de înglobare a tastaturii"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:16
 msgid ""
@@ -2067,6 +2148,12 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Comanda ce va rula dacă cheia „embedded_keyboard_enabled” este stabilită la "
+"adevărat, pentru a îngloba widgetul tastatură în fereastră. Această comandă "
+"ar trebui să implementeze o interfață de conectare XEMBED și să producă un "
+"XID de fereastră pe ieșirea standard.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:19
 msgid "Allow logout"
@@ -2079,10 +2166,15 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Stabiliți la adevărat pentru a oferi o opțiune în dialogul de deblocare "
+"pentru a permite deconectarea după o limită de timp. Limita de timp este "
+"specificată în cheia „logout_delay”.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:23
 msgid "Time before logout option"
-msgstr ""
+msgstr "Timp înainte de opțiunea de deconectare"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:24
 msgid ""
@@ -2092,6 +2184,11 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored"
 msgstr ""
+"Numărul de secunde după activarea protectorului de ecran înainte ce opțiunea "
+"de deconectare va apărea în dialogul de deblocare. Această cheie are efect "
+"numai dacă „logout_enable” este stabilită la adevărat.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată"
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:27
 msgid "Logout command"
@@ -2105,6 +2202,12 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Comanda de invocat când butonul de ieșire din sesiune este apăsat. Această "
+"comandă ar trebui să scoată utilizatorul din sesiune fără nicio "
+"interacțiune. Această cheie are efect numai dacă cheia „logout_enable” este "
+"stabilită la adevărat.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:31
 msgid "Allow user switching"
@@ -2115,6 +2218,8 @@ msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr ""
+"Stabiliți la adevărat pentru a oferi o opțiune în dialogul de deblocare "
+"pentru a comuta la un cont de utilizator diferit."
 
 #: ../schemas/org.gnome.desktop.screensaver.gschema.xml.in.h:33
 msgid "Allow the session status message to be displayed"
@@ -2126,10 +2231,14 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Permite mesajul de stare al sesiunii să fie afișat când ecranul este "
+"blocat.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:1
 msgid "Disable all external search providers"
-msgstr ""
+msgstr "Dezactivează toți furnizorii de căutare externi"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:2
 msgid ""
@@ -2137,34 +2246,48 @@ msgid ""
 "they are independently disabled or enabled. External search providers are "
 "installed by applications in $XDG_DATA_DIR/gnome-shell/search-providers."
 msgstr ""
+"Stabiliți la adevărat pentru a dezactiva toate programele externe ce "
+"furnizează căutare, dacă sau nu sunt dezactivate sau activate independent. "
+"Furnizorii de căutare externi sunt instalați de aplicații în $XDG_DATA_DIR/"
+"gnome-shell/search-providers."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:3
 msgid ""
 "List of desktop file IDs for which the associated default-enabled search "
 "provider should be disabled"
 msgstr ""
+"Listă de ID-uri de fișiere desktop pentru care furnizorul de căutare asociat "
+"implicit-activat ar trebui să fie dezactivat"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:4
 msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
 msgstr ""
+"Rezultate pentru aplicațiile conținute în această listă nu vor fi afișate "
+"când se caută."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:5
 msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
 msgstr ""
+"Listă de ID-uri de fișiere desktop pentru care furnizorul de căutare asociat "
+"implicit-dezactivat ar trebui să fie activat"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:6
 msgid ""
 "Results for applications contained in this list will be displayed when "
 "searching."
 msgstr ""
+"Rezultate pentru aplicațiile conținute în această listă vor fi afișate când "
+"se caută."
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:7
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
+"Listă de ID-uri de fișiere desktop pentru ordinea de sortare a furnizorilor "
+"de căutare"
 
 #: ../schemas/org.gnome.desktop.search-providers.gschema.xml.in.h:8
 msgid ""
@@ -2172,15 +2295,20 @@ msgid ""
 "specified order. Results for applications not specified in this list will be "
 "displayed last, sorted alphabetically."
 msgstr ""
+"Rezultatele pentru aplicațiile conținute în această listă vor fi afișate în "
+"ordinea specificată. Rezultatele pentru aplicațiile nespecificate în această "
+"listă vor fi afișate la sfârșit, sortate în mod alfabetic."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:1
 msgid "Time before session is considered idle"
-msgstr ""
+msgstr "Timp înainte de care sesiunea este considerată inactivă"
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:2
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
 msgstr ""
+"Numărul de secunde de inactivitate înainte ca sesiunea să fie considerată "
+"inactivă."
 
 #: ../schemas/org.gnome.desktop.session.gschema.xml.in.h:3
 msgid "Session type"
@@ -2191,6 +2319,8 @@ msgid ""
 "The name of the session to use. Known values are “gnome” and “gnome-"
 "fallback”."
 msgstr ""
+"Numele sesiunii de folosit. Valorile cunoscute sunt „gnome” și „gnome-"
+"fallback”."
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:1
 msgid "Sounds for events"
@@ -2206,7 +2336,7 @@ msgstr "Nume temă de sunet"
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:4
 msgid "The XDG sound theme to use for event sounds."
-msgstr ""
+msgstr "Tema sonoră XDG de folosit pentru sunetele evenimentului."
 
 #: ../schemas/org.gnome.desktop.sound.gschema.xml.in.h:5
 msgid "Input feedback sounds"
@@ -2232,33 +2362,44 @@ msgid ""
 "Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"Timpul maxim pentru miniaturi în cache, în zile. Stabiliți la -1 pentru a "
+"dezactiva curățarea."
 
 #: ../schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in.h:2
 msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"Dimensiunea maximă a miniaturilor în cache, în megabytes. Stabiliți la -1 "
+"pentru a dezactiva curățarea."
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:1
 msgid "Disable all external thumbnailers"
-msgstr ""
+msgstr "Dezactivează toți generatorii de miniaturi externi"
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:2
 msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
+"Stabiliți la adevărat pentru a dezactiva toate programele externe "
+"generatoare de miniaturi, independent de faptul că sunt activate/dezactivate "
+"independent."
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:3
 msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
 msgstr ""
+"Listă de tipuri mime pentru care programele generatoare de miniaturi vor fi "
+"dezactivate"
 
 #: ../schemas/org.gnome.desktop.thumbnailers.gschema.xml.in.h:4
 msgid ""
 "Thumbnails will not be created for files whose mime-type is contained in the "
 "list."
 msgstr ""
+"Miniaturile nu vor fi create pentru fișierele ale căror tipuri mime sunt "
+"conținute în listă."
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:1
 msgid "Switch to workspace 1"
@@ -2394,7 +2535,7 @@ msgstr "Arată prezentarea generală a activităților"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:34
 msgid "Show the run command prompt"
-msgstr ""
+msgstr "Afișează executarea liniei de comandă"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:35
 msgid "Don’t use"
@@ -2596,7 +2737,7 @@ msgstr "Comută sursa de intrare"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:84
 msgid "Binding to select the next input source"
-msgstr ""
+msgstr "Asociere pentru a selecta următoarea sursă de intrare"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:85
 msgid "Switch input source backward"
@@ -2604,7 +2745,7 @@ msgstr "Comută sursa de intrare invers"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:86
 msgid "Binding to select the previous input source"
-msgstr ""
+msgstr "Asociere pentru a selecta precedenta sursă de intrare"
 
 #: ../schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in.h:87
 msgid "Toggle window to be always on top"
@@ -2617,6 +2758,7 @@ msgstr "Stabilește sau destabilește ca fereastra să apară întotdeauna deasu
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:1
 msgid "Modifier to use for modified window click actions"
 msgstr ""
+"Modificator de folosit pentru acțiunile modificate la clic pe fereastră"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:2
 msgid ""
@@ -2626,6 +2768,12 @@ msgid ""
 "the “resize-with-right-button” key. Modifier is expressed as <![CDATA[\"<Alt>"
 "\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgstr ""
+"Apăsând clic pe o fereastră în timp ce țineți apăsată această tastă "
+"modificatoare va muta fereastra (clic stânga), redimensiona fereastra (clic "
+"mijloc), sau afișa meniul ferestrei (clic dreapta). Operațiile pentru clic "
+"mijloc și clic dreapta pot fi interschimbate folosind cheia „resize-with-"
+"right-button”. Modificatorul este exprimat de exemplu ca <![CDATA[\"<Alt>"
+"\"]]> sau <![CDATA[\"<Super>\"]]>."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:3
 msgid "Whether to resize with the right button"
@@ -2637,6 +2785,9 @@ msgid ""
 "middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
+"Stabiliți la adevărat pentru a redimensiona cu butonul drept și afișa un "
+"meniu cu butonul din mijloc în timp ce se ține apăsată tasta configurată în "
+"„mouse-button-modifier”; stabiliți la fals pentru a inversa funcționalitatea."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:5
 msgid "Arrangement of buttons on the titlebar"
@@ -2652,6 +2803,14 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"Aranjamentul butoanelor pe bara de titlu. Această valoare ar trebui să fie "
+"un șir de caractere, cum ar fi „menu:minimize,maximize,spacer,close”; două "
+"puncte separă colțul din stânga al ferestrei de colțul din dreapta, și "
+"numele butoanelor sunt separate prin virgulă. Butoane dublet nu sunt "
+"permise. Numele de butoane necunoscute sunt ignorate silențios așadar că "
+"butoanele pot fi adăugare în versiuni viitoare de metacity fără a dăuna "
+"versiunilor mai vechi. O etichetă de separare specială poate introduce "
+"spațiu între două butoane adiacente."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:7
 msgid "Window focus mode"
@@ -2665,6 +2824,12 @@ msgid ""
 "and “mouse” means windows are focused when the mouse enters the window and "
 "unfocused when the mouse leaves the window."
 msgstr ""
+"Modul de focalizare al ferestrei indică cum ferestrele sunt activate. Are "
+"trei valori posibile; „click” înseamnă că ferestrele trebuie să fie apăsate "
+"pentru a primit focus, „sloppy” înseamnă că ferestrele sunt focusate când "
+"mausul trece pe deasupra ferestrei, și „mouse” înseamnă că ferestrele sunt "
+"focusate când mausul intră în fereastră și defocusate când mausul părăsește "
+"fereastra."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:9
 msgid "Control how new windows get focus"
@@ -2677,6 +2842,10 @@ msgid ""
 "mode, and “strict” results in windows started from a terminal not being "
 "given focus."
 msgstr ""
+"Această opțiune oferă control adițional asupra modului în care noile "
+"ferestre obțin focusul. Are două valori posibile; „smart” aplică modul de "
+"focusare normal al utilizatorului, și „strict” ce rezultă cu ferestrele "
+"pornite dintr-un terminal să nu obțină focusul."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:11
 msgid "Whether windows should be raised when their client area is clicked"
@@ -2694,6 +2863,13 @@ msgid ""
 "window’s frame, or Super-click on any part of the window. This mode is "
 "useful if one uses many overlapping windows."
 msgstr ""
+"Implicitul, adevărat, indică că fereastra va fi ridicată de oricâte ori zona "
+"clientului ei sau cadrul ei este apăsat.\n"
+"\n"
+"Stabilirea la fals înseamnă că o fereastră nu va fi ridicată dacă este "
+"apăsată pe zona clientului ei. Pentru a o ridica, se poate apăsa oriunde în "
+"cadrul ferestrei, sau Super-clic pe orice parte a ferestrei. Acest mod este "
+"util dacă se folosesc multe ferestre suprapuse."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:15
 msgid "Action on title bar double-click"
@@ -2711,6 +2887,15 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Această opțiune determină efectele unui clic dublu pe bara de titlu.\n"
+"\n"
+"Opțiunile valide curent sunt „toggle-shade”, care va umbri/deumbri "
+"fereastra, „toggle-maximize” care va maximiza/demaximiza fereastra, „toggle-"
+"maximize-horizontally” și „toggle-maximize-vertically” ce va maximiza/"
+"demaximiza fereastra numai în direcția orizontală sau verticală, „minimize” "
+"ce va minimiza fereastra, „shade” ce va rula fereastra sus, „menu” ce va "
+"afișa meniul ferestrei, „lower” ce va pune fereastra în spatele tuturor "
+"celorlalte, și „none” ce nu va face nimic."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:19
 msgid "Action on title bar middle-click"
@@ -2728,6 +2913,15 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Această opțiune determină efectele unui clic mijloc pe bara de titlu.\n"
+"\n"
+"Opțiunile valide curent sunt „toggle-shade”, care va umbri/deumbri "
+"fereastra, „toggle-maximize” care va maximiza/demaximiza fereastra, „toggle-"
+"maximize-horizontally” și „toggle-maximize-vertically” ce va maximiza/"
+"demaximiza fereastra numai în direcția orizontală sau verticală, „minimize” "
+"ce va minimiza fereastra, „shade” ce va rula fereastra sus, „menu” ce va "
+"afișa meniul ferestrei, „lower” ce va pune fereastra în spatele tuturor "
+"celorlalte, și „none” ce nu va face nimic."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:23
 msgid "Action on title bar right-click"
@@ -2745,6 +2939,15 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Această opțiune determină efectele unui clic dreapta pe bara de titlu.\n"
+"\n"
+"Opțiunile valide curent sunt „toggle-shade”, care va umbri/deumbri "
+"fereastra, „toggle-maximize” care va maximiza/demaximiza fereastra, „toggle-"
+"maximize-horizontally” și „toggle-maximize-vertically” ce va maximiza/"
+"demaximiza fereastra numai în direcția orizontală sau verticală, „minimize” "
+"ce va minimiza fereastra, „shade” ce va rula fereastra sus, „menu” ce va "
+"afișa meniul ferestrei, „lower” ce va pune fereastra în spatele tuturor "
+"celorlalte, și „none” ce nu va face nimic."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:27
 msgid "Automatically raises the focused window"
@@ -2757,6 +2960,11 @@ msgid ""
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
+"Dacă este stabilit la adevărat, și modul de focus este fie „sloppy” fie "
+"„mouse” atunci fereastra focusată va fi ridicată automat după o decalare "
+"specificată de cheia auto-raise-delay. Aceasta nu este înrudită cu apăsarea "
+"de clic pe o fereastră pentru a o ridica, nici cu intrarea în fereastră în "
+"timpul unei trageri-și-plasări."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:29
 msgid "Delay in milliseconds for the auto raise option"
@@ -2767,6 +2975,8 @@ msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
 msgstr ""
+"Decalajul în timp înainte de a ridica o fereastră dacă autoridicarea este "
+"stabilită la adevărat. Decalajul este dat în miimi de secundă."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:31
 msgid "Current theme"
@@ -2779,16 +2989,22 @@ msgid ""
 "\n"
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
+"Tema ce determină aparența bordurilor ferestrei, barei de titlu, și așa mai "
+"departe.\n"
+"\n"
+"ÎNVECHITĂ: Această cheie este învechită și ignorată."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:35
 msgid "Use standard system font in window titles"
-msgstr ""
+msgstr "Utilizează fontul standard al sistemului în titlurile ferestrelor"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:36
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
+"Dacă este adevărat, ignoră opțiunea titlebar-font, și folosește fontul "
+"standard pentru aplicații pentru titlurile ferestrelor."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:37
 msgid "Window title font"
@@ -2801,6 +3017,11 @@ msgid ""
 "set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
 "option is set to true."
 msgstr ""
+"Un șir de caractere pentru descriere ce reprezintă fontul pentru barele de "
+"titlu ale ferestrelor. Dimensiunea din descriere va fi folosită numai dacă "
+"opțiunea titlebar-font-size este stabilită la 0. De asemenea acestă opțiune "
+"este dezactivată dacă opțiunea titlebar-uses-desktop-font este stabilită la "
+"adevărat."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:39
 msgid "Number of workspaces"
@@ -2812,6 +3033,9 @@ msgid ""
 "prevent making the desktop unusable by accidentally asking for too many "
 "workspaces."
 msgstr ""
+"Numărul de spații de lucru. Trebuie să fie mai mult decât zero, și are un "
+"maxim fixat pentru a preveni degradarea desktopului cerând accidental prea "
+"multe spații de lucru."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:41
 msgid "System Bell is Audible"
@@ -2822,6 +3046,9 @@ msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
+"Determină dacă aplicațiile sau sistemul poate genera „beep-uri” audibile; "
+"poate fi folistă în conjuncție cu „clopoțel vizual” pentru a permite „beep-"
+"uri” silențioase."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:43
 msgid "Enable Visual Bell"
@@ -2833,6 +3060,9 @@ msgid ""
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
+"Pornește o indicație vizuală când o aplicație sau sistemul emite un "
+"„clopoțel” sai „beep”; util pentru cei cu deficit de auz sau utilizarea în "
+"medii zgomotoase."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:45
 msgid "Visual Bell Type"
@@ -2851,10 +3081,22 @@ msgid ""
 "for the default “system beep”), the currently focused window’s titlebar is "
 "flashed."
 msgstr ""
+"Comunică WM-ului cum să implementeze indicarea vizuală pentru care "
+"clopoțelul sistemului sau o altă aplicație indicator „clopoțel” a sunat.\n"
+"\n"
+"Momentan sunt două valori valide, „fullscreen-flash”; care cauzează un bliț "
+"alb-negru pe tot ecranul, și „frame-flash” care cauzează bara de titlu a "
+"aplicației ce a trimis semnalul clopoțel să licăre.\n"
+"\n"
+"Dacă aplicația care a trimis clopoțelul este necunoscută (cum este în mod "
+"normal pentru „beep-ul implicit al sistemului”), titlul ferestrei focusate "
+"curent va licări."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:51
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
+"Dezactivează nefuncționalități care sunt necesare de aplicații vechi sau "
+"deteriorate"
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:52
 msgid ""
@@ -2863,6 +3105,11 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
+"Unele aplicații se abat de la specificații în moduri ce rezultă "
+"nefuncționalități în gestionarul de ferestre. Această opțiune pune WM-ul "
+"într-un mod corect riguros, care oferă o interfață pentru utilizator mai "
+"consistentă, atât timp cât utilizatorul nu are nevoie să ruleze aplicații ce "
+"se abat de la specificații."
 
 #: ../schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.h:53
 msgid "The names of the workspaces"
@@ -2875,16 +3122,22 @@ msgid ""
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (“Workspace N”)."
 msgstr ""
+"Definește numele care ar trebui să fie atribuit spațiilor de lucru. Dacă "
+"lista este prea lungă pentru numărul curent de spații de lucru, numele în "
+"exces vor fi ignorate. Dacă lista este prea scurtă, sau include nume goale, "
+"valorile lipsă vor fi înlocuite cu implicitul („Spațiu de lucru N”)."
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.h:1
 msgid "The locale to use for dates / numbers formats"
-msgstr ""
+msgstr "Localizarea de folosit pentru formatele datelor / numerelor"
 
 #: ../schemas/org.gnome.system.locale.gschema.xml.in.h:2
 msgid ""
 "Specify the locale to be used for displaying dates, times and numbers "
 "formats."
 msgstr ""
+"Specifică localizarea de folosit pentru a afișa formatele datelor, orelor și "
+"numerelor."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:1
 msgid "Geolocation services are enabled."
@@ -2893,6 +3146,8 @@ msgstr "Serviciile de geolocalizare sunt activate."
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:2
 msgid "If true, applications are allowed to access location information."
 msgstr ""
+"Dacă este adevărat, aplicațiilor le este permis accesul la informații despre "
+"locație."
 
 #: ../schemas/org.gnome.system.location.gschema.xml.in.h:3
 msgid "The maximum accuracy level of location."
@@ -2907,6 +3162,12 @@ msgid ""
 "user’s location on their own using network resources (albeit with street-"
 "level accuracy at best)."
 msgstr ""
+"Configurează nivelul maxim de acuratețe al locației ce le este permis "
+"aplicațiilor. Opțiuni valide sunt „country”, „city”, „neighborhood”, "
+"„street”, și „exact” (de obicei necesită receptor GPS). Țineți minte că "
+"aceasta controlează numai ce GeoClue va permite aplicațiilor să vadă și ele "
+"pot găsi locația utilizatorului pe cont propriu utilizând resursele din "
+"rețea (dar nu cu o acuratețe mai mare de nivel de stradă)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:1
 msgid "Proxy configuration mode"
@@ -2933,6 +3194,25 @@ msgid ""
 "If a SOCKS proxy is configured, it is used for all protocols, except that "
 "the http, https, and ftp proxy settings override it for those protocols only."
 msgstr ""
+"Selectați modul de configurare proxy. Valorile suportate sunt „none”, "
+"„manual”, „auto”.\n"
+"\n"
+"Dacă este „none”, atunci proxy-urile nu sunt folosite.\n"
+"\n"
+"Dacă este „auto”, atunci URL-ul de autoconfigurare descris în cheia "
+"„autoconfig-url” este folosit.\n"
+"\n"
+"Dacă este „manual”, atunci proxy-urile descrise de „/system/proxy/http”, „/"
+"system/proxy/https”, „/system/proxy/ftp” și „/system/proxy/socks” vor fi "
+"folosite. Fiecare dintre cele 4 tipuri de proxy-uri este activat dacă cheia "
+"„host” nu este goală și cheia „port” nu este 0.\n"
+"\n"
+"Dacă un proxy http este configurat, dar un proxy https nu este, atunci proxy-"
+"ul http este folosit și pentru https.\n"
+"\n"
+"Dacă un proxy SOCKS este configurat, este folosit pentru toate protocoalele, "
+"cu excepția în care configurările pentru http, https și ftp suprascriu "
+"configurarea pentru aceste protocoale."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:13
 msgid "Automatic proxy configuration URL"
@@ -2943,6 +3223,8 @@ msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
 msgstr ""
+"URL ce oferă valorile de configurări proxy. Când modul este „auto”, acest "
+"URL este folosit pentru a căuta informațiile proxy pentru toate protocoalele."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:15
 msgid "Non-proxy hosts"
@@ -2955,6 +3237,11 @@ msgid ""
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
+"Această cheie conține o listă de gazde care sunt conectate direct, în loc de "
+"prin proxy (dacă este activ). Valorile pot fi nume de gazde, domenii "
+"(utilizând un metacaracter inițial precum *.foo.com), adrese IP ale gazdelor "
+"(ambele IPv4 și IPv6) și adrese de rețea cu o mască de rețea (ceva ca "
+"192.168.0.0/24)."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:17
 msgid "Unused; ignore"
@@ -2962,13 +3249,15 @@ msgstr "Neutilizat; ignorați"
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:18
 msgid "This key is not used, and should not be read or modified."
-msgstr ""
+msgstr "Această cheie nu este folosită, și nu ar trebui citită sau modificată."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:19
 msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
 msgstr ""
+"Această cheie nu este folosită; delegarea HTTP este activată când cheia "
+"gazdă este ne-goală și portul este non-0."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:20
 msgid "HTTP proxy host name"
@@ -2987,6 +3276,8 @@ msgid ""
 "The port on the machine defined by “/system/proxy/http/host” that you proxy "
 "through."
 msgstr ""
+"Portul mașinii definit de „/system/proxy/http/host” prin care se face "
+"delegarea."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:24
 msgid "Authenticate proxy server connections"
@@ -3001,6 +3292,13 @@ msgid ""
 "This applies only to the http proxy; when using a separate https proxy, "
 "there is currently no way to specify that it should use authentication."
 msgstr ""
+"Dacă este adevărat, atunci conexiunile la serverul proxy necesită "
+"autentificare. Combinația utilizator/parolă este definită de „/system/proxy/"
+"http/authentication-user” și „/system/proxy/http/authentication-password”.\n"
+"\n"
+"Aceasta se aplică numai proxy-ului http; când se folosește un poxy separat "
+"pentru https, momentan nu este vreun fel de a specifica că ar trebui să "
+"utilizeze autentificare."
 
 #: ../schemas/org.gnome.system.proxy.gschema.xml.in.h:28
 msgid "HTTP proxy username"
