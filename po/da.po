@@ -1,9 +1,10 @@
 # Danish translation for gsettings-desktop-schemas.
 # Copyright (C) 2012-2016 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2016
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2016.
 # Joe Hansen <joedalton2@yahoo.dk>, 2017.
 # Alan Mortensen <alanmortensen.am@gmail.com>, 2019.
+# scootergrisen, 2019.
 #
 # tablet -> tegneplade (med mindre det er åbenlyst, at der er tale om en tablet)
 # touchpad -> pegeplade
@@ -13,16 +14,15 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2018-12-28 23:21+0000\n"
-"PO-Revision-Date: 2019-02-10 18:11+0100\n"
-"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"POT-Creation-Date: 2019-06-24 14:55+0000\n"
+"PO-Revision-Date: 2019-07-03 12:48+0200\n"
+"Last-Translator: scootergrisen\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1142,12 +1142,12 @@ msgstr "Navnet på standardskrifttypen, der bruges til at læse dokumenter."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:160
 msgid "Monospace font"
-msgstr "Fastbreddeskrifttype"
+msgstr "Skrifttype med fast bredde"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:161
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
-msgstr "Navn på en fastbreddeskrifttype til brug i f.eks. terminaler."
+msgstr "Navn på en skrifttype med fast bredde til brug i f.eks. terminaler."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:168
 msgid "Menubar accelerator"
@@ -1276,6 +1276,31 @@ msgstr ""
 "Hvis true (sand), så bruger gtk+ den primære indsæt-markering, normalt "
 "udløst ved et midtermuseklik."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:247
+#| msgid "Allow user switching"
+msgid "Allow overlay scrolling"
+msgstr "Tillad overlægningsrulning"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+msgid ""
+"Whether scrollbars should be overlayed as indicators. Depending on input "
+"devices in use, permanent scrollbars may still be displayed."
+msgstr ""
+"Om rullebjælker skal overlægges som indikatorer. Permanente rullebjælker kan "
+"stadig være synlige, afhængig af hvilke inputenheder som bruges."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+msgid "Highlights the current location of the pointer."
+msgstr "Fremhæver markørens nuværende placering."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
+msgid ""
+"If true, pressing a key will highlight the current pointer location on "
+"screen."
+msgstr ""
+"Hvis sand, vil tryk på en tast fremhæve markørens nuværende placering på "
+"skærmen."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Deaktivér kommandolinje"
@@ -1328,7 +1353,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
-msgstr "Deaktiver brugerskift"
+msgstr "Deaktivér brugerskift"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
@@ -1374,6 +1399,18 @@ msgstr ""
 "tilføjelse og fjernelse af brugere såvel som at ændre andre brugeres "
 "indstillinger."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
+msgid "Mount removable storage devices as read-only"
+msgstr "Montér flytbare lagerenheder som skrivebeskyttede"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
+msgid ""
+"Prevent users from writing or modifying files on removable storage devices "
+"(i.e. flash disks, mobile phones, cameras)."
+msgstr ""
+"Forhindr brugere i at skrive eller ændre filer på flytbare lagerenheder "
+"(dvs. flashdiske, mobiltelefoner, kameraer)."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "Om medier automatisk monteres"
@@ -1397,9 +1434,9 @@ msgid ""
 "detected; for media where a known x-content type is detected, the user "
 "configurable action will be taken instead."
 msgstr ""
-"Hvis sat til and, vil Nautilus automatisk åbne en mappe når der automonteres "
-"medier. Dette gælder kun for medier, hvor der ikke blev fundet nogen x-"
-"content/*-type; for medier hvor der findes en kendt x-content-type, vil "
+"Hvis sat til sand, vil Nautilus automatisk åbne en mappe når der automonteres "
+"medier. Dette gælder kun for medier, hvor der ikke blev fundet nogen "
+"x-content/*-type; for medier hvor der findes en kendt x-content-type, vil "
 "handlingen, der kan konfigureres af brugeren, blive udført i stedet."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:16
@@ -1570,7 +1607,8 @@ msgstr "Om pegepladen skal deaktiveres under indtastning"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
-"Når aktiveret vil pegeplader være deaktiveret ved indtastning via tastaturet."
+"Når aktiveret vil pegeplader være deaktiveret ved indtastning via "
+"tastaturet."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:29
 msgid "Enable mouse clicks with touchpad"
@@ -1615,7 +1653,7 @@ msgstr ""
 "“right” for højrehåndet; “mouse” for at følge musens indstilling."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Pointer speed"
 msgstr "Markørhastighed"
 
@@ -1629,7 +1667,7 @@ msgstr ""
 "systemstandard."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Natural scrolling"
 msgstr "Naturlig rulning"
 
@@ -1676,15 +1714,35 @@ msgstr "Indledende ventetid for tastegentagelse"
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Indledende ventetid for tastegenkendelse i millisekunder."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:84
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+msgid "Remember NumLock state"
+msgstr "Husk NumLock-tilstand"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+"Når den er indstillet til sand, vil GNOME huske tilstanden af NumLock-LED'en "
+"mellem sessioner."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+msgid "NumLock state"
+msgstr "NumLock-tilstand"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+msgid "The remembered state of the NumLock LED."
+msgstr "Tilstanden af NumLock-LED'en som huskes."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Mouse button orientation"
 msgstr "Orientering af museknapper"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Ombyt venstre og højre museknap for venstrehåndede mus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1692,17 +1750,17 @@ msgstr ""
 "Markørhastighed for mus. Accepterede værdier er i intervallet [-1..1] (fra "
 "uaccelereret (unaccelerated) til hurtig (fast). Værdien 0 er systemstandard."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:106
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Sæt denne til TRUE for at slå naturlig (omvendt) rulletilstand til for mus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid "Acceleration profile"
 msgstr "Accelerationsprofil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:101
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1721,11 +1779,11 @@ msgstr ""
 "“default”."
 
 # sammenlign evt. med efterfølgende
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
 msgid "Drawing tablet mapping"
 msgstr "Afbildning for tegneplade"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1735,19 +1793,19 @@ msgstr ""
 "formatet [forhandler, produkt, serienummer]. [\"\",\"\",\"\"] afhænger af "
 "automatisk afbildning."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Tablet mapping"
 msgstr "Tegnepladeafbildning"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
 msgid "How input affects the pointer on the screen"
 msgstr "Hvordan input påvirker markøren på skærmen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Tablet area"
 msgstr "Tegnepladeområde"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1755,11 +1813,11 @@ msgstr ""
 "Uresponsivt område som omgiver det aktive område i procent. Anvendes "
 "henholdsvis til venstre, højre, over og under."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Tablet aspect ratio"
 msgstr "Højde-/breddeforhold for tegneplade"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1767,86 +1825,86 @@ msgstr ""
 "Slå dette til for at begrænse tegnepladeområdet, så det passer til højde-/"
 "breddeforholdet af output."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Tablet left-handed mode"
 msgstr "Venstrehåndstilstand for tegneplade"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Slå denne til for at tillade fysisk rotation af tegnepladen til "
 "venstrehåndsbrug"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:144
 msgid "Stylus pressure curve"
 msgstr "Trykkurve for pen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Sæt denne til x1, y1 og x2, y2 på pennens trykkurve."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:139
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:149
 msgid "Eraser pressure curve"
 msgstr "Trykkurve for viskelæder"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Sæt denne til x1, y1 og x2, y2 på viskelæderets trykkurve."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:144
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid "Button action"
 msgstr "Knaphandling"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Handling for pennens knap. Denne knap befinder sig et sted på pennens side."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:149
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Secondary button action"
 msgstr "Handling for sekundær knap"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr ""
-"Handling for pennens sekundære knap. Denne knap sidder et sted på pennens side "
-"på visse digitale penne såsom Grip Pen. Andre, såsom Airbrush Pen eller "
+"Handling for pennens sekundære knap. Denne knap sidder et sted på pennens "
+"side på visse digitale penne såsom Grip Pen. Andre, såsom Airbrush Pen eller "
 "Inking Pen har kun én knap, og denne indstilling har ingen virkning for "
 "disse."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tertiary button action"
 msgstr "Handling for tertiær knap"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr ""
-"Handling for pennens tertiære knap. Denne knap sidder et sted på pennens side "
-"på visse digitale penne såsom 3D Pen. Andre, såsom Grip Pen har kun to "
+"Handling for pennens tertiære knap. Denne knap sidder et sted på pennens "
+"side på visse digitale penne såsom 3D Pen. Andre, såsom Grip Pen har kun to "
 "knapper, og denne indstilling har ingen virkning for disse."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:171
 msgid "Pad button action type"
 msgstr "Handlingstype for pegepladeknap"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:172
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typen af handling som foretages, når knappen trykkes."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:176
 msgid "Key combination for the custom action"
 msgstr "Tastekombination for den brugertilpassede handling"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:177
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1854,11 +1912,11 @@ msgstr ""
 "Tastaturgenvejen som genereres når knappen trykkes for brugertilpassede "
 "handlinger."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:183
 msgid "Touchscreen output mapping"
 msgstr "Outputafbildning for berøringsskærm"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1868,11 +1926,11 @@ msgstr ""
 "Skal have formatet [forhandler, produkt, serienummer]. [\"\",\"\",\"\"] "
 "afhænger af automatisk afbildning."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emuleringsknap for musehjul. 0 for at slå funktionen fra."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -1917,8 +1975,8 @@ msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
 msgstr ""
-"Hvis sand, fjernes filer automatisk fra papirkurven når de er ældre end “old-"
-"files-age” dage."
+"Hvis sand, fjernes filer automatisk fra papirkurven når de er ældre end "
+"“old-files-age” dage."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:23
 msgid "Whether to remove old temporary files automatically"
@@ -2118,7 +2176,7 @@ msgstr ""
 "Antallet af sekunder efter pauseskærmsaktivering, før der vises en "
 "udlogningsmulighed i lås op-dialogen. Denne nøgle har kun betydning hvis "
 "nøglen “logout_enable” er sat til sand. FORÆLDET: Denne nøgle er forældet og "
-"ignoreres."
+"ignoreres"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
 msgid "Logout command"
@@ -3077,10 +3135,10 @@ msgstr ""
 "Hvis den er “auto”, bruges autokonfigurations-URL'en beskrevet af nøglen "
 "“autoconfig-url”. Hvis den er “manual”, bruges proxyerne beskrevet af “/"
 "system/proxy/http”, “/system/proxy/https”, “/system/proxy/ftp” og “/system/"
-"proxy/socks”. Hver af de fire proxytyper er slået til, hvis dens “værtsnøgle” "
-"er ikke-tom og dens “portnøgle” er forskellig fra 0. Hvis der er "
-"konfigureret en http-proxy, men ikke https-proxy, bruges http-proxyen også "
-"til https. Hvis der er konfigureret en SOCKS-proxy, bruges den til alle "
+"proxy/socks”. Hver af de fire proxytyper er slået til, hvis dens "
+"“værtsnøgle” er ikke-tom og dens “portnøgle” er forskellig fra 0. Hvis der "
+"er konfigureret en http-proxy, men ikke https-proxy, bruges http-proxyen "
+"også til https. Hvis der er konfigureret en SOCKS-proxy, bruges den til alle "
 "protokoller på nær, at http-, https- og ftp-proxyindstillinger tilsidesætter "
 "den for disse specifikke protokoller."
 
