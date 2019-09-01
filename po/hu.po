@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2019-05-28 16:43+0000\n"
-"PO-Revision-Date: 2019-06-01 17:52+0200\n"
+"POT-Creation-Date: 2019-08-17 20:57+0000\n"
+"PO-Revision-Date: 2019-09-01 08:15+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -1276,10 +1276,23 @@ msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Ha igaz, akkor az idő mellett a hét napja is megjelenik."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#| msgid "Enable notifications"
+msgid "Enable hot corners"
+msgstr "Forró sarkok engedélyezése"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+msgid ""
+"If true, the activities overview can be accessed by moving the mouse to the "
+"top-left corner."
+msgstr ""
+"Ha igaz, akkor a tevékenységek áttekintő elérhető az egér bal felső sarokba "
+"húzásával."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Show battery percentage"
 msgstr "Akkumulátortöltöttség százalékos megjelenítése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1287,11 +1300,11 @@ msgstr ""
 "Ha igaz, akkor megjelenik az akkumulátortöltöttség százalékosan az "
 "állapotmenüben, az ikon mellett."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
 msgid "Enable the primary paste selection"
 msgstr "Elsődleges beillesztés engedélyezése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1299,17 +1312,29 @@ msgstr ""
 "Ha igaz, akkor a gtk+ az elsődleges beillesztést használja, melyet általában "
 "a középső gombra kattintás aktivál."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:247
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
 msgid "Allow overlay scrolling"
 msgstr "Rátét görgetés engedélyezése"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr ""
 "A görgetősávok rátétek legyenek-e jelzőkként. A használatban lévő beviteli "
 "eszköztől függően az állandó görgetősávok továbbra is láthatóak maradhatnak."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
+msgid "Highlights the current location of the pointer."
+msgstr "Kiemeli a mutató jelenlegi helyét."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:265
+msgid ""
+"If true, pressing a key will highlight the current pointer location on "
+"screen."
+msgstr ""
+"Ha igaz, akkor egy billentyű megnyomása kiemeli a mutató jelenlegi helyét a "
+"képernyőn."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1420,9 +1445,9 @@ msgid ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 msgstr ""
-"A felhasználók megakadályozása a cserélhető tárolóeszközökön (azaz "
-"flash-meghajtókon, mobiltelefonokon, fényképezőgépeken) lévő fájlok írásában "
-"vagy módosításában."
+"A felhasználók megakadályozása a cserélhető tárolóeszközökön (azaz flash-"
+"meghajtókon, mobiltelefonokon, fényképezőgépeken) lévő fájlok írásában vagy "
+"módosításában."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -1679,7 +1704,7 @@ msgstr ""
 "követi."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Pointer speed"
 msgstr "Mutató sebessége"
 
@@ -1693,7 +1718,7 @@ msgstr ""
 "alapértelmezett értéke 0."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid "Natural scrolling"
 msgstr "Természetes görgetés"
 
@@ -1717,39 +1742,76 @@ msgstr ""
 "adott területen keresztül („areas”), ujjak száma („fingers”), vagy hagyja a "
 "hardver alapértelmezettjén („default”)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#| msgid "Enable dwell clicks"
+msgid "Emulate middle click"
+msgstr "Középső kattintás utánzása"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid ""
+"Set this to TRUE to enable middle click during simultaneous left and right "
+"click."
+msgstr ""
+"Állítsa ezt IGAZ értékre a középső kattintás engedélyezéséhez az egyszerre "
+"történő bal és jobb kattintáskor."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid "Keyboard repeat"
 msgstr "Billentyűzetismétlés"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:68
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Állítsa IGAZRA a billentyűzetismétlés engedélyezéséhez."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
 msgid "Key Repeat Interval"
 msgstr "Billentyűismétlés időköze"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Delay between repeats in milliseconds."
 msgstr "Az ismétlések közti késleltetés ezredmásodpercben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Initial Key Repeat Delay"
 msgstr "Kezdeti billentyűismétlés késleltetése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Kezdeti billentyűismétlés késleltetése ezredmásodpercben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:84
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+msgid "Remember NumLock state"
+msgstr "NumLock állapotának megjegyzése"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+"Ha igazra van állítva, akkor a GNOME megjegyzi a NumLock LED állapotát a "
+"munkamenetek között."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+msgid "NumLock state"
+msgstr "NumLock állapota"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+msgid "The remembered state of the NumLock LED."
+msgstr "A NumLock LED megjegyzett állapota."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Mouse button orientation"
 msgstr "Egérgomb elhelyezkedése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "A bal és jobb egérgombok felcserélése balkezes egerekhez."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1758,18 +1820,18 @@ msgstr ""
 "tartományban vannak (a „gyorsítatlantól” a „gyorsig”). A rendszer "
 "alapértelmezett értéke 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Állítsa IGAZRA a természetes (fordított) görgetés engedélyezéséhez az "
 "egereknél."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Acceleration profile"
 msgstr "Gyorsítási profil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:101
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1787,11 +1849,11 @@ msgstr ""
 "gyorsítást az egér mozgásától függően. Ha egy egér nem támogatja a "
 "beállított profilt, akkor a „default” lesz használva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Drawing tablet mapping"
 msgstr "Rajzoló táblagép leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1801,19 +1863,19 @@ msgstr ""
 "termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] megbízik az "
 "automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Tablet mapping"
 msgstr "Táblagép leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "How input affects the pointer on the screen"
 msgstr "Hogyan befolyásolja a bemenet a mutatót a képernyőn"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Tablet area"
 msgstr "Táblagép területe"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1821,11 +1883,11 @@ msgstr ""
 "Az aktív területet körbevevő halott terület százalékban megadva. Rendre a "
 "bal, jobb, fenti és lenti oldalakra alkalmazva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Tablet aspect ratio"
 msgstr "Táblagép méretaránya"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1833,50 +1895,50 @@ msgstr ""
 "Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a "
 "kimenet méretarányával."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Tablet left-handed mode"
 msgstr "Táblagép balkezes módja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Ha engedélyezett, akkor lehetővé teszi a táblagép fizikai elforgatását a "
 "balkezes beállításokhoz"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid "Stylus pressure curve"
 msgstr "Íróvessző nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Az íróvesszőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:139
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Eraser pressure curve"
 msgstr "Törlő nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "A törlőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:144
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Button action"
 msgstr "Gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Az íróvessző gombjának művelete. Ez a gomb a toll fogantyúja mentén "
 "található."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:149
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Secondary button action"
 msgstr "Másodlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1887,11 +1949,11 @@ msgstr ""
 "íróvesszőknek (például Airbrush Pen vagy Inking Pen) csak egyetlen gombja "
 "van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tertiary button action"
 msgstr "Harmadlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1901,30 +1963,30 @@ msgstr ""
 "mentén található néhány íróvesszőn, mint például a 3D Pen. Más íróvesszőknek "
 "(például Grip Pen) csak két gombja van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid "Pad button action type"
 msgstr "Tábla gombjának művelettípusa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
 msgid "The type of action triggered by the button being pressed."
 msgstr "A gomb lenyomása által kiváltott művelet."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Key combination for the custom action"
 msgstr "Az egyéni művelet billentyűkombinációja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Az egyéni műveletek gombjának megnyomásakor előállított billentyűkombináció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
 msgid "Touchscreen output mapping"
 msgstr "Érintőképernyő kimenet leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1934,11 +1996,11 @@ msgstr ""
 "[szállító, termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] "
 "megbízik az automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
