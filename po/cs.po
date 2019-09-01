@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2018-12-28 23:21+0000\n"
-"PO-Revision-Date: 2019-03-01 12:03+0100\n"
+"POT-Creation-Date: 2019-08-16 07:25+0000\n"
+"PO-Revision-Date: 2019-08-16 14:10+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:95
 msgid "Beep when a modifier is pressed."
-msgstr "Pípnout při zmáčknutí modifikační klávesy"
+msgstr "Pípnout při zmáčknutí modifikační klávesy."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:96
 msgid "Whether to beep when a modifier key is pressed."
@@ -299,8 +299,8 @@ msgid ""
 "push: when the magnified caret intersects a boundary of the zoom region, the "
 "contents are scrolled into view"
 msgstr ""
-"Určuje polohu textového kurzoru v zobrazení lupy. Hodnoty jsou: • none: žádné "
-"sledování kurzoru • centered: obrázek kurzoru je zobrazen ve středu "
+"Určuje polohu textového kurzoru v zobrazení lupy. Hodnoty jsou: • none: "
+"žádné sledování kurzoru • centered: obrázek kurzoru je zobrazen ve středu "
 "přiblížené oblasti (zároveň představuje ukazatel pod systémovým kurzorem) a "
 "zvětšený obsah je posouván podle toho, jak se pohybuje systémová kurzor • "
 "proportional: poloha zvětšené kurzoru v přiblížené oblasti je proporčně "
@@ -793,7 +793,7 @@ msgstr "Automaticky aktualizovat časové pásmo"
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:7
 msgid "Whether to automatically update the timezone using geolocation."
-msgstr "Zda automaticky aktualizovat časové pásmo pomocí geolokačních údajů"
+msgstr "Zda automaticky aktualizovat časové pásmo pomocí geolokačních údajů."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:14
 msgid "Default calendar"
@@ -821,9 +821,9 @@ msgid ""
 "it needs a terminal is taken from its desktop file."
 msgstr ""
 "Jestli výchozí kalendářová aplikace potřebuje k běhu terminál. ZAVRŽENO: "
-"Tento klíč byl zavržen a je ignorován. Upřednostňovanou kalendářovou aplikací "
-"je ta, která obsluhuje typ MIME text/calendar, a jestli potřebuje terminál je "
-"uvedeno v jejím souboru .desktop."
+"Tento klíč byl zavržen a je ignorován. Upřednostňovanou kalendářovou "
+"aplikací je ta, která obsluhuje typ MIME text/calendar, a jestli potřebuje "
+"terminál je uvedeno v jejím souboru .desktop."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:37
 msgid "Default tasks"
@@ -1043,7 +1043,7 @@ msgstr "Délka bliknutí kurzoru"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:74
 msgid "Length of the cursor blink cycle, in milliseconds."
-msgstr "Délka cyklu blikání kurzoru, v milisekundách"
+msgstr "Délka cyklu blikání kurzoru, v milisekundách."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:81
 msgid "Cursor Blink Timeout"
@@ -1213,7 +1213,7 @@ msgid ""
 "setting"
 msgstr ""
 "Paleta použitá ve výběru barvy, tak jak je definována v nastavení „gtk-color-"
-"palette“."
+"palette“"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:200
 msgid "List of symbolic names and color equivalents"
@@ -1230,7 +1230,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:205
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:206
 msgid "Whether the clock displays in 24h or 12h format"
-msgstr "Zda hodiny zobrazovat ve 24hodinovém nebo 12hodinovém formátu."
+msgstr "Zda hodiny zobrazovat ve 24hodinovém nebo 12hodinovém formátu"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
 msgid "Whether the clock shows seconds"
@@ -1257,10 +1257,22 @@ msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Když je zapnuto, zobrazuje se na hodinách kromě času i den v týdnu."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+msgid "Enable hot corners"
+msgstr "Povolit aktivní rohy"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+msgid ""
+"If true, the activities overview can be accessed by moving the mouse to the "
+"top-left corner."
+msgstr ""
+"Pokud je pravda, přehled činností bude zpřístupněn po přesunu myši do "
+"horního levého rohu."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Show battery percentage"
 msgstr "Zobrazovat procenta baterie"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1268,17 +1280,43 @@ msgstr ""
 "Když je zapnuto, zobrazují se ve stavové nabídce vedle ikony i procenta "
 "stavu nabití baterie."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
 msgid "Enable the primary paste selection"
 msgstr "Povolit vkládání z hlavního výběru"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
 "Když je zapnuto, používá gtk+ vkládání z hlavního výběru, obvykle spouštěné "
 "kliknutím prostředním tlačítkem myši."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#, fuzzy
+msgid "Allow overlay scrolling"
+msgstr "Povolit překrývající posouvání"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#, fuzzy
+msgid ""
+"Whether scrollbars should be overlayed as indicators. Depending on input "
+"devices in use, permanent scrollbars may still be displayed."
+msgstr ""
+"Jestli by se posuvníky měly překrývat jako indikátory. V závislosti na vstupním "
+"zařízením, posuvníky mohou být zobrazeny trvale."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
+msgid "Highlights the current location of the pointer."
+msgstr "Zvýraznit současné umístění kurzoru."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:265
+msgid ""
+"If true, pressing a key will highlight the current pointer location on "
+"screen."
+msgstr ""
+"Pokud je pravda, stisk klávesy zobrazí současné umístění ukazatele na "
+"obrazovce."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1378,6 +1416,18 @@ msgid ""
 msgstr ""
 "Zabránit uživateli měnit uživateské účty. Jako výchozí je dovoleno přidávat "
 "a odstraňovat uživatele, stejně jako měnit nastavení ostatním uživatelům."
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
+msgid "Mount removable storage devices as read-only"
+msgstr "Připojovat odpojitelná úložiště pouze v režimu pro čtení"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
+msgid ""
+"Prevent users from writing or modifying files on removable storage devices "
+"(i.e. flash disks, mobile phones, cameras)."
+msgstr ""
+"Znemožní uživatelům zapisovat nebo měnit data na odpojitelných úložištích "
+"(např. flash disky, mobilní telefony, fotoaparáty)."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -1621,7 +1671,7 @@ msgstr ""
 "„right“ pro praváky a „mouse“ se řídí podle nastavení u myši."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Pointer speed"
 msgstr "Rychlost ukazatele"
 
@@ -1634,7 +1684,7 @@ msgstr ""
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid "Natural scrolling"
 msgstr "Přirozené posouvání"
 
@@ -1658,41 +1708,77 @@ msgstr ""
 "přes určené oblasti („areas“), dané počtem prstů („fingers“) nebo ponecháno "
 "na výchozím nastavení hardwaru („default“)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+msgid "Emulate middle click"
+msgstr "Emulace stisknutí prostředního tlačítka"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid ""
+"Set this to TRUE to enable middle click during simultaneous left and right "
+"click."
+msgstr ""
+"Nastavte na PRAVDA, aby se prostřední tlačítko myši dalo simulovat současným "
+"stiskem levého a pravého tlačítka."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid "Keyboard repeat"
 msgstr "Opakování klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:68
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nastavte na ZAPNUTO, pokud má klávesnice opakovat zmáčknutí kláves."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
 msgid "Key Repeat Interval"
 msgstr "Četnost opakování klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Delay between repeats in milliseconds."
-msgstr "Prodleva mezi opakováním zmáčknutí kláves, v milisekundách"
+msgstr "Prodleva mezi opakováním zmáčknutí kláves, v milisekundách."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Initial Key Repeat Delay"
 msgstr "Počáteční prodleva opakování klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid "Initial key repeat delay in milliseconds."
 msgstr ""
 "Počáteční zpoždění v milisekundách, než začně klávesnice opakovat zmáčknutí "
 "kláves."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:84
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+msgid "Remember NumLock state"
+msgstr "Zapamatovat si stav NumLock"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+"Pokud je nastaveno na pravda, GNOME si bude pamatovat stav NumLock LED během "
+"sezení."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+msgid "NumLock state"
+msgstr "Stav NumLock"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+msgid "The remembered state of the NumLock LED."
+msgstr "Pamatovat si stav NumLock LED."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Mouse button orientation"
 msgstr "Uspořádání tlačítek myši"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Prohodit levé a pravé tlačítko myši, určeno pro leváky."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1700,18 +1786,18 @@ msgstr ""
 "Rychlost ukazatele myší. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Když je nastaveno na ZAPNUTO, bude posuv pomocí myši fungovat v přirozeném "
 "(obráceném) směru."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Acceleration profile"
 msgstr "Profil zrychlení"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:101
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1728,11 +1814,11 @@ msgstr ""
 "nebo adaptivní („adaptive“), kdy se zrychlení přizpůsobuje podle pohybů "
 "myši. Pokud myš nastavený profil nepodporuje, použije se výchozí."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Drawing tablet mapping"
 msgstr "Mapování kreslícího tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1742,19 +1828,19 @@ msgstr ""
 "[výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] ponechá mapování na "
 "automatice."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Tablet mapping"
 msgstr "Mapování tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "How input affects the pointer on the screen"
 msgstr "Jak vstup ovlivňuje ukazatel na obrazovce"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Tablet area"
 msgstr "Oblast tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1762,11 +1848,11 @@ msgstr ""
 "Mrtvá oblast obklopující aktivní oblast, v procentech. Jednotlivě se použije "
 "na levou, pravou, horní a dolní stranu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Tablet aspect ratio"
 msgstr "Poměr stran tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1774,49 +1860,49 @@ msgstr ""
 "Zapněte, když chcete omezit oblast tabletu tak, aby odpovídal poměru stran "
 "výstupu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Tablet left-handed mode"
 msgstr "Režim tabletu pro leváky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Zapněte, když chcete umožnit fyzické otočení tabletu, aby šel nastavit pro "
 "leváky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid "Stylus pressure curve"
 msgstr "Přítlaková křivka stylusu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Nastavte na x1, y1 a x2, y2 přítlakové křivky použité na stylus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:139
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Eraser pressure curve"
 msgstr "Přítlaková křivka gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Nastavte na x1, y1 a x2, y2 přítlakové křivky použité na gumu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:144
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Button action"
 msgstr "Činnost tlačítka"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Činnost tlačítka stylusu. Toto tlačítko se nachází v místě úchoupu pera."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:149
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Secondary button action"
 msgstr "Činnost druhého tlačítka"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1827,11 +1913,11 @@ msgstr ""
 "Airbrush Pen nebo Inking Pen mají jen jedno tlačítko, a v tom případě nemá "
 "toto nastavení žádný význam."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tertiary button action"
 msgstr "Činnost třetího tlačítka"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1842,19 +1928,19 @@ msgstr ""
 "Pen nebo Inking Pen mají jen jedno tlačítko, a v tom případě nemá toto "
 "nastavení žádný význam."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid "Pad button action type"
 msgstr "Typ činnosti tlačítka plochy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typ činnosti spuštěné zmáčknutím tlačítka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Key combination for the custom action"
 msgstr "Kombinace kláves pro vlastní činnost"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1862,11 +1948,11 @@ msgstr ""
 "Klávesová zkratka vygenerovaná, když je tlačítko zmáčknuto pro vlastní "
 "činnost."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
 msgid "Touchscreen output mapping"
 msgstr "Mapování výstupu dotykové obrazovky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1876,11 +1962,11 @@ msgstr ""
 "ve formátu [výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] ponechá "
 "mapování na automatice vypne."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emulace tlačítka v kolečku myši. 0 tuto funkci vypne."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -1914,7 +2000,7 @@ msgstr "Zobrazovat celé jméno v nabídce uživatele"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:13
 msgid "Whether the users full name is shown in the user menu or not."
-msgstr "Zda je či není v nabídce uživatele zobrazeno celé jméno"
+msgstr "Zda je či není v nabídce uživatele zobrazeno celé jméno."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:17
 msgid "Whether to remove old files from the trash automatically"
@@ -2129,7 +2215,7 @@ msgstr ""
 "Počet sekund od aktivace šetřiče obrazovky po zobrazení možnosti odhlášení v "
 "dialogovém okně odemknutí. Tento klíč má efekt, jen když je klíč "
 "„logout_enable“ nastaven na ZAPNUTO. ZAVRŽENO: Tento klíč byl zavržen a je "
-"ignorován."
+"ignorován"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
 msgid "Logout command"
@@ -2192,7 +2278,7 @@ msgid ""
 "provider should be disabled"
 msgstr ""
 "Seznam ID souborů .desktop, pro které by měl být zakázán přidružený "
-"poskytovatel hledání, který je ve výchozím stavu povolen."
+"poskytovatel hledání, který je ve výchozím stavu povolen"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:22
 msgid ""
@@ -2207,7 +2293,7 @@ msgid ""
 "provider should be enabled"
 msgstr ""
 "Seznam ID souborů .desktop, pro které by měl být povolen přidružený "
-"poskytovatel hledání, který je ve výchozím stavu zakázán."
+"poskytovatel hledání, který je ve výchozím stavu zakázán"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:34
 msgid ""
@@ -2660,7 +2746,7 @@ msgstr "Přepnout vstupní zdroj"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Binding to select the next input source"
-msgstr "Klávesová zkratka pro výběr následujícího vstupního zdroje."
+msgstr "Klávesová zkratka pro výběr následujícího vstupního zdroje"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
 msgid "Switch input source backward"
@@ -2668,7 +2754,7 @@ msgstr "Přepnout zpět vstupní zdroj"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Binding to select the previous input source"
-msgstr "Klávesová zkratka pro výběr předchozího vstupního zdroje."
+msgstr "Klávesová zkratka pro výběr předchozího vstupního zdroje"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
 msgid "Toggle window to be always on top"
@@ -2678,7 +2764,7 @@ msgstr "Přepnout okno, aby se nacházelo vždy nahoře"
 msgid "Set or unset window to appear always on top"
 msgstr ""
 "Nastavit nebo zrušit nastavení okna, aby se nacházelo vždy nahoře nad "
-"ostatními okny."
+"ostatními okny"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:8
 msgid "Modifier to use for modified window click actions"
@@ -2786,11 +2872,11 @@ msgid ""
 "the window. This mode is useful if one uses many overlapping windows."
 msgstr ""
 "Výchozí hodnota zapnuto říká, že okno bude přeneseno do popředí, kdykoliv je "
-"kliknuto na jeho klientskou oblast nebo rám. Nastavení na vypnuto znamená, že "
-"okno nebude přeneseno do popředí, když je kliknuto na klientskou oblast. Pro "
-"přenesení do popředí je zapotřebí kliknout někde na jeho rám nebo použít "
-"kombinaci Super + kliknutí na libovolné části okna. Tento režim se hodí, když "
-"se používá hodně překrývajících se oken."
+"kliknuto na jeho klientskou oblast nebo rám. Nastavení na vypnuto znamená, "
+"že okno nebude přeneseno do popředí, když je kliknuto na klientskou oblast. "
+"Pro přenesení do popředí je zapotřebí kliknout někde na jeho rám nebo použít "
+"kombinaci Super + kliknutí na libovolné části okna. Tento režim se hodí, "
+"když se používá hodně překrývajících se oken."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:82
 msgid "Action on title bar double-click"
@@ -2832,13 +2918,13 @@ msgid ""
 "and “none” which will not do anything."
 msgstr ""
 "Tato volba určuje, jaký efekt má kliknutí prostředním tlačítkem na záhlaví "
-"okna. V současnosti platné volby jsou „toggle-shade“, která okno "
-"svine/rozvine; „toggle-maximize“, která okno maximalizuje/zruší jeho "
-"maximalizaci; „toggle-maximize-horizontally“ a „toggle-maximize-vertically“, "
-"která okno maximalizuje/zruší jeho maximalizaci pouze ve vodorovné, "
-"respektive svislém směru; „minimize“, která okno minimalizuje; „shade“, která "
-"okno sbalí; „menu“, která zobrazí nabídku okna; „lower“, která odsune okno do "
-"pozadí za ostatní okna a „none“, která nedělá nic."
+"okna. V současnosti platné volby jsou „toggle-shade“, která okno svine/"
+"rozvine; „toggle-maximize“, která okno maximalizuje/zruší jeho maximalizaci; "
+"„toggle-maximize-horizontally“ a „toggle-maximize-vertically“, která okno "
+"maximalizuje/zruší jeho maximalizaci pouze ve vodorovné, respektive svislém "
+"směru; „minimize“, která okno minimalizuje; „shade“, která okno sbalí; "
+"„menu“, která zobrazí nabídku okna; „lower“, která odsune okno do pozadí za "
+"ostatní okna a „none“, která nedělá nic."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
 msgid "Action on title bar right-click"
@@ -2987,12 +3073,12 @@ msgid ""
 "currently focused window’s titlebar is flashed."
 msgstr ""
 "Říká správci oken, jak má implementovat vizuální indikaci, když zazvoní "
-"systémový „zvonek“ nebo „zvonek“ jiné aplikace. V současnosti jsou platné dvě "
-"hodnoty: „fullscreen-flash“, která způsobí bílo-černé bliknutí celé "
+"systémový „zvonek“ nebo „zvonek“ jiné aplikace. V současnosti jsou platné "
+"dvě hodnoty: „fullscreen-flash“, která způsobí bílo-černé bliknutí celé "
 "obrazovky, a „frame-flash“, která způsobí zablikání záhlaví okna aplikace, "
 "která signál zvonku vyslala. Pokud není známo, která aplikace zvonek zaslala "
-"(což je obvykle v případech výchozích „systémových pípnutí“), zabliká záhlaví "
-"okna, které je právě aktivní."
+"(což je obvykle v případech výchozích „systémových pípnutí“), zabliká "
+"záhlaví okna, které je právě aktivní."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
 msgid "Disable misfeatures that are required by old or broken applications"
@@ -3088,13 +3174,13 @@ msgstr ""
 "Výběr režimu nastavení proxy. Podporované hodnoty jsou „none“, „manual“, "
 "„auto“. Při nastavení „none“ se nebude proxy používat. Při nastavení „auto“ "
 "se použije automatické nastavení popsané na adrese URL uvedené v klíči "
-"„autoconfig-url“. Při nastavení „manual“ se použijí proxy uvedené v "
-"„/system/proxy/http“, „/system/proxy/https“, „/system/proxy/ftp“ a "
-"„/system/proxy/socks“. Každý z těchto 4 typů proxy se zapne, pokud je klíč "
-"„host“ neprázdný a klíč „port“ nenulový. Jestliže je nastavena proxy HTTP a "
-"proxy HTTPS ne, použije se proxy HTTP i pro HTTPS. Pokud je nastavena proxy "
-"SOCKS, použije se pro všechny protokoly, vyjma proxy HTTP, HTTPS a FTP, které "
-"si nastavení přepíšou."
+"„autoconfig-url“. Při nastavení „manual“ se použijí proxy uvedené v „/system/"
+"proxy/http“, „/system/proxy/https“, „/system/proxy/ftp“ a „/system/proxy/"
+"socks“. Každý z těchto 4 typů proxy se zapne, pokud je klíč „host“ neprázdný "
+"a klíč „port“ nenulový. Jestliže je nastavena proxy HTTP a proxy HTTPS ne, "
+"použije se proxy HTTP i pro HTTPS. Pokud je nastavena proxy SOCKS, použije "
+"se pro všechny protokoly, vyjma proxy HTTP, HTTPS a FTP, které si nastavení "
+"přepíšou."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:36
 msgid "Automatic proxy configuration URL"
@@ -3176,8 +3262,8 @@ msgstr ""
 "Pokud je zapnuto, připojení k serveru proxy vyžaduje autentizaci. Kombinace "
 "uživatelské jméno/heslo je dána klíči „/system/proxy/http/authentication-"
 "user“ a „/system/proxy/http/authentication-password“. Použije se pouze pro "
-"proxy HTTP. Jestliže používáte samostatně proxy HTTPS, není k dispozici žádný "
-"způsob, jak určit, že se má používat autentizace."
+"proxy HTTP. Jestliže používáte samostatně proxy HTTPS, není k dispozici "
+"žádný způsob, jak určit, že se má používat autentizace."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:103
 msgid "HTTP proxy username"
