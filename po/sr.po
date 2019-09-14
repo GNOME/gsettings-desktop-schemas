@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2018-12-28 23:21+0000\n"
-"PO-Revision-Date: 2019-02-28 22:58+0100\n"
+"POT-Creation-Date: 2019-08-17 20:57+0000\n"
+"PO-Revision-Date: 2019-09-14 09:14+0200\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1267,10 +1267,22 @@ msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Ако је изабрано, приказиваће дан у сату, поред времена."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+msgid "Enable hot corners"
+msgstr "Омогући вруће углове"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+msgid ""
+"If true, the activities overview can be accessed by moving the mouse to the "
+"top-left corner."
+msgstr ""
+"Ако је омогућено, прегледу активности се може приступити померањем миша у "
+"горњи леви угао."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Show battery percentage"
 msgstr "Приказује проценат батерије"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1278,17 +1290,41 @@ msgstr ""
 "Ако је изабрано, приказиваће проценат батерије у изборнику стања, као "
 "додатак иконици."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
 msgid "Enable the primary paste selection"
 msgstr "Укључује главни избор убацивања"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
 "Ако је изабрано, гтк+ користи главни избор убацивања, који се обично "
 "активира кликом на средње дугме миша."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+msgid "Allow overlay scrolling"
+msgstr "Дозволи преклапање приликом премицања"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+msgid ""
+"Whether scrollbars should be overlayed as indicators. Depending on input "
+"devices in use, permanent scrollbars may still be displayed."
+msgstr ""
+"Да ли траке за премицање треба преклапати као индикаторе. Зависно од улазних "
+"уређаја у употреби, трајне траке за премицање се могу и даље приказивати."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
+msgid "Highlights the current location of the pointer."
+msgstr "Истиче тренутну локацију показивача."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:265
+msgid ""
+"If true, pressing a key will highlight the current pointer location on "
+"screen."
+msgstr ""
+"Ако је тачно, притисак тастера ће истаћи тренутну локацију показивача на "
+"екрану."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1387,6 +1423,19 @@ msgid ""
 msgstr ""
 "Зауставља корисника од мењања корисничких налога. По основи, ми омогућавамо "
 "додавање и уклањање корисника, као и измену других корисничких подешавања."
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
+msgid "Mount removable storage devices as read-only"
+msgstr ""
+"Закачи уклоњиве уређаје за складиштење података у режиму само за читање"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
+msgid ""
+"Prevent users from writing or modifying files on removable storage devices "
+"(i.e. flash disks, mobile phones, cameras)."
+msgstr ""
+"Спречава корисницима уписивање или промену датотека на уклоњивим уређајима "
+"за складиштење података (тј. флеш дискете, мобилни телефони, камере)."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -1632,7 +1681,7 @@ msgstr ""
 "десноруке са „right“, са „mouse“ да прати подешавања миша."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Pointer speed"
 msgstr "Брзина показивача"
 
@@ -1646,7 +1695,7 @@ msgstr ""
 "системска основна."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid "Natural scrolling"
 msgstr "Природно премицање"
 
@@ -1669,39 +1718,75 @@ msgstr ""
 "кроз посебне опсеге ('areas'), по броју прстију ('fingers')  или лево као "
 "хардверска подразумевана вредност ('default')."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+msgid "Emulate middle click"
+msgstr "Опонашај средњи клик"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid ""
+"Set this to TRUE to enable middle click during simultaneous left and right "
+"click."
+msgstr ""
+"Подесите ово на ТАЧНО да бисте омогућили опонашање средњег клика приликом "
+"усклађеног притиска на леви и десни клик."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid "Keyboard repeat"
 msgstr "Понављање тастатуре"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:68
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Изаберите ово да укључите понављање тастатуре."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
 msgid "Key Repeat Interval"
 msgstr "Размак понављања тастера"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Delay between repeats in milliseconds."
 msgstr "Застој између понављања у милисекундама."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Initial Key Repeat Delay"
 msgstr "Почетни застој понављања тастера"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Почетни застој понављања тастера у милисекундама."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:84
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+msgid "Remember NumLock state"
+msgstr "Запамти стање тастера NumLock"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+"Када је подешено на тачно, Гном ће запамтити стање ЛЕД лампице тастера "
+"NumLock, између сесија."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+msgid "NumLock state"
+msgstr "Стање NumLock тастера"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+msgid "The remembered state of the NumLock LED."
+msgstr "Запамћено стање ЛЕД лампице тастера NumLock."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Mouse button orientation"
 msgstr "Усмерење дугмета миша"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Замена левог и десног дугмета миша за леворуке."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1710,16 +1795,16 @@ msgstr ""
 "„unaccelerated“ — без убрзања, до „fast“ — брзо). Вредност 0 је системска "
 "основна."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Изаберите ово да укључите природно (повратно) премицање за мишеве."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Acceleration profile"
 msgstr "Профил убрзања"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:101
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1736,11 +1821,11 @@ msgstr ""
 "који прилагођава убрзање у зависности од покрета миша. Ако миш не подржава "
 "подешени профил, користиће се „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Drawing tablet mapping"
 msgstr "Мапирање исцртавања таблице"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1749,19 +1834,19 @@ msgstr ""
 "ЕДИД подаци монитора на који је мапирана таблица. Мора бити у запису "
 "[vendor, product, serial]. [\"\",\"\",\"\"] ослања се на аутоматско мапирање."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Tablet mapping"
 msgstr "Мапирање таблице"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "How input affects the pointer on the screen"
 msgstr "Како улаз делује на показивач на екрану"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Tablet area"
 msgstr "Област таблице"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1769,11 +1854,11 @@ msgstr ""
 "Попуна мртве области око активне области, у процентима. Редом се примењује "
 "на леву, десну, горњу и доњу страну."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Tablet aspect ratio"
 msgstr "Однос сразмере таблице"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1781,50 +1866,50 @@ msgstr ""
 "Укључите ово да ограничите област таблице како би одговарала односу сразмере "
 "излаза."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Tablet left-handed mode"
 msgstr "Режим таблице за леворуке"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Укључите ово да омогућите стварно окретање таблице зарад подешавања за "
 "леворуке"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
 msgid "Stylus pressure curve"
 msgstr "Крива притиска оловке"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Подесите ово на x1, y1 и x2, y2 криве притиска који се примењује на оловку."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:139
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Eraser pressure curve"
 msgstr "Крива притиска брисача"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Подесите ово на x1, y1 и x2, y2 криве притиска који се примењује на брисач."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:144
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Button action"
 msgstr "Радња дугмета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Радња дугмета оловке, ово дугме се налази на ручици пенкале."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:149
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Secondary button action"
 msgstr "Радња другог дугмета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1834,11 +1919,11 @@ msgstr ""
 "оловкама као што је Грип Пен. Остале оловке попут Ербраш Пен или Инкин Пен "
 "имају само једно дугме, ово подешавање не делује на њих."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tertiary button action"
 msgstr "Радња трећег дугмета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1848,30 +1933,30 @@ msgstr ""
 "оловкама као што је 3Д Пен. Остале оловке попут Грип Пен имају само два "
 "дугмета, ово подешавање не делује на њих."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid "Pad button action type"
 msgstr "Врста радње дугмета додирне табле"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
 msgid "The type of action triggered by the button being pressed."
 msgstr "Врста радње која се окида притиском на дугме."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Key combination for the custom action"
 msgstr "Комбинација тастера за произвољну радњу"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Пречица тастатуре која се ствара када се притисне дугме за произвољне радње."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
 msgid "Touchscreen output mapping"
 msgstr "Мапирање излаза додирног екрана"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1880,11 +1965,11 @@ msgstr ""
 "ЕДИД подаци монитора на који је мапиран додирни екран. Мора бити у запису "
 "[vendor, product, serial]. [\"\",\"\",\"\"] ослања се на аутоматско мапирање."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Дугме опонашања точкића миша. 0 искључује функцију."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
