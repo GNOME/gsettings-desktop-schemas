@@ -74,5 +74,11 @@
       <summary>Don’t allow applications to output sound</summary>
       <description>If TRUE, applications should not make sound.</description>
     </key>
+    <key name="keyboard-protection" type="b">
+      <default>false</default>
+      <summary>Wheter to enable protection against untrusted USB keyboards</summary>
+      <description>If TRUE, untrusted new USB keyboards will be able to issue only a limited number of keystrokes--i.e.,
+        potentially dangerous keys like ctrl and the function keys will be blocked.</description>
+    </key>
   </schema>
 </schemalist>
