@@ -214,4 +214,10 @@ typedef enum
   G_DESKTOP_POINTER_ACCEL_PROFILE_ADAPTIVE
 } GDesktopPointerAccelProfile;
 
+typedef enum
+{
+  G_DESKTOP_USB_PROTECTION_LOCKSCREEN,
+  G_DESKTOP_USB_PROTECTION_ALWAYS
+} GDesktopUsbProtection;
+
 #endif /* __gdesktop_enums_h__ */
