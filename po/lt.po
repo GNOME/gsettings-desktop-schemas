@@ -2,15 +2,15 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Žygimantas Beručka <zygis@gnome.org>, 2012.
-# Aurimas Černius <aurisc4@gmail.com>, 2012-2019.
+# Aurimas Černius <aurisc4@gmail.com>, 2012-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-08-17 20:57+0000\n"
-"PO-Revision-Date: 2019-08-19 22:58+0300\n"
+"POT-Creation-Date: 2019-09-24 11:27+0000\n"
+"PO-Revision-Date: 2020-02-08 14:31+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 3.32.1\n"
+"X-Generator: Gtranslator 3.34.0\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1243,7 +1243,6 @@ msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Jei teigiama, greta laiko laikrodyje rodyti savaitės dieną."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:233
-#| msgid "Enable notifications"
 msgid "Enable hot corners"
 msgstr "Įjungti karštus kampus"
 
@@ -1280,7 +1279,6 @@ msgstr ""
 "panaudojamą viduriniuoju pelės paspaudimu."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:255
-#| msgid "Allow user switching"
 msgid "Allow overlay scrolling"
 msgstr "Leisti dangalų slinktį"
 
@@ -1693,7 +1691,6 @@ msgstr ""
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#| msgid "Enable dwell clicks"
 msgid "Emulate middle click"
 msgstr "Emuliuoti vidurinį paspaudimą"
 
@@ -2079,6 +2076,32 @@ msgstr "Neleisti programoms groti garsų"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "Jei TEIGIAMA, programoms neleidžiama groti garsų."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Ar apsaugoti USB įrenginius"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"Jei TEIGIAMA, USB įrenginiai bus apsaugoti, kaip sukonfigūruota rakte usb-"
+"protection-level."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "Kada USB įrenginiai turi būti atmesti"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
+"Jei nustatyta „lockscreen“, tuomet tik nauji USB įrenginiai bus atmetami "
+"tik, kai ekranas užrakintas; jei nustatyta „always“, visi nauji USB "
+"įrenginiai visada bus atmetami."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
