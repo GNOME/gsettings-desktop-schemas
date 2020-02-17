@@ -1,23 +1,24 @@
 # Hungarian translation for gsettings-desktop-schemas.
-# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2012, 2016, 2017.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020.
+# Balázs Meskó <mesko.balazs at fsf dot hu>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2019-08-17 20:57+0000\n"
-"PO-Revision-Date: 2019-09-01 08:15+0200\n"
+"POT-Creation-Date: 2019-12-27 14:41+0000\n"
+"PO-Revision-Date: 2020-02-17 08:07+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1276,7 +1277,6 @@ msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Ha igaz, akkor az idő mellett a hét napja is megjelenik."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:233
-#| msgid "Enable notifications"
 msgid "Enable hot corners"
 msgstr "Forró sarkok engedélyezése"
 
@@ -1745,7 +1745,6 @@ msgstr ""
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#| msgid "Enable dwell clicks"
 msgid "Emulate middle click"
 msgstr "Középső kattintás utánzása"
 
@@ -2146,6 +2145,32 @@ msgstr "Ne engedélyezze az alkalmazásoknak, hogy hangot adjanak ki"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "Ha IGAZ, akkor az alkalmazások nem adhatnak ki hangot."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Védje-e az USB-s eszközöket"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"Ha IGAZ, akkor az USB-s eszközök védve lesznek, az usb-protection-level "
+"kulcsban beállítottak szerint."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "Mikor legyenek elutasítva az USB-s eszközök"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
+"Ha „lockscreen” értékre van állítva, akkor csak a zárolt képernyőn lesznek az"
+" USB-s eszközök elutasítva; ha „always” az értéke, akkor az új USB-s eszközök"
+" mindig el lesznek utasítva."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
