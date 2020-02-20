@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017.
-# Asier Sarasua Garmendia  <asier.sarasua@gmail.com>, 2019.
+# Asier Sarasua Garmendia  <asier.sarasua@gmail.com>, 2019, 2020.
 #
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2019-08-05 22:03+0000\n"
-"PO-Revision-Date: 2019-08-14 10:00+0100\n"
+"POT-Creation-Date: 2019-12-27 14:41+0000\n"
+"PO-Revision-Date: 2020-02-20 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -1206,11 +1206,11 @@ msgstr "Erabiltzaileak pantaila hau blokeatzea saihesten du."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
-msgstr "Desgaitu URL eta MIME moten kudeatzaileak"
+msgstr "Desgaitu URL eta MIME moten maneiatzaileak"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:55
 msgid "Prevent running any URL or MIME type handler applications."
-msgstr "Saihestu edozein URL edo MIME moten aplikazio-kudeatzaileak exekutatzea."
+msgstr "Saihestu edozein URL edo MIME moten aplikazio-maneiatzaileak exekutatzea."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:61
 msgid "Disable log out"
@@ -1819,6 +1819,27 @@ msgstr "Ez baimendu aplikazioek irteerako soinua atzitu dezaten"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "TRUE (egia) bada, aplikazioek ez dute soinurik egingo."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "USB gailuak babestuko diren ala ez"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr "TRUE (egia) bada, USB gailuak babestuta egongo dira usb-protection-level gakoan konfiguratuta dagoen moduan."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "USB gailuak noiz baztertuko diren"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr "Aukera horretan \"lockscreen\" (blokeo-pantaila) ezarrita badago, blokeo-pantaila dagoenean soilik baztertuko dira USB gailu berriak; \"always\" (beti) ezarrita badago, URB gailu berri guztiak beti baztertuko dira."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
