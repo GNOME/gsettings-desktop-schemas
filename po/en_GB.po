@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Chris Leonard <cjl@laptop.org>, 2012.
 # Bruce Cowan <bruce@bcowan.me.uk>, 2012-2019.
-# Zander Brown <zbrown@gnome.org>, 2019.
+# Zander Brown <zbrown@gnome.org>, 2019-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-08-17 20:57+0000\n"
-"PO-Revision-Date: 2019-08-25 17:46+0100\n"
+"POT-Creation-Date: 2020-01-17 03:07+0000\n"
+"PO-Revision-Date: 2020-02-22 16:35+0000\n"
 "Last-Translator: Zander Brown <zbrown@gnome.org>\n"
 "Language-Team: English - United Kingdom <en_GB@li.org>\n"
 "Language: en_GB\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 3.32.1\n"
+"X-Generator: Gtranslator 3.34.0\n"
 "X-DamnedLies-Scope: partial\n"
 "X-Project-Style: gnome\n"
 
@@ -1248,7 +1248,6 @@ msgid "If true, display weekday in the clock, in addition to time."
 msgstr "If true, display weekday in the clock, in addition to time."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:233
-#| msgid "Enable notifications"
 msgid "Enable hot corners"
 msgstr "Enable hot corners"
 
@@ -1285,7 +1284,6 @@ msgstr ""
 "mouse button click."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:255
-#| msgid "Allow user switching"
 msgid "Allow overlay scrolling"
 msgstr "Allow overlay scrolling"
 
@@ -1699,7 +1697,6 @@ msgstr ""
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#| msgid "Enable dwell clicks"
 msgid "Emulate middle click"
 msgstr "Emulate middle click"
 
@@ -2091,6 +2088,32 @@ msgstr "Don’t allow applications to output sound"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "If TRUE, applications should not make sound."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Whether to protect USB devices"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "When USB devices should be rejected"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
