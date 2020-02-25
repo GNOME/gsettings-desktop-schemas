@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2016.
 # Joe Hansen <joedalton2@yahoo.dk>, 2017.
-# Alan Mortensen <alanmortensen.am@gmail.com>, 2019.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2019, 2020.
 # scootergrisen, 2019.
 #
 # tablet -> tegneplade (med mindre det er åbenlyst, at der er tale om en tablet)
@@ -14,15 +14,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-08-29 00:16+0000\n"
-"PO-Revision-Date: 2019-10-02 05:08+0200\n"
-"Last-Translator: scootergrisen\n"
+"POT-Creation-Date: 2019-10-10 12:00+0000\n"
+"PO-Revision-Date: 2020-02-25 20:03+0100\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1260,7 +1261,9 @@ msgstr "Slå aktive hjørner til"
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
-msgstr "Hvis sand kan aktivitetsoversigten tilgås ved at flytte musen til øverste venstre hjørne."
+msgstr ""
+"Hvis sand kan aktivitetsoversigten tilgås ved at flytte musen til øverste "
+"venstre hjørne."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Show battery percentage"
@@ -1710,7 +1713,8 @@ msgstr "Emulér midterklik"
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
-msgstr "Sæt til sand for at emulere midterklik ved samtidigt venstre- og højreklik."
+msgstr ""
+"Sæt til sand for at emulere midterklik ved samtidigt venstre- og højreklik."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid "Keyboard repeat"
@@ -2095,6 +2099,31 @@ msgstr "Tillad ikke, at programmer kan bruge højttalere"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "Hvis sand får programmer ikke lov til at bruge højttalerne."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Om USB-enheder skal beskyttes"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"Hvis TRUE vil USB-enheder blive beskyttet som konfigureret i nøglen usb-"
+"protection-level."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "Hvornår USB-enheder skal afvises"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
+"Hvis sat til “lockscreen”, vil nye USB-enheder kun blive afvist, når skærmen "
+"er låst. Hvis sat til “always”, vil alle nye USB-enheder altid blive afvist."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
