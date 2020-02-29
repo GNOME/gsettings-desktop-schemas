@@ -4,15 +4,15 @@
 #
 # Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2011.
 # Martin Srebotnjak  <miles@filmsi.net>, 2011.
-# Matej Urbančič <mateju@svn.gnome.org>, 2013–2019.
+# Matej Urbančič <mateju@svn.gnome.org>, 2013–2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-08-23 14:51+0000\n"
-"PO-Revision-Date: 2019-08-24 19:47+0200\n"
+"POT-Creation-Date: 2020-02-28 08:10+0000\n"
+"PO-Revision-Date: 2020-02-29 21:19+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -2085,6 +2085,32 @@ msgstr "Ne dovoli programom dostopa do zvoka"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "Izbrana možnost določa, da programi ne sprožajo zvoka."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Ali naj bodo naprave USB zaščitene"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"Izbrana možnost omogoča, da bodo naprave USB zaščitene kot nastavljene v "
+"ključu raven-zaščite-usb"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "Kdaj naj bodo naprave USB izvržene"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
+"Nastavitev »zaklep zaslona« določa, da bodo naprave USB zavrnjene, ko je "
+"zaslon zaklenjen, nastavitev »vedno« pa, da bo do zavrnjene kadarkoli bodo "
+"vstavljene."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
