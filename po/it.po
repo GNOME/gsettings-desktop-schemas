@@ -1,9 +1,9 @@
 # Italian translation for gsettings-desktop-schemas.
 # Copyright (C) 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 gsettings-desktop-schemas's COPYRIGHT HOLDER
-# Copyright (C) 2019 gsettings-desktop-schemas's COPYRIGHT HOLDER
+# Copyright (C) 2019, 2020 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Luca Ferretti <lferrett@gnome.org>, 2011, 2012.
-# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
+# Milo Casagrande <milo@milo.name>, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
 # Claudio Arseni <claudio.arseni@ubuntu.com>, 2013, 2015.
 # Gianvito Cavasoli <gianvito@gmx.it>, 2016.
 #
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-08-17 20:57+0000\n"
-"PO-Revision-Date: 2019-09-04 17:40+0200\n"
+"POT-Creation-Date: 2019-10-02 03:24+0000\n"
+"PO-Revision-Date: 2020-02-06 12:06+0100\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italiano <gnome-it-list@gnome.org>\n"
 "Language: it\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1061,7 +1061,7 @@ msgstr "Dimensione icone barra degli strumenti"
 msgid "Size of icons in toolbars, either “small” or “large”."
 msgstr ""
 "Dimensione delle icone nella barra degli strumenti, a scelta tra \"small\" o "
-"\"large\""
+"\"large\"."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:65
 msgid "Cursor Blink"
@@ -2073,7 +2073,7 @@ msgid ""
 "“old-files-age” days."
 msgstr ""
 "Se VERO, i file presenti nel cestino verranno automaticamente rimossi quando "
-"più vecchi dei giorni indicati in \"old-files-age\""
+"più vecchi dei giorni indicati in \"old-files-age\"."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:23
 msgid "Whether to remove old temporary files automatically"
@@ -2085,7 +2085,7 @@ msgid ""
 "files-age” days."
 msgstr ""
 "Se VERO, i file temporanei verranno automaticamente rimossi quando più "
-"vecchi dei giorni indicati in \"old-files-age\""
+"vecchi dei giorni indicati in \"old-files-age\"."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:29
 msgid "Number of days to keep trash and temporary files"
@@ -2173,6 +2173,32 @@ msgstr "Non consente alle applicazioni di emettere suoni"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "Se VERO, le applicazioni non dovrebbero emettere suoni."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Indica se proteggere i dispositivi USB"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"Se VERO, i dispositivi USB sono protetti così come configurati attraverso la "
+"chiave usb-protection-level."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "Quando rifiutare i dispositivi USB"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
+"Se impostata a \"lockscreen\", nuovi dispositivi USB vengono rifiutati solo "
+"quando lo schermo è bloccato; se impostata a \"always\", i nuovi dispositivi "
+"USB vengono sempre rifiutati."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -2475,7 +2501,7 @@ msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
 msgstr ""
 "Elenco di tipi MIME per i quali il servizio di miniature esterno verrà "
-"disabilitato."
+"disabilitato"
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:19
 msgid ""
@@ -2934,7 +2960,7 @@ msgstr ""
 msgid "Whether windows should be raised when their client area is clicked"
 msgstr ""
 "Indica se le finestre devono essere sollevate quando viene fatto clic sulla "
-"loro area client."
+"loro area client"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:68
 msgid ""
