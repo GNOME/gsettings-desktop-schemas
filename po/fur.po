@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2019-08-17 20:57+0000\n"
-"PO-Revision-Date: 2019-09-05 15:03+0200\n"
+"POT-Creation-Date: 2020-03-29 15:43+0000\n"
+"PO-Revision-Date: 2020-04-03 16:23+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1283,6 +1283,8 @@ msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
 msgstr ""
+"Se true (vêr), si pues acedi ae panoramiche des ativitâts, spostant il mouse "
+"tal angul in alt a çampe."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Show battery percentage"
@@ -1320,13 +1322,15 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid "Highlights the current location of the pointer."
-msgstr ""
+msgstr "Al evidenzie la atuâl posizion dal pontadôr."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:265
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
 msgstr ""
+"Se true (vêr), fracant un tast si evidenziarà la atuâl posizion dal pontadôr "
+"sul schermi."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1394,7 +1398,7 @@ msgstr "Disabilite i gjestôrs dai gjenars MIME e URL"
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:55
 msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
-"Impedìs la esecuzion des aplicazions che a gjestissin i gjenar mime o i URL"
+"Impedìs la esecuzion des aplicazions che a gjestissin i gjenar MIME o i URL."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:61
 msgid "Disable log out"
@@ -1522,11 +1526,13 @@ msgstr ""
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:6
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:55
 msgid "Show notification banners"
-msgstr ""
+msgstr "Mostre il pipin di notifiche"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:7
 msgid "Whether notification banners are visible for application notifications."
 msgstr ""
+"Indiche se i pipins di notifiche a son visibii pes notifichis des "
+"aplicazions."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:14
 msgid "Show notifications in the lock screen"
@@ -1569,16 +1575,20 @@ msgid ""
 "Whether notification banners for this application are shown or not. Does not "
 "affect clicking on message tray buttons."
 msgstr ""
+"Indiche se si à di mostrâ o mancul i pipins di notifiche par cheste "
+"aplicazion. Nol à efiet sui clic sui botons de guantiere dai messaçs."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:64
 msgid "Force automatic expanding of banners"
-msgstr ""
+msgstr "Sfuarce la espansion automatiche dai pipins"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:65
 msgid ""
 "Whether notifications from this application are expanded automatically when "
 "in banner mode."
 msgstr ""
+"Indiche se si à di slargjâ in automatic lis notifichis di cheste aplicazion, "
+"cuant che si è in modalitât pipin."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:72
 msgid "Show in the lock screen"
@@ -1971,6 +1981,8 @@ msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
 msgstr ""
+"Se metût a true (vêr), il sisteme si sfuarçarà a no pandi ator sul schermi o "
+"te rêt la identitât dal utent."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:12
 msgid "Show full name in the user menu"
@@ -2089,6 +2101,29 @@ msgstr "No sta permeti aes aplicazions di butâ fûr suns"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr "Se VÊR, lis aplicazions no podaran fâ suns."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
+msgid "Whether to protect USB devices"
+msgstr "Indiche se protezi i dispositîfs USB"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+msgid ""
+"If TRUE, USB devices will be protected as configured in the key usb-"
+"protection-level."
+msgstr ""
+"Se TRUE, i dispositîfs USB a vignaran protets come configurât inte clâf usb-"
+"protection-level."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+msgid "When USB devices should be rejected"
+msgstr "Cuant che i dispositîfs USB a àn di jessi refudâts"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+msgid ""
+"If set to \"lockscreen\", only when the lock screen is present new USB "
+"devices will be rejected; if set to \"always\", all new USB devices will "
+"always be rejected."
+msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -2266,22 +2301,29 @@ msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
 msgstr ""
+"I risultâts pes aplicazions contignudis in cheste liste no vignaran mostrâts "
+"cuant che si cirarà."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:30
 msgid ""
 "List of desktop file IDs for which the associated default-disabled search "
 "provider should be enabled"
 msgstr ""
+"Liste di ID di file desktop che par chei si à di abilitâ il furnidôr di "
+"ricercje (disabilitât di default) associât"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:34
 msgid ""
 "Results for applications contained in this list will be displayed when "
 "searching."
 msgstr ""
+"I risultâts pes aplicazions contignudis in cheste liste a vignaran mostrâts "
+"cuant che si cirarà."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:42
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
+"Liste dai ID dai file desktop pal ordinament dai furnidôrs di ricercjis"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:43
 msgid ""
@@ -2289,6 +2331,9 @@ msgid ""
 "specified order. Results for applications not specified in this list will be "
 "displayed last, sorted alphabetically."
 msgstr ""
+"I risultâts pes aplicazions contignudis in cheste liste a vignaran mostrâts "
+"intal ordin specificât. I risultâts pes aplicazions che no son specificadis "
+"in cheste liste a vignaran mostrâts par ultin, in ordin alfabetic."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:6
 msgid "Time before session is considered idle"
@@ -2744,7 +2789,7 @@ msgstr "Met o gjave il stât di simpri indenant pai barcons"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:8
 msgid "Modifier to use for modified window click actions"
-msgstr ""
+msgstr "Modificadôr di doprâ pes azions modificadis dai clic sui barcons"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
 msgid ""
@@ -2754,6 +2799,12 @@ msgid ""
 "the “resize-with-right-button” key. Modifier is expressed as \"<Alt>\" or "
 "\"<Super>\" for example."
 msgstr ""
+"Fasint clic suntun barcon intant che si ten fracât chest tast modificadôr al "
+"spostarà il barcon (clic di çampe), ridimensionarà il barcon (clic centrâl) "
+"o mostrarà il menù dal barcon (clic di diestre). Lis operazions dal clic "
+"centrâl e di diestre a puedin jessi scambiadis tra di lôr doprant la clâf "
+"“resize-with-right-button”. Il modificadôr al è esprimût tant che \"<Alt>\" "
+"o \"<Super>\" par esempli."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
@@ -2765,6 +2816,9 @@ msgid ""
 "middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
+"Met chest a true (vêr) par ridimensionâ cul boton di diestre e mostrâ un "
+"menù cul boton centrâl intant che si ten fracât il tast indicât in “mouse-"
+"button-modifier”; met chest a false (fals) par fâlu lavorâ al contrari."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:29
 msgid "Arrangement of buttons on the titlebar"
@@ -2780,6 +2834,14 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"Disposizion dai botons su la sbare dal titul. Il valôr al à di jessi une "
+"stringhe, tant che “menu:minimize,maximize,spacer,close”; il doi ponts al "
+"separe l'angul di çampe dal barcon di chel di diestre, e i nons dai botons a "
+"son separâts de virgule. No son permetûts botons dopleâts. I nons di boton "
+"no cognossûts a vegnin ignorâts cence dî nuie cussì che i botons a puedin "
+"jessi zontâts tes futuris versions di metacity cence rompi il funzionament "
+"des versions plui vecjis. Une etichete di spaziadure speciâl e pues vignî "
+"doprade par inserî un tic di spazi tra doi botons vicins."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:43
 msgid "Window focus mode"
@@ -2831,6 +2893,13 @@ msgid ""
 "one can click anywhere in the window’s frame, or Super-click on any part of "
 "the window. This mode is useful if one uses many overlapping windows."
 msgstr ""
+"Il predefinît, true (vêr), al indiche che un barcon al vignarà tirât sù ogni "
+"volte che la sô aree client i la sô suaze e ricêf un clic. Metint chest a "
+"fals al significhe che un barcon nol vignarà tirât denant se al ricêf un "
+"clic te sô aree client. Par tirâlu sù si pues fâ clic dulà che si vûl te "
+"suaze dal barcon, o fasint clic adun cul tast Super su cualsisei part dal "
+"barcon. Cheste modalitât e je utile se si à di doprâ tancj barcons che si "
+"soreponin."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:82
 msgid "Action on title bar double-click"
@@ -2847,6 +2916,14 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Cheste opzion e determine i efiets dal dopli-clic su la sbare dal titul. Lis "
+"opzions atualmentri validis a son “toggle-shade”, che al inrodolarà/"
+"disrodolarà il barcon, “toggle-maximize” che al slargjarà/metarà-normâl il "
+"barcon, “toggle-maximize-horizontally” e “toggle-maximize-vertically” che al "
+"slargjarà/metarà-normâl il barcon dome i chê direzion, “minimize” che al "
+"impiçulirà il barcon, “shade” che al inrodolarà sù il barcon, “menu” che al "
+"mostrarà il menù dal barcon, “lower” che al metarà il barcon daûr di chei "
+"altris e “none” che nol fasarà nuie."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
 msgid "Action on title bar middle-click"
@@ -2863,6 +2940,14 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Cheste opzion e determine i efiets dal clic centrâl su la sbare dal titul. "
+"Lis opzions atualmentri validis a son “toggle-shade”, che al inrodolarà/"
+"disrodolarà il barcon, “toggle-maximize” che al slargjarà/metarà-normâl il "
+"barcon, “toggle-maximize-horizontally” e “toggle-maximize-vertically” che al "
+"slargjarà/metarà-normâl il barcon dome i chê direzion, “minimize” che al "
+"impiçulirà il barcon, “shade” che al inrodolarà sù il barcon, “menu” che al "
+"mostrarà il menù dal barcon, “lower” che al metarà il barcon daûr di chei "
+"altris e “none” che nol fasarà nuie."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
 msgid "Action on title bar right-click"
@@ -2879,6 +2964,14 @@ msgid ""
 "the window menu, “lower” which will put the window behind all the others, "
 "and “none” which will not do anything."
 msgstr ""
+"Cheste opzion e determine i efiets dal clic diestri su la sbare dal titul. "
+"Lis opzions atualmentri validis a son “toggle-shade”, che al inrodolarà/"
+"disrodolarà il barcon, “toggle-maximize” che al slargjarà/metarà-normâl il "
+"barcon, “toggle-maximize-horizontally” e “toggle-maximize-vertically” che al "
+"slargjarà/metarà-normâl il barcon dome i chê direzion, “minimize” che al "
+"impiçulirà il barcon, “shade” che al inrodolarà sù il barcon, “menu” che al "
+"mostrarà il menù dal barcon, “lower” che al metarà il barcon daûr di chei "
+"altris e “none” che nol fasarà nuie."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
 msgid "Automatically raises the focused window"
@@ -3026,6 +3119,11 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
+"Cualchi aplicazion e ignore lis specifichis cussì di vê malfunzionaments te "
+"gjestion dal barcon. Cheste opzion e met il WM (gjestôr dai barcons) intune "
+"modalitât corete in mût precîs, che e da une interface utent coerente, a "
+"mancul che nol sedi necessari eseguî aplicazions che si compuartin in mût "
+"anomal."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
 msgid "The names of the workspaces"
