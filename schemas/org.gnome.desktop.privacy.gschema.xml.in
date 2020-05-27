@@ -75,10 +75,11 @@
       <description>If TRUE, applications should not make sound.</description>
     </key>
     <key name="usb-protection" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Whether to protect USB devices</summary>
-      <description>If TRUE, USB devices will be protected as configured in
-        the key usb-protection-level.
+      <description>If the USBGuard service is present and this setting is
+        enabled, USB devices will be protected as configured in the
+        usb-protection-level setting.
       </description>
     </key>
     <key name="usb-protection-level" enum="org.gnome.desktop.GDesktopUsbProtection">
