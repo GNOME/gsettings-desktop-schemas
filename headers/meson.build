@@ -19,7 +19,7 @@ enums_xml = custom_target(
   install: true,
   install_dir: schemasdir)
 
-if not meson.is_cross_build() and get_option('introspection')
+if get_option('introspection')
   gir_sources = headers
 
   # Use a dummy .c source for Visual Studio builds-it is not enough
