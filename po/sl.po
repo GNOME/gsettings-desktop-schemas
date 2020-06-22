@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-02-28 08:10+0000\n"
-"PO-Revision-Date: 2020-02-29 21:19+0100\n"
+"POT-Creation-Date: 2020-05-31 07:07+0000\n"
+"PO-Revision-Date: 2020-06-22 21:50+0200\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1074,22 +1074,33 @@ msgstr "Privzeta pisava"
 msgid "Name of the default font used by gtk+."
 msgstr "Ime privzete pisave, uporabljeno s strani gtk+."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:116
+msgid "Directories with avatar faces"
+msgstr "Mape s sličicami podob"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:117
+msgid ""
+"Directories to override the default avatar faces installed by gnome-control-"
+"center."
+msgstr ""
+"Mape prepišejo privzete sličice, nameščene z orodji nadzornega središča."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:124
 msgid "Text scaling factor"
 msgstr "Faktor povečave besedila"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:118
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:125
 msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
 "Faktor, ki se uporablja za povečavo ali zmanjšanje prikaza besedila brez "
 "spremembe velikosti pisave."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:124
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:131
 msgid "Window scaling factor"
 msgstr "Določilo povečave okna"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:125
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:132
 msgid ""
 "Integer factor used to scale windows by. For use on high-dpi screens. 0 "
 "means pick automatically based on monitor."
@@ -1098,78 +1109,78 @@ msgstr ""
 "na zaslonih z visoko gostoto zaslonskih točk. Vrednost 0 določa samodejno "
 "povečavo, ki temelji na vrsti zaslona."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:132
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:139
 msgid "GTK IM Preedit Style"
 msgstr "Slog GTK IM"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:133
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:140
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "Ime vhodne metode sloga GTK+, uporabljenega s strani gtk+."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:139
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:146
 msgid "GTK IM Status Style"
 msgstr "Slog stanja GTK IM"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:140
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:147
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "Ime vhodne metode GTK+ sloga stanja, uporabljeno s strani gtk+."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:146
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:153
 msgid "GTK IM Module"
 msgstr "Modul GTK IM"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:147
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:154
 msgid "Name of the input method module used by GTK+."
 msgstr "Ime vnosnega načina, ki ga uporablja GTK+."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:153
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:160
 msgid "Document font"
 msgstr "Pisava dokumenta"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:154
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:161
 msgid "Name of the default font used for reading documents."
 msgstr "Ime privzete pisave za branje dokumentov."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:160
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:167
 msgid "Monospace font"
 msgstr "Pisava stalne širine"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:161
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:168
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "Ime pisave stalne širine (monospace) za uporabo v terminalu."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:168
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:175
 msgid "Menubar accelerator"
 msgstr "Pospeševalnik menijske vrstice"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:169
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:176
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Tipkovna bližnjica za odpiranje menijske vrstice."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:175
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:182
 msgid "Cursor theme"
 msgstr "Tema kazalke"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:176
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:183
 msgid ""
 "Cursor theme name. Used only by Xservers that support the Xcursor extension."
 msgstr ""
 "Ime teme kazalke. Uporablja ga le Xserver, ki podpira razširitev Xcursor."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:180
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:187
 msgid "Cursor size"
 msgstr "Velikost kazalke"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:181
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:188
 msgid "Size of the cursor used as cursor theme."
 msgstr "Velikost kazalke, ki jo določa tem kazalke."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:185
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:192
 msgid "Timeout before click repeat"
 msgstr "Časovni zamik pred ponovitvijo klika"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:186
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:193
 msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
@@ -1177,11 +1188,11 @@ msgstr ""
 "Zakasnitev v milisekundah preden se klik začne ponavljati (na primer na "
 "vrtilnih gumbih)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:190
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:197
 msgid "Timeout between click repeats"
 msgstr "Zakasnitev med ponovitvami klikov"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:191
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:198
 msgid ""
 "Timeout in milliseconds between repeated clicks when a button is left "
 "pressed."
@@ -1189,11 +1200,11 @@ msgstr ""
 "Zakasnitev v milisekundah med ponovljenimi kliki preden je pritisnjen levi "
 "gumb."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:195
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:202
 msgid "Palette used in the color selector"
 msgstr "Paleta, ki naj se uporabi v izbirniku barv"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:196
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:203
 msgid ""
 "Palette used in the color selector as defined by the “gtk-color-palette” "
 "setting"
@@ -1201,11 +1212,11 @@ msgstr ""
 "Paleta, ki se uporablja v izbirniku barv, kot ga določa nastavitev »gtk-"
 "collor-palette«"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:200
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:207
 msgid "List of symbolic names and color equivalents"
 msgstr "Seznam simbolnih imen in enakovrednih barv"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:201
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:208
 msgid ""
 "A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
 "setting"
@@ -1213,40 +1224,40 @@ msgstr ""
 "Z »\\n« ločen seznam parov »ime:barva«, kot ga določi nastavitev »gtk-color-"
 "scheme«"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:205
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:206
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:213
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Ali ura prikazuje 24 ali 12-urno obliko"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
 msgid "Whether the clock shows seconds"
 msgstr "Ali naj ura prikazuje sekunde"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "If true, display seconds in the clock."
 msgstr "Izbrana možnost omogoči na uri prikaz sekund."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
 msgid "Show date in clock"
 msgstr "Na uri pokaži datum"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Izbrana možnost omogoči prikaz datuma poleg časa."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
 msgid "Show weekday in clock"
 msgstr "Na uri pokaži dan tedna"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Izbrana možnost omogoči prikaz dneva v tednu poleg časa."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
 msgid "Enable hot corners"
 msgstr "Omogoči vroča oglišča"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1254,21 +1265,21 @@ msgstr ""
 "Izbrana možnost omogoča dostop do pregleda dejavnosti s premikom miške v "
 "levi zgornji kot namizja."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
 msgid "Show battery percentage"
 msgstr "Pokaži polnost baterije"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr "Izbrana možnost omogoči prikaz polnosti baterije v vrstici stanja."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
 msgid "Enable the primary paste selection"
 msgstr "Omogoči osnovno izbiro prilepljenja"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1276,11 +1287,11 @@ msgstr ""
 "Ko je v uporabi osnovna izbira prilepljenja, je to izvedeno s pritiskom na "
 "srednji gumb miške."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
 msgid "Allow overlay scrolling"
 msgstr "Dovoli prekrivno drsenje"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1288,11 +1299,11 @@ msgstr ""
 "ALi naj bodo drsniki prekriti kot določevalniki. Glede na vrsto vhodne "
 "naprave so lahko običajni drsniki še vedno vidni."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
 msgid "Highlights the current location of the pointer."
 msgstr "Poudari trenutno mesto kazalnika."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:265
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
