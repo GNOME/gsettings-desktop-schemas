@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2020-04-29 01:03+0000\n"
-"PO-Revision-Date: 2020-04-29 08:53+0300\n"
+"POT-Creation-Date: 2020-07-09 08:58+0000\n"
+"PO-Revision-Date: 2020-07-09 12:15+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1110,8 +1110,8 @@ msgid ""
 "Directories to override the default avatar faces installed by gnome-control-"
 "center."
 msgstr ""
-"Каталоги для перевизначення типових зображень аватарів, які встановлено"
-" gnome-control-center."
+"Каталоги для перевизначення типових зображень аватарів, які встановлено "
+"gnome-control-center."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:124
 msgid "Text scaling factor"
@@ -2148,18 +2148,21 @@ msgid "Whether to protect USB devices"
 msgstr "Чи слід захищати пристрої USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
+#| msgid ""
+#| "If TRUE, USB devices will be protected as configured in the key usb-"
+#| "protection-level."
 msgid ""
-"If TRUE, USB devices will be protected as configured in the key usb-"
-"protection-level."
+"If the USBGuard service is present and this setting is enabled, USB devices "
+"will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"Якщо має значення «true», пристрої USB буде захищено за налаштуваннями у "
-"ключі usb-protection-level."
+"Якщо запущено службу USBGuard і увімкнено цей параметр, пристрої USB буде"
+" захищено за налаштуваннями у ключі usb-protection-level."
 
-#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
 msgstr "Умови заборони пристроїв USB"
 
-#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
 msgid ""
 "If set to \"lockscreen\", only when the lock screen is present new USB "
 "devices will be rejected; if set to \"always\", all new USB devices will "
