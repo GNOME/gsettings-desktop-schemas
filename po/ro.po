@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-09 08:58+0000\n"
-"PO-Revision-Date: 2020-07-09 12:31+0300\n"
+"POT-Creation-Date: 2020-07-09 10:17+0000\n"
+"PO-Revision-Date: 2020-07-10 12:51+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -1677,10 +1677,24 @@ msgstr ""
 "tactil (touchpad-ul)."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:34
+msgid "Tap Button Map"
+msgstr "Atinge harta butonului"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+msgid ""
+"Defines the mapping between the number of fingers and touchpad buttons. The "
+"default is to have a 1, 2 and 3 finger tap to map to the left, right and "
+"middle button (\"lrm\"), respectively."
+msgstr ""
+"Definește maparea între numărul de degete și butoanele de la touchpad. "
+"Implicit este să aveți 1, 2 și 3 atingeri de deget pentru a mapa la butonul "
+"din stânga, dreapta și respectiv, din mijloc („lrm”)."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Activează atinge-și-plasează cu panoul tactil (touchpad)"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1688,19 +1702,32 @@ msgstr ""
 "Stabiliți la adevărat pentru a putea începe o tragere prin atingerea și "
 "mutarea imediată a degetului care este apăsat pe panoul tactil (touchpad)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+msgid "Enable tap-and-drag-lock with touchpad"
+msgstr "Activează atinge-și-trage-lacătul cu touchpad-ul"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+msgid ""
+"Set this to TRUE to lock the dragging process within a short timeout when "
+"the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
+msgstr ""
+"Stabilește aceasta la ADEVĂRAT pentru a bloca procesul de tragere într-o "
+"limită de timp scurtă când degetul este ridicat pe touchpad și configurarea "
+"atinge-și-trage este activată."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
 msgstr "Touchpad activat"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Definește situațiile în care panoul tactil (touchpad-ul) este activat."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:54
 msgid "Touchpad button orientation"
 msgstr "Orientarea butonului de pe touchpad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1709,12 +1736,12 @@ msgstr ""
 "stângaci cu „stânga”, „dreapta” pentru dreptaci, „mouse” pentru a urma "
 "configurarea mausului."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:59
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "Pointer speed"
 msgstr "Viteza cursorului"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1723,22 +1750,22 @@ msgstr ""
 "în intervalul [-1..1] (de la „unaccelerated” la „fast”). O valoare de 0 este "
 "implicita sistemului."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
 msgid "Natural scrolling"
 msgstr "Derulare naturală"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Stabiliți la adevărat pentru a activa derularea naturală (inversă) pentru "
 "panouri tactile (touchpad-uri)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:70
 msgid "Click method"
 msgstr "Metodă de clic"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1748,15 +1775,15 @@ msgstr ""
 "prin zone specifice („areas”), număr de degete („fingers”) sau lăsat ca "
 "implicitele hardware („default”)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Emulate middle click"
 msgstr "Emulează clic mijlociu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1764,59 +1791,59 @@ msgstr ""
 "Stabilește aceasta la ADEVĂRAT pentru a activa clic-ul mijlociu în timpul "
 "clic-urilor stânga și dreapta simultan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Keyboard repeat"
 msgstr "Repetarea tastaturii"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Stabiliți aceasta la adevărat pentru a activa repetarea tastelor."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
 msgstr "Intervalul de repetare a tastei"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
 msgstr "Întârziere între repetări în milisecunde."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
 msgstr "Întârzierea inițială a repetării tastei"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Întârzierea inițială a repetării tastei în milisecunde."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
 msgstr "Memorează starea NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
 "Când este adevărat, GNOME va memora starea LED-ului NumLock între sesiuni."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
 msgid "NumLock state"
 msgstr "Stare NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "The remembered state of the NumLock LED."
 msgstr "Starea memorată a LED-ului NumLock."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Mouse button orientation"
 msgstr "Orientarea butoanelor mausului"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Interschimbă butoanele stânga cu dreapta pentru mausuri pentru stângaci."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1824,18 +1851,18 @@ msgstr ""
 "Viteza cursorului mausurilor. Valorile acceptate sunt în intervalul [-1..1] "
 "(de la „unaccelerated” la „fast”). O valoare de 0 este implicită în sistem."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Stabiliți la adevărat pentru a activa derularea naturală (inversă) pentru "
 "mausuri."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
 msgid "Acceleration profile"
 msgstr "Profil de accelerare"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1853,11 +1880,11 @@ msgstr ""
 "accelerația în funcție de mișcarea mausului. Dacă mausul nu suportă profilul "
 "de configurare, „default” va fi folosit."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Drawing tablet mapping"
 msgstr "Se desenează maparea tabletei"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1867,19 +1894,19 @@ msgstr ""
 "formatul [furnizor, produs, serie]. [\"\",\"\",\"\"] depinde de maparea "
 "automată."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Tablet mapping"
 msgstr "Mapare tabletă"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
 msgid "How input affects the pointer on the screen"
 msgstr "Cum intrarea afectează cursorului de pe ecran"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Tablet area"
 msgstr "Zonă tabletă"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1887,11 +1914,11 @@ msgstr ""
 "Zonă moartă de umplere în jurul zonei active, în procente. Aplicată "
 "respectiv marginilor stânga, dreapta, sus și jos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet aspect ratio"
 msgstr "Proporția aspectului tabletei"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1899,54 +1926,54 @@ msgstr ""
 "Activați aceasta pentru a restricționa zona tabletei să se potrivească la "
 "raportul de aspect al ieșirii."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet left-handed mode"
 msgstr "Modul de mâna-stângă al tabletei"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Activați aceasta pentru a permite rotirea fizică a tabletei pentru instalări "
 "pentru stângaci"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Stylus pressure curve"
 msgstr "Curba de presiune a stiloului tactil (stylus)"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Stabiliți aceasta la x1, y1 și x2, y2 din curba presiunii aplicate de stilou "
 "(stylus)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Eraser pressure curve"
 msgstr "Curba de presiune a gumei de șters"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Stabiliți aceasta la x1, y1 și x2, y2 din curba presiunii aplicate de guma "
 "de șters."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Button action"
 msgstr "Acțiune buton"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Buton de acțiune stilou (stylus), acest buton este localizat dea-lungul "
 "mânerului stiloului."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Secondary button action"
 msgstr "Acțiune buton secundar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1957,11 +1984,11 @@ msgstr ""
 "stilouri cum ar fi stilouri Airbursh sau stilouri Inking care au numai un "
 "buton, această configurare este neefectivă pe acestea."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Tertiary button action"
 msgstr "Acțiune buton terțiar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1972,19 +1999,19 @@ msgstr ""
 "cum ar fi Grip Pen au numai două butoane, această configurare este "
 "neefectivă pe acestea."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Pad button action type"
 msgstr "Tip de acțiune buton tabletă"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
 msgid "The type of action triggered by the button being pressed."
 msgstr "Tip de acțiune declanșată de butonul apăsat."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Key combination for the custom action"
 msgstr "Combinația de taste pentru acțiunea personalizată"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1992,11 +2019,11 @@ msgstr ""
 "Scurtătura de tastatură generată când butonul este apăsat pentru acțiuni "
 "personalizate."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
 msgid "Touchscreen output mapping"
 msgstr "Maparea ieșirii ecranului tactil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2006,13 +2033,13 @@ msgstr ""
 "fie în formatul [furnizor, produs, serie]. [\"\",\"\",\"\"] depinde de "
 "maparea automată."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Butonul de emulare al rotiței mausului. 0 pentru a dezactiva "
 "funcționalitatea."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
