@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-04-29 01:03+0000\n"
-"PO-Revision-Date: 2020-04-30 09:56+0300\n"
+"POT-Creation-Date: 2020-07-21 09:42+0000\n"
+"PO-Revision-Date: 2020-08-07 17:53+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4\n"
 "X-POOTLE-MTIME: 1436898428.000000\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -817,7 +817,7 @@ msgid ""
 "calendar mime type."
 msgstr ""
 "Öntanımlı takvim uygulaması TERK EDİLDİ: Bu anahtar terk edildi ve yok "
-"sayılıyor. Tercih edilen takvim uygulaması, metin/takvim mime türünü işleyen "
+"sayılıyor. Yeğlenen takvim uygulaması, metin/takvim mime türünü işleyen "
 "uygulamadır."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:24
@@ -832,10 +832,9 @@ msgid ""
 "it needs a terminal is taken from its desktop file."
 msgstr ""
 "Öntanımlı takvim uygulamasının çalışabilmesi için bir uçbirime gerek olup "
-"olmaması. TERK EDİLDİ: Bu anahtar terk edildi ve yok sayılıyor. Tercih "
-"edilen takvim uygulaması, metin/takvim mime türünü işleyen uygulamadır, "
-"uygulamanın masaüstü dosyasından alınan bir uçbirime gereksinip "
-"gereksinmediğidir."
+"olmaması. TERK EDİLDİ: Bu anahtar terk edildi ve yok sayılıyor. Yeğlenen "
+"takvim uygulaması, metin/takvim mime türünü işleyen uygulamadır, uygulamanın "
+"masaüstü dosyasından alınan bir uçbirime gereksinip gereksinmediğidir."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:37
 msgid "Default tasks"
@@ -1498,7 +1497,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:21
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
-msgstr "Tercih edilen uygulamanın başlatılacağı x-content/* türlerinin listesi"
+msgstr "Yeğlenen uygulamanın başlatılacağı x-content/* türlerinin listesi"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:22
 msgid ""
@@ -1507,8 +1506,8 @@ msgid ""
 "given type will be started on insertion on media matching these types."
 msgstr ""
 "Karmaşık uygulama tercihlerinde kullanıcının başlatmak için bir uygulamayı "
-"seçtiği x-content/* türlerinin listesi. Verilen türde tercih edilen uygulama "
-"bu tür ile eşleşen ortamın yerleştirilmesi üzerine başlatılacaktır."
+"seçtiği x-content/* türlerinin listesi. Verilen türde yeğlenen uygulama bu "
+"tür ile eşleşen ortamın yerleştirilmesi üzerine başlatılacaktır."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:26
 msgid "List of x-content/* types set to “Do Nothing”"
@@ -1669,10 +1668,24 @@ msgstr ""
 "olarak işaretleyin."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:34
+msgid "Tap Button Map"
+msgstr "Dokunma ve Düğme Eşleme"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+msgid ""
+"Defines the mapping between the number of fingers and touchpad buttons. The "
+"default is to have a 1, 2 and 3 finger tap to map to the left, right and "
+"middle button (\"lrm\"), respectively."
+msgstr ""
+"Parmak sayılarıyla dokunmatik yüzey düğmelerini eşleştirmeyi tanımlar. "
+"Öntanımlı olan şudur: sol düğme için 1, sağ düğme için 2, orta düğme (\"lrm"
+"\") için 3 parmak."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Dokunmatik yüzey ile dokun ve sürükleyi etkinleştir"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1680,19 +1693,31 @@ msgstr ""
 "Dokunmatik yüzeye dokunarak ve basılı parmağı hemen hareket ettirerek bir "
 "sürükleme başlatabilmek için bunu DOĞRU olarak işaretleyin."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+msgid "Enable tap-and-drag-lock with touchpad"
+msgstr "Dokunmatik yüzey ile dokun ve sürükle kilidini etkinleştir"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+msgid ""
+"Set this to TRUE to lock the dragging process within a short timeout when "
+"the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
+msgstr ""
+"tap-and-drag ayarı etkinken ve parmak dokunmatik yüzeye konduğunda sürükleme "
+"sürecini kısa zaman aşımıyla kilitlemek için bunu TRUE olarak belirleyin."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
 msgstr "Dokunmatik yüzey etkin"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Dokunmatik yüzeyin etkin olduğu durumları tanımlar."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:54
 msgid "Touchpad button orientation"
 msgstr "Dokunmatik yüzey düğme yönlendirmeleri"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1700,12 +1725,12 @@ msgstr ""
 "Solak fareler için “left” ile sol ve sağ fare düğmelerini değiştirin, "
 "sağlaklar için “right”, fare ayarlarını izlemek için “mouse”."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:59
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "Pointer speed"
 msgstr "İşaretçi hızı"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1714,22 +1739,22 @@ msgstr ""
 "aralığındadır (“hızlandırılmamış”tan “hızlı”ya). 0 ise sistem öntanımlı "
 "değeridir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
 msgid "Natural scrolling"
 msgstr "Doğal kaydırma"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Dokunmatik yüzey için doğal (ters) kaydırmayı etkinleştirmek için bunu DOĞRU "
 "olarak ayarlayın."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:70
 msgid "Click method"
 msgstr "Tıklama yöntemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1739,15 +1764,15 @@ msgstr ""
 "belirli alanlar ile (“areas”), ya parmak sayısı (“fingers”) ya da donanım "
 "öntanımlı olarak sol (“default”)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Emulate middle click"
 msgstr "Orta tuşu öykün"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1755,58 +1780,58 @@ msgstr ""
 "Aynı anda sol ve sağ tık sırasında orta tıkı etkinleştirmek için bunu DOĞRU "
 "olarak ayarlayın."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Keyboard repeat"
 msgstr "Klavye yinelemesi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Klavye yinelemesini etkinleştirmek için DOĞRU olarak işaretleyin."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
 msgstr "Tuş Yineleme Aralığı"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
 msgstr "Yinelemelerin milisaniye türünden gecikmesi."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
 msgstr "Başlangıç Anahtar Yineleme Gecikmesi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Milisaniye türünden başlangıç anahtar yineleme gecikmesi."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
 msgstr "NumLock durumunu anımsa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
 "Eğer doğruysa; GNOME, oturumlar arasında NumLock’un durumunu anımsayacak."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
 msgid "NumLock state"
 msgstr "NumLock durumu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "The remembered state of the NumLock LED."
 msgstr "NumLock LED’inin anımsanan durumu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Mouse button orientation"
 msgstr "Fare düğmeleri konumlandırması"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Solaklar için sağ ve sol düğmelerin yerini değiştir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1814,18 +1839,18 @@ msgstr ""
 "Fare için imleç hızı. Kabul edilen değerler [-1..1] aralığındadır "
 "(“hızlandırılmamış”la “fast” arasında). 0 ise öntanımlı sistem değeridir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Fareler için doğal (test) kaydırmayı etkinleştirmek için bunu TRUE olarak "
 "işaretleyin."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
 msgid "Acceleration profile"
 msgstr "Hızlandırma profili"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1842,11 +1867,11 @@ msgstr ""
 "uyarlayan uyarlanana (“adaptive”) ayarlanabilir. Eğer bir fare "
 "yapılandırılmış profili desteklemiyorsa “default” kullanılır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Drawing tablet mapping"
 msgstr "Çizim tableti eşleştirmesi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1855,19 +1880,19 @@ msgstr ""
 "Tableti eşleyen çıktının EDID bilgisi. [üretici, ürün, seri numarası] "
 "biçiminde olmalıdır. [\"\",\"\",\"\"] kendiliğinden haritalamayı temel alır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Tablet mapping"
 msgstr "Tablet haritalaması"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
 msgid "How input affects the pointer on the screen"
 msgstr "Girdinin ekrandaki işaretçiyi nasıl etkileyeceği"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Tablet area"
 msgstr "Tablet alanı"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1875,62 +1900,62 @@ msgstr ""
 "Etkin alan çevresindeki ölü alan dolgusu, yüzdeyle. Sırayla sol, sağ, üst ve "
 "alt kenarlara uygulanır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet aspect ratio"
 msgstr "Tablet çerçeve oranı"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
 "Tablet oranını çıktının çerçeve oranıyla kısıtlamak için bunu eşleştirin."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet left-handed mode"
 msgstr "Tablet solak kipi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Tableti solak kurulumlar için fiziksel olarak döndürmeye olanak sağlamak "
 "için bunu etkinleştirin"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Stylus pressure curve"
 msgstr "Stylus basınç eğrisi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Bunu, stylusa uygulanan basınç eğrisinin x1, y1 ve x2, y2’sine ayarlayın."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Eraser pressure curve"
 msgstr "Silgi basınç eğrisi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Bunu, silgiye uygulanan basınç eğrisinin x1, y1 ve x2, y2’sine ayarlayın."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Button action"
 msgstr "Düğme eylemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Stylus düğmesi eylemi, bu düğme kalem tutacağı kenarında konumlandırılmıştır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Secondary button action"
 msgstr "İkincil düğme eylemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1941,11 +1966,11 @@ msgstr ""
 "gibi diğer styluslar yalnızca bir düğmeye sahiptir, bu ayar onlar için "
 "etkisizdir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Tertiary button action"
 msgstr "Üçüncül düğme eylemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1955,29 +1980,29 @@ msgstr ""
 "tutacağı kenarında konumlandırılmıştır. Grip Pen gibi diğer styluslar "
 "yalnızca iki düğmeye sahiptir, bu ayar onlar için etkisizdir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Pad button action type"
 msgstr "Dokunmatik yüzey düğme eylem türü"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
 msgid "The type of action triggered by the button being pressed."
 msgstr "Düğmenin basılmasıyla tetiklenen eylemin türü."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Key combination for the custom action"
 msgstr "Özel eylem için tuş birleşimi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "Düğme özel eylemler için basıldığında üretilen klavye kısayolu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
 msgid "Touchscreen output mapping"
 msgstr "Dokunmatik ekran çıkışı haritalama"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1987,11 +2012,11 @@ msgstr ""
 "numarası] biçiminde olmalıdır. [\"\",\"\",\"\"] kendiliğinden haritalamayı "
 "temel alır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Fare tekerleği öykünme düğmesi. Özelliği devre dışı bırakmak için 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2141,24 +2166,24 @@ msgstr "USB aygıtların korunup korunmayacağı"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
 msgid ""
-"If TRUE, USB devices will be protected as configured in the key usb-"
-"protection-level."
+"If the USBGuard service is present and this setting is enabled, USB devices "
+"will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"DOĞRU ise, USB aygıtları usb-protection-level değerinde yapılandırıldığı "
-"biçimde korunur."
+"Eğer USBGuard servisi varsa ve bu ayar etkinse, USB aygıtları usb-protection-"
+"level ayarında yapılandırıldığı gibi korunacaktır."
 
-#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
 msgstr "USB aygıtların ne zaman reddedileceği"
 
-#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
 msgid ""
-"If set to \"lockscreen\", only when the lock screen is present new USB "
-"devices will be rejected; if set to \"always\", all new USB devices will "
-"always be rejected."
+"If set to “lockscreen”, only when the lock screen is present new USB devices "
+"will be rejected; if set to “always”, all new USB devices will always be "
+"rejected."
 msgstr ""
-"\"lockscreen\" (kilit ekranı) olarak ayarlanırsa, yalnızca kilit ekranında "
-"yeni USB aygıtları reddedilecek; \"always\" (her zaman) olarak ayarlanırsa, "
+"“lockscreen” (kilit ekranı) olarak ayarlanırsa, yalnızca kilit ekranında "
+"yeni USB aygıtları reddedilecek; “always” (her zaman) olarak ayarlanırsa, "
 "tüm yeni USB aygıtları reddedilecektir."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
@@ -2832,18 +2857,18 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the “resize-with-right-button” key. Modifier is expressed as \"<Alt>\" or "
-"\"<Super>\" for example."
+"the “resize-with-right-button” key. Modifier is expressed as “<Alt>” or "
+"“<Super>” for example."
 msgstr ""
-"Bu değiştirici tuş basılıyken pencereye tıklama, pencereyi taşır (sol "
+"Bu değiştirici tuş basılıyken pencereye tıklayış, pencereyi taşır (sol "
 "tıklama), pencereyi boyutlandırır (orta tıklama) ya da pencere menüsünü "
 "gösterir (sağ tıklama). Orta ve sağ tıklama işlemleri “resize-with-right-"
-"button” anahtarı kullanılarak değiştirilebilir. Değiştirici, \"<Alt>\" veya "
-"\"<Super>\" örneklerindeki gibi gösterilir."
+"button” anahtarı kullanılarak değiştirilebilir. Değiştirici, “<Alt>” veya "
+"“<Super>” örneklerindeki gibi gösterilir."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
-msgstr "Sağ buton ile yeniden boyutlandırıp boyutlandırılmayacağı"
+msgstr "Sağ düğme ile yeniden boyutlandırıp boyutlandırılmayacağı"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:20
 msgid ""
