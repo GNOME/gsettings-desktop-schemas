@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
 "POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-23 13:56+0200\n"
+"PO-Revision-Date: 2020-08-23 14:20+0200\n"
 "Last-Translator: gogo <linux.hr@protonmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
@@ -1624,7 +1624,7 @@ msgstr "Odaberite ovo za omogućavanje klika miša putem dodira touchpada."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:34
 msgid "Tap Button Map"
-msgstr ""
+msgstr "Mapiranje tipke dodira"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
 msgid ""
@@ -1632,6 +1632,9 @@ msgid ""
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
+"Određuje mapiranje između broja prstiju i tipka touchpada. Zadan ponašanje "
+"je dodir 1, 2 i 3 prsta za mapiranje tipka u lijevo i desno, i srednje tipke "
+"(\"lrm\")."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
@@ -1646,16 +1649,16 @@ msgstr ""
 "pritisnut na touchpadu."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
-#, fuzzy
-#| msgid "Enable tap-and-drag with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
-msgstr "Omogući dodirni-i-povuci s touchpadom"
+msgstr "Omogući dodirni-i-povuci-zaključaj s touchpadom"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
+"Odaberite ovo kako bi zaključali proces povlačenja u kratkom vremenu kada je "
+"prst podignut na touchpadu i postavka dodirni-i-povuci je omogućena."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
@@ -2116,27 +2119,18 @@ msgid "Whether to protect USB devices"
 msgstr "Treba li zaštititi USB uređaje"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
-#, fuzzy
-#| msgid ""
-#| "If TRUE, USB devices will be protected as configured in the key usb-"
-#| "protection-level."
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"Ako je odabrano, USB uređaji će biti zaštićeni kao što je podešeno u usb "
-"razini zaštite ključem."
+"Ako je USBGuard usluga prisutna i ova postavka je omogućena, USB uređaji će "
+"biti zaštićeni kao što je podešeno u usb-protection-level postavki."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
 msgstr "Kada USB uređaj treba biti odbijen"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
-#, fuzzy
-#| msgid ""
-#| "If set to \"lockscreen\", only when the lock screen is present new USB "
-#| "devices will be rejected; if set to \"always\", all new USB devices will "
-#| "always be rejected."
 msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
@@ -2804,13 +2798,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Tipka izmjenjivača za promijenjene radnje klika na prozorima"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#, fuzzy
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -2822,7 +2809,7 @@ msgstr ""
 "(lijevi klik), promijeniti veličinu prozora (srednji klik) ili prikazati "
 "izbornik prozora (desni klik). Radnje srednjeg i desnog klika se mogu "
 "zamijeniti koristeći “resize-with-right-button” izraz. Tipka izmjenjivača se "
-"izražava kao <![CDATA[\"<Alt>\"]]> ili <![CDATA[\"<Super>\"]]> na primjer."
+"izražava kao “<Alt>” ili “<Super>” na primjer."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
