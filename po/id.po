@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-05-22 09:08+0000\n"
-"PO-Revision-Date: 2020-05-31 14:04+0700\n"
+"POT-Creation-Date: 2020-08-25 19:55+0000\n"
+"PO-Revision-Date: 2020-08-26 21:51+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1658,10 +1658,24 @@ msgstr ""
 "touchpad."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:34
+msgid "Tap Button Map"
+msgstr "Ketuk Tombol Peta"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+msgid ""
+"Defines the mapping between the number of fingers and touchpad buttons. The "
+"default is to have a 1, 2 and 3 finger tap to map to the left, right and "
+"middle button (\"lrm\"), respectively."
+msgstr ""
+"Mendefinisikan pemetaan antara jumlah jari dan tombol touchpad. Bawaan "
+"adalah, masing-masing, mengetuk 1, 2, dan 3 jari, dipetakan ke tombol kiri, "
+"kanan, dan tengah (\"lrm\")."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Fungsikan ketuk-dan-tarik dengan touchpad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1669,19 +1683,31 @@ msgstr ""
 "Atur ini ke TRUE agar dapat mengirim klik tetikus dengan mengetuk pada "
 "touchpad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+msgid "Enable tap-and-drag-lock with touchpad"
+msgstr "Fungsikan kunci-ketuk-dan-tarik dengan touchpad"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+msgid ""
+"Set this to TRUE to lock the dragging process within a short timeout when "
+"the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
+msgstr ""
+"Atur ini ke TRUE untuk mengunci proses seret dalam waktu singkat yang pendek "
+"saat jari diangkat pada touchpad dan pengaturan ketuk-dan-tarik diaktifkan."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
 msgstr "Touchpad difungsikan"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Mendefinisikan situasi dimana touchpad difungsikan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:54
 msgid "Touchpad button orientation"
 msgstr "Orientasi tombol touchpad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1689,12 +1715,12 @@ msgstr ""
 "Pertukarkan tombol tetikus kiri dan kanan untuk tetikus kidal dengan \"left"
 "\", \"right\" untuk kinan, \"mouse\" untuk mengikuti pengaturan tetikus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:59
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "Pointer speed"
 msgstr "Kecepatan penunjuk"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1703,22 +1729,22 @@ msgstr ""
 "[-1..1] (dari \"unaccelerated\" atau tak dipercepat sampai \"fast\" atau "
 "cepat). Nilai baku sistem adalah 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
 msgid "Natural scrolling"
 msgstr "Pengguliran alami"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Atur ini ke TRUE untuk memfungsikan pengguliran alami (terbalik) bagi "
 "touchpad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:70
 msgid "Click method"
 msgstr "Metoda klik"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1729,15 +1755,15 @@ msgstr ""
 "(\"fingers\"), atau dibiarkan mengikuti nilai baku perangkat keras (\"default"
 "\")."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Emulate middle click"
 msgstr "Emulasikan klik tengah"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1745,35 +1771,35 @@ msgstr ""
 "Atur ini ke TRUE untuk mengaktifkan klik tengah selama klik kiri dan kanan "
 "simultan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Keyboard repeat"
 msgstr "Pengulangan papan tik"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:73
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Atur ini ke TRUE untuk memfungsikan pengulangan tombol."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
 msgstr "Selang Waktu Pengulangan Tombol"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
 msgstr "Tundaan antar pengulangan dalam milidetik."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
 msgstr "Tundaan Awal Pengulangan Tombol"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Jeda awal pengulangan kunci dalam milidetik."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
 msgstr "Ingat keadaan NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -1781,23 +1807,23 @@ msgstr ""
 "Bila diatur ke true, GNOME akan mengingat keadaan LED Num Lock di antara "
 "sesi."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
 msgid "NumLock state"
 msgstr "Keadaan NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "The remembered state of the NumLock LED."
 msgstr "Keadaan LED NumLock yang diingat."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Mouse button orientation"
 msgstr "Orientasi tombol tetikus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Pertukarkan tombol kiri dan kanan tetikus bagi orang kidal."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1806,18 +1832,18 @@ msgstr ""
 "[-1..1] (dari \"unaccelerated\" atau tak dipercepat sampai \"fast\" atau "
 "cepat). Nilai 0 adalah nilai baku sistem."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:111
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Atur ini ke TRUE untuk memfungsikan pengguliran alami (terbalik) bagi "
 "tetikus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
 msgid "Acceleration profile"
 msgstr "Profil akselerasi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1835,11 +1861,11 @@ msgstr ""
 "akselerasi bergantung kepada pergerakan tetikus. Bila suatu tetikus tidak "
 "mendukung profil yang dikonfigurasi, \"default\" akan dipakai."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
 msgid "Drawing tablet mapping"
 msgstr "Pemetaan tablet gambar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:128
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1848,19 +1874,19 @@ msgstr ""
 "Informasi EDID dari keluaran tempat tablet dipetakan. Mesti dalam format "
 "[vendor, produk, nomor seri]. [\"\",\"\",\"\"] mematikan pemetaan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 msgid "Tablet mapping"
 msgstr "Pemetaan tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
 msgid "How input affects the pointer on the screen"
 msgstr "Bagaimana masukan mempengaruhi penunjuk pada layar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Tablet area"
 msgstr "Area tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1868,11 +1894,11 @@ msgstr ""
 "Area mati pengganjal di sekitar area aktif, dalam persentase. Masing-masing "
 "diterapkan ke sisi kiri, kanan, atas, dan bawah."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet aspect ratio"
 msgstr "Rasio aspek tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1880,51 +1906,51 @@ msgstr ""
 "Fungsikan ini untuk membatasi area tablet agar cocok dengan rasio aspek "
 "keluaran."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet left-handed mode"
 msgstr "Mode kidal tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Fungsikan ini untuk mengijinkan memutar tablet secara fisik untuk penyiapan "
 "kidal"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Stylus pressure curve"
 msgstr "Kurva tekanan stylus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Atur ini ke x1, y1 dan x2, y2 dari kurva tekanan yang diterapkan ke stylus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Eraser pressure curve"
 msgstr "Kurva tekanan penghapus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Atur ini ke x1, y1 dan x2, y2 dari kurva tekanan yang diterapkan ke "
 "penghapus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Button action"
 msgstr "Aksi tombol"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Aksi tombol stylus, tombol ini terletak di sepanjang pegangan pena."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Secondary button action"
 msgstr "Aksi tombol sekunder"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1934,11 +1960,11 @@ msgstr ""
 "pada beberapa stylus seperti Grip Pen. Stylus lain seperti Airbrush Pen atau "
 "Inking Pen hanya punya satu tombol, pengaturan ini tidak efektif pada mereka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Tertiary button action"
 msgstr "Aksi tombol tersier"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1948,30 +1974,30 @@ msgstr ""
 "beberapa stylus seperti Pen 3D. Stylus lain seperti Airbrush Pen atau Inking "
 "Pen hanya punya satu tombol, pengaturan ini tidak efektif pada mereka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Pad button action type"
 msgstr "Tipe aksi tombol pad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
 msgid "The type of action triggered by the button being pressed."
 msgstr "Tipe aksi yang dipicu oleh tombol yang ditekan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Key combination for the custom action"
 msgstr "Kombinasi tombol untuk aksi ubahan"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Pintasan papan ketik yang dihasilkan ketika tombol ditekan untuk aksi ubahan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
 msgid "Touchscreen output mapping"
 msgstr "Pemetaan keluaran  layar sentuh"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1980,11 +2006,11 @@ msgstr ""
 "Informasi EDID dari keluaran tempat layar sentuh dipetakan. Mesti dalam "
 "format [vendor, produk, nomor seri]. [\"\",\"\",\"\"] mematikan pemetaan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Tombol emulasi roda tetikus. 0 untuk mematikan fitur ini."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2137,21 +2163,21 @@ msgstr "Apakah akan melindungi perangkat USB atau tidak"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
 msgid ""
-"If TRUE, USB devices will be protected as configured in the key usb-"
-"protection-level."
+"If the USBGuard service is present and this setting is enabled, USB devices "
+"will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"Jika TRUE, perangkat USB akan dilindungi sebagaimana dikonfigurasikan di "
-"level kunci perlindungan usb."
+"Jika Layanan USBGuard ada dan pengaturan ini diaktifkan, perangkat USB akan "
+"dilindungi seperti yang dikonfigurasi di pengaturan tingkat perlindungan USB."
 
-#: schemas/org.gnome.desktop.privacy.gschema.xml.in:86
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
 msgstr "Kapan perangkat USB harus ditolak"
 
-#: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
 msgid ""
-"If set to \"lockscreen\", only when the lock screen is present new USB "
-"devices will be rejected; if set to \"always\", all new USB devices will "
-"always be rejected."
+"If set to “lockscreen”, only when the lock screen is present new USB devices "
+"will be rejected; if set to “always”, all new USB devices will always be "
+"rejected."
 msgstr ""
 "Jika diatur ke \"lockscreen\", hanya ketika layar kunci ada, perangkat USB "
 "baru akan ditolak; jika diatur ke \"always\", semua perangkat USB baru akan "
@@ -2829,8 +2855,8 @@ msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
 "(right click). The middle and right click operations may be swapped using "
-"the “resize-with-right-button” key. Modifier is expressed as \"<Alt>\" or "
-"\"<Super>\" for example."
+"the “resize-with-right-button” key. Modifier is expressed as “<Alt>” or "
+"“<Super>” for example."
 msgstr ""
 "Klik pada jendela sambil menekan tombol pengubah ini akan memindahkan "
 "jendela (klik kiri), mengubah ukuran jendela (klik tengah), atau menampilkan "
