@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-09-05 07:32+0200\n"
+"POT-Creation-Date: 2020-09-05 05:33+0000\n"
+"PO-Revision-Date: 2020-09-08 05:45+0200\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
@@ -1670,6 +1670,9 @@ msgid ""
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
+"Наводи мапирање између броја прстију и дугмати на додирној табли. "
+"Подразумевано је имати мапирање 1, 2 и 3 додира прстом на лево, десно и "
+"средње дугме (\"lrm\")."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
@@ -1684,16 +1687,17 @@ msgstr ""
 "и одмах померити прст који је притиснут на додирној табли."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
-#, fuzzy
-#| msgid "Enable tap-and-drag with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
-msgstr "Укључивање лупкања и превлачења додирном таблом"
+msgstr "Укључивање закључавања лупкања и превлачења додирном таблом"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
+"Подесите ово на ТАЧНО да закључате поступак превлачења унутар малог "
+"временског интервала када се прст подигне са додирне табле и када је "
+"подешавање tap-and-drag (лупни-и-повуци) омогућено."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
@@ -2151,35 +2155,27 @@ msgid "Whether to protect USB devices"
 msgstr "Да ли треба заштитити УСБ уређаје"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
-#, fuzzy
-#| msgid ""
-#| "If TRUE, USB devices will be protected as configured in the key usb-"
-#| "protection-level."
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"Ако је омогућено, УСБ уређаји биће заштићени онако како је то подешено у "
-"кључу usb-protection-level."
+"Ако је USBGuard (УСБ чувар) услуга доступна и ако је ово подешавање "
+"омогућено, УСБ уређаји биће заштићени онако како је то подешено у кључу usb-"
+"protection-level."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
 msgstr "Да ли треба одбити УСБ уређаје"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
-#, fuzzy
-#| msgid ""
-#| "If set to \"lockscreen\", only when the lock screen is present new USB "
-#| "devices will be rejected; if set to \"always\", all new USB devices will "
-#| "always be rejected."
 msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
 msgstr ""
-"Ако је подешено на \"lockscreen\", нови УСБ уређаји биће одбијени када је "
-"екран закључан. Ако је подешено на \"always\", сви нови УСБ уређаји ће увек "
-"бити одбијени."
+"Ако је подешено на \"lockscreen\" (екран закључавања), нови УСБ уређаји биће "
+"одбијени само када је екран закључан. Ако је подешено на \"always\" (увек), "
+"сви нови УСБ уређаји ће увек бити одбијени."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -2845,13 +2841,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Измењивач који ће се користити за измењене радње клика прозора"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#, fuzzy
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -2862,7 +2851,7 @@ msgstr ""
 "Клик на прозор за време држања овог тастера ће преместити прозор (леви "
 "клик), променити величину прозора (средњи клик), или приказати изборник "
 "прозора (десни клик). Дејства средњег и десног клика могу бити размењена "
-"употребом кључа „resize_with_right_button“ (промени величину десним "
+"употребом кључа „resize-with-right-button“ (промени величину десним "
 "дугметом). Измењивач је изражен као \"<Alt>\" или \"<Super>\" на пример."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
