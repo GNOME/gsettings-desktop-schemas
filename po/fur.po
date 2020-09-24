@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-09-11 17:30+0200\n"
+"POT-Creation-Date: 2020-09-22 01:30+0000\n"
+"PO-Revision-Date: 2020-09-24 15:44+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -1329,6 +1329,9 @@ msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr ""
+"Indiche se lis sbaris di scoriment a àn di vê i indicadôrs. In base ai "
+"dispositîfs di input in ûs, lis sbaris di scoriment a podaressin jessi "
+"visualizadis in mût permanent."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:271
 msgid "Highlights the current location of the pointer."
@@ -1433,13 +1436,15 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
 msgid "Mount removable storage devices as read-only"
-msgstr ""
+msgstr "Monte i dispositîfs di archiviazion estraibii in dome-leture"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
 msgid ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 msgstr ""
+"Impedìs ai utents di scrivi o modificâ i file su dispositîfs di archiviazion "
+"estraibii (vâl a dî memoriis flash, celulârs, fotocjamaris)."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -1689,16 +1694,17 @@ msgstr ""
 "tornant a fracâ jù e spostant il dêt sul touchpad."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
-#, fuzzy
-#| msgid "Enable tap-and-drag with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
-msgstr "Abilite il bat-e-strissine cul touchpad"
+msgstr "Abilite il bloc dal bat-e-strissine cul touchpad"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
+"Met chest a TRUE (vêr) par blocâ il procès di strissinament jenfri pôc timp "
+"di cuant che il dêt al ven tirât sù dal touchpad e la impostazion bat-e-"
+"strissine e je abilitade."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
@@ -2140,15 +2146,12 @@ msgid "Whether to protect USB devices"
 msgstr "Indiche se protezi i dispositîfs USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
-#, fuzzy
-#| msgid ""
-#| "If TRUE, USB devices will be protected as configured in the key usb-"
-#| "protection-level."
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"Se TRUE, i dispositîfs USB a vignaran protets come configurât inte clâf usb-"
+"Se il servizi USBGuard al è presint e cheste impostazion abilitade, i "
+"dispositîfs USB a vignaran protets come configurât inte impostazion usb-"
 "protection-level."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
@@ -2161,6 +2164,9 @@ msgid ""
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
 msgstr ""
+"Se metût a “lockscreen”, i gnûf dispositîfs USB a vignaran refudâts dome se "
+"il bloc dal schermi al è presint; se metût a “always”, si refudarà simpri i "
+"gnûfs dispositîfs USB."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -2442,7 +2448,7 @@ msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
-"Massime dimension de miniature te cache, in megabyte. Met a -1 par "
+"Massime dimension de miniature te cache, in megabytes. Met a -1 par "
 "disabilitâ la netisie."
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:6
@@ -2829,13 +2835,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Modificadôr di doprâ pes azions modificadis dai clic sui barcons"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#, fuzzy
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -2847,8 +2846,8 @@ msgstr ""
 "spostarà il barcon (clic di çampe), ridimensionarà il barcon (clic centrâl) "
 "o mostrarà il menù dal barcon (clic di diestre). Lis operazions dal clic "
 "centrâl e di diestre a puedin jessi scambiadis tra di lôr doprant la clâf "
-"“resize-with-right-button”. Il modificadôr al è esprimût tant che \"<Alt>\" "
-"o \"<Super>\" par esempli."
+"“resize-with-right-button”. Il modificadôr al è esprimût tant che “<Alt>” o "
+"“<Super>” par esempli."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
