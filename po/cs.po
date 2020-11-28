@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-25 15:25+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
+"POT-Creation-Date: 2020-09-29 09:26+0000\n"
+"PO-Revision-Date: 2020-11-28 17:03+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1658,8 +1657,8 @@ msgid ""
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
-"Definuje mapování mezi počtem prstů a tlačítky touchpadu. Výchozí je mapování "
-"1, 2 a 3 prstá na levé, pravé a prostřední tlačítko („lrm“)."
+"Definuje mapování mezi počtem prstů a tlačítky touchpadu. Výchozí je "
+"mapování 1, 2 a 3 prstá na levé, pravé a prostřední tlačítko („lrm“)."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
@@ -1670,8 +1669,8 @@ msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
-"Když je nastaveno na ZAPNUTO, budete možné začít tažení klepnutím a okamžitým "
-"následným tažením prestem, který je teď na touchpad přitisknut."
+"Když je nastaveno na ZAPNUTO, budete možné začít tažení klepnutím a "
+"okamžitým následným tažením prestem, který je teď na touchpad přitisknut."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
 msgid "Enable tap-and-drag-lock with touchpad"
@@ -1682,8 +1681,9 @@ msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
-"Nastavte na ZAPNUTO, aby se zamykal proces tažení i na dobu krátkých prodlev, "
-"kdy se prsty zvednou nad touchpad a přitom je zapnuté nastavení tap-and-drag."
+"Nastavte na ZAPNUTO, aby se zamykal proces tažení i na dobu krátkých "
+"prodlev, kdy se prsty zvednou nad touchpad a přitom je zapnuté nastavení tap-"
+"and-drag."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
@@ -1745,13 +1745,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Emulate middle click"
 msgstr "Emulovat kliknutí prostředním tlačítkem"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1828,7 +1828,7 @@ msgstr ""
 "(obráceném) směru."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Acceleration profile"
 msgstr "Profil zrychlení"
 
@@ -1999,9 +1999,22 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr "Emulace tlačítka v kolečku myši. 0 tuto funkci vypne."
+msgstr "Tlačítko emulace kolečka myši. 0 tuto funkci vypne."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Mouse wheel emulation button lock"
+msgstr "Zamykání emulace kolečka myši tlačítkem"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Nastavením na ZAPNUTO povolíte zamykání tlačítkem pro emulaci kolečka myši. "
+"Když je povoleno, první kliknutí tlačítka zapne posuv, druhé jej zase vypne."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
