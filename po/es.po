@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-13 10:29+0200\n"
+"POT-Creation-Date: 2020-09-29 09:26+0000\n"
+"PO-Revision-Date: 2020-12-02 12:13+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 3.38.0\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1742,7 +1742,6 @@ msgstr ""
 "inmediatamente mover el dedo que pulsa el «touchpad»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
-#| msgid "Enable tap-and-drag with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "Activar bloqueo de pulsar y arrastrar con el «touchpad»"
 
@@ -1817,13 +1816,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Emulate middle click"
 msgstr "Simular pulsación central"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1901,7 +1900,7 @@ msgstr ""
 "atrás) del ratón."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Acceleration profile"
 msgstr "Perfil de aceleración"
 
@@ -2078,7 +2077,19 @@ msgstr ""
 "Emulación del botón con la rueda del ratón. 0 para desactivar esta "
 "característica."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#| msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgid "Mouse wheel emulation button lock"
+msgstr "Bloqueo de la emulación del botón con la rueda del ratón"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2236,9 +2247,6 @@ msgid "Whether to protect USB devices"
 msgstr "Indica si proteger dispositivos USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
-#| msgid ""
-#| "If TRUE, USB devices will be protected as configured in the key usb-"
-#| "protection-level."
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
@@ -2252,10 +2260,6 @@ msgid "When USB devices should be rejected"
 msgstr "Indica si se deben rechazar dispositivos USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
-#| msgid ""
-#| "If set to \"lockscreen\", only when the lock screen is present new USB "
-#| "devices will be rejected; if set to \"always\", all new USB devices will "
-#| "always be rejected."
 msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
@@ -2933,12 +2937,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Modificador que usar en acciones de pulsación de ventanas modificadas"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
