@@ -9,14 +9,16 @@
 # Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2015.
 # Tim Sabsch <tim@sabsch.com>, 2018, 2020.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2020.
+# Philipp Kiemle <philipp.kiemle@gmail.com>, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-09-05 14:15+0000\n"
-"PO-Revision-Date: 2020-09-09 19:21+0200\n"
-"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
+"POT-Creation-Date: 2020-12-12 17:56+0000\n"
+"PO-Revision-Date: 2020-12-27 22:09+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1145,15 +1147,15 @@ msgstr "Name der von GTK+ verwendeten Vorgabeschrift."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:116
 msgid "Directories with avatar faces"
-msgstr "Verzeichnisse mit Avatar-Bildern"
+msgstr "Ordner mit Avatar-Bildern"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:117
 msgid ""
 "Directories to override the default avatar faces installed by gnome-control-"
 "center."
 msgstr ""
-"Verzeichnisse, die die von gnome-control-center installierten Avatar-Bilder "
-"außer Kraft"
+"Ordner, die die von gnome-control-center installierten Avatar-Bilder "
+"überschreiben."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:124
 msgid "Text scaling factor"
@@ -1828,13 +1830,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Emulate middle click"
 msgstr "Klick der mittleren Maustaste emulieren"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1910,7 +1912,7 @@ msgstr ""
 "Der Wert WAHR schaltet natürlichen (umgekehrten) Bildlauf für Mäuse ein."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Acceleration profile"
 msgstr "Profil der Grafikbeschleunigung"
 
@@ -2090,7 +2092,21 @@ msgstr ""
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Knopf zur Emulation des Mausrads. »0« schaltet die Funktion aus."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Mouse wheel emulation button lock"
+msgstr "Feststellen der Mausrad-Emulationstaste"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Auf TRUE setzen, um Feststellen des Mausrad-Emulation zu aktivieren. Wenn "
+"gesetzt, aktiviert der erste Klick das Rollen, ein zweiter Klick deaktiviert "
+"es wieder."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2382,7 +2398,7 @@ msgstr ""
 "Die Anzahl an Sekunden nach der Aktivierung des Bildschirmschoners, bis eine "
 "Abmeldeoption im Entsperrdialog angezeigt wird. Dieser Schlüssel wird nur "
 "berücksichtigt, wenn der Schlüssel »logout_enable« auf TRUE (Wahr) gesetzt "
-"ist. VERALTET: Dieser Schlüssel ist veraltet und wird ignoriert."
+"ist. VERALTET: Dieser Schlüssel ist veraltet und wird ignoriert"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
 msgid "Logout command"
@@ -2568,9 +2584,9 @@ msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
-"Sollen alle externen Programme zum Erzeugen von Miniatur-Vorschaubildern "
-"deaktiviert werden, unabhängig davon, ob sie anderweitig aktiviert oder "
-"deaktiviert wurden?"
+"Legt fest, ob alle externen Programme zum Erzeugen von Miniatur-"
+"Vorschaubildern deaktiviert werden sollen, unabhängig davon, ob sie "
+"anderweitig aktiviert oder deaktiviert wurden."
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:15
 msgid ""
