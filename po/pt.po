@@ -11,16 +11,16 @@ msgstr ""
 "Project-Id-Version: 3.12\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-09-22 01:30+0000\n"
-"PO-Revision-Date: 2020-09-22 02:47+0100\n"
-"Last-Translator: Juliano de Souza Camargo <julianosc@pm.me>\n"
+"POT-Creation-Date: 2020-09-29 09:26+0000\n"
+"PO-Revision-Date: 2021-01-04 15:02+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -317,10 +317,10 @@ msgstr ""
 "none: nenhum acompanhamento do cursor - centered: a imagem do cursor é "
 "apresentada no centro da região ampliada (que também representa o ponto sob "
 "o cursor de sistema) e o conteúdo ampliado rola à medida que o cursor de "
-"sistema se move - proportional: a posição do cursor ampliado na zona "
+"sistema se move - proporcional: a posição do cursor ampliado na zona "
 "ampliada é proporcionalmente a mesma que a posição do cursor de sistema no "
 "ecrã - push: quando o cursor ampliado interseta uma fronteira da região "
-"ampliada, o conteúdo rola para dentro da vista."
+"ampliada, o conteúdo rola para dentro da vista"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:64
 msgid "Screen position"
@@ -1711,7 +1711,6 @@ msgstr ""
 "imediatamente, mover o dedo que está a carregar no rato por toque."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
-#| msgid "Enable tap-and-drag with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "Permitir bloquear o tocar e arrastar com rato por toque"
 
@@ -1784,19 +1783,19 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Emulate middle click"
 msgstr "Emular o clique do meio"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
 msgstr ""
 "Defina como VERDADEIRO para ativar o clique do meio ao carregar "
-"simultaneamente esquerda e direita"
+"simultaneamente esquerda e direita."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Keyboard repeat"
@@ -1812,7 +1811,7 @@ msgstr "Intervalo de repetição do teclado"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
-msgstr "Tempo entre repetições, em milissegundos"
+msgstr "Tempo entre repetições, em milissegundos."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
@@ -1820,7 +1819,7 @@ msgstr "Tempo de repetição da tecla inicial"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
-msgstr "Tempo de repetição da tecla inicial, em milissegundos"
+msgstr "Tempo de repetição da tecla inicial, em milissegundos."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
@@ -1840,7 +1839,7 @@ msgstr "Estado do NumLock"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
 msgid "The remembered state of the NumLock LED."
-msgstr "O estado guardado do LED NumLock"
+msgstr "O estado guardado do LED NumLock."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Mouse button orientation"
@@ -1864,7 +1863,7 @@ msgstr ""
 "Defina como VERDADEIRO para ativar o rolamento natural (inverso) do rato."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Acceleration profile"
 msgstr "Perfil de aceleração"
 
@@ -1929,8 +1928,8 @@ msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
-"Ative isto para restringir a área da prancheta de desenho de forma a "
-"corresponder a proporção à saída"
+"Ative isto para restringir a área do tablet de desenho de forma a "
+"corresponder a proporção à saída."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet left-handed mode"
@@ -2041,7 +2040,21 @@ msgstr ""
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Botão de emulação da roda do rato. 0 para desativar."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Mouse wheel emulation button lock"
+msgstr "Bloqueio do botão de emulação da roda do rato"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Defina isto para VERDADEIRO para permitir o bloqueio do botão de emulação da "
+"roda. Se ativado, o primeiro clique do botão ativa o deslocamento, o segundo "
+"clique desativa novamente o deslocamento."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2197,9 +2210,6 @@ msgid "Whether to protect USB devices"
 msgstr "Se deve proteger dispositivos USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
-#| msgid ""
-#| "If TRUE, USB devices will be protected as configured in the key usb-"
-#| "protection-level."
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
@@ -2212,10 +2222,6 @@ msgid "When USB devices should be rejected"
 msgstr "Quando dispositivos USB devem ser rejeitados"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
-#| msgid ""
-#| "If set to \"lockscreen\", only when the lock screen is present new USB "
-#| "devices will be rejected; if set to \"always\", all new USB devices will "
-#| "always be rejected."
 msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
@@ -2332,7 +2338,7 @@ msgstr ""
 "O número de segundos após a ativação do protetor de ecrã antes de que seja "
 "disponibilizado na janela de desbloquear um botão para terminar sessão. Esta "
 "chave apenas tem efeito se a chave “logout_enable” estiver definida como "
-"VERDADEIRA. OBSOLETA: esta chave é obsoleta e ignorada."
+"VERDADEIRA. OBSOLETA: esta chave é obsoleta e ignorada"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
 msgid "Logout command"
@@ -2892,12 +2898,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Modificador a utilizar para ações de clique de janela modificada"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -3251,16 +3251,16 @@ msgstr ""
 
 #: schemas/org.gnome.system.location.gschema.xml.in:7
 msgid "Geolocation services are enabled."
-msgstr "Serviços de geolocalização estão ativados"
+msgstr "Serviços de geolocalização estão ativados."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:8
 msgid "If true, applications are allowed to access location information."
 msgstr ""
-"Se verdadeiro, as aplicações podem aceder a informação sobre a localização"
+"Se verdadeiro, as aplicações podem aceder a informação sobre a localização."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:14
 msgid "The maximum accuracy level of location."
-msgstr "O nível máximo de precisão da localização"
+msgstr "O nível máximo de precisão da localização."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:15
 msgid ""
