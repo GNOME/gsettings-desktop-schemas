@@ -2,15 +2,15 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Žygimantas Beručka <zygis@gnome.org>, 2012.
-# Aurimas Černius <aurisc4@gmail.com>, 2012-2020.
+# Aurimas Černius <aurisc4@gmail.com>, 2012-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-25 22:54+0300\n"
+"POT-Creation-Date: 2020-09-29 09:26+0000\n"
+"PO-Revision-Date: 2021-01-05 12:32+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 3.38.0\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -344,7 +344,7 @@ msgid ""
 "of the screen, the magnified contents continue to scroll such that the "
 "screen edge moves into the magnified view."
 msgstr ""
-"Centruotam pelė sekimui, kai sistemos žymeklis yra šalia ekrano pakraščio, "
+"Centruotam pelės sekimui, kai sistemos žymeklis yra šalia ekrano pakraščio, "
 "išdidintas turinys tęs slinkimą taip, kad ekrano pakraštys pateks į "
 "išdidintą rodinį."
 
@@ -368,7 +368,7 @@ msgid ""
 "Width in pixels of the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr ""
-"Plotis pikseliais vertikaliai ir horizontaliai linijai, kuriso sudaro "
+"Plotis pikseliais vertikaliai ir horizontaliai linijai, kurios sudaro "
 "taikiklį."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:117
@@ -747,7 +747,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.background.gschema.xml.in:45
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
-msgstr "Spalvo šešėlio tipas"
+msgstr "Spalvos šešėlio tipas"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
@@ -1431,7 +1431,7 @@ msgid ""
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
 "Jei teigiamas, Nautilus automatiškai prijungs laikmenas, tokias kaip "
-"naudotojo patomi kietieji diskai ir išimamas laikmenas, paleidimo ir "
+"naudotojo matomi kietieji diskai ir išimamas laikmenas, paleidimo ir "
 "laikmenos įdėjimo metu."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:11
@@ -1728,13 +1728,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Emulate middle click"
 msgstr "Emuliuoti vidurinį paspaudimą"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1806,7 +1806,7 @@ msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Nustatyti TEIGIAMĄ natūraliai (atvirkštinei) slinkčiai pele."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
 msgid "Acceleration profile"
 msgstr "Spartinimo profilis"
 
@@ -1972,7 +1972,22 @@ msgstr ""
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Pelės ratuko emuliacijos mygtukas. 0 savybei išjungti."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#| msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgid "Mouse wheel emulation button lock"
+msgstr "Pelės ratuko emuliacijos mygtuko užrakinimas"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Nustačius TEIGIAMĄ įjungiamas pelės ratuko mygtuko emuliacijos užrakinimas. "
+"Jei įjungta, pirmasis paspaudimas leidžia slinkimą, antrasis paspaudimas vėl "
+"jį išjungia."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2132,10 +2147,6 @@ msgid "When USB devices should be rejected"
 msgstr "Kada USB įrenginiai turi būti atmesti"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
-#| msgid ""
-#| "If set to \"lockscreen\", only when the lock screen is present new USB "
-#| "devices will be rejected; if set to \"always\", all new USB devices will "
-#| "always be rejected."
 msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
@@ -2799,12 +2810,6 @@ msgid "Modifier to use for modified window click actions"
 msgstr "Modifikatorius, naudotinas modifikuotiems lango paspaudimo veiksmams"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
