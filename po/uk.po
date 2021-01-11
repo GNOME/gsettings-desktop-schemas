@@ -2,14 +2,14 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel <ted.korostiled@gmail.com>, 2012.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2020-09-29 09:26+0000\n"
-"PO-Revision-Date: 2020-11-28 10:29+0200\n"
+"POT-Creation-Date: 2021-01-10 18:26+0000\n"
+"PO-Revision-Date: 2021-01-11 08:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1345,6 +1345,64 @@ msgstr ""
 "Якщо має значення «true», натискання клавіші підсвічуватиме поточне "
 "розташування вказівника на екрані."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Згладжування"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"Тип згладжування, що використовується при растеризації шрифтів. Можливі "
+"значення: «none» — без згладжування, «grayscale» — стандартне чорно-біле "
+"згладжування, «rgba» — субпіксельне згладжування (лише рідкокристалічні "
+"екрани)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Хінтінг"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+"Тип хінтінгу, яким слід скористатися для обробки зображень символів шрифту. "
+"Можливі значення: «none» — без хінтінгу і «slight» — для встановлення "
+"відповідності за віссю Y, подібно до пропрієтарних рушіїв обробки шрифтів "
+"Microsoft ClearType, DirectWrite і Adobe. Призводить до ігнорування "
+"природного хінтінгу у шрифті — хінтінг буде визначено за алгоритмом. "
+"Використовується типово в Ubuntu. Рекомендовано. Значення «medium» і «full» "
+"залежить від формату шрифту (.ttf, .otf, .pfa/.pfb) і встановленої версії "
+"FreeType. Їхнє використання призводить до коригування символів за обома "
+"вісями, X та Y (окрім .otf — там коригування виконується лише за віссю Y). "
+"Це може призвести до викривлення і/або різнорідності вигляду символів, "
+"залежно від якості шрифту, формату шрифту та стану рушіїв шрифтів FreeType."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "Порядок RGBA"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
+"Порядок субпіксельних елементів на екрані LCD; лише якщо встановлено тип "
+"згладжування «rgba». Можливі значення: «rgb» (червоний ліворуч, найчастіше), "
+"«bgr» (синій ліворуч), «vrgb» (червоний згори), «vbgr» (червоний знизу)."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Вимкнути командний рядок"
@@ -1765,13 +1823,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Увімкнути клацання середньою кнопкою"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1844,7 +1902,7 @@ msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Позначте, щоб увімкнути зворотне (природне) гортання для миші."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Профіль прискорення"
 
@@ -1867,11 +1925,30 @@ msgstr ""
 "передбачено підтримки налаштованого профілю, буде використано профіль "
 "«default»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#| msgid "Dwell click time"
+msgid "Double click time"
+msgstr "Час подвійного клацання"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#| msgid "Length of the cursor blink cycle, in milliseconds."
+msgid "Length of a double click in milliseconds."
+msgstr "Тривалість подвійного клацання у мілісекундах."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#| msgid "Movement threshold"
+msgid "Drag threshold"
+msgstr "Поріг перетягування"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Відстань перед початком перетягування."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Зіставлення графічного планшету"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1881,19 +1958,19 @@ msgstr ""
 "[виробник, продукт, серійний номер]. [\"\",\"\",\"\"] — автоматична "
 "прив'язка."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Зіставлення планшета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Як введення впливає на вказівник на екрані"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Область планшета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1901,11 +1978,11 @@ msgstr ""
 "Відступи мертвої зони навколо активної області, у відсотках. Відповідно "
 "застосовуються для лівого, правого, верхнього та нижнього боків."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Співвідношення сторін планшета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1913,48 +1990,48 @@ msgstr ""
 "Увімкніть це, щоб обмежити область планшета відповідно до співвідношення "
 "сторін виведення."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Планшет у режимі шульги"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Увімкніть це, щоб дозволити фізично обертати планшет для налаштувань під "
 "ліву руку"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Крива натиску стила"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для стилуса."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Крива натиску гумки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для гумки."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Дія кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Дія натискання кнопки, ця кнопка розташована уздовж тримача пера."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Дія додаткової кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1964,11 +2041,11 @@ msgstr ""
 "деяких стилах на кшталт Grip Pen. Інші стила на зразок Airbrush Pen або "
 "Inking Pen, мають лише одну кнопку, це налаштування для них не працює."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Дія третьої кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1978,19 +2055,19 @@ msgstr ""
 "деяких стилах на кшталт 3D Pen. Інші стила на зразок Grip Pen, мають лише "
 "дві кнопки, це налаштування для них не працює."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Тип дії кнопки панелі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "Тип дій викликаних кнопками, натискаючи їх."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Комбінація клавіш для власних дій"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1998,11 +2075,11 @@ msgstr ""
 "Клавіатурне скорочення було породжено, коли клавішу натиснуто для власної "
 "дії.   "
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Прив'язка виведення даних сенсорного екрана"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2012,26 +2089,25 @@ msgstr ""
 "форматі [виробник, продукт, серійний номер]. [\"\",\"\",\"\"] — автоматична "
 "прив'язка."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Кнопка емуляції коліщатка миші. 0 — вимкнути емуляцію."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Mouse wheel emulation button lock"
 msgstr "Блокування кнопкою емуляції коліщатка миші"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr ""
-"Встановлення для цього параметра значення TRUE призведе до вмикання"
-" блокування кнопкою для кнопки емуляції коліщатка миші. Якщо увімкнено, перше"
-" клацання кнопкою вмикає гортання, а друге клацання знову його вимикає."
+"Встановлення для цього параметра значення TRUE призведе до вмикання "
+"блокування кнопкою для кнопки емуляції коліщатка миші. Якщо увімкнено, перше "
+"клацання кнопкою вмикає гортання, а друге клацання знову його вимикає."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
