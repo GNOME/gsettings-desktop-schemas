@@ -12,10 +12,10 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-01-10 18:26+0000\n"
-"PO-Revision-Date: 2021-01-25 20:35+0100\n"
+"POT-Creation-Date: 2021-01-25 19:36+0000\n"
+"PO-Revision-Date: 2021-01-31 16:50+0100\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1379,7 +1379,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:285
 msgid "Hinting"
-msgstr ""
+msgstr "Optimización"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid ""
@@ -1394,6 +1394,17 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
+"O tipo de optimización «hinting» que usar ao renderizar tipos de letra. Os "
+"valores posíbeis son «none» para desactivalo e «slight» para axustarse só ao "
+"eixo Y, igual que ClearType de Microsoft, DirectWrite e que o motor de "
+"renderizado de tipos de letra privativo de Adobe. Ignora o optimizado nativo "
+"do tipo de letra, e xenérao algoritmicamente. Ubuntu úsao de maneira "
+"predeterminada. Recomendado. El significado de «medium» e «full» depende do "
+"formato do tipo de letra (.ttf, .otf, .pfa/.pfb) e da versión de FreeType "
+"instalada. Normalmente tratan de axustarse aos glifos dos eixos X e Y (agás "
+"para .otf: só ao Y). Isto pode causar distorsión e inconsistencia no "
+"renderizado, dependendo da calidade do tipo de letra, o seu formato e o "
+"estado dos motores de tipos de letra de FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:292
 msgid "RGBA order"
@@ -1405,6 +1416,10 @@ msgid ""
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
 "“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
+"A orde dos elementos de subpíxeles nunha pantalla LCD; só se usa cando o "
+"suavizado se define como \"rgba\". Os valores posíbeis son: \"rgb\" para o "
+"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, \"vrgb"
+"\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1947,17 +1962,14 @@ msgstr ""
 "do movemento do rato. Se un rato non admite o configurado usarase «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Tempo de doble pulsación"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "Duración do duplo clic en milisegundos."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Umbral de arrastre"
 
@@ -2118,7 +2130,6 @@ msgstr ""
 "Botón de emulación da roda do rato. 0 para desactivar a característica."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
 msgstr "Bloqueo de botón de emulación da roda do rato"
 
