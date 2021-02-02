@@ -2,15 +2,15 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Andika Triwidada <andika@gmail.com>, 2012, 2013, 2015.
-# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2020.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-08-25 19:55+0000\n"
-"PO-Revision-Date: 2020-08-26 21:51+0700\n"
+"POT-Creation-Date: 2021-01-10 18:26+0000\n"
+"PO-Revision-Date: 2021-02-02 19:15+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural= n!=1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1336,6 +1336,64 @@ msgid ""
 msgstr ""
 "Jika true, menekan tombol akan menyorot lokasi penunjuk saat ini di layar."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Antialias"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"Jenis antialias yang dipakai untuk merender fonta. Nilai yang mungkin "
+"adalah: \"none\" untuk tanpa antialias, \"grayscale\" untuk antialias skala "
+"abu standar, dan \"rgba\" untuk antialias sub piksel (layar LCD saja)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Hinting"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+"Tipe petunjuk yang dipakai ketika merender fonta. Nilai yang mungkin adalah: "
+"\"none\" (nihil) untuk tanpa petunjuk dan \"slight\" (sedikit) untuk "
+"mengepaskan hanya ke sumbu-Y seperti Microsoft ClearType, DirectWrite, dan "
+"mesin render fonta proprietari Adobe. Mengabaikan petunjuk native dari dalam "
+"fonta, membangkitkan petunjuk secara algoritmis. Dipakai pada Ubuntu secara "
+"baku. Disarankan. Arti dari \"medium\" (sedang) dan \"full\" (penuh) "
+"bergantung kepada format fonta (.ttf, .otf, .pfa/.pfb) dan versi FreeType "
+"yang dipasang. Mereka biasanya mencoba mengepaskan glyph ke sumbu X dan Y "
+"(kecuali .otf: hanya-Y). Ini bisa menyebabkan distorsi dan/atau "
+"ketidakkonsistenan perenderan bergantung kepada kualitas fonta, format "
+"fonta, dan keadaan dari mesin fonta FreeType."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "Urutan RGBA"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
+"Urutan elemen sub piksel pada layar LCD; hanya dipakai ketika antialias "
+"ditata ke \"rgba\". Nilai yang mungkin adalah: \"rgb\" untuk merah di kiri "
+"(paling umum), \"bgr\" untuk biru di kiri, \"vrgb\" untuk merah di atas, "
+"\"vbgr\" untuk merah di bawah."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Matikan baris perintah"
@@ -1757,13 +1815,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Emulasikan klik tengah"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1839,7 +1897,7 @@ msgstr ""
 "tetikus."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Profil akselerasi"
 
@@ -1861,11 +1919,27 @@ msgstr ""
 "akselerasi bergantung kepada pergerakan tetikus. Bila suatu tetikus tidak "
 "mendukung profil yang dikonfigurasi, \"default\" akan dipakai."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+msgid "Double click time"
+msgstr "Waktu klik ganda"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+msgid "Length of a double click in milliseconds."
+msgstr "Panjang waktu klik ganda dalam milidetik."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+msgid "Drag threshold"
+msgstr "Derajat seret"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Jarak sebelum penyeretan (drag) dimulai."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Pemetaan tablet gambar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1874,19 +1948,19 @@ msgstr ""
 "Informasi EDID dari keluaran tempat tablet dipetakan. Mesti dalam format "
 "[vendor, produk, nomor seri]. [\"\",\"\",\"\"] mematikan pemetaan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Pemetaan tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Bagaimana masukan mempengaruhi penunjuk pada layar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Area tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1894,11 +1968,11 @@ msgstr ""
 "Area mati pengganjal di sekitar area aktif, dalam persentase. Masing-masing "
 "diterapkan ke sisi kiri, kanan, atas, dan bawah."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Rasio aspek tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1906,51 +1980,51 @@ msgstr ""
 "Fungsikan ini untuk membatasi area tablet agar cocok dengan rasio aspek "
 "keluaran."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Mode kidal tablet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Fungsikan ini untuk mengijinkan memutar tablet secara fisik untuk penyiapan "
 "kidal"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Kurva tekanan stylus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Atur ini ke x1, y1 dan x2, y2 dari kurva tekanan yang diterapkan ke stylus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Kurva tekanan penghapus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Atur ini ke x1, y1 dan x2, y2 dari kurva tekanan yang diterapkan ke "
 "penghapus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Aksi tombol"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Aksi tombol stylus, tombol ini terletak di sepanjang pegangan pena."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Aksi tombol sekunder"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1960,11 +2034,11 @@ msgstr ""
 "pada beberapa stylus seperti Grip Pen. Stylus lain seperti Airbrush Pen atau "
 "Inking Pen hanya punya satu tombol, pengaturan ini tidak efektif pada mereka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Aksi tombol tersier"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1974,30 +2048,30 @@ msgstr ""
 "beberapa stylus seperti Pen 3D. Stylus lain seperti Airbrush Pen atau Inking "
 "Pen hanya punya satu tombol, pengaturan ini tidak efektif pada mereka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Tipe aksi tombol pad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "Tipe aksi yang dipicu oleh tombol yang ditekan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Kombinasi tombol untuk aksi ubahan"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Pintasan papan ketik yang dihasilkan ketika tombol ditekan untuk aksi ubahan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Pemetaan keluaran  layar sentuh"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2006,11 +2080,25 @@ msgstr ""
 "Informasi EDID dari keluaran tempat layar sentuh dipetakan. Mesti dalam "
 "format [vendor, produk, nomor seri]. [\"\",\"\",\"\"] mematikan pemetaan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Tombol emulasi roda tetikus. 0 untuk mematikan fitur ini."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Mouse wheel emulation button lock"
+msgstr "Kunci tombol emulasi roda tetikus"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Atur ini ke TRUE untuk mengaktifkan penguncian tombol untuk tombol emulasi "
+"roda. Jika diaktifkan, klik pertama tombol memungkinkan pengguliran, klik "
+"kedua menonaktifkan menggulir lagi."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
