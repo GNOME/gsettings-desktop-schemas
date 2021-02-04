@@ -1,24 +1,24 @@
 # Swedish translation for gsettings-desktop-schemas.
-# Copyright © 2011-2020 Free Software Foundation, Inc.
+# Copyright © 2011-2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel Nylander <po@danielnylander.se>, 2011.
 # Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-24 18:10+0200\n"
+"POT-Creation-Date: 2021-01-10 18:26+0000\n"
+"PO-Revision-Date: 2021-02-04 01:12+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1332,6 +1332,63 @@ msgstr ""
 "Om true (sant) kommer att trycka på en tangent att markera den aktuella "
 "markörpositionen på skärmen."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Kantutjämning"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"Typen av kantutjämning att använda när typsnitt renderas. Möjliga värden är: "
+"”none” för ingen kantutjämning, ”grayscale” för standardkantutjämning med "
+"gråskala samt ”rgba” för underbildpunktsutjämning (endast LCD-skärmar)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Hintning"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+"Typen av hintning att använda då typsnitt renderas. Möjliga värden är: "
+"”none” för ingen hintning och ”slight” för att anpassa endast till Y-axeln "
+"som Microsofts ClearType, DirectWrite och Adobes proprietära renderingsmotor "
+"för typsnitt. Ignorerar inbyggd hintning i typsnittet, genererar hintning "
+"enligt en algoritm. Används i Ubuntu som standard. Rekommenderas. Betydelsen "
+"av ”medium” och ”full” beror på typsnittsformatet (.ttf, .otf, .pfa/.pfb) "
+"och den installerade versionen av FreeType. De försöker vanligen anpassa "
+"glyfer till både X- och Y-axeln (förutom för .otf: endast Y). Detta kan leda "
+"till förvrängning och/eller inkonsekvent rendering beroende på kvaliteten på "
+"typsnittet, typsnittsformatet och tillståndet för FreeTypes typsnittsmotorer."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "RGBA-ordning"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
+"Ordningen för underbildpunktselementen på en LCD-skärm; används endast när "
+"kantutjämning är inställd till ”rgba”. Möjliga värden är: ”rgb” - röd till "
+"vänster (vanligast), ”bgr” - blå till vänster, ”vrgb” - röd överst, ”vbgr” - "
+"röd nederst."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Inaktivera kommandorad"
@@ -1754,13 +1811,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Emulera mellanklick"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1836,7 +1893,7 @@ msgstr ""
 "möss."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Accelerationsprofil"
 
@@ -1858,11 +1915,27 @@ msgstr ""
 "accelerationen beroende på musrörelsen. Om en mus inte stöder den "
 "konfigurerade profilen kommer ”default” att användas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+msgid "Double click time"
+msgstr "Tid för dubbelklick"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+msgid "Length of a double click in milliseconds."
+msgstr "Längd för ett dubbelklick i millisekunder."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+msgid "Drag threshold"
+msgstr "Tröskelvärde för dragning"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Avstånd innan en dragning påbörjas."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Mappning för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1872,19 +1945,19 @@ msgstr ""
 "på formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] förlitar "
 "sig på automatisk mappning."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Mappning för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Hur inmatning påverkar pekaren på skärmen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Ritplatteområde"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1892,11 +1965,11 @@ msgstr ""
 "Inaktivt utfyllnadsområde kring den aktiva ytan, i procent. Tillämpas på "
 "vänster-, höger-, över- respektive underkanterna."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Bildförhållande för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1904,53 +1977,53 @@ msgstr ""
 "Aktivera denna för att begränsa ritplattans area till att matcha "
 "utmatningens bildförhållande."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Vänsterhänt läge för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Aktivera denna för att möjliggöra att fysiskt rotera ritplattan för "
 "vänsterhänta konfigurationer"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Tryckkurva för styluspenna"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
 "pennan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Tryckkurva för raderare"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
 "raderaren."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Knappåtgärd"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Pennknappsåtgärd, denna knapp är placerad längs pennhandtaget."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Åtgärd för sekundär knapp"
 
 # Modeller på Wacom-pennor
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1961,12 +2034,12 @@ msgstr ""
 "eller Inking Pen har bara en knapp, denna inställning har ingen effekt på "
 "dessa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Åtgärd för tertiär knapp"
 
 # Modeller på Wacom-pennor
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1976,19 +2049,19 @@ msgstr ""
 "vissa styluspennor som 3D Pen. Andra styluspennor som Grip Pen har bara två "
 "knappar, denna inställning har ingen effekt på dessa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Åtgärdstyp för styrplatteknapp"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typen av åtgärd som utlöses av att knappen trycks ned."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Tangentkombination för den anpassade åtgärden"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -1996,11 +2069,11 @@ msgstr ""
 "Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade "
 "åtgärder."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Mappning för pekskärmsutmatning"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2010,11 +2083,25 @@ msgstr ""
 "på formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] förlitar "
 "sig på automatisk mappning."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Mushjulsemuleringsknapp. 0 för att inaktivera funktionen."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Mouse wheel emulation button lock"
+msgstr "Knapplås för mushjulsemulering"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Ställ in detta till TRUE (sant) för att aktivera knapplåsning för knappen "
+"för mushjulsemulering. Om aktiverad så aktiverar det första klicket på "
+"knappen rullning, och det andra klicket inaktiverar rullning igen."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -3425,11 +3512,3 @@ msgstr ""
 #~ msgstr ""
 #~ "Välj rullningsmetoden för pekplatta. Värden som stöds är: \"disabled\", "
 #~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-
-# https://bugzilla.gnome.org/show_bug.cgi?id=745833
-#~ msgid ""
-#~ "URI to use for the background image. Not that the backend only supports "
-#~ "local (file://) URIs."
-#~ msgstr ""
-#~ "URI:n som används för bakgrundsbilden. Notera att bakänden bara har stöd "
-#~ "för lokala URI:er (file://)."
