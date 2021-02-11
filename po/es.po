@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-01-10 18:26+0000\n"
-"PO-Revision-Date: 2021-01-14 09:48+0100\n"
+"POT-Creation-Date: 2021-01-25 13:55+0000\n"
+"PO-Revision-Date: 2021-02-11 10:06+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -1386,6 +1386,9 @@ msgid ""
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
 "and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
+"El tipo de alisado que usar al renderizar tipografías. Los valores posibles "
+"son “none” para no usar alisado, “grayscale” para alisado estándar en la "
+"escala de grises, y “rgba” para alisado de subpíxeles (sólo en pantallas)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:285
 msgid "Hinting"
@@ -1404,6 +1407,18 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
+"El tipo de «hinting» que usar al renderizar tipografías. Los valores "
+"posibles son “none” para no usar «hinting» y “slight” para ajustarse sólo al "
+"eje Y como hacen ClearType de Microsoft, DirectWrite y las tipografías "
+"propietarias del motor de renderizado de Adobe. Ignora el «hinting» nativo "
+"de la tipografía, lo genera algorítmicamente. Usado en Ubuntu de manera "
+"predeterminada. Recomendado. El significado de “medium” y “full” depende del "
+"formato de la tipografía (.ttf, .otf, .pfa/.pfb) y la de la versión de "
+"FreeType instalada. Normalmente intentan ajustar los glifos a los ejes X e Y "
+"(salvo para .otf, donde sólo se aplica al eje Y). Esto puede provocar "
+"distorsiones y/o un renderizado inconsistente, dependiendo de la calidad de "
+"la tipografía, su formato y el estado de los motores de tipografías de "
+"FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:292
 msgid "RGBA order"
@@ -1415,6 +1430,10 @@ msgid ""
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
 "“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
+"El orden de los elementos del subpíxel en una pantalla LCD. Sólo se usa "
+"cuando el alisado está establecido a “rgba”. Los valores posibles son: “rgb” "
+"para rojo a la izquierda (lo más habitual), “bgr” para azul a la izquierda, "
+"“vrgb” para rojo arriba, “vbgr” para rojo abajo."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1963,17 +1982,14 @@ msgstr ""
 "ratón. Si un ratón no soporta el perfil configurado, se usara el 'default'."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Tiempo de la doble pulsación"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "Longitud de la doble pulsación, en milisegundos."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Umbral de arrastre"
 
