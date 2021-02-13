@@ -1,18 +1,18 @@
 # Hungarian translation for gsettings-desktop-schemas.
-# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Free Software Foundation, Inc.
+# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2012, 2016, 2017.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020.
-# Balázs Meskó <mesko.balazs at fsf dot hu>, 2020.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021.
+# Balázs Meskó <mesko.balazs at fsf dot hu>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-09-08 00:30+0200\n"
-"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
+"POT-Creation-Date: 2021-01-10 18:26+0000\n"
+"PO-Revision-Date: 2021-02-14 00:20+0100\n"
+"Last-Translator: Balázs Meskó <mesko.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -833,7 +833,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:24
 msgid "Calendar needs terminal"
-msgstr "A naptárnak szüksége van-e terminálra."
+msgstr "A naptárnak terminálra van szüksége"
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:25
 msgid ""
@@ -857,7 +857,7 @@ msgstr "Alapértelmezett feladatkezelő alkalmazás."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:44
 msgid "Tasks needs terminal"
-msgstr "A feladatkezelőnek szüksége van-e terminálra."
+msgstr "A feladatoknak terminálra van szüksége"
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:45
 msgid "Whether the default tasks application needs a terminal to run."
@@ -1348,6 +1348,65 @@ msgstr ""
 "Ha igaz, akkor egy billentyű megnyomása kiemeli a mutató jelenlegi helyét a "
 "képernyőn."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Élsimítás"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"A betűkészletek megjelenítéséhez használt élsimítási típus. A lehetséges "
+"értékek: „none” ha nincs élsimítás, „grayscale” a szokásos szürkeárnyalatos "
+"élsimításhoz és „rgba” a részképpontok élsimításához (csak LCD kijelzők "
+"esetén)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Hinting"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+"A használandó hinting típusa a betűkészletek megjelenítésekor. A lehetséges "
+"értékek: „none”, ha nincs hinting és „slight”, ha csak az Y-tengelyre kell "
+"rögzíteni mint a Microsoft ClearType-nál, a DirectWrite-nál és az Adobe zárt "
+"betűkészlet-megjelenítési motorjánál. Figyelmen kívül hagyja a betűkészlet "
+"natív hintingjét, automatikusan állítja őket elő. Ubuntun alapértelmezetten "
+"ez van használatban. Ajánlott. A „medium” és a „full” jelentése a "
+"betűkészlet-formátumtól (.ttf, .otf, .pfa/.pfb) és a telepített FreeType-"
+"verziótól függ. Általában próbálnak mind az X- és az Y-tengelyre igazításra "
+"(kivéve az .otf esetén: ott csak Y esetén). Ez torzuláshoz vagy nem "
+"konzisztens megjelenítéshez vezethet a betűkészlet minőségétől, a "
+"betűkészlet-formátumtól és a FreeType betűkészlet-motortól függően."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "RGBA sorrend"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
+"A részképpont-elemek sorrendje. Csak akkor van használatban, ha az élsimítás "
+"„rgba”-ra van állítva. A lehetséges értékek: „rgb”, ha a vörös van balra "
+"(leggyakoribb), „brg”, ha a kék van balra, „vrgb”, ha a vörös van a tetején, "
+"„vgbr”, ha a vörös van az alján."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Parancssor letiltása"
@@ -1709,7 +1768,6 @@ msgstr ""
 "kezdeményezhessen az érintőtáblán."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:44
-#| msgid "Enable tap-and-drag with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "„Koppintás és húzás” zárolásának engedélyezése az érintőtáblán"
 
@@ -1784,13 +1842,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Középső kattintás utánzása"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1866,7 +1924,7 @@ msgstr ""
 "egereknél."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Gyorsítási profil"
 
@@ -1888,11 +1946,30 @@ msgstr ""
 "gyorsítást az egér mozgásától függően. Ha egy egér nem támogatja a "
 "beállított profilt, akkor a „default” lesz használva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#| msgid "Dwell click time"
+msgid "Double click time"
+msgstr "Dupla kattintás ideje"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#| msgid "Length of the cursor blink cycle, in milliseconds."
+msgid "Length of a double click in milliseconds."
+msgstr "A dupla kattintás hossza ezredmásodpercben."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#| msgid "Movement threshold"
+msgid "Drag threshold"
+msgstr "Húzási küszöb"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Távolság a húzás elindítása előtt."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Rajzoló táblagép leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1902,19 +1979,19 @@ msgstr ""
 "termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] megbízik az "
 "automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Táblagép leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Hogyan befolyásolja a bemenet a mutatót a képernyőn"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Táblagép területe"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1922,11 +1999,11 @@ msgstr ""
 "Az aktív területet körbevevő halott terület százalékban megadva. Rendre a "
 "bal, jobb, fenti és lenti oldalakra alkalmazva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Táblagép méretaránya"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1934,50 +2011,50 @@ msgstr ""
 "Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a "
 "kimenet méretarányával."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Táblagép balkezes módja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Ha engedélyezett, akkor lehetővé teszi a táblagép fizikai elforgatását a "
 "balkezes beállításokhoz"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Íróvessző nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Az íróvesszőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Törlő nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "A törlőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Az íróvessző gombjának művelete. Ez a gomb a toll fogantyúja mentén "
 "található."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Másodlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1988,11 +2065,11 @@ msgstr ""
 "íróvesszőknek (például Airbrush Pen vagy Inking Pen) csak egyetlen gombja "
 "van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Harmadlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2002,30 +2079,30 @@ msgstr ""
 "mentén található néhány íróvesszőn, mint például a 3D Pen. Más íróvesszőknek "
 "(például Grip Pen) csak két gombja van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Tábla gombjának művelettípusa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "A gomb lenyomása által kiváltott művelet."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Az egyéni művelet billentyűkombinációja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Az egyéni műveletek gombjának megnyomásakor előállított billentyűkombináció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Érintőképernyő kimenet leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2035,11 +2112,26 @@ msgstr ""
 "[szállító, termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] "
 "megbízik az automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#| msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgid "Mouse wheel emulation button lock"
+msgstr "Egérgörgő emulációs gomb zárolása"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Állítsa IGAZ értékre, hogy engedélyezze az egérgörgő emulációs gomb "
+"zárolását. Ha engedélyezve van, akkor az első gombkattintás engedélyezi a "
+"görgetést, a második kattintás újra letiltja."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2191,26 +2283,19 @@ msgid "Whether to protect USB devices"
 msgstr "Védje-e az USB-s eszközöket"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
-#| msgid ""
-#| "If TRUE, USB devices will be protected as configured in the key usb-"
-#| "protection-level."
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
 msgstr ""
-"Ha az USBGuard szolgáltatás jelen van és a beállítás engedélyezett, akkor "
-"az USB-s eszközök az usb-protection-level kulcsban beállítottak szerint "
-"védve lesznek."
+"Ha az USBGuard szolgáltatás jelen van és a beállítás engedélyezett, akkor az "
+"USB-s eszközök az usb-protection-level kulcsban beállítottak szerint védve "
+"lesznek."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
 msgstr "Mikor legyenek elutasítva az USB-s eszközök"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
-#| msgid ""
-#| "If set to \"lockscreen\", only when the lock screen is present new USB "
-#| "devices will be rejected; if set to \"always\", all new USB devices will "
-#| "always be rejected."
 msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
@@ -2886,12 +2971,6 @@ msgstr ""
 "Módosító, amellyel a módosított ablakra kattintás műveletek használhatók"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the “resize-with-right-button” key. Modifier is expressed as \"<Alt>"
-#| "\" or \"<Super>\" for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
