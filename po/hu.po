@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2021-01-10 18:26+0000\n"
-"PO-Revision-Date: 2021-02-14 00:20+0100\n"
-"Last-Translator: Balázs Meskó <mesko.balazs at fsf dot hu>\n"
+"POT-Creation-Date: 2021-02-14 18:24+0000\n"
+"PO-Revision-Date: 2021-02-14 20:39+0100\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -1700,7 +1700,6 @@ msgstr ""
 "látható a zárolt képernyőn."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
 msgstr "Engedélyezett-e a görgetés a szélen"
 
@@ -1711,6 +1710,11 @@ msgid ""
 msgstr ""
 "Ha engedélyezve van, akkor a szélen görgetést támogató érintőtábláknál "
 "engedélyezve lesz az a funkció."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Engedélyezett-e a kétujjas görgetés"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
@@ -1947,17 +1951,14 @@ msgstr ""
 "beállított profilt, akkor a „default” lesz használva."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Dupla kattintás ideje"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "A dupla kattintás hossza ezredmásodpercben."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Húzási küszöb"
 
@@ -2117,7 +2118,6 @@ msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
 msgstr "Egérgörgő emulációs gomb zárolása"
 
@@ -2530,11 +2530,11 @@ msgid "Session type"
 msgstr "Munkamenettípus"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
-msgstr ""
-"A használandó munkamenet neve. Az ismert értékek „gnome” és „gnome-fallback”."
+#| msgid ""
+#| "The name of the session to use. Known values are “gnome” and “gnome-"
+#| "fallback”."
+msgid "The name of the session to use. Known value is “gnome”."
+msgstr "A használandó munkamenet neve. Az ismert érték a „gnome”."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
