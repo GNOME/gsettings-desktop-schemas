@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-01-10 18:26+0000\n"
-"PO-Revision-Date: 2021-01-30 19:06-0300\n"
+"POT-Creation-Date: 2021-02-14 18:24+0000\n"
+"PO-Revision-Date: 2021-02-17 22:40-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -31,7 +31,7 @@ msgstr "Teclado virtual"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:7
 msgid "Whether the on-screen keyboard is turned on."
-msgstr "Se o teclado virtual (na tela) está ativado."
+msgstr "Se o teclado virtual (na tela) está ligado."
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:11
 msgid "Screen magnifier"
@@ -39,7 +39,7 @@ msgstr "Ampliador de tela"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:12
 msgid "Whether the screen magnifier is turned on."
-msgstr "Se o ampliador de tela está ativado."
+msgstr "Se o ampliador de tela está ligado."
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:16
 msgid "Screen reader"
@@ -47,7 +47,7 @@ msgstr "Leitor de tela"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:17
 msgid "Whether the screen reader is turned on."
-msgstr "Se o leitor de tela está ativado."
+msgstr "Se o leitor de tela está ligado."
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:6
 msgid "Always show the Universal Access status icon"
@@ -1700,9 +1700,8 @@ msgstr ""
 "tela de bloqueio."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
-msgstr "Se a rolagem na borda está, ou não, habilitada"
+msgstr "Se a rolagem na borda está habilitada"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
 msgid ""
@@ -1712,13 +1711,18 @@ msgstr ""
 "Quando habilitado, touchpads que possuem suporte a rolagem de borda terão "
 "este recurso habilitado."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Se a rolagem com dois dedos está habilitada"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
 msgstr ""
-"Quando habilitado, touchpads que possuem suporte a rolagem de 2-dedos terão "
-"este recurso habilitado."
+"Quando habilitado, touchpads que possuem suporte a rolagem de dois dedos "
+"terão este recurso habilitado."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:24
 msgid "Whether to disable the touchpad while typing"
@@ -1945,17 +1949,14 @@ msgstr ""
 "oferece suporte ao perfil configurado, “default” será usado."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Tempo de clique duplo"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "Tamanho de um clique duplo em milissegundos."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Limiar de arrastar"
 
@@ -2120,7 +2121,6 @@ msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Botão de emulação da roda do mouse. 0 para desabilitar o recurso."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
 msgstr "Bloqueio de botão de emulação da roda do mouse"
 
@@ -2535,12 +2535,11 @@ msgid "Session type"
 msgstr "Tipo de sessão"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
-msgstr ""
-"O nome da sessão para usar. Valores conhecidos são “gnome” e “gnome-"
-"fallback”."
+#| msgid ""
+#| "The name of the session to use. Known values are “gnome” and “gnome-"
+#| "fallback”."
+msgid "The name of the session to use. Known value is “gnome”."
+msgstr "O nome da sessão para usar. Valores conhecidos são “gnome”."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
