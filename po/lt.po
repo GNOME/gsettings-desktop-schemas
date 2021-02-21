@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-01-10 18:26+0000\n"
-"PO-Revision-Date: 2021-01-18 22:51+0200\n"
+"POT-Creation-Date: 2021-02-14 18:24+0000\n"
+"PO-Revision-Date: 2021-02-21 22:03+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -1645,7 +1645,6 @@ msgstr ""
 "ekranas yra užrakintas."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
 msgstr "Ar slinkimas kraštuose yra įjungtas"
 
@@ -1656,6 +1655,11 @@ msgid ""
 msgstr ""
 "Kai įjungta, tuose jutikliniuose kilimėliuose, kurie palaiko tik slinkimą "
 "kraštuose, ši ypatybė bus įjungta."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Ar slinkimas dviem pirštais yra įjungtas"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
@@ -1884,17 +1888,14 @@ msgstr ""
 "Jei pelė nepalaiko nustatyto profilio, bus naudojama vertė „default“."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Dvigubo spustelėjimo laikas"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "Dvigubo spustelėjimo trukmė milisekundėmis."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Vilkimo slenkstis"
 
@@ -2447,11 +2448,11 @@ msgid "Session type"
 msgstr "Seanso tipas"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
-msgstr ""
-"Naudojamo seanso pavadinimas. Galimos vertės yra „gnome“ ir „gnome-fallback“."
+#| msgid ""
+#| "The name of the session to use. Known values are “gnome” and “gnome-"
+#| "fallback”."
+msgid "The name of the session to use. Known value is “gnome”."
+msgstr "Naudotinas seanso pavadinimas. Žinoma vertė yra „gnome“."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
