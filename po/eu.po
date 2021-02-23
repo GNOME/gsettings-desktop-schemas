@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017.
-# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020.
+# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021.
 #
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-28 10:00+0100\n"
+"POT-Creation-Date: 2021-02-14 18:24+0000\n"
+"PO-Revision-Date: 2021-02-23 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -1155,6 +1155,46 @@ msgid ""
 "screen."
 msgstr "Egia bada, tekla bat sakatzen bada erakuslearen uneko kokalekua nabarmenduko da pantailan."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Antialiasing-a"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr "Letrak errendatzeko erabiliko den antialiasing mota. Balio erabilgarriak: “none“ (ezer ez), antialiasing gabe; “grayscale“ (gris-eskala), gris-eskala estandarreko antialiasing-a; “rgba“, azpipixeleko antialiasing-a (LCD pantailetarako soilik)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Tarteak"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr "Letrak errendatzeko erabiliko den tarte mota. Balio erabilgarriak: “none“ (bat ere ez) hizkien artean tarterik ez egoteko; “slight“ Y ardatzean soilik sartzeko Microsoft-en ClearType, DirectWrite eta Adobe-ren letra-tipoak errendatzeko motor pribatuaren bezala. Letra-tipoaren hitzen arteko tarteei ez ikusi egiten die, tarteak algoritmo bidez sortuz. Ubuntun lehenetsi gisa erabiltzen da. Gomendatuta. “medium“ (tartekoa) eta “full“ (osoa) balioen esanahia letra-formatuaren (.ttf, .otf, .pfa/.pfb) eta instalatutako FreeType bertsioaren araberakoa da. Glifoak X eta Y ardatzean kokatzen saiatzen dira (.otf ezik: Y ardatza soilik). Distortsioa edo bateratasunik gabe errendatzea sor dezake, letra-tipoaren kalitatea, letra-formatua eta FreeType-ren letra motorren arabera."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "RGBA ordena"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr "LCD pantailetako azpipixel elementuen ordena, antialiasing-a “rgba“ (gbua) balioarekin ezartzean bakarrik erabiltzen da. Balio erabilgarriak: “rgb“ (gbu) - gorrian ezkerrean (erabiliena); “bgr“ (ubg) - urdina ezkerrean; “vrgb“ (bgbu) gorrian goian; “vbgr“ (bubg) - gorria behean."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Desgaitu komando-lerroa"
@@ -1394,7 +1434,6 @@ msgid ""
 msgstr "Aplikazio honen jakinarazpenaren laburpena eta gorputzak erakutsiko diren edo ez pantaila blokeatuta dagoenean."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
 msgstr "Ertzeko korritzea gaituta dagoen edo ez adierazten du"
 
@@ -1402,13 +1441,17 @@ msgstr "Ertzeko korritzea gaituta dagoen edo ez adierazten du"
 msgid ""
 "When enabled, touchpads that support edge scrolling will have that feature "
 "enabled."
-msgstr "Gaituta dagoenean, ertzean korritzea onartzen duten ukipen-panelak eginbide hura gaituta edukiko dute."
+msgstr "Gaituta dagoenean, ertzeko korritzea onartzen duten ukipen-panelak eginbide hura gaituta edukiko dute."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Bi hatzen bidezko korritzea gaituta dagoen ala ez"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
-msgstr "Gaituta dagoenean, bi hatzeko  korritzea onartzen duten ukipen-panelak eginbide hura gaituta edukiko dute."
+msgstr "Gaituta dagoenean, bi hatzen bidezko korritzea onartzen duten ukipen-panelak eginbide hura gaituta edukiko dute."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:24
 msgid "Whether to disable the touchpad while typing"
@@ -1509,13 +1552,13 @@ msgstr "Softwareak emulatutako botoiak nola sortu: “none” desgaitzeko; “ar
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Emulatu erdiko klika"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1582,7 +1625,7 @@ msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Ezarri TRUE (egia) gisa saguaren (alderantzizko) korritze naturala gaitzeko."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Azelerazioaren profila"
 
@@ -1597,136 +1640,163 @@ msgid ""
 "be used."
 msgstr "Konektatutako saguan erabili den azelerazioaren profila. Azelerazioaren profilak honako balioak eduki ditzake: “default” (lehenetsia) gailu bakoitzaren azelerazio-profil lehenetsia erabiltzen du; “flat” (laua) gailu baten konfiguratutako erakuslearen abiaduratik eratorritako gailuarekiko zehatza den faktore konstante baten arabera azeleratzen du; “adaptive” (moldatzailea) saguaren mugimenduaren arabera egokitzen du azelerazioa. Sagu batek konfiguratutako profilik ez badu onartzen, “default” (lehenetsia) erabiliko da."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+msgid "Double click time"
+msgstr "Klik bikoitzaren denbora"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+msgid "Length of a double click in milliseconds."
+msgstr "Klik bikoitzaren iraupena milisegundotan."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+msgid "Drag threshold"
+msgstr "Arrastatzearen atalasea"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Distantzia arrastatzea hasi aurretik."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Marrazki-taularen mapaketa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr "Irteera mapatu den tabletari buruzko EDID informazioa. Honako formatua eduki behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] mapaketa desgaitzen du."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Taularen mapaketa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Sarrerak nola eragiten duen pantailako erakuslea"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Taularen area"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr "Area aktiboaren inguruko ezertarako balio ez duen area betegarria (ehunekotan). ezkerreko, eskuineko, goiko eta beheko aldeak hurrenez hurren."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Taularen aspektu-erlazioa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr "Gaitu hau taularen area murrizteko irteerako aspektu-erlazioarekin bat etortzeko."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Taula ezkertiarrentzako moduan"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr "Gaitu hau taula fisikoki biratzeko esku ezkertiarren konfigurazioentzako"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Arkatzaren presioaren kurba"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Ezarri hau x1, y1 eta x2, y2 koordenatuetara arkatzari aplikatuko zaion presioaren kurba bezala."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Borragomaren presioaren kurba"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Ezarri hau x1, y1 eta x2, y2 koordenatuetara borragomari aplikatuko zaion presioaren kurba bezala."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Botoiaren ekintza"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Arkatzaren botoiaren ekintza. Botoi hau arkatzaren heldulekuan zehar kokatuta dago."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Bigarren mailako botoiaren ekintza"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr "Arkatzaren bigarren botoiaren ekintza. Botoi hau 'Grip Pen' bezalako arkatzen heldulekuan zehar kokatuta dago. 'Airbrush Pen' edo 'Inking Pen' bezalakoek botoi bat bakarrik daukatenez, ezarpen honek ez du haietan eragiten."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Hirugarren mailako botoiaren ekintza"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr "Arkatzaren hirugarren botoiaren ekintza. Botoi hau 'Grip Pen' bezalako arkatzen heldulekuan zehar kokatuta dago. 'Grip Pen' bezalakoek bi botoi bakarrik daukatenez, ezarpen honek ez du haietan eragiten."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Taularen botoiaren ekintza mota"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "Botoia sakatzean abiaraziko den ekintza mota."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Ekintza pertsonalizatuaren teklen konbinazioa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "Ekintza pertsonalizatuetan botoia sakatzean sortuko den laster-tekla."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Ukimen-pantailaren irteeraren mapaketa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr "Irteera mapatu den ukimen-pantailari buruzko EDID informazioa. Honako formatua eduki behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] mapaketa desgaitzen du."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Saguaren gurpila emulatzeko botoia. 0 eginbidea desgaitzeko."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Mouse wheel emulation button lock"
+msgstr "Saguaren gurpila emulatzeko botoi-blokeoa"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr "Ezarri TRUE (egia) saguaren gurpilaren emulazio-botoian botoi-blokeoa gaitzeko. Gaituta badago, botoiaren lehen klikak korritzea gaituko du, eta bigarren klikak korritzea desgaituko du."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2048,10 +2118,8 @@ msgid "Session type"
 msgstr "Saio mota"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
-msgstr "Saioaren izena erabiltzeko. Balio ezagunak: “gnome” eta “gnome-fallback” (gnome klasikoa)"
+msgid "The name of the session to use. Known value is “gnome”."
+msgstr "Erabiliko den saio-izena. Balio ezaguna “gnome” da."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
@@ -2063,11 +2131,11 @@ msgstr "Erabiltzailearen gertaeretan soinuak erreproduzitu ala ez adierazten du.
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:11
 msgid "Sound theme name"
-msgstr "Soinu gaiaren izena"
+msgstr "Soinu-gaiaren izena"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:12
 msgid "The XDG sound theme to use for event sounds."
-msgstr "XDG soinu gaia gertaeren soinuetan erabiltzeko."
+msgstr "XDG soinu-gaia gertaeren soinuetan erabiltzeko."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:16
 msgid "Input feedback sounds"
@@ -2778,7 +2846,7 @@ msgstr "Proxy konfigurazio automatikoaren URLa"
 msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
-msgstr "Proxy-aren konfigurazioaren balioak ematen dituen URLa. Modua “auto” (automatikoa) bezala ezartzean, URL hau erabiltzen da proxy-aren informazioa bilatzeko protokolo guztientzako."
+msgstr "Proxy-aren konfigurazioaren balioak ematen dituen URLa. Modua “auto” (automatikoa) bezala ezartzean, URL hau erabiltzen da proxyaren informazioa bilatzeko protokolo guztientzako."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:45
 msgid "Non-proxy hosts"
@@ -2790,7 +2858,7 @@ msgid ""
 "than via the proxy (if it is active). The values can be hostnames, domains "
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr "Gako honek zuzenean konektatuta dauden ostalarien zerrenda du, proxy-ak erabili ordez (aktibo egonez gero). Balioak ostalari-izenak, domeinuak (hasierako komodinak erabil daiteke *.pipo.com bezala), IP helbideak (bai IPv4 bai IPv6) eta sareko helbideak maskarekin (192.168.0.0/24 antzeko zerbait) izan daiteke."
+msgstr "Gako honek zuzenean konektatuta dauden ostalarien zerrenda du, proxyak erabili ordez (aktibo egonez gero). Balioak ostalari-izenak, domeinuak (hasierako komodinak erabil daiteke *.pipo.com bezala), IP helbideak (bai IPv4 bai IPv6) eta sareko helbideak maskarekin (192.168.0.0/24 antzeko zerbait) izan daiteke."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
@@ -2805,25 +2873,25 @@ msgstr "Gako hau ez da erabiltzen, eta ez litzateke irakurri edo aldatu behar."
 msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
-msgstr "Gako hau ez da erabiltzen; HTTP proxy-a gaituta dago ostalariaren gako ez denean hutsa eta ataka ez denean 0."
+msgstr "Gako hau ez da erabiltzen; HTTP proxya gaituta dago ostalariaren gako ez denean hutsa eta ataka ez denean 0."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:73
 msgid "HTTP proxy host name"
-msgstr "HTTP proxy-aren ostalari-izena"
+msgstr "HTTP proxyaren ostalari-izena"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:74
 msgid "The machine name to proxy HTTP through."
-msgstr "Ordenagailuaren izena HTTP proxy-a egiteko."
+msgstr "Ordenagailuaren izena HTTP proxya egiteko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:81
 msgid "HTTP proxy port"
-msgstr "HTTP proxy-aren ataka"
+msgstr "HTTP proxyaren ataka"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:82
 msgid ""
 "The port on the machine defined by “/system/proxy/http/host” that you proxy "
 "through."
-msgstr "Ordenagailuaren ataka, “/system/proxy/http/host“-ean definituta proxy-arena egiteko."
+msgstr "Ordenagailuaren ataka, “/system/proxy/http/host“-ean definituta proxyarena egiteko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:89
 msgid "Authenticate proxy server connections"
@@ -2836,41 +2904,41 @@ msgid ""
 "user” and “/system/proxy/http/authentication-password”. This applies only to "
 "the http proxy; when using a separate https proxy, there is currently no way "
 "to specify that it should use authentication."
-msgstr "“true” (egia) ezartzean proxy zerbitzarira bideratutako konexioek autentifikazioa eskatuko dute. Erabiltzaile-izena/pasahitza konbinazioa “/system/proxy/http/authentication-user” eta “/system/proxy/http/authentication-password” lekuetan definitzen dira. Honek HTTP proxy-ari soilik eragiten dio; bereiztutako HTTPS proxy-a erabiltzean oraingoz ez dago honek autentifikazioa erabiltzeko zehazteko modurik."
+msgstr "“true” (egia) ezartzean proxy zerbitzarira bideratutako konexioek autentifikazioa eskatuko dute. Erabiltzaile-izena/pasahitza konbinazioa “/system/proxy/http/authentication-user” eta “/system/proxy/http/authentication-password” lekuetan definitzen dira. Honek HTTP proxyari soilik eragiten dio; bereiztutako HTTPS proxya erabiltzean oraingoz ez dago honek autentifikazioa erabiltzeko zehazteko modurik."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:103
 msgid "HTTP proxy username"
-msgstr "HTTP proxy-aren erabiltzaile-izena"
+msgstr "HTTP proxyaren erabiltzaile-izena"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:104
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr "Erabiltzaile-izena HTTP proxy-a egitean autentifikatzeko."
+msgstr "Erabiltzaile-izena HTTP proxya egitean autentifikatzeko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:110
 msgid "HTTP proxy password"
-msgstr "HTTP proxy-aren pasahitza"
+msgstr "HTTP proxyaren pasahitza"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:111
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr "Pasahitza HTTP proxy-an autentifikatzean erabiltzeko."
+msgstr "Pasahitza HTTP proxyan autentifikatzean erabiltzeko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:119
 msgid "Secure HTTP proxy host name"
-msgstr "HTTP Seguruaren proxy-aren ostalari-izena"
+msgstr "HTTP Seguruaren proxyaren ostalari-izena"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:120
 msgid "The machine name to proxy secure HTTP through."
-msgstr "Ordenagailuaren izena HTTP Seguruaren proxy-a egiteko."
+msgstr "Ordenagailuaren izena HTTP Seguruaren proxya egiteko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:127
 msgid "Secure HTTP proxy port"
-msgstr "HTTP Seguruaren proxy-aren ataka"
+msgstr "HTTP Seguruaren proxyaren ataka"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:128
 msgid ""
 "The port on the machine defined by “/system/proxy/https/host” that you proxy "
 "through."
-msgstr "Ordenagailuaren ataka, “/system/proxy/https/host“-ean definituta proxy-arena egiteko."
+msgstr "Ordenagailuaren ataka, “/system/proxy/https/host“-ean definituta proxyarena egiteko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:137
 msgid "FTP proxy host name"
@@ -2882,17 +2950,17 @@ msgstr "Ordenagailuaren izena, proxy FTPa egiten duenarena."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:145
 msgid "FTP proxy port"
-msgstr "FTP proxy-aren ataka"
+msgstr "FTP proxyaren ataka"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:146
 msgid ""
 "The port on the machine defined by “/system/proxy/ftp/host” that you proxy "
 "through."
-msgstr "Ordenagailuaren ataka, “/system/proxy/ftp/host“-ean definituta proxy-arena egiteko."
+msgstr "Ordenagailuaren ataka, “/system/proxy/ftp/host“-ean definituta proxyarena egiteko."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:155
 msgid "SOCKS proxy host name"
-msgstr "SOCKS proxy-aren ostalari-izena"
+msgstr "SOCKS proxyaren ostalari-izena"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:156
 msgid "The machine name to use as a SOCKS proxy."
@@ -2900,13 +2968,13 @@ msgstr "Ordenagailuaren izena, proxy SOCKS egiten duenarena."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:163
 msgid "SOCKS proxy port"
-msgstr "SOCKS proxy-aren ataka"
+msgstr "SOCKS proxyaren ataka"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:164
 msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
-msgstr "Ordenagailuaren ataka, “/system/proxy/socks/host“-ean definituta proxy-arena egiteko."
+msgstr "Ordenagailuaren ataka, “/system/proxy/socks/host“-ean definituta proxyarena egiteko."
 
 #~ msgid "Select the touchpad scroll method"
 #~ msgstr "Hautatu 'touchpad'aren korritzeko metodoa"
