@@ -3,29 +3,29 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 #
+#
 # Wolfgang Stöggl <c72578@yahoo.de>, 2013-2014, 2020.
 # Benjamin Steinwender <b@stbe.at>, 2014.
 # Christian Kirbach <christian.kirbach@googlemail.com>, 2013, 2015.
 # Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2015.
 # Tim Sabsch <tim@sabsch.com>, 2018, 2020.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2020.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2020, 2021.
 # Philipp Kiemle <philipp.kiemle@gmail.com>, 2020.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2020-12-12 17:56+0000\n"
-"PO-Revision-Date: 2020-12-27 22:09+0100\n"
-"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
-"Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
+"/issues\n"
+"POT-Creation-Date: 2021-02-14 18:24+0000\n"
+"PO-Revision-Date: 2021-02-25 20:55+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1390,6 +1390,66 @@ msgstr ""
 "Legt fest, ob ein Tastendruck die aktuelle Mauszeigerposition auf dem "
 "Bildschirm hervorhebt."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Kantenglättung"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"Der Typ der für die Darstellung von Schriften zu verwendenden Kantenglättung."
+" Mögliche Werte sind: »none« für keine Kantenglättung, »grayscale« für"
+" Standard-Graustufen-Kantenglättung und »rgba« für Subpixel-Kantenglättung"
+" (nur für LCD-Bildschirme)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Hinting"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+"Der Typ des für die Darstellung von Schriften zu verwendenden Hintings."
+" Mögliche Werte sind: »none« für kein Hinting und »slight« für die Anpassung"
+" nur der X-Achse wie ClearType von Microsoft, DirectWrite und bei der"
+" proprietären Schriftdarstellungs-Engine von Adobe. Natives Hinting innerhalb"
+" der Schrift wird ignoriert; Hinting wird algorithmisch erzeugt. Dies wird"
+" bei Ubuntu standardmäßig verwendet. Wird empfohlen. Die Bedeutung von"
+" »medium« und »full« ist vom Schriftformat (.ttf, .otf, .pfa/.pfb) und der"
+" installierten FreeType-Version abhängig. Es wird üblicherweise versucht, die"
+" Glyphen sowohl in die X- als auch in die Y-Achse einzupassen (außer für"
+" .otf: nur Y-Achse). Abhängig von der Qualität und dem Format der Schrift"
+" sowie dem Zustand der FreeType-Schrift-Engines kann dies zu Verzerrungen"
+" oder inkonsistenter Darstellung führen."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "RGBA-Reihenfolge"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
+"Die Anordung der Subpixel-Elemente auf einem LCD-Bildschirm; wird nur"
+" verwendet, wenn die Kantenglättung auf »rgba« gesetzt ist. Mögliche Werte"
+" sind »rgb« für rot links (am weitesten verbreitet), »bgr« für blau links,"
+" »vrgb« für rot oben und »vbgr« für rot unten."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Befehlszeile deaktivieren"
@@ -1687,7 +1747,6 @@ msgstr ""
 "Sperrbildschirm angezeigt werden sollen."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
 msgstr "Legt fest, ob der Rand-Bildlauf aktiviert ist"
 
@@ -1698,6 +1757,11 @@ msgid ""
 msgstr ""
 "Wenn aktiviert, wird für Tastfelder, die Rand-Bildlauf unterstützen, diese "
 "Funktion aktiviert."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Legt fest, ob der Zwei-Finger-Bildlauf aktiviert ist"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
@@ -1830,13 +1894,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Klick der mittleren Maustaste emulieren"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1912,7 +1976,7 @@ msgstr ""
 "Der Wert WAHR schaltet natürlichen (umgekehrten) Bildlauf für Mäuse ein."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Profil der Grafikbeschleunigung"
 
@@ -1935,11 +1999,30 @@ msgstr ""
 "Wenn eine Maus das eingerichtete Profil nicht unterstützt, wird »default« "
 "angewendet."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#| msgid "Dwell click time"
+msgid "Double click time"
+msgstr "Doppelklickzeit"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#| msgid "Length of the cursor blink cycle, in milliseconds."
+msgid "Length of a double click in milliseconds."
+msgstr "Länge eines Doppelklicks in Millisekunden."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#| msgid "Movement threshold"
+msgid "Drag threshold"
+msgstr "Ziehtoleranz"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Abstand, bevor ein Ziehvorgang gestartet wird."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Abbildung des Zeichen-Tablets"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1950,19 +2033,19 @@ msgstr ""
 "einer automatischen Abbildung."
 
 # CHECK
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Tablet-Abbildung"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Auswirkung von Eingaben auf den Zeiger auf dem Bildschirm"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Tabletbereich"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1970,11 +2053,11 @@ msgstr ""
 "Auffüllung des toten Bereichs rund um den aktiven Bereich in Prozent. Wird "
 "auf die linken, rechten, oberen beziehungsweise unteren Seiten angewendet."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Tablet-Seitenverhältnis"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1982,53 +2065,53 @@ msgstr ""
 "Aktivieren Sie dies, um das Seitenverhältnis der Ausgabe auf den Tablet-"
 "Bereich abzustimmen."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Tablet im Linkshänder-Modus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Aktivieren Sie dies, um die physische Drehung des Tablets für die "
 "linkshändige Bedienung anzupassen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Stylus-Druckkurve"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Legen Sie hier die für den Stylus gültige Druckkurve x1, y1 und x2, y2 fest."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Druckkurve des Radierers"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Legen Sie hier die für den Radiergummi gültige Druckkurve x1, y1 und x2, y2 "
 "fest."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Knopfaktion"
 
 # Ich wäre dagegen, wenn jemand für den Stylus-Pen einen neuen Begriff erfinden wollte.
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Aktion für den Stylus-Knopf. Dieser Knopf befindet sich am Schaft des Pens."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Aktion für Sekundärknopf"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2039,11 +2122,11 @@ msgstr ""
 "»Airbrush Pen« oder der »Inking Pen« haben nur einen Knopf und die "
 "Einstellung hat keine weiteren Auswirkungen."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Aktion für Tertiärknopf"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2054,19 +2137,19 @@ msgstr ""
 "Pen« haben nur zwei Knöpfe und die Einstellung hat keine weiteren "
 "Auswirkungen."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Aktionstyp der Tastfeld-Knöpfe"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "Der Typ der Aktion, die beim Drücken des Knopfes ausgelöst wird."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Tastenkombination für die benutzerdefinierte Aktion"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2074,11 +2157,11 @@ msgstr ""
 "Die erzeugte Tastenkombination, wenn der Knopf für benutzerdefinierte "
 "Aktionen gedrückt wird."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Abbildung des Tablet auf einen Ausgang"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2088,15 +2171,15 @@ msgstr ""
 "Das Format ist [Hersteller, Produkt, Seriennummer]. [\"\",\"\",\"\"] führt "
 "zu einer automatischen Abbildung."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Knopf zur Emulation des Mausrads. »0« schaltet die Funktion aus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
 msgid "Mouse wheel emulation button lock"
 msgstr "Feststellen der Mausrad-Emulationstaste"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2106,7 +2189,7 @@ msgstr ""
 "gesetzt, aktiviert der erste Klick das Rollen, ein zweiter Klick deaktiviert "
 "es wieder."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2518,12 +2601,12 @@ msgid "Session type"
 msgstr "Sitzungstyp"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
+#| msgid ""
+#| "The name of the session to use. Known values are “gnome” and “gnome-"
+#| "fallback”."
+msgid "The name of the session to use. Known value is “gnome”."
 msgstr ""
-"Der Name der Sitzung, die verwendet werden soll. Bekannte Werte sind »gnome« "
-"und »gnome-fallback«."
+"Der Name der Sitzung, die verwendet werden soll. Bekannter Wert ist »gnome«."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
