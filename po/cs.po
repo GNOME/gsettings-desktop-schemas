@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-01-10 18:26+0000\n"
-"PO-Revision-Date: 2021-01-15 05:53+0100\n"
+"POT-Creation-Date: 2021-02-14 18:24+0000\n"
+"PO-Revision-Date: 2021-03-08 15:30+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1338,9 +1338,9 @@ msgid ""
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
 "and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
-"Typ vyhlazování, který se použije při vykreslování fontů. Možné hodnoty jsou: "
-"„none“ pro žádné, „grayscale“ pro standardní vyhlazování ve stupních šedi a "
-"„rgba“ pro subpixelové vyhlazování (pouze pro displeje LCD)."
+"Typ vyhlazování, který se použije při vykreslování fontů. Možné hodnoty "
+"jsou: „none“ pro žádné, „grayscale“ pro standardní vyhlazování ve stupních "
+"šedi a „rgba“ pro subpixelové vyhlazování (pouze pro displeje LCD)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:285
 msgid "Hinting"
@@ -1364,8 +1364,8 @@ msgstr ""
 "podobně jako u komerčních vykreslovacích jader ClearType, DirectWrite a "
 "Adobe. Ignoruje přirozený hinting definovaný ve fontu a místo toho jej "
 "generuje algoritmicky. Používá se jako výchozí v Ubuntu. Doporučeno. Význam "
-"dalších dvou hodnot „medium“ a „full“ závisí na formátu fontu (.ttf, .otf, "
-".pfa/.pfb) a instalované verzi knihovny FreeType. Obvykle se snaží napasovat "
+"dalších dvou hodnot „medium“ a „full“ závisí na formátu fontu (.ttf, .otf, ."
+"pfa/.pfb) a instalované verzi knihovny FreeType. Obvykle se snaží napasovat "
 "glyfy v ose X i Y (pouze u .otf jen v ose Y). To může vést k rušivému a "
 "nekonzistentnímu vykreslování v závislosti na kvalitě fontu, formátu fontu a "
 "stavu vykreslovacího jádra FreeType."
@@ -1666,7 +1666,6 @@ msgstr ""
 "obrazovce."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
 msgstr "Zda je povolen posuv u kraje"
 
@@ -1677,6 +1676,10 @@ msgid ""
 msgstr ""
 "Když je zapnuto, budou mít touchpady, které podporují posuv u okraje, tuto "
 "funkci povolenou."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Zda je povolen posuv dvěma prsty"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
@@ -2478,12 +2481,8 @@ msgid "Session type"
 msgstr "Typ sezení"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
-msgstr ""
-"Název sezení, které se má použít. Známé hodnoty jsou „gnome“ a „gnome-"
-"fallback“."
+msgid "The name of the session to use. Known value is “gnome”."
+msgstr "Název sezení, které se má použít. Známá hodnota je „gnome“."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
@@ -3489,3 +3488,4 @@ msgid ""
 msgstr ""
 "Port na počítači poskytujícím proxy a definovaném v klíči „/system/proxy/"
 "socks/host“."
+
