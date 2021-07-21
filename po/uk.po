@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-02-14 21:40+0200\n"
+"POT-Creation-Date: 2021-07-20 20:23+0000\n"
+"PO-Revision-Date: 2021-07-21 08:30+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.11.70\n"
+"X-Generator: Lokalize 20.12.0\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1511,6 +1511,16 @@ msgstr ""
 "Заборонити користувачам записувати або змінювати файли на портативні "
 "пристрої зберігання даних (тобто флешки, мобільні телефони та камери)."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+#| msgid "Disable user switching"
+msgid "Disable password showing"
+msgstr "Вимкнути показ пароля"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr ""
+"Вимкнути пункт меню «Показати пароль» для записів паролів."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "Монтувати носії автоматично"
@@ -1692,7 +1702,6 @@ msgstr ""
 "сенсорних панелей, що його підтримують."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Чи увімкнене гортання двома пальцями"
 
@@ -2509,12 +2518,8 @@ msgid "Session type"
 msgstr "Тип сеансу"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#| msgid ""
-#| "The name of the session to use. Known values are “gnome” and “gnome-"
-#| "fallback”."
 msgid "The name of the session to use. Known value is “gnome”."
-msgstr ""
-"Назва сеансу, яким слід скористатися. Відоме значення — «gnome»."
+msgstr "Назва сеансу, яким слід скористатися. Відоме значення — «gnome»."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
