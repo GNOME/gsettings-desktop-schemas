@@ -13,17 +13,17 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-03-28 02:34+0800\n"
-"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"POT-Creation-Date: 2021-07-20 20:23+0000\n"
+"PO-Revision-Date: 2021-07-23 16:46-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese - China <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-03-22 14:16+0000\n"
-"X-Generator: Gtranslator 3.38.0\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1170,7 +1170,7 @@ msgstr "如果为 true，除了时间，时钟处也显示工作日。"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:240
 msgid "Enable hot corners"
-msgstr "启用热角（hot corners）"
+msgstr "启用热区（hot corners）"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid ""
@@ -1372,6 +1372,14 @@ msgid ""
 msgstr ""
 "防止用户在可移动存储设备（例如闪存、移动电话、摄像头）上写入或修改文件。"
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+msgid "Disable password showing"
+msgstr "禁用显示密码"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr "禁用密码框中的“显示密码”菜单项。"
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "是否自动挂载媒体"
@@ -1539,7 +1547,6 @@ msgid ""
 msgstr "启用时，支持边缘滚动的触摸板将启用该功能。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
 msgstr "是否启用双指滚动"
 
@@ -1753,17 +1760,14 @@ msgstr ""
 "不支持配置的配置文件，将使用“default”。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "双击时间"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "识别为双击的最长时间，单位为毫秒。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "拖动阈值"
 
@@ -1909,7 +1913,6 @@ msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "鼠标滚轮模拟按钮。 0 代表禁用该功能。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
 msgstr "鼠标滚轮模拟按钮锁定"
 
@@ -2274,9 +2277,6 @@ msgid "Session type"
 msgstr "会话类型"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#| msgid ""
-#| "The name of the session to use. Known values are “gnome” and “gnome-"
-#| "fallback”."
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "会话使用的名称。已知值为“gnome”。"
 
