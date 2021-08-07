@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas 3.9.91\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-03-29 01:45+0300\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
+"POT-Creation-Date: 2021-07-23 20:46+0000\n"
+"PO-Revision-Date: 2021-08-07 19:09+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n>2||n==0) ? 1 : 2\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n>2||n==0) ? 1 : 2;\n"
+"X-Generator: Poedit 3.0\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1482,6 +1482,15 @@ msgstr ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+#| msgid "Disable user switching"
+msgid "Disable password showing"
+msgstr "Disable password showing"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr "Disable the \"Show Password\" menu item in password entries."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "Whether to automatically mount media"
@@ -1665,7 +1674,6 @@ msgstr ""
 "enabled."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Whether two-finger scrolling is enabled"
 
@@ -1893,17 +1901,14 @@ msgstr ""
 "be used."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Double click time"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "Length of a double click in milliseconds."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Drag threshold"
 
@@ -2062,7 +2067,6 @@ msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Mouse wheel emulation button. 0 to disable the feature."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
 msgstr "Mouse wheel emulation button lock"
 
@@ -2463,9 +2467,6 @@ msgid "Session type"
 msgstr "Session type"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#| msgid ""
-#| "The name of the session to use. Known values are “gnome” and “gnome-"
-#| "fallback”."
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "The name of the session to use. Known value is “gnome”."
 
