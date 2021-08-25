@@ -1,0 +1,19 @@
+stages:
+- test
+
+variables:
+  DEPENDENCIES:
+    gcc
+    redhat-rpm-config
+    meson
+    glib2-devel
+    gobject-introspection-devel
+
+build-fedora:
+  image: fedora:latest
+  stage: test
+  before_script:
+    - dnf install -y $DEPENDENCIES
+  script:
+    - meson _build
+    - ninja -C _build install
