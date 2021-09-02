@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-02-21 22:03+0200\n"
+"POT-Creation-Date: 2021-08-25 13:31+0000\n"
+"PO-Revision-Date: 2021-09-02 17:37+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Gtranslator 40.0\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1477,6 +1477,15 @@ msgstr ""
 "Neleisti naudotojams įrašyti ar keisti failų išimamose saugyklos laimenose "
 "(flash diskuose, mobiliuosiuose telefonuose, kamerose)."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+#| msgid "Disable user switching"
+msgid "Disable password showing"
+msgstr "Išjungti slaptažodžio rodymą"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr "Išjungti meniu elementą „rodyti slaptažodį“ slaptažodžio laukuose."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "Ar automatiškai prijungti laikmenas"
@@ -1657,7 +1666,6 @@ msgstr ""
 "kraštuose, ši ypatybė bus įjungta."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Ar slinkimas dviem pirštais yra įjungtas"
 
@@ -2448,9 +2456,6 @@ msgid "Session type"
 msgstr "Seanso tipas"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#| msgid ""
-#| "The name of the session to use. Known values are “gnome” and “gnome-"
-#| "fallback”."
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Naudotinas seanso pavadinimas. Žinoma vertė yra „gnome“."
 
@@ -2657,8 +2662,8 @@ msgid "Hide all normal windows"
 msgstr "Slėpti visus normalius langus"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
-msgid "Show the activities overview"
-msgstr "Rodyti veiklų apžvalgą"
+msgid "DEPRECATED: This key is deprecated and ignored."
+msgstr "PASENĘS: šis raktas yra pasenęs ir jo nepaisoma."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
@@ -3445,6 +3450,9 @@ msgid ""
 msgstr ""
 "Prievadas kompiuteryje, apibrėžtame „/system/proxy/socks/host“, per kurį "
 "jungiamasi."
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Rodyti veiklų apžvalgą"
 
 #~ msgid "Select the touchpad scroll method"
 #~ msgstr "Pasirinkite jutiklinio kilimėlio slinkties metodą"
