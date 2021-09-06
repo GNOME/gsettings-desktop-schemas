@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2020-07-21 09:42+0000\n"
-"PO-Revision-Date: 2020-08-23 14:20+0200\n"
-"Last-Translator: gogo <linux.hr@protonmail.com>\n"
+"POT-Creation-Date: 2021-07-29 15:57+0000\n"
+"PO-Revision-Date: 2021-09-06 10:25+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2018-03-12 20:08+0000\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1309,6 +1309,63 @@ msgstr ""
 "Ako je odabrano, pritisak na tipku će istaknuti trenutnu lokaciju pokazivača "
 "na zaslonu."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+msgid "Antialiasing"
+msgstr "Zaglađivanje"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"Vrsta zaglađivanja koja će se koristiti pri prikazu slova. Moguće "
+"vrijednosti su: “none” bez upotrebe zaglađivanja, “grayscale” za standardno "
+"sivo zaglađivanje, i “rgba” za podpikselno zaglađivanje (samo LCD zasloni)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+msgid "Hinting"
+msgstr "Naglašavanje"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+"Vrsta naglašavanja koja će se koristiti pri prikazu slova. Moguće "
+"vrijednosti su: “none” bez upotrebe naglašavanja “slight”za prilagodbu samo "
+"po Y-osi poput Microsoftovih ClearType, DirectWrite i Adobov vlasnički pogon "
+"prikaza slova. Zanemaruje izvorno naglašavanje u slovima, stvara "
+"naglašavanje algoritamski. Koristi se u Ubuntuu zadano. Preporučljivo. "
+"Značenje “medium” i “full” ovisi o formatu slova (.ttf, .otf, .pfa/.pfb) i "
+"instaliranoj inačici FreeType slova. Uobičajeno pokušavaju prilagoditi "
+"simbole po obje osi X i Y (osim za .otf: samo Y-os). To može voditi do "
+"izobličenja i/ili nedosljednom prikazu ovisno o kvaliteti slova, format "
+"slova i stanju FreeType pogona slova."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+msgid "RGBA order"
+msgstr "RGBA poredak"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+msgid ""
+"The order of subpixel elements on an LCD screen; only used when antialiasing "
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
+"Poredak podpikselnih elemenata LCD zaslona; samo se koristi kada je "
+"zaglađivanje postavljeno na “rgba”. Moguće vrijednosti: “rgb” za crveno na "
+"lijevo (najčešće korišteno), “bgr” za plavo na lijevo, “vrgb” za crveno na "
+"vrhu, “vbgr” za crveno na dnu."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Onemogući naredbeni redak"
@@ -1585,7 +1642,6 @@ msgstr ""
 "zaslonu zaključavanja."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:14
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether edge scrolling is enabled"
 msgstr "Treba li omogućiti rubno pomicanje"
 
@@ -1596,6 +1652,10 @@ msgid ""
 msgstr ""
 "Kada je omogućeno, touchpadovi koji podržavaju rubno pomicanje imati će tu "
 "značajku omogućenu."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
+msgid "Whether two-finger scrolling is enabled"
+msgstr "Treba li omogućiti pomicanje s dva prsta"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
 msgid ""
@@ -1718,13 +1778,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
 msgid "Emulate middle click"
 msgstr "Emuliraj srednji klik"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1798,7 +1858,7 @@ msgstr ""
 "Ako je odabrano, omogućuje prirodno pomicanje (obrnuto) kotačićem miša."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
 msgid "Acceleration profile"
 msgstr "Profil ubrzanja"
 
@@ -1819,11 +1879,27 @@ msgstr ""
 "(“adaptive”) koji prilagođuje ubrzanje ovisno o kretnjama miša. Ako miš ne "
 "podržava profil podešavanje profila, \"default\" će biti korišteno."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+msgid "Double click time"
+msgstr "Vrijeme dvostrukog klika"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+msgid "Length of a double click in milliseconds."
+msgstr "Dužina dvostrukog klika u milisekundama."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+msgid "Drag threshold"
+msgstr "Prag povlačenja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+msgid "Distance before a drag is started."
+msgstr "Udaljenost prije nego što se povlačenje aktivira."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Drawing tablet mapping"
 msgstr "Iscrtavanje mapiranja tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1833,19 +1909,19 @@ msgstr ""
 "[proizvođač, proizvod, serijski broj]. [\"\",\"\",\"\"] koji se oslanja na "
 "automatsko mapiranje."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Tablet mapping"
 msgstr "Mapiranje tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "How input affects the pointer on the screen"
 msgstr "Kako ulaz utječe na pokazivač na zaslonu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Tablet area"
 msgstr "Područje tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -1853,11 +1929,11 @@ msgstr ""
 "Popunjavanje mrtvog područja oko aktivnog područja, u postocima. Primjenjuju "
 "se na lijevu, desnu, gornju i donju stranu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Tablet aspect ratio"
 msgstr "Omjer slike tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -1865,50 +1941,50 @@ msgstr ""
 "Omogućite ovo za ograničenje područja tableta kako bi se podudarao omjeru "
 "slike izlaza."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "Tablet left-handed mode"
 msgstr "Tablet ljevoruki način"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr "Omogućite ovo za fizičko zakretanje tableta za ljevoruke postavke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Stylus pressure curve"
 msgstr "Krivulja pritiska pisaljke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Postavite ovo na x1, y1 i x2, y2 krivulje pritiska koja se primjenjuje na "
 "pisaljku."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Eraser pressure curve"
 msgstr "Krivulja pritiska brisaljke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Postavite ovo na x1, y1 i x2, y2 krivulje pritiska koja se primjenjuje na "
 "brisaljku."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
 msgid "Button action"
 msgstr "Radnja tipke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Radnja tipke pisaljke, ova tipka se nalazi duž drške pisaljke."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:189
 msgid "Secondary button action"
 msgstr "Radnja pomoćne tipke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -1918,11 +1994,11 @@ msgstr ""
 "pisaljke Grip Pen. Ostale pisaljke poput Airbrush Pen ili Inking Pen imaju "
 "samo jednu tipku, te postavke se ne odnose na njih."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:184
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:194
 msgid "Tertiary button action"
 msgstr "Radnja pričuvne tipke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -1932,30 +2008,30 @@ msgstr ""
 "poput pisaljke 3D Pen. Osatale posaljke Grip Pen imaju samo dvije tipke, te "
 "postavke se ne odnose na njih."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Pad button action type"
 msgstr "Vrsta radnje tipke Pad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid "The type of action triggered by the button being pressed."
 msgstr "Vrsta radnje za obaviti kad se pritisne tipka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
 msgstr "Kombinacija tipki za prilagođenu radnju"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Stvoren je prečac tipkovnice kada se pritisne tipka za prilagođene radnje."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:203
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid "Touchscreen output mapping"
 msgstr "Izlazno mapiranje zaslona na dodir"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1965,11 +2041,24 @@ msgstr ""
 "formatu [proizvođač, proizvod, serijski broj]. [\"\",\"\",\"\"] koji se "
 "oslanja na automatsko mapiranje."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Emulacija kotačića miša. 0 za onemogućavanje ove značajke."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Mouse wheel emulation button lock"
+msgstr "Tipka zaključavanja emulacije kotačića miša"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+msgid ""
+"Set this to TRUE to enable button locking for the wheel emulation button. If "
+"enabled, the first click of the button enables scrolling, the second click "
+"disables scrolling again."
+msgstr ""
+"Postavite ovo na ISTINU za omogućavanje zaključavanja tipke emulacije "
+"kotačića"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2359,12 +2448,8 @@ msgid "Session type"
 msgstr "Vrsta sesije"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-msgid ""
-"The name of the session to use. Known values are “gnome” and “gnome-"
-"fallback”."
-msgstr ""
-"Naziv sesije za korištenje. Poznate vrijednosti su “gnome” i “gnome-"
-"fallback”."
+msgid "The name of the session to use. Known value is “gnome”."
+msgstr "Naziv sesije za korištenje. Poznate vrijednosti su “gnome”."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
