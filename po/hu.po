@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-02-14 20:39+0100\n"
+"POT-Creation-Date: 2021-08-25 13:31+0000\n"
+"PO-Revision-Date: 2021-09-12 01:32+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -1520,6 +1520,15 @@ msgstr ""
 "meghajtókon, mobiltelefonokon, fényképezőgépeken) lévő fájlok írásában vagy "
 "módosításában."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+#| msgid "Disable user switching"
+msgid "Disable password showing"
+msgstr "Jelszó megjelenítésének letiltása"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr "A „Jelszó megjelenítése” menüpont letiltása a jelszómezőkben."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
 msgstr "Adathordozók automatikus csatolása"
@@ -1712,7 +1721,6 @@ msgstr ""
 "engedélyezve lesz az a funkció."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Engedélyezett-e a kétujjas görgetés"
 
@@ -2530,9 +2538,6 @@ msgid "Session type"
 msgstr "Munkamenettípus"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#| msgid ""
-#| "The name of the session to use. Known values are “gnome” and “gnome-"
-#| "fallback”."
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "A használandó munkamenet neve. Az ismert érték a „gnome”."
 
@@ -2740,8 +2745,8 @@ msgid "Hide all normal windows"
 msgstr "Minden normál ablak elrejtése"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
-msgid "Show the activities overview"
-msgstr "A tevékenységek áttekintés megjelenítése"
+msgid "DEPRECATED: This key is deprecated and ignored."
+msgstr "ELAVULT: Ez a kulcs elavult, és figyelmen kívül lesz hagyva."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
