@@ -10,6 +10,7 @@ schemas = [
   'org.gnome.desktop.a11y.gschema.xml',
   'org.gnome.desktop.a11y.keyboard.gschema.xml',
   'org.gnome.desktop.a11y.applications.gschema.xml',
+  'org.gnome.desktop.a11y.interface.gschema.xml',
   'org.gnome.desktop.a11y.magnifier.gschema.xml',
   'org.gnome.desktop.a11y.mouse.gschema.xml',
   'org.gnome.desktop.thumbnailers.gschema.xml',
