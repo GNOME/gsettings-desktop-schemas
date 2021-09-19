@@ -251,4 +251,11 @@ typedef enum
   G_DESKTOP_FONT_RGBA_ORDER_VBGR,
 } GDesktopFontRgbaOrder;
 
+typedef enum
+{
+  G_DESKTOP_COLOR_SCHEME_DEFAULT,
+  G_DESKTOP_COLOR_SCHEME_PREFER_DARK,
+  G_DESKTOP_COLOR_SCHEME_PREFER_LIGHT,
+} GDesktopColorScheme;
+
 #endif /* __gdesktop_enums_h__ */
