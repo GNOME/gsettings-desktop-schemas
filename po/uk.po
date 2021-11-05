@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-08-26 13:13+0300\n"
+"POT-Creation-Date: 2021-09-21 15:25+0000\n"
+"PO-Revision-Date: 2021-11-05 21:06+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1401,6 +1401,18 @@ msgstr ""
 "згладжування «rgba». Можливі значення: «rgb» (червоний ліворуч, найчастіше), "
 "«bgr» (синій ліворуч), «vrgb» (червоний згори), «vbgr» (червоний знизу)."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#| msgid "Cursor theme"
+msgid "Color scheme"
+msgstr "Схема кольорів"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"Бажана схема кольорів для інтерфейсу користувача. Коректними значеннями є «default», «prefer-dark», «prefer-light»."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Вимкнути командний рядок"
@@ -2724,8 +2736,7 @@ msgstr "Сховати всі звичайні вікна"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr ""
-"ЗАСТАРІЛО: цей ключ застарів, його буде проігноровано."
+msgstr "ЗАСТАРІЛО: цей ключ застарів, його буде проігноровано."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
