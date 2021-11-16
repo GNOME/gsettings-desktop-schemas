@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-09-06 08:28+0000\n"
+"POT-Creation-Date: 2021-09-21 15:25+0000\n"
 "PO-Revision-Date: 2021-08-26 12:16+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
@@ -1216,7 +1216,7 @@ msgstr "Acelerador de la barra de menú"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:176
 msgid "Keyboard shortcut to open the menu bars."
-msgstr "Combinación de teclas para abrir las barras del menú."
+msgstr "Atajo del teclado para abrir las barras del menú."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:182
 msgid "Cursor theme"
@@ -1434,6 +1434,18 @@ msgstr ""
 "cuando el alisado está establecido a “rgba”. Los valores posibles son: “rgb” "
 "para rojo a la izquierda (lo más habitual), “bgr” para azul a la izquierda, "
 "“vrgb” para rojo arriba, “vbgr” para rojo abajo."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#, fuzzy
+#| msgid "Cursor theme"
+msgid "Color scheme"
+msgstr "Tema del cursor"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1752,8 +1764,8 @@ msgid ""
 "When enabled, touchpads that support edge scrolling will have that feature "
 "enabled."
 msgstr ""
-"Cuando está activado, sólo los panel táctil que soporten el desplazamiento en "
-"el borde tendrán esta característica activada."
+"Cuando está activado, sólo los panel táctil que soporten el desplazamiento "
+"en el borde tendrán esta característica activada."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
 msgid "Whether two-finger scrolling is enabled"
@@ -1764,8 +1776,8 @@ msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
 msgstr ""
-"Cuando está activado, sólo los panel táctil que soporten el desplazamiento con "
-"dos dedos tendrán esta característica activada."
+"Cuando está activado, sólo los panel táctil que soporten el desplazamiento "
+"con dos dedos tendrán esta característica activada."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:24
 msgid "Whether to disable the touchpad while typing"
@@ -1797,9 +1809,9 @@ msgid ""
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
-"Determina el mapeado entre el número de dedos y los botones del panel táctil. "
-"Lo predeterminado es pulsar con 1, 2 y 3 dedos para mapear los botones "
-"izquierdo, derecho y central («lrm») respectivamente."
+"Determina el mapeado entre el número de dedos y los botones del panel "
+"táctil. Lo predeterminado es pulsar con 1, 2 y 3 dedos para mapear los "
+"botones izquierdo, derecho y central («lrm») respectivamente."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:39
 msgid "Enable tap-and-drag with touchpad"
@@ -1823,8 +1835,8 @@ msgid ""
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
 "Establezca esto a cierto para bloquear el proceso de arrastre con un corto "
-"período de tiempo cuando el dedo se posa sobre el panel táctil y la opción de "
-"de pulsar y arrastrar está activada."
+"período de tiempo cuando el dedo se posa sobre el panel táctil y la opción "
+"de de pulsar y arrastrar está activada."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:49
 msgid "Touchpad enabled"
@@ -1857,9 +1869,9 @@ msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
-"Velocidad del puntero del panel táctil. Se aceptan valores en el rango [-1..1] "
-"(desde «no acelerado» hasta «rápido»). El valor 0 es el predeterminado del "
-"sistema."
+"Velocidad del puntero del panel táctil. Se aceptan valores en el rango "
+"[-1..1] (desde «no acelerado» hasta «rápido»). El valor 0 es el "
+"predeterminado del sistema."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
@@ -2135,7 +2147,7 @@ msgstr "El tipo de acción que ejecutar cuando se pulsa el botón."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid "Key combination for the custom action"
-msgstr "Combinación de teclas para la acción personalizada"
+msgstr "Atajo del teclado para la acción personalizada"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid ""
