@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-03-10 14:09+0100\n"
+"POT-Creation-Date: 2021-09-21 15:25+0000\n"
+"PO-Revision-Date: 2021-11-22 11:46+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -701,8 +701,8 @@ msgid ""
 "A list of IDs of applications that are excluded from this folder. This can "
 "be used to remove applications that would otherwise be included by category."
 msgstr ""
-"Une liste di ID di aplicazions che a son esclududis di cheste cartele. Chest "
-"al pues jessi doprât par gjavâ aplicazions che se no a vignaressin "
+"Une liste di ID di aplicazions che a son esclududis di cheste cartele. Tu "
+"puedis doprâ cheste liste par gjavâ aplicazions che se no a vignaressin "
 "includudis par categorie."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
@@ -913,12 +913,12 @@ msgid ""
 "used."
 msgstr ""
 "Liste di identificadôrs di sorzints di input disponibii. Ogni sorzint e je "
-"specificade come tuple di 2 stringhis. La prime stringhe e je il gjenar e a "
-"pues jessi un tra “xkb” o “ibus”. Pes sorzints “xkb” la seconde stringhe e "
-"je “xkb_layout+xkb_variant” o dome “xkb_layout” se une variante XKB no "
-"covente. Pes sorzints “ibus” la seconde stringhe e je il non dal motôr IBus. "
-"Une liste vueide e significhe che la disposizion XKB atuâl dal servidôr X e "
-"la variante no saran tocjadis e nol vignarà doprât IBus."
+"specificade come tuple di 2 stringhis. La prime stringhe e je il gjenar e e "
+"pues vê un di chescj valôrs: “xkb” o “ibus”. Pes sorzints “xkb” la seconde "
+"stringhe e je “xkb_layout+xkb_variant” o dome “xkb_layout” se une variante "
+"XKB no covente. Pes sorzints “ibus” la seconde stringhe e je il non dal "
+"motôr IBus. Une liste vueide e significhe che la disposizion XKB atuâl dal "
+"servidôr X e la variante no saran tocjadis e nol vignarà doprât IBus."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
 msgid "List of most recently used input sources"
@@ -1406,6 +1406,18 @@ msgstr ""
 "a çampe (il plui comun), “bgr” par blu a çampe, “vrgb” par ros in alt, "
 "“vbgr” par ros in bas."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#, fuzzy
+#| msgid "Cursor theme"
+msgid "Color scheme"
+msgstr "Teme cursôr"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Disabilite la rie di comant"
@@ -1506,6 +1518,16 @@ msgid ""
 msgstr ""
 "Impedìs ai utents di scrivi o modificâ i file su dispositîfs di archiviazion "
 "estraibii (vâl a dî memoriis flash, celulârs, fotocjamaris)."
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+#, fuzzy
+#| msgid "Disable user switching"
+msgid "Disable password showing"
+msgstr "Disabilite il cambi di utent"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr ""
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -2098,9 +2120,9 @@ msgid ""
 "adapts the acceleration depending on the movement. If the trackball doesn’t "
 "support the configured profile, “default” will be used."
 msgstr ""
-"Profîl di acelerazion doprât pe trackball. Il profîl di acelerazion al pues "
-"jessi stabilît a sielte tra predefinît (“default”) che al dopre il profîl di "
-"acelerazion predefinît, plat (“flat”) che al acelere cuntun fatôr costant "
+"Profîl di acelerazion doprât pe trackball. Tu puedis sielzi di stabilî il "
+"profîl di acelerazion come predefinît (“default”) che al dopre il profîl di "
+"acelerazion predefinît, o plac (“flat”) che al acelere cuntun fatôr costant "
 "specific dal dispositîf, derivât de velocitât configurade, o adatîf "
 "(“adaptive”) che si adate ae acelerazion in base al moviment. Se la "
 "trackball no supuarte il profîl configurât al vignarà doprât “default”."
@@ -2697,8 +2719,8 @@ msgid "Hide all normal windows"
 msgstr "Plate ducj i barcons normâi"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
-msgid "Show the activities overview"
-msgstr "Mostre la panoramiche des ativitâts"
+msgid "DEPRECATED: This key is deprecated and ignored."
+msgstr ""
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
@@ -3199,8 +3221,8 @@ msgid ""
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
 "Al determine se lis aplicazions o il sisteme a puedin gjenerâ “bips” "
-"audibils; al pues jessi doprât adun cun “campanele visive” par permeti "
-"“bips” cidins."
+"audibils; tu puedis doprâlu adun cun “campanele visive” par permeti “bips” "
+"cidins."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
 msgid "Enable Visual Bell"
@@ -3505,3 +3527,6 @@ msgid ""
 msgstr ""
 "La puarte su la machine definide in “/system/proxy/socks/host” che traviers "
 "di chê fâ il proxy."
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Mostre la panoramiche des ativitâts"
