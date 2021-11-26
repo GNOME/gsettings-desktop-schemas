@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-07-21 17:04+0000\n"
-"PO-Revision-Date: 2021-05-30 11:28+0200\n"
+"POT-Creation-Date: 2021-09-06 08:28+0000\n"
+"PO-Revision-Date: 2021-11-26 20:49+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0\n"
 "X-Launchpad-Export-Date: 2016-04-19 19:12+0000\n"
 "X-Project-Style: gnome\n"
 
@@ -255,17 +255,6 @@ msgid "Mouse Tracking Mode"
 msgstr "Mòde de seguiment de la mirga"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:9
-#, fuzzy
-#| msgid ""
-#| "Determines the position of the magnified mouse image within the magnified "
-#| "view and how it reacts to system mouse movement. The values are - none: "
-#| "no mouse tracking; - centered: the mouse image is displayed at the center "
-#| "of the zoom region (which also represents the point under the system "
-#| "mouse) and the magnified contents are scrolled as the system mouse moves; "
-#| "- proportional: the position of the magnified mouse in the zoom region is "
-#| "proportionally the same as the position of the system mouse on screen; - "
-#| "push: when the magnified mouse intersects a boundary of the zoom region, "
-#| "the contents are scrolled into view."
 msgid ""
 "Determines the position of the magnified mouse image within the magnified "
 "view and how it reacts to system mouse movement. The values are • none: no "
@@ -293,23 +282,6 @@ msgid "Focus Tracking Mode"
 msgstr "Mòde de seguiment del focus"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:27
-#, fuzzy
-#| msgid ""
-#| "Determines the position of the focused widget within magnified view.\n"
-#| "\n"
-#| "The values are:\n"
-#| "\n"
-#| "- none: no focus tracking\n"
-#| "\n"
-#| "- centered: the focused image is displayed at the center of the zoom "
-#| "region (which also represents the point under the system focus) and the "
-#| "magnified contents are scrolled as the system focus moves\n"
-#| "\n"
-#| "- proportional: the position of the magnified focus in the zoom region is "
-#| "proportionally the same as the position of the system focus on screen\n"
-#| "\n"
-#| "- push: when the magnified focus intersects a boundary of the zoom "
-#| "region, the contents are scrolled into view"
 msgid ""
 "Determines the position of the focused widget within magnified view. The "
 "values are: • none: no focus tracking • centered: the focused image is "
@@ -321,23 +293,15 @@ msgid ""
 "the zoom region, the contents are scrolled into view"
 msgstr ""
 "Determina la posicion del component qu'a lo focus a l'interior de la region "
-"agrandida.\n"
-"\n"
-" Las valors son :\n"
-"\n"
-" - « none » (pas cap) : pas cap de seguiment de la mirga ;\n"
-"\n"
-" - « centered » (centrat) : l'imatge del component qu'a lo focus es afichat "
-"al centre de la region d'agrandiment (que representa tanben lo punt jol "
-"focus del sistèma) e lo contengut agrandit desfila quand lo focus del "
-"sistèma bolega ; \n"
-"\n"
-"- « proportional » (proporcional) : la posicion del focus agrandit dins la "
-"region agrandida es proporcionalament identica a la posicion del focus "
-"sistèma sus l'ecran ;\n"
-"\n"
-" - « push » (quichar) : quand lo focus agrandit atenh un bòrd de la region "
-"agrandida, lo contengut desfila dins la region."
+"agrandida. Las valors son : • « none » (pas cap) : pas cap de seguiment de "
+"la mirga • « centered » (centrat) : l'imatge del component qu'a lo focus es "
+"afichat al centre de la region d'agrandiment (que representa tanben lo punt "
+"jol focus del sistèma) e lo contengut agrandit desfila quand lo focus del "
+"sistèma bolega • « proportional » (proporcional) : la posicion del focus "
+"agrandit dins la region agrandida es proporcionalament identica a la "
+"posicion del focus sistèma sus l'ecran • « push » (quichar) : quand lo focus "
+"agrandit atenh un bòrd de la region agrandida, lo contengut desfila dins la "
+"region"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:46
 msgid "Caret Tracking Mode"
@@ -874,16 +838,12 @@ msgstr "Tipe de color d'ombratge"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
-#, fuzzy
-#| msgid ""
-#| "How to shade the background color. Possible values are \"horizontal\", "
-#| "\"vertical\", and \"solid\"."
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
 msgstr ""
 "Cossí far un degradat de color de rèireplan. Las valors possiblas son « "
-"horizontal », « vertical » e « solid » (color unie)."
+"horizontal », « vertical » e « solid » (color unida)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
 msgid "Have file manager handle the desktop"
@@ -900,10 +860,8 @@ msgid "Show the week date in the calendar"
 msgstr "Afichar lo numerò de las setmanas dins lo calendièr"
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
-#, fuzzy
-#| msgid "If true, display seconds in the clock."
 msgid "If true, display the ISO week date in the calendar."
-msgstr "Se marcat, aficha las segondas dins lo relòtge."
+msgstr "Se marcat, aficha lo numèro de la setmana ISO al calendièr."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1059,16 +1017,16 @@ msgstr ""
 "utilizat."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
-#, fuzzy
-#| msgid "List of input sources"
 msgid "List of most recently used input sources"
-msgstr "Lista de las fonts d'entrada"
+msgstr "Lista las fonts de picada mai recentament utilizadas"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:34
 msgid ""
 "List of most recently used input sources. The value is in the same format as "
 "the available sources list."
 msgstr ""
+"Lista las fonts de picada mai recentament utilizadas. La valor utiliza lo "
+"meteis format que la lista de las fonts disponiblas."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:41
 msgid "List of XKB options"
@@ -1251,7 +1209,7 @@ msgstr "Nom de la poliça per defaut utilizada per GTK+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:116
 msgid "Directories with avatar faces"
-msgstr ""
+msgstr "Repertòris amb las caras dels avartars"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:117
 msgid ""
@@ -1479,7 +1437,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:271
 msgid "Highlights the current location of the pointer."
-msgstr ""
+msgstr "Met en evidéncia l'emplaçament actual del puntador."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid ""
@@ -1504,7 +1462,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:285
 msgid "Hinting"
-msgstr ""
+msgstr "Optimizacion"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid ""
@@ -1519,6 +1477,17 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
+"Tipe d'optimizacion utilizat pel rendut de las poliças. Las valors possiblas "
+"son : « none » per cap d'optimizacion, « slight » per adaptar unicament "
+"segon l'axe Y coma o fan los motors proprietaris de rendut de poliças "
+"ClearTipe de Microsoft, DirectWrite e los d'Adobe. Ignòra l'optimizacion "
+"nativa dins la poliça, genèra l'optimizacion de faiçon algoritmica. Utilizat "
+"per defaut en çò d'Ubuntu. Recomandat. La significacion de las valors « "
+"medium » e « full » depend del format de poliça (.ttf, .otf, .pfa/.pfb) e de "
+"la version installada de FreeType. Ensajan generalament d'adaptar los "
+"caractèrs en foncion dels axes X e Y (levat per .otf : axe Y solament). Aquò "
+"pòt causar de distorsions o un rendut incoerent en foncion de la qualitat de "
+"la poliça, de son format e de l'estat dels motors de police FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:292
 msgid "RGBA order"
@@ -1879,7 +1848,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:24
 msgid "Whether to disable the touchpad while typing"
-msgstr ""
+msgstr "Desactivar o pas lo pavat tactil pendent la picada"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
@@ -1984,11 +1953,6 @@ msgid "Click method"
 msgstr "Metòde de clic"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#, fuzzy
-#| msgid ""
-#| "How to generate software-emulated buttons, either disabled ('none'), "
-#| "through specific areas ('areas'), number of fingers ('fingers') or left "
-#| "as hardware default ('default')."
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2099,10 +2063,8 @@ msgid ""
 msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#, fuzzy
-#| msgid "Dwell click time"
 msgid "Double click time"
-msgstr "Relambi del clic per manteniment"
+msgstr "Interval de clic doble"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
 msgid "Length of a double click in milliseconds."
@@ -2333,10 +2295,6 @@ msgstr ""
 "Indica se cal suprimir los ancians fichièrs de l'escobilhièr automaticament"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:18
-#, fuzzy
-#| msgid ""
-#| "If TRUE, automatically remove files from the trash when they are older "
-#| "than 'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
@@ -2429,7 +2387,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:64
 msgid "Don’t allow applications to access the microphone"
-msgstr ""
+msgstr "Permetre pas a las aplicacions d'accedir al microfòn"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:65
 msgid "If TRUE, applications should not use the microphone."
@@ -2479,22 +2437,15 @@ msgid "Activate when idle"
 msgstr "Activar quand inactiu"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to activate the screensaver when the session is idle.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-#| "session idle-delay to 0 if you do not want to activate the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
 "DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
 "session idle-delay to 0 if you do not want to activate the screensaver."
 msgstr ""
 "Definir a TRUE (verai) per activar l'estalviador d'ecran quand la session es "
-"inactiva.\n"
-"\n"
-"DESCONSELHAT : aquesta clau es desconselhada e ignorada. Definir org.gnome."
-"desktop.session.idle-delay a 0 se volètz pas activar l'estalviador d'ecran."
+"inactiva. DESCONSELHAT : aquesta clau es desconselhada e ignorada. Definir "
+"org.gnome.desktop.session.idle-delay a 0 se volètz pas activar l'estalviador "
+"d'ecran."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
 msgid "Lock on activation"
@@ -2540,23 +2491,15 @@ msgid "Allow embedding a keyboard into the window"
 msgstr "Autorizar l'incorporacion d'un clavièr dins la fenèstra"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
 "command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Definissètz aquesta clau a VERAI per permetre l'integracion d'un clavièr "
-"dins la fenèstra al moment del desverrolhatge. La clau « keyboard_command » "
-"deu èsser definida amb la comanda apropriada.\n"
-"\n"
-"DESCONSELHAT : aquesta clau es desconselhada e ignorada."
+"Definissètz aquesta clau a TRUE per permetre l'integracion d'un clavièr dins "
+"la fenèstra al moment del desverrolhatge. La clau « keyboard_command » deu "
+"èsser definida amb la comanda apropriada. DESCONSELHAT : aquesta clau es "
+"desconselhada e ignorada."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
 msgid "Embedded keyboard command"
@@ -2589,22 +2532,15 @@ msgid "Allow logout"
 msgstr "Autorizar la desconnexion"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Definissètz aquesta clau a VERAI per ofrir una opcion dins lo dialòg de "
+"Definissètz aquesta clau a TRUE per ofrir una opcion dins lo dialòg de "
 "desverrolhatge per permetre la desconnexion aprèp un relambi. Lo relambi es "
-"especificat per la clau « logout_delay ».\n"
-"\n"
-"DESCONSELHAT : aquesta clau es desconselhada e ignorada."
+"especificat per la clau « logout_delay ». DESCONSELHAT : aquesta clau es "
+"desconselhada e ignorada."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
 msgid "Time before logout option"
@@ -3216,17 +3152,12 @@ msgid "Whether to resize with the right button"
 msgstr "Indica se lo boton dreit pòt servir a redimensionar"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:20
-#, fuzzy
-#| msgid ""
-#| "Set this to true to resize with the right button and show a menu with the "
-#| "middle button while holding down the key given in \"mouse-button-modifier"
-#| "\"; set it to false to make it work the opposite way around."
 msgid ""
 "Set this to true to resize with the right button and show a menu with the "
 "middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
-"Definissètz aquesta clau a verai per redimensionar amb lo boton dreit e "
+"Definissètz aquesta clau a TRUE per redimensionar amb lo boton dreit e "
 "afichar un menú amb lo boton mitan en quichant la tòca indicada per la clau "
 "« mouse-button-modifier » ; definissètz-la a fals dins lo cas contrari."
 
@@ -3317,8 +3248,8 @@ msgstr ""
 "La metre a false (fals) significa qu'una fenèstra serà pas remontada al "
 "moment d'un clic sus sa zòna client. Per la remonter, on deu clicar "
 "n'impòrta ont sus lo quadre de la fenèstra, o efectuar un Logo-clic "
-"n'impòrta ont sus la fenèstra. Aqueste mòde es utile quand on deu gerir mantuna "
-"fenèstras que se recobrisson."
+"n'impòrta ont sus la fenèstra. Aqueste mòde es utile quand on deu gerir "
+"mantuna fenèstras que se recobrisson."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:82
 msgid "Action on title bar double-click"
@@ -3412,12 +3343,6 @@ msgid "Automatically raises the focused window"
 msgstr "Plaça automaticament la fenèstra activa al primièr plan"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
-#, fuzzy
-#| msgid ""
-#| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-#| "the focused window will be automatically raised after a delay specified "
-#| "by the auto-raise-delay key. This is not related to clicking on a window "
-#| "to raise it, nor to entering a window during drag-and-drop."
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3564,8 +3489,8 @@ msgstr ""
 "e blanc ecran complet e « frame-flash » (flash fenèstra) que provòca un "
 "cluquejament de la barra de títol de l'aplicacion emissora.\n"
 "\n"
-"Se l'aplicacion qu'a emés l'eveniment sonòr es inconnue (coma es sovent "
-"lo cas per l'eveniment sonòr sistèma per defaut), la barra títol de "
+"Se l'aplicacion qu'a emés l'eveniment sonòr es inconnue (coma es sovent lo "
+"cas per l'eveniment sonòr sistèma per defaut), la barra títol de "
 "l'aplicacion que possedís lo focus cluqueja."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
@@ -3592,21 +3517,15 @@ msgid "The names of the workspaces"
 msgstr "Los noms dels espacis de trabalh"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
-#, fuzzy
-#| msgid ""
-#| "Defines the names that should be assigned to workspaces. If the list is "
-#| "too long for the current number of workspaces, names in excess will be "
-#| "ignored. If the list is too short, or includes empty names, missing "
-#| "values will be replaced with the default (\"Workspace N\")."
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
 "If the list is too short, or includes empty names, missing values will be "
 "replaced with the default (“Workspace N”)."
 msgstr ""
-"Definit los noms que deurián èsser atribuits aux espacis de trabalh. Se la "
-"lista es tròp longa pel nombre actuel d'espacis de trabalh, los noms en "
-"excès son ignorats. Se la lista es tròp corta o compòrta de noms voids, la "
+"Definit los noms que deurián èsser atribuits als espacis de trabalh. Se la "
+"lista es tròp longa pel nombre actual d'espacis de trabalh, los noms de "
+"sòbra son ignorats. Se la lista es tròp corta o compòrta de noms voids, la "
 "valors absentas son remplaçadas per la valor « Espaci de trabalh N » per "
 "defaut."
 
@@ -3637,14 +3556,6 @@ msgid "The maximum accuracy level of location."
 msgstr "Lo nivèl maximal de precision geografica."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:15
-#, fuzzy
-#| msgid ""
-#| "Configures the maximum level of location accuracy applications are "
-#| "allowed to see. Valid options are 'country', 'city', 'neighborhood', "
-#| "'street', and 'exact' (typically requires GPS receiver). Please keep in "
-#| "mind that this only controls what GeoClue will allow applications to see "
-#| "and they can find user's location on their own using network resources "
-#| "(albeit with street-level accuracy at best)."
 msgid ""
 "Configures the maximum level of location accuracy applications are allowed "
 "to see. Valid options are “country”, “city”, “neighborhood”, “street”, and "
