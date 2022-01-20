@@ -258,4 +258,11 @@ typedef enum
   G_DESKTOP_COLOR_SCHEME_PREFER_LIGHT,
 } GDesktopColorScheme;
 
+typedef enum
+{
+  G_DESKTOP_POINTING_STICK_SCROLL_METHOD_DEFAULT,
+  G_DESKTOP_POINTING_STICK_SCROLL_METHOD_NONE,
+  G_DESKTOP_POINTING_STICK_SCROLL_METHOD_ON_BUTTON_DOWN
+} GDesktopPointingStickScrollMethod;
+
 #endif /* __gdesktop_enums_h__ */

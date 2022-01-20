@@ -5,6 +5,7 @@
     <child name="keyboard" schema="org.gnome.desktop.peripherals.keyboard"/>
     <child name="mouse" schema="org.gnome.desktop.peripherals.mouse"/>
     <child name="trackball" schema="org.gnome.desktop.peripherals.trackball"/>
+    <child name="pointingstick" schema="org.gnome.desktop.peripherals.pointingstick"/>
     <child name="tablet" schema="org.gnome.desktop.peripherals.tablet"/>
     <child name="touchscreen" schema="org.gnome.desktop.peripherals.touchscreen"/>
   </schema>
@@ -239,6 +240,24 @@
       <default>false</default>
       <summary>Emulate middle click</summary>
       <description>Set this to TRUE to enable middle click during simultaneous left and right click.</description>
+    </key>
+  </schema>
+  <schema id="org.gnome.desktop.peripherals.pointingstick" path="/org/gnome/desktop/peripherals/pointingstick/">
+    <key name="speed" type="d">
+      <default>0</default>
+      <summary>Pointer speed</summary>
+      <description>Pointer speed for pointing sticks. Accepted values are in the [-1..1] range (from “unaccelerated” to “fast”). A value of 0 is the system default.</description>
+      <range min="-1" max="1"/>
+    </key>
+    <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
+      <default>'default'</default>
+      <summary>Acceleration profile</summary>
+      <description>Acceleration profile used for the pointing stick. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile, flat (“flat”), which accelerates by a device specific constant factor derived from the configured speed, or adaptive (“adaptive”) which adapts the acceleration depending on the movement. If the pointing stick doesn’t support the configured profile, “default” will be used.</description>
+    </key>
+    <key name="scroll-method" enum="org.gnome.desktop.GDesktopPointingStickScrollMethod">
+      <default>'default'</default>
+      <summary>Scrolling method</summary>
+      <description>Scrolling method used for pointing sticks. The scrolling method can be set to either default (“default”) which uses the default method, none (“none”), which disables scrolling, or middle-button (“on-button-down”) which enables scrolling whilst the middle button is held down.</description>
     </key>
   </schema>
 </schemalist>
