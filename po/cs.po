@@ -1,15 +1,15 @@
 # Czech translation for gsettings-desktop-schemas.
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021.
+# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-08-26 10:55+0200\n"
+"POT-Creation-Date: 2022-01-19 17:37+0000\n"
+"PO-Revision-Date: 2022-01-28 07:52+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1385,6 +1385,19 @@ msgstr ""
 "(nejčastější), „bgr“ pro modrou vlevo, „vrgb“ pro červenou nahoře, „vbgr“ "
 "pro červenou dole."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+msgid "Color scheme"
+msgstr "Schéma barev"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"Upřednostňované schéma barev pro uživatelské rozhraní. Platné hodnoty jsou "
+"„default“ (výchozí), „prefer-dark“ (upřednostnit tmavé) a „prefer-light“ "
+"(upřednostnit světlé)."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Zakázat příkazový řádek"
@@ -2269,6 +2282,20 @@ msgstr ""
 "Když je nastaveno na „lockscreen“, budou nová zařízení USB odmítána, jen "
 "když je právě uzamknutá obrazovka. Když je nastaveno na „always“, budou "
 "všechna nová zařízení USB odmítána vždy."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Zda je povolena soukromí obrazovky"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Pokud má základní hardware podporu soukromí obrazovky a zároveň je zapnuté "
+"toto nastavení, budou panely podporující tuto technologii zastíněny před "
+"pohledem z boku."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -3496,4 +3523,3 @@ msgid ""
 msgstr ""
 "Port na počítači poskytujícím proxy a definovaném v klíči „/system/proxy/"
 "socks/host“."
-
