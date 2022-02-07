@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-01-19 17:37+0000\n"
-"PO-Revision-Date: 2022-01-21 11:33+0100\n"
+"POT-Creation-Date: 2022-02-07 10:21+0000\n"
+"PO-Revision-Date: 2022-02-07 13:45+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -744,6 +744,7 @@ msgid "Picture URI"
 msgstr "URI de la imagen"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -752,46 +753,51 @@ msgstr ""
 "URI que usar para la imagen de fondo. Tenga en cuenta que el «backend» sólo "
 "soporta URI locales (file://)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+#| msgid "Picture URI"
+msgid "Picture URI (dark)"
+msgstr "URI de la imagen (oscura)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Opacidad de la imagen"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Opacidad con la cual dibujar el tapiz."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Color primario"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Color superior o izquierdo cuando se dibujan los degradados, o el color "
 "sólido."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Color secundario"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Color inferior o derecho cuando se dibujan los degradados, no usado para "
 "color sólido."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Tipo de sombreado de colores"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -800,11 +806,11 @@ msgstr ""
 "Cómo sombrear el color de fondo. Los valores posibles son «horizontal», "
 "«vertical», y «solid»."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Hacer que el gestor de archivos gestione el escritorio"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Si es cierto, el gestor de archivos dibujará los iconos en el escritorio."
@@ -2372,7 +2378,6 @@ msgstr ""
 "rechazarán todos los dispositivos USB."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether the privacy screen is enabled"
 msgstr "Indica si la pantalla de privacidad está activada"
 
