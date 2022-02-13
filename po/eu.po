@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017.
-# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021.
+# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021, 2022.
 #
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2021-12-13 11:31+0000\n"
-"PO-Revision-Date: 2021-12-24 10:00+0100\n"
+"POT-Creation-Date: 2022-02-07 10:21+0000\n"
+"PO-Revision-Date: 2022-02-13 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -617,59 +617,64 @@ msgid "Picture URI"
 msgstr "Irudiaren URIa"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
 msgstr "URIa atzeko planoko irudiarentzat erabiltzeko. Jakin ezazu atzeko planoak URI lokalak (file://) soilik onartzen dituela."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Irudiaren URIa (iluna)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Irudiaren opakutasuna"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Atzeko planoaren irudia marrazteko opakutasuna."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Lehen mailako kolorea"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Ezkerreko edo goiko kolorea gradienteak marraztean, edo kolore lisoa."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Bigarren mailako kolorea"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "Eskuineko edo beheko kolorea gradienteak marraztean; ez da erabiltzen kolore lisoentzat."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Koloreen itzaldura-mota"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
 msgstr "Nola itzaleztatu atzeko planoaren kolorea. Balio erabilgarriak: “horizontal” (horizontala), “vertical” (bertikala), eta “solid” (solidoa)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Fitxategi-kudeatzaileak mahaigaina kudeatuko duen edo ez"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "'true' (egia) gisa ezartzen bada, fitxategi-kudeatzaileak mahaigaineko ikonoak marraztuko ditu."
 
@@ -1959,6 +1964,17 @@ msgid ""
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
 msgstr "Aukera horretan “lockscreen” (blokeo-pantaila) ezarrita badago, blokeo-pantaila dagoenean soilik baztertuko dira USB gailu berriak; “always” (beti) ezarrita badago, URB gailu berri guztiak beti baztertuko dira."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Pribatutasun-pantaila gaituta dagoen ala ez"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr "Azpiko hardwareak pribatutasun-pantailak onartzen baditu eta ezarpen hau gaituta badago, teknologia hori onartzen duten panelak ilundu egingo dira alboko ikuspegitik."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
