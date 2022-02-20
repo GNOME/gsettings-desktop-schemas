@@ -2,15 +2,15 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Žygimantas Beručka <zygis@gnome.org>, 2012.
-# Aurimas Černius <aurisc4@gmail.com>, 2012-2021.
+# Aurimas Černius <aurisc4@gmail.com>, 2012-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-12-13 11:31+0000\n"
-"PO-Revision-Date: 2021-12-14 13:57+0200\n"
+"POT-Creation-Date: 2022-02-07 10:21+0000\n"
+"PO-Revision-Date: 2022-02-20 15:12+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -704,6 +704,7 @@ msgid "Picture URI"
 msgstr "Paveikslėlio URI"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -712,44 +713,49 @@ msgstr ""
 "Fono paveikslėlio URI. Pastebėtina, kad realizacija palaiko tik vietinius "
 "(file://) URI."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+#| msgid "Picture URI"
+msgid "Picture URI (dark)"
+msgstr "Paveikslėlio URI (tamsus)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Paveikslėlio permatomumas"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Permatomumas, su kuriuo piešiamas fono paveikslėlis."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Pirminė spalva"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Kairės arba apačios spalva piešiant gradientus, arba vientisa spalva."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Antrinė spalva"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Dešinės arba apačios spalva piešiant gradientą, nenaudojama su vientisa "
 "spalva."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Spalvos šešėlio tipas"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -758,11 +764,11 @@ msgstr ""
 "Kaip šešėliuoti fono spalvą. Galimos reikšmės yra „horizontal“, „vertical“ "
 "ir „solid“."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Leisti failų tvarkytuvei valdyti darbalaukį"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Jei reikšmė teigiama, failų tvarkytuvė rodo piktogramas ant darbalaukio."
@@ -1370,7 +1376,6 @@ msgstr ""
 "mėlynai kairėje, „vrgb“ raudonai viršuje, „vbgr“ raudonai apačioje."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:299
-#| msgid "Cursor theme"
 msgid "Color scheme"
 msgstr "Spalvų schema"
 
@@ -2251,6 +2256,20 @@ msgstr ""
 "Jei nustatyta „lockscreen“, tuomet tik kai ekranas užrakintas nauji USB "
 "įrenginiai bus atmetami; jei nustatyta „always“, visi nauji USB įrenginiai "
 "visada bus atmetami."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether the privacy screen is enabled"
+msgstr "Ar įjungtas privatus ekranas"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Jei aparatūra turi privataus ekrano palaikymą ir ši nuostata yra įjungta, "
+"šią technologiją palaikantys skydeliai bus uždengti nuo žvilgsnio iš šono."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
