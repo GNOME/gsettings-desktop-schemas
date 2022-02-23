@@ -8,15 +8,15 @@
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015.
 # Sabri Ünal <libreajans@gmail.com>, 2014, 2019, 2021.
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017-2019.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2021.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-09-09 21:56+0300\n"
+"POT-Creation-Date: 2022-02-07 10:21+0000\n"
+"PO-Revision-Date: 2022-02-23 12:39+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -727,6 +727,7 @@ msgid "Picture URI"
 msgstr "Resim URI’si"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -735,44 +736,48 @@ msgstr ""
 "Arka plan görüntüsü için kullanılacak URI. Artalanda çalışan uygulamanın "
 "yalnızca yerel (file://) URI’lerini desteklediğine dikkat ediniz."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Resim URI’si (karanlık)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Resim Işıkgeçirmezliği"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Arka plan resminin çizileceği matlık."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Birincil Renk"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Geçişleri çizerken kullanılacak Sol ya da Üst renk ya da sabit renk."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "İkincil Renk"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Geçişleri çizerken kullanılacak Sağ ya da Alt renk, sabit renk için "
 "kullanılmaz."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Renk Gölgelendirme Türü"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -781,11 +786,11 @@ msgstr ""
 "Arka plan renginin nasıl gölgelendirileceği. Olası değerler "
 "“horizontal” (yatay), “vertical” (dikey)  ve “solid” (sabit)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Masaüstünü dosya yöneticisi idare etsin"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Eğer seçiliyse, sonrasında dosya yöneticisi masaüstüne simgeleri çizecek."
@@ -1401,6 +1406,19 @@ msgstr ""
 "“rgba” olarak atandığında kullanılır. Geçerli değerler: “rgb” - kırmızı "
 "solda (en yaygın), “bgr” - mavi solda. “vrgb”- kırmızı yukarıda. “vbgr” - "
 "kırmızı aşağıda."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+msgid "Color scheme"
+msgstr "Renk şeması"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"Kullanıcı arayüzü için yeğlenen renk şeması. Geçerli değerler şunlardır: "
+"“default” (öntanımlı), “prefer-dark” (karanlığı yeğle), “prefer-"
+"light” (aydınlığı yeğle)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -2286,6 +2304,19 @@ msgstr ""
 "“lockscreen” (kilit ekranı) olarak ayarlanırsa, yalnızca kilit ekranında "
 "yeni USB aygıtları reddedilecek; “always” (her zaman) olarak ayarlanırsa, "
 "tüm yeni USB aygıtları reddedilecektir."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Gizlilik ekranının etkin olup olmadığı"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Eğer temeldeki donanım gizlilik ekranını destekliyorsa ve bu ayar etkinse, "
+"bu teknolojiyi destekleyen paneller yandan bakışta belirsizleşecektir."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
