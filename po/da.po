@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2016.
 # Joe Hansen <joedalton2@yahoo.dk>, 2017.
-# Alan Mortensen <alanmortensen.am@gmail.com>, 2019-21.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2019-22.
 # scootergrisen, 2019.
 #
 # tablet -> tegneplade (med mindre det er åbenlyst, at der er tale om en tablet)
@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-09-16 17:45+0200\n"
+"POT-Creation-Date: 2022-02-07 10:21+0000\n"
+"PO-Revision-Date: 2022-02-27 16:22+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -713,6 +713,7 @@ msgid "Picture URI"
 msgstr "Billed-URI"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -721,46 +722,50 @@ msgstr ""
 "URI, der skal bruges til baggrundsbilledet. Bemærk at motoren kun "
 "understøtter lokale (file://) URI'er."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Billed-URI (mørk)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Uigennemsigtighed for billede"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Uigennemsigtighed hvormed baggrundsbilledet tegnes."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Primær farve"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Venstre eller øverste farve når der tegnes gradienter, eller farven i "
 "tilfælde af ensfarvet."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Sekundær farve"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Højre eller nederste farve når der tegnes gradienter; bruges ikke hvis "
 "ensfarvet."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Farveskyggetype"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -769,11 +774,11 @@ msgstr ""
 "Hvordan baggrundsfarven skyggelægges. Mulige værdier er “horizontal”, "
 "“vertical” og “solid”."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Få filhåndteringen til at håndtere skrivebordet"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "Hvis slået til, vil filhåndteringen tegne ikonerne på skrivebordet."
 
@@ -1359,14 +1364,14 @@ msgstr ""
 "Den type af hinting som skal bruges til at gengive skrifttyper. Mulige "
 "værdier er: “none” for ingen hinting og “slight” for kun Y-aksen, ligesom "
 "Microsofts ClearType, DirectWrite og Adobes proprietære "
-"skrifttypegengivelsesmotor. Ignorerer integreret hinting inden i "
-"skrifttypen og genererer hints ved hjælp af en algoritme. Bruges som "
-"standard af Ubuntu. Anbefales. Betydningen af “medium” og “full” afhænger af "
-"skrifttypeformatet (.ttf, .otf, .pfa/.pdb) og den installerede version af "
-"FreeType. De forsøger typisk at tilpasse glyffer på både X- og Y-akserne "
-"(undtagen for .otf: kun Y) Dette kan føre til forvrængning og/eller "
-"inkonsistent gengivelse afhængig af skifttypens kvalitet, skrifttypens format "
-"og tilstanden af FreeTypes skrifttypemotorer."
+"skrifttypegengivelsesmotor. Ignorerer integreret hinting inden i skrifttypen "
+"og genererer hints ved hjælp af en algoritme. Bruges som standard af Ubuntu. "
+"Anbefales. Betydningen af “medium” og “full” afhænger af skrifttypeformatet "
+"(.ttf, .otf, .pfa/.pdb) og den installerede version af FreeType. De forsøger "
+"typisk at tilpasse glyffer på både X- og Y-akserne (undtagen for .otf: kun "
+"Y) Dette kan føre til forvrængning og/eller inkonsistent gengivelse afhængig "
+"af skifttypens kvalitet, skrifttypens format og tilstanden af FreeTypes "
+"skrifttypemotorer."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:292
 msgid "RGBA order"
@@ -1382,6 +1387,19 @@ msgstr ""
 "er sat til “rgba”. Mulige værdier er: “rgb” for rød til venstre (den mest "
 "almindelige), “bgr” for blå til venstre, “vrgb” for rød øverst, “vbgr” for "
 "rød nederst."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+msgid "Color scheme"
+msgstr "Farveskema"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"Det foretrukne farveskema til brugergrænsefladen. Gyldige værdier er "
+"“default” (standard), “prefer-dark” (foretræk mørk), “prefer-"
+"light” (foretræk lys)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -2262,6 +2280,21 @@ msgid ""
 msgstr ""
 "Hvis sat til “lockscreen”, vil nye USB-enheder kun blive afvist, når skærmen "
 "er låst. Hvis sat til “always”, vil alle nye USB-enheder altid blive afvist."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Om privatlivsskærmen er aktiveret"
+
+# panels skal nok forstås som en skærm (flat panel)
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Har den underliggende hardware understøttelse af privatlivsskærm, og er "
+"indstillingen aktiveret, så vil indholdet på skærme, der understøtter "
+"denne teknologi, ikke være synligt fra siden."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
