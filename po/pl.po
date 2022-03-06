@@ -1,21 +1,21 @@
 # Polish translation for gsettings-desktop-schemas.
-# Copyright © 2002-2021 the gsettings-desktop-schemas authors.
+# Copyright © 2002-2022 the gsettings-desktop-schemas authors.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 2002-2003.
 # Artur Flinta <aflinta@at.kernel.pl>, 2003-2005.
 # Marek Stępień <marcoos@aviary.pl>, 2007.
 # Wadim Dziedzic <wdziedzic@aviary.pl>, 2007.
 # Tomasz Dominikowski <dominikowski@gmail.com>, 2008-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2010-2021.
-# Aviary.pl <community-poland@mozilla.org>, 2007-2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2010-2022.
+# Aviary.pl <community-poland@mozilla.org>, 2007-2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-09-11 15:40+0200\n"
+"POT-Creation-Date: 2022-03-06 12:19+0000\n"
+"PO-Revision-Date: 2022-03-06 13:33+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -72,6 +72,14 @@ msgid ""
 msgstr ""
 "Ten klucz zastępuje ukrywanie karetki tekstu w niemodyfikowalnym tekście "
 "w programach."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "Wysoki kontrast"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
+msgid "Whether to use the high contrast style."
+msgstr "Czy używać stylu o wysokim kontraście."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -738,6 +746,7 @@ msgid "Picture URI"
 msgstr "Adres URI obrazu"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -746,44 +755,48 @@ msgstr ""
 "Adres URI obrazu tła. Proszę zauważyć, że mechanizm obsługuje tylko lokalne "
 "adresy URI (file://)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Adres URI (ciemnego) obrazu"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Nieprzezroczystość obrazu"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Nieprzezroczystość, z jaką rysować obraz tła."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Kolor pierwszoplanowy"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Lewy lub górny kolor, jeśli rysowane są gradienty, albo jeden kolor."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Kolor drugoplanowy"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Prawy lub dolny kolor, jeśli rysowane są gradienty. Nie jest używane dla "
 "pojedynczego koloru."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Typ cieniowania koloru"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -792,11 +805,11 @@ msgstr ""
 "Jak cieniować kolor tła. Możliwe wartości to „horizontal”, „vertical” "
 "i „solid”."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Czy menedżer plików ma obsługiwać pulpit"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Jeśli jest ustawione na wartość „true”, to menedżer plików będzie wyświetlał "
@@ -1424,6 +1437,19 @@ msgstr ""
 "wygładzania krawędzi „rgba”. Możliwe wartości: „rgb” dla czerwonego po lewej "
 "stronie (najczęściej spotykane), „bgr” dla niebieskiego po lewej, „vrgb” dla "
 "czerwonego na górze, „vbgr” dla czerwonego na dole."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+msgid "Color scheme"
+msgstr "Schemat kolorów"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"Preferowany schemat kolorów interfejsu użytkownika. Prawidłowe wartości: "
+"„default” (domyślny), „prefer-dark” (preferowanie ciemnego), „prefer-light” "
+"(preferowanie jasnego)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -2331,6 +2357,19 @@ msgstr ""
 "Ustawienie „lockscreen” spowoduje, że urządzenia USB będą odrzucane tylko, "
 "kiedy ekran blokady jest aktywny, a ustawienie „always” spowoduje odrzucanie "
 "wszystkich nowych urządzeń USB w każdym stanie systemu."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Określa, czy prywatny ekran jest włączony"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Jeśli używany sprzęt obsługuje prywatny ekran i to ustawienie jest włączone, "
+"to obraz na panelach obsługujących tę technologię nie będzie widoczny z boku."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
