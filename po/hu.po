@@ -1,17 +1,17 @@
 # Hungarian translation for gsettings-desktop-schemas.
-# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021 Free Software Foundation, Inc.
+# Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2012, 2016, 2017.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2022.
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-09-12 01:32+0200\n"
+"POT-Creation-Date: 2022-03-06 12:19+0000\n"
+"PO-Revision-Date: 2022-03-11 01:53+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -68,6 +68,15 @@ msgid ""
 msgstr ""
 "Ez a kulcs felülbírálja a szövegkurzor elrejtését az alkalmazásokban lévő "
 "nem szerkeszthető szövegben."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "Nagy kontraszt"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
+#| msgid "Whether to resize with the right button"
+msgid "Whether to use the high contrast style."
+msgstr "A nagy kontrasztú stílus legyen-e használva."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -736,6 +745,7 @@ msgid "Picture URI"
 msgstr "Kép URI"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -744,46 +754,51 @@ msgstr ""
 "A háttérképként használandó URI. Ne feledje, hogy a háttérprogram csak helyi "
 "(file://) URI-kat támogat."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+#| msgid "Picture URI"
+msgid "Picture URI (dark)"
+msgstr "Kép URI (sötét)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Kép átlátszatlansága"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "A háttérkép rajzolásához használandó átlátszatlanság."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Elsődleges szín"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Színátmenet rajzolásánál a bal vagy a felső szín, vagy az egyszínű háttér "
 "színe."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Másodlagos szín"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén "
 "nem használt."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Színárnyalat típusa"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -792,11 +807,11 @@ msgstr ""
 "Hogyan árnyalja a háttérszínt. A lehetséges értékek „vízszintes”, "
 "„függőleges” és „homogén”."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Kezelje-e a fájlkezelő az asztalt"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Ha ez igazra van állítva, akkor a fájlkezelő jeleníti meg az asztal ikonjait."
@@ -1407,6 +1422,19 @@ msgstr ""
 "(leggyakoribb), „brg”, ha a kék van balra, „vrgb”, ha a vörös van a tetején, "
 "„vgbr”, ha a vörös van az alján."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#| msgid "Cursor theme"
+msgid "Color scheme"
+msgstr "Színséma"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"A felhasználói felület előnyben részesített színsémája. Az érvényes értékek: "
+"„default” (alapértelmezett), „prefer-dark” (sötét), „prefer-light” (világos)."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Parancssor letiltása"
@@ -1521,7 +1549,6 @@ msgstr ""
 "módosításában."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
-#| msgid "Disable user switching"
 msgid "Disable password showing"
 msgstr "Jelszó megjelenítésének letiltása"
 
@@ -2312,6 +2339,21 @@ msgstr ""
 "Ha „lockscreen” értékre van állítva, akkor csak a zárolt képernyőn lesznek "
 "az USB-s eszközök elutasítva. Ha „always” az értéke, akkor az új USB-s "
 "eszközök mindig el lesznek utasítva."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether the privacy screen is enabled"
+msgstr "Az adatvádelem képernyő engedélyezve van-e"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Ha az alapul szolgáló hardver rendelkezik adatvédelmi képernyő támogatással,"
+" és ez a beállítás engedélyezve van, akkor a technológiát támogató panelek el"
+" lesznek takarva az oldalnézet elől."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
