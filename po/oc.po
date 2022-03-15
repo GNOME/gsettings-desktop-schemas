@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-01-02 11:04+0000\n"
-"PO-Revision-Date: 2022-01-16 11:58+0100\n"
+"POT-Creation-Date: 2022-03-06 12:19+0000\n"
+"PO-Revision-Date: 2022-03-15 20:38+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-04-19 19:12+0000\n"
 "X-Project-Style: gnome\n"
 
@@ -68,6 +68,16 @@ msgid ""
 msgstr ""
 "Aquesta clau surcarga l'amagatge del cursor de tèxte dins lo tèxte non "
 "editable dins las aplicacions."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "Fòrt contraste"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
+#, fuzzy
+#| msgid "Whether to resize with the right button"
+msgid "Whether to use the high contrast style."
+msgstr "Indica se lo boton dreit pòt servir a redimensionar"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -751,6 +761,7 @@ msgid "Picture URI"
 msgstr "URI de l'imatge"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -759,45 +770,49 @@ msgstr ""
 "URI d'utilizar per l'imatge de rèireplan. Notatz que lo motor pren en carga "
 "unicament los URI locals (file://)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "URI de l'imatge (escur)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Opacitat de l'imatge"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Opacitat amb laquina dessenhar l'imatge de rèireplan."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Color primària"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Color d'esquèrra o del naut quand se dessenha de degradats, o color unida."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Color segondària"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Color de dreita o de bas quand se dessenha de degradats, pas utilizada per "
 "la color unida."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Tipe de color d'ombratge"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -806,11 +821,11 @@ msgstr ""
 "Cossí far un degradat de color de rèireplan. Las valors possiblas son « "
 "horizontal », « vertical » e « solid » (color unida)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Far en sorte que lo gestionari de fichièrs gerís lo burèu"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Se definit a true, alara lo gestionari de fichièrs dessenha las icònas sul "
@@ -882,8 +897,8 @@ msgstr "Los prètzfaits an besonh d'un terminal"
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:45
 msgid "Whether the default tasks application needs a terminal to run."
 msgstr ""
-"Indica se l'aplicacion de tâches per defaut a besonh d'un terminal per être "
-"lancée."
+"Indica se l'aplicacion de prètzfaches per defaut a besonh d'un terminal per "
+"se lançar."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:53
 msgid "Terminal application"
@@ -1258,7 +1273,7 @@ msgstr "Talha del cursor"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:188
 msgid "Size of the cursor used as cursor theme."
-msgstr "Taille del cursor utilizat coma tèma de cursor."
+msgstr "Talha del cursor utilizat coma tèma de cursor."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:192
 msgid "Timeout before click repeat"
@@ -1421,6 +1436,17 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
+"Tipe d'optimizacion utilizat pel rendut de las poliças. Las valors possiblas "
+"son : « none » per cap d'optimizacion, « slight » per adaptar unicament "
+"segon l'axe Y coma o fan los motors proprietaris de rendut de poliças "
+"ClearTipe de Microsoft, DirectWrite e los d'Adobe. Ignòra l'optimizacion "
+"nativa dins la poliça, genèra l'optimizacion de faiçon algoritmica. Utilizat "
+"per defaut en çò d'Ubuntu. Recomandat. La significacion de las valors « "
+"medium » e « full » depend del format de poliça (.ttf, .otf, .pfa/.pfb) e de "
+"la version installada de FreeType. Ensajan generalament d'adaptar los "
+"caractèrs en foncion dels axes X e Y (levat per .otf : axe Y solament). Aquò "
+"pòt causar de distorsions o un rendut incoerent en foncion de la qualitat de "
+"la poliça, de son format e de l'estat dels motors de police FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:292
 msgid "RGBA order"
@@ -1543,13 +1569,13 @@ msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
-"Empêche l'utilizaire de modificar les comptes utilizaires. Per defaut, il es "
-"permis d'apondre e de suprimir de’utilizaires e tanben de modificar los "
+"Empachar l'utilizaire de modificar los comptes utilizaires. Per defaut, es "
+"permés d'apondre e de suprimir utilizaires e tanben de modificar los "
 "paramètres dels autres utilizaires."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
 msgid "Mount removable storage devices as read-only"
-msgstr ""
+msgstr "Montar los periferics d'emmagazinatge amovible en mòde lectura-sòla"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
 msgid ""
@@ -1564,6 +1590,7 @@ msgstr "Desactivar l’afichatge del senhal"
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
 msgid "Disable the \"Show Password\" menu item in password entries."
 msgstr ""
+"Desactivar l’element de menú « Afichar lo senhal » de las entradas de senhal."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
@@ -1695,7 +1722,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:47
 msgid "Enable sound alerts"
-msgstr "Activar les alèrtas sonòras"
+msgstr "Activar las alèrtas sonòras"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:48
 msgid "Whether notifications should be accompanied by sound alerts."
@@ -2190,10 +2217,6 @@ msgid "Controls visibility of personal information"
 msgstr "Contraròtla la visibilitat de las informacions personalas"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:7
-#, fuzzy
-#| msgid ""
-#| "If set to true, the system will make an effort to not divulge the user's "
-#| "identity on screen or on the network."
 msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
@@ -2347,6 +2370,19 @@ msgid ""
 "If set to “lockscreen”, only when the lock screen is present new USB devices "
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
+msgstr ""
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+#, fuzzy
+#| msgid "Whether edge scrolling is enabled"
+msgid "Whether the privacy screen is enabled"
+msgstr "Indica se lo desfilament lateral es activat"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
 msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
@@ -3380,11 +3416,11 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
-"Certaines applications ignorent las especificacions de telle sorte qu'aquò "
-"provòca des dysfoncionaments del gestionari de fenèstras. Aquesta opcion "
-"place lo gestionari dins un mòde rigorosament exact que provesís una "
-"interface utilizaire plus consistante tant que l'utilizaire n'a pas besonh "
-"d'executar d’aplicacions que se comportent mal."
+"Certanas aplicacions ignoran las especificacions qu'aquò provòca des "
+"disfoncionaments del gestionari de fenèstras. Aquesta opcion place lo "
+"gestionari dins un mòde rigorosament exacte que provesís una interfàcia "
+"utilizaire mai consistenta tant que l'utilizaire n'a pas besonh d'executar "
+"des aplicacions que se compòrtan mal."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
 msgid "The names of the workspaces"
