@@ -1,6 +1,6 @@
 project(
   'gsettings-desktop-schemas', 'c',
-  version: '42.rc',
+  version: '42.0',
   default_options: [
     'warning_level=2'
   ],
