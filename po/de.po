@@ -8,7 +8,7 @@
 # Wolfgang Stöggl <c72578@yahoo.de>, 2013-2014, 2020.
 # Tim Sabsch <tim@sabsch.com>, 2018, 2020.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2020, 2021.
-# Philipp Kiemle <philipp.kiemle@gmail.com>, 2020-2021.
+# Philipp Kiemle <philipp.kiemle@gmail.com>, 2020-2022.
 #
 #
 msgid ""
@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2021-08-25 13:31+0000\n"
-"PO-Revision-Date: 2021-09-03 00:40+0200\n"
+"POT-Creation-Date: 2022-03-06 12:19+0000\n"
+"PO-Revision-Date: 2022-03-15 22:53+0100\n"
 "Last-Translator: Philipp Kiemle <philipp.kiemle@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -75,6 +75,14 @@ msgid ""
 msgstr ""
 "Dieser Schlüssel aktiviert die Anzeige der Einfügemarke in nicht-"
 "bearbeitbarem Text in Anwendungen."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "Hoher Kontrast"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
+msgid "Whether to use the high contrast style."
+msgstr "Legt fest, ob der Stil »Hoher Kontrast« genutzt werden soll."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -763,6 +771,7 @@ msgid "Picture URI"
 msgstr "Bildadresse"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
+#: schemas/org.gnome.desktop.background.gschema.xml.in:24
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
@@ -771,46 +780,50 @@ msgstr ""
 "Adresse des Hintergrundbildes. Beachten Sie, dass das Backend nur lokale "
 "Adressen (file://) unterstützt."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:24
+#: schemas/org.gnome.desktop.background.gschema.xml.in:23
+msgid "Picture URI (dark)"
+msgstr "Bildadresse (dunkel)"
+
+#: schemas/org.gnome.desktop.background.gschema.xml.in:32
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
 msgid "Picture Opacity"
 msgstr "Deckkraft des Bildes"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:25
+#: schemas/org.gnome.desktop.background.gschema.xml.in:33
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
 msgid "Opacity with which to draw the background picture."
 msgstr "Deckkraft, mit der das Hintergrundbild gezeichnet wird."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:31
+#: schemas/org.gnome.desktop.background.gschema.xml.in:39
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Primary Color"
 msgstr "Erste Farbe"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:32
+#: schemas/org.gnome.desktop.background.gschema.xml.in:40
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Linke bzw. obere Farbe beim Zeichnen eines Farbverlaufs, oder die bei einem "
 "einfarbigen Hintergrund verwendete Farbe."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:38
+#: schemas/org.gnome.desktop.background.gschema.xml.in:46
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Secondary Color"
 msgstr "Zweite Farbe"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:39
+#: schemas/org.gnome.desktop.background.gschema.xml.in:47
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Rechte bzw. untere Farbe beim Zeichnen eines Farbverlaufs. Bei einem "
 "einfarbigen Hintergrund wird diese Farbe nicht verwendet."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:45
+#: schemas/org.gnome.desktop.background.gschema.xml.in:53
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Color Shading Type"
 msgstr "Typ der Farbschattierung"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:46
+#: schemas/org.gnome.desktop.background.gschema.xml.in:54
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
@@ -819,11 +832,11 @@ msgstr ""
 "Legt fest, wie die Hintergrundfarbe schattiert werden soll. Zulässige Werte: "
 "»horizontal«, »vertical« und »solid« (einfarbig)."
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:53
+#: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
 msgstr "Den Dateiverwalter die Arbeitsfläche verwalten lassen"
 
-#: schemas/org.gnome.desktop.background.gschema.xml.in:54
+#: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Falls aktiviert, zeichnet der Dateiverwalter die Symbole auf der "
@@ -1449,6 +1462,18 @@ msgstr ""
 "verwendet, wenn die Kantenglättung auf »rgba« gesetzt ist. Mögliche Werte "
 "sind »rgb« für rot links (am weitesten verbreitet), »bgr« für blau links, "
 "»vrgb« für rot oben und »vbgr« für rot unten."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+msgid "Color scheme"
+msgstr "Farbschema"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"Das bevorzugte Farbschema für die Benutzeroberfläche. Erlaubte Werte sind "
+"»default«, »prefer-dark« und »prefer-light«."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -2375,6 +2400,20 @@ msgstr ""
 "Falls auf »lockscreen« festgelegt, werden neue USB-Geräte nur abgewiesen, "
 "während der Bildschirm gesperrt ist. Falls auf »always« festgelegt, werden "
 "alle neuen USB-Geräte immer abgewiesen."
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
+msgid "Whether the privacy screen is enabled"
+msgstr "Legt fest, ob der Blickschutz-Bildschirm aktiviert ist"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"Wenn die zugrunde liegende Hardware einen Blickschutz-Bildschirm unterstützt "
+"und diese Einstellung aktiviert ist, werden Panels, die diese Technologie "
+"unterstützen, von der Seite schlechter zu betrachten sein."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
