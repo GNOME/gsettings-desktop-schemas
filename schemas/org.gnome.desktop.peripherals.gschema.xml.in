@@ -54,6 +54,11 @@
       <summary>Touchpad button orientation</summary>
       <description>Swap left and right mouse buttons for left-handed mice with “left”, “right” for right-handed, “mouse” to follow the mouse setting.</description>
     </key>
+    <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
+      <default>'default'</default>
+      <summary>Acceleration profile</summary>
+      <description>Acceleration profile used for connected touchpads. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile for each device, flat (“flat”), which accelerates by a device specific constant factor derived from the configured pointer speed, or adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement. If a touchpad doesn’t support the configured profile, “default” will be used.</description>
+    </key>
     <key name="speed" type="d">
       <default>0</default>
       <summary>Pointer speed</summary>
