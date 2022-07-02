@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-03-06 12:19+0000\n"
-"PO-Revision-Date: 2022-03-07 18:41+0200\n"
+"POT-Creation-Date: 2022-06-28 20:04+0000\n"
+"PO-Revision-Date: 2022-07-02 21:45+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 40.0\n"
 "X-Project-Style: gnome\n"
 
@@ -74,7 +74,6 @@ msgid "High contrast"
 msgstr "Didelis kontrastas"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
-#| msgid "Whether to resize with the right button"
 msgid "Whether to use the high contrast style."
 msgstr "Ar naudoti didelio kontrasto stilių."
 
@@ -903,11 +902,11 @@ msgid ""
 msgstr ""
 "Galimų įvesties šaltinių identifikatorių sąrašas. Kiekvienas šaltinis  "
 "nurodomas kaip dviejų eilučių junginys. Pirmoji eilutė yra tipas, gali būti "
-"„xkb“ arba „ibus“. „xkb“ šaltiniams antroji eilutė yra „xkb_layout"
-"+xkb_variant“ arba tiesiog „xkb_layout“, jei nereikalingas XKB variantas. "
-"„ibus“ šaltiniams antroji eilutė yra IBus variklio pavadinimas. Tuščias "
-"sąrašas reiškia, kad dabartinis X serverio išdėstymas yra XKB ir variantas "
-"nebus paliestas bei IBus nebus naudojama."
+"„xkb“ arba „ibus“. „xkb“ šaltiniams antroji eilutė yra "
+"„xkb_layout+xkb_variant“ arba tiesiog „xkb_layout“, jei nereikalingas XKB "
+"variantas. „ibus“ šaltiniams antroji eilutė yra IBus variklio pavadinimas. "
+"Tuščias sąrašas reiškia, kad dabartinis X serverio išdėstymas yra XKB ir "
+"variantas nebus paliestas bei IBus nebus naudojama."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
 msgid "List of most recently used input sources"
@@ -3359,13 +3358,16 @@ msgstr ""
 "IPv6) ir tinklo adresus su tinklo kauke (pavyzdžiui 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "Naudoti HTTP tarpinį serverį visiems protokolams"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Ar naudoti HTTP tarpinį serverį visiems protokolams."
+
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
 msgstr "Nenaudojamas, nepaisykite"
-
-#: schemas/org.gnome.system.proxy.gschema.xml.in:57
-msgid "This key is not used, and should not be read or modified."
-msgstr "Šis raktas nenaudojamas ir neturi būti skaitomas ar keičiamas."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
@@ -3489,6 +3491,9 @@ msgid ""
 msgstr ""
 "Prievadas kompiuteryje, apibrėžtame „/system/proxy/socks/host“, per kurį "
 "jungiamasi."
+
+#~ msgid "This key is not used, and should not be read or modified."
+#~ msgstr "Šis raktas nenaudojamas ir neturi būti skaitomas ar keičiamas."
 
 #~ msgid "Show the activities overview"
 #~ msgstr "Rodyti veiklų apžvalgą"
