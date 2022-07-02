@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-03-06 12:19+0000\n"
-"PO-Revision-Date: 2022-03-06 19:27+0300\n"
+"POT-Creation-Date: 2022-06-28 20:04+0000\n"
+"PO-Revision-Date: 2022-06-29 11:18+0300\n"
 "Last-Translator: Aleksandr Melman <Alexmelman88@gmail.com>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.0.1\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1619,10 +1619,10 @@ msgid ""
 "preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
-"Список типов x-content/*, для которых пользователь выбрал \"Ничего не делать"
-"\" при настройке предпочтений. При вставке носителя, соответствующего этим "
-"типам, не будет показан запрос и не будет запущено ни одно соответствующее "
-"приложение."
+"Список типов x-content/*, для которых пользователь выбрал \"Ничего не "
+"делать\" при настройке предпочтений. При вставке носителя, соответствующего "
+"этим типам, не будет показан запрос и не будет запущено ни одно "
+"соответствующее приложение."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:31
 msgid "List of x-content/* types set to “Open Folder”"
@@ -1962,12 +1962,12 @@ msgid ""
 msgstr ""
 "Профиль ускорения, используемый для подключенных мышей. Профиль ускорения "
 "может быть установлен либо по умолчанию (\"default\"), который использует "
-"профиль ускорения по умолчанию для каждого устройства, либо плоский (\"flat"
-"\"), который ускоряется с помощью постоянного коэффициента для конкретного "
-"устройства, полученного из настроенной скорости указателя, либо адаптивный "
-"(\"adaptive\"), который адаптирует ускорение в зависимости от движения мыши. "
-"Если мышь не поддерживает настроенный профиль, будет использоваться \"по "
-"умолчанию\"."
+"профиль ускорения по умолчанию для каждого устройства, либо плоский "
+"(\"flat\"), который ускоряется с помощью постоянного коэффициента для "
+"конкретного устройства, полученного из настроенной скорости указателя, либо "
+"адаптивный (\"adaptive\"), который адаптирует ускорение в зависимости от "
+"движения мыши. Если мышь не поддерживает настроенный профиль, будет "
+"использоваться \"по умолчанию\"."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
 msgid "Double click time"
@@ -3030,8 +3030,8 @@ msgid ""
 "set it to false to make it work the opposite way around."
 msgstr ""
 "Установите значение true, чтобы изменять размер правой кнопкой и показывать "
-"меню средней кнопкой, удерживая клавишу, указанную в \"mouse-button-modifier"
-"\"; установите значение false, чтобы все работало наоборот."
+"меню средней кнопкой, удерживая клавишу, указанную в \"mouse-button-"
+"modifier\"; установите значение false, чтобы все работало наоборот."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:29
 msgid "Arrangement of buttons on the titlebar"
@@ -3287,9 +3287,9 @@ msgid ""
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
-"Включает визуальную индикацию, когда приложение или система издает \"звонок"
-"\" или \"гудок\"; полезно для плохо слышащих людей и для использования в "
-"шумной обстановке."
+"Включает визуальную индикацию, когда приложение или система издает "
+"\"звонок\" или \"гудок\"; полезно для плохо слышащих людей и для "
+"использования в шумной обстановке."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
 msgid "Visual Bell Type"
@@ -3430,8 +3430,9 @@ msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
 msgstr ""
-"URL, который предоставляет значения конфигурации прокси. Когда режим \"auto"
-"\", этот URL используется для поиска информации о прокси для всех протоколов."
+"URL, который предоставляет значения конфигурации прокси. Когда режим "
+"\"auto\", этот URL используется для поиска информации о прокси для всех "
+"протоколов."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:45
 msgid "Non-proxy hosts"
@@ -3450,13 +3451,16 @@ msgstr ""
 "сетевые адреса с маской подсети (например, 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "Использовать HTTP прокси для всех протоколов"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Следует ли использовать HTTP прокси для всех протоколов или нет."
+
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
 msgstr "Не используется; игнорируется"
-
-#: schemas/org.gnome.system.proxy.gschema.xml.in:57
-msgid "This key is not used, and should not be read or modified."
-msgstr "Этот ключ не используется, ключ нельзя прочитать или изменить."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
@@ -3581,3 +3585,6 @@ msgid ""
 msgstr ""
 "Порт на машине, определяемый \"/system/proxy/socks/host\", через который вы "
 "проксируете."
+
+#~ msgid "This key is not used, and should not be read or modified."
+#~ msgstr "Этот ключ не используется, ключ нельзя прочитать или изменить."
