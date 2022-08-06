@@ -1,25 +1,27 @@
 # Serbian translation of gsettings-desktop-schemas.
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2012—2021.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2012—2022.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Translators:
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012—2021.
 # Марко М. Костић <marko.m.kostic@gmail.com>, 2016.
+# Мирослав Николић <miroslavnikolić@rocketmail.com>, 2012—2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/"
-"gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2021-02-14 18:24+0000\n"
-"PO-Revision-Date: 2021-03-02 20:48+0200\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: српски <gnome-sr@googlegroups.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
+"schemas/issues\n"
+"POT-Creation-Date: 2022-07-06 11:59+0000\n"
+"PO-Revision-Date: 2022-08-06 12:52+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolić@rocketmail.com>\n"
+"Language-Team: Serbian <српски <gnome-sr@googlegroups.org>>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "X-Project-Style: gnome\n"
+"X-Generator: Gtranslator 3.36.0\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1506,16 +1508,25 @@ msgstr ""
 "Спречава корисницима уписивање или промену датотека на уклоњивим уређајима "
 "за складиштење података (тј. флеш дискете, мобилни телефони, камере)."
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+#| msgid "Disable user switching"
+msgid "Disable password showing"
+msgstr "Искључује приказивање лозинке"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
+msgid "Disable the \"Show Password\" menu item in password entries."
+msgstr "Искључује ставку изборника „Прикажи лозинку“ у уносима лозинке."
+
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
-msgstr "Да ли да сам монтира медије"
+msgstr "Да ли да сам прикачи медије"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:7
 msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
-"Ако је изабрано, Наутилус ће сам монтирати медије као што су чврсти дискови "
+"Ако је изабрано, Наутилус ће сам прикачити медије као што су чврсти дискови "
 "(доступни кориснику) и уклоњиви медији приликом покретања и њиховог "
 "прикључивања."
 
@@ -1689,7 +1700,6 @@ msgstr ""
 "функција биће укључена."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:19
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
 msgstr "Да ли је укључено клизање са два прста"
 
@@ -1922,17 +1932,14 @@ msgstr ""
 "подешени профил, користиће се „default“."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
-#| msgid "Dwell click time"
 msgid "Double click time"
 msgstr "Време дуплог клика"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#| msgid "Length of the cursor blink cycle, in milliseconds."
 msgid "Length of a double click in milliseconds."
 msgstr "Трајање дуплог клика у милисекундама."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
-#| msgid "Movement threshold"
 msgid "Drag threshold"
 msgstr "Праг превлачења"
 
@@ -2089,7 +2096,6 @@ msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Дугме опонашања точкића миша. 0 искључује функцију."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
 msgstr "Закључавање дугмета опонашања точкића миша"
 
@@ -2499,9 +2505,6 @@ msgid "Session type"
 msgstr "Врста сесије"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#| msgid ""
-#| "The name of the session to use. Known values are “gnome” and “gnome-"
-#| "fallback”."
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Назив сесије за коришћење. Позната вредност је „gnome“."
 
@@ -2708,8 +2711,8 @@ msgid "Hide all normal windows"
 msgstr "Скрива све обичне прозоре"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
-msgid "Show the activities overview"
-msgstr "Приказује преглед активности"
+msgid "DEPRECATED: This key is deprecated and ignored."
+msgstr "ЗАСТАРЕЛО: Овај кључ је застарео и занемарен."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
@@ -3497,6 +3500,9 @@ msgid ""
 "through."
 msgstr ""
 "Порт на рачунару одређен у „/system/proxy/socks/host“ кроз који посредујете."
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Приказује преглед активности"
 
 #~ msgid "Select the touchpad scroll method"
 #~ msgstr "Начин премицања додирне табле"
