@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-03-06 12:19+0000\n"
-"PO-Revision-Date: 2022-03-17 07:43+0200\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"POT-Creation-Date: 2022-07-14 06:27+0000\n"
+"PO-Revision-Date: 2022-08-06 16:31+0200\n"
+"Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -74,7 +75,6 @@ msgid "High contrast"
 msgstr "Велики контраст"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
-#| msgid "Whether to resize with the right button"
 msgid "Whether to use the high contrast style."
 msgstr "Да ли ће користити стил великог контраста."
 
@@ -741,7 +741,6 @@ msgstr ""
 "подржава само месне (file://) путање."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:23
-#| msgid "Picture URI"
 msgid "Picture URI (dark)"
 msgstr "Адреса слике (тамна)"
 
@@ -1411,7 +1410,6 @@ msgstr ""
 "за црвену одозго и „vbgr“ — за црвену одоздо."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:299
-#| msgid "Cursor theme"
 msgid "Color scheme"
 msgstr "Шема боја"
 
@@ -1420,9 +1418,9 @@ msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
-"Омиљена шема боја за корисничко сучеље. Исправне вредности су „default“ "
-"(основно), „prefer-dark“ (предност тамној), „prefer-light“ (предност "
-"светлој)."
+"Омиљена шема боја за корисничко сучеље. Исправне вредности су "
+"„default“ (основно), „prefer-dark“ (предност тамној), „prefer-"
+"light“ (предност светлој)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1536,7 +1534,6 @@ msgstr ""
 "за складиштење података (тј. флеш дискете, мобилни телефони, камере)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
-#| msgid "Disable user switching"
 msgid "Disable password showing"
 msgstr "Искључује приказивање лозинке"
 
@@ -2306,7 +2303,6 @@ msgstr ""
 "сви нови УСБ уређаји ће увек бити одбијени."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether the privacy screen is enabled"
 msgstr "Да ли је приватност екрана укључена"
 
@@ -3416,13 +3412,16 @@ msgstr ""
 "мрежне адресе са маском (нешто као 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "Користи ХТТП посредника за све протоколе"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Да ли треба користити ХТТП посредника за све протоколе."
+
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
 msgstr "Некроришћено; занемарујем"
-
-#: schemas/org.gnome.system.proxy.gschema.xml.in:57
-msgid "This key is not used, and should not be read or modified."
-msgstr "Овај кључ се не користи, и не би га требало читати или мењати."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
@@ -3542,6 +3541,9 @@ msgid ""
 "through."
 msgstr ""
 "Порт на рачунару одређен у „/system/proxy/socks/host“ кроз који посредујете."
+
+#~ msgid "This key is not used, and should not be read or modified."
+#~ msgstr "Овај кључ се не користи, и не би га требало читати или мењати."
 
 #~ msgid "Show the activities overview"
 #~ msgstr "Приказује преглед активности"
