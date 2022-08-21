@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-03-06 12:19+0000\n"
-"PO-Revision-Date: 2022-03-07 17:54+0100\n"
+"POT-Creation-Date: 2022-08-06 14:31+0000\n"
+"PO-Revision-Date: 2022-08-21 17:10+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +82,6 @@ msgid "High contrast"
 msgstr "Contraste alto"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
-#| msgid "Whether to resize with the right button"
 msgid "Whether to use the high contrast style."
 msgstr "Indica se usar o estilo de contraste alto."
 
@@ -946,11 +945,11 @@ msgid ""
 msgstr ""
 "Lista dos identificadores de orixes de entrada dispoñíbeis. Cada orixe "
 "especifícase como unha tupla de 2 cadeas. A primeira cadea é o tipo, pode "
-"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é «xkb_layout"
-"+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se necesita. "
-"Para as orixes «ibus» a segunda cadea é un nome de motor IBus. Unha lista "
-"baleira significa que a disposición e variante de XKB actual do servidor X "
-"non se cambiaran e IBus non se empregará."
+"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é "
+"«xkb_layout+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se "
+"necesita. Para as orixes «ibus» a segunda cadea é un nome de motor IBus. "
+"Unha lista baleira significa que a disposición e variante de XKB actual do "
+"servidor X non se cambiaran e IBus non se empregará."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
 msgid "List of most recently used input sources"
@@ -1049,8 +1048,8 @@ msgstr "Estilo da barra de ferramentas"
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
-"Estilo da barra de ferramentas. Os valores válidos son \"both\", \"both-horiz"
-"\", \"icons\" e \"text\"."
+"Estilo da barra de ferramentas. Os valores válidos son \"both\", \"both-"
+"horiz\", \"icons\" e \"text\"."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1438,8 +1437,8 @@ msgid ""
 msgstr ""
 "A orde dos elementos de subpíxeles nunha pantalla LCD; só se usa cando o "
 "suavizado se define como \"rgba\". Os valores posíbeis son: \"rgb\" para o "
-"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, \"vrgb"
-"\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
+"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, "
+"\"vrgb\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:299
 msgid "Color scheme"
@@ -3484,13 +3483,16 @@ msgstr ""
 "enderezos de rede cunha máscara (do tipo 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "Usar proxy HTTP para todos os protocolos"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Indica se usar o proxy HTTP para todos os protocolos ou non."
+
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
 msgstr "Non usada; ignorar"
-
-#: schemas/org.gnome.system.proxy.gschema.xml.in:57
-msgid "This key is not used, and should not be read or modified."
-msgstr "Esta chave non se usa, e non debería lerse nin modificarse."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:66
 msgid ""
@@ -3609,6 +3611,9 @@ msgid ""
 "through."
 msgstr ""
 "O porto na máquina definido por «/system/proxy/socks/host» que fai de proxy."
+
+#~ msgid "This key is not used, and should not be read or modified."
+#~ msgstr "Esta chave non se usa, e non debería lerse nin modificarse."
 
 #~ msgid "Show the activities overview"
 #~ msgstr "Mostrar a vista previa das actividades"
