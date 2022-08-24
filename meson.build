@@ -5,7 +5,7 @@ project(
     'warning_level=2'
   ],
   license: 'LGPL',
-  meson_version: '>= 0.50.0'
+  meson_version: '>= 0.57.0'
 )
 
 gsettings_desktop_schemas_name = meson.project_name()
@@ -47,6 +47,6 @@ subdir('headers')
 subdir('schemas')
 subdir('po')
 
-# Keep this in sync with post-install.py expected arguments
-meson.add_install_script('build-aux/meson/post-install.py',
-                         datadir)
+gnome.post_install(
+  glib_compile_schemas: true,
+)
