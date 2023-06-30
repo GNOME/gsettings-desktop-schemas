@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Chris Leonard <cjl@laptop.org>, 2012.
 # Zander Brown <zbrown@gnome.org>, 2019-2021.
-# Bruce Cowan <bruce@bcowan.me.uk>, 2012-2022.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2012-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-09-05 11:09+0000\n"
-"PO-Revision-Date: 2022-12-05 13:00+0000\n"
+"POT-Creation-Date: 2023-05-05 13:25+0000\n"
+"PO-Revision-Date: 2023-06-30 20:06+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: English - United Kingdom <en@li.org>\n"
 "Language: en_GB\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 42.0\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-DamnedLies-Scope: partial\n"
 "X-Project-Style: gnome\n"
 
@@ -70,6 +70,10 @@ msgid ""
 msgstr ""
 "This key overrides the hiding of the text caret in noneditable text in "
 "applications."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
+msgid "High contrast"
+msgstr "High contrast"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
@@ -341,8 +345,8 @@ msgid ""
 "Whether the magnified view should be centered over the location of the "
 "system mouse and move with it."
 msgstr ""
-"Whether the magnified view should be centered over the location of the "
-"system mouse and move with it."
+"Whether the magnified view should be centred over the location of the system "
+"mouse and move with it."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:89
 msgid "Scroll magnified contents beyond the edges of the desktop"
@@ -384,14 +388,14 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:117
 msgid "Color of the crosshairs"
-msgstr "Color of the crosshairs"
+msgstr "Colour of the crosshairs"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:118
 msgid ""
 "The color of the the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr ""
-"The color of the the vertical and horizontal lines that make up the "
+"The colour of the the vertical and horizontal lines that make up the "
 "crosshairs."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:126
@@ -1224,7 +1228,7 @@ msgid ""
 "Palette used in the color selector as defined by the “gtk-color-palette” "
 "setting"
 msgstr ""
-"Palette used in the color selector as defined by the “gtk-color-palette” "
+"Palette used in the colour selector as defined by the “gtk-color-palette” "
 "setting"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:207
@@ -1313,7 +1317,7 @@ msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr ""
-"Whether scrollbars should be overlayed as indicators. Depending on input "
+"Whether scrollbars should be overplayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:271
@@ -1388,6 +1392,14 @@ msgstr ""
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:299
 msgid "Color scheme"
 msgstr "Colour scheme"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+msgid ""
+"The preferred color scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+"The preferred colour scheme for the user interface. Valid values are "
+"“default”, “prefer-dark”, “prefer-light”."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -2161,6 +2173,18 @@ msgstr ""
 msgid "Scrolling method"
 msgstr "Scrolling method"
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+msgid ""
+"Scrolling method used for pointing sticks. The scrolling method can be set "
+"to either default (“default”) which uses the default method, none (“none”), "
+"which disables scrolling, or middle-button (“on-button-down”) which enables "
+"scrolling whilst the middle button is held down."
+msgstr ""
+"Scrolling method used for pointing sticks. The scrolling method can be set "
+"to either default (“default”) which uses the default method, none (“none”), "
+"which disables scrolling, or middle-button (“on-button-down”) which enables "
+"scrolling whilst the middle button is held down."
+
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:6
 msgid "Controls visibility of personal information"
 msgstr "Controls visibility of personal information"
@@ -2190,8 +2214,8 @@ msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
 msgstr ""
-"If TRUE, automatically remove files from the trash when they are older than "
-"“old-files-age” days."
+"If TRUE, automatically remove files from the wastebasket when they are older "
+"than “old-files-age” days."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:23
 msgid "Whether to remove old temporary files automatically"
@@ -2316,6 +2340,16 @@ msgstr ""
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
 msgid "Whether the privacy screen is enabled"
 msgstr "Whether the privacy screen is enabled"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
+msgid ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
+msgstr ""
+"If the underlying hardware has privacy screen support and this setting is "
+"enabled, the panels supporting this technology will be obscured from lateral "
+"view."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
@@ -3400,6 +3434,14 @@ msgstr ""
 "than via the proxy (if it is active). The values can be hostnames, domains "
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:56
+msgid "Use HTTP proxy for all protocols"
+msgstr "Use HTTP proxy for all protocols"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:57
+msgid "Whether to use the HTTP proxy for all protocols or not."
+msgstr "Whether to use the HTTP proxy for all protocols or not."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
