@@ -2,14 +2,14 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel <ted.korostiled@gmail.com>, 2012.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schema"
 "s/issues\n"
-"POT-Creation-Date: 2022-09-05 11:09+0000\n"
-"PO-Revision-Date: 2022-09-05 14:25+0300\n"
+"POT-Creation-Date: 2023-07-04 16:09+0000\n"
+"PO-Revision-Date: 2023-07-05 21:30+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -926,11 +926,12 @@ msgid ""
 msgstr ""
 "Список доступних ідентифікаторів джерела введення. Кожне джерело "
 "визначається як кортеж з двох рядків. Першим рядком є тип, який може мати "
-"значення «xkb» або «ibus». Для джерел «xkb» другим рядком є «розкладка_xkb"
-"+варіант_xkb» або просто «розкладка_xkb», якщо у зазначенні варіанта XKB "
-"немає потреби. Для джерел «ibus» другим рядком є назва рушія IBus. Порожній "
-"список означає, що поточні значення розкладки та варіанта XKB із налаштувань "
-"графічного сервера не буде змінено, а IBus не буде використано."
+"значення «xkb» або «ibus». Для джерел «xkb» другим рядком є "
+"«розкладка_xkb+варіант_xkb» або просто «розкладка_xkb», якщо у зазначенні "
+"варіанта XKB немає потреби. Для джерел «ibus» другим рядком є назва рушія "
+"IBus. Порожній список означає, що поточні значення розкладки та варіанта XKB "
+"із налаштувань графічного сервера не буде змінено, а IBus не буде "
+"використано."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
 msgid "List of most recently used input sources"
@@ -2185,9 +2186,6 @@ msgstr ""
 "підтримки налаштованого профілю, буде використано профіль «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2196,13 +2194,6 @@ msgstr ""
 "[-1..1] (від «без прискорення» до «швидко»). Типове значення системи - 0."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#| msgid ""
-#| "Acceleration profile used for the trackball. The acceleration profile can "
-#| "be set to either default (“default”) which uses the default acceleration "
-#| "profile, flat (“flat”), which accelerates by a device specific constant "
-#| "factor derived from the configured speed, or adaptive (“adaptive”) which "
-#| "adapts the acceleration depending on the movement. If the trackball "
-#| "doesn’t support the configured profile, “default” will be used."
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2211,16 +2202,15 @@ msgid ""
 "adapts the acceleration depending on the movement. If the pointing stick "
 "doesn’t support the configured profile, “default” will be used."
 msgstr ""
-"Профіль прискорення для джойстика. Можна встановити "
-"для профілю прискорення типове значення («default»), тобто типовий профіль "
-"прискорення для пристрою, плаский («flat»), коли прискорення відбувається зі "
-"сталим коефіцієнтом, який визначається для кожного пристрою на основі "
-"налаштованої швидкості руху, або адаптивним («adaptive»), коли прискорення "
-"адаптується до руху. Якщо для джойстика не передбачено "
-"підтримки налаштованого профілю, буде використано профіль «default»."
+"Профіль прискорення для джойстика. Можна встановити для профілю прискорення "
+"типове значення («default»), тобто типовий профіль прискорення для пристрою, "
+"плаский («flat»), коли прискорення відбувається зі сталим коефіцієнтом, який "
+"визначається для кожного пристрою на основі налаштованої швидкості руху, або "
+"адаптивним («adaptive»), коли прискорення адаптується до руху. Якщо для "
+"джойстика не передбачено підтримки налаштованого профілю, буде використано "
+"профіль «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
-#| msgid "Click method"
 msgid "Scrolling method"
 msgstr "Спосіб гортання"
 
@@ -2231,11 +2221,11 @@ msgid ""
 "which disables scrolling, or middle-button (“on-button-down”) which enables "
 "scrolling whilst the middle button is held down."
 msgstr ""
-"Спосіб гортання, який буде використано для джойстиків. Спосіб гортання можна"
-" зробити або типовим («default»), коли використовуватиметься типовий спосіб,"
-" або ніяким («none»), тобто вимкнути гортання, або таким, як для середньої"
-" кнопки миші («on-button-down»), тобто увімкнути гортання подібне до того,"
-" яке відбувається у відповідь на утримання натиснутою середньої кнопки миші."
+"Спосіб гортання, який буде використано для джойстиків. Спосіб гортання можна "
+"зробити або типовим («default»), коли використовуватиметься типовий спосіб, "
+"або ніяким («none»), тобто вимкнути гортання, або таким, як для середньої "
+"кнопки миші («on-button-down»), тобто увімкнути гортання подібне до того, "
+"яке відбувається у відповідь на утримання натиснутою середньої кнопки миші."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:6
 msgid "Controls visibility of personal information"
@@ -2882,191 +2872,187 @@ msgid "Restore window"
 msgstr "Відновити вікно"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
-msgid "Toggle shaded state"
-msgstr "Перемикання стану затінення"
-
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
 msgstr "Згорнути вікно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Close window"
 msgstr "Закрити вікно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Move window"
 msgstr "Перемістити вікно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
 msgid "Resize window"
 msgstr "Змінити розміри вікна"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
 msgid "Toggle window on all workspaces or one"
 msgstr "Перемикання вікна на всі робочі простори або один"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
 msgid "Move window to workspace 1"
 msgstr "Перемістити вікно на робочий простір 1"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
 msgid "Move window to workspace 2"
 msgstr "Перемістити вікно на робочий простір 2"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
 msgid "Move window to workspace 3"
 msgstr "Перемістити вікно на робочий простір 3"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
 msgid "Move window to workspace 4"
 msgstr "Перемістити вікно на робочий простір 4"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
 msgid "Move window to workspace 5"
 msgstr "Перемістити вікно на робочий простір 5"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
 msgid "Move window to workspace 6"
 msgstr "Перемістити вікно на робочий простір 6"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
 msgid "Move window to workspace 7"
 msgstr "Перемістити вікно на робочий простір 7"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
 msgid "Move window to workspace 8"
 msgstr "Перемістити вікно на робочий простір 8"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
 msgid "Move window to workspace 9"
 msgstr "Перемістити вікно на робочий простір 9"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
 msgid "Move window to workspace 10"
 msgstr "Перемістити вікно на робочий простір 10"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
 msgid "Move window to workspace 11"
 msgstr "Перемістити вікно на робочий простір 11"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
 msgid "Move window to workspace 12"
 msgstr "Перемістити вікно на робочий простір 12"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
 msgid "Move window to last workspace"
 msgstr "Перемістити вікно на останній робочий простір"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
 msgstr "Перемістити вікно на робочий простір ліворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
 msgstr "Перемістити вікно на робочий простір праворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
 msgstr "Перемістити вікно на робочий простір вище"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
 msgid "Move window one workspace down"
 msgstr "Перемістити вікно на робочий простір нижче"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
 msgid "Move window to the next monitor on the left"
 msgstr "Перемістити вікно на наступний монітор ліворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
 msgid "Move window to the next monitor on the right"
 msgstr "Перемістити вікно на наступний монітор праворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
 msgid "Move window to the next monitor above"
 msgstr "Перемістити вікно на наступний монітор згори"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
 msgid "Move window to the next monitor below"
 msgstr "Перемістити вікно на наступний монітор знизу"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Підняти вікно на передній план, якщо воно прикрите іншим, інакше опустити "
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
 msgstr "Підняти вікно над іншими"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
 msgid "Lower window below other windows"
 msgstr "Перемістити вікна нижче усіх вікон"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
 msgid "Maximize window vertically"
 msgstr "Розгорнути вікно на весь екран вертикально"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
 msgid "Maximize window horizontally"
 msgstr "Розгорнути вікно на весь екран горизонтально"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
 msgstr "Перемістити вікно у верхній край ліворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
 msgstr "Перемістити вікно у верхній край праворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
 msgstr "Перемістити вікно у нижній край ліворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
 msgstr "Перемістити вікно у нижній край праворуч"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
 msgstr "Перемістити вікно у верхній край екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
 msgid "Move window to bottom edge of screen"
 msgstr "Перемістити вікно у нижній край екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
 msgid "Move window to right side of screen"
 msgstr "Перемістити вікно у правий край екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
 msgid "Move window to left side of screen"
 msgstr "Перемістити вікно у лівий край екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
 msgid "Move window to center of screen"
 msgstr "Перемістити вікно у центр екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:336
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
 msgid "Switch input source"
 msgstr "Перемкнути джерело вхідних даних"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:333
 msgid "Binding to select the next input source"
 msgstr "Комбінація для вибору наступного джерела вхідних даних"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Switch input source backward"
 msgstr "Перемкнутися на попереднє джерело вхідних даних"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:338
 msgid "Binding to select the previous input source"
 msgstr "Комбінація для вибору попереднього джерела вхідних даних"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Toggle window to be always on top"
 msgstr "Перемикання вікна поверх решти"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:347
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
 msgid "Set or unset window to appear always on top"
 msgstr "Розмістити вікно поверх решти вікон або скасувати таке розташування"
 
@@ -3150,16 +3136,22 @@ msgid "Control how new windows get focus"
 msgstr "Спосіб передачі фокусу новим вікнам"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:56
+#| msgid ""
+#| "This option provides additional control over how newly created windows "
+#| "get focus. It has two possible values; “smart” applies the user’s normal "
+#| "focus mode, and “strict” results in windows started from a terminal not "
+#| "being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
-"mode, and “strict” results in windows started from a terminal not being "
-"given focus."
+"mode, and “strict” results in new windows not being given focus "
+"automatically."
 msgstr ""
 "Цей ключ надає у ваше розпорядження додаткові засоби керування тим, як "
 "передаватиметься фокусування до новостворених вікон. Можливі два значення "
 "ключа: «smart» реалізовує звичний режим фокусування для користувача, а "
-"«strict» не передає фокусування до вікон, які запускаються з термінала."
+"«strict» призводитиме до того, що нові вікна не отримуватимуть фокуса"
+" автоматично."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3188,78 +3180,102 @@ msgid "Action on title bar double-click"
 msgstr "Дія при подвійному клацанні на заголовку вікна"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
+#| msgid ""
+#| "This option determines the effects of double-clicking on the title bar. "
+#| "Current valid options are “toggle-shade”, which will shade/unshade the "
+#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
+#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
+#| "will maximize/unmaximize the window in that direction only, “minimize” "
+#| "which will minimize the window, “shade” which will roll the window up, "
+#| "“menu” which will display the window menu, “lower” which will put the "
+#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "За допомогою цього параметра можна визначити результат подвійного клацання "
 "на смужці заголовка. Поточними коректними варіантами значення параметра є "
-"«toggle-shade» для згортання або розгортання вікна, «toggle-maximize» для "
+"«toggle-maximize» для "
 "максимізації або зменшення вікна, «toggle-maximize-horizontally» та «toggle-"
 "maximize-vertically» максимізація або зменшення вікна лише в одному "
-"напрямку, «minimize» для мінімізації вікна, «shade» для згортання вікна, "
+"напрямку, «minimize» для мінімізації вікна, "
 "«menu» для показу меню вікна, «lower» для розташування вікна під іншими і "
 "«none» для варіанта із ігнорування клацання."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Дія при клацанні середньою кнопкою на заголовку вікна"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
+#| msgid ""
+#| "This option determines the effects of middle-clicking on the title bar. "
+#| "Current valid options are “toggle-shade”, which will shade/unshade the "
+#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
+#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
+#| "will maximize/unmaximize the window in that direction only, “minimize” "
+#| "which will minimize the window, “shade” which will roll the window up, "
+#| "“menu” which will display the window menu, “lower” which will put the "
+#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "За допомогою цього параметра можна визначити результат клацання середньою "
 "кнопкою на смужці заголовка. Поточними коректними варіантами значення "
-"параметра є «toggle-shade» для згортання або розгортання вікна, «toggle-"
-"maximize» для максимізації або зменшення вікна, «toggle-maximize-"
+"параметра є «toggle-maximize» для максимізації або зменшення вікна,"
+" «toggle-maximize-"
 "horizontally» та «toggle-maximize-vertically» максимізація або зменшення "
-"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «shade» для "
-"згортання вікна, «menu» для показу меню вікна, «lower» для розташування "
+"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «menu» для"
+" показу меню вікна, «lower» для розташування "
 "вікна під іншими і «none» для варіанта із ігнорування клацання."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Дія при клацанні правою кнопкою на заголовку вікна"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
+#| msgid ""
+#| "This option determines the effects of right-clicking on the title bar. "
+#| "Current valid options are “toggle-shade”, which will shade/unshade the "
+#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
+#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
+#| "will maximize/unmaximize the window in that direction only, “minimize” "
+#| "which will minimize the window, “shade” which will roll the window up, "
+#| "“menu” which will display the window menu, “lower” which will put the "
+#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "За допомогою цього параметра можна визначити результат клацання правою "
 "кнопкою на смужці заголовка. Поточними коректними варіантами значення "
-"параметра є «toggle-shade» для згортання або розгортання вікна, «toggle-"
+"параметра є «toggle-"
 "maximize» для максимізації або зменшення вікна, «toggle-maximize-"
 "horizontally» та «toggle-maximize-vertically» максимізація або зменшення "
-"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «shade» для "
-"згортання вікна, «menu» для показу меню вікна, «lower» для розташування "
+"вікна лише в одному напрямку, «minimize» для мінімізації вікна, «menu» для"
+" показу меню вікна, «lower» для розташування "
 "вікна під іншими і «none» для варіанта із ігнорування клацання."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Автоматично переміщує вікно з фокусом на передній план"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3271,11 +3287,11 @@ msgstr ""
 "затримки, вказаної у ключі «auto-raise-delay». Це не стосується натиснень "
 "миші по вікну, а також  перемикань вікон у результаті операцій перетягування."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
 msgstr "Затримка у мілісекундах для параметру автоматичного піднімання вікна"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
@@ -3283,11 +3299,11 @@ msgstr ""
 "Затримка перед переміщенням вікна на передній план, якщо увімкнено параметр "
 "«auto-raise». Час вказується у мілісекундах."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
 msgstr "Чинна тема"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
@@ -3295,11 +3311,11 @@ msgstr ""
 "Тема визначає появу рамок вікна, смуги заголовків тощо. ЗАСТАРІЛО: Цей ключ "
 "застарілий і ігнорується."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr "Використання стандартного системного шрифту у заголовках вікон"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
@@ -3307,11 +3323,11 @@ msgstr ""
 "Якщо встановлено, тоді параметр «titlebar-font» буде проігноровано, для "
 "заголовків буде використовуватися стандартний шрифт програм."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
 msgstr "Шрифт заголовку вікна"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
 "A font description string describing a font for window titlebars. The size "
 "from the description will only be used if the titlebar-font-size option is "
@@ -3323,11 +3339,11 @@ msgstr ""
 "font-size» встановлено у значення 0. Цей параметр вважається вимкненим, якщо "
 "встановлено параметр «titlebar-uses-desktop-font»."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
 msgstr "Кількість робочих просторів"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
@@ -3337,11 +3353,11 @@ msgstr ""
 "фіксоване максимальне значення для уникнення випадкового встановлення "
 "завеликої кількості робочих просторів"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
 msgstr "Увімкнути системний гудок"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3350,11 +3366,11 @@ msgstr ""
 "гудок. Може використовуватись із параметром «visual bell», щоб увімкнути "
 "тихі системні гудки."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "Увімкнути візуальний системний гудок"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3363,11 +3379,11 @@ msgstr ""
 "Вмикає візуальну індикацію випадків, коли програм чи система видає сигнал "
 "або гудок, стане в нагоді для людей з вадами слуху чи у шумному середовищі."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
 msgstr "Тип візуального сигналу"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3385,13 +3401,13 @@ msgstr ""
 "є невідомою (звичайний випадок для типового «системного гудка»), буде "
 "здійснено блимання смужкою заголовка поточного фокусованого вікна."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Вимкнути неправильні функції, що потрібні лише старим або пошкодженим "
 "програмам"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -3404,11 +3420,11 @@ msgstr ""
 "цілісним - при умові, що не потрібен запуск програм, що не підтримують "
 "специфікацію."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
 msgstr "Назви робочих просторів"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3658,6 +3674,9 @@ msgid ""
 msgstr ""
 "Порт на машині, визначений у “/system/proxy/socks/host”, що ви "
 "використовуєте як проксі."
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Перемикання стану затінення"
 
 #~ msgid "This key is not used, and should not be read or modified."
 #~ msgstr "Цей ключ не використовується — його не слід читати або змінювати."
