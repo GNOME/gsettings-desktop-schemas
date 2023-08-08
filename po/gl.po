@@ -6,28 +6,28 @@
 #
 # Fran Diéguez <frandieguez@gnome.org>, 2011, 2012.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
-# Fran Dieguez <frandieguez@gnome.org>, 2012-2022.
+# Fran Dieguez <frandieguez@gnome.org>, 2012-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-09-05 11:09+0000\n"
-"PO-Revision-Date: 2022-09-06 09:33+0200\n"
+"POT-Creation-Date: 2023-07-15 11:46+0000\n"
+"PO-Revision-Date: 2023-08-08 02:20+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
-"Language-Team: Galician <Proxecto Trasno <proxecto@trasno.gal>>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 40.0\n"
+"X-Generator: Gtranslator 42.0\n"
 "X-DL-Team: gl\n"
 "X-DL-Module: gsettings-desktop-schemas\n"
 "X-DL-Branch: master\n"
 "X-DL-Domain: po\n"
-"X-DL-State: Translating\n"
+"X-DL-State: None\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -945,11 +945,11 @@ msgid ""
 msgstr ""
 "Lista dos identificadores de orixes de entrada dispoñíbeis. Cada orixe "
 "especifícase como unha tupla de 2 cadeas. A primeira cadea é o tipo, pode "
-"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é "
-"«xkb_layout+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se "
-"necesita. Para as orixes «ibus» a segunda cadea é un nome de motor IBus. "
-"Unha lista baleira significa que a disposición e variante de XKB actual do "
-"servidor X non se cambiaran e IBus non se empregará."
+"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é «xkb_layout"
+"+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se necesita. "
+"Para as orixes «ibus» a segunda cadea é un nome de motor IBus. Unha lista "
+"baleira significa que a disposición e variante de XKB actual do servidor X "
+"non se cambiaran e IBus non se empregará."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
 msgid "List of most recently used input sources"
@@ -1048,8 +1048,8 @@ msgstr "Estilo da barra de ferramentas"
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
-"Estilo da barra de ferramentas. Os valores válidos son \"both\", \"both-"
-"horiz\", \"icons\" e \"text\"."
+"Estilo da barra de ferramentas. Os valores válidos son \"both\", \"both-horiz"
+"\", \"icons\" e \"text\"."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1437,8 +1437,8 @@ msgid ""
 msgstr ""
 "A orde dos elementos de subpíxeles nunha pantalla LCD; só se usa cando o "
 "suavizado se define como \"rgba\". Os valores posíbeis son: \"rgb\" para o "
-"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, "
-"\"vrgb\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
+"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, \"vrgb"
+"\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:299
 msgid "Color scheme"
@@ -1870,14 +1870,6 @@ msgid "Acceleration profile"
 msgstr "Perfil de aceleración"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
-#| msgid ""
-#| "Acceleration profile used for connected mice. The acceleration profile "
-#| "can be set to either default (“default”) which uses the default "
-#| "acceleration profile for each device, flat (“flat”), which accelerates by "
-#| "a device specific constant factor derived from the configured pointer "
-#| "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
-#| "on the mouse movement. If a mouse doesn’t support the configured profile, "
-#| "“default” will be used."
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2233,9 +2225,6 @@ msgstr ""
 "«default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2245,13 +2234,6 @@ msgstr ""
 "valor por omisión."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#| msgid ""
-#| "Acceleration profile used for the trackball. The acceleration profile can "
-#| "be set to either default (“default”) which uses the default acceleration "
-#| "profile, flat (“flat”), which accelerates by a device specific constant "
-#| "factor derived from the configured speed, or adaptive (“adaptive”) which "
-#| "adapts the acceleration depending on the movement. If the trackball "
-#| "doesn’t support the configured profile, “default” will be used."
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2269,7 +2251,6 @@ msgstr ""
 "«default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
-#| msgid "Click method"
 msgid "Scrolling method"
 msgstr "Método de desprazamento"
 
@@ -2926,190 +2907,186 @@ msgid "Restore window"
 msgstr "Restaurar a xanela"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
-msgid "Toggle shaded state"
-msgstr "Alternar o estado ensombrecido"
-
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
 msgstr "Minimizar a xanela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Close window"
 msgstr "Pechar a xanela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Move window"
 msgstr "Mover a xanela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
 msgid "Resize window"
 msgstr "Redimensionar a xanela"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
 msgid "Toggle window on all workspaces or one"
 msgstr "Trocar que a xanela apareza en todos os espazos de traballo ou nun"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
 msgid "Move window to workspace 1"
 msgstr "Mover a xanela ao espazo de traballo 1"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
 msgid "Move window to workspace 2"
 msgstr "Mover a xanela ao espazo de traballo 2"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
 msgid "Move window to workspace 3"
 msgstr "Mover a xanela ao espazo de traballo 3"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
 msgid "Move window to workspace 4"
 msgstr "Mover a xanela ao espazo de traballo 4"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
 msgid "Move window to workspace 5"
 msgstr "Mover a xanela ao espazo de traballo 5"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
 msgid "Move window to workspace 6"
 msgstr "Mover a xanela ao espazo de traballo 6"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
 msgid "Move window to workspace 7"
 msgstr "Mover a xanela ao espazo de traballo 7"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
 msgid "Move window to workspace 8"
 msgstr "Mover a xanela ao espazo de traballo 8"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
 msgid "Move window to workspace 9"
 msgstr "Mover a xanela ao espazo de traballo 9"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
 msgid "Move window to workspace 10"
 msgstr "Mover a xanela ao espazo de traballo 10"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
 msgid "Move window to workspace 11"
 msgstr "Mover a xanela ao espazo de traballo 11"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
 msgid "Move window to workspace 12"
 msgstr "Mover a xanela ao espazo de traballo 12"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
 msgid "Move window to last workspace"
 msgstr "Mover a xanela ao último espazo de traballo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
 msgstr "Mover a xanela un espazo de traballo cara á esquerda"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
 msgstr "Mover a xanela un espazo de traballo cara á dereita"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
 msgstr "Mover a xanela un espazo de traballo cara a arriba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
 msgid "Move window one workspace down"
 msgstr "Mover a xanela un espazo de traballo cara a abaixo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
 msgid "Move window to the next monitor on the left"
 msgstr "Mover a xanela ao seguinte monitor na esquerda"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
 msgid "Move window to the next monitor on the right"
 msgstr "Mover a xanela ao seguinte monitor na dereita"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
 msgid "Move window to the next monitor above"
 msgstr "Mover a xanela ao seguinte monitor arriba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
 msgid "Move window to the next monitor below"
 msgstr "Mover a xanela ao seguinte monitor embaixo"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Elevar a xanela se está cuberta por outra, en caso contrario baixala"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
 msgstr "Subir a xanela por enriba doutras xanelas"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
 msgid "Lower window below other windows"
 msgstr "Baixar unha xanela debaixo doutras xanelas"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
 msgid "Maximize window vertically"
 msgstr "Maximizar a xanela verticalmente"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
 msgid "Maximize window horizontally"
 msgstr "Maximizar a xanela horizontalmente"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
 msgstr "Mover a xanela á esquina superior esquerda"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
 msgstr "Mover a xanela á esquina superior dereita"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
 msgstr "Mover a xanela á esquina inferior esquerda"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
 msgstr "Mover a xanela á esquina inferior dereita"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
 msgstr "Mover a xanela ao borde superior da pantalla"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
 msgid "Move window to bottom edge of screen"
 msgstr "Mover a xanela ao borde inferior da pantalla"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
 msgid "Move window to right side of screen"
 msgstr "Mover a xanela ao borde dereito da pantalla"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
 msgid "Move window to left side of screen"
 msgstr "Mover a xanela ao borde esquerdo da pantalla"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
 msgid "Move window to center of screen"
 msgstr "Mover a xanela ao centro da pantalla"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:336
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
 msgid "Switch input source"
 msgstr "Cambiar a orixe de entrada"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:333
 msgid "Binding to select the next input source"
 msgstr "Combinación para seleccionar a seguinte orixe de entrada"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Switch input source backward"
 msgstr "Cambiar cara atrás a orixe de entrada"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:338
 msgid "Binding to select the previous input source"
 msgstr "Combinación para seleccionar a anterior orixe de entrada"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Toggle window to be always on top"
 msgstr "Trocar que a xanela sempre apareza enriba"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:347
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
 msgid "Set or unset window to appear always on top"
 msgstr "Trocar que a xanela sempre apareza enriba"
 
@@ -3198,13 +3175,13 @@ msgstr "Controla como obteren o foco as novas xanelas"
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
-"mode, and “strict” results in windows started from a terminal not being "
-"given focus."
+"mode, and “strict” results in new windows not being given focus "
+"automatically."
 msgstr ""
-"Esta opción proporciona control adicional sobre como obteren o foco as "
+"Esta opción proporciona control adicional sobre como obteñen o foco as "
 "xanelas creadas recentemente. Ten dous valores posíbeis: «smart» aplica o "
-"modo de foco normal do usuario «strict» fai que as xanelas iniciadas desde "
-"un terminal non se lles dea o foco."
+"modo de foco normal do usuario e «strict» fai que as xanelas iniciadas desde "
+"un terminal non se lles dea o foco automaticamente."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3233,73 +3210,69 @@ msgstr "Acción ao premer dúas veces na barra de título"
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "Esta opción determina os efectos de facer un dobre clic na barra de título. "
-"As opcións válidas actuais son «toggle-shade», que enrrolará/desenrrolará ou "
-"desensombrecerá a xanela; «toggle_maximize_horizontally» e «toggle-maximize-"
-"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
-"«minimize», que minimizará a xanela; «shade», que enrolará a xanela; «menu» "
-"que mostrará o menú da xanela; «lower», que colocará a xanela por detrás de "
-"todas as outras e «none», que non fará nada."
+"As opcións válidas actuais son «toggle-maximize», que maximizará/restaurará "
+"a xanela; «toggle-maximize-horizontally» e «toggle-maximize-vertically» que "
+"maximizará ou restaurará a xanela só nesa dirección; «minimize», que "
+"minimizará a xanela; «menu» que mostrará o menú da xanela; «lower», que "
+"colocará a xanela por detrás de todas as outras e «none», que non fará nada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Acción ao premer co botón central do rato na barra de título"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "Esta opción determina os efectos de facer un clic co botón do medio na barra "
-"de título. As opcións válidas actuais son «toggle-shade», que ensombrecerá "
-"ou desensombrecerá a xanela; «toggle-maximize-horizontally» e «toggle-"
-"maximize-vertically» que maximizará ou restaurará a xanela só nesa "
-"dirección; «minimize», que minimizará a xanela; «shade», que enrolará a "
-"xanela; «menu» que mostrará o menú da xanela; «lower», que colocará a xanela "
-"por detrás de todas as outras e «none», que non fará nada."
+"de título. As opcións válidas actuais son «toggle-maximize» que maximizará/"
+"restaurará a xanela, «toggle-maximize-horizontally» e «toggle-maximize-"
+"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
+"«minimize», que minimizará a xanela; «menu» que mostrará o menú da xanela; "
+"«lower», que colocará a xanela por detrás de todas as outras e «none», que "
+"non fará nada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Acción ao premer co botón dereito na barra de título"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "Esta opción determina os efectos de facer un clic co botón dereito na barra "
-"de título. As opcións válidas actuais son «toggle-shade», que ensombrecerá "
-"ou desensombrecerá a xanela, «toggle-maximize-horizontally» e «toggle-"
-"maximize-vertically» que maximizará ou restaurará a xanela só nesa "
-"dirección; «minimize», que minimizará a xanela; «shade», que enrolará a "
-"xanela; «menu» que mostrará o menú da xanela; «lower», que colocará a xanela "
-"por detrás de todas as outras e «none», que non fará nada."
+"de título. As opcións válidas actuais son «toggle-maximize», que maximizará/"
+"restaurará a xanela, «toggle-maximize-horizontally» e «toggle-maximize-"
+"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
+"«minimize», que minimizará a xanela; «menu» que mostrará o menú da xanela; "
+"«lower», que colocará a xanela por detrás de todas as outras e «none», que "
+"non fará nada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Eleva automaticamente a xanela enfocada"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3312,11 +3285,11 @@ msgstr ""
 "para subila, nin con entrar nunha xanela durante unha operación de arrastrar "
 "e soltar."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
 msgstr "Atraso en milisegundos para a opción de subida automática"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
@@ -3324,11 +3297,11 @@ msgstr ""
 "O atraso antes de subir unha xanela se auto_raise está configurado como "
 "true. O atraso está indicado en milésimas de segundo."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
 msgstr "Tema actual"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
@@ -3336,11 +3309,11 @@ msgstr ""
 "O tema determina a aparencia dos bordos da xanela, o título e o resto e "
 "moito máis. OBSOLETO: Esta chave é obsoleta e ignorada."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr "Usar un tipo de letra estándar de sistema nos títulos da xanela"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
@@ -3348,11 +3321,11 @@ msgstr ""
 "Se é true, ignora a opción titlebar_font e usa o tipo de letra estándar da "
 "aplicación para os títulos das xanelas."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
 msgstr "Tipo de letra do título da xanela"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
 "A font description string describing a font for window titlebars. The size "
 "from the description will only be used if the titlebar-font-size option is "
@@ -3365,11 +3338,11 @@ msgstr ""
 "está desactivada se a opción titlebar_uses_desktop_font está definida como "
 "verdadeira."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
 msgstr "Número de espazos de traballo"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
@@ -3379,11 +3352,11 @@ msgstr ""
 "para prever a destrución accidental do seu escritorio ao pedir moitos "
 "espazos de traballo."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
 msgstr "O ton de campá do sistema é audíbel"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3392,11 +3365,11 @@ msgstr ""
 "audíbeis; pode usarse en conxunto co «ton de campá visual» para permitir "
 "«tons de aviso» silenciosos."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "Activar a campá visual"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3406,11 +3379,11 @@ msgstr ""
 "«ton de campá» ou un «ton de aviso»; é moi útil para os ambientes ruidosos e "
 "para as persoas con dificultades auditivas."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
 msgstr "Tipo de ton de campá visual"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3429,13 +3402,13 @@ msgstr ""
 "o «ton de aviso do sistema» predeterminado), a barra de título da xanela "
 "actual enfocada escintilará."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Desactivar as características non adecuadas que son requiridas por "
 "aplicacións antigas ou danadas"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -3448,11 +3421,11 @@ msgstr ""
 "usuario máis consistente, sempre que non se necesite executar ningunha "
 "aplicación que sexa problemática."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
 msgstr "Crear áreas de traballo"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3693,9 +3666,3 @@ msgid ""
 "through."
 msgstr ""
 "O porto na máquina definido por «/system/proxy/socks/host» que fai de proxy."
-
-#~ msgid "This key is not used, and should not be read or modified."
-#~ msgstr "Esta chave non se usa, e non debería lerse nin modificarse."
-
-#~ msgid "Show the activities overview"
-#~ msgstr "Mostrar a vista previa das actividades"
