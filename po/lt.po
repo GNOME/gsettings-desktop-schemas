@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2022-09-05 11:09+0000\n"
-"PO-Revision-Date: 2022-09-05 22:51+0300\n"
+"POT-Creation-Date: 2023-07-15 11:46+0000\n"
+"PO-Revision-Date: 2023-09-03 21:34+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 40.0\n"
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1789,14 +1789,6 @@ msgid "Acceleration profile"
 msgstr "Spartinimo profilis"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
-#| msgid ""
-#| "Acceleration profile used for connected mice. The acceleration profile "
-#| "can be set to either default (“default”) which uses the default "
-#| "acceleration profile for each device, flat (“flat”), which accelerates by "
-#| "a device specific constant factor derived from the configured pointer "
-#| "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
-#| "on the mouse movement. If a mouse doesn’t support the configured profile, "
-#| "“default” will be used."
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2141,9 +2133,6 @@ msgstr ""
 "nustatyto profilio, bus naudojama vertė „default“."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2152,13 +2141,6 @@ msgstr ""
 "nespartinamo iki greito). Sistemos numatytoji vertė yra 0."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#| msgid ""
-#| "Acceleration profile used for the trackball. The acceleration profile can "
-#| "be set to either default (“default”) which uses the default acceleration "
-#| "profile, flat (“flat”), which accelerates by a device specific constant "
-#| "factor derived from the configured speed, or adaptive (“adaptive”) which "
-#| "adapts the acceleration depending on the movement. If the trackball "
-#| "doesn’t support the configured profile, “default” will be used."
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2175,7 +2157,6 @@ msgstr ""
 "nustatyto profilio, bus naudojama vertė „default“."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
-#| msgid "Click method"
 msgid "Scrolling method"
 msgstr "Slinkties metodas"
 
@@ -2816,190 +2797,186 @@ msgid "Restore window"
 msgstr "Grąžinti langą iš išdidinimo"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
-msgid "Toggle shaded state"
-msgstr "Perjungti šešėliavimo būseną"
-
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
 msgstr "Sumažinti langą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Close window"
 msgstr "Užverti langą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Move window"
 msgstr "Perkelti langą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
 msgid "Resize window"
 msgstr "Keisti lango dydį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
 msgid "Toggle window on all workspaces or one"
 msgstr "Perjungti lango būvimą visose ar vienoje darbo srityje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
 msgid "Move window to workspace 1"
 msgstr "Perkelti langą į darbo sritį 1"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
 msgid "Move window to workspace 2"
 msgstr "Perkelti langą į darbo sritį 2"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
 msgid "Move window to workspace 3"
 msgstr "Perkelti langą į darbo sritį 3"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
 msgid "Move window to workspace 4"
 msgstr "Perkelti langą į darbo sritį 4"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
 msgid "Move window to workspace 5"
 msgstr "Perkelti langą į darbo sritį 5"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
 msgid "Move window to workspace 6"
 msgstr "Perkelti langą į darbo sritį 6"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
 msgid "Move window to workspace 7"
 msgstr "Perkelti langą į darbo sritį 7"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
 msgid "Move window to workspace 8"
 msgstr "Perkelti langą į darbo sritį 8"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
 msgid "Move window to workspace 9"
 msgstr "Perkelti langą į darbo sritį 9"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
 msgid "Move window to workspace 10"
 msgstr "Perkelti langą į darbo sritį 10"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
 msgid "Move window to workspace 11"
 msgstr "Perkelti langą į darbo sritį 11"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
 msgid "Move window to workspace 12"
 msgstr "Perkelti langą į darbo sritį 12"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
 msgid "Move window to last workspace"
 msgstr "Perkelti langą į pastarąją darbo sritį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
 msgstr "Perkelti langą į darbo sritį kairėje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
 msgstr "Perkelti langą į darbo sritį dešinėje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
 msgstr "Perkelti langą į darbo sritį aukščiau"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
 msgid "Move window one workspace down"
 msgstr "Perkelti langą į darbo sritį žemiau"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
 msgid "Move window to the next monitor on the left"
 msgstr "Perkelti langą į kitą monitorių kairėje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
 msgid "Move window to the next monitor on the right"
 msgstr "Perkelti langą į kitą monitorių dešinėje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
 msgid "Move window to the next monitor above"
 msgstr "Perkelti langą į kitą monitorių viršuje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
 msgid "Move window to the next monitor below"
 msgstr "Perkelti langą į kitą monitorių apačioje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Iškelti langą, jei uždengtas, priešingu atveju nuleisti jį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
 msgstr "Iškelti langą virš kitų langų"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
 msgid "Lower window below other windows"
 msgstr "Nuleisti langą žemiau kitų langų"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
 msgid "Maximize window vertically"
 msgstr "Išdidinti langą vertikaliai"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
 msgid "Maximize window horizontally"
 msgstr "Išdidinti langą horizontaliai"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
 msgstr "Perkelti langą į viršutinį kairį kampą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
 msgstr "Perkelti langą į viršutinį dešinį kampą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
 msgstr "Perkelti langą į apatinį kairį kampą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
 msgstr "Perkelti langą į apatinį dešinį kampą"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
 msgstr "Perkelti langą į į viršutinį ekrano pakraštį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
 msgid "Move window to bottom edge of screen"
 msgstr "Perkelti langą į apatinį ekrano pakraštį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
 msgid "Move window to right side of screen"
 msgstr "Perkelti langą į dešinę ekrano pusę"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
 msgid "Move window to left side of screen"
 msgstr "Perkelti langą į kairę ekrano pusę"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
 msgid "Move window to center of screen"
 msgstr "Perkelti langą į ekrano vidurį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:336
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
 msgid "Switch input source"
 msgstr "Perjungti įvesties šaltinį"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:333
 msgid "Binding to select the next input source"
 msgstr "Susiejimas kitam įvesties šaltiniui pasirinkti"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Switch input source backward"
 msgstr "Perjungti įvesties šaltinį atgal"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:338
 msgid "Binding to select the previous input source"
 msgstr "Susiejimas ankstesniam įvesties šaltiniui"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Toggle window to be always on top"
 msgstr "Perjungti lango pasirodymą visuomet viršuje"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:347
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
 msgid "Set or unset window to appear always on top"
 msgstr "Perjungti lango pasirodymą visuomet viršuje"
 
@@ -3083,13 +3060,12 @@ msgstr "Nurodo, kaip suaktyvinami nauji langai"
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
-"mode, and “strict” results in windows started from a terminal not being "
-"given focus."
+"mode, and “strict” results in new windows not being given focus "
+"automatically."
 msgstr ""
 "Šis parametras suteikia papildomo valdymo naujai sukuriamiems langams "
 "aktyvuoti. Yra dvi galimos reikšmės: „smart“ taikoma normaliai naudotojo "
-"aktyvavimo veiksenai, o „strict“ reiškia neaktyvius langus paleidžiant iš "
-"terminalo."
+"aktyvavimo veiksenai, o „strict“ reiškia automatiškai neaktyvius langus."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3117,73 +3093,67 @@ msgstr "Veiksmas dukart spustelėjus lango antraštę"
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "Šis parametras nusako dvikarčio paspaudimo ant pavadinimo juostos efektą. "
-"Šiuo metu leistini parametrai yra „toggle-shade“, kuris šešėliuoja langą, "
-"„toggle-maximize“, kuris išdidina/atstato langą, „toggle-maximize-"
-"horizontally“ ir „toggle-maximize-vertically“, kurie išdidina/atstato langą "
-"nurodyta kryptimi, „minimize“, kuris sumažina langą, „shade, kuris suvynioja "
-"langą, „meniu“, kuris parodo lango meniu, „lower“, kuris nuleidžia langą "
-"žemiau kitų, ir „none“, kuris nieko nedaro."
+"Šiuo metu leistini parametrai yra „toggle-maximize“, kuris išdidina/atstato "
+"langą, „toggle-maximize-horizontally“ ir „toggle-maximize-vertically“, kurie "
+"išdidina/atstato langą nurodyta kryptimi, „minimize“, kuris sumažina langą, "
+"„meniu“, kuris parodo lango meniu, „lower“, kuris nuleidžia langą žemiau "
+"kitų, ir „none“, kuris nieko nedaro."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Veiksmas spustelėjus antraštės juostą viduriniuoju klavišu"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "Šis parametras nusako vidurinio pelės mygtuko paspaudimo ant pavadinimo "
-"juostos efektą. Šiuo metu leistini parametrai yra „toggle-shade“, kuris "
-"šešėliuoja langą, „toggle-maximize“, kuris išdidina/atstato langą, „toggle-"
-"maximize-horizontally“ ir „toggle-maximize-vertically“, kurie išdidina/"
-"atstato langą nurodyta kryptimi, „minimize“, kuris sumažina langą, „shade, "
-"kuris suvynioja langą, „meniu“, kuris parodo lango meniu, „lower“, kuris "
+"juostos efektą. Šiuo metu leistini parametrai yra „toggle-maximize“, kuris "
+"išdidina/atstato langą, „toggle-maximize-horizontally“ ir „toggle-maximize-"
+"vertically“, kurie išdidina/atstato langą nurodyta kryptimi, „minimize“, "
+"kuris sumažina langą, „meniu“, kuris parodo lango meniu, „lower“, kuris "
 "nuleidžia langą žemiau kitų, ir „none“, kuris nieko nedaro."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Veiksmas spustelėjus antraštės juostą dešiniuoju klavišu"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
 "Šis parametras nusako dešinio pelės mygtuko paspaudimo ant pavadinimo "
-"juostos efektą. Šiuo metu leistini parametrai yra „toggle-shade“, kuris "
-"šešėliuoja langą, „toggle-maximize“, kuris išdidina/atstato langą, „toggle-"
-"maximize-horizontally“ ir „toggle-maximize-vertically“, kurie išdidina/"
-"atstato langą nurodyta kryptimi, „minimize“, kuris sumažina langą, „shade, "
-"kuris suvynioja langą, „meniu“, kuris parodo lango meniu, „lower“, kuris "
+"juostos efektą. Šiuo metu leistini parametrai yra „toggle-maximize“, kuris "
+"išdidina/atstato langą, „toggle-maximize-horizontally“ ir „toggle-maximize-"
+"vertically“, kurie išdidina/atstato langą nurodyta kryptimi, „minimize“, "
+"kuris sumažina langą, „meniu“, kuris parodo lango meniu, „lower“, kuris "
 "nuleidžia langą žemiau kitų, ir „none“, kuris nieko nedaro."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Automatiškai iškelia suaktyvintą langą"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3195,11 +3165,11 @@ msgstr ""
 "raise-delay rakte. Tai nesusiję paspaudimu ant lango jo iškėlimui nei su "
 "įėjimu į langą jį tempiant."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
 msgstr "Uždelsimas milisekundėmis automatinio iškėlimo parametrui"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
@@ -3207,11 +3177,11 @@ msgstr ""
 "Laiko uždelsimas prie iškeliant langą, jei auto-raise yra nustatyta "
 "teigiama. Uždelsimas nurodomas sekundės tūkstantosiomis dalimis."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
 msgstr "Dabartinė tema"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
@@ -3219,11 +3189,11 @@ msgstr ""
 "Tema nusako lango kraštinių, pavadinimo juostos ir kt.  išvaizdą. PASENĘS: "
 "šis raktas yra pasenęs ir jo nepaisoma."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr "Naudoti standartinį sistemos šriftą lango antraštėse"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
@@ -3231,11 +3201,11 @@ msgstr ""
 "Jei teigiama, nepaisyti titlebar-font parametro ir langų antraštėms naudoti "
 "standartinį programų šriftą."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
 msgstr "Lango antraštės šriftas"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
 "A font description string describing a font for window titlebars. The size "
 "from the description will only be used if the titlebar-font-size option is "
@@ -3247,11 +3217,11 @@ msgstr ""
 "pat, šis parametras yra išjungtas, jei titlebar-uses-desktop-font parametras "
 "yra teigiamas."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
 msgstr "Darbo sričių skaičius"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
@@ -3261,11 +3231,11 @@ msgstr ""
 "didžiausią reikšmę, taip apsaugant nuo darbalaukio pavertimo nenaudojamu, "
 "atsitiktinai paprašius per daug darbo sričių."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
 msgstr "Sistemos perspėjimas yra garsinis"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3273,11 +3243,11 @@ msgstr ""
 "Nusako, ar programos ar sistema gali sugeneruoti garsinius „pyptelėjimus“; "
 "gali būti naudojama kartu su „vaizdiniu skambučiu“ tyliems „pyptelėjimams“."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "Įjungti vaizdinį perspėjimą"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3286,11 +3256,11 @@ msgstr ""
 "Įjungia vaizdinę indikaciją, kai programa arba sistema sukelia „bell“ arba "
 "„beep“; naudinga sunkiai girdintiems ir triukšmingose aplinkose."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
 msgstr "Vaizdinio perspėjimo tipas"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3308,13 +3278,13 @@ msgstr ""
 "skambutį, yra nežinoma (kaip dažniausiai yra numatytajam „system beep“), "
 "šiuo metu aktyvaus lango antraštė mirksės."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Išjungti klaidingas veiksenas, kurios reikalingos senoms ar blogai "
 "veikiančioms programoms"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -3326,11 +3296,11 @@ msgstr ""
 "veikseną, kuri suteikia vientisą naudotojo sąsają, su sąlyga, kad nevykdomos "
 "neteisingai veikiančios programos."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
 msgstr "Darbo sričių pavadinimai"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3571,6 +3541,9 @@ msgid ""
 msgstr ""
 "Prievadas kompiuteryje, apibrėžtame „/system/proxy/socks/host“, per kurį "
 "jungiamasi."
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Perjungti šešėliavimo būseną"
 
 #~ msgid "This key is not used, and should not be read or modified."
 #~ msgstr "Šis raktas nenaudojamas ir neturi būti skaitomas ar keičiamas."
