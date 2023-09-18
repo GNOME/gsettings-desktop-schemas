@@ -11,18 +11,18 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2023-09-06 22:50+0000\n"
-"PO-Revision-Date: 2023-09-10 22:54+0200\n"
-"Last-Translator: Matej Urbančič <mateju@src.gnome.org>\n"
+"POT-Creation-Date: 2023-09-18 16:09+0000\n"
+"PO-Revision-Date: 2023-09-18 20:38+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
-"n%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1237,40 +1237,45 @@ msgstr ""
 "Z »\\n« ločen seznam parov »ime:barva«, kot ga določi nastavitev »gtk-color-"
 "scheme«"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'12h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Ali ura prikazuje 24 ali 12-urno obliko"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Ali naj ura prikazuje sekunde"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Izbrana možnost omogoči na uri prikaz sekund."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Na uri pokaži datum"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Izbrana možnost omogoči prikaz datuma poleg časa."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Na uri pokaži dan tedna"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Izbrana možnost omogoči prikaz dneva v tednu poleg časa."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Omogoči vroča oglišča"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1278,21 +1283,21 @@ msgstr ""
 "Izbrana možnost omogoča dostop do pregleda dejavnosti s premikom miške v "
 "levi zgornji kot namizja."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Pokaži polnost baterije"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr "Izbrana možnost omogoči prikaz polnosti baterije v vrstici stanja."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Omogoči osnovno izbiro prilepljenja"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1300,11 +1305,11 @@ msgstr ""
 "Ko je v uporabi osnovna izbira prilepljenja, je to izvedeno s pritiskom na "
 "srednji gumb miške."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Dovoli prekrivno drsenje"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1312,11 +1317,11 @@ msgstr ""
 "ALi naj bodo drsniki prekriti kot določevalniki. Glede na vrsto vhodne "
 "naprave so lahko običajni drsniki še vedno vidni."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Poudari trenutno mesto kazalnika."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1324,11 +1329,11 @@ msgstr ""
 "Izbrana možnost omogoča, da bo ob pritisku tipke poudarjeno mesto kazalnika "
 "na zaslonu."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Glajenje"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1338,11 +1343,11 @@ msgstr ""
 "prezrto glajenje, »sivinsko« za običajno glajenje sivin in »rgba« za "
 "točkovno glajenje (le za LCD zaslone)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Prilagajanje pisave"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1366,11 +1371,11 @@ msgstr ""
 "načinu je mogoče zaznati popačenja oziroma neenakomerno kakovost izrisa, kar "
 "pa je močno odvisno od pisave, zapisa in programnika FreeType."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "Razvrstitev RGBA"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1381,11 +1386,11 @@ msgstr ""
 "(običajno), »bgr« za modro na levi, »vrgb« za rdečo na vrhu, »vbgr« za rdečo "
 "na dnu."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Barvna shema"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
@@ -3546,147 +3551,3 @@ msgid ""
 msgstr ""
 "Vrata računalnika, ki jih določa »/system/proxy/socks_host\", prek katerih "
 "deluje posredniški strežnik."
-
-#~ msgid "Toggle shaded state"
-#~ msgstr "Preklopi stanje senčenja"
-
-#~ msgid "This key is not used, and should not be read or modified."
-#~ msgstr "Ta ključ ni uporabljen, zato ga ni dovoljeno brati in spreminjati."
-
-#~ msgid "Show the activities overview"
-#~ msgstr "Pokaži okno pregleda dejavnosti"
-
-#~ msgid "Direction to perform a single click ('left', 'right', 'up', 'down')."
-#~ msgstr "Poteza za izvajanje enojnega klika ('levo', 'desno', 'gor', 'dol')."
-
-#~ msgid "Direction to perform a double click ('left', 'right', 'up', 'down')."
-#~ msgstr "Poteza za izvajanje dvojnega klika ('levo', 'desno', 'gor', 'dol')."
-
-#~ msgid "Direction to perform dragging ('left', 'right', 'up', 'down')."
-#~ msgstr "Poteza za izvajanje potega ('levo', 'desno', 'gor', 'dol')."
-
-#~ msgid ""
-#~ "Direction to perform a secondary click ('left', 'right', 'up', 'down')."
-#~ msgstr ""
-#~ "Poteza za izvajanje drugotnega klika ('levo', 'desno', 'gor', 'dol')."
-
-#~ msgid ""
-#~ "When disabled, touchpads that only support edge scrolling (and not 2-"
-#~ "finger scrolling) will have that feature disabled."
-#~ msgstr ""
-#~ "Pri sledilnih ploščicah, ki podpirajo robni drsnik (ne tudi dvoprsnega "
-#~ "drsenje) bo možnost omogočena."
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "Izbor načina drsenja sledilne ploščice"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "Izbor načina drsenja sledilne ploščice. Podprte vrednosti so: "
-#~ "\"onemogočeno\", \"robno drsenje\", \"dvo-prstno drsenje\"."
-
-#~ msgid ""
-#~ "URI to use for the background image. Not that the backend only supports "
-#~ "local (file://) URIs."
-#~ msgstr ""
-#~ "Naslov URI slike ozadja. Ozadnji program podpira je naslove URI krajevnih "
-#~ "datotek (file://)."
-
-#~ msgid "Whether raising should be a side-effect of other user interactions"
-#~ msgstr "Ali naj bo dvigovanje stranski učinek drugih dejanj uporabnika"
-
-#~ msgid ""
-#~ "Setting this option to false can lead to buggy behavior, so users are "
-#~ "strongly discouraged from changing it from the default of true. Many "
-#~ "actions (e.g. clicking in the client area, moving or resizing the window) "
-#~ "normally raise the window as a side-effect. Setting this option to false, "
-#~ "which is strongly discouraged, will decouple raising from other user "
-#~ "actions, and ignore raise requests generated by applications. See http://"
-#~ "bugzilla.gnome.org/show_bug.cgi?id=445447#c6. Even when this option is "
-#~ "false, windows can still be raised by an alt-left-click anywhere on the "
-#~ "window, a normal click on the window decorations, or by special messages "
-#~ "from pagers, such as activation requests from tasklist applets. This "
-#~ "option is currently disabled in click-to-focus mode. Note that the list "
-#~ "of ways to raise windows when raise-on-click is false does not include "
-#~ "programmatic requests from applications to raise windows; such requests "
-#~ "will be ignored regardless of the reason for the request. If you are an "
-#~ "application developer and have a user complaining that your application "
-#~ "does not work with this setting disabled, tell them it is -their- fault "
-#~ "for breaking their window manager and that they need to change this "
-#~ "option back to true or live with the \"bug\" they requested."
-#~ msgstr ""
-#~ "Nastavitev možnosti lahko privede do nestanovitnega delovanja, zato "
-#~ "spreminjanje možnosti ni priporočeno. Veliko dejanj (primer: klikanje "
-#~ "znotraj oken, premikanje in spreminjanje velikosti oken) običajno "
-#~ "privzdigne okno kot stranski učinek dejanja. Z onemogočenjem možnosti bo "
-#~ "program preprečil dvig okna drugim programom in bo prezrl zahteve, ki jih "
-#~ "ustvarjajo ukazi. Več podrobnosti najdete na http://bugzilla.gnome.org/"
-#~ "show_bug.cgi?id=445447#c6. Tudi z onemogočenjem možnosti je okna mogoče "
-#~ "privzdigniti z alt-levi klik kjerkoli na oknu. Možnost je onemogočena le "
-#~ "v klik-za-žarišče načinu. Seznam načinov, s katerimi je mogoče "
-#~ "privzdigniti okno ne vključuje programskih zahtev programov za dvig okna; "
-#~ "take zahteve so prezrte ne glede na vzrok zahteve."
-
-#~ msgid "Menus Have Icons"
-#~ msgstr "Meniji imajo ikone"
-
-#~ msgid "Whether menus may display an icon next to a menu entry."
-#~ msgstr "Ali naj meniji kažejo ikono ob predmetu menija."
-
-#~ msgid "Buttons Have Icons"
-#~ msgstr "Gumbi imajo ikone"
-
-#~ msgid "Whether buttons may display an icon in addition to the button text."
-#~ msgstr "Ali naj bo na gumbu ob besedilu gumba še ikona."
-
-#~ msgid "Show the 'Input Methods' menu"
-#~ msgstr "Pokaži meni 'Vnosni načini'"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "change the input method."
-#~ msgstr ""
-#~ "Ali naj vsebinski meni vnosov in pogledi besedila omogočajo možnost "
-#~ "spreminjanja vnosnega načina."
-
-#~ msgid "Show the 'Unicode Control Character' menu"
-#~ msgstr "Pokaži meni 'Nadzorni znak Unicode'"
-
-#~ msgid ""
-#~ "Whether the context menus of entries and text views should offer to "
-#~ "insert control characters."
-#~ msgstr ""
-#~ "Ali naj vsebinski meni vnosov in besedila omogoči vstavljanje nadzornih "
-#~ "znakov."
-
-#~ msgid "Only show mnemonics on when the Alt key is pressed"
-#~ msgstr "Pokaži mnemoniko le, ko je pritisnjena tipka Alt"
-
-#~ msgid ""
-#~ "Whether mnemonics should be automatically shown and hidden when the user "
-#~ "presses the Alt key."
-#~ msgstr ""
-#~ "Ali naj bodo pospeševalne tipke samodejno prikazane in skrite, kadar "
-#~ "uporabnik pritisne tipko Alt."
-
-#~ msgid ""
-#~ "(Not implemented) Navigation works in terms of applications not windows"
-#~ msgstr "(Ni podprto) Krmarjenje deluje v smislu programov, ne oken"
-
-#~ msgid ""
-#~ "If true, then the WM works in terms of applications rather than windows. "
-#~ "The concept is a bit abstract, but in general an application-based setup "
-#~ "is more like the Mac and less like Windows. When you focus a window in "
-#~ "application-based mode, all the windows in the application will be "
-#~ "raised. Also, in application-based mode, focus clicks are not passed "
-#~ "through to windows in other applications. Application-based mode is, "
-#~ "however, largely unimplemented at the moment."
-#~ msgstr ""
-#~ "Izbrana možnost omogoča, da program prednostno obravnava program kot "
-#~ "celoto in ne okna programa. Ta možnost je nekoliko abstraktna in je "
-#~ "pomensko značilna za okolje Mac in manj za Windows. Ko je okno "
-#~ "postavljeno v žarišče v programskem načinu, se vsa okna programa "
-#~ "dvignejo. Prav tako se v tem načinu kliki z miško ne prenesejo na okna "
-#~ "ostalih programov. Programski način v veliki meri še ni dokončno razvit."
