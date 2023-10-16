@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
 "POT-Creation-Date: 2023-09-19 16:36+0000\n"
-"PO-Revision-Date: 2023-10-11 04:35+0200\n"
+"PO-Revision-Date: 2023-10-16 05:33+0200\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
@@ -52,6 +52,8 @@ msgid ""
 "This key overrides the automatic hiding of the Universal Access status icon "
 "when no accessibility features are enabled."
 msgstr ""
+"ეს პარამეტრი გადაფარავს უნივერსალური წვდომის სტატუსის ხატულის ავტომატურ "
+"დამალვას მაშინ, როცა წვდომადობის ფუნქციები ჩართული არაა."
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:14
 msgid "Always show the text caret"
@@ -62,6 +64,8 @@ msgid ""
 "This key overrides the hiding of the text caret in noneditable text in "
 "applications."
 msgstr ""
+"ეს პარამეტრი გადაფარავს ტექსტის კარეტის დამალვის პარამეტრს აპლიკაციის "
+"არაჩასწორებად ტექსტში."
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
 msgid "High contrast"
@@ -83,6 +87,8 @@ msgstr "პიპინი, როცა კლავიატურის წ�
 msgid ""
 "Whether to beep when a keyboard accessibility feature is enabled or disabled."
 msgstr ""
+"დავაპიპინო თუ არა, როცა კლავიატურის წვდომადობის ფუნქცია ჩაირთვება ან "
+"გამოირთვება."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:15
 msgid "Disable keyboard accessibility after a timeout"
@@ -93,6 +99,8 @@ msgid ""
 "Whether to disable keyboard accessibility after a timeout, useful for shared "
 "machines."
 msgstr ""
+"კლავიატურის წვდომადობის გამორთვა გარკვეული ვადის შემდეგ. სასარგებლოა "
+"გაზიარებული მანქანებისთვის."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:20
 msgid "Duration of the disabling timeout"
@@ -100,7 +108,7 @@ msgstr "გამორთვის ვადის ხანგრძლივ�
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:21
 msgid "Duration of the timeout before disabling the keyboard accessibility."
-msgstr ""
+msgstr "ხანგრძლივობა, რომლის შემდეგაც კლავიატურის წვდომადობა გაითიშება."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:25
 msgid "Enable “Bounce Keys”"
@@ -108,7 +116,7 @@ msgstr "\"მხტუნავი ღილაკების\" ჩართვ
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:26
 msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
-msgstr ""
+msgstr "ჩართულია თუ არა კლავიატურის წვდომადობის ფუნქცია \"მხტუნავი ღილაკები\"."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:30
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:65
@@ -118,6 +126,8 @@ msgstr "მინიმალური ინტერვალი მილი�
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:31
 msgid "Ignore multiple presses of the same key within this many milliseconds."
 msgstr ""
+"მითითებული რაოდენობის მილიწამების განმავლობაში იგივე ღილაკის ერთზე მეტი "
+"დაწოლის იგნორი."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:35
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:80
@@ -135,7 +145,7 @@ msgstr "\"თაგუნას ღილაკების\" ჩართვა
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:41
 msgid "Whether the “Mouse Keys” accessibility feature is turned on."
-msgstr ""
+msgstr "ჩართულია თუ არა კლავიატურის წვდომადობის ფუნქცია \"თაგუნას ღილაკები\"."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:45
 msgid "Pixels per seconds"
@@ -143,7 +153,7 @@ msgstr "პიქსელი წამში"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:46
 msgid "How many pixels per second to move at the maximum speed."
-msgstr ""
+msgstr "მაქსიმუმ რამდენი პიქსელით წამში ვიმოძრაო."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:50
 msgid "How long to accelerate in milliseconds"
@@ -151,7 +161,7 @@ msgstr "რამდენ ხანს აჩქარდება. მილ�
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:51
 msgid "How many milliseconds it takes to go from 0 to maximum speed."
-msgstr ""
+msgstr "რამდენ მილიწამში ავა 0-დან მაქსიმალურ სიჩქარემდე."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:55
 msgid "Initial delay in milliseconds"
@@ -161,6 +171,7 @@ msgstr "საწყისი დაყოვნება, მილიწამ
 msgid ""
 "How many milliseconds to wait before mouse movement keys start to operate."
 msgstr ""
+"რამდენი მილიწამი მოვიცადო, სანამ თაგუნას მოძრაობის ღილაკები ამუშავდება."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:60
 msgid "Enable “Slow Keys”"
@@ -168,12 +179,14 @@ msgstr "ნელი ღილაკების ჩაართვა"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:61
 msgid "Whether the “Slow Keys” accessibility feature is turned on."
-msgstr ""
+msgstr "ჩართულია თუ არა კლავიატურის წვდომადობის ფუნქცია \"ნელი ღილაკები\"."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:66
 msgid ""
 "Do not accept a key as being pressed unless held for this many milliseconds."
 msgstr ""
+"არ მივიღო ღილაკი, თუ მითითებული რაოდენობა მილიწამის განმავლობაში არ "
+"დააწვებით."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:70
 msgid "Beep when a key is first pressed"
@@ -197,16 +210,16 @@ msgstr "წებოვანი ღილაკების ჩართვა"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:86
 msgid "Whether the sticky keys accessibility feature is turned on."
-msgstr ""
+msgstr "ჩართულია თუ არა კლავიატურის წვდომადობის ფუნქცია \"წებოვანი ღილაკები\"."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:90
 msgid "Disable when two keys are pressed at the same time"
-msgstr ""
+msgstr "ორი ღილაკის ერთდროული დაწოლის გათიშვა"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:91
 msgid ""
 "Whether to disable sticky keys if two keys are pressed at the same time."
-msgstr ""
+msgstr "გამოვრთო თუ არა წებოვანი ღილაკები, თუ ორ ღილაკს ერთდროულად დააწვებით."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:95
 msgid "Beep when a modifier is pressed."
@@ -223,6 +236,7 @@ msgstr "\"გადასართველი ღილაკების\" ჩ
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:101
 msgid "Whether the “Toggle Keys” accessibility feature is turned on."
 msgstr ""
+"ჩართულია თუ არა კლავიატურის წვდომადობის ფუნქცია \"ღილაკების გადართვა\"."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:8
 msgid "Mouse Tracking Mode"
@@ -686,6 +700,8 @@ msgstr "როგორ მართავს ფაილების მმა
 #: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
+"თუ დაყენებულია ჭეშმარიტზე, ფაილების მმართველი სამუშაო მაგიდაზე ხატულებს "
+"დახატავს."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -693,7 +709,7 @@ msgstr "კალენდარში კვირის რიცხვის 
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
 msgid "If true, display the ISO week date in the calendar."
-msgstr ""
+msgstr "თუ ჭეშმარიტია, კალენდარში ISO კვირის თარიღის ჩვენება."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -701,7 +717,7 @@ msgstr "დროის სარტყლის ავტომატური 
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:7
 msgid "Whether to automatically update the timezone using geolocation."
-msgstr ""
+msgstr "განახლდება დროის სარტყელი გეოლოკაციის მიხედვით, თუ არა."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:14
 msgid "Default calendar"
@@ -741,6 +757,7 @@ msgstr "ამოცანებს ტერმინალი სჭირდ�
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:45
 msgid "Whether the default tasks application needs a terminal to run."
 msgstr ""
+"სჭირდება თუ არა ნაგულისხმევ ამოცანების აპლიკაციას გასაშვებად ტერმინალი."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:53
 msgid "Terminal application"
@@ -1093,7 +1110,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
 msgid "Whether the clock displays in 24h or 12h format"
-msgstr "საათი აჩვენებს 24სთ ფორმატით, თუ 12სთ."
+msgstr "საათი აჩვენებს 24სთ ფორმატით, თუ 12სთ"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:219
 msgid "Whether the clock shows seconds"
@@ -1515,7 +1532,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid "Enable tap-and-drag with touchpad"
-msgstr ""
+msgstr "თაჩპედით დატყაპუნების-და-გადათრევის ჩართვა"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid ""
@@ -1525,7 +1542,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid "Enable tap-and-drag-lock with touchpad"
-msgstr ""
+msgstr "თაჩპედით დატყაპუნების-და-გადათრევა-ჩაკეტვა ჩართვა"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid ""
@@ -1539,7 +1556,7 @@ msgstr "თაჩპედი ჩართულია"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Defines the situations in which the touchpad is enabled."
-msgstr ""
+msgstr "აღწერს სიტუაციებს, როცა თაჩპედი ჩართულია."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
 msgid "Touchpad button orientation"
@@ -1655,7 +1672,7 @@ msgstr "NumLock-ის მდგომარეობა"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "The remembered state of the NumLock LED."
-msgstr ""
+msgstr "NumLock-ის LED-ის დამახსოვრებული მდგომარეობა."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "Mouse button orientation"
@@ -1663,7 +1680,7 @@ msgstr "თაგუნას ღილაკის ორიენტაცი�
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "თაგუნას მარცხენა და მარჯვენა ღილაკების მიმოცვლა ცაციებისთვის."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid ""
@@ -1719,7 +1736,7 @@ msgstr "ტაბლეტის ასახვა"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "How input affects the pointer on the screen"
-msgstr ""
+msgstr "როგორ მოქმედებს შეყვანა კურსორზე"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid "Tablet area"
@@ -1804,11 +1821,11 @@ msgstr "პანელის ღილაკის მოქმედები�
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
 msgid "The type of action triggered by the button being pressed."
-msgstr ""
+msgstr "იმ ქმედების ტიპი, რომელიც ამ ღილაკის დაწოლით დატრიგერდა."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
 msgid "Key combination for the custom action"
-msgstr ""
+msgstr "ღილაკების მიმდევრობა მომხმარებლის ქმედებისთვის"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
 msgid ""
@@ -1829,11 +1846,11 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "თაგუნას ბორბლის ემულაცის ღილაკი. 0 ამ ფუნქციის გასათიშად."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Mouse wheel emulation button lock"
-msgstr ""
+msgstr "თაგუნას ბორბლის ემულაციის ღილაკის ჩაკეტვა"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
@@ -1896,7 +1913,7 @@ msgstr "მომხმარებლის მენიუში სრულ�
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:13
 msgid "Whether the users full name is shown in the user menu or not."
-msgstr ""
+msgstr "არის თუ არა მომხმარებლის სრული სახელი ნაჩვენები მომხმარებლის მენიუში."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:17
 msgid "Whether to remove old files from the trash automatically"
@@ -1925,6 +1942,8 @@ msgstr "ნაგვის ყუთში და დროებითი ფ�
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:30
 msgid "Consider trash and temporary files old after this many days."
 msgstr ""
+"ნაგვის ყუთში და დროებით საქაღალდეში არსებული ფაილების ამ რაოდენობა დღეების "
+"შემდეგ მოძველებულად ჩათვლა."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:35
 msgid "Whether to remember recently used files"
@@ -2253,7 +2272,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:6
 msgid "Disable all external thumbnailers"
-msgstr ""
+msgstr "ყველა გარე მინიატურის პროგრამების გამორთვა"
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:7
 msgid ""
@@ -2941,7 +2960,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 msgid "Use HTTP proxy for all protocols"
-msgstr ""
+msgstr "ყველა პროტოკოლისთვის HTTP პროქსის გამოყენება"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:57
 msgid "Whether to use the HTTP proxy for all protocols or not."
