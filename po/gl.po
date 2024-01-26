@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2023-07-15 11:46+0000\n"
-"PO-Revision-Date: 2023-08-08 02:20+0200\n"
-"Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
+"POT-Creation-Date: 2024-01-11 14:06+0000\n"
+"PO-Revision-Date: 2024-01-26 11:15+0100\n"
+"Last-Translator: Fran Dieguez <fran.dieguez@gnome.org>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 42.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-DL-Team: gl\n"
 "X-DL-Module: gsettings-desktop-schemas\n"
 "X-DL-Branch: master\n"
@@ -84,6 +84,16 @@ msgstr "Contraste alto"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Indica se usar o estilo de contraste alto."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Mostrar os estado das formas"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Indica se usar as formas para indicar o estado ademais ou no lugar da cor."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -945,11 +955,11 @@ msgid ""
 msgstr ""
 "Lista dos identificadores de orixes de entrada dispoñíbeis. Cada orixe "
 "especifícase como unha tupla de 2 cadeas. A primeira cadea é o tipo, pode "
-"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é «xkb_layout"
-"+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se necesita. "
-"Para as orixes «ibus» a segunda cadea é un nome de motor IBus. Unha lista "
-"baleira significa que a disposición e variante de XKB actual do servidor X "
-"non se cambiaran e IBus non se empregará."
+"ser «xkb» ou «ibus». Para as orixes «xkb» a segunda cadea é "
+"«xkb_layout+xkb_variant» ou só «xkb_layout» se é unha variante de XKB non se "
+"necesita. Para as orixes «ibus» a segunda cadea é un nome de motor IBus. "
+"Unha lista baleira significa que a disposición e variante de XKB actual do "
+"servidor X non se cambiaran e IBus non se empregará."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
 msgid "List of most recently used input sources"
@@ -976,21 +986,33 @@ msgstr ""
 "define nos ficheiros de regras de xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Modelo de XKB a usar"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"O modelo XKB a usar. O valor é o mesmo identificador que se definiu nos "
+"ficheiros de xeometría de xkeyboard-config."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Mostrar todas as orixes de entrada instaladas"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Fai que todas as orixes de entrada instaladas estean dispoñíbeis nas "
 "Preferencias do sistema."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Usar diferentes orixes de entrada para cada xanela"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1048,8 +1070,8 @@ msgstr "Estilo da barra de ferramentas"
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
-"Estilo da barra de ferramentas. Os valores válidos son \"both\", \"both-horiz"
-"\", \"icons\" e \"text\"."
+"Estilo da barra de ferramentas. Os valores válidos son \"both\", \"both-"
+"horiz\", \"icons\" e \"text\"."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1103,7 +1125,7 @@ msgstr "Intervalo de parpadeo do cursor"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:82
 msgid "Time after which the cursor stops blinking, in seconds."
 msgstr ""
-"Duración a partir de que se detén a intermitencia do cursor, en segundos."
+"Duración a partir de que se detén a intermitencia do cursor, en segundos."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:88
 msgid "Icon Theme"
@@ -1292,40 +1314,45 @@ msgstr ""
 "Unha lista de «name:color» separada por «\\n» como se define na "
 "configuración «gtk-color-scheme»"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'12h'"
+msgstr "'12h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Indica se o reloxo se mostra en formato de 12h ou de 24h"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Indica se o reloxo mostra os segundos"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Se é certa, mostra os segundos no reloxo."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Mostrar a data no reloxo"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Se é certa, mostra a data no reloxo, ademais da hora."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Mostrar o día da semana no reloxo"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Se é certa, mostra o día da semana no reloxo, ademais da hora."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Activar as esquinas quentes"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1333,22 +1360,22 @@ msgstr ""
 "Se é verdadeiro, a vista xeral de actividades poden accederse movendo o rato "
 "á esquina superior esquerda."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Mostrar porcentaxe da batería"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr ""
 "Se é certa, mostra a data no reloxo no menú de estado, ademáis dunha icona."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Activar a selección de pegado primaria"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1356,11 +1383,11 @@ msgstr ""
 "Se é certo, GTK+ usará a selección de pegado primaria, normalmenete "
 "desencadenada pola pulsación do botón central do rato."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Permitir o desprazamento superposto"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1369,11 +1396,11 @@ msgstr ""
 "Dependendo dos dispositivos de entrada en uso, as barras de desprazamento "
 "permanentes poderína mostrarse de todas maneiras."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Realza a localización actual do punteiro."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1381,11 +1408,11 @@ msgstr ""
 "Se é verdadeiro, premendo unha chave realzarase a localización actual do "
 "punteiro na pantalla."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Suavizado de contorno"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1396,11 +1423,11 @@ msgstr ""
 "«grayscale» para o suavizado de contorno en escala de grises estándar, and "
 "«rgba» para o suavizado de contorno de subpixel (só pantallas LCD)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Optimización"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1425,11 +1452,11 @@ msgstr ""
 "renderizado, dependendo da calidade do tipo de letra, o seu formato e o "
 "estado dos motores de tipos de letra de FreeType."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "Orde RGBA"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1437,14 +1464,14 @@ msgid ""
 msgstr ""
 "A orde dos elementos de subpíxeles nunha pantalla LCD; só se usa cando o "
 "suavizado se define como \"rgba\". Os valores posíbeis son: \"rgb\" para o "
-"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, \"vrgb"
-"\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
+"vermello na esquerda (o máis común), \"bgr\" para o azul na esquerda, "
+"\"vrgb\" para o vermello arriba, \"vbgr\" para o vermello abaixo."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Esquema de cores"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
@@ -2105,7 +2132,7 @@ msgstr "Curva de presión do lapis dixital"
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
-"Estabelecer isto a x1, y1 e x2, y2 á curva de presión aplicada ao lapis "
+"Estabelecer isto a x1, y1 e x2, y2 á curva de presión aplicada ao lapis "
 "dixital."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
@@ -2792,11 +2819,11 @@ msgstr "Cambiar ao espazo de traballo 12"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:56
 msgid "Switch to workspace left"
-msgstr "Cambiar ao espazo de traballo á esquerda do espazo actual"
+msgstr "Cambiar ao espazo de traballo á esquerda do espazo actual"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:60
 msgid "Switch to workspace right"
-msgstr "Cambiar ao espazo de traballo á dereita do espazo actual"
+msgstr "Cambiar ao espazo de traballo á dereita do espazo actual"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:64
 msgid "Switch to workspace above"
@@ -2816,7 +2843,7 @@ msgstr "Cambiar entre as xanelas dunha aplicación"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:80
 msgid "Reverse switch windows of an application"
-msgstr "Cambiar entre as xanelas dunha aplicación ao revés"
+msgstr "Cambiar entre as xanelas dunha aplicación ao revés"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:84
 msgid "Switch applications"
@@ -2824,7 +2851,7 @@ msgstr "Cambiar entre aplicacións"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:88
 msgid "Reverse switch applications"
-msgstr "Cambiar entre aplicacións ao revés"
+msgstr "Cambiar entre aplicacións ao revés"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:92
 msgid "Switch windows"
@@ -2876,7 +2903,7 @@ msgstr "DEPRECADO: Esta chave está deprecada e ignórase."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
-msgstr "Mostrar o diálogo de executar orde"
+msgstr "Mostrar o diálogo de executar orde"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:144
 msgid "Don’t use"
@@ -2980,11 +3007,11 @@ msgstr "Mover a xanela ao último espazo de traballo"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
-msgstr "Mover a xanela un espazo de traballo cara á esquerda"
+msgstr "Mover a xanela un espazo de traballo cara á esquerda"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
-msgstr "Mover a xanela un espazo de traballo cara á dereita"
+msgstr "Mover a xanela un espazo de traballo cara á dereita"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
@@ -3012,7 +3039,7 @@ msgstr "Mover a xanela ao seguinte monitor embaixo"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
-msgstr "Elevar a xanela se está cuberta por outra, en caso contrario baixala"
+msgstr "Elevar a xanela se está cuberta por outra, en caso contrario baixala"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
@@ -3032,19 +3059,19 @@ msgstr "Maximizar a xanela horizontalmente"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
-msgstr "Mover a xanela á esquina superior esquerda"
+msgstr "Mover a xanela á esquina superior esquerda"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
-msgstr "Mover a xanela á esquina superior dereita"
+msgstr "Mover a xanela á esquina superior dereita"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
-msgstr "Mover a xanela á esquina inferior esquerda"
+msgstr "Mover a xanela á esquina inferior esquerda"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
-msgstr "Mover a xanela á esquina inferior dereita"
+msgstr "Mover a xanela á esquina inferior dereita"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
@@ -3104,16 +3131,16 @@ msgid ""
 "the “resize-with-right-button” key. Modifier is expressed as “<Alt>” or "
 "“<Super>” for example."
 msgstr ""
-"Ao premer nunha xanela mentres se mantén premida esta tecla modificadora, "
+"Ao premer nunha xanela mentres se mantén premida esta tecla modificadora, "
 "moverase a xanela (co clic esquerdo), redimensionarase a xanela (co clic co "
-"botón do medio) ou mostrarase o menú da xanela (co clic dereito). As "
+"botón do medio) ou mostrarase o menú da xanela (co clic dereito). As "
 "operacións esquerda e dereita poden intercambiarse usando a clave \"resize-"
-"with-right-button\". O modificador exprésase como «<Alt>» or «<Super>» por "
+"with-right-button\". O modificador exprésase como «<Alt>» or «<Super>» por "
 "exemplo."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
-msgstr "Se hai que redimensionar co botón dereito"
+msgstr "Se hai que redimensionar co botón dereito"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:20
 msgid ""
@@ -3121,14 +3148,14 @@ msgid ""
 "middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
-"Defina isto como true para redimensionar co botón dereito e para mostrar un "
-"menú co botón do medio mentres se mantén premida a tecla indicada en "
-"«mouse_button_modifier»; defínao como false para que funcione da maneira "
+"Defina isto como true para redimensionar co botón dereito e para mostrar un "
+"menú co botón do medio mentres se mantén premida a tecla indicada en "
+"«mouse_button_modifier»; defínao como false para que funcione da maneira "
 "contraria."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:29
 msgid "Arrangement of buttons on the titlebar"
-msgstr "Distribucións dos botóns na barra de títulos"
+msgstr "Distribucións dos botóns na barra de títulos"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:30
 msgid ""
@@ -3140,14 +3167,14 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
-"A disposición dos botóns na barra de título. O valor debe ser unha cadea "
-"como \"menu:minimize,maximize,spacer,close\"; a vírgula separa a esquina "
-"esquerda da xanela da dereita, e os nomes dos botóns están separados por "
-"vírgulas. Non están permitidos os botóns duplicados. Os nomes de botóns "
+"A disposición dos botóns na barra de título. O valor debe ser unha cadea "
+"como \"menu:minimize,maximize,spacer,close\"; a vírgula separa a esquina "
+"esquerda da xanela da dereita, e os nomes dos botóns están separados por "
+"vírgulas. Non están permitidos os botóns duplicados. Os nomes de botóns "
 "descoñecidos son ignorados silenciosamente, para que se poidan engadir "
-"botóns en futuras versións do Metacity sen romper as versións anteriores. "
-"Pódese usar unha etiqueta separadora especial para inserir un pouco de "
-"espazo entre dous botóns adxacentes."
+"botóns en futuras versións do Metacity sen romper as versións anteriores. "
+"Pódese usar unha etiqueta separadora especial para inserir un pouco de "
+"espazo entre dous botóns adxacentes."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:43
 msgid "Window focus mode"
@@ -3178,7 +3205,7 @@ msgid ""
 "mode, and “strict” results in new windows not being given focus "
 "automatically."
 msgstr ""
-"Esta opción proporciona control adicional sobre como obteñen o foco as "
+"Esta opción proporciona control adicional sobre como obteñen o foco as "
 "xanelas creadas recentemente. Ten dous valores posíbeis: «smart» aplica o "
 "modo de foco normal do usuario e «strict» fai que as xanelas iniciadas desde "
 "un terminal non se lles dea o foco automaticamente."
@@ -3205,7 +3232,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:82
 msgid "Action on title bar double-click"
-msgstr "Acción ao premer dúas veces na barra de título"
+msgstr "Acción ao premer dúas veces na barra de título"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
 msgid ""
@@ -3217,16 +3244,16 @@ msgid ""
 "“lower” which will put the window behind all the others, and “none” which "
 "will not do anything."
 msgstr ""
-"Esta opción determina os efectos de facer un dobre clic na barra de título. "
-"As opcións válidas actuais son «toggle-maximize», que maximizará/restaurará "
+"Esta opción determina os efectos de facer un dobre clic na barra de título. "
+"As opcións válidas actuais son «toggle-maximize», que maximizará/restaurará "
 "a xanela; «toggle-maximize-horizontally» e «toggle-maximize-vertically» que "
-"maximizará ou restaurará a xanela só nesa dirección; «minimize», que "
-"minimizará a xanela; «menu» que mostrará o menú da xanela; «lower», que "
-"colocará a xanela por detrás de todas as outras e «none», que non fará nada."
+"maximizará ou restaurará a xanela só nesa dirección; «minimize», que "
+"minimizará a xanela; «menu» que mostrará o menú da xanela; «lower», que "
+"colocará a xanela por detrás de todas as outras e «none», que non fará nada."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
-msgstr "Acción ao premer co botón central do rato na barra de título"
+msgstr "Acción ao premer co botón central do rato na barra de título"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
 msgid ""
@@ -3238,17 +3265,17 @@ msgid ""
 "“lower” which will put the window behind all the others, and “none” which "
 "will not do anything."
 msgstr ""
-"Esta opción determina os efectos de facer un clic co botón do medio na barra "
-"de título. As opcións válidas actuais son «toggle-maximize» que maximizará/"
+"Esta opción determina os efectos de facer un clic co botón do medio na barra "
+"de título. As opcións válidas actuais son «toggle-maximize» que maximizará/"
 "restaurará a xanela, «toggle-maximize-horizontally» e «toggle-maximize-"
-"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
-"«minimize», que minimizará a xanela; «menu» que mostrará o menú da xanela; "
-"«lower», que colocará a xanela por detrás de todas as outras e «none», que "
-"non fará nada."
+"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
+"«minimize», que minimizará a xanela; «menu» que mostrará o menú da xanela; "
+"«lower», que colocará a xanela por detrás de todas as outras e «none», que "
+"non fará nada."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
-msgstr "Acción ao premer co botón dereito na barra de título"
+msgstr "Acción ao premer co botón dereito na barra de título"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
 msgid ""
@@ -3260,13 +3287,13 @@ msgid ""
 "“lower” which will put the window behind all the others, and “none” which "
 "will not do anything."
 msgstr ""
-"Esta opción determina os efectos de facer un clic co botón dereito na barra "
-"de título. As opcións válidas actuais son «toggle-maximize», que maximizará/"
+"Esta opción determina os efectos de facer un clic co botón dereito na barra "
+"de título. As opcións válidas actuais son «toggle-maximize», que maximizará/"
 "restaurará a xanela, «toggle-maximize-horizontally» e «toggle-maximize-"
-"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
-"«minimize», que minimizará a xanela; «menu» que mostrará o menú da xanela; "
-"«lower», que colocará a xanela por detrás de todas as outras e «none», que "
-"non fará nada."
+"vertically» que maximizará ou restaurará a xanela só nesa dirección; "
+"«minimize», que minimizará a xanela; «menu» que mostrará o menú da xanela; "
+"«lower», que colocará a xanela por detrás de todas as outras e «none», que "
+"non fará nada."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
@@ -3279,23 +3306,23 @@ msgid ""
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
-"Se se define como verdadeiro, e o modo de foco é «sloppy» ou «mouse», entón "
-"a xanela enfocada subirá automaticamente despois dun atraso especificado na "
-"chave auto_raise_delay. Isto non está relacionado con premer nunha xanela "
-"para subila, nin con entrar nunha xanela durante unha operación de arrastrar "
+"Se se define como verdadeiro, e o modo de foco é «sloppy» ou «mouse», entón "
+"a xanela enfocada subirá automaticamente despois dun atraso especificado na "
+"chave auto_raise_delay. Isto non está relacionado con premer nunha xanela "
+"para subila, nin con entrar nunha xanela durante unha operación de arrastrar "
 "e soltar."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
-msgstr "Atraso en milisegundos para a opción de subida automática"
+msgstr "Atraso en milisegundos para a opción de subida automática"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
 msgstr ""
-"O atraso antes de subir unha xanela se auto_raise está configurado como "
-"true. O atraso está indicado en milésimas de segundo."
+"O atraso antes de subir unha xanela se auto_raise está configurado como "
+"true. O atraso está indicado en milésimas de segundo."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
@@ -3306,24 +3333,24 @@ msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"O tema determina a aparencia dos bordos da xanela, o título e o resto e "
+"O tema determina a aparencia dos bordos da xanela, o título e o resto e "
 "moito máis. OBSOLETO: Esta chave é obsoleta e ignorada."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
-msgstr "Usar un tipo de letra estándar de sistema nos títulos da xanela"
+msgstr "Usar un tipo de letra estándar de sistema nos títulos da xanela"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
-"Se é true, ignora a opción titlebar_font e usa o tipo de letra estándar da "
-"aplicación para os títulos das xanelas."
+"Se é true, ignora a opción titlebar_font e usa o tipo de letra estándar da "
+"aplicación para os títulos das xanelas."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
-msgstr "Tipo de letra do título da xanela"
+msgstr "Tipo de letra do título da xanela"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
@@ -3333,14 +3360,14 @@ msgid ""
 "option is set to true."
 msgstr ""
 "Unha cadea de descrición do tipo de letra que describe un tipo de letra para "
-"os títulos das xanelas. O tamaño dunha descrición só se usará se a opción "
-"titlebar_font_size está definida como 0; do mesmo modo, esta opción tamén "
-"está desactivada se a opción titlebar_uses_desktop_font está definida como "
+"os títulos das xanelas. O tamaño dunha descrición só se usará se a opción "
+"titlebar_font_size está definida como 0; do mesmo modo, esta opción tamén "
+"está desactivada se a opción titlebar_uses_desktop_font está definida como "
 "verdadeira."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
-msgstr "Número de espazos de traballo"
+msgstr "Número de espazos de traballo"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
@@ -3348,13 +3375,13 @@ msgid ""
 "prevent making the desktop unusable by accidentally asking for too many "
 "workspaces."
 msgstr ""
-"Número de espazos de traballo. Debe ser maior que cero e ter un máximo fixo "
-"para prever a destrución accidental do seu escritorio ao pedir moitos "
+"Número de espazos de traballo. Debe ser maior que cero e ter un máximo fixo "
+"para prever a destrución accidental do seu escritorio ao pedir moitos "
 "espazos de traballo."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
-msgstr "O ton de campá do sistema é audíbel"
+msgstr "O ton de campá do sistema é audíbel"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
@@ -3362,12 +3389,12 @@ msgid ""
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
 "Determina se as aplicacións ou o sistema poden xerar «tons de aviso» "
-"audíbeis; pode usarse en conxunto co «ton de campá visual» para permitir "
+"audíbeis; pode usarse en conxunto co «ton de campá visual» para permitir "
 "«tons de aviso» silenciosos."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
-msgstr "Activar a campá visual"
+msgstr "Activar a campá visual"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
@@ -3375,13 +3402,13 @@ msgid ""
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
-"Activa unha indicación visual cando unha aplicación ou o sistema emite un "
-"«ton de campá» ou un «ton de aviso»; é moi útil para os ambientes ruidosos e "
+"Activa unha indicación visual cando unha aplicación ou o sistema emite un "
+"«ton de campá» ou un «ton de aviso»; é moi útil para os ambientes ruidosos e "
 "para as persoas con dificultades auditivas."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
-msgstr "Tipo de ton de campá visual"
+msgstr "Tipo de ton de campá visual"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
@@ -3393,19 +3420,19 @@ msgid ""
 "unknown (as is usually the case for the default “system beep”), the "
 "currently focused window’s titlebar is flashed."
 msgstr ""
-"Dílle ao xestor de xanelas como implementar a indicación visual de que soou "
-"a campá do sistema ou a campá de indicación doutra aplicación. Actualmente "
-"hai dous valores válidos, «fullscreen-flash», que causa un escintilo en "
+"Dílle ao xestor de xanelas como implementar a indicación visual de que soou "
+"a campá do sistema ou a campá de indicación doutra aplicación. Actualmente "
+"hai dous valores válidos, «fullscreen-flash», que causa un escintilo en "
 "branco e negro en toda a pantalla e «frame-flash» que provoca que a barra de "
-"títulos da xanela de aplicacións que enviou o sinal de campá escintile. Se o "
-"aplicación que enviou o ton de campá é descoñecido (como é normalmente para "
-"o «ton de aviso do sistema» predeterminado), a barra de título da xanela "
-"actual enfocada escintilará."
+"títulos da xanela de aplicacións que enviou o sinal de campá escintile. Se o "
+"aplicación que enviou o ton de campá é descoñecido (como é normalmente para "
+"o «ton de aviso do sistema» predeterminado), a barra de título da xanela "
+"actual enfocada escintilará."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
-"Desactivar as características non adecuadas que son requiridas por "
+"Desactivar as características non adecuadas que son requiridas por "
 "aplicacións antigas ou danadas"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
@@ -3415,15 +3442,15 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
-"Algunhas aplicacións non consideran as especificacións en formas que teñen "
-"como resultado un comportamento incorrecto do xestor de xanelas. Esta opción "
-"pon ao Metacity nun modo rigorosamente correcto, o que dá unha interface de "
-"usuario máis consistente, sempre que non se necesite executar ningunha "
-"aplicación que sexa problemática."
+"Algunhas aplicacións non consideran as especificacións en formas que teñen "
+"como resultado un comportamento incorrecto do xestor de xanelas. Esta opción "
+"pon ao Metacity nun modo rigorosamente correcto, o que dá unha interface de "
+"usuario máis consistente, sempre que non se necesite executar ningunha "
+"aplicación que sexa problemática."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
-msgstr "Crear áreas de traballo"
+msgstr "Crear áreas de traballo"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
@@ -3481,7 +3508,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:10
 msgid "Proxy configuration mode"
-msgstr "Modo de configuración do proxy"
+msgstr "Modo de configuración do proxy"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:11
 msgid ""
@@ -3510,7 +3537,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:36
 msgid "Automatic proxy configuration URL"
-msgstr "URL de configuración automática do proxy"
+msgstr "URL de configuración automática do proxy"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:37
 msgid ""
@@ -3531,11 +3558,11 @@ msgid ""
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
-"Esta chave contén unha lista de servidores cos que está conectado "
-"directamente, en vez de a través dun proxy (se está activo). Os valores "
-"poden ser nomes de servidor, dominios (usando un caracter de substitución "
+"Esta chave contén unha lista de servidores cos que está conectado "
+"directamente, en vez de a través dun proxy (se está activo). Os valores "
+"poden ser nomes de servidor, dominios (usando un caracter de substitución "
 "inicial como *.foo.com), enderezos IP de servidores (tanto IPv4 como IPv6) e "
-"enderezos de rede cunha máscara (do tipo 192.168.0.0/24)."
+"enderezos de rede cunha máscara (do tipo 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 msgid "Use HTTP proxy for all protocols"
@@ -3563,7 +3590,7 @@ msgstr "Nome do servidor proxy HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:74
 msgid "The machine name to proxy HTTP through."
-msgstr "Nome da máquina a través da que usar o proxy HTTP."
+msgstr "Nome da máquina a través da que usar o proxy HTTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:81
 msgid "HTTP proxy port"
@@ -3578,7 +3605,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:89
 msgid "Authenticate proxy server connections"
-msgstr "Autenticar as conexións co servidor proxy"
+msgstr "Autenticar as conexións co servidor proxy"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:90
 msgid ""
@@ -3608,7 +3635,7 @@ msgstr "Contrasinal do proxy HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:111
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr "Contrasinal requirido como autenticación ao usar o proxy HTTP."
+msgstr "Contrasinal requirido como autenticación ao usar o proxy HTTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:119
 msgid "Secure HTTP proxy host name"
@@ -3616,7 +3643,7 @@ msgstr "Nome do servidor do proxy HTTP seguro"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:120
 msgid "The machine name to proxy secure HTTP through."
-msgstr "Nome da máquina a través da que usar o proxy HTTP seguro."
+msgstr "Nome da máquina a través da que usar o proxy HTTP seguro."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:127
 msgid "Secure HTTP proxy port"
@@ -3635,7 +3662,7 @@ msgstr "Nome do servidor do proxy FTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:138
 msgid "The machine name to proxy FTP through."
-msgstr "Nome da máquina a través da que usar o proxy FTP."
+msgstr "Nome da máquina a través da que usar o proxy FTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:145
 msgid "FTP proxy port"
