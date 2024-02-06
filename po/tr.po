@@ -6,17 +6,17 @@
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2014.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015.
-# Sabri Ünal <libreajans@gmail.com>, 2014, 2019, 2021, 2022.
+# Sabri Ünal <libreajans@gmail.com>, 2014, 2019, 2021, 2022, 2024.
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017-2019.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2022.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2023-09-18 16:09+0000\n"
-"PO-Revision-Date: 2023-09-19 12:07+0300\n"
+"POT-Creation-Date: 2024-01-26 10:15+0000\n"
+"PO-Revision-Date: 2024-02-06 21:23+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-POOTLE-MTIME: 1436898428.000000\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -82,6 +82,17 @@ msgstr "Yüksek karşıtlık"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Yüksek karşıtlık biçeminin kullanılması."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Durum biçimlerini göster"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Durumu belirtmek için ek olarak ya da renk yerine biçimlerin kullanılıp "
+"kullanılmaması."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -960,21 +971,33 @@ msgstr ""
 "ile tanımlandığı gibi bir XKB seçenek dizgesidir."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Kullanılacak XKB modeli"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Kullanılacak XKB modeli. Değer, xkeyboard-config geometri dosyalarınca "
+"tanımlananla aynı tanımlayıcıdır."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Kurulu tüm giriş kaynaklarını göster"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Sistem Ayarlarında seçim için tüm kurulu girdi kaynaklarını kullanılabilir "
 "kılar."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Her pencere için farklı giriş kaynağı kullan"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1965,7 +1988,7 @@ msgid ""
 "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "Fare için imleç hızı. Kabul edilen değerler [-1..1] aralığındadır "
-"(“hızlandırılmamış”la “fast” arasında). 0 ise öntanımlı sistem değeridir."
+"(“hızlandırılmamış”la “hızlı” arasında). 0 ise öntanımlı sistem değeridir."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
@@ -2548,7 +2571,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
-msgstr "Tüm harici arama sağlayıcılarını etkisizleştir"
+msgstr "Tüm dış arama sağlayıcılarını etkisizleştir"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:8
 msgid ""
@@ -2674,7 +2697,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:6
 msgid "Disable all external thumbnailers"
-msgstr "Tüm harici küçük resimleyicileri iptal et"
+msgstr "Tüm dış küçük resimleyicileri iptal et"
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:7
 msgid ""
@@ -2682,13 +2705,13 @@ msgid ""
 "whether they are independently disabled/enabled."
 msgstr ""
 "Eğer seçiliyse, ayrı ayrı kapat/etkinleştir ayarlarından bağımsız olarak tüm "
-"harici küçük resimleyici programlarını iptal eder."
+"dış küçük resimleyici programlarını iptal eder."
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:15
 msgid ""
 "List of mime-types for which external thumbnailer programs will be disabled"
 msgstr ""
-"Harici küçük resimleyici programlarının devre dışı bırakılacağı mime türleri "
+"Dış küçük resimleyici programlarının devre dışı bırakılacağı mime türleri "
 "listesi"
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:19
