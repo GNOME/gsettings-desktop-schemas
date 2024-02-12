@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues\n"
-"POT-Creation-Date: 2023-07-15 11:46+0000\n"
-"PO-Revision-Date: 2023-09-03 21:34+0300\n"
+"POT-Creation-Date: 2024-01-11 14:06+0000\n"
+"PO-Revision-Date: 2024-02-12 23:29+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -76,6 +76,15 @@ msgstr "Didelis kontrastas"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Ar naudoti didelio kontrasto stilių."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Rodyti būsenų figūras"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr "Ar naudoti figūras būsenai nurodyti kartu su arba vietoje spalvos."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -933,21 +942,33 @@ msgstr ""
 "apibrėžia xkeyboard-config taisyklių failai."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Naudojamas XKB modelis"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Naudojamas XKB modelis. Vertė yra tas pats identifikatorius, kaip nurodyta "
+"xkeyboard-config geometrijos failuose."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Rodyti visus įvesties šaltinius"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Paverčia visus įdiegtus įvesties šaltinius prieinamus pasirinkimui sistemos "
 "nustatymuose."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Naudoti skirtingus įvesties šaltinius kiekvienam langui"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1237,40 +1258,45 @@ msgstr ""
 "„\\n“ skiriamas „pavadinimas:spalva“ elementų sąrašas, kaip apibrėžtas „gtk-"
 "color-palette“ nustatymo"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'12h'"
+msgstr "„12val“"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Ar laikrodis rodo 24 val., ar 12 val. formatą"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Ar laikrodis rodo sekundes"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Jei teigiama, rodyti sekundes laikrodyje."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Rodyti datą laikrodyje"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Jei teikiama, greta laiko laikrodyje rodyti datą."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Rodyti laikrodyje savaitės dieną"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Jei teigiama, greta laiko laikrodyje rodyti savaitės dieną."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Įjungti karštus kampus"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1278,11 +1304,11 @@ msgstr ""
 "Jei teigiama, veiklų apžvalgą galima pasiekti perkeliant pelę link "
 "viršutinio kairiojo kampo."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Rodyti baterijos procentinę reikšmę"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1290,11 +1316,11 @@ msgstr ""
 "Jei teigiama, būsenos meniu rodyti šalia piktogramos ir baterijos procentinę "
 "reikšmę."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Įjungti pirminio įdėjimo žymėjimas"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1302,11 +1328,11 @@ msgstr ""
 "Jei teigiama, gtk+ naudoja pirminio įdėjimo žymėjimą, dažniausiai "
 "panaudojamą viduriniuoju pelės paspaudimu."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Leisti dangalų slinktį"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1315,22 +1341,22 @@ msgstr ""
 "naudojamo įvesties įrenginio nuolatinės slinkties juostos vis tiek gali būti "
 "rodomos."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Paryškina dabartinę žymeklio vietą."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
 msgstr ""
 "Jei teigiama, klavišo paspaudimas paryškins dabartinę žymeklio vietą ekrane."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Glotninimas"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1340,11 +1366,11 @@ msgstr ""
 "glotninimui išjungti, „grayscale“ standartiniam pilkos skalės glotninimui "
 "bei „rgba“ subpikseliniam glotninimui (tik LCD ekranams)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Patarimai"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1368,11 +1394,11 @@ msgstr ""
 "priklausomai nuo šrifto kokybės, šrifto formato ir FreeType šriftų variklių "
 "būsenos."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "RGBA tvarka"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1382,11 +1408,11 @@ msgstr ""
 "„rgba“. Galimo vertės yra: „rgb“ raudonai kairėje (dažniausia), „bgr“ "
 "mėlynai kairėje, „vrgb“ raudonai viršuje, „vbgr“ raudonai apačioje."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Spalvų schema"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
