@@ -2,14 +2,14 @@
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel <ted.korostiled@gmail.com>, 2012.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schema"
 "s/issues\n"
-"POT-Creation-Date: 2023-09-18 16:09+0000\n"
-"PO-Revision-Date: 2023-09-18 22:51+0300\n"
+"POT-Creation-Date: 2024-01-11 14:06+0000\n"
+"PO-Revision-Date: 2024-02-13 20:17+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.04.1\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -76,6 +76,17 @@ msgstr "Висока контрастність"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Чи слід використовувати висококонтрастний стиль."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Показувати форми стану"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Визначає, чи слід використовувати форми для позначення стану на додачу до"
+" кольору або замість нього."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -958,21 +969,36 @@ msgstr ""
 "який визначено для файлів правил xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Модель XKB для використання"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#| msgid ""
+#| "List of XKB options. Each option is an XKB option string as defined by "
+#| "xkeyboard-config’s rules files."
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Модель XKB, якою слід скористатися. Значення є таким самим, що"
+" ідентифікатор, який визначено файлами геометрії xkeyboard-config."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Показувати усі встановлені джерела введення"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Робить доступними для вибору у параметрах системи усі встановлені джерела "
 "введення."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Використовувати різні джерела введення для кожного вікна"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
