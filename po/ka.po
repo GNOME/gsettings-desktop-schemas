@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2024-01-11 14:06+0000\n"
-"PO-Revision-Date: 2024-02-12 14:19+0100\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-02-12 13:21+0000\n"
+"PO-Revision-Date: 2024-02-13 10:07+0100\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
@@ -371,6 +371,7 @@ msgid ""
 "The color of the the vertical and horizontal lines that make up the "
 "crosshairs."
 msgstr ""
+"ფერიი ვერტიკალური და ჰორიზონტალური ხაზებისთვის, რომლებიც კვეთას ქმნიან."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:126
 msgid "Opacity of the crosshairs"
@@ -381,6 +382,8 @@ msgid ""
 "Determines the transparency of the crosshairs, from fully opaque to fully "
 "transparent."
 msgstr ""
+"განსაზღვრავს კვეთების გამჭვირვალობას. სრულად დაბინდულიდან სრულად "
+"გამჭვირვალემდე."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:135
 msgid "Length of the crosshairs in pixels"
@@ -391,10 +394,12 @@ msgid ""
 "Determines the length in pixels of the vertical and horizontal lines that "
 "make up the crosshairs."
 msgstr ""
+"სიგრძე პიქსელებში ვერტიკალური და ჰორიზონტალური ხაზებისთვის, რომლებიც კვეთას "
+"ქმნიან."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:143
 msgid "Clip the crosshairs at the center"
-msgstr ""
+msgstr "გადაჯვარედინების ამოჭრა ცენტრში"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:144
 msgid ""
@@ -858,7 +863,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
 msgid "XKB model to use"
-msgstr ""
+msgstr "გამოსაყენებელი XKB მოდელი"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
 msgid ""
@@ -891,7 +896,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:6
 msgid "Enable Toolkit Accessibility"
-msgstr ""
+msgstr "ხელსაწყოს ბიბლიოთეკის წვდომადობის ჩართვა"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:7
 msgid "Whether toolkits should load accessibility related modules."
@@ -1156,7 +1161,7 @@ msgstr ""
 #. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
 msgid "'12h'"
-msgstr ""
+msgstr "'12h'"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:214
@@ -1486,7 +1491,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:14
 msgid "Show notifications in the lock screen"
-msgstr ""
+msgstr "გაფრთხილებების ჩვენება დაბლოკილ ეკრანზე"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:15
 msgid "Whether notifications are shown in the lock screen or not."
@@ -1506,7 +1511,7 @@ msgstr "გაფრთხილებების ჩართვა"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:40
 msgid "Whether notifications are globally enabled for this application."
-msgstr ""
+msgstr "უნდა იყოს თუ არა გაფრთხილებები გლობალურად ჩართული ამ აპლიკაციისთვის."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:47
 msgid "Enable sound alerts"
@@ -1514,7 +1519,7 @@ msgstr "ხმოვანი განგაშების ჩვენებ�
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:48
 msgid "Whether notifications should be accompanied by sound alerts."
-msgstr ""
+msgstr "უნდა ჰქონდეს თუ არა გაფრთხილებებს ხმა."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:56
 msgid ""
@@ -1524,7 +1529,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:64
 msgid "Force automatic expanding of banners"
-msgstr ""
+msgstr "ბანერების ავტომატურად გაწელვის ნაძალადევი გამოყენება"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:65
 msgid ""
@@ -2291,6 +2296,8 @@ msgstr ""
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:42
 msgid "List of desktop file IDs for search providers sort order"
 msgstr ""
+"სამუშაო მაგიდის ფაილების ID-ების სია ძებნის მომწოდებლის დალაგების "
+"მიმდევრობისთვის"
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:43
 msgid ""
@@ -2306,7 +2313,7 @@ msgstr "დრო, სანამ სესია უქმედ გამო�
 #: schemas/org.gnome.desktop.session.gschema.xml.in:7
 msgid ""
 "The number of seconds of inactivity before the session is considered idle."
-msgstr ""
+msgstr "უქმეობის დრო წამებში, სანამ სესია უქმედ ჩაითვლება."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:11
 msgid "Session type"
@@ -2355,12 +2362,16 @@ msgid ""
 "Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"მაქსიმალური ასაკი დაკეშილი მინიატურებისთვის, დღეებში. დააყენეთ -1, რომ "
+"გასუფთავება გამორთოთ."
 
 #: schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in:10
 msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
+"დაკეშილი მინიატურის მაქსიმალური ზომა, მეგაბაიტებში. დააყენეთ -1, რომ "
+"გასუფთავება გათიშოთ."
 
 #: schemas/org.gnome.desktop.thumbnailers.gschema.xml.in:6
 msgid "Disable all external thumbnailers"
@@ -2537,7 +2548,7 @@ msgstr "მთელ ეკრანზე განშლადობის შ
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:160
 msgid "Toggle window always appearing on top"
-msgstr ""
+msgstr "გადართვა, რომ ფანჯარა ყოველთვის ყველაზე ზემოთ იყოს"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:164
 msgid "Maximize window"
@@ -2733,7 +2744,7 @@ msgstr "დააყენეთ ან გამორთეთ, რომ ფ�
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:8
 msgid "Modifier to use for modified window click actions"
-msgstr ""
+msgstr "გამოვიყენო თუ არა შეცვლილი ფანჯრის დაწკაპუნების ქმედებები"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
 msgid ""
