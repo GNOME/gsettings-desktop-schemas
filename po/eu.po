@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017.
-# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021, 2022, 2023.
+# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021, 2022, 2023, 2024.
 #
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues\n"
-"POT-Creation-Date: 2023-10-23 16:10+0000\n"
-"PO-Revision-Date: 2023-08-14 10:00+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues/\n"
+"POT-Creation-Date: 2024-02-19 13:18+0000\n"
+"PO-Revision-Date: 2024-02-22 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -69,6 +69,15 @@ msgstr "Kontraste handia"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Kontraste handiko estiloa erabiliko den ala ez."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Erakutsi egoera-formak"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr "Formak erabiliko diren egoerak adierazteko, koloreaz gain"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -811,19 +820,29 @@ msgid ""
 msgstr "XKB aukeren zerrenda. Aukera bakoitza XKB aukeraren kate bat da “xkeyboard-config“-ren arauen fitxategiak definitzen duen arabera."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Erabiliko den XKB eredua"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr "Erabiliko den XKB eredua. Balioa identifikatzaile bera da, \"xkeyboard-config\"-ren geometria-fitxategiek definitzen duten moduan."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Erakutsi instalatutako sarreren iturburu guztiak"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr "Instalatutako sarreren iturburu erabilgarri guztiak hautagarri egiten ditu sistemaren ezarpenetan."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Erabili sarrerako iturburu desberdinak leiho bakoitzean"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1089,101 +1108,106 @@ msgid ""
 "setting"
 msgstr "“\\n“-rekin bereiztutako “izena:kolorea” tuplen zerrenda “gtk-color-scheme” ezarpenean definituta bezala."
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Ordulariak 24 edo 12 orduko formatuan bistaratuko duen"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Erlojuak segundoak erakutsiko dituen edo ez"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "'true' (egia) bada, segundoak bistaratuko dira erlojuan."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Erakutsi data erlojuan"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Ezarrita badago, orduaz gain data ere erakusten du."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Erakutsi laneguna erlojuan"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Egia bada, orduaz gain laneguna ere erakusten du."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Gaitu izkina beroak"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
 msgstr "Egia bada, sagua goiko ezkerreko izkinara mugitu daiteke jardueren ikuspegi orokorra atzitzeko."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Erakutsi bateriaren ehunekoa"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr "True (egia) gisa ezartzen bada, ikonoaz gain bateriaren ehunekoa bistaratuko da egoera-menuan."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Gaitu itsaste nagusiaren hautapena"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr "“true” (egia) bada, gtk+ liburutegiak itsaste nagusiaren hautapena erabiliko du, saguaren erdiko botoiarekin klik egitean abiarazi ohi da."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Onartu gainjarritako korritzea"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr "Korritze-barrak adierazle gisa gainjarriko diren ala ez. Erabiltzen diren sarrerako gailuen arabera, korritze-barra iraunkorrak bistaratuko dira."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Erakuslearen uneko kokalekua nabarmentzen du."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
 msgstr "Egia bada, tekla bat sakatzen bada erakuslearen uneko kokalekua nabarmenduko da pantailan."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Antialiasing-a"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
 "and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr "Antialiasing mota letrak errendatzean erabiltzeko. Balio erabilgarriak: “none” (ezer ez), antialiasing gabe; “grayscale” (gris-eskala), gris-eskala estandarreko antialiasing-a; “rgba” (gbua), azpipixeleko antialiasing-a (LCD pantailetan bakarrik)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Tarteak"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1197,22 +1221,22 @@ msgid ""
 "state of FreeType’s font engines."
 msgstr "Hizkien tarte mota letra-tipoak errendatzean erabiltzeko. Balio erabilgarriak: “none” (bat ere ez) hizkien artean tarterik ez egoteko; “slight” Y ardatzean soilik sartzeko Microsoft-en ClearType, DirectWrite eta Adobe-ren letra-tipoak errendatzeko motor pribatuaren bezala. Letra-tipoaren hitzen arteko tarteei ez ikusi egiten die, tarteak algoritmo bidez sortuz. Ubuntun lehenetsi gisa erabiltzen da. Gomendatuta. “medium” (tartekoa) eta “full” (osoa) balioen esanahia letra-formatuaren (.ttf, .otf, .pfa/.pfb) eta instalatutako FreeType bertsioaren araberakoa da. Glifoak X eta Y ardatzean kokatzen saiatzen dira (.otf ezik: Y ardatza soilik). Distortsioa edo bateratasunik gabe errendatzea sor dezake, letra-tipoaren kalitatea, letra-formatua eta FreeType-ren letra motorren arabera."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "RGBA ordena"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
 "“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr "LCD pantailako azpipixel elementuen ordena, antialiasing-a “rgba” (gbua) balioarekin ezartzean bakarrik erabiltzen da. Balio erabilgarriak: “rgb” (gbu) - gorrian ezkerrean (erabiliena); “bgr” (ubg) - urdina ezkerrean; “vrgb” (bgbu) gorrian goian; “vbgr” (bubg) - gorria behean."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Kolore-eskema"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
