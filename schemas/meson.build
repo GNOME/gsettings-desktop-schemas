@@ -16,6 +16,7 @@ schemas = [
   'org.gnome.desktop.thumbnailers.gschema.xml',
   'org.gnome.desktop.session.gschema.xml',
   'org.gnome.desktop.background.gschema.xml',
+  'org.gnome.desktop.break-reminders.gschema.xml',
   'org.gnome.desktop.calendar.gschema.xml',
   'org.gnome.desktop.datetime.gschema.xml',
   'org.gnome.desktop.media-handling.gschema.xml',
