@@ -3,17 +3,16 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Chris Leonard <cjl@laptop.org>, 2012.
 # Zander Brown <zbrown@gnome.org>, 2019-2021.
-# Bruce Cowan <bruce@bcowan.me.uk>, 2012-2024.
-# Andi Chandler <andi@gowling.com>, 2024.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2012-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2023-12-03 19:36+0000\n"
-"PO-Revision-Date: 2024-02-25 00:15+0000\n"
-"Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-02-19 13:18+0000\n"
+"PO-Revision-Date: 2024-02-23 11:49+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English - United Kingdom <en@li.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -79,6 +78,16 @@ msgstr "High contrast"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Whether to use the high contrast style."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Show status shapes"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Whether to use shapes to indicate status in addition or instead of colour."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -943,20 +952,35 @@ msgstr ""
 "xkeyboard-config’s rules files."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "XKB model to use"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#| msgid ""
+#| "List of XKB options. Each option is an XKB option string as defined by "
+#| "xkeyboard-config’s rules files."
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Show all installed input sources"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Makes all installed input sources available for choosing in System Settings."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Use different input sources for each window"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1241,43 +1265,48 @@ msgid ""
 "A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
 "setting"
 msgstr ""
-"A “\\n” separated list of “name:colour” as defined by the “gtk-color-scheme” "
+"A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
 "setting"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Whether the clock displays in 24h or 12h format"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Whether the clock shows seconds"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "If true, display seconds in the clock."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Show date in clock"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "If true, display date in the clock, in addition to time."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Show weekday in clock"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "If true, display weekday in the clock, in addition to time."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Enable hot corners"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1285,11 +1314,11 @@ msgstr ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Show battery percentage"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1297,11 +1326,11 @@ msgstr ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Enable the primary paste selection"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1309,11 +1338,11 @@ msgstr ""
 "If true, gtk uses the primary paste selection, usually triggered by a middle "
 "mouse button click."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Allow overlay scrolling"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1321,11 +1350,11 @@ msgstr ""
 "Whether scrollbars should be overplayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Highlights the current location of the pointer."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1333,11 +1362,11 @@ msgstr ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Anti-aliasing"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1347,11 +1376,11 @@ msgstr ""
 "“none” for no anti-aliasing, “grayscale” for standard greyscale anti-"
 "aliasing, and “rgba” for sub-pixel anti-aliasing (LCD screens only)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Hinting"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1375,11 +1404,11 @@ msgstr ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "RGBA order"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1390,11 +1419,11 @@ msgstr ""
 "common), “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on "
 "bottom."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Colour scheme"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
@@ -3073,6 +3102,11 @@ msgid "Control how new windows get focus"
 msgstr "Control how new windows get focus"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:56
+#| msgid ""
+#| "This option provides additional control over how newly created windows "
+#| "get focus. It has two possible values; “smart” applies the user’s normal "
+#| "focus mode, and “strict” results in windows started from a terminal not "
+#| "being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
@@ -3107,6 +3141,15 @@ msgid "Action on title bar double-click"
 msgstr "Action on title bar double-click"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
+#| msgid ""
+#| "This option determines the effects of double-clicking on the title bar. "
+#| "Current valid options are “toggle-shade”, which will shade/unshade the "
+#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
+#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
+#| "will maximize/unmaximize the window in that direction only, “minimize” "
+#| "which will minimize the window, “shade” which will roll the window up, "
+#| "“menu” which will display the window menu, “lower” which will put the "
+#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3129,6 +3172,15 @@ msgid "Action on title bar middle-click"
 msgstr "Action on title bar middle-click"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
+#| msgid ""
+#| "This option determines the effects of middle-clicking on the title bar. "
+#| "Current valid options are “toggle-shade”, which will shade/unshade the "
+#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
+#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
+#| "will maximize/unmaximize the window in that direction only, “minimize” "
+#| "which will minimize the window, “shade” which will roll the window up, "
+#| "“menu” which will display the window menu, “lower” which will put the "
+#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3151,6 +3203,15 @@ msgid "Action on title bar right-click"
 msgstr "Action on title bar right-click"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
+#| msgid ""
+#| "This option determines the effects of right-clicking on the title bar. "
+#| "Current valid options are “toggle-shade”, which will shade/unshade the "
+#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
+#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
+#| "will maximize/unmaximize the window in that direction only, “minimize” "
+#| "which will minimize the window, “shade” which will roll the window up, "
+#| "“menu” which will display the window menu, “lower” which will put the "
+#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
