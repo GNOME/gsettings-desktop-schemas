@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2012-2016.
 # Joe Hansen <joedalton2@yahoo.dk>, 2017.
-# Alan Mortensen <alanmortensen.am@gmail.com>, 2019-22.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2019-22, 24.
 # scootergrisen, 2019.
 #
 # tablet -> tegneplade (med mindre det er åbenlyst, at der er tale om en tablet)
@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2023-07-15 11:46+0000\n"
-"PO-Revision-Date: 2023-09-01 08:55+0200\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-02-19 13:18+0000\n"
+"PO-Revision-Date: 2024-02-28 15:29+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -80,6 +80,17 @@ msgstr "Høj kontrast"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Om stilen med høj kontrast skal bruges."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Vis statusformer"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Om der skal bruges former til at angive tilstand sammen med eller i stedet "
+"for farve."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -943,21 +954,33 @@ msgstr ""
 "som defineret af regelfilerne for xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "XKB-model der skal bruges"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"XKB-modellen der skal bruges. Værdien er samme identifikator som defineret "
+"af xkeyboard-configs geometrifiler."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Vis alle installerede inputkilder"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Gør alle installerede inputkilder tilgængelige, så de kan vælges i "
 "Systemindstillinger."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Brug forskellige inputkilder for hvert vindue"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1249,40 +1272,45 @@ msgstr ""
 "En “\\n”-adskilt liste over “navn:farve” som defineret af indstillingen “gtk-"
 "color-scheme”"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Om uret vises i 24-timers- eller 12-timersformat"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Om uret viser sekunder"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Hvis sand, vises sekunder i uret."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Vis dato i ur"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Hvis sand, vises dato i uret, ud over blot klokkeslættet."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Vis ugedag i ur"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Hvis sand, vises ugedagen i uret ud over blot klokkeslættet."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Slå aktive hjørner til"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1290,11 +1318,11 @@ msgstr ""
 "Hvis sand kan aktivitetsoversigten tilgås ved at flytte musen til øverste "
 "venstre hjørne."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Vis batteriniveau"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1302,11 +1330,11 @@ msgstr ""
 "Hvis true, vises batteriniveauet i procent i statusmenuen ud over blot "
 "ikonet."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Aktivér den primære indsæt-markering"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1314,11 +1342,11 @@ msgstr ""
 "Hvis true (sand), så bruger gtk+ den primære indsæt-markering, normalt "
 "udløst ved et midtermuseklik."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Tillad overlægningsrulning"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1326,11 +1354,11 @@ msgstr ""
 "Om rullebjælker skal overlægges som indikatorer. Permanente rullebjælker kan "
 "stadig være synlige, afhængig af hvilke inputenheder som bruges."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Fremhæver markørens nuværende placering."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1338,11 +1366,11 @@ msgstr ""
 "Hvis sand, vil tryk på en tast fremhæve markørens nuværende placering på "
 "skærmen."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Udjævning"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1352,11 +1380,11 @@ msgstr ""
 "for ingen udjævning, “grayscale” for standardgråtoneudjævning, og “rgba” for "
 "underpixeludjævning (kun for LCD-skærme)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Hinting"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1381,11 +1409,11 @@ msgstr ""
 "af skifttypens kvalitet, skrifttypens format og tilstanden af FreeTypes "
 "skrifttypemotorer."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "RGBA-rækkefølge"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1396,11 +1424,11 @@ msgstr ""
 "almindelige), “bgr” for blå til venstre, “vrgb” for rød øverst, “vbgr” for "
 "rød nederst."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Farveskema"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
