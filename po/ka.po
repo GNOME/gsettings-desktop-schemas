@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-02-25 16:27+0000\n"
-"PO-Revision-Date: 2024-03-08 17:00+0100\n"
+"POT-Creation-Date: 2024-03-08 16:18+0000\n"
+"PO-Revision-Date: 2024-03-10 05:41+0100\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
@@ -307,6 +307,8 @@ msgid ""
 "The magnified view either fills the entire screen, or occupies the top-half, "
 "bottom-half, left-half, or right-half of the screen."
 msgstr ""
+"გადიდებული ადგილი ან მთელ ეკრანს შეავსებს, ან დაიკავებს ეკრანის ზედა "
+"ნახევარს, ქვედა ნახევარს, მარცხენა ნახევარს ან მარჯვენა ნახევარს."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:73
 msgid "Magnification factor"
@@ -341,6 +343,9 @@ msgid ""
 "of the screen, the magnified contents continue to scroll such that the "
 "screen edge moves into the magnified view."
 msgstr ""
+"დაცენტრებული თაგუნას ტრეკინგისთვის, როცა სისტემური კურსორი ეკრანის წიბოსთან "
+"ახლოსაა, გადიდებული შემცველობის გადახვევა გააგრძელებს ამას ისე, რომ ეკრანის "
+"წიბო გადიდებული ხედისკენ წავა."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:102
 msgid "Show or hide crosshairs"
@@ -350,7 +355,7 @@ msgstr "გადაჯვარედინებების ჩვენე�
 msgid ""
 "Enables/disables display of crosshairs centered on the magnified mouse "
 "sprite."
-msgstr ""
+msgstr "ჩართავს/გამორთავს გადიდებულ თაგუნას სპრაიტზე ჯვარედინის ჩვენებას."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:110
 msgid "Thickness of the crosshairs in pixels"
@@ -580,6 +585,8 @@ msgstr "მიტანით წკაპის რეჟიმი"
 msgid ""
 "The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr ""
+"თაგუნას აქტიური დაწკაპუნების რეჟიმი. შესაძლო მნიშვნელობებია "
+"\"window\"(ფანჯარა) და \"gesture\" (ჟესტი)."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:41
 msgid "Show click type window"
@@ -662,6 +669,8 @@ msgid ""
 "A list of categories for which apps will be placed into this folder by "
 "default, in addition to the apps that are listed in the apps key."
 msgstr ""
+"კატეგორიების სია, რომლებისთვისაც აპები ამ საქაღალდეში ნაგულისხმევად "
+"მოთავსდება, იმ აპებთან ერთად, რომლებიც აპის გასაღებშია ჩამოთვლილი."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:39
 msgid "Excluded applications"
@@ -672,6 +681,9 @@ msgid ""
 "A list of IDs of applications that are excluded from this folder. This can "
 "be used to remove applications that would otherwise be included by category."
 msgstr ""
+"აპლიკაციების ID-ების სია, რომლებიც ამოღებულია ამ საქაღალდიდან. შეგიძლიათ "
+"გამოიყენოთ აპლიკაციების წასაშლელად, რომლებიც სხვაგვარად ამ კატეგორიაში "
+"აღმოჩნდებოდა."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
@@ -685,6 +697,10 @@ msgid ""
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
 "“spanned”."
 msgstr ""
+"განსაზღვრავს, როგორ ხდება wallpaper_filename-ში მითითებული გამოსახულების "
+"რენდერი. შესაძლო მნიშვნელობებია \"none\" (არაფერი), \"wallpaper\" (ფონის "
+"სურათი), \"centered\" (ცენტრში), \"streched\" (გაწელილი) , "
+"\"zoom\" (გადიდება) ან \"spanned\"."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
@@ -803,6 +819,10 @@ msgid ""
 "application is the application handling the text/calendar mime type, whether "
 "it needs a terminal is taken from its desktop file."
 msgstr ""
+"სჭირდება თუ არა ნაგულისხმევი კალენდრის აპლიკაციას ტერმინალი, რომ გაეშვას. "
+"მოძველებულია: ეს პარამეტრი მოძველებული და გამოტოვებულია. რჩეული კალენდრის "
+"აპლიკაცია ის აპლიკაციაა, რომელიც text/calenar ტიპის დასამუშავებლადაა "
+"დაყენებული. სჭირდება თუ არა მას ტერმინალი, მის .desktop ფაილშია მითითებული."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:37
 msgid "Default tasks"
@@ -845,6 +865,9 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. The default terminal and how "
 "to invoke it is handled in GIO."
 msgstr ""
+"\"exec\" პარამეტრის მიერ აღწერილი პროგრამების გაშვებისას გამოყენებული "
+"არგუმენტი. მოძველებულია: ეს პარამეტრი მოძველებული და გამოტოვებულია. "
+"ნაგულისხმევი ტერმინალი და გზა, როგორ უნდა გაეშვას ის, GIO-ში მუშავდება."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:7
 msgid "Current input source"
@@ -882,6 +905,8 @@ msgid ""
 "List of most recently used input sources. The value is in the same format as "
 "the available sources list."
 msgstr ""
+"ახლახანს გამოყენებული შეყვანის წყაროების სია. მნიშვნელობა იგივე ფორმატშია, "
+"რომელშიც ხელმისაწვდომი წყაროების სია."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:41
 msgid "List of XKB options"
@@ -1179,6 +1204,8 @@ msgid ""
 "Timeout in milliseconds before a click starts repeating (on spinner buttons "
 "for example)."
 msgstr ""
+"დაყოვნება მილიწამებში, სანა წკაპი გამეორებას დაიწყებს (მაგ: ტრიალა "
+"ღილაკებზე)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:197
 msgid "Timeout between click repeats"
@@ -1213,6 +1240,8 @@ msgid ""
 "A “\\n” separated list of “name:color” as defined by the “gtk-color-scheme” "
 "setting"
 msgstr ""
+"\"\\n\"-ით გამოყოფილი სია \"სახელი:ფერი\" წყვილების, როგორც ამას \"gtk-color-"
+"scheme\" პარამეტრი აღწერს"
 
 #. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
@@ -1293,6 +1322,8 @@ msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr ""
+"გამოჩნდება თუ არა ჩოჩიები ინდიკატორებად. გამოყენებული შეყვანის მოწყობილობაზე "
+"დამოკიდებულებით, შეიძლება, მუდმივი ჩოჩიები გაჩვენოთ."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
@@ -1363,6 +1394,8 @@ msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
+"მომხმარებლის ინტერფეისის რჩეული ფერის სქემა. მისაღები მნიშვნელობაა "
+"\"default\", \"prefer-dark\" და \"prefer-light\"."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1374,6 +1407,9 @@ msgid ""
 "be executed. For example, this would disable access to the panel’s “Run "
 "Application” dialog."
 msgstr ""
+"მომხმარებლისთვის ტერმინალთან წვდომის ან გასაშვები ბრძანების სტრიქონის "
+"მითითების აკრძალვა. ეს, მაგალითად, პანელის \"აპლიკაციის გაშვების\" დიალოგთან "
+"წვდომას აკრძალავს."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:15
 msgid "Disable saving files to disk"
@@ -1384,6 +1420,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications’ “Save as” dialogs."
 msgstr ""
+"მომხმარებლისთვის ფაილების დისკზე შენახვის აკრძალვა. ამას, მაგალითად, ყველა "
+"აპლიკაციისთვის \"შენახვა, როგორც\" დიალოგებთან წვდომის აკრძალვა შეუძლია."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:23
 msgid "Disable printing"
@@ -1394,6 +1432,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications’ “Print” dialogs."
 msgstr ""
+"მომხმარებლისთვის დაბეჭდვის აკრძალვა. ამას, მაგალითად, ყველა აპლიკაციისთვის "
+"\"დაბეჭდვის\" დიალოგებთან წვდომის აკრძალვა შეუძლია."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:31
 msgid "Disable print setup"
@@ -1404,6 +1444,8 @@ msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications’ “Print Setup” dialogs."
 msgstr ""
+"მომხმარებლისთვის ბეჭდვის პარამეტრების შეცვლის აკრძალვა. ამას, მაგალითად, "
+"შეუძლია ყველა აპლიკაციას \"პრინტერის მორგების\" დიალოგებთან წვდომა აუკრძალოს."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
@@ -1451,6 +1493,9 @@ msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
+"მომხმარებლისთვის სხვა მომხმარებლის ანგარიშების შეცვლის აკრძალვა. "
+"ნაგულისხმევად ჩვენ ვუშვებთ მომხმარებლის დამატებას, წაშლას და სხვა "
+"მომხმარებლის პარამეტრების შეცვლას."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
 msgid "Mount removable storage devices as read-only"
@@ -1461,6 +1506,8 @@ msgid ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 msgstr ""
+"მომხმარებლებისთვის მოხსნადი საცავის მოწყობილობებზე (მაგ: USB დისკები, "
+"მობილური ტელეფონები, კამერები) ჩაწერის აკრძალვა."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
 msgid "Disable password showing"
@@ -1515,7 +1562,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:21
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
-msgstr ""
+msgstr "სია x-content/* ტიპების, სადაც რჩეული აპლიკაცია გაეშვება"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:22
 msgid ""
@@ -3000,6 +3047,8 @@ msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
+"თუ ჩართულია, პარამეტრი titlebar-font გამოტოვებული იქნება და გამოყენებული "
+"იქნება სტანდარტული აპლიკაციის ფონტი ფანჯრის სათაურებისთვის."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
@@ -3012,6 +3061,10 @@ msgid ""
 "set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
 "option is set to true."
 msgstr ""
+"ფონტის აღწერის სტრიქონი, რომელიც ფანჯრის სათაურებში გამოყენებულ ფონტს "
+"აღწერს. აღწერიდან ზომა, მხოლოდ, მაშინ გამოიყენება, თუ titlebar-font-size "
+"პარამეტრ 0-ის ტოლია. ასევე, ეს პარამეტრი გათიშულია, თუ titlebar-uses-desktop-"
+"font პარამეტრი ჭეშმარიტია."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
@@ -3023,6 +3076,9 @@ msgid ""
 "prevent making the desktop unusable by accidentally asking for too many "
 "workspaces."
 msgstr ""
+"სამუშაო სივრცეების რაოდენობა. აუცილებლად ნულზე მეტი უნდა იყოს და გააჩნია "
+"მაქსიმალური მნიშვნელობა, რათა სამუშაო მაგიდა ჯერ კიდევ გამოყენებადი იყოს, თუ "
+"შემთხვევით მეტისმეტად ბევრ სამუშაო სივრცის შექმნას მოითხოვთ."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
@@ -3033,6 +3089,9 @@ msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
+"განსაზღვრავს, შეუძლია თუ არა აპლიკაციას ან სისტემას, ხმოვანი \"პიპინი\" "
+"გამოსცეს. გამოყენებული იქნება \"ვიზუალური ზართან\" ერთად, რომ ჩუმი "
+"\"პიპინი\" შესაძლებელი იყოს."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
@@ -3044,6 +3103,9 @@ msgid ""
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
+"ჩართავს ვიზუალურ მაჩვენებელს, როცა აპლიკაცია ან სისტემა გამოსცემს \"ზარს\" "
+"ან \"პიპინს\". სასარგებლოა ადამიანებისთვის, რომლებსაც ყურთ აკლიათ და "
+"ხმაურიანი გარემოებისთვის."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
