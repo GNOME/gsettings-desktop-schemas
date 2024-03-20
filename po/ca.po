@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2023-10-05 12:41+0000\n"
-"PO-Revision-Date: 2023-10-09 19:54+0200\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-03-12 15:53+0000\n"
+"PO-Revision-Date: 2024-03-20 15:45+0100\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -77,6 +77,17 @@ msgstr "Contrast alt"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Si s'ha d'utilitzar l'estil de contrast alt."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Mostra les formes d'estat"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Si s'han d'usar formes per indicar l'estat a més a més o en detriment del "
+"color."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -968,21 +979,33 @@ msgstr ""
 "estan definides en el fitxer de regles «xkeyboard-config»."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Model XKB per usar"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Model XKB per usar. El valor és el mateix identificador tal com es defineix "
+"als fitxers de geometria de l'«xkeyboard-config»."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Mostra tots els mètodes d'entrada instal·lats"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Permet seleccionar tots els mètodes d'entrada instal·lats en els «Paràmetres "
 "del sistema»."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Utilitza diferents mètodes d'entrada per a cada finestra"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1283,42 +1306,47 @@ msgstr ""
 "Una llista separada per salts de línia («\\n») de parelles «nom:color» tal "
 "com es defineix en el paràmetre «gtk-color-scheme»"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Si el rellotge mostra l'hora en format de 12 o 24 hores"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Si el rellotge mostra els segons"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Si és «true» (cert), es mostren els segons en el rellotge."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Mostra la data al rellotge"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr ""
 "Si és «true» (cert), a més a més del temps, es mostra la data en el rellotge."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Mostra el dia de la setmana al rellotge"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr ""
 "Si és cert, a més de l'hora, es mostra el dia de la setmana al rellotge."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Habilita les cantonades actives"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1326,22 +1354,22 @@ msgstr ""
 "Si és cert, es pot accedir a la vista d'activitats desplaçant el ratolí a la "
 "cantonada superior esquerra."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Mostra el percentatge de la bateria"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
 msgstr ""
 "Si és «true» (cert), a més a més del temps, es mostra la data en el rellotge."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Habilita la selecció de l'enganxat primari"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1349,11 +1377,11 @@ msgstr ""
 "Si està habilitat, gtk+ utilitza la selecció primària d'enganxament, que "
 "normalment s'activa mitjançant un clic del botó central del ratolí."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Permet la superposició del desplaçament"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1362,11 +1390,11 @@ msgstr ""
 "Depenent dels dispositius d'entrada en ús, és possible que les barres de "
 "desplaçament permanents es mostrin igualment."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Ressalta la ubicació actual del punter."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1374,11 +1402,11 @@ msgstr ""
 "Si és cert, prémer una tecla ressaltarà la ubicació actual del punter en "
 "pantalla."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Antialiàsing"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1389,11 +1417,11 @@ msgstr ""
 "l'antialiàsing d'escala de grisos estàndard, i «rgba» per a l'antialiàsing "
 "de subpíxel (només pantalles LCD)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Consell"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1418,11 +1446,11 @@ msgstr ""
 "inconsistent depenent de la qualitat del tipus de lletra, el format de "
 "lletra i l'estat dels motors de tipus de lletra de FreeType."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "Ordre RGBA"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1433,11 +1461,11 @@ msgstr ""
 "vermell a l'esquerra (més comú), «bgr» per al blau a l'esquerra, «vrgb» per "
 "al vermell a la part superior, «vbgr» per al vermell a la part inferior."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Esquema de color"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
