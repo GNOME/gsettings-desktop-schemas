@@ -302,5 +302,14 @@
         The preferred color scheme for the user interface. Valid values are “default”, “prefer-dark”, “prefer-light”.
       </description>
     </key>
+    <key name="font-rendering" enum="org.gnome.desktop.GDesktopFontRendering">
+      <default>'automatic'</default>
+      <summary>Font rendering</summary>
+      <description>
+        Preference to indicate whether font rendering should follow the low-level `font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or take environmental factors such as screen resolution and scaling into account.
+        Possible values are: "manual" for respecting the low-level settings, or "automatic" for letting the toolkit
+        make its own decisions.
+      </description>
+    </key>
   </schema>
 </schemalist>

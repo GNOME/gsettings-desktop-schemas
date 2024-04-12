@@ -265,4 +265,10 @@ typedef enum
   G_DESKTOP_POINTING_STICK_SCROLL_METHOD_ON_BUTTON_DOWN
 } GDesktopPointingStickScrollMethod;
 
+typdef enum
+{
+  G_DESKTOP_FONT_RENDERING_AUTOMATIC,
+  G_DESKTOP_FONT_RENDERING_MANUAL,
+} GDesktopFontRendering;
+
 #endif /* __gdesktop_enums_h__ */
