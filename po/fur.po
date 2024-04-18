@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2023-09-19 16:36+0000\n"
-"PO-Revision-Date: 2024-01-05 16:17+0100\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-03-20 17:02+0000\n"
+"PO-Revision-Date: 2024-04-18 10:42+0200\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -76,6 +76,17 @@ msgstr "Contrast elevât"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Indiche se doprâ il stîl a contrast elevât."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Mostre sacumis di stât"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Indiche se doprâ lis sacumis par indicâ il stât tant che informazion sore o "
+"al puest dal colôr."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -965,21 +976,33 @@ msgstr ""
 "definide dai file des regulis di xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Model XKB di doprâ"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Il model XKB di doprâ. Il valôr al è il stes identificadôr definît dai files "
+"des gjeometriis di xkeyboard-config."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Mostre dutis lis sorzints di input instaladis"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "In Impostazions di sisteme, Rint disponibilis pe sielte dutis lis sorzint "
 "input instaladis."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Dopre sorzints input diferentis par ogni barcon"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1280,8 +1303,8 @@ msgstr ""
 
 #. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
-msgid "'12h'"
-msgstr "'12h'"
+msgid "'24h'"
+msgstr "'24h'"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:214
@@ -3161,12 +3184,6 @@ msgid "Control how new windows get focus"
 msgstr "Controle cemût che i gnûfs barcons a otegnin la metude a fûc"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:56
-#, fuzzy
-#| msgid ""
-#| "This option provides additional control over how newly created windows "
-#| "get focus. It has two possible values; “smart” applies the user’s normal "
-#| "focus mode, and “strict” results in windows started from a terminal not "
-#| "being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
@@ -3175,8 +3192,8 @@ msgid ""
 msgstr ""
 "Cheste opzion e furnìs un control adizionâl su cemût i gnûfs barcons creâts "
 "a otegnin la metude a fûc. Si à doi valôrs pussibii; “smart” al apliche la "
-"modalitât di metude a fûc normâl dal utent e “strict” par no dâ, ai barcons "
-"inviâts di terminâl, la metude a fûc."
+"modalitât di metude a fûc normâl dal utent e “strict” par no dâ, ai gnûfs "
+"barcons la metude a fûc automatiche."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3205,16 +3222,6 @@ msgid "Action on title bar double-click"
 msgstr "Azion al dopli clic te sbare dal titul"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar. "
-#| "Current valid options are “toggle-shade”, which will shade/unshade the "
-#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
-#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
-#| "will maximize/unmaximize the window in that direction only, “minimize” "
-#| "which will minimize the window, “shade” which will roll the window up, "
-#| "“menu” which will display the window menu, “lower” which will put the "
-#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3225,29 +3232,18 @@ msgid ""
 "will not do anything."
 msgstr ""
 "Cheste opzion e determine i efiets dal dopli-clic su la sbare dal titul. Lis "
-"opzions atualmentri validis a son “toggle-shade”, che al inrodolarà/"
-"disrodolarà il barcon, “toggle-maximize” che al slargjarà/metarà-normâl il "
-"barcon, “toggle-maximize-horizontally” e “toggle-maximize-vertically” che al "
-"slargjarà/metarà-normâl il barcon dome i chê direzion, “minimize” che al "
-"impiçulirà il barcon, “shade” che al inrodolarà sù il barcon, “menu” che al "
-"mostrarà il menù dal barcon, “lower” che al metarà il barcon daûr di chei "
-"altris e “none” che nol fasarà nuie."
+"opzions atualmentri validis a son “toggle-maximize” che al slargjarà/metarà-"
+"normâl il barcon, “toggle-maximize-horizontally” e “toggle-maximize-"
+"vertically” che a slargjaran/metaran-normâl il barcon dome in chê direzion, "
+"“minimize” che al impiçulirà il barcon, “menu” che al mostrarà il menù dal "
+"barcon, “lower” che al metarà il barcon daûr di chei altris e “none” che nol "
+"fasarà nuie."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Azion al clic centrâl te sbare dal titul"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar. "
-#| "Current valid options are “toggle-shade”, which will shade/unshade the "
-#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
-#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
-#| "will maximize/unmaximize the window in that direction only, “minimize” "
-#| "which will minimize the window, “shade” which will roll the window up, "
-#| "“menu” which will display the window menu, “lower” which will put the "
-#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3258,29 +3254,18 @@ msgid ""
 "will not do anything."
 msgstr ""
 "Cheste opzion e determine i efiets dal clic centrâl su la sbare dal titul. "
-"Lis opzions atualmentri validis a son “toggle-shade”, che al inrodolarà/"
-"disrodolarà il barcon, “toggle-maximize” che al slargjarà/metarà-normâl il "
-"barcon, “toggle-maximize-horizontally” e “toggle-maximize-vertically” che al "
-"slargjarà/metarà-normâl il barcon dome i chê direzion, “minimize” che al "
-"impiçulirà il barcon, “shade” che al inrodolarà sù il barcon, “menu” che al "
-"mostrarà il menù dal barcon, “lower” che al metarà il barcon daûr di chei "
-"altris e “none” che nol fasarà nuie."
+"Lis opzions atualmentri validis a son “toggle-maximize” che al slargjarà/"
+"metarà-normâl il barcon, “toggle-maximize-horizontally” e “toggle-maximize-"
+"vertically” che a slargjaran/metaran-normâl il barcon dome in chê direzion, "
+"“minimize” che al impiçulirà il barcon, “menu” che al mostrarà il menù dal "
+"barcon, “lower” che al metarà il barcon daûr di chei altris e “none” che nol "
+"fasarà nuie."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Azion al clic diestri te sbare dal titul"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar. "
-#| "Current valid options are “toggle-shade”, which will shade/unshade the "
-#| "window, “toggle-maximize” which will maximize/unmaximize the window, "
-#| "“toggle-maximize-horizontally” and “toggle-maximize-vertically” which "
-#| "will maximize/unmaximize the window in that direction only, “minimize” "
-#| "which will minimize the window, “shade” which will roll the window up, "
-#| "“menu” which will display the window menu, “lower” which will put the "
-#| "window behind all the others, and “none” which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3291,13 +3276,12 @@ msgid ""
 "will not do anything."
 msgstr ""
 "Cheste opzion e determine i efiets dal clic diestri su la sbare dal titul. "
-"Lis opzions atualmentri validis a son “toggle-shade”, che al inrodolarà/"
-"disrodolarà il barcon, “toggle-maximize” che al slargjarà/metarà-normâl il "
-"barcon, “toggle-maximize-horizontally” e “toggle-maximize-vertically” che al "
-"slargjarà/metarà-normâl il barcon dome i chê direzion, “minimize” che al "
-"impiçulirà il barcon, “shade” che al inrodolarà sù il barcon, “menu” che al "
-"mostrarà il menù dal barcon, “lower” che al metarà il barcon daûr di chei "
-"altris e “none” che nol fasarà nuie."
+"Lis opzions atualmentri validis a son “toggle-maximize” che al slargjarà/"
+"metarà-normâl il barcon, “toggle-maximize-horizontally” e “toggle-maximize-"
+"vertically” che a slargjaran/metaran-normâl il barcon dome in chê direzion, "
+"“minimize” che al impiçulirà il barcon, “menu” che al mostrarà il menù dal "
+"barcon, “lower” che al metarà il barcon daûr di chei altris e “none” che nol "
+"fasarà nuie."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
@@ -3702,6 +3686,9 @@ msgid ""
 msgstr ""
 "La puarte su la machine definide in “/system/proxy/socks/host” che traviers "
 "di chê fâ il proxy."
+
+#~ msgid "'12h'"
+#~ msgstr "'12h'"
 
 #~ msgid "Toggle shaded state"
 #~ msgstr "Ative/Disative stât inrodolât"
