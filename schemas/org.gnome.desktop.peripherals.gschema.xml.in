@@ -180,10 +180,20 @@
       <summary>Stylus pressure curve</summary>
       <description>Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus.</description>
     </key>
+    <key name="pressure-range" type="ai">
+      <default>[0, 100]</default>
+      <summary>Stylus pressure range</summary>
+      <description>Set this to the percentage of the physical pressure range that should map to the logical range.</description>
+    </key>
     <key name="eraser-pressure-curve" type="ai">
       <default>[0, 0, 100, 100]</default>
       <summary>Eraser pressure curve</summary>
       <description>Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser.</description>
+    </key>
+    <key name="eraser-pressure-range" type="ai">
+      <default>[0, 100]</default>
+      <summary>Eraser pressure range</summary>
+      <description>Set this to the percentage of the physical pressure range that should map to the logical range.</description>
     </key>
     <key name="button-action" enum="org.gnome.desktop.GDesktopStylusButtonAction">
       <default>'default'</default>
