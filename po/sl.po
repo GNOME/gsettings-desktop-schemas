@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-06-19 16:55+0000\n"
-"PO-Revision-Date: 2024-06-20 00:08+0200\n"
+"POT-Creation-Date: 2024-06-19 22:08+0000\n"
+"PO-Revision-Date: 2024-06-20 07:53+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -1420,16 +1420,38 @@ msgstr ""
 "Prednostno uporabljena barvna shema za uporabniški vmesnik. Veljavne "
 "vrednosti so »privzeto«, »prednostno temno«, »prednostno temno«."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Izrisovanje pisave"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Prednost, da označite, ali naj izrisovanje pisave sledi nastavitvam nizke "
+"ravni »font-hinting« (namigovanje pisav), »font-antialiasin« (glajenje robov "
+"pisav) in »font-rgba-order« (vrstni red RGBA pisave) ali n-pa aj upošteva "
+"okoljske dejavnike, kot sta ločljivost zaslona in skaliranje. Možne "
+"vrednosti so: »ročno« za upoštevanje nastavitev na nizki ravni ali "
+"»samodejno«, da lahko orodje sprejema lastne odločitve."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Barva poudarka"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:317
-#, fuzzy
 msgid ""
 "The preferred accent color for the user interface. Valid values are \"blue"
 "\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple"
 "\", \"slate\"."
 msgstr ""
 "Najprimernejša barva poudarkov za uporabniški vmesnik. Veljavne vrednosti so "
-"»modra«, »solza«, »zelena«, »rumena«, »oranžna«, »rdeča«, »roza«, "
-"»vijolična«, »skrilavca«."
+"»modra«, »modrozelena«, »zelena«, »rumena«, »oranžna«, »rdeča«, »roza«, "
+"»vijolična«, »skrilasto modra«."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
