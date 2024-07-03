@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-02-19 13:18+0000\n"
-"PO-Revision-Date: 2024-02-19 16:32+0300\n"
+"POT-Creation-Date: 2024-06-19 16:55+0000\n"
+"PO-Revision-Date: 2024-06-20 11:57+0300\n"
 "Last-Translator: Artur So <arturios2005@mail.ru>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1457,6 +1457,39 @@ msgid ""
 msgstr ""
 "Предпочтительная цветовая схема для пользовательского интерфейса. Допустимые "
 "значения: \"default\", \"prefer-dark\", \"prefer-light\"."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Рендеринг шрифтов"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Предпочтение, указывающее, должен ли рендеринг шрифтов следовать "
+"низкоуровневым настройкам `font-hinting`, `font-antialiasing` и `font-rgba-"
+"order`, или учитывать факторы окружения, такие как разрешение и масштаб "
+"экрана. Возможные значения: \"manual\" - соблюдение низкоуровневых настроек, "
+"или \"automatic\" - предоставление инструментарию принимать собственные "
+"решения."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Акцентный цвет"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"Предпочтительный акцентный цвет для пользовательского интерфейса. Допустимые "
+"значения: \"синий\", \"бирюзовый\", \"зеленый\", \"желтый\", \"оранжевый\", "
+"\"красный\", \"розовый\", \"фиолетовый\", \"серо-голубой\"."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
