@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-06-19 16:55+0000\n"
-"PO-Revision-Date: 2024-07-01 09:33+0530\n"
+"POT-Creation-Date: 2024-07-13 17:38+0000\n"
+"PO-Revision-Date: 2024-07-15 19:31+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
 "Language: hi\n"
@@ -1785,8 +1785,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "त्वरण प्रोफाइल"
 
@@ -1809,7 +1809,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "संकेतक गति"
 
@@ -1847,13 +1847,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "मध्य क्लिक का अनुकरण करें"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2021,27 +2021,42 @@ msgid ""
 msgstr "इसे स्टाइलस पर लागू दबाव वक्र के x1, y1 और x2, y2 पर निर्धारित करें।"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "स्टाइलस दबाव सीमा"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr "इसे भौतिक दबाव सीमा के प्रतिशत पर तय करें जो तार्किक सीमा से मेल खाना चाहिए।"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "इरेज़र दबाव वक्र"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "इसे इरेज़र पर लागू दबाव वक्र के x1, y1 और x2, y2 पर निर्धारित करें।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "इरेज़र दबाव सीमा"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "बटन कार्रवाई"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "स्टाइलस बटन कार्रवाई, यह बटन पेन हैंडल के साथ स्थित है।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "द्वितीयक बटन कार्रवाई"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2051,11 +2066,11 @@ msgstr ""
 "स्थित होता है। एयरब्रश पेन या इंकिंग पेन जैसी अन्य शैलियों में केवल एक बटन होता है, यह सेटिंग "
 "उन पर अप्रभावी है।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "तृतीयक बटन कार्रवाई"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2064,29 +2079,44 @@ msgstr ""
 "तृतीयक स्टाइलस बटन कार्रवाई, यह बटन 3D पेन जैसे कुछ स्टाइलस पर पेन हैंडल के साथ स्थित है। "
 "ग्रिप पेन जैसे अन्य स्टाइलस में केवल दो बटन होते हैं, यह सेटिंग उन पर अप्रभावी है।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "पैड बटन कार्रवाई प्रकार"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "प्राथमिक बटन के लिए कुंजी संयोजन"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "बटन दबाने से शुरू होने वाली कार्रवाई का प्रकार।"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "तदनुकूल कार्रवाई के लिए कुंजी संयोजन"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "तदनुकूल कार्रवाइयों के लिए बटन दबाने पर उत्पन्न होने वाला कीबोर्ड शॉर्टकट।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "द्वितीयक बटन के लिए कुंजी संयोजन"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "तृतीयक बटन के लिए कुंजी संयोजन"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "पैड बटन कार्रवाई प्रकार"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "बटन दबाने से शुरू होने वाली कार्रवाई का प्रकार।"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "तदनुकूल कार्रवाई के लिए कुंजी संयोजन"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "टचस्क्रीन आउटपुट मैपिंग"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2095,15 +2125,15 @@ msgstr ""
 "टचस्क्रीन को जिस आउटपुट पर मैप किया गया है उसकी EDID जानकारी। [विक्रेता, उत्पाद, "
 "सीरियल] प्रारूप में होनी चाहिए। [\"\",\"\",\"\"] स्वचालित मैपिंग पर निर्भर करता है।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "माउस व्हील इम्यूलेशन बटन। 0 सुविधा को अक्षम करने के लिए।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "माउस व्हील इम्यूलेशन बटन लॉक"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2113,7 +2143,7 @@ msgstr ""
 "यदि सक्षम है, तो बटन का पहला क्लिक स्क्रॉलिंग को सक्षम करता है, दूसरा क्लिक फिर से "
 "स्क्रॉलिंग को अक्षम करता है।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2128,7 +2158,7 @@ msgstr ""
 "अनुकूली (“अनुकूली”) जो आंदोलन के आधार पर त्वरण को अनुकूलित करता है। यदि ट्रैकबॉल विन्यस्त "
 "की गई प्रोफाइल का समर्थन नहीं करता है, तो “तयशुदा” का उपयोग किया जाएगा।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2136,7 +2166,7 @@ msgstr ""
 "पॉइंटिंग स्टिक के लिए पॉइंटर स्पीड। स्वीकृत मान [-1..1] दायरे में हैं (“अत्वरित” से “तेज” "
 "तक)। 0 का मान सिस्टम तयशुदा है।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2151,11 +2181,11 @@ msgstr ""
 "अनुकूली (“अनुकूली”) जो आंदोलन के आधार पर त्वरण को अनुकूलित करता है। यदि पॉइंटिंग स्टिक "
 "विन्यस्त प्रोफाइल का समर्थन नहीं करता है, तो “तयशुदा” का उपयोग किया जाएगा।"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "स्क्रॉलिंग विधि"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
