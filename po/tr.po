@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-03-12 15:53+0000\n"
-"PO-Revision-Date: 2024-03-13 19:22+0300\n"
+"POT-Creation-Date: 2024-07-11 12:38+0000\n"
+"PO-Revision-Date: 2024-07-26 01:07+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 "X-POOTLE-MTIME: 1436898428.000000\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -1456,6 +1456,35 @@ msgstr ""
 "“default” (öntanımlı), “prefer-dark” (karanlığı yeğle), “prefer-"
 "light” (aydınlığı yeğle)."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Yazı tipi gerçekleme"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Vurgu rengi"
+
+# Slate için Arduvaz çevirisi de kullanılıyormuş. Pek bilmediğim bir konu.
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are \"blue"
+"\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple"
+"\", \"slate\"."
+msgstr ""
+"Kullanıcı arayüzü için yeğlenen vurgu rengi. Geçerli değerler \"blue"
+"\" (mavi), \"teal\" (deniz mavisi), \"green\" (yeşil), \"yellow\" (sarı), "
+"\"orange\" (turuncu), \"red\" (kırmızı), \"pink\" (pembe), \"purple\" (mor), "
+"\"slate\" (kayrak)."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Komut satırını devre dışı bırak"
@@ -1852,8 +1881,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Hızlandırma profili"
 
@@ -1877,7 +1906,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "İmleç hızı"
 
@@ -1917,13 +1946,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Orta tuşu öykün"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2095,29 +2124,44 @@ msgstr ""
 "Bunu, stylusa uygulanan basınç eğrisinin x1, y1 ve x2, y2’sine ayarlayın."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "Stylus basınç aralığı"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Silgi basınç eğrisi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Bunu, silgiye uygulanan basınç eğrisinin x1, y1 ve x2, y2’sine ayarlayın."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Silgi basınç aralığı"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Düğme eylemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Stylus düğmesi eylemi, bu düğme kalem tutacağı kenarında konumlandırılmıştır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "İkincil düğme eylemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2128,11 +2172,11 @@ msgstr ""
 "gibi diğer styluslar yalnızca bir düğmeye sahiptir, bu ayar onlar için "
 "etkisizdir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Üçüncül düğme eylemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2142,29 +2186,44 @@ msgstr ""
 "tutacağı kenarında konumlandırılmıştır. Grip Pen gibi diğer styluslar "
 "yalnızca iki düğmeye sahiptir, bu ayar onlar için etkisizdir."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Dokunmatik yüzey düğme eylem türü"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Birincil düğme için tuş birleşimi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Düğmenin basılmasıyla tetiklenen eylemin türü."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Özel eylem için tuş birleşimi"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "Düğme özel eylemler için basıldığında üretilen klavye kısayolu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "İkincil düğme için tuş birleşimi"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Üçüncül düğme için tuş birleşimi"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Dokunmatik yüzey düğme eylem türü"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Düğmenin basılmasıyla tetiklenen eylemin türü."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Özel eylem için tuş birleşimi"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Dokunmatik ekran çıktı eşleme"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2174,15 +2233,15 @@ msgstr ""
 "numarası] biçiminde olmalıdır. [\"\",\"\",\"\"] kendiliğinden haritalamayı "
 "temel alır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Fare tekerleği öykünme düğmesi. Özelliği devre dışı bırakmak için 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Fare tekerleği öykünme düğmesi kilidi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2192,7 +2251,7 @@ msgstr ""
 "TRUE olarak belirle. Eğer etkinse, düğmeye ilk tıklanış kaydırmayı "
 "etkinleştirir, ikinci tık kaydırmayı yeniden devre dışı bırakır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2208,7 +2267,7 @@ msgstr ""
 "Eğer iztopu yapılandırılmış profili desteklemiyorsa “default” kullanılır."
 
 # Pointing stick için açıklama eklendi.
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2218,7 +2277,7 @@ msgstr ""
 "(İşaret çubuğu, kimi bilgisayarlada klavyede bulunan kırmızı noktalı fare "
 "işlevi gören araçlardır)"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2234,11 +2293,11 @@ msgstr ""
 "(“adaptive”) ayarlanabilir. Eğer işaret çubuğu yapılandırılmış profili "
 "desteklemiyorsa “default” kullanılır."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Kaydırma yöntemi"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
