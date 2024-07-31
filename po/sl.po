@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-12 03:34+0000\n"
-"PO-Revision-Date: 2024-07-12 05:40+0200\n"
+"POT-Creation-Date: 2024-07-31 13:50+0000\n"
+"PO-Revision-Date: 2024-07-31 17:08+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -794,6 +794,109 @@ msgstr "Naj upravljalnik datotek upravlja namizje"
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Izbrana možnost določi, da bo upravljalnik datotek na namizju narisal ikone."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Seznam odmorov, ki so trenutno omogočeni"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Čas med odmori"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Čas v sekundah med odmori za počitek, v sekundah."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Trajanje vsakega odmora"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Trajanje vsakega odmora s počitkom, v sekundah."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Obseg zamika odmora, če je zahtevan"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr "Trajanje odložitve odmora, če uporabnik zahteva zamik, v sekundah."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Zatemni zaslon med odmori"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Če je potrjeno, med odmori za počitek zatemni zaslon."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Zakleni zaslon med odmori"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Če je potrjeno, zaklene zaslon med odmori za počitek."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Predvajaj zvok ob koncu odmora"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Če je potrjeno, predvaja zvok, ko se odmor konča."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Obvesti o predstoječem odmoru"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Če je potrjeno, pošlje obvestilo, da se bo začel odmor."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Obvesti o bližajočem se odmoru"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr "Če je potrjeno, pošlje obvestilo nekaj minut pred načrtovanim odmorom."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Obvesti o zapoznelem odmoru"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Če je potrjeno, pošlje obvestilo, da bi se odmor že moral pričeti."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr "Če je potrjeno, pokaže vidno odštevanje tik pred odmorom."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
