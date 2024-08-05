@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2023-09-19 16:36+0000\n"
-"PO-Revision-Date: 2023-10-21 15:12+0300\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-07-21 14:32+0000\n"
+"PO-Revision-Date: 2024-08-05 20:40+0300\n"
 "Last-Translator: Florentina Mușat <florentina [dot] musat [dot] 28 [at] "
 "gmail [dot] com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
 "n%100<=19) ? 1 : 2);\n"
 "n%100<=19) ? 1: 2);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.4.4\n"
 "20)) ? 1: 2);;\n"
 "X-Project-Style: gnome\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -79,6 +79,17 @@ msgstr "Contrast ridicat"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Dacă se utilizează stilul de contrast ridicat."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Arată formele stării"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Dacă să se utilizeze forme pentru a indica starea în plus sau în loc de "
+"culoare."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -963,21 +974,33 @@ msgstr ""
 "definit de fișierele de reguli ale xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "Modelul XKB de utilizat"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"Modelul XKB de utilizat. Valoarea este același identificator definit de "
+"fișierele de geometrie ale xkeyboard-config."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Arată toate sursele de intrare instalate"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Face toate sursele de intrare instalate curent disponibile pentru alegere în "
 "Configurările de sistem."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Utilizează surse de intrare diferite pentru fiecare fereastră"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1275,7 +1298,7 @@ msgstr ""
 
 #. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
-msgid "'12h'"
+msgid "'24h'"
 msgstr "'24h'"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
@@ -3664,6 +3687,9 @@ msgid ""
 msgstr ""
 "Portul mașinii definit de „/system/proxy/socks/host” prin care se deleghează "
 "(proxy)."
+
+#~ msgid "'12h'"
+#~ msgstr "'24h'"
 
 #~ msgid "Toggle shaded state"
 #~ msgstr "Comută starea de umbrire"
