@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/"
 "issues/\n"
-"POT-Creation-Date: 2024-08-18 12:48+0000\n"
-"PO-Revision-Date: 2024-08-18 16:29+0330\n"
+"POT-Creation-Date: 2024-08-18 13:00+0000\n"
+"PO-Revision-Date: 2024-08-18 16:37+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
@@ -381,6 +381,14 @@ msgstr "طول هر استراحت"
 msgid "The duration of each rest break, in seconds."
 msgstr "زمان هر استراحت‌ها به ثانیه."
 
+#: schemas/org.gnome.desktop.default-applications.gschema.xml.in:14
+msgid "Default calendar"
+msgstr "تقویم پیش‌گزیده"
+
+#: schemas/org.gnome.desktop.default-applications.gschema.xml.in:37
+msgid "Default tasks"
+msgstr "وظایف پیش‌گزیده"
+
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:38
 msgid "Default tasks application."
 msgstr "برنامهٔ پیش‌گزیدهٔ وظایف."
@@ -397,9 +405,17 @@ msgstr "منبع ورودی کنونی"
 msgid "List of input sources"
 msgstr "سیاههٔ منبع‌های ورودی"
 
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
+msgid "List of most recently used input sources"
+msgstr "سیاههٔ منبع‌های ورودی به تازگی استفاده شده"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:41
+msgid "List of XKB options"
+msgstr "سیاههٔ گزینه‌های XKB"
+
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
-msgstr "نمایشه همهٔ منبع‌های ورودی نصب شده"
+msgstr "نمایش همهٔ منبع‌های ورودی نصب شده"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:7
 msgid "Whether toolkits should load accessibility related modules."
@@ -425,6 +441,10 @@ msgstr "نوار ابزار جداشدنی"
 msgid "Toolbar Icon Size"
 msgstr "اندازهٔ نقشک نوارابزار"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:65
+msgid "Cursor Blink"
+msgstr "چشمک نشانگر"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:66
 msgid "Whether the cursor should blink."
 msgstr "این که نشانگر باید چشمک بزند یا نه."
@@ -436,6 +456,10 @@ msgstr "زمان چشمک نشانگر"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:74
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "طول دورهٔ چشمک نشانگر به میلی‌ثانیه."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:81
+msgid "Cursor Blink Timeout"
+msgstr "مهلت زمانی چشمک نشانگر"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:82
 msgid "Time after which the cursor stops blinking, in seconds."
@@ -453,9 +477,17 @@ msgstr "زمینهٔ ‪Gtk+"
 msgid "Gtk+ Keybinding Theme"
 msgstr "زمینهٔ ترکیب کلید ‪Gtk+"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:109
+msgid "Default font"
+msgstr "قلم پیش‌گزیده"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:167
 msgid "Monospace font"
 msgstr "قلم تک‌عرض"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:175
+msgid "Menubar accelerator"
+msgstr "شتاب دهندهٔ نوار فهرست"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:182
 msgid "Cursor theme"
@@ -465,9 +497,24 @@ msgstr "زمینهٔ نشانگر"
 msgid "Cursor size"
 msgstr "اندازهٔ نشانگر"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:192
+msgid "Timeout before click repeat"
+msgstr "مهلت زمانی پیش از تکرار کلیک‌ها"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:193
+msgid ""
+"Timeout in milliseconds before a click starts repeating (on spinner buttons for "
+"example)."
+msgstr "مهلت زمانی پیش از آغاز تکرار کلید به ‌میلی‌ثانیه."
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:197
 msgid "Timeout between click repeats"
 msgstr "زمان بین تکرار کلیک‌ها"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:198
+msgid ""
+"Timeout in milliseconds between repeated clicks when a button is left pressed."
+msgstr "مهلت زمانی بین کلیدهای تکراری هنگام فشرده رها شدن دکمه به ‌میلی‌ثانیه."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
@@ -496,6 +543,31 @@ msgstr "ترتیب RGBA"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "شمای رنگی"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:23
+msgid "Disable printing"
+msgstr "از کار انداختن چاپ"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
+msgid "Disable user switching"
+msgstr "از کار انداختن تعویض کاربر"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:68
+msgid "Disable user administration"
+msgstr "از کار انداختن مدیریت کاربر"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
+msgid "Disable password showing"
+msgstr "از کار انداختن نمایش گذرواژه"
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:6
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:55
+msgid "Show notification banners"
+msgstr "نمایش بیرق‌های آگاهی"
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:14
+msgid "Show notifications in the lock screen"
+msgstr "نمایش آگاهی‌ها در صفحهٔ قفل"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:31
 msgid "Application ID"
@@ -643,6 +715,10 @@ msgstr "آستانهٔ کشیدن"
 msgid "Distance before a drag is started."
 msgstr "فاصله قبل از اینکه کشیدن (drag) شروع شود."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+msgid "Tablet left-handed mode"
+msgstr "حالت چپ‌دست رایانک"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "به x1, y1 و x2, y2 خم فشار اعمالی به قلم تنظیم کنید."
@@ -691,6 +767,14 @@ msgstr "دکمهٔ شبیه‌سازی چرخ موشی. 0 برای از کار �
 msgid "Mouse wheel emulation button lock"
 msgstr "قفل دکمهٔ شبیه‌سازی چرخ موشی"
 
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:12
+msgid "Show full name in the user menu"
+msgstr "نمایش نام کامل در فهرست کاربر"
+
+#: schemas/org.gnome.desktop.privacy.gschema.xml.in:13
+msgid "Whether the users full name is shown in the user menu or not."
+msgstr "این که نام کامل در فهرست کاربر نشان داده شود یا نه."
+
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
 msgid "Whether the privacy screen is enabled"
 msgstr "این که صفحهٔ محرمانگی به کار افتاده یا نه"
@@ -698,6 +782,18 @@ msgstr "این که صفحهٔ محرمانگی به کار افتاده یا ن
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
 msgstr "فعّال‌سازی هنگام بی‌کاری"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+msgid "Time before locking"
+msgstr "زمانی پیش از قفل کردن"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+msgid "Show full name in the lock screen"
+msgstr "نمایش نام کامل در صفحهٔ قفل"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+msgid "Time before logout option"
+msgstr "زمان پیش از گزینهٔ خروج"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
 msgid "Allow user switching"
@@ -1070,6 +1166,10 @@ msgstr "تعداد فضاهای کاری"
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "به کار انداختن زنگ بصری"
+
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
+msgid "Visual Bell Type"
+msgstr "گونهٔ زنگ بصری"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
