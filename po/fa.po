@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/"
 "issues/\n"
-"POT-Creation-Date: 2024-08-18 13:00+0000\n"
-"PO-Revision-Date: 2024-08-18 16:37+0330\n"
+"POT-Creation-Date: 2024-08-18 13:08+0000\n"
+"PO-Revision-Date: 2024-08-18 16:42+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
@@ -481,6 +481,10 @@ msgstr "زمینهٔ ترکیب کلید ‪Gtk+"
 msgid "Default font"
 msgstr "قلم پیش‌گزیده"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:160
+msgid "Document font"
+msgstr "قلم سند"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:167
 msgid "Monospace font"
 msgstr "قلم تک‌عرض"
@@ -520,6 +524,10 @@ msgstr "مهلت زمانی بین کلیدهای تکراری هنگام فشر
 msgid "Whether the clock shows seconds"
 msgstr "این که ساعت قانیه را نشان دهد یا نه"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+msgid "Show date in clock"
+msgstr "نمایش تاریخ در صفحهٔ قفل"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "به کار انداختن گوشه‌های داغ"
@@ -544,13 +552,25 @@ msgstr "ترتیب RGBA"
 msgid "Color scheme"
 msgstr "شمای رنگی"
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
+msgid "Disable command line"
+msgstr "از کار انداختن خط فرمان"
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:23
 msgid "Disable printing"
 msgstr "از کار انداختن چاپ"
 
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:31
+msgid "Disable print setup"
+msgstr "از کار انداختن برپایی چاپ"
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
 msgstr "از کار انداختن تعویض کاربر"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
+msgid "Disable lock screen"
+msgstr "از کار انداختن صفحهٔ قفل"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:68
 msgid "Disable user administration"
@@ -565,9 +585,17 @@ msgstr "از کار انداختن نمایش گذرواژه"
 msgid "Show notification banners"
 msgstr "نمایش بیرق‌های آگاهی"
 
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:7
+msgid "Whether notification banners are visible for application notifications."
+msgstr "این که بیرق‌های آگاهی برای آگاهی‌های برنامه نمایانند یا نه."
+
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:14
 msgid "Show notifications in the lock screen"
 msgstr "نمایش آگاهی‌ها در صفحهٔ قفل"
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:15
+msgid "Whether notifications are shown in the lock screen or not."
+msgstr "این که آگاهی‌ها در صفحهٔ قفل نشان داده شوند یا نه."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:31
 msgid "Application ID"
@@ -577,9 +605,30 @@ msgstr "شناسهٔ برنامه"
 msgid "Enable notifications"
 msgstr "به کار انداختن آگاهی‌ها"
 
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:40
+msgid "Whether notifications are globally enabled for this application."
+msgstr "این که آگاهی‌ها به صورت عمومی برای این برنامه به کار افتاده‌اند یا نه."
+
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:47
 msgid "Enable sound alerts"
 msgstr "به کار انداختن هشدارهای صوتی"
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:48
+msgid "Whether notifications should be accompanied by sound alerts."
+msgstr "این که آگاهی‌ها باید همراه با هشدارهای صوتی باشند یا نه."
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:72
+msgid "Show in the lock screen"
+msgstr "نمایش در صفحهٔ قفل"
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:73
+msgid ""
+"Whether notifications from this application are shown when the screen is locked."
+msgstr "این که آگاهی‌ها از این برنامه هنگام قفل بودن صفحه نشان داده می‌شوند یا نه."
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:80
+msgid "Show details in the lock screen"
+msgstr "نمایش جزییات در صفحهٔ قفل"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
 msgid "Whether edge scrolling is enabled"
@@ -714,6 +763,22 @@ msgstr "آستانهٔ کشیدن"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Distance before a drag is started."
 msgstr "فاصله قبل از اینکه کشیدن (drag) شروع شود."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+msgid "Drawing tablet mapping"
+msgstr "نگاشت رایانک رسم"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+msgid "Tablet mapping"
+msgstr "نگاشت رایانک"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+msgid "Tablet area"
+msgstr "ناحیهٔ رایانک"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+msgid "Tablet aspect ratio"
+msgstr "نسبت ابعاد رایانک"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
 msgid "Tablet left-handed mode"
