@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/"
 "issues/\n"
-"POT-Creation-Date: 2024-08-18 12:27+0000\n"
-"PO-Revision-Date: 2024-08-18 16:18+0330\n"
+"POT-Creation-Date: 2024-08-18 12:48+0000\n"
+"PO-Revision-Date: 2024-08-18 16:29+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
@@ -56,10 +56,8 @@ msgstr ""
 "به کار نیفتاده را پایمال می‌کند."
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:14
-#, fuzzy
-#| msgid "Always show the Universal Access status icon"
 msgid "Always show the text caret"
-msgstr "نمایش همیشگی نقشک وضعیت دسترسی جهانی"
+msgstr "نمایش همیشگی مکان‌نمای متن"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
 msgid "High contrast"
@@ -238,41 +236,57 @@ msgstr "این که ویژگی دسترسی‌پذیری «تغییر حالت �
 msgid "Screen position"
 msgstr "موقعیت صفحه"
 
+#: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:81
+msgid "Enable lens mode"
+msgstr "به کار انداختن حالت عدسی"
+
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:6
-#, fuzzy
-#| msgid "Double click time"
 msgid "Dwell click time"
-msgstr "زمان دوبار کلیک"
+msgstr "زمان کلیک طولانی"
+
+#: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:7
+msgid "Time in seconds before a click is triggered."
+msgstr "زمان به ثانیه پیش از تحریک کلیک."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:11
 msgid "Movement threshold"
 msgstr "آستانهٔ حرکت"
+
+#: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:16
+msgid "Gesture single click"
+msgstr "تک کلیک کشیدنی"
+
+#: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:21
+msgid "Gesture double click"
+msgstr "دوبار کلیک کشیدنی"
+
+#: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:26
+msgid "Gesture drag click"
+msgstr "کشیدن کلیک کشیدنی"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:31
 msgid "Gesture secondary click"
 msgstr "کلیک دوم کشیدنی"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:36
-#, fuzzy
-#| msgid "Double click time"
 msgid "Dwell click mode"
-msgstr "زمان دوبار کلیک"
+msgstr "حالت کلیک طولانی"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:41
 msgid "Show click type window"
 msgstr "نمایش پنجرهٔ گونهٔ کلیک"
 
+#: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:42
+msgid "Show click type window."
+msgstr "نمایش پنجرهٔ گونهٔ کلیک."
+
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:46
-#, fuzzy
-#| msgid "Enable simulated secondary clicks"
 msgid "Enable dwell clicks"
-msgstr "به کار انداختن کلیک دوم شبیه‌سازی شده"
+msgstr "به کار انداختن کلیک‌های طولانی"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:47
-#, fuzzy
-#| msgid "Enable simulated secondary clicks"
 msgid "Enable dwell clicks."
-msgstr "به کار انداختن کلیک دوم شبیه‌سازی شده"
+msgstr "به کار انداختن کلیک‌های طولانی."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:51
 msgid "Secondary click enabled"
@@ -297,6 +311,10 @@ msgstr "فرزندان شاخع"
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:15
 msgid "Folder name"
 msgstr "نام شاخه"
+
+#: schemas/org.gnome.desktop.app-folders.gschema.xml.in:16
+msgid "The name of the application folder."
+msgstr "نام شاخهٔ برنامه."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:20
 msgid "Translate the name"
@@ -353,10 +371,19 @@ msgstr "زمان بین استراحت‌ها"
 msgid "The time between rest breaks, in seconds."
 msgstr "تأخیر بین استراحت‌ها به میلی‌ثانیه."
 
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "طول هر استراحت"
+
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
 msgid "The duration of each rest break, in seconds."
 msgstr "زمان هر استراحت‌ها به ثانیه."
+
+#: schemas/org.gnome.desktop.default-applications.gschema.xml.in:38
+msgid "Default tasks application."
+msgstr "برنامهٔ پیش‌گزیدهٔ وظایف."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:53
 msgid "Terminal application"
@@ -366,18 +393,29 @@ msgstr "برنامهٔ پایانه‌ای"
 msgid "Current input source"
 msgstr "منبع ورودی کنونی"
 
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:19
+msgid "List of input sources"
+msgstr "سیاههٔ منبع‌های ورودی"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+msgid "Show all installed input sources"
+msgstr "نمایشه همهٔ منبع‌های ورودی نصب شده"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:7
-#, fuzzy
-#| msgid ""
-#| "Whether to beep when a keyboard accessibility feature is enabled or disabled."
 msgid "Whether toolkits should load accessibility related modules."
-msgstr ""
-"این که هنگام به یا از کار افتاده یک ویژگی دسترسی‌پذیری صفحه‌کلید بوق زده شود یا "
-"نه."
+msgstr "این که جعبه‌ابزارها باید پیمانه‌های مربوط به دسترسی‌پذیری را بار کنند یا نه."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:13
+msgid "Enable Animations"
+msgstr "به کار انداختن پویانمایی‌ها"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:36
 msgid "Toolbar Style"
 msgstr "سبک نوار ابزار"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:44
+msgid "Menubar Detachable"
+msgstr "نوار فهرست جداشدنی"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:51
 msgid "Toolbar Detachable"
@@ -391,9 +429,17 @@ msgstr "اندازهٔ نقشک نوارابزار"
 msgid "Whether the cursor should blink."
 msgstr "این که نشانگر باید چشمک بزند یا نه."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:73
+msgid "Cursor Blink Time"
+msgstr "زمان چشمک نشانگر"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:74
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr "طول دورهٔ چشمک نشانگر به میلی‌ثانیه."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:82
+msgid "Time after which the cursor stops blinking, in seconds."
+msgstr "زمان توقّف چشمک نشانگر به میلی‌ثانیه."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:88
 msgid "Icon Theme"
@@ -403,6 +449,10 @@ msgstr "تم شمایل‌ها"
 msgid "Gtk+ Theme"
 msgstr "زمینهٔ ‪Gtk+"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:102
+msgid "Gtk+ Keybinding Theme"
+msgstr "زمینهٔ ترکیب کلید ‪Gtk+"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:167
 msgid "Monospace font"
 msgstr "قلم تک‌عرض"
@@ -410,6 +460,18 @@ msgstr "قلم تک‌عرض"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:182
 msgid "Cursor theme"
 msgstr "زمینهٔ نشانگر"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:187
+msgid "Cursor size"
+msgstr "اندازهٔ نشانگر"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:197
+msgid "Timeout between click repeats"
+msgstr "زمان بین تکرار کلیک‌ها"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+msgid "Whether the clock shows seconds"
+msgstr "این که ساعت قانیه را نشان دهد یا نه"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
@@ -439,9 +501,21 @@ msgstr "شمای رنگی"
 msgid "Application ID"
 msgstr "شناسهٔ برنامه"
 
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:39
+msgid "Enable notifications"
+msgstr "به کار انداختن آگاهی‌ها"
+
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:47
 msgid "Enable sound alerts"
 msgstr "به کار انداختن هشدارهای صوتی"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
+msgid "Whether edge scrolling is enabled"
+msgstr "این که لغزش لبه‌ای به کار افتاده یا نه"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
+msgid "Whether two-finger scrolling is enabled"
+msgstr "این که لغزش دو انگشتی به کار افتاده یا نه"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
 msgid "Enable mouse clicks with touchpad"
@@ -457,13 +531,12 @@ msgid "Enable tap-and-drag with touchpad"
 msgstr "به کار انداختن زدن و کشیدن با صفحه‌لمسی"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately moving "
 "the finger that’s now pressed on the touchpad."
-msgstr "برای فرستادن کلیک‌های موشی با ضربه‌ها روی صفحه‌لمسی، روی درست تنظیم کنید."
+msgstr ""
+"تنظیم به درست برای توانایی آغاز کشیدن با ضربه زدن و حرکت دادن سریع انگشتی که "
+"روی صفحه لمسی فشار داده شده."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
 msgid "Enable tap-and-drag-lock with touchpad"
@@ -497,12 +570,15 @@ msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "برای به کار انداختن لغزش طبیعی (معکوس) برای صفحه‌لمسی‌ها، روی درست تنظیم کنید."
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+msgid "Emulate middle click"
+msgstr "شبیه‌سازی کلیک دوم"
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
-#, fuzzy
-#| msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgid "Set this to TRUE to enable keyboard repeat."
-msgstr ""
-"برای به کار انداختن لغزش طبیعی (معکوس) برای صفحه‌لمسی‌ها، روی درست تنظیم کنید."
+msgstr "تنظیم به درست برای به کار انداختن تکرار صفحه‌کلید."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
 msgid "Key Repeat Interval"
@@ -548,11 +624,8 @@ msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "جابه‌جایی دکمه‌های چپ و راست برای موشی‌های چپ‌دست."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
-#, fuzzy
-#| msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
-msgstr ""
-"برای به کار انداختن لغزش طبیعی (معکوس) برای صفحه‌لمسی‌ها، روی درست تنظیم کنید."
+msgstr "تنظیم به درست برای به کار انداختن لغزش طبیعی (معکوس) برای موشی‌ها."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
 msgid "Double click time"
@@ -575,11 +648,12 @@ msgid "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus
 msgstr "به x1, y1 و x2, y2 خم فشار اعمالی به قلم تنظیم کنید."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
-#, fuzzy
-#| msgid ""
-#| "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgid "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr "به x1, y1 و x2, y2 خم فشار اعمالی به قلم تنظیم کنید."
+msgstr "تنظیم روی x1, y1 و x2, y2 خم فشار اعمالی به پاک‌کن."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+msgid "Button action"
+msgstr "کنش دکمه"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
@@ -624,6 +698,10 @@ msgstr "این که صفحهٔ محرمانگی به کار افتاده یا ن
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Activate when idle"
 msgstr "فعّال‌سازی هنگام بی‌کاری"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+msgid "Allow user switching"
+msgstr "اجازهٔ تعویض کاربر"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
 msgid ""
@@ -961,6 +1039,10 @@ msgstr "تعویض معکوس منبع ورودی"
 msgid "Toggle window to be always on top"
 msgstr "تغییر وضعیت پنجره برای ظاهر شدن همیشگی در بالا"
 
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
+msgid "Set or unset window to appear always on top"
+msgstr "تنظیم یا ناتنظیم ظاهر شدن همیشگی پنجره در بالا"
+
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
 msgstr "این که اندازه با دکمهٔ راست تغییر کند یا نه"
@@ -980,6 +1062,14 @@ msgid ""
 msgstr ""
 "زمینه ظاهر مرزهای پنجره، نوار عنوان و مانند این‌ها را مشخّص می‌کند. منقضی: این "
 "کلید منقضی شده و چشم‌پوشی می‌شود."
+
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
+msgid "Number of workspaces"
+msgstr "تعداد فضاهای کاری"
+
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
+msgid "Enable Visual Bell"
+msgstr "به کار انداختن زنگ بصری"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
@@ -1016,6 +1106,10 @@ msgstr "نام میزبان پیشکار FTP"
 #: schemas/org.gnome.system.proxy.gschema.xml.in:145
 msgid "FTP proxy port"
 msgstr "درگاه پیشکار FTP"
+
+#: schemas/org.gnome.system.proxy.gschema.xml.in:155
+msgid "SOCKS proxy host name"
+msgstr "نام میزبان پیشکار ساکس"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:163
 msgid "SOCKS proxy port"
