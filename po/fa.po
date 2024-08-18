@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/"
 "issues/\n"
-"POT-Creation-Date: 2024-08-18 13:08+0000\n"
-"PO-Revision-Date: 2024-08-18 16:42+0330\n"
+"POT-Creation-Date: 2024-08-18 13:12+0000\n"
+"PO-Revision-Date: 2024-08-18 16:49+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
@@ -381,6 +381,14 @@ msgstr "طول هر استراحت"
 msgid "The duration of each rest break, in seconds."
 msgstr "زمان هر استراحت‌ها به ثانیه."
 
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
+msgid "Show the week date in the calendar"
+msgstr "نمایش تاریخ هفته در تقویم"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
+msgid "If true, display the ISO week date in the calendar."
+msgstr "اگر درست باشد، تاریخ هفتهٔ ایزو را در تقویم نشان می‌دهد."
+
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:14
 msgid "Default calendar"
 msgstr "تقویم پیش‌گزیده"
@@ -524,13 +532,34 @@ msgstr "مهلت زمانی بین کلیدهای تکراری هنگام فشر
 msgid "Whether the clock shows seconds"
 msgstr "این که ساعت قانیه را نشان دهد یا نه"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
+msgid "If true, display seconds in the clock."
+msgstr "اگر درست باشد، ثانیه‌ها را در ساعت نشان می‌دهد."
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "نمایش تاریخ در صفحهٔ قفل"
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
+msgid "If true, display date in the clock, in addition to time."
+msgstr "اگر درست باشد، علاوه بر زمان، تاریخ را هم در ساعت نشان می‌دهد."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+msgid "Show weekday in clock"
+msgstr "نمایش روز هفته در ساعت"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
+msgid "If true, display weekday in the clock, in addition to time."
+msgstr "اگر درست باشد، علاوه بر زمان، روز هفته را هم در ساعت نشان می‌دهد."
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "به کار انداختن گوشه‌های داغ"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
+msgid ""
+"If true, display battery percentage in the status menu, in addition to the icon."
+msgstr "اگر درست باشد، علاوه بر نقشک، درصد باتری را هم در فهرست نشان می‌دهد."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
@@ -571,6 +600,10 @@ msgstr "از کار انداختن تعویض کاربر"
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
 msgstr "از کار انداختن صفحهٔ قفل"
+
+#: schemas/org.gnome.desktop.lockdown.gschema.xml.in:61
+msgid "Disable log out"
+msgstr "از کار انداختن خروج"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:68
 msgid "Disable user administration"
@@ -617,6 +650,21 @@ msgstr "به کار انداختن هشدارهای صوتی"
 msgid "Whether notifications should be accompanied by sound alerts."
 msgstr "این که آگاهی‌ها باید همراه با هشدارهای صوتی باشند یا نه."
 
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:56
+msgid ""
+"Whether notification banners for this application are shown or not. Does not "
+"affect clicking on message tray buttons."
+msgstr ""
+"این که بیرق‌های آگاهی این برنامه نشان داده می‌شوند یا نه. بر کلیک روی دکمه‌های "
+"سینی پیام تأثیری ندارد."
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:65
+msgid ""
+"Whether notifications from this application are expanded automatically when in "
+"banner mode."
+msgstr ""
+"این که آگاهی‌های این برنامه در حالت بیرق به صورت خودکار گسترده می‌شوند یا نه."
+
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:72
 msgid "Show in the lock screen"
 msgstr "نمایش در صفحهٔ قفل"
@@ -629,6 +677,13 @@ msgstr "این که آگاهی‌ها از این برنامه هنگام قفل
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:80
 msgid "Show details in the lock screen"
 msgstr "نمایش جزییات در صفحهٔ قفل"
+
+#: schemas/org.gnome.desktop.notifications.gschema.xml.in:81
+msgid ""
+"Whether the summary and body of notifications from this application will be "
+"visible in the locked screen."
+msgstr ""
+"این که خلاصه و بدنهٔ آگاهی‌های این برنامه در صفحه قفل نمایان خواهند بود یا نه."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
 msgid "Whether edge scrolling is enabled"
