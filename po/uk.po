@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schema"
 "s/issues/\n"
-"POT-Creation-Date: 2024-02-19 13:18+0000\n"
-"PO-Revision-Date: 2024-02-19 21:48+0200\n"
+"POT-Creation-Date: 2024-07-31 13:50+0000\n"
+"PO-Revision-Date: 2024-08-23 13:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.04.3\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -574,8 +574,8 @@ msgstr "Жест для звичайного клацання"
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:17
 msgid "Direction to perform a single click (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Напрямок для виконання одинарного клацання  («left» (ліворуч), "
-"«right» (праворуч), «up» (вгору), «down» (униз))."
+"Напрямок для виконання одинарного клацання  («left» (ліворуч), «right» "
+"(праворуч), «up» (вгору), «down» (униз))."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:21
 msgid "Gesture double click"
@@ -584,8 +584,8 @@ msgstr "Жест для подвійного клацання"
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:22
 msgid "Direction to perform a double click (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Напрямок для виконання подвійного клацання  («left» (ліворуч), "
-"«right» (праворуч), «up» (вгору), «down» (униз))."
+"Напрямок для виконання подвійного клацання  («left» (ліворуч), «right» "
+"(праворуч), «up» (вгору), «down» (униз))."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:26
 msgid "Gesture drag click"
@@ -599,14 +599,14 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:31
 msgid "Gesture secondary click"
-msgstr "Жест для повторного клацання"
+msgstr "Жест для вторинного клацання"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:32
 msgid ""
 "Direction to perform a secondary click (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Напрямок для виконання повторного клацання («left» (ліворуч), "
-"«right» (праворуч), «up» (вгору), «down» (униз))."
+"Напрямок для виконання вторинного клацання («left» (ліворуч), «right» "
+"(праворуч), «up» (вгору), «down» (униз))."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:36
 msgid "Dwell click mode"
@@ -637,20 +637,20 @@ msgstr "Увімкнути клацання за утримування."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:51
 msgid "Secondary click enabled"
-msgstr "Повторне клацання ввімкнено"
+msgstr "Вторинне клацання ввімкнено"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:52
 msgid "Enable simulated secondary clicks"
-msgstr "Увімкнути симульоване повторне клацання"
+msgstr "Увімкнути симульоване вторинне клацання"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:56
 msgid "Secondary click time"
-msgstr "Час повторного клацання"
+msgstr "Час клацання другою"
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:57
 msgid "Time in seconds before a simulated secondary click is triggered."
 msgstr ""
-"Час у секундах до виконання симульованого повторного клацання клацання."
+"Час у секундах до виконання симульованого вторинного клацання клацання."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:6
 msgid "Folder children"
@@ -800,9 +800,8 @@ msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
 msgstr ""
-"Спосіб затінення кольору тла. Можливі значення: "
-"«horizontal» (горизонтальний), «vertical» (вертикальний), "
-"«solid» (суцільний)."
+"Спосіб затінення кольору тла. Можливі значення: «horizontal» "
+"(горизонтальний), «vertical» (вертикальний), «solid» (суцільний)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
@@ -813,6 +812,118 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Якщо встановлено, тоді файловий менеджер буде відмальовувати піктограми на "
 "стільниці."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Список перерв, які зараз увімкнено"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+#| msgid "Timeout between click repeats"
+msgid "Time between breaks"
+msgstr "Проміжок між перервами"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+#| msgid "Delay between repeats in milliseconds."
+msgid "The time between rest breaks, in seconds."
+msgstr "Час між перервами на відпочинок, у секундах."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Тривалість кожної з перерв"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Тривалість кожної з перерв на відпочинок, у секундах."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Час затримки перерви, якщо отримано запит"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"Затримка перерви у секундах, якщо користувач надіслав запит щодо затримки."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Притлумлювати екран під час перерв"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr ""
+"«Істина», якщо слід притлумлювати кольори екрана під час перерв на"
+" відпочинок."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Блокувати екран під час перерв"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "«Істина», якщо слід блокувати екран під час перерв на відпочинок."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Відтворювати звук, коли перерва завершується"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "«Істина», якщо слід відтворювати звук, коли перерва завершується."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Сповіщати, коли перерва наближається"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "«Істина», якщо слід видати сповіщення, коли перерва починається."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Сповіщати, коли наближатиметься перерва"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"«Істина», якщо слід видати сповіщення, коли до перерви лишиться декілька"
+" хвилин."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Сповіщати, коли перерву прострочено"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "«Істина», якщо слід видати сповіщення, коли перерву прострочено."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"«Істина», якщо слід показувати видимий відлік часу незадовго до початку"
+" перерви."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -1052,8 +1163,8 @@ msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
 "Стиль панелі інструментів. Доступні значення: «both» (значки та текст), "
-"«both-horiz» (значки та текст по горизонталі), «icons» (значки), "
-"«text» (текст)."
+"«both-horiz» (значки та текст по горизонталі), «icons» (значки), «text» "
+"(текст)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1081,8 +1192,8 @@ msgstr "Розмір значка на панелі інструментів"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:59
 msgid "Size of icons in toolbars, either “small” or “large”."
 msgstr ""
-"Розмір значків у панелі інструментів: «small» (маленькі значки) або "
-"«large» (великі значки)."
+"Розмір значків у панелі інструментів: «small» (маленькі значки) або «large» "
+"(великі значки)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:65
 msgid "Cursor Blink"
@@ -1459,6 +1570,42 @@ msgid ""
 msgstr ""
 "Бажана схема кольорів для інтерфейсу користувача. Коректними значеннями є "
 "«default», «prefer-dark», «prefer-light»."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Обробка шрифтів"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Налаштування, щоб вказати, має обробка шрифту виконуватися за"
+" низькорівневими параметрами `font-hinting`, `font-antialiasing` і"
+" `font-rgba-order` чи враховувати такі фактори середовища, як роздільна"
+" здатність екрана та масштабування. Можливі значення: «manual» для"
+" дотримання налаштувань низького рівня або «automatic», щоб набір"
+" інструментів визначав параметри автоматично."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Колір акценту"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+#| msgid ""
+#| "The preferred color scheme for the user interface. Valid values are "
+#| "“default”, “prefer-dark”, “prefer-light”."
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"Бажаний колір акцентування для інтерфейсу користувача. Коректними значеннями"
+" є «blue», «teal», «green», «yellow», «orange», «red», «pink», «purple»,"
+" «slate»."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1854,8 +2001,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Профіль прискорення"
 
@@ -1880,7 +2027,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Швидкість руху вказівника"
 
@@ -1920,13 +2067,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Увімкнути клацання середньою кнопкою"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2100,27 +2247,46 @@ msgid ""
 msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для стилуса."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#| msgid "Stylus pressure curve"
+msgid "Stylus pressure range"
+msgstr "Діапазон натиску стила"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Встановіть значення частки діапазону фізичного тиску, яку слід відобразити"
+" на логічний діапазон."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Крива натиску гумки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для гумки."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#| msgid "Eraser pressure curve"
+msgid "Eraser pressure range"
+msgstr "Діапазон натиску гумки"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Дія кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Дія натискання кнопки, ця кнопка розташована уздовж тримача пера."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
-msgstr "Дія додаткової кнопки"
+msgstr "Дія вторинної кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2130,11 +2296,11 @@ msgstr ""
 "деяких стилах на кшталт Grip Pen. Інші стила на зразок Airbrush Pen або "
 "Inking Pen, мають лише одну кнопку, це налаштування для них не працює."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Дія третьої кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2144,19 +2310,15 @@ msgstr ""
 "деяких стилах на кшталт 3D Pen. Інші стила на зразок Grip Pen, мають лише "
 "дві кнопки, це налаштування для них не працює."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Тип дії кнопки панелі"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the primary button"
+msgstr "Комбінація клавіш для основної кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Тип дій викликаних кнопками, натискаючи їх."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Комбінація клавіш для власних дій"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2164,11 +2326,33 @@ msgstr ""
 "Клавіатурне скорочення було породжено, коли клавішу натиснуто для власної "
 "дії.   "
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the secondary button"
+msgstr "Комбінація клавіш для другої кнопки"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the tertiary button"
+msgstr "Комбінація клавіш для третинної кнопки"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Тип дії кнопки панелі"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Тип дій викликаних кнопками, натискаючи їх."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Комбінація клавіш для власних дій"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Прив'язка виведення даних сенсорного екрана"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2178,15 +2362,15 @@ msgstr ""
 "форматі [виробник, продукт, серійний номер]. [\"\",\"\",\"\"] — автоматична "
 "прив'язка."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Кнопка емуляції коліщатка миші. 0 — вимкнути емуляцію."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Блокування кнопкою емуляції коліщатка миші"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2196,7 +2380,7 @@ msgstr ""
 "блокування кнопкою для кнопки емуляції коліщатка миші. Якщо увімкнено, перше "
 "клацання кнопкою вмикає гортання, а друге клацання знову його вимикає."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2213,7 +2397,7 @@ msgstr ""
 "адаптується до руху. Якщо для кульового маніпулятора не передбачено "
 "підтримки налаштованого профілю, буде використано профіль «default»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2221,7 +2405,7 @@ msgstr ""
 "Швидкість руху для джойстиків. Прийнятні значення знаходяться в діапазоні "
 "[-1..1] (від «без прискорення» до «швидко»). Типове значення системи - 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2238,11 +2422,11 @@ msgstr ""
 "джойстика не передбачено підтримки налаштованого профілю, буде використано "
 "профіль «default»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Спосіб гортання"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -3464,13 +3648,13 @@ msgid ""
 "level accuracy at best)."
 msgstr ""
 "Налаштовує максимальний рівень визначення даних місця перебування для "
-"програм, які потребують цих даних. Чинними варіантами значень є "
-"«country» (країна), «city» (місто), «neighborhood» (місцевість), "
-"«street» (вулиця) і «exact» (точно, типово потребує приймача сигналу GPS). "
-"Будь ласка, пам'ятайте, що це стосується лише даних, які передає програмам "
-"GeoClue, і що програми можуть визначати місце перебування користувача "
-"самостійно за допомогою ресурсів мережі (хоча і не точніше, ніж на рівні "
-"вулиці, на якій перебуває користувач)."
+"програм, які потребують цих даних. Чинними варіантами значень є «country» "
+"(країна), «city» (місто), «neighborhood» (місцевість), «street» (вулиця) і "
+"«exact» (точно, типово потребує приймача сигналу GPS). Будь ласка, "
+"пам'ятайте, що це стосується лише даних, які передає програмам GeoClue, і що "
+"програми можуть визначати місце перебування користувача самостійно за "
+"допомогою ресурсів мережі (хоча і не точніше, ніж на рівні вулиці, на якій "
+"перебуває користувач)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:10
 msgid "Proxy configuration mode"
@@ -3489,20 +3673,20 @@ msgid ""
 "configured, it is used for all protocols, except that the http, https, and "
 "ftp proxy settings override it for those protocols only."
 msgstr ""
-"Визначає режим налаштовування проксі-сервера. Підтримувані значення: "
-"«none» (немає), «manual» (вручну), «auto» (автоматично). Якщо вказано "
-"значення «none», проксі-сервери не використовуватимуться. Якщо вказано "
-"значення «auto», буде використано адресу автоматичного налаштовування, яку "
-"вказано у ключі «autoconfig-url». Якщо вказано значення «manual», буде "
-"використано проксі-сервери, які описано у «/system/proxy/http», «/system/"
-"proxy/https», «/system/proxy/ftp» та «/system/proxy/socks». Кожен із "
-"чотирьох типів проксі-серверів вважається увімкненим, якщо його ключ «host» "
-"має непорожнє значення, а його ключ «port» має значення, яке не дорівнює 0. "
-"Якщо налаштовано проксі-сервер http, а проксі-сервер https не налаштовано, "
-"проксі-сервер http використовуватиметься і для з'єднань https. Якщо "
-"налаштовано проксі-сервер SOCKS, його буде використано для усіх протоколів, "
-"окрім випадків, коли параметри проксі-серверів http, https і ftp "
-"перевизначають його для окремого протоколу."
+"Визначає режим налаштовування проксі-сервера. Підтримувані значення: «none» "
+"(немає), «manual» (вручну), «auto» (автоматично). Якщо вказано значення "
+"«none», проксі-сервери не використовуватимуться. Якщо вказано значення "
+"«auto», буде використано адресу автоматичного налаштовування, яку вказано у "
+"ключі «autoconfig-url». Якщо вказано значення «manual», буде використано "
+"проксі-сервери, які описано у «/system/proxy/http», «/system/proxy/https», «/"
+"system/proxy/ftp» та «/system/proxy/socks». Кожен із чотирьох типів проксі-"
+"серверів вважається увімкненим, якщо його ключ «host» має непорожнє "
+"значення, а його ключ «port» має значення, яке не дорівнює 0. Якщо "
+"налаштовано проксі-сервер http, а проксі-сервер https не налаштовано, проксі-"
+"сервер http використовуватиметься і для з'єднань https. Якщо налаштовано "
+"проксі-сервер SOCKS, його буде використано для усіх протоколів, окрім "
+"випадків, коли параметри проксі-серверів http, https і ftp перевизначають "
+"його для окремого протоколу."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:36
 msgid "Automatic proxy configuration URL"
