@@ -6,8 +6,8 @@
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2014.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015.
-# Sabri Ünal <libreajans@gmail.com>, 2014, 2019, 2021, 2022, 2024.
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017-2019.
+# Sabri Ünal <yakushabb@gmail.com>, 2014, 2019, 2021, 2022, 2024.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2017-2024.
 #
 msgid ""
@@ -15,9 +15,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-11 12:38+0000\n"
-"PO-Revision-Date: 2024-07-26 01:07+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2024-08-15 20:45+0000\n"
+"PO-Revision-Date: 2024-08-24 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -582,8 +582,8 @@ msgstr "Tek tıklama hareketi"
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:17
 msgid "Direction to perform a single click (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Tek tıklamanın gerçekleştirileceği yön (“left” [sol], “right” [sağ], "
-"“up” [yukarı], “down” [aşağı])."
+"Tek tıklamanın gerçekleştirileceği yön (“left” [sol], “right” [sağ], “up” "
+"[yukarı], “down” [aşağı])."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:21
 msgid "Gesture double click"
@@ -592,8 +592,8 @@ msgstr "Çift tıklama hareketi"
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:22
 msgid "Direction to perform a double click (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Çift tıklamanın gerçekleştirileceği yön (“left” [sol], “right” [sağ], "
-"“up” [yukarı], “down” [aşağı])."
+"Çift tıklamanın gerçekleştirileceği yön (“left” [sol], “right” [sağ], “up” "
+"[yukarı], “down” [aşağı])."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:26
 msgid "Gesture drag click"
@@ -602,8 +602,8 @@ msgstr "Sürükleme tıklaması hareketi"
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:27
 msgid "Direction to perform dragging (“left”, “right”, “up”, “down”)."
 msgstr ""
-"Sürüklemenin gerçekleştirileceği yön (“left” [sol], “right” [sağ], "
-"“up” [yukarı], “down” [aşağı])."
+"Sürüklemenin gerçekleştirileceği yön (“left” [sol], “right” [sağ], “up” "
+"[yukarı], “down” [aşağı])."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:31
 msgid "Gesture secondary click"
@@ -736,9 +736,9 @@ msgid ""
 "“spanned”."
 msgstr ""
 "Bu ayar, wallpaper_filename ile ayarlanmış görüntülerin nasıl "
-"gerçekleneceğini belirler. Olası değerler “none” (hiçbiri), "
-"“wallpaper” (duvar kağıdı), “centered” (merkezli), “scaled” (ölçeklenmiş), "
-"“stretched” (uzatılmış), “zoom” (yakın), “spanned” (dağıtılmış)."
+"gerçekleneceğini belirler. Olası değerler “none” (hiçbiri), “wallpaper” "
+"(duvar kağıdı), “centered” (merkezli), “scaled” (ölçeklenmiş), “stretched” "
+"(uzatılmış), “zoom” (yakın), “spanned” (dağıtılmış)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
@@ -802,8 +802,8 @@ msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
 msgstr ""
-"Arka plan renginin nasıl gölgelendirileceği. Olası değerler "
-"“horizontal” (yatay), “vertical” (dikey)  ve “solid” (sabit)."
+"Arka plan renginin nasıl gölgelendirileceği. Olası değerler “horizontal” "
+"(yatay), “vertical” (dikey)  ve “solid” (sabit)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
@@ -813,6 +813,111 @@ msgstr "Masaüstünü dosya yöneticisi idare etsin"
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Eğer seçiliyse, sonrasında dosya yöneticisi masaüstüne simgeleri çizecek."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Şu anda etkin molaların listesi"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Molalar arası zaman"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Molalar arası zaman, saniye türünde."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Her molanın süresi"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Her molanın süresi, saniye türünde."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Eğer istenirse molayı erteleme miktarı"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"Eğer kullanıcı erteleme isterse, molaya eklenecek erteleme miktarı, saniye "
+"türünde."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Molalarda ekranı soldur"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Molalarda ekran solacaksa doğru."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Molalarda ekranı kilitle"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Molalarda ekran kilitlenecekse doğru."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Mola bittiğinde ses çıkar"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Mola bittiğinde ses çıkarılacaksa doğru."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Mola geldiğinde bildir"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Mola başlayacaksa bildirim gönder."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Mola yaklaştığında bildir"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr "Mola başlamadan birkaç dakika önce bildirim gönder."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Mola aşıldığında bildir"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Mola zamanı aşıldığında bildir"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr "Mola başlamadan kısa süre önce göze çarpan geri sayım gösterilecekse doğru."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -1079,8 +1184,8 @@ msgstr "Araç Çubuğu Simge Boyutu"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:59
 msgid "Size of icons in toolbars, either “small” or “large”."
 msgstr ""
-"Araç çubuğundaki simgelerin boyutları, ya “small” (küçük) ya da "
-"“large” (büyük)."
+"Araç çubuğundaki simgelerin boyutları, ya “small” (küçük) ya da “large” "
+"(büyük)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:65
 msgid "Cursor Blink"
@@ -1453,8 +1558,8 @@ msgid ""
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
 "Kullanıcı arayüzü için yeğlenen renk şeması. Geçerli değerler şunlardır: "
-"“default” (öntanımlı), “prefer-dark” (karanlığı yeğle), “prefer-"
-"light” (aydınlığı yeğle)."
+"“default” (öntanımlı), “prefer-dark” (karanlığı yeğle), “prefer-light” "
+"(aydınlığı yeğle)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:307
 msgid "Font rendering"
@@ -1468,6 +1573,11 @@ msgid ""
 "account. Possible values are: \"manual\" for respecting the low-level "
 "settings, or \"automatic\" for letting the toolkit make its own decisions."
 msgstr ""
+"Yazı tipi gerçeklemenin düşük düzey `font-hinting`, `font-antialiasing` ve "
+"`font-rgba-order` ayarlarını mı yoksa ekran çözünürlüğü ve ölçekleme gibi "
+"çevresel faktörleri mi yeğleyeceği. Olası değerler: "
+"düşük düzey ayarlara uyum için \"manual\" ya da araç takımının kendi "
+"kararlarını vermesi için \"automatic\"."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:316
 msgid "Accent color"
@@ -1476,12 +1586,12 @@ msgstr "Vurgu rengi"
 # Slate için Arduvaz çevirisi de kullanılıyormuş. Pek bilmediğim bir konu.
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:317
 msgid ""
-"The preferred accent color for the user interface. Valid values are \"blue"
-"\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple"
-"\", \"slate\"."
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
 msgstr ""
-"Kullanıcı arayüzü için yeğlenen vurgu rengi. Geçerli değerler \"blue"
-"\" (mavi), \"teal\" (deniz mavisi), \"green\" (yeşil), \"yellow\" (sarı), "
+"Kullanıcı arayüzü için yeğlenen vurgu rengi. Geçerli değerler \"blue\" "
+"(mavi), \"teal\" (deniz mavisi), \"green\" (yeşil), \"yellow\" (sarı), "
 "\"orange\" (turuncu), \"red\" (kırmızı), \"pink\" (pembe), \"purple\" (mor), "
 "\"slate\" (kayrak)."
 
@@ -1832,8 +1942,8 @@ msgid ""
 "middle button (\"lrm\"), respectively."
 msgstr ""
 "Parmak sayılarıyla dokunmatik yüzey düğmelerini eşleştirmeyi tanımlar. "
-"Öntanımlı olan şudur: sol düğme için 1, sağ düğme için 2, orta düğme (\"lrm"
-"\") için 3 parmak."
+"Öntanımlı olan şudur: sol düğme için 1, sağ düğme için 2, orta düğme "
+"(\"lrm\") için 3 parmak."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
 msgid "Enable tap-and-drag with touchpad"
@@ -2133,6 +2243,7 @@ msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr ""
+"Bunu, mantıksal aralığa eşlenecek fiziksel baskı aralığının yüzdesine belirle."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
@@ -3529,12 +3640,12 @@ msgid ""
 "ftp proxy settings override it for those protocols only."
 msgstr ""
 "Vekil sunucu yapılandırma kipini seç. Desteklenen değerler “none”, “manual”, "
-"“auto”. Eğer “none” (hiçbiri) ise, vekil sunucular kullanılmaz. Eğer "
-"“auto” (kendiliğinden) ise, “autoconfig-url” anahtarınca tanımlanan "
-"kendiliğinden yapılandırma URL’si kullanılır. Eğer “manual” (elle) ise, “/"
-"system/proxy/http”, “/system/proxy/https”, “/system/proxy/ftp” ve “/system/"
-"proxy/socks” tarafından tanımlanan vekil sunucular kullanılacaktır. 4 vekil "
-"sunucu türünün her biri Eğer “host” anahtarı boş değilse ve “port” (bağlantı "
+"“auto”. Eğer “none” (hiçbiri) ise, vekil sunucular kullanılmaz. Eğer “auto” "
+"(kendiliğinden) ise, “autoconfig-url” anahtarınca tanımlanan kendiliğinden "
+"yapılandırma URL’si kullanılır. Eğer “manual” (elle) ise, “/system/proxy/"
+"http”, “/system/proxy/https”, “/system/proxy/ftp” ve “/system/proxy/socks” "
+"tarafından tanımlanan vekil sunucular kullanılacaktır. 4 vekil sunucu "
+"türünün her biri Eğer “host” anahtarı boş değilse ve “port” (bağlantı "
 "noktası) anahtarı 0 değilse etkindir. Eğer bir http vekil sunucusu "
 "yapılandırıldıysa fakat https vekili yapılandırılmadıysa, o zaman http "
 "vekili ayrıca https olarak da kullanılır. Eğer bir SOCKS vekili "
