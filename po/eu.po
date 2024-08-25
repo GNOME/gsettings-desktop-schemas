@@ -8,8 +8,8 @@
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues/\n"
-"POT-Creation-Date: 2024-02-19 13:18+0000\n"
-"PO-Revision-Date: 2024-02-22 10:00+0100\n"
+"POT-Creation-Date: 2024-07-31 13:50+0000\n"
+"PO-Revision-Date: 2024-08-25 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -130,7 +130,7 @@ msgstr "Ez egin jaramonik tekla bera hainbat aldiz sakatzen bada milisegundo hau
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:35
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:80
 msgid "Beep when a key is rejected"
-msgstr "Jo soinua tekla bat ezesten bada"
+msgstr "Jo soinua tekla bat ezesten denean"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:36
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:81
@@ -193,7 +193,7 @@ msgstr "Tekla bat sakatzen den aurrenekoa denean soinua jotzea edo ez."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:75
 msgid "Beep when a key is accepted"
-msgstr "Jo soinua tekla bat onartzen bada"
+msgstr "Jo soinua tekla bat onartzen denean"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:76
 msgid "Whether to beep when a key is accepted."
@@ -694,6 +694,109 @@ msgstr "Fitxategi-kudeatzaileak mahaigaina kudeatuko duen edo ez"
 #: schemas/org.gnome.desktop.background.gschema.xml.in:62
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr "'true' (egia) gisa ezartzen bada, fitxategi-kudeatzaileak mahaigaineko ikonoak marraztuko ditu."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Unean gaituta dauden atsedenaldien zerrenda"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Atsedenaldien arteko denbora"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Atsedenaldien arteko denbora, segundotan."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Atsedenaldi bakoitzaren iraupena"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Atsedenaldi bakoitzaren iraupena, segundotan."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Atsedenaldia atzeratuko den denbora, eskatzen bada"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr "Atsedenaldia hartzea atzeratuko den denbora, erabiltzaileak atsedenaldia eskatzen badu, segundotan."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Iraungi pantaila atsedenaldietan"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Egia atsedenaldiek irauten duten bitartean pantaila iraungitzeko."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Blokeo-pantaila atsedenaldietan"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Egia atsedenaldiek irauten duten bitartean pantaila blokeatzeko."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Erreproduzitu soinu bat etena amaitzen denean"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Erreproduzitu soinu bat etena amaitzen denean."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Jakinarazi atsedenaldia iristen denean"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Egia atsedenaldia hasten denean jakinarazpen  bat igortzeko."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Jakinarazi atsedenaldia iristear denean"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr "Egia atsedenaldia hasi baino minutu batzuk lehenago jakinarazpen  bat igortzeko."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Jakinarazi atsedenaldiaren unea gainditu denean"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Egia atsedenaldia hasteko ordua gainditu denean jakinarazpen  bat igortzeko."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr "Egia atsedenaldia hasi baino lehenago atzera-kontaketa nabarmen bat erakusteko."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -1242,6 +1345,30 @@ msgid ""
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr "Erabiltzaile-interfazerako hobetsitako kolore-eskema. Baliozko balioak: “default”, “prefer-dark”, “prefer-light”."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Letra-tipoen errendatzea"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr "Hobespena letra-tipoen errendatzeak maila baxuko `font-hinting` eta `font-antialiasing` eta `font-rgba-order` ezarpenak jarraitu beharko lukeen, edo pantailaren bereizmena eta eskalatzea moduko ingurune-faktoreak kontuan hartu beharko lituzkeen. Balioak: \"manual\" maila baxuko ezarpenak jarraitzeko edo \"automatic\" tresna-multzoak bere erabakiak har ditzan uzteko."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Kolore orokorra"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr "Erabiltzaile-interfazerako hobetsitako kolore nagusia. Balioak: \"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple\", \"slate\"."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Desgaitu komando-lerroa"
@@ -1576,8 +1703,8 @@ msgstr "Trukatu saguaren ezkerreko eta eskuineko botoiak “left“, “right”
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Azelerazioaren profila"
 
@@ -1594,7 +1721,7 @@ msgstr "Konektatutako ukipen-paneletan erabili den azelerazioaren profila. Azele
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Erakuslearen abiadura"
 
@@ -1626,13 +1753,13 @@ msgstr "Softwareak emulatutako botoiak nola sortu: “none” desgaitzeko; “ar
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Emulatu erdiko klika"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -1783,89 +1910,119 @@ msgid ""
 msgstr "Ezarri hau x1, y1 eta x2, y2 koordenatuetara arkatzari aplikatuko zaion presioaren kurba bezala."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "Arkatzaren presioaren barrutia"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr "Ezarri hemen barruti logikoarekin mapatuko litzatekeen presio fisikoaren barrutiaren ehunekoa."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Borragomaren presioaren kurba"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Ezarri hau x1, y1 eta x2, y2 koordenatuetara borragomari aplikatuko zaion presioaren kurba bezala."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Borragomaren presioaren barrutia"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Botoiaren ekintza"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Arkatzaren botoiaren ekintza. Botoi hau arkatzaren heldulekuan zehar kokatuta dago."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Bigarren mailako botoiaren ekintza"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr "Arkatzaren bigarren botoiaren ekintza. Botoi hau 'Grip Pen' bezalako arkatzen heldulekuan zehar kokatuta dago. 'Airbrush Pen' edo 'Inking Pen' bezalakoek botoi bat bakarrik daukatenez, ezarpen honek ez du haietan eragiten."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Hirugarren mailako botoiaren ekintza"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr "Arkatzaren hirugarren botoiaren ekintza. Botoi hau 'Grip Pen' bezalako arkatzen heldulekuan zehar kokatuta dago. 'Grip Pen' bezalakoek bi botoi bakarrik daukatenez, ezarpen honek ez du haietan eragiten."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Taularen botoiaren ekintza mota"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Botoi nagusiaren tekla-konbinazioa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Botoia sakatzean abiaraziko den ekintza mota."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Ekintza pertsonalizatuaren teklen konbinazioa"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "Ekintza pertsonalizatuetan botoia sakatzean sortuko den laster-tekla."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "Bigarren mailako botoiaren tekla-konbinazioa"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Hirugarren mailako botoiaren tekla-konbinazioa"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Taularen botoiaren ekintza mota"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Botoia sakatzean abiaraziko den ekintza mota."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Ekintza pertsonalizatuaren teklen konbinazioa"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Ukimen-pantailaren irteeraren mapaketa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr "Irteera mapatu den ukimen-pantailari buruzko EDID informazioa. Honako formatua eduki behar du: [hornitzailea, produktua, serie-zenbakia]. [\"\",\"\",\"\"] mapaketa desgaitzen du."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Saguaren gurpila emulatzeko botoia. 0 eginbidea desgaitzeko."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Saguaren gurpila emulatzeko botoi-blokeoa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr "Ezarri TRUE (egia) saguaren gurpilaren emulazio-botoian botoi-blokeoa gaitzeko. Gaituta badago, botoiaren lehen klikak korritzea gaituko du, eta bigarren klikak korritzea desgaituko du."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -1875,13 +2032,13 @@ msgid ""
 "support the configured profile, “default” will be used."
 msgstr "Kontrol-bolan erabili den azelerazioaren profila. Azelerazioaren profilak honako balioak eduki ditzake: “default” (lehenetsia) gailu bakoitzaren azelerazio-profil lehenetsia erabiltzen du; “flat” (laua) gailu baten konfiguratutako erakuslearen abiaduratik eratorritako gailuarekiko zehatza den faktore konstante baten arabera azeleratzen du; “adaptive” (moldatzailea) saguaren mugimenduaren arabera egokitzen du azelerazioa. Kontrol-bola batek konfiguratutako profilik ez badu onartzen, “default” (lehenetsia) erabiliko da."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr "Makila erakusleen erakuslearen abiadura. Onartutako balioak [-1 … 1] barrutikoak dira (“azeleratu gabetik” “azkarrera“. 0 balioa lehenetsia da."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -1891,11 +2048,11 @@ msgid ""
 "doesn’t support the configured profile, “default” will be used."
 msgstr "Makila erakuslean erabili den azelerazioaren profila. Azelerazioaren profilak honako balioak eduki ditzake: “default” (lehenetsia) gailu bakoitzaren azelerazio-profil lehenetsia erabiltzen du; “flat” (laua) gailu baten konfiguratutako erakuslearen abiaduratik eratorritako gailuarekiko zehatza den faktore konstante baten arabera azeleratzen du; “adaptive” (moldatzailea) saguaren mugimenduaren arabera egokitzen du azelerazioa. Makila erakusle batek konfiguratutako profilik ez badu onartzen, “default” (lehenetsia) erabiliko da."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Korritze-metodoa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -3134,27 +3291,27 @@ msgstr "Ordenagailuaren ataka, “/system/proxy/socks/host“-ean definituta pro
 #~ "option back to true or live with the \"bug\" they requested."
 #~ msgstr ""
 #~ "Aukera hau 'false' (faltsua) gisa ezartzeak portaera akastuna eragin "
-#~ "dezake. Hori dela eta, erabiltzaileei biziki gomendatzen zaie bere "
-#~ "'true' (egia) balio lehenetsitik ez aldatzea. Ekintza askok (adib. "
-#~ "bezeroaren arean klik egiteak, leihoa lekuz edo tamainaz aldatzeak) "
-#~ "normalean leihoa goratzen dute bigarren eragin gisa. Ezarri aukera hau "
-#~ "faltsu balioarekin, halakorik ez egitea gomendatzen da,  erabiltzailearen "
-#~ "beste elkarreragiketak leihoa ez goratzeko. Ikus http://bugzilla.gnome."
-#~ "org/show_bug.cgi?id=445447#c6 . Faltsua balioarekin leihoa goratu ahalko "
-#~ "da Alt+saguaren-ezker-pultsazioa sakatuz edo klik normal batekin "
-#~ "leihoaren dekorazioan (suposatzen da horrelako klik-ak ez direla "
-#~ "erabiltzen lekuz edo tamainaz aldatzeko eragiketak hasteko). Mezu "
-#~ "bereziek, bilagailuen eskaeren aktibazioa bezalakoek, ere leihoak "
-#~ "goratuko dituzte nahiz eta aukeraren balioa faltsua izan. Unean aukera "
-#~ "hau desgaituta dago 'click-to-focus' moduan. Jakin ezazu leihoak "
-#~ "goratzeko moduen zerrendak, 'raise-on-click' gakoa 'false' (faltsua) "
-#~ "denean, ez du aplikazioetatik eskaera programatikorik leihoak goratzeko; "
-#~ "halako eskaerei ez ikusi egingo zaie berdin izanik eskaeraren arrazoia. "
-#~ "Aplikazio baten garatzailea bazara, eta erabiltzaileek zure aplikazioa "
-#~ "ezarpen honekin ez duela funtzionatzen adieraziz kexatu egiten badira, "
-#~ "esaiezu -beraien- errua dela beraien leiho-kudeatzailea hondatzeagatik, "
-#~ "eta aukera hau 'true' (egia) gisa balioarekin ezarri behar dutela "
-#~ "berriro, edo bestela bizi daitezela aipatutako 'akatsarekin'."
+#~ "dezake. Hori dela eta, erabiltzaileei biziki gomendatzen zaie bere 'true' "
+#~ "(egia) balio lehenetsitik ez aldatzea. Ekintza askok (adib. bezeroaren "
+#~ "arean klik egiteak, leihoa lekuz edo tamainaz aldatzeak) normalean leihoa "
+#~ "goratzen dute bigarren eragin gisa. Ezarri aukera hau faltsu balioarekin, "
+#~ "halakorik ez egitea gomendatzen da,  erabiltzailearen beste "
+#~ "elkarreragiketak leihoa ez goratzeko. Ikus http://bugzilla.gnome.org/"
+#~ "show_bug.cgi?id=445447#c6 . Faltsua balioarekin leihoa goratu ahalko da "
+#~ "Alt+saguaren-ezker-pultsazioa sakatuz edo klik normal batekin leihoaren "
+#~ "dekorazioan (suposatzen da horrelako klik-ak ez direla erabiltzen lekuz "
+#~ "edo tamainaz aldatzeko eragiketak hasteko). Mezu bereziek, bilagailuen "
+#~ "eskaeren aktibazioa bezalakoek, ere leihoak goratuko dituzte nahiz eta "
+#~ "aukeraren balioa faltsua izan. Unean aukera hau desgaituta dago 'click-to-"
+#~ "focus' moduan. Jakin ezazu leihoak goratzeko moduen zerrendak, 'raise-on-"
+#~ "click' gakoa 'false' (faltsua) denean, ez du aplikazioetatik eskaera "
+#~ "programatikorik leihoak goratzeko; halako eskaerei ez ikusi egingo zaie "
+#~ "berdin izanik eskaeraren arrazoia. Aplikazio baten garatzailea bazara, "
+#~ "eta erabiltzaileek zure aplikazioa ezarpen honekin ez duela funtzionatzen "
+#~ "adieraziz kexatu egiten badira, esaiezu -beraien- errua dela beraien "
+#~ "leiho-kudeatzailea hondatzeagatik, eta aukera hau 'true' (egia) gisa "
+#~ "balioarekin ezarri behar dutela berriro, edo bestela bizi daitezela "
+#~ "aipatutako 'akatsarekin'."
 
 #~ msgid "Menus Have Icons"
 #~ msgstr "Menuek ikonoak dituzte"
