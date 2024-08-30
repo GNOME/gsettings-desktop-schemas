@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
 "/issues/\n"
-"POT-Creation-Date: 2024-02-25 16:27+0000\n"
-"PO-Revision-Date: 2024-03-02 12:25+0100\n"
+"POT-Creation-Date: 2024-07-31 13:50+0000\n"
+"PO-Revision-Date: 2024-08-31 00:04+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <openscope at fsf dot hu>\n"
 "Language: hu\n"
@@ -626,8 +626,8 @@ msgstr "Elidőzési kattintás módja"
 msgid ""
 "The active dwell click mode. Possible values are “window” and “gesture”."
 msgstr ""
-"Az aktív elidőzési mód. Lehetséges értékek: „window” (ablak) és "
-"„gesture” (gesztus)."
+"Az aktív elidőzési mód. Lehetséges értékek: „window” (ablak) és „gesture” "
+"(gesztus)."
 
 #: schemas/org.gnome.desktop.a11y.mouse.gschema.xml.in:41
 msgid "Show click type window"
@@ -745,8 +745,8 @@ msgid ""
 msgstr ""
 "Meghatározza a wallpaper_filename kulcsban beállított kép megjelenését. "
 "Lehetséges értékek: „none” (nincs) „wallpaper” (mozaik), „centered” (középre "
-"igazított), „scaled” (kifeszített), „stretched” (nyújtott), "
-"„zoom” (nagyítás), „spanned” (kiterjesztett)."
+"igazított), „scaled” (kifeszített), „stretched” (nyújtott), „zoom” "
+"(nagyítás), „spanned” (kiterjesztett)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
@@ -823,6 +823,116 @@ msgstr "Kezelje-e a fájlkezelő az asztalt"
 msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Ha ez igazra van állítva, akkor a fájlkezelő jeleníti meg az asztal ikonjait."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "A jelenleg engedélyezett szünetek listája"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+#| msgid "Timeout between click repeats"
+msgid "Time between breaks"
+msgstr "Szünetek közötti idő"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+#| msgid "Delay between repeats in milliseconds."
+msgid "The time between rest breaks, in seconds."
+msgstr "A pihenőszünetek közötti idő másodpercben."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Az egyes szünetek időtartama"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Az egyes pihenőszünetek időtartama másodpercben."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "A szünet késleltetésének mértéke, ha kérik"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"A szünet késleltetésének mértéke másodpercben, ha a felhasználó késleltetést"
+" kér."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Képernyő elhalványítása a szünetek alatt"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Igaz, hogy a képernyő elhalványuljon a pihenőszünetek alatt."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Képernyő zárolása a szünetek alatt"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Igaz, hogy a képernyő lezáródjon a pihenőszünetek alatt."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Hang lejátszása a szünet befejezésekor"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Igaz, hogy hangot játsszon le egy szünet befejezésekor."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Értesítés, ha szünet esedékes"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Igaz, hogy értesítést küldjön, ha egy szünet kezdete esedékes."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Értesítés, ha szünet következik"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"Igaz, hogy értesítést küldjön egy szünet esedékessége előtt néhány perccel."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Értesítés, ha egy szünet lejárt"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Igaz, hogy értesítést küldjön, ha egy szünet lejárt."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"Igaz, hogy egy jól látható visszaszámlálót jelenítsen meg röviddel a szünet"
+" esedékessége előtt."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -982,9 +1092,6 @@ msgid "XKB model to use"
 msgstr "Használandó XKB modell"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
-#| msgid ""
-#| "List of XKB options. Each option is an XKB option string as defined by "
-#| "xkeyboard-config’s rules files."
 msgid ""
 "The XKB model to use. The value is the same identifier as defined by "
 "xkeyboard-config’s geometry files."
@@ -1062,8 +1169,8 @@ msgstr "Eszköztár stílusa"
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
-"Eszköztár stílusa. Lehetséges értékek: „both” (mindkettő), "
-"„both_horiz” (mindkettő vízszintesen), „icon” (ikon), és „text” (szöveg)."
+"Eszköztár stílusa. Lehetséges értékek: „both” (mindkettő), „both_horiz” "
+"(mindkettő vízszintesen), „icon” (ikon), és „text” (szöveg)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1461,6 +1568,44 @@ msgid ""
 msgstr ""
 "A felhasználói felület előnyben részesített színsémája. Az érvényes értékek: "
 "„default” (alapértelmezett), „prefer-dark” (sötét), „prefer-light” (világos)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Betűkészlet megjelenítése"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Preferencia annak jelzésére, hogy a betűkészlet megjelenítésének az alacsony"
+" szintű „font-hinting”, „font-antialiasing” és „font-rgba-order”"
+" beállításokat kell-e követnie, vagy figyelembe kell-e vennie az olyan"
+" környezeti tényezőket, mint a képernyő felbontása és méretezése. A"
+" lehetséges értékek: „manual” (kézi) az alacsony szintű beállítások"
+" figyelembe vételéhez, vagy „automatic” (automatikus) az eszközkészlet saját"
+" döntéseire bízva."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Kiemelőszín"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+#| msgid ""
+#| "The preferred color scheme for the user interface. Valid values are "
+#| "“default”, “prefer-dark”, “prefer-light”."
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"A felhasználói felület előnyben részesített kiemelőszíne. Az érvényes"
+" értékek: „blue” (kék), „teal” (kékeszöld), „green” (zöld), „yellow” (sárga),"
+" „orange” (narancssárga), „red” (piros), „pink” (rózsaszín), „purple” (lila),"
+" „slate” (palaszürke)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1869,8 +2014,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Gyorsítási profil"
 
@@ -1894,7 +2039,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Mutató sebessége"
 
@@ -1934,13 +2079,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Középső kattintás utánzása"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2113,32 +2258,54 @@ msgstr "Íróvessző nyomásgörbéje"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr "Az íróvesszőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
+msgstr ""
+"Állítsa ezt az íróvesszőre alkalmazott nyomásgörbe x1, y1 és x2, y2"
+" koordinátáira."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#| msgid "Stylus pressure curve"
+msgid "Stylus pressure range"
+msgstr "Íróvessző nyomástartománya"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Állítsa ezt a fizikai nyomástartomány azon százalékos értékére, amelyet a"
+" logikai tartományra kell leképezni."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Törlő nyomásgörbéje"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr "A törlőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátái."
+msgstr ""
+"Állítsa ezt a törlőre alkalmazott nyomásgörbe x1, y1 és x2, y2 koordinátáira."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#| msgid "Eraser pressure curve"
+msgid "Eraser pressure range"
+msgstr "Törlő nyomástartománya"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Az íróvessző gombjának művelete. Ez a gomb a toll fogantyúja mentén "
 "található."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Másodlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2149,11 +2316,11 @@ msgstr ""
 "íróvesszőknek (például Airbrush Pen vagy Inking Pen) csak egyetlen gombja "
 "van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Harmadlagos gomb művelete"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2163,30 +2330,48 @@ msgstr ""
 "mentén található néhány íróvesszőn, mint például a 3D Pen. Más íróvesszőknek "
 "(például Grip Pen) csak két gombja van, ez a beállítás hatástalan azoknál."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Tábla gombjának művelettípusa"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the primary button"
+msgstr "Az elsődleges gomb billentyűkombinációja"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "A gomb lenyomása által kiváltott művelet."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Az egyéni művelet billentyűkombinációja"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Az egyéni műveletek gombjának megnyomásakor előállított billentyűkombináció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the secondary button"
+msgstr "A másodlagos gomb billentyűkombinációja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the tertiary button"
+msgstr "A harmadlagos gomb billentyűkombinációja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Tábla gombjának művelettípusa"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "A gomb lenyomása által kiváltott művelet."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Az egyéni művelet billentyűkombinációja"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Érintőképernyő kimenet leképezése"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2196,15 +2381,15 @@ msgstr ""
 "[szállító, termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] "
 "megbízik az automatikus leképzésben."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Egérgörgő emulációs gomb zárolása"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2214,7 +2399,7 @@ msgstr ""
 "zárolását. Ha engedélyezve van, akkor az első gombkattintás engedélyezi a "
 "görgetést, a második kattintás újra letiltja."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2231,7 +2416,7 @@ msgstr ""
 "hanyattegér nem támogatja a beállított profilt, akkor a „default” lesz "
 "használva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2240,7 +2425,7 @@ msgstr ""
 "tartományban vannak (a „gyorsítatlantól” a „gyorsig”). A rendszer "
 "alapértelmezett értéke 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2257,11 +2442,11 @@ msgstr ""
 "mutatópálca nem támogatja a beállított profilt, akkor a „default” lesz "
 "használva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Görgetési módszer"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -3670,3 +3855,4 @@ msgid ""
 "The port on the machine defined by “/system/proxy/socks/host” that you proxy "
 "through."
 msgstr "A „/system/proxy/socks/host” kulcsban proxyként megadott gép portja."
+
