@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-02-19 13:18+0000\n"
-"PO-Revision-Date: 2024-03-10 14:19+0100\n"
+"POT-Creation-Date: 2024-09-10 17:24+0000\n"
+"PO-Revision-Date: 2024-09-10 19:45+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -825,6 +825,110 @@ msgstr ""
 "Jeśli jest ustawione na wartość „true”, to menedżer plików będzie wyświetlał "
 "ikony na pulpicie."
 
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Lista aktywnych przerw"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Czas między przerwami"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Czas między przerwami (w sekundach)."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Czas trwania każdej z przerw"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Czas trwania każdej z przerw (w sekundach)."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "O ile opóźnić przerwę, jeśli użytkownik się na to zdecyduje"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"O ile opóźnić przerwę, jeśli użytkownik się na to zdecyduje (w sekundach)."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Przygaszanie ekranu podczas przerw"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Przygaszanie ekranu podczas przerw."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Blokowanie ekranu podczas przerw"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Blokowanie ekranu podczas przerw."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Odtwarzanie dźwięku po ukończeniu przerwy"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Odtwarzanie dźwięku po ukończeniu przerwy."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Powiadamianie o rozpoczęciu przerwy"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Wyświetlanie powiadomienia o rozpoczęciu przerwy."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Powiadamianie o nadchodzącej przerwie"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr "Wyświetlanie powiadomienia kilka minut przed rozpoczęciem przerwy."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Powiadamianie o zaległej przerwie"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Wyświetlanie powiadomienia o zaległej przerwie."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr "Wyświetlanie widocznego odliczania chwilę przed rozpoczęciem przerwy."
+
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
 msgstr "Wyświetlanie dnia tygodnia w kalendarzu"
@@ -1475,8 +1579,42 @@ msgid ""
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
 "Preferowany schemat kolorów interfejsu użytkownika. Prawidłowe wartości: "
-"„default” (domyślny), „prefer-dark” (preferowanie ciemnego), „prefer-"
-"light” (preferowanie jasnego)."
+"„default” (domyślny), „prefer-dark” (preferowanie ciemnego), „prefer-light” "
+"(preferowanie jasnego)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Renderowanie czcionek"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Preferencja wskazująca, czy renderowanie czcionek ma korzystać "
+"z niskopoziomowych ustawień „font-hinting”, „font-antialiasing” i „font-rgba-"
+"order”, czy uwzględniać czynniki środowiskowe, takie jak rozdzielczość "
+"ekranu i skalowanie. Możliwe wartości: „manual” powoduje korzystanie "
+"z niskopoziomowych ustawień, a „automatic” pozwala systemowi podejmować "
+"własne decyzje."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Kolor wyróżnienia"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"Preferowany kolor wyróżnienia interfejsu użytkownika. Prawidłowe wartości: "
+"„blue” (niebieski), „teal” (turkusowy), „green” (zielony), „yellow” (żółty), "
+"„orange” (pomarańczowy), „red” (czerwony), „pink” (różowy), „purple” "
+"(fioletowy), „slate” (ciemnoszary)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1884,8 +2022,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Profil przyspieszenia"
 
@@ -1909,7 +2047,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Prędkość kursora"
 
@@ -1919,8 +2057,8 @@ msgid ""
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "Prędkość kursora dla panelu dotykowego. Możliwe wartości mieszczą się "
-"w zakresie [-1..1] (od „unaccelerated” (bez przyspieszenia) do "
-"„fast” (szybka). Wartość 0 oznacza domyślne ustawienie systemu."
+"w zakresie [-1..1] (od „unaccelerated” (bez przyspieszenia) do „fast” "
+"(szybka). Wartość 0 oznacza domyślne ustawienie systemu."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
@@ -1949,13 +2087,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Emulacja kliknięcia środkowym przyciskiem"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2130,27 +2268,44 @@ msgstr ""
 "Ustawienie na x1, y1 i x2, y2 krzywej nacisku zastosowywanej do rysika."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "Zakres nacisku rysika"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Należy ustawić tę opcję na procent fizycznego zakresu nacisku, który ma "
+"odpowiadać zakresowi logicznemu."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Krzywa nacisku gumki"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Ustawienie na x1, y1 i x2, y2 krzywej nacisku zastosowywanej do gumki."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Zakres nacisku gumki"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Działanie przycisku"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Działanie przycisku położonego na uchwycie rysika."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Działanie drugiego przycisku"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2160,11 +2315,11 @@ msgstr ""
 "Grip Pen. Inne rysiki, np. Airbrush Pen i Inking Pen, mają tylko jeden "
 "przycisk, a to ustawienie dla nich nie działa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Działanie trzeciego przycisku"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2174,19 +2329,14 @@ msgstr ""
 "np. 3D Pen. Inne rysiki, np. Grip Pen, mają tylko dwa przyciski, a to "
 "ustawienie dla nich nie działa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Typ działania przycisku płytki"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Kombinacja klawiszy dla podstawowego przycisku"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Typ działania wyzwalanego przez naciśnięcie przycisku."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Kombinacja klawiszy dla niestandardowego działania"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2194,11 +2344,31 @@ msgstr ""
 "Skrót klawiszowy używany po naciśnięciu przycisku dla niestandardowych "
 "działań."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "Kombinacja klawiszy dla przycisku pomocniczego"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Kombinacja klawiszy dla przycisku dodatkowego"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Typ działania przycisku płytki"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Typ działania wyzwalanego przez naciśnięcie przycisku."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Kombinacja klawiszy dla niestandardowego działania"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Mapowanie wyjścia ekranu dotykowego"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2208,16 +2378,16 @@ msgstr ""
 "w formacie [producent, produkt, numer seryjny]. [\"\",\"\",\"\"] włącza "
 "automatyczne mapowanie."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Przycisk emulacji przewijania za pomocą myszy. Wartość 0 wyłącza tę funkcję."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Blokada emulacji przewijania za pomocą myszy przyciskiem"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2228,7 +2398,7 @@ msgstr ""
 "przycisku włącza przewijanie, a drugie kliknięcie z powrotem wyłącza "
 "przewijanie."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2245,16 +2415,16 @@ msgstr ""
 "od ruchu. Jeśli manipulator kulkowy nie obsługuje skonfigurowanego profilu, "
 "to używany będzie domyślny."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 "Prędkość kursora dla manipulatora punktowego. Możliwe wartości mieszczą się "
-"w zakresie [-1..1] (od „unaccelerated” (bez przyspieszenia) do "
-"„fast” (szybka). Wartość 0 oznacza domyślne ustawienie systemu."
+"w zakresie [-1..1] (od „unaccelerated” (bez przyspieszenia) do „fast” "
+"(szybka). Wartość 0 oznacza domyślne ustawienie systemu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2271,11 +2441,11 @@ msgstr ""
 "od ruchu. Jeśli manipulator punktowy nie obsługuje skonfigurowanego profilu, "
 "to używany będzie domyślny."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Metoda przewijania"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -3259,10 +3429,10 @@ msgstr ""
 "Ta opcja określa skutek podwójnego kliknięcia paska tytułowego okna.\n"
 "\n"
 "Obecnie prawidłowymi opcjami są: „toggle-maximize” (maksymalizuje/przywraca "
-"rozmiar okna), „toggle-maximize-horizontally” i „toggle-maximize-"
-"vertically” (maksymalizują/minimalizują okno w poziomie lub w pionie), "
-"„minimize” (minimalizuje okno), „menu” (wyświetla menu okna), „lower” (chowa "
-"okno pod pozostałe) i „none” (brak jakiegokolwiek efektu)."
+"rozmiar okna), „toggle-maximize-horizontally” i „toggle-maximize-vertically” "
+"(maksymalizują/minimalizują okno w poziomie lub w pionie), „minimize” "
+"(minimalizuje okno), „menu” (wyświetla menu okna), „lower” (chowa okno pod "
+"pozostałe) i „none” (brak jakiegokolwiek efektu)."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
@@ -3282,10 +3452,10 @@ msgstr ""
 "tytułowym okna.\n"
 "\n"
 "Obecnie prawidłowymi opcjami są: „toggle-maximize” (maksymalizuje/przywraca "
-"rozmiar okna), „toggle-maximize-horizontally” i „toggle-maximize-"
-"vertically” (maksymalizują/minimalizują okno w poziomie lub w pionie), "
-"„minimize” (minimalizuje okno), „menu” (wyświetla menu okna), „lower” (chowa "
-"okno pod pozostałe) i „none” (brak jakiegokolwiek efektu)."
+"rozmiar okna), „toggle-maximize-horizontally” i „toggle-maximize-vertically” "
+"(maksymalizują/minimalizują okno w poziomie lub w pionie), „minimize” "
+"(minimalizuje okno), „menu” (wyświetla menu okna), „lower” (chowa okno pod "
+"pozostałe) i „none” (brak jakiegokolwiek efektu)."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
@@ -3305,10 +3475,10 @@ msgstr ""
 "tytułowym okna.\n"
 "\n"
 "Obecnie prawidłowymi opcjami są: „toggle-maximize” (maksymalizuje/przywraca "
-"rozmiar okna), „toggle-maximize-horizontally” i „toggle-maximize-"
-"vertically” (maksymalizują/minimalizują okno w poziomie lub w pionie), "
-"„minimize” (minimalizuje okno), „menu” (wyświetla menu okna), „lower” (chowa "
-"okno pod pozostałe) i „none” (brak jakiegokolwiek efektu)."
+"rozmiar okna), „toggle-maximize-horizontally” i „toggle-maximize-vertically” "
+"(maksymalizują/minimalizują okno w poziomie lub w pionie), „minimize” "
+"(minimalizuje okno), „menu” (wyświetla menu okna), „lower” (chowa okno pod "
+"pozostałe) i „none” (brak jakiegokolwiek efektu)."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
@@ -3321,11 +3491,11 @@ msgid ""
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
-"Jeśli opcja ta jest ustawiona, a sposób uaktywniania ustawiono jako "
-"„sloppy” (ang. luźny) lub „mouse” (ang. mysz), uaktywniane okno będzie "
-"automatycznie wysuwane po upływie czasu określanego przez klucz „auto-raise-"
-"delay”. Opcja ta nie ma zastosowania w przypadku klikania na oknie, aby je "
-"wysunąć, ani w przypadku przechodzenia do okna podczas przeciągania go."
+"Jeśli opcja ta jest ustawiona, a sposób uaktywniania ustawiono jako „sloppy” "
+"(ang. luźny) lub „mouse” (ang. mysz), uaktywniane okno będzie automatycznie "
+"wysuwane po upływie czasu określanego przez klucz „auto-raise-delay”. Opcja "
+"ta nie ma zastosowania w przypadku klikania na oknie, aby je wysunąć, ani "
+"w przypadku przechodzenia do okna podczas przeciągania go."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
