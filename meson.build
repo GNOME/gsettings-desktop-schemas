@@ -11,6 +11,12 @@ project(
 gsettings_desktop_schemas_name = meson.project_name()
 gsettings_desktop_schemas_version = meson.project_version()
 
+# Make sure the version always has a trailing N.0 so that
+# it can be sorted properly when comparing to N.alpha and so on.
+#
+# See https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/-/issues/66
+assert(meson.project_version().split('.').length() > 1)
+
 message('Building ' + gsettings_desktop_schemas_name + ' ' + gsettings_desktop_schemas_version)
 
 cc = meson.get_compiler('c')
