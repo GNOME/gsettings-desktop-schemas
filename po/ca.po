@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-03-12 15:53+0000\n"
-"PO-Revision-Date: 2024-03-20 15:45+0100\n"
+"POT-Creation-Date: 2024-09-10 17:24+0000\n"
+"PO-Revision-Date: 2024-09-21 16:49+0200\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -820,6 +820,114 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Si és «true» (cert), el gestor de fitxer dibuixarà icones a l'escriptori."
 
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Llista de descansos que estan actualment habilitats"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Temps entre descansos"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Temps entre descansos, en segons."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Durada de cada descans"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "La durada de cada descans, en segons."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Quant s'ha d'endarrerir un descans, si es demana"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"El temps que es pot endarrerir un descans, si l'usuari ho demana, en segons."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Difuminar la pantalla durant els descansos"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr "Cert per difuminar la pantalla durant els descansos."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Bloquejar la pantalla durant els descansos"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Cert per bloquejar la pantalla durant els descansos."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Reproduir un so quan finalitza un descans"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Cert per reproduir un so quan un descans finalitza."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Notifica quan toca fer un descans"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Cert per emetre una notificació quan s'ha d'iniciar un descans."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Notifica quan s'apropa un descans"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"Cert per emetre una notificació uns pocs minuts abans de que toqui fer un "
+"descans."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Notifica quan s'hauria d'haver fet un descans"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "Cert per emetre una notificació quan s'hauria d'haver fet un descans."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"Cert per mostrar un compte enrere prominent poc abans que toqui fer un "
+"descans."
+
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
 msgstr "Mostra la data de la setmana en el calendari"
@@ -1473,6 +1581,36 @@ msgstr ""
 "L'esquema de color preferit per a la interfície d'usuari. Els valors vàlids "
 "són «predeterminat», «preferir-fosc», «preferir-clar»."
 
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Renderització de tipus de lletra"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr ""
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+#, fuzzy
+#| msgid ""
+#| "The preferred color scheme for the user interface. Valid values are "
+#| "“default”, “prefer-dark”, “prefer-light”."
+msgid ""
+"The preferred accent color for the user interface. Valid values are \"blue"
+"\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple"
+"\", \"slate\"."
+msgstr ""
+"L'esquema de color preferit per a la interfície d'usuari. Els valors vàlids "
+"són «predeterminat», «preferir-fosc», «preferir-clar»."
+
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
 msgstr "Inhabilita la línia d'ordres"
@@ -1881,8 +2019,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Perfil d'acceleració"
 
@@ -1906,7 +2044,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Velocitat del punter"
 
@@ -1946,13 +2084,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Emula el clic central"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2131,29 +2269,44 @@ msgstr ""
 "l'estilogràfica."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "Rang de pressió de l'estilogràfica"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Corba de pressió de la goma d'esborrar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Establiu-ho a x1, y1 i x2, y2 de la corba de pressió aplicada a la goma "
 "d'esborrar."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Rang de pressió de la goma d'esborrar"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Acció del botó"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Acció del botó del llapis. Aquest botó es troba al mànec del llapis."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Acció del botó secundari"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2163,11 +2316,11 @@ msgstr ""
 "llapis com ara el Grip Pen. Altres llapis com ara l'Airbrush Pen o l'Inking "
 "Pen només tenen un botó, per tant, aquest paràmetre no hi té cap efecte."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Acció del botó terciari"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2177,19 +2330,14 @@ msgstr ""
 "llapis com ara el 3D Pen. Altres llapis com ara el Grip Pen només tenen dos "
 "botons, per tant, aquest paràmetre no hi té cap efecte."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Tipus d'acció del botó del ratolí tàctil"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Combinació de tecles per al botó principal"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "El tipus d'acció a realitzar quan es premi el botó."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Combinació de tecles per a l'acció personalitzada"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2197,11 +2345,31 @@ msgstr ""
 "La drecera de teclat generada quan es premi el botó per a accions "
 "personalitzades."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "Combinació de tecles per al botó secundari"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Combinació de tecles per al botó terciari"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Tipus d'acció del botó del ratolí tàctil"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "El tipus d'acció a realitzar quan es premi el botó."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Combinació de tecles per a l'acció personalitzada"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Assignació de la sortida de la pantalla tàctil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2211,15 +2379,15 @@ msgstr ""
 "tàctil. Ha de tenir el format [vendor, product, serial]. [«»,«»,«»] es basa "
 "en l'assignació automàtica."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Botó d'emulació de la roda del ratolí. 0 per a inhabilitar-ho."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Bloqueig del botó d'emulació de la roda del ratolí"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2229,7 +2397,7 @@ msgstr ""
 "està habilitat, el primer clic del botó activa el desplaçament i el segon "
 "clic el desactiva."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2245,7 +2413,7 @@ msgstr ""
 "(«adaptatiu»), que adapta l'acceleració al moviment. Si un ratolí no admet "
 "el perfil configurat, s'usarà «per defecte»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2254,7 +2422,7 @@ msgstr ""
 "[-1..1] (des de «no accelerat» a «ràpid»). Per defecte, el valor del sistema "
 "és 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2270,11 +2438,11 @@ msgstr ""
 "que adapta l'acceleració al moviment. Si un ratolí no admet el perfil "
 "configurat, s'usarà «per defecte»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Mètode de desplaçament"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
