@@ -6,7 +6,7 @@
 # Christian Kirbach <christian.kirbach@googlemail.com>, 2013, 2015, 2024.
 # Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2015.
 # Wolfgang Stöggl <c72578@yahoo.de>, 2013-2014, 2020.
-# Tim Sabsch <tim@sabsch.com>, 2018, 2020, 2022.
+# Tim Sabsch <tim@sabsch.com>, 2018, 2020, 2022, 2024.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2011-2020, 2021.
 # Philipp Kiemle <philipp.kiemle@gmail.com>, 2020-2022.
 # Jürgen Benvenuti <gastornis@posteo.org>, 2022, 2024.
@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-09-10 17:24+0000\n"
-"PO-Revision-Date: 2024-09-25 19:07+0200\n"
+"POT-Creation-Date: 2024-09-27 10:05+0000\n"
+"PO-Revision-Date: 2024-10-13 19:11+0200\n"
 "Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -881,7 +881,7 @@ msgstr "Die Dauer jeder Ruhepause in Sekunden."
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
 msgid "Amount to delay break if requested"
-msgstr ""
+msgstr "Länge der Verzögerung einer Pause, falls beantragt"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
@@ -889,16 +889,18 @@ msgid ""
 "The amount to delay taking the break by, if the user requests a delay, in "
 "seconds."
 msgstr ""
+"Der Betrag, um den die Pause verzögert werden soll, wenn der Benutzer eine "
+"Verzögerung wünscht, in Sekunden."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
 msgid "Fade screen during breaks"
-msgstr ""
+msgstr "Bildschirm während Pausen ausblenden"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
 msgid "True to fade the screen during rest breaks."
-msgstr ""
+msgstr "Wenn gesetzt, wird der Bildschirm während Pausen ausgeblendet."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
@@ -908,7 +910,7 @@ msgstr "Bildschirm während Pausen sperren"
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
 msgid "True to lock the screen during rest breaks."
-msgstr ""
+msgstr "Wenn gesetzt, wird der Bildschirm während Pausen gesperrt."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
@@ -918,19 +920,20 @@ msgstr "Klang wiedergeben, wenn eine Pause endet"
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
 msgid "True to play a sound when a break finishes."
-msgstr ""
+msgstr "Wenn gesetzt, wird ein Klang abgespielt, wenn eine Pause zu Ende geht."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
 msgid "Notify when a break is due"
-msgstr "Benachrichtigen, wenn eine Pause fällig ist"
+msgstr "Benachrichtigen, wenn eine Pause ansteht"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
 msgid "True to emit a notification when a break is due to start."
 msgstr ""
+"Wenn gesetzt, wird eine Benachrichtigung ausgegeben, wenn eine Pause ansteht."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
@@ -941,6 +944,8 @@ msgstr "Benachrichtigen, wenn eine Pause ansteht"
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
 msgid "True to emit a notification a few minutes before a break is due."
 msgstr ""
+"Wenn gesetzt, wird einige Minuten vorher eine Benachrichtigung ausgegeben, "
+"bevor eine Pause ansteht."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
@@ -951,11 +956,16 @@ msgstr "Benachrichtigen, wenn eine Pause überfällig ist"
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
 msgid "True to emit a notification when a break is overdue."
 msgstr ""
+"Wenn gesetzt, wird eine Benachrichtigung ausgegeben, wenn eine Pause "
+"überfällig ist."
 
+# Alternativen zu Countdown? "Zeitkontrolle" finde ich persönlich nicht verständlich - ts
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
 msgid "True to show a prominent countdown shortly before a break is due."
 msgstr ""
+"Wenn gesetzt, wird ein auffälliger Countdown gezeigt, kurz bevor eine Pause "
+"ansteht."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -1619,23 +1629,26 @@ msgid ""
 "account. Possible values are: \"manual\" for respecting the low-level "
 "settings, or \"automatic\" for letting the toolkit make its own decisions."
 msgstr ""
+"Präferenz, die angibt, ob die Schriftdarstellung den detaillierten "
+"Einstellungen »font-hinting«, »font-antialiasing« und »font-rgba-order« "
+"folgen oder Umgebungsfaktoren wie Bildschirmauflösung und Skalierung "
+"berücksichtigen soll. Mögliche Werte sind: »manual« für die Einhaltung der "
+"detaillierten Einstellungen oder »automatic«, um das Toolkit seine eigenen "
+"Entscheidungen treffen zu lassen."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:316
 msgid "Accent color"
 msgstr "Akzentfarbe"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:317
-#, fuzzy
-#| msgid ""
-#| "The preferred color scheme for the user interface. Valid values are "
-#| "“default”, “prefer-dark”, “prefer-light”."
 msgid ""
 "The preferred accent color for the user interface. Valid values are "
 "\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
 "\"purple\", \"slate\"."
 msgstr ""
-"Das bevorzugte Farbschema für die Benutzeroberfläche. Erlaubte Werte sind "
-"»default«, »prefer-dark« und »prefer-light«."
+"Die bevorzugte Akzentfarbe für die Benutzeroberfläche. Erlaubte Werte sind "
+"»blue«, »teal«, »green«, »yellow«, »orange«, »red«, »pink«, »purple« und "
+"»slate«."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -2312,6 +2325,8 @@ msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr ""
+"Legen Sie hier den Prozentsatz des physikalischen Druckbereichs fest, der "
+"dem logischen Bereich zugeordnet werden soll."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
