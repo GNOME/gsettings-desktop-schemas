@@ -286,4 +286,16 @@ typedef enum
   G_DESKTOP_ACCENT_COLOR_SLATE
 } GDesktopAccentColor;
 
+/* Keep this synchronised with GDateWeekday */
+typedef enum
+{
+  G_DESKTOP_WEEKDAY_MONDAY = 1,
+  G_DESKTOP_WEEKDAY_TUESDAY,
+  G_DESKTOP_WEEKDAY_WEDNESDAY,
+  G_DESKTOP_WEEKDAY_THURSDAY,
+  G_DESKTOP_WEEKDAY_FRIDAY,
+  G_DESKTOP_WEEKDAY_SATURDAY,
+  G_DESKTOP_WEEKDAY_SUNDAY
+} GDesktopWeekday;
+
 #endif /* __gdesktop_enums_h__ */
