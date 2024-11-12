@@ -4,24 +4,25 @@
 # Translators:
 # Марко М. Костић <marko.m.kostic@gmail.com>, 2016.
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012–2022.
+# Милош Поповић <gpopac@gmail.com>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
-"schemas/issues\n"
-"POT-Creation-Date: 2022-09-05 11:09+0000\n"
-"PO-Revision-Date: 2022-10-19 09:00+0200\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <српски <gnome-sr@googlegroups.org>>\n"
+"schemas/issues/\n"
+"POT-Creation-Date: 2024-09-10 17:24+0000\n"
+"PO-Revision-Date: 2024-11-12 08:50+0100\n"
+"Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
+"Language-Team: Serbian <Serbian <gnome-sr@googlegroups.com>>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "X-Project-Style: gnome\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 46.1\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -78,6 +79,16 @@ msgstr "Велики контраст"
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
 msgstr "Да ли ће користити стил великог контраста."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
+msgid "Show status shapes"
+msgstr "Прикажи облике за стање"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
+msgid ""
+"Whether to use shapes to indicate status in addition or instead of color."
+msgstr ""
+"Одређује да ли се користе облици да укажу на стање заједно или уместо боја."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -312,9 +323,9 @@ msgid ""
 "push: when the magnified caret intersects a boundary of the zoom region, the "
 "contents are scrolled into view"
 msgstr ""
-"Одређује положај уметка унутар увеличаног прегледа. Вредности су: • "
-"„none“ (ништа): уметак није праћен • „centered“ (усредиштено): слика уметка "
-"се приказује у средишту области увећања (која такође представља тачку под "
+"Одређује положај уметка унутар увеличаног прегледа. Вредности су: • „none“ "
+"(ништа): уметак није праћен • „centered“ (усредиштено): слика уметка се "
+"приказује у средишту области увећања (која такође представља тачку под "
 "уметком система) а увеличани садржај клизи како се помера уметак система • "
 "„proportional“ (сразмерно): положај увеличаног уметка у области увећања је "
 "сразмерно исти као положај уметка система на екрану • „push“ (гурање): када "
@@ -720,11 +731,10 @@ msgid ""
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
 "“spanned”."
 msgstr ""
-"Одређује како се исцртава слика постављена помоћу "
-"„wallpaper_filename“ (назив датотеке тапета). Могуће вредности су "
-"„none“ (ништа), „wallpaper“ (позадина), „centered“ (центрирано), "
-"„scaled“ (преко целог екрана), „stretched“ (развучено), „zoom“ (увећано) и "
-"„spanned“ (протегнуто)."
+"Одређује како се исцртава слика постављена помоћу „wallpaper_filename“ "
+"(назив датотеке тапета). Могуће вредности су „none“ (ништа), „wallpaper“ "
+"(позадина), „centered“ (центрирано), „scaled“ (преко целог екрана), "
+"„stretched“ (развучено), „zoom“ (увећано) и „spanned“ (протегнуто)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
@@ -790,8 +800,8 @@ msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
 msgstr ""
-"Како ће да претапа боје позадине. Могуће вредности су "
-"„horizontal“ (положено), „vertical“ (усправно) и „solid“ (једнобојно)."
+"Како ће да претапа боје позадине. Могуће вредности су „horizontal“ "
+"(положено), „vertical“ (усправно) и „solid“ (једнобојно)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:61
 msgid "Have file manager handle the desktop"
@@ -802,6 +812,116 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Ако је изабрано, онда ће управник датотека исцртавати иконице на радној "
 "површи."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Списак пауза које су тренутно омогућене"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Време између пауза"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Време између пауза за одмор у секундама."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Трајање сваке паузе"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Трајање свако паузе за одмарање у секундама."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Временски помак паузе уколико је захтевана"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"Временски помак за прављење паузе у секундама, уколико корисник захтева "
+"прекид."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Затамни екран приликом паузе"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr ""
+"Поставите на „true“ (тачно) да затамните екран приликом паузе за одмор."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Закључај екран приликом пауза"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "Поставите на „true“ (тачно) приликом паузе за одмор."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Пусти звук када се пауза заврши"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "Поставите на „true“ (тачно) када се пауза заврши."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Обавести када је заказана пауза"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr "Поставите на „true“ (тачно) када је заказан почетак паузе."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Обавести када следи пауза"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"Поставите на „true“ (тачно) да се прикаже порука неколико минута пре "
+"заказаног почетка паузе."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Обавести када је пауза готова"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr ""
+"Поставите на „true“ (тачно) да се пошаље обавештење када је пауза готова."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"Поставите на „true“ (тачно) за приказ одбројавања пре него што почне пауза."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -890,8 +1010,8 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. The default terminal and how "
 "to invoke it is handled in GIO."
 msgstr ""
-"Аргумент коришћен за извршавање програма у терминалу одређен кључем "
-"„exec“ (изврши). ЗАСТАРЕЛО: Овај кључ је застарео и занемарен. Подразумевани "
+"Аргумент коришћен за извршавање програма у терминалу одређен кључем „exec“ "
+"(изврши). ЗАСТАРЕЛО: Овај кључ је застарео и занемарен. Подразумевани "
 "терминал и како га призвати је уређено у GIO-у."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:7
@@ -956,20 +1076,32 @@ msgstr ""
 "датотекама правила подешавања икс тастатуре."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:49
+msgid "XKB model to use"
+msgstr "ИксКБ модел"
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+msgid ""
+"The XKB model to use. The value is the same identifier as defined by "
+"xkeyboard-config’s geometry files."
+msgstr ""
+"ИксКБ модел који се користи. Вредност модела је иста као што је дефинише "
+"xkeyboard-config датотека са геометријом."
+
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
 msgstr "Приказује све инсталиране изворе улаза"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
 msgid ""
 "Makes all installed input sources available for choosing in System Settings."
 msgstr ""
 "Чини све инсталиране изворе улаза доступним за бирање у подешавањима система."
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:65
 msgid "Use different input sources for each window"
 msgstr "Користи различите изворе улаза за сваки прозор"
 
-#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:58
+#: schemas/org.gnome.desktop.input-sources.gschema.xml.in:66
 msgid ""
 "When enabled, input sources get attached to the currently focused window "
 "when activated."
@@ -1263,40 +1395,45 @@ msgstr ""
 "Списак „name:color“ (назив:боја) раздвојен „\\n“ као што је одређено "
 "подешавањем „gtk-color-scheme“ (гтк-шема-боје)"
 
+#. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
+msgid "'24h'"
+msgstr "'24h'"
+
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:214
 msgid "Whether the clock displays in 24h or 12h format"
 msgstr "Да ли ће сат бити приказан у формату 24h или 12h"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:219
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
 msgid "Whether the clock shows seconds"
 msgstr "Да ли ће сат да приказује секунде"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:220
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:221
 msgid "If true, display seconds in the clock."
 msgstr "Ако је изабрано, приказиваће секунде у сату."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:226
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
 msgid "Show date in clock"
 msgstr "Приказује датум у сату"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:227
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:228
 msgid "If true, display date in the clock, in addition to time."
 msgstr "Ако је изабрано, приказиваће датум у сату, поред времена."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:233
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
 msgid "Show weekday in clock"
 msgstr "Приказује дан у сату"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:234
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:235
 msgid "If true, display weekday in the clock, in addition to time."
 msgstr "Ако је изабрано, приказиваће дан у сату, поред времена."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:240
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
 msgid "Enable hot corners"
 msgstr "Омогући вруће углове"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:241
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:242
 msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
@@ -1304,11 +1441,11 @@ msgstr ""
 "Ако је омогућено, прегледу активности се може приступити померањем миша у "
 "горњи леви угао."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:248
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
 msgstr "Приказује проценат батерије"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:249
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:250
 msgid ""
 "If true, display battery percentage in the status menu, in addition to the "
 "icon."
@@ -1316,11 +1453,11 @@ msgstr ""
 "Ако је изабрано, приказиваће проценат батерије у изборнику стања, као "
 "додатак иконици."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:255
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
 msgid "Enable the primary paste selection"
 msgstr "Укључује главни избор убацивања"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:256
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:257
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1328,11 +1465,11 @@ msgstr ""
 "Ако је изабрано, гтк+ користи главни избор убацивања, који се обично "
 "активира кликом на средње дугме миша."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:262
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
 msgstr "Дозволи преклапање приликом премицања"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:263
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
@@ -1340,11 +1477,11 @@ msgstr ""
 "Да ли траке за премицање треба преклапати као индикаторе. Зависно од улазних "
 "уређаја у употреби, трајне траке за премицање се могу и даље приказивати."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:271
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
 msgstr "Истиче тренутну локацију показивача."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:272
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
@@ -1352,11 +1489,11 @@ msgstr ""
 "Ако је тачно, притисак тастера ће истаћи тренутну локацију показивача на "
 "екрану."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:278
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
 msgstr "Умекшавање"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:279
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:280
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1367,11 +1504,11 @@ msgstr ""
 "стандардно умекшавање у сивим тоновима и „rgba„ — за дотеривање испод "
 "пиксела (само за ЛЦД екране)."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:285
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
 msgstr "Дотеривање"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:286
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:287
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1395,11 +1532,11 @@ msgstr ""
 "недоследног приказивања у зависности од квалитета слова, формата слова и "
 "стања механизама фонта „FreeType“."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:292
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
 msgstr "Редослед РГБА"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:293
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:294
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1410,18 +1547,52 @@ msgstr ""
 "„rgb“ — за црвену слева (најкоришћеније), „bgr“ — за зелену слева, „vrgb“ — "
 "за црвену одозго и „vbgr“ — за црвену одоздо."
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:299
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
 msgstr "Шема боја"
 
-#: schemas/org.gnome.desktop.interface.gschema.xml.in:300
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
-"Омиљена шема боја за корисничко сучеље. Исправне вредности су "
-"„default“ (основно), „prefer-dark“ (предност тамној), „prefer-"
-"light“ (предност светлој)."
+"Омиљена шема боја за корисничко сучеље. Исправне вредности су „default“ "
+"(основно), „prefer-dark“ (предност тамној), „prefer-light“ (предност "
+"светлој)."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Исцртавање фонта"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Поставке које указују да ли исцртавање фонта треба да прати подешавања „font-"
+"hinting“, „font-antialiasing“ и „font-rgba-order“, или да узме у обзир и "
+"остале особине радног окружења као што су резолуција и размера. Могуће "
+"вредности су „manual“ (ручно) које користе избор постојећих вредности из "
+"подешавања или „automatic“ (аутоматски) које омогућавају алатима да изаберу "
+"одговарајућу вредност."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Боја за наглашавање"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"Омиљена боја за наглашавање која се користи у корисничком сучељу. Могуће "
+"вредности су „blue“ (плава), „teal“ (плаво-зелена), „green“ (зелена), "
+"„yellow“ (жута), „orange“ (наранџаста), „red“ (црвена), „pink“ (розе), "
+"„purple“ (љубичаста), „slate“ (плаво-сива)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1817,20 +1988,12 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Профил убрзања"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
-#| msgid ""
-#| "Acceleration profile used for connected mice. The acceleration profile "
-#| "can be set to either default (“default”) which uses the default "
-#| "acceleration profile for each device, flat (“flat”), which accelerates by "
-#| "a device specific constant factor derived from the configured pointer "
-#| "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
-#| "on the mouse movement. If a mouse doesn’t support the configured profile, "
-#| "“default” will be used."
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -1849,7 +2012,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Брзина показивача"
 
@@ -1888,13 +2051,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Опонашај средњи клик"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2067,28 +2230,45 @@ msgstr ""
 "Подесите ово на x1, y1 и x2, y2 криве притиска који се примењује на оловку."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
-msgid "Eraser pressure curve"
-msgstr "Крива притиска брисача"
+msgid "Stylus pressure range"
+msgstr "Опсег притиска оловке"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Поставите на проценат опсега физичког притиска који треба да се повеже са "
+"логичким опсегом."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+msgid "Eraser pressure curve"
+msgstr "Крива притиска гумице"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Подесите ово на x1, y1 и x2, y2 криве притиска који се примењује на брисач."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Опсег притиска гумице"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Радња дугмета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Радња дугмета оловке, ово дугме се налази на ручици пенкале."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Радња другог дугмета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2098,11 +2278,11 @@ msgstr ""
 "оловкама као што је Грип Пен. Остале оловке попут Ербраш Пен или Инкин Пен "
 "имају само једно дугме, ово подешавање не делује на њих."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Радња трећег дугмета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2112,30 +2292,45 @@ msgstr ""
 "оловкама као што је 3Д Пен. Остале оловке попут Грип Пен имају само два "
 "дугмета, ово подешавање не делује на њих."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Врста радње дугмета додирне табле"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Комбинација тастера за главно дугме"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Врста радње која се окида притиском на дугме."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Комбинација тастера за произвољну радњу"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "Пречица тастатуре која се ствара када се притисне дугме за произвољне радње."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "Комбинација тастера за друго дугме"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Комбинација тастера за треће дугме"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Врста радње дугмета додирне табле"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Врста радње која се окида притиском на дугме."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Комбинација тастера за произвољну радњу"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Мапирање излаза додирног екрана"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2144,15 +2339,15 @@ msgstr ""
 "ЕДИД подаци монитора на који је мапиран додирни екран. Мора бити у запису "
 "[vendor, product, serial]. [\"\",\"\",\"\"] ослања се на аутоматско мапирање."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Дугме опонашања точкића миша. 0 искључује функцију."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Закључавање дугмета опонашања точкића миша"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2162,7 +2357,7 @@ msgstr ""
 "опонашања точкића. Ако је омогућено, први клик на дугме омогућава премицање, "
 "други клик онемогућава поновно премицање."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2178,10 +2373,7 @@ msgstr ""
 "прилагођава убрзање у зависности од покрета. Ако пратилица не подржава "
 "подешени профил, користиће се „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "“unaccelerated” to “fast”). A value of 0 is the system default."
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2190,14 +2382,7 @@ msgstr ""
 "(од „unaccelerated“ — без убрзања, до „fast“ — брзо). Вредност 0 је "
 "системска основна."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#| msgid ""
-#| "Acceleration profile used for the trackball. The acceleration profile can "
-#| "be set to either default (“default”) which uses the default acceleration "
-#| "profile, flat (“flat”), which accelerates by a device specific constant "
-#| "factor derived from the configured speed, or adaptive (“adaptive”) which "
-#| "adapts the acceleration depending on the movement. If the trackball "
-#| "doesn’t support the configured profile, “default” will be used."
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2213,12 +2398,11 @@ msgstr ""
 "прилагођава убрзање у зависности од покрета. Ако пратилица не подржава "
 "подешени профил, користиће се „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
-#| msgid "Click method"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Начин премицања"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2470,11 +2654,11 @@ msgid ""
 "implement an XEMBED plug interface and output a window XID on the standard "
 "output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Наредба која ће бити покренута, уколико је кључ "
-"„embedded_keyboard_enabled“ (уграђена тастатура је укључена) подешен на "
-"„Тачно“, да угради тастатуру у прозор. Ова наредба би требала да примени "
-"„XEMBED“ прикључну спрегу и да пошаље излаз ИксИБ прозора на стандардни "
-"излаз. ЗАСТАРЕЛО: Овај кључ је застарео и занемарен."
+"Наредба која ће бити покренута, уколико је кључ „embedded_keyboard_enabled“ "
+"(уграђена тастатура је укључена) подешен на „Тачно“, да угради тастатуру у "
+"прозор. Ова наредба би требала да примени „XEMBED“ прикључну спрегу и да "
+"пошаље излаз ИксИБ прозора на стандардни излаз. ЗАСТАРЕЛО: Овај кључ је "
+"застарео и занемарен."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
 msgid "Allow logout"
@@ -2866,190 +3050,186 @@ msgid "Restore window"
 msgstr "Враћа величину прозора"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:172
-msgid "Toggle shaded state"
-msgstr "Искључује/укључује стање засенчености"
-
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Minimize window"
 msgstr "Умањује прозор"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:176
 msgid "Close window"
 msgstr "Затвара прозор"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:180
 msgid "Move window"
 msgstr "Премешта прозор"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:184
 msgid "Resize window"
 msgstr "Мења величину прозора"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:188
 msgid "Toggle window on all workspaces or one"
 msgstr "Приказује прозор на свим радним просторима или само на једном"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:192
 msgid "Move window to workspace 1"
 msgstr "Премешта прозор на радни простор број 1"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:196
 msgid "Move window to workspace 2"
 msgstr "Премешта прозор на радни простор број 2"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:200
 msgid "Move window to workspace 3"
 msgstr "Премешта прозор на радни простор број 3"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:204
 msgid "Move window to workspace 4"
 msgstr "Премешта прозор на радни простор број 4"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:208
 msgid "Move window to workspace 5"
 msgstr "Премешта прозор на радни простор број 5"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:212
 msgid "Move window to workspace 6"
 msgstr "Премешта прозор на радни простор број 6"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:216
 msgid "Move window to workspace 7"
 msgstr "Премешта прозор на радни простор број 7"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:220
 msgid "Move window to workspace 8"
 msgstr "Премешта прозор на радни простор број 8"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:224
 msgid "Move window to workspace 9"
 msgstr "Премешта прозор на радни простор број 9"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:228
 msgid "Move window to workspace 10"
 msgstr "Премешта прозор на радни простор број 10"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:232
 msgid "Move window to workspace 11"
 msgstr "Премешта прозор на радни простор број 11"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:236
 msgid "Move window to workspace 12"
 msgstr "Премешта прозор на радни простор број 12"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:240
 msgid "Move window to last workspace"
 msgstr "Премешта прозор на последњи радни простор"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:244
 msgid "Move window one workspace to the left"
 msgstr "Премешта прозор један радни простор улево"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:248
 msgid "Move window one workspace to the right"
 msgstr "Премешта прозор један радни простор удесно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:252
 msgid "Move window one workspace up"
 msgstr "Премешта прозор један радни простор на горе"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:256
 msgid "Move window one workspace down"
 msgstr "Премешта прозор један радни простор на доле"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:260
 msgid "Move window to the next monitor on the left"
 msgstr "Премешта прозор на следећи монитор на лево"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:264
 msgid "Move window to the next monitor on the right"
 msgstr "Премешта прозор на следећи монитор на десно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:268
 msgid "Move window to the next monitor above"
 msgstr "Премешта прозор на следећи монитор изнад"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:272
 msgid "Move window to the next monitor below"
 msgstr "Премешта прозор на следећи монитор испод"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:276
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Издиже прозор уколико га други прозор заклања, у противном га спушта"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:280
 msgid "Raise window above other windows"
 msgstr "Издиже прозор изнад осталих прозора"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:284
 msgid "Lower window below other windows"
 msgstr "Спушта прозор испод осталих прозора"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:288
 msgid "Maximize window vertically"
 msgstr "Увећава прозор усправно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:292
 msgid "Maximize window horizontally"
 msgstr "Увећава прозор водоравно"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:296
 msgid "Move window to top left corner"
 msgstr "Премешта прозор у горњи леви ћошак"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:300
 msgid "Move window to top right corner"
 msgstr "Премешта прозор у горњи десни ћошак"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:304
 msgid "Move window to bottom left corner"
 msgstr "Премешта прозор у доњи леви ћошак"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:308
 msgid "Move window to bottom right corner"
 msgstr "Премешта прозор у доњи десни ћошак"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:312
 msgid "Move window to top edge of screen"
 msgstr "Премешта прозор на горњу ивицу екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:316
 msgid "Move window to bottom edge of screen"
 msgstr "Премешта прозор на доњу ивицу екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:320
 msgid "Move window to right side of screen"
 msgstr "Премешта прозор уз десну ивицу екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:324
 msgid "Move window to left side of screen"
 msgstr "Премешта прозор уз леву ивицу екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:328
 msgid "Move window to center of screen"
 msgstr "Премешта прозор на средину екрана"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:336
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:332
 msgid "Switch input source"
 msgstr "Промена извора улаза"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:333
 msgid "Binding to select the next input source"
 msgstr "Пречица за избор следећег извора улаза"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:341
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:337
 msgid "Switch input source backward"
 msgstr "Пребацивање извора улаза уназад"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:338
 msgid "Binding to select the previous input source"
 msgstr "Пречица за избор претходног извора улаза"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:346
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:342
 msgid "Toggle window to be always on top"
 msgstr "Пребацује приказивање прозора да буде увек на врху"
 
-#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:347
+#: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:343
 msgid "Set or unset window to appear always on top"
 msgstr "Подешава или расподешава приказивање прозора увек на врху"
 
@@ -3134,12 +3314,12 @@ msgstr "Како нови прозор добија фокус"
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
-"mode, and “strict” results in windows started from a terminal not being "
-"given focus."
+"mode, and “strict” results in new windows not being given focus "
+"automatically."
 msgstr ""
-"Ова опција пружа додатну контролу над начином на који нови прозори улазе у "
-"фокус. Има две могуће вредности: „smart“ — поставља нормални режим фокуса и "
-"„strict“ — када прозори покренути из командне линије не улазе у фокус."
+"Ова опција пружа додатну контролу начина добијања фокуса за нове прозоре. "
+"Има две могуће вредности: „smart“ (паметно) која поставља уобичајени режим "
+"фокуса и „strict“ (стриктно) која не даје аутоматски фокус новим прозорима."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
@@ -3169,76 +3349,70 @@ msgstr "Радња за дупли клик на траку наслова"
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Ова могућност одређује ефекат дуплог клика на насловну траку прозора. "
-"Тренутне исправне опције су: „toggle-shade“ — што ће замотати/одмотати "
-"прозор, „toggle-maximize“ — што ће увећати или поништити увећање прозора, "
-"„toggle-maximize-horizontally“ и „toggle-maximize-vertically“ — што ће "
-"увећати или поништити увећање прозора само хоризонтално или усправно, "
-"„minimize“ — што ће умањити прозор, „shade“ — што ће замотати прозор, „menu“ "
-"— што ће приказати изборник прозора, „lower“ — што ће поставити прозор иза "
-"осталих и „none“ — чиме се не обавља никаква радња."
+"Ова могућност одређује шта се дешава на двоструки клик у насловној траци "
+"прозора. Тренутне опције су: „toggle-maximize“ (увећавање) која увећава или "
+"смањује прозор, „toggle-maximize-horizontally“ (положено увећавање) и "
+"„toggle-maximize-vertically“ (усправно увећавање) које повећавају или "
+"смањују прозор само по једној оси,  „minimize“ (умањи) која смањује прозор, "
+"„menu“ (мени) која приказује мени прозора, „lower“ (спусти) која ће спустити "
+"прозор испод осталих и „none“ (ништа) која занемарује радње двоструког клика."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:108
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Радња за средњи клик на траку наслова"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:109
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Ова могућност одређује дејство средњег клика на насловну линију прозора. "
-"Тренутно исправне опције су: „toggle-shade“ — што ће замотати/одмотати "
-"прозор, „toggle-maximize“ — што ће увећати или поништити увећање прозора, "
-"„toggle-maximize-horizontally“ и „toggle-maximize-vertically“ — што ће "
-"увећати или поништити увећање прозора само хоризонтално или усправно, "
-"„minimize“ — што ће умањити прозор, „shade“ — што ће замотати прозор, „menu“ "
-"— што ће приказати изборник прозора, „lower“ — што ће поставити прозор иза "
-"осталих и „none“ — чиме се не обавља никаква радња."
+"Ова могућност одређује шта се дешава на средњи клик у насловној траци "
+"прозора. Тренутне опције су: „toggle-maximize“ (увећавање) која увећава или "
+"смањује прозор, „toggle-maximize-horizontally“ (положено увећавање) и "
+"„toggle-maximize-vertically“ (усправно увећавање) које повећавају или "
+"смањују прозор само по једној оси,  „minimize“ (умањи) која смањује прозор, "
+"„menu“ (мени) која приказује мени прозора, „lower“ (спусти) која ће спустити "
+"прозор испод осталих и „none“ (ништа) која занемарује радње средњег клика."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:134
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Радња за десни клик на траку наслова"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:135
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
-"Current valid options are “toggle-shade”, which will shade/unshade the "
-"window, “toggle-maximize” which will maximize/unmaximize the window, “toggle-"
-"maximize-horizontally” and “toggle-maximize-vertically” which will maximize/"
-"unmaximize the window in that direction only, “minimize” which will minimize "
-"the window, “shade” which will roll the window up, “menu” which will display "
-"the window menu, “lower” which will put the window behind all the others, "
-"and “none” which will not do anything."
+"Current valid options are “toggle-maximize” which will maximize/unmaximize "
+"the window, “toggle-maximize-horizontally” and “toggle-maximize-vertically” "
+"which will maximize/unmaximize the window in that direction only, “minimize” "
+"which will minimize the window, “menu” which will display the window menu, "
+"“lower” which will put the window behind all the others, and “none” which "
+"will not do anything."
 msgstr ""
-"Ова могућност одређује дејство десног клика на насловну линију прозора. "
-"Тренутно исправне опције су: „toggle-shade“ — што ће замотати/одмотати "
-"прозор, „toggle-maximize“ — што ће увећати или поништити увећање прозора, "
-"„toggle-maximize-horizontally“ и „toggle-maximize-vertically“ — што ће "
-"увећати или поништити увећање прозора само хоризонтално или усправно, "
-"„minimize“ — што ће умањити прозор, „shade“ — што ће замотати прозор, „menu“ "
-"— што ће приказати мени прозора, „lower“ — што ће поставити прозор иза "
-"осталих и „none“ — чиме се не обавља никаква радња."
+"Ова могућност одређује шта се дешава на десни клик у насловној траци "
+"прозора. Тренутне опције су: „toggle-maximize“ (увећавање) која увећава или "
+"смањује прозор, „toggle-maximize-horizontally“ (положено увећавање) и "
+"„toggle-maximize-vertically“ (усправно увећавање) које повећавају или "
+"смањују прозор само по једној оси,  „minimize“ (умањи) која смањује прозор, "
+"„menu“ (мени) која приказује мени прозора, „lower“ (спусти) која ће спустити "
+"прозор испод осталих и „none“ (ништа) која занемарује радње десног клика."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:159
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Сам подиже прозор са фокусом"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:160
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
@@ -3250,11 +3424,11 @@ msgstr ""
 "(који је подешен преко „auto-raise-delay“ кључа). Ово није повезано са "
 "подизањем прозора на клик, нити са фокусирањем у току превуци-и-испусти."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:170
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
 msgstr "Застој у милисекундама за аутоматско подизање прозора"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:164
 msgid ""
 "The time delay before raising a window if auto-raise is set to true. The "
 "delay is given in thousandths of a second."
@@ -3262,11 +3436,11 @@ msgstr ""
 "Временски период пре подизања прозора ако је опција „auto-raise“ изабрана. "
 "Период се изражава у хиљадитим деловима секунде."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:178
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:171
 msgid "Current theme"
 msgstr "Тренутна тема"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:179
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
@@ -3274,11 +3448,11 @@ msgstr ""
 "Тема утврђује изглед ивица прозора, насловне траке и свега осталог. "
 "ЗАСТАРЕЛО: Овај кључ је застарео и занемарен."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:188
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr "Користи стандардни системски словни лик за наслов прозора"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
@@ -3286,11 +3460,11 @@ msgstr ""
 "Ако је изабрано, занемарује се опција „titlebar-font“, и метасити ће "
 "користити стандардни словни лик програма за наслов прозора."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:196
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
 msgstr "Словни лик наслова прозора"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:197
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
 "A font description string describing a font for window titlebars. The size "
 "from the description will only be used if the titlebar-font-size option is "
@@ -3302,11 +3476,11 @@ msgstr ""
 "0. Такође, ова опција је искључена ако је опција „titlebar-uses-desktop-"
 "font“ постављена на тачно."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:207
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:200
 msgid "Number of workspaces"
 msgstr "Број радних простора"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:208
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:201
 msgid ""
 "Number of workspaces. Must be more than zero, and has a fixed maximum to "
 "prevent making the desktop unusable by accidentally asking for too many "
@@ -3316,11 +3490,11 @@ msgstr ""
 "бисте спречили да случајно уништите радну површину тражећи превише радних "
 "простора."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:216
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:209
 msgid "System Bell is Audible"
 msgstr "Системско звонце се чује"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:217
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
@@ -3328,11 +3502,11 @@ msgstr ""
 "Одређује да ли програми или систем могу да пусте звучне сигнале; може се "
 "користити уз „визуелне звуке“ ради дозвољавања тихих звукова."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:225
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "Омогућује визуелне звуке"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:226
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
@@ -3341,11 +3515,11 @@ msgstr ""
 "Укључује визуелни приказ када програм или систем „зазвони“; корисно у бучним "
 "условима."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:235
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
 msgstr "Врста визелног звонца"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:236
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3363,12 +3537,12 @@ msgstr ""
 "„системским звонцетом“), трепереће насловна трака прозора који је тренутно у "
 "жижи."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:257
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
 msgstr ""
 "Искључује лоше могућности које су затражили стари или оштећени програми"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:260
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
 "Some applications disregard specifications in ways that result in window "
 "manager misfeatures. This option puts the WM in a rigorously correct mode, "
@@ -3380,11 +3554,11 @@ msgstr ""
 "строги режим рада који доприноси правилнијем понашању, под условом да се не "
 "покушава покретање неисправних програма."
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:270
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
 msgstr "Називи радних простора"
 
-#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:271
+#: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:264
 msgid ""
 "Defines the names that should be assigned to workspaces. If the list is too "
 "long for the current number of workspaces, names in excess will be ignored. "
@@ -3623,6 +3797,9 @@ msgid ""
 msgstr ""
 "Порт на рачунару одређен у „/system/proxy/socks/host“ кроз који посредујете."
 
+#~ msgid "Toggle shaded state"
+#~ msgstr "Искључује/укључује стање засенчености"
+
 #~ msgid "This key is not used, and should not be read or modified."
 #~ msgstr "Овај кључ се не користи, и не би га требало читати или мењати."
 
@@ -3636,9 +3813,9 @@ msgstr ""
 #~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
 #~ "\"edge-scrolling\", \"two-finger-scrolling\"."
 #~ msgstr ""
-#~ "Изаберите начин клизања додирне табле. Подржане вредности су: "
-#~ "„disabled“ (искључено), „edge-scrolling“ (премицање ивицом), „two-finger-"
-#~ "scrolling“ (премицање са два прста)."
+#~ "Изаберите начин клизања додирне табле. Подржане вредности су: „disabled“ "
+#~ "(искључено), „edge-scrolling“ (премицање ивицом), „two-finger-scrolling“ "
+#~ "(премицање са два прста)."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
