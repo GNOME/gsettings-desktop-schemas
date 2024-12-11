@@ -1,5 +1,13 @@
+include:
+  - component: gitlab.gnome.org/GNOME/citemplates/release-service@master
+    inputs:
+      job-stage: "deploy"
+      dist-job-name: "build-fedora"
+      tarball-artifact-path: "build/meson-dist/$CI_PROJECT_NAME-$CI_COMMIT_TAG.tar.xz"
+
 stages:
 - test
+- deploy
 
 variables:
   DEPENDENCIES:
@@ -8,6 +16,8 @@ variables:
     meson
     glib2-devel
     gobject-introspection-devel
+    gettext
+    git
 
 build-fedora:
   image: fedora:latest
@@ -15,5 +25,10 @@ build-fedora:
   before_script:
     - dnf install -y $DEPENDENCIES
   script:
-    - meson _build
-    - ninja -C _build install
+    - meson setup build
+    - meson compile -C build
+    - meson dist -C build
+  artifacts:
+    expose_as: 'Tarball'
+    paths:
+      - build/meson-dist/
