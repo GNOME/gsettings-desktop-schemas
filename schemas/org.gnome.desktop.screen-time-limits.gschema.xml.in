@@ -5,11 +5,17 @@
 -->
 <schemalist gettext-domain="gsettings-desktop-schemas">
   <schema id="org.gnome.desktop.screen-time-limits" path="/org/gnome/desktop/screen-time-limits/">
-    <key name="enabled" type="b">
-      <summary>Enable screen time</summary>
+    <key name="history-enabled" type="b">
+      <summary>Enable screen time history</summary>
       <description>
-        Enable overall screen time functionality.
+        Enable basic screen time functionality, recording usage data for viewing history.
       </description>
+      <default>false</default>
+    </key>
+
+    <key name="daily-limit-enabled" type="b">
+      <summary>Enable daily screen time limit</summary>
+      <description>Enable imposing a screen time limit on the user, as set in daily-limit-seconds.</description>
       <default>false</default>
     </key>
 
