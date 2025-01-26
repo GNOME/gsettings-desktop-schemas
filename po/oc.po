@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-02-19 13:18+0000\n"
-"PO-Revision-Date: 2024-02-23 08:02+0100\n"
+"POT-Creation-Date: 2025-01-26 20:33+0000\n"
+"PO-Revision-Date: 2025-01-26 22:25+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Launchpad-Export-Date: 2016-04-19 19:12+0000\n"
 "X-Project-Style: gnome\n"
 
@@ -287,7 +287,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:26
 msgid "Focus Tracking Mode"
-msgstr "Mòde de seguiment del focus"
+msgstr "Mòde de seguiment del fòcus"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:27
 msgid ""
@@ -300,14 +300,14 @@ msgid ""
 "focus on screen • push: when the magnified focus intersects a boundary of "
 "the zoom region, the contents are scrolled into view"
 msgstr ""
-"Determina la posicion del component qu'a lo focus a l'interior de la region "
+"Determina la posicion del component qu'a lo fòcus a l'interior de la region "
 "agrandida. Las valors son : • « none » (pas cap) : pas cap de seguiment de "
-"la mirga • « centered » (centrat) : l'imatge del component qu'a lo focus es "
+"la mirga • « centered » (centrat) : l'imatge del component qu'a lo fòcus es "
 "afichat al centre de la region d'agrandiment (que representa tanben lo punt "
 "jol focus del sistèma) e lo contengut agrandit desfila quand lo focus del "
 "sistèma bolega • « proportional » (proporcional) : la posicion del focus "
 "agrandit dins la region agrandida es proporcionalament identica a la "
-"posicion del focus sistèma sus l'ecran • « push » (quichar) : quand lo focus "
+"posicion del fòcus sistèma sus l'ecran • « push » (quichar) : quand lo fòcus "
 "agrandit atenh un bòrd de la region agrandida, lo contengut desfila dins la "
 "region"
 
@@ -838,6 +838,111 @@ msgstr ""
 "Se definit a true, alara lo gestionari de fichièrs dessenha las icònas sul "
 "burèu."
 
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Temps entre las pausas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+#, fuzzy
+#| msgid "Delay between repeats in milliseconds."
+msgid "The time between rest breaks, in seconds."
+msgstr "Relambi entre las repeticions en millisegondas."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Durada de cada pausa"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Passir l’ecran pendent las pausas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Verrolhar l’ecran pendent las pausas"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr ""
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
 msgstr "Afichar lo numèro de las setmanas dins lo calendièr"
@@ -943,10 +1048,6 @@ msgstr "Font d'entrada actuala"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:8
 #, fuzzy
-#| msgid ""
-#| "The zero-based index into the input sources list specifying the current "
-#| "one in effect. The value is automatically capped to remain in the range "
-#| "[0, sources_length) as long as the sources list isn't empty."
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
@@ -954,9 +1055,9 @@ msgid ""
 "key is deprecated and ignored."
 msgstr ""
 "L'indici, començant a zèro, dins la lista de las fonts d'entrada spécifiant "
-"celle actualament en action. La valor es automaticament limitada per rester "
+"celle actualament en acion. La valor es automaticament limitada per demorar "
 "dins l'interval [0, sources_length) tant que la lista de las fonts es pas "
-"vide."
+"voida. "
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:19
 msgid "List of input sources"
@@ -1051,7 +1152,7 @@ msgid ""
 "when activated."
 msgstr ""
 "Se activat, las fonts d'entrada son atribuidas a la fenèstra que possedís "
-"actualament lo focus quand son activadas."
+"actualament lo fòcus quand son activadas."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:6
 msgid "Enable Toolkit Accessibility"
@@ -1187,11 +1288,11 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:109
 msgid "Default font"
-msgstr "Poliça per defaut"
+msgstr "Polissa per defaut"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:110
 msgid "Name of the default font used by gtk+."
-msgstr "Nom de la poliça per defaut utilizada per GTK+."
+msgstr "Nom de la polissa per defaut utilizada per GTK+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:116
 msgid "Directories with avatar faces"
@@ -1212,7 +1313,7 @@ msgid ""
 "Factor used to enlarge or reduce text display, without changing font size."
 msgstr ""
 "Factor utilizat per agrandir o reduire l'afichatge del tèxte, sens cambiar "
-"la talha de la poliça."
+"la talha de la polissa."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:131
 msgid "Window scaling factor"
@@ -1254,22 +1355,22 @@ msgstr "Nom del modul de metòde de picada utilizat per GTK+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:160
 msgid "Document font"
-msgstr "Poliça del document"
+msgstr "Polissa del document"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:161
 msgid "Name of the default font used for reading documents."
-msgstr "Nom de la poliça per defaut utilizada per legir los documents."
+msgstr "Nom de la polissa per defaut utilizada per legir los documents."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:167
 msgid "Monospace font"
-msgstr "Poliça pas proporcionala"
+msgstr "Polissa pas proporcionala"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:168
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
-"Nom d'una poliça pas proporcionala (largor fixa) d'utilizar a d'endreits tal "
-"coma de terminals."
+"Nom d'una polissa pas proporcionala (largor fixa) d'utilizar a d'endreits "
+"tal coma de terminals."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:175
 msgid "Menubar accelerator"
@@ -1442,7 +1543,7 @@ msgid ""
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
 "and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
-"Lo tipe d'anticrenelatge utilizat pel rendut de las poliças. Las valors "
+"Lo tipe d'anticrenelatge utilizat pel rendut de las polissas. Las valors "
 "possiblas son : « none » per cap d'anticrenelatge, « grayscale » per "
 "l'anticrenelatge classic per nivèls de gris e « rgba » per l'anticrenelatge "
 "per sospixèls (ecrans LCD unicament)."
@@ -1464,17 +1565,18 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
-"Tipe d'optimizacion utilizat pel rendut de las poliças. Las valors possiblas "
-"son : « none » per cap d'optimizacion, « slight » per adaptar unicament "
-"segon l'axe Y coma o fan los motors proprietaris de rendut de poliças "
-"ClearTipe de Microsoft, DirectWrite e los d'Adobe. Ignòra l'optimizacion "
-"nativa dins la poliça, genèra l'optimizacion de faiçon algoritmica. Utilizat "
-"per defaut en çò d'Ubuntu. Recomandat. La significacion de las valors « "
-"medium » e « full » depend del format de poliça (.ttf, .otf, .pfa/.pfb) e de "
-"la version installada de FreeType. Ensajan generalament d'adaptar los "
-"caractèrs en foncion dels axes X e Y (levat per .otf : axe Y solament). Aquò "
-"pòt causar de distorsions o un rendut incoerent en foncion de la qualitat de "
-"la poliça, de son format e de l'estat dels motors de police FreeType."
+"Tipe d'optimizacion utilizat pel rendut de las polissas. Las valors "
+"possiblas son : « none » per cap d'optimizacion, « slight » per adaptar "
+"unicament segon l'axe Y coma o fan los motors proprietaris de rendut de "
+"polissas ClearTipe de Microsoft, DirectWrite e los d'Adobe. Ignòra "
+"l'optimizacion nativa dins la polissa, genèra l'optimizacion de faiçon "
+"algoritmica. Utilizat per defaut en çò d'Ubuntu. Recomandat. La "
+"significacion de las valors « medium » e « full » depend del format de "
+"polissa (.ttf, .otf, .pfa/.pfb) e de la version installada de FreeType. "
+"Ensajan generalament d'adaptar los caractèrs en foncion dels axes X e Y "
+"(levat per .otf : axe Y solament). Aquò pòt causar de distorsions o un "
+"rendut incoerent en foncion de la qualitat de la polissa, de son format e de "
+"l'estat dels motors de police FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
@@ -1499,6 +1601,30 @@ msgstr "Jòc de colors"
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
+msgstr ""
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr ""
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Color afortida"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are \"blue"
+"\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple"
+"\", \"slate\"."
 msgstr ""
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
@@ -1908,8 +2034,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Perfil d’acceleracion"
 
@@ -1926,7 +2052,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Velocitat del puntador"
 
@@ -1966,13 +2092,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Activar los clics per manteniment"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2143,59 +2269,75 @@ msgstr ""
 "aplicada a l'estilet."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#, fuzzy
+#| msgid "Stylus pressure curve"
+msgid "Stylus pressure range"
+msgstr "Corba de pression de l'estilet"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Corba de pression de la goma"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression "
 "aplicada a la goma."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#, fuzzy
+#| msgid "Eraser pressure curve"
+msgid "Eraser pressure range"
+msgstr "Corba de pression de la goma"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
 msgid "Button action"
 msgstr "Accion del boton"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Clic-doble boton segondari"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Accion del tresen boton"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Tipe d’accion del boton del clavièr"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Lo tipe d'accion desenclavat quand lo boton es quichat."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#, fuzzy
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the primary button"
 msgstr "Combinason de tòcas per l'accion personalizada"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2203,11 +2345,35 @@ msgstr ""
 "L'acorchi de clavièr generat quand lo boton es quichat per d'accions "
 "personalizadas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#, fuzzy
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the secondary button"
+msgstr "Combinason de tòcas per l'accion personalizada"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#, fuzzy
+#| msgid "Key combination for the custom action"
+msgid "Key combination for the tertiary button"
+msgstr "Combinason de tòcas per l'accion personalizada"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Tipe d’accion del boton del clavièr"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Lo tipe d'accion desenclavat quand lo boton es quichat."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Combinason de tòcas per l'accion personalizada"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Ligason d’entrada de l’ecran tactil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 #, fuzzy
 #| msgid ""
 #| "EDID information of the monitor the touchscreen is mapped to. Must be in "
@@ -2221,13 +2387,13 @@ msgstr ""
 "respectar lo format [vendor (nom del provesidor), product (nom del produit), "
 "serial (seria)]. [\"\",\"\",\"\"] desactiva aquesta mesa en correspondéncia."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Boton d'emulacion de la rodeta de la mirga. 0 per desactivar aquesta "
 "foncionalitat."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 #, fuzzy
 #| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
@@ -2235,14 +2401,14 @@ msgstr ""
 "Boton d'emulacion de la rodeta de la mirga. 0 per desactivar aquesta "
 "foncionalitat."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2252,7 +2418,7 @@ msgid ""
 "support the configured profile, “default” will be used."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 #, fuzzy
 #| msgid ""
 #| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
@@ -2265,7 +2431,7 @@ msgstr ""
 "dins l'interval [-1..1] (de « unaccelerated » (lent) a « fast ») (rapid). 0 "
 "es la valor per defaut del sistèma."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2275,11 +2441,11 @@ msgid ""
 "doesn’t support the configured profile, “default” will be used."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Metòde de defilament"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2301,12 +2467,12 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:12
 msgid "Show full name in the user menu"
-msgstr "Afichar lo nom complet dins lo menú utilizaire"
+msgstr "Afichar lo nom complèt dins lo menú utilizaire"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:13
 msgid "Whether the users full name is shown in the user menu or not."
 msgstr ""
-"Indica se lo nom complet dels utilizaires es afichat dins lo menú utilizaire "
+"Indica se lo nom complèt dels utilizaires es afichat dins lo menú utilizaire "
 "o pas."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:17
@@ -2496,14 +2662,14 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
 msgid "Show full name in the lock screen"
-msgstr "Afichar lo nom complet dins l'ecran verrolhat"
+msgstr "Afichar lo nom complèt dins l'ecran verrolhat"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Indica se lo nom complet es afichat quand l'ecran es verrolhat. Aquò afècta "
+"Indica se lo nom complèt es afichat quand l'ecran es verrolhat. Aquò afècta "
 "pas que l'ecran de verrolhatge, lo nom es totjorn afichat dins la bóstia de "
 "dialòg de desverrolhatge."
 
@@ -2923,7 +3089,7 @@ msgstr "Activar lo menú de la fenèstra"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:152
 msgid "Toggle fullscreen mode"
-msgstr "Activar o desactivar lo mòde ecran complet"
+msgstr "Activar o desactivar lo mòde ecran complèt"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:156
 msgid "Toggle maximization state"
@@ -3193,7 +3359,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:43
 msgid "Window focus mode"
-msgstr "Mòde de focus de las fenèstras"
+msgstr "Mòde de fòcus de las fenèstras"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:44
 msgid ""
@@ -3203,9 +3369,9 @@ msgid ""
 "and “mouse” means windows are focused when the mouse enters the window and "
 "unfocused when the mouse leaves the window."
 msgstr ""
-"Lo mòde de focus de la fenèstra indica lo biais que las fenèstras son "
+"Lo mòde de fòcus de la fenèstra indica lo biais que las fenèstras son "
 "activadas. Presenta tres valors possiblas ; « click » significa que vos cal "
-"clicar sus las fenèstras per las activar,  « sloppy » (« rajat ») significa "
+"clicar sus las fenèstras per las activar, « sloppy » (« rajat ») significa "
 "que las fenèstras son activadas quand la mirga s'i plaça e "
 "« mouse » (« mirga »), significa que las fenèstras son activadas quand la "
 "mirga s'i plaça e desactivadas quand las quita."
@@ -3413,19 +3579,19 @@ msgstr ""
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
 msgstr ""
-"Utilizar la poliça estandarda del sistèma dins los títols de las fenèstras"
+"Utilizar la polissa estandarda del sistèma dins los títols de las fenèstras"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:182
 msgid ""
 "If true, ignore the titlebar-font option, and use the standard application "
 "font for window titles."
 msgstr ""
-"Se true, ignorar l'opcion « titlebar-font » e utilizar la poliça estandarda "
+"Se true, ignorar l'opcion « titlebar-font » e utilizar la polissa estandarda "
 "de l'aplicacion pels títols de fenèstra."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
-msgstr "Poliça de títol de las fenèstras"
+msgstr "Polissa de títol de las fenèstras"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:190
 msgid ""
@@ -3434,7 +3600,7 @@ msgid ""
 "set to 0. Also, this option is disabled if the titlebar-uses-desktop-font "
 "option is set to true."
 msgstr ""
-"Una cadena de caractèrs de description de poliça décrivant una poliça "
+"Una cadena de caractèrs de description de polissa décrivant una polissa "
 "d'utilizar per las barras de títol de las fenèstras. La talha de la "
 "descripcion serà pas utilizada que se l'opcion « titlebar-font-size » es "
 "definida a 0. De plus, l'opcion es desactivada se l'opcion « titlebar-uses-"
@@ -3498,12 +3664,12 @@ msgstr ""
 "Indica au gestionnaire de fenèstras comment implementar l'indication visuala "
 "que l'eveniment sonòr del sistèma o un autre indicador « sonore » "
 "d'aplicacion es estat emés. Actualament, i a doas valors validas, « "
-"fullscreen-flash » (flash ecran complet), que provòca un cluquejament negre "
-"e blanc ecran complet e « frame-flash » (flash fenèstra) que provòca un "
+"fullscreen-flash » (flash ecran complèt), que provòca un cluquejament negre "
+"e blanc ecran complèt e « frame-flash » (flash fenèstra) que provòca un "
 "cluquejament de la barra de títol de l'aplicacion emissora.\\ Se "
-"l'aplicacion qu'a emés l'eveniment sonòr es inconnue (coma es sovent lo cas "
-"per l'eveniment sonòr sistèma per defaut), la barra títol de l'aplicacion "
-"que possedís lo focus cluqueja."
+"l'aplicacion qu'a emés l'eveniment sonòr es desconegut (coma es sovent lo "
+"cas per l'eveniment sonòr sistèma per defaut), la barra títol de "
+"l'aplicacion que possedís lo fòcus cluqueja."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
