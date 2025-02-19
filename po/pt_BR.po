@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation for gsettings-desktop-schemas
-# Copyright (C) 2024 the gsettings-desktop-schemas authors.
+# Copyright (C) 2025 the gsettings-desktop-schemas authors.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # André Gondim <In Memoriam>, 2011.
 # Contribuidores via Launchpad, 2011.
@@ -8,15 +8,15 @@
 # Enrico Nicoletto <liverig@gmail.com>, 2013-2015, 2021.
 # Leônidas Araújo <leorusvellt@hotmail.com>, 2022.
 # Matheus Barbosa <mdpb.matheus@gmail.com>, 2022.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2024.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 13:50+0000\n"
-"PO-Revision-Date: 2024-08-26 19:39-0300\n"
+"POT-Creation-Date: 2025-02-13 01:57+0000\n"
+"PO-Revision-Date: 2025-02-19 16:19-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
 "Language: pt_BR\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 46.1\n"
+"X-Generator: Gtranslator 47.1\n"
 "X-DamnedLies-Scope: partial\n"
 "X-Project-Style: gnome\n"
 "X-DL-Team: pt_BR\n"
@@ -1545,11 +1545,12 @@ msgstr ""
 "como ClearType da Microsoft, DirectWrite e mecanismo de renderização de "
 "fonte privativo da Adobe. Ignora hinting nativo dentro da fonte, gera "
 "hinting algoritmicamente. Usado no Ubuntu por padrão. Recomendado. O "
-"significado de “medium” e “full” depende do formato da fonte (.ttf, .otf, ."
-"pfa/.pfb) e da versão instalada do FreeType. Eles geralmente tentam ajustar "
-"os glifos aos eixos X e Y (exceto para .otf: somente Y). Isso pode levar à "
-"distorção e/ou renderização inconsistente, dependendo da qualidade da fonte, "
-"do formato da fonte e do estado dos mecanismos de fonte do FreeType."
+"significado de “medium” e “full” depende do formato da fonte "
+"(.ttf, .otf, .pfa/.pfb) e da versão instalada do FreeType. Eles geralmente "
+"tentam ajustar os glifos aos eixos X e Y (exceto para .otf: somente Y). Isso "
+"pode levar à distorção e/ou renderização inconsistente, dependendo da "
+"qualidade da fonte, do formato da fonte e do estado dos mecanismos de fonte "
+"do FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
@@ -1668,7 +1669,7 @@ msgstr "Desabilitar a troca de usuários"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Evita que o usuário alterne para outra conta de usuário enquanto sua sessão "
@@ -1679,8 +1680,8 @@ msgid "Disable lock screen"
 msgstr "Desabilitar bloqueio de tela"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
-msgstr "Evita que o usuário bloqueie sua tela."
+msgid "Prevent the user from locking their screen."
+msgstr "Evita que o usuário faça o bloqueio de sua tela."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -2633,13 +2634,14 @@ msgstr "Ativar quando ocioso"
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Defina como VERDADEIRO para ativar a proteção de tela quando a sessão "
-"estiver ociosa. OBSOLETA: Esta chave está obsoleta e é ignorada. Defina org."
-"gnome.desktop.session idle-delay com 0, se você não deseja ativar a proteção "
-"de tela."
+"estiver ociosa. OBSOLETA: Esta chave está obsoleta e é ignorada. Defina "
+"org.gnome.desktop.session idle-delay com 0, se você não deseja ativar a "
+"proteção de tela."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
 msgid "Lock on activation"
@@ -2775,6 +2777,13 @@ msgid ""
 msgstr ""
 "Permite que a mensagem de estado da sessão seja mostrada quando a tela "
 "estiver bloqueada. OBSOLETA: Está chave está obsoleta e é ignorada."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"O limite na quantidade diária de tempo de tela que o usuário é permitido, em "
+"segundos."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -3720,9 +3729,9 @@ msgid ""
 msgstr ""
 "Esta chave contém uma lista de máquinas que são conectadas diretamente, "
 "invés de via proxy (se estiver ativo). Os valores podem ser nomes de "
-"máquina, domínios (usando um caractere curinga inicial tal como em *.foo."
-"com), endereços IP (IPv4 ou IPv6) e endereços de rede com uma máscara (algo "
-"como 192.168.0.0/24)."
+"máquina, domínios (usando um caractere curinga inicial tal como em "
+"*.foo.com), endereços IP (IPv4 ou IPv6) e endereços de rede com uma máscara "
+"(algo como 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 msgid "Use HTTP proxy for all protocols"
