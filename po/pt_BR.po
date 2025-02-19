@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-02-13 01:57+0000\n"
-"PO-Revision-Date: 2025-02-19 16:19-0300\n"
+"POT-Creation-Date: 2025-02-19 19:29+0000\n"
+"PO-Revision-Date: 2025-02-19 16:36-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
 "Language: pt_BR\n"
@@ -1520,7 +1520,7 @@ msgid ""
 "and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
 "O tipo de suavização a ser usado ao renderizar fontes. Os valores possíveis "
-"são: “none” para sem suavização, “grayscale” para suavização de tons de "
+"são: “none” para sem suavização, “grayscale” para suavização de escalas de "
 "cinza padrão e “rgba” para suavização de subpixel (somente telas LCD)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:286
@@ -2778,12 +2778,52 @@ msgstr ""
 "Permite que a mensagem de estado da sessão seja mostrada quando a tela "
 "estiver bloqueada. OBSOLETA: Está chave está obsoleta e é ignorada."
 
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Habilitar histórico de tempo de tela"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Habilita a funcionalidade básica de tempo de tela, registrando os dados de "
+"uso para histórico de visualização."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Habilitar o limite diário de tempo de tela"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Habilita a imposição de um limite de tempo de tela ao usuário, como definido "
+"em dialy-limit-seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Limite diário de tempo de tela"
+
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
 msgid ""
 "The limit on the amount of daily screen time the user is allowed, in seconds."
 msgstr ""
 "O limite na quantidade diária de tempo de tela que o usuário é permitido, em "
 "segundos."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Escalas de cinza quando o limite for alcançado"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Se deve usar escalas de cinza na tela uma vez que o limite de tempo de tela "
+"do usuário seja alcançado."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
