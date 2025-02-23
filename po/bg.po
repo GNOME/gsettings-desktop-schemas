@@ -1,9 +1,9 @@
 # Bulgarian translation of gsettings-desktop-schemas po-file.
 # Copyright (C) 2013 Free Software Foundation, Inc.
-# Copyright (C) 2022 Alexander Shopov <ash@kambanaria.org>.
+# Copyright (C) 2022, 2025 Alexander Shopov <ash@kambanaria.org>.
 # Copyright (C) 2024 twlvnn kraftwerk <kraft_werk@tutanota.com>.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Alexander Shopov <ash@kambanaria.org>, 2013, 2022.
+# Alexander Shopov <ash@kambanaria.org>, 2013, 2022, 2025.
 # twlvnn kraftwerk <kraft_werk@tutanota.com>, 2024.
 #
 msgid ""
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-11-16 09:53+0000\n"
-"PO-Revision-Date: 2024-12-01 13:13+0100\n"
+"POT-Creation-Date: 2025-02-23 06:45+0000\n"
+"PO-Revision-Date: 2025-02-23 11:44+0100\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
@@ -669,8 +669,8 @@ msgid ""
 "uses the org.gnome.desktop.app-folders.folder schema."
 msgstr ""
 "Списък с относителни пътища за настройки, в които се запазват папки с "
-"конфигурации. Всяка папка ползва схемата „org.gnome.desktop.app-folders."
-"folder“."
+"конфигурации. Всяка папка ползва схемата „org.gnome.desktop.app-"
+"folders.folder“."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:15
 msgid "Folder name"
@@ -1530,9 +1530,9 @@ msgstr ""
 "не се ползват вградените в шрифта. Стандартна настройка за Ubuntu и се "
 "препоръчва. Значението на „medium“ (средни) и „full“ (пълни) зависи от "
 "форма̀та на шрифта (.ttf, .otf, .pfa/.pfb), както и на версията на FreeType. "
-"Обикновено се извършва напасване на глифите и по двете оси (с изключение на ."
-"otf: пак е само по вертикалната ос. Това може да доведе до изкривяване или "
-"различно изобразяване на знаците в зависимост от качеството на шрифта, "
+"Обикновено се извършва напасване на глифите и по двете оси (с изключение "
+"на .otf: пак е само по вертикалната ос. Това може да доведе до изкривяване "
+"или различно изобразяване на знаците в зависимост от качеството на шрифта, "
 "форматът му, както и версията на FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:293
@@ -1655,7 +1655,7 @@ msgstr "Изключване на смяната на потребител"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Предотвратяване на смяната на потребител докато първоначалната сесия работи."
@@ -1665,7 +1665,7 @@ msgid "Disable lock screen"
 msgstr "Изключване на заключването на екрана"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Предотвратяване на заключването на екрана от потребителите."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2602,8 +2602,9 @@ msgstr "Включване при бездействие"
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Включете настройката, за да може по време на бездействие да се включва "
 "програмата за защита на екрана. Този ключ е остарял и вече не се ползва. "
@@ -2743,6 +2744,50 @@ msgid ""
 msgstr ""
 "Позволяване на показването на съобщение за състоянието на сесията при "
 "заключен екран. Този ключ е остарял и вече не се ползва."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Включване на проследяването на времето пред екрана"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Включване на основната функционалност за ограничаване на времето пред "
+"екрана, като се записват данни за ползването."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Включване на ограничаване на времето пред екрана"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Включване на ограничаване на времето пред екрана за потребителя [секунди/ден]"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Позволено време на ден пред екрана за потребителя"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr "Позволено време за ползване на компютъра, в секунди на ден."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Изключване на цветовете при достигане на ограничението"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Дали екранът да премине в режим на степени на сивото при достигане на "
+"дневното ограничение на времето пред него."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -3403,7 +3448,7 @@ msgid ""
 msgstr ""
 "Тази настройка определя действието при натискането на средния бутон върху "
 "заглавната лента. Поддържат се стойностите: „toggle-maximize“ — "
-"максимизиране/демаксимизаре на прозореца, „toggle-maximize-horizontally“ и "
+"максимизиране/демаксимизиране на прозореца, „toggle-maximize-horizontally“ и "
 "„toggle-maximize-vertically“ максимизиране/демаксимизиране на прозореца "
 "хоризонтално или вертикално, „minimize“ — минимизиране на прозореца „menu“ — "
 "извеждане на менюто за прозореца, „lower“ — преместване прозореца най-отзад "
@@ -3426,7 +3471,7 @@ msgid ""
 msgstr ""
 "Тази настройка определя действието при натискането на втория бутон върху "
 "заглавната лента. Поддържат се стойностите: „toggle-maximize“ — "
-"максимизиране/демаксимизаре на прозореца, „toggle-maximize-horizontally“ и "
+"максимизиране/демаксимизиране на прозореца, „toggle-maximize-horizontally“ и "
 "„toggle-maximize-vertically“ максимизиране/демаксимизиране на прозореца "
 "хоризонтално или вертикално, „minimize“ — минимизиране на прозореца, „menu“ "
 "— извеждане на менюто за прозореца, „lower“ — преместване прозореца най-"
@@ -3470,8 +3515,8 @@ msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Темата определя изгледа на границите па прозорците, заглавната им лента и т."
-"н. Този ключ е остарял и вече не се ползва."
+"Темата определя изгледа на границите па прозорците, заглавната им лента и "
+"т.н. Този ключ е остарял и вече не се ползва."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
@@ -3691,9 +3736,9 @@ msgid ""
 msgstr ""
 "Този ключ съдържа списък с компютри, към които да се осъществява директна "
 "връзка, а не такава през сървър-посредник (ако такъв се ползва). Стойностите "
-"може да са имена на хостове, домейни (чрез начален шаблонен знак като „*.foo."
-"com“), IP адреси (както по IPv4, така и IPv6) и адреси на мрежи с маски "
-"(напр. „192.168.0.0/24“)."
+"може да са имена на хостове, домейни (чрез начален шаблонен знак като "
+"„*.foo.com“), IP адреси (както по IPv4, така и IPv6) и адреси на мрежи с "
+"маски (напр. „192.168.0.0/24“)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 msgid "Use HTTP proxy for all protocols"
