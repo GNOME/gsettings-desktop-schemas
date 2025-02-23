@@ -25,17 +25,17 @@
        </description>
     </key>
     <key name="button-layout" type="s">
-      <default>'appmenu:close'</default>
-      <summary>Arrangement of buttons on the titlebar</summary>
+      <default>':close'</default>
+      <summary>Arrangement of system window buttons</summary>
       <description>
-        Arrangement of buttons on the titlebar. The value should be a string,
-        such as  “menu:minimize,maximize,spacer,close”; the colon separates
-        the  left corner of the window from the right corner, and  the button
-        names are comma-separated. Duplicate buttons are not allowed. Unknown
-        button names are silently ignored so that buttons can be added in
-        future metacity versions  without breaking older versions. A special
-        spacer tag can be used to insert some space between
-        two adjacent buttons.
+        Default arrangement of system window buttons. The string value should
+        be of the form “:minimize,maximize,close”, where a colon separates
+        the  left and right side of the button layout, and button names are
+        comma-separated. Duplicate buttons are not allowed. Unknown button
+        names are silently ignored so that buttons can be added or removed
+        without breaking older versions.
+
+       Note: Apps might choose not to respect this 
       </description>
     </key>
     <key name="focus-mode" enum="org.gnome.desktop.GDesktopFocusMode">
