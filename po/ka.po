@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-01-11 13:21+0000\n"
-"PO-Revision-Date: 2025-01-11 14:32+0100\n"
+"POT-Creation-Date: 2025-02-19 19:23+0000\n"
+"PO-Revision-Date: 2025-02-23 07:44+0100\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
@@ -1393,7 +1393,7 @@ msgstr ""
 #. TRANSLATORS: select your locale's default clock format, this should be '12h' or '24h' (with the quotes!)
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:212
 msgid "'24h'"
-msgstr "'24h'"
+msgstr "'24სთ'"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:213
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:214
@@ -1643,7 +1643,7 @@ msgstr "მომხმარებლების გადართვის �
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "მომხმარებლისთვის სხვა ანგარიშზე გადართვის აკრძალვა, სანამ მისი სესია "
@@ -1654,7 +1654,7 @@ msgid "Disable lock screen"
 msgstr "ეკრანის დაბლოკვის გამორთვა"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "მომხმარებლისთვის მისი ეკრანის დაბლოკვის აკრძალვა."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2740,27 +2740,41 @@ msgstr ""
 "მოძველებულია: ეს პარამეტრი მოძველებული და გამოტოვებულია."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
-msgid "Enable screen time"
-msgstr "ეკრანის დროის ჩართვა"
+msgid "Enable screen time history"
+msgstr "ეკრანის დროის ისტორიის ჩართვა"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
-msgid "Enable overall screen time functionality."
-msgstr "ეკრანის საერთო დროის ფუნქციონალის ჩართვა."
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"საბაზისო ეკრანის დროის ფუნქციონალის ჩართვა. გამოყენების ჩაწერა ნახვის "
+"ისტორიისთვის."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "ეკრანის ყოველდღიური დროის ლიმიტის ჩართვა"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr "მომხმარებელზე ეკრანის დროის შეზღუდვის დაწესება დღეში-წამებით."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
 msgstr "ეკრანის ყოველდღიური დროის ლიმიტი"
 
-#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
 msgid ""
 "The limit on the amount of daily screen time the user is allowed, in seconds."
 msgstr "ზღვარი, რამდენი ხანი აქვს მომხმარებელს ეკრანის დრო დღეში. წამები."
 
-#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
 msgid "Grayscale once limit is reached"
 msgstr "ნაცრისფერი ტონებით, როცა ლიმიტი მიღწეულია"
 
-#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:25
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
 msgid ""
 "Whether to make the screen grayscale once the user’s screen time limit is "
 "reached."
@@ -3838,6 +3852,9 @@ msgid ""
 msgstr ""
 "პორტი მანქანაზე, რომელიც აღწერილია \"/system/proxy/socks/host\"-ის მიერ, "
 "რომელიც თქვენს პროქსიზე მიუთითებს."
+
+#~ msgid "Enable overall screen time functionality."
+#~ msgstr "ეკრანის საერთო დროის ფუნქციონალის ჩართვა."
 
 #~ msgid "'12h'"
 #~ msgstr "'12h'"
