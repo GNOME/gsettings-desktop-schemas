@@ -1,22 +1,22 @@
 # Persian translation for gsettings-desktop-schemas.
 # Copyright (C) 2023 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Danial Behzadi <dani.behzi@ubuntu.com>, 2023.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2023-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/"
 "issues/\n"
-"POT-Creation-Date: 2024-09-10 17:24+0000\n"
-"PO-Revision-Date: 2024-11-04 13:13+0330\n"
+"POT-Creation-Date: 2025-02-19 19:23+0000\n"
+"PO-Revision-Date: 2025-02-24 23:57+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 "X-DamnedLies-Scope: partial\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -889,8 +889,8 @@ msgid ""
 "Terminal program to use when starting applications that require one. DEPRECATED: "
 "This key is deprecated and ignored. The default terminal is handled in GIO."
 msgstr ""
-"برنامهٔ پایانه برای استفاده هنگام آغاز برنامه‌هایی که به پایانه نیاز دارند. منقضی:‌"
-"ین کلید منقضی شده و چشم‌پوشی می‌شود."
+"برنامهٔ پایانه برای استفاده هنگام آغاز برنامه‌هایی که به پایانه نیاز دارند. "
+"منقضی:‌ین کلید منقضی شده و چشم‌پوشی می‌شود."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:63
 msgid "Exec Arguments"
@@ -1360,11 +1360,11 @@ msgid ""
 msgstr ""
 "گونهٔ سرنخ دهی مورد استفاده هنگام پرداخت قلم‌ها. مقدارهای ممکن: none برای بدون "
 "سرنخ دهی و slight برای برازش فقط به بردار Y مثل ClearType مایکروسافت، "
-"DirectWrite و موتور پرداخت قلم مالکیتی ادوبی. چشم‌پوشی از سرنخ دهی بومی درون قلم،‌"
-"ایجاد سرنخ دهی به صورت خوارزمینه‌ای. استفاده شده به صورت پیش‌گزیده روی اوبونتو. "
-"توصیه شده. معنی medium و full بسته به قالب قلم (‪.ttf‬ ‪.otf‬ ‪.pfa/.pfb‬) و نگارش "
-"FreeType نصب شده متفاوت است. معمولاً تلاش می‌کنند گلیف‌ها را به هر دو بردار X و Y "
-"برازش کنند (جز برای ‪.otf‬: فقط Y). این کار می‌تواند بسته به کیفیت قلم، قالبش و "
+"DirectWrite و موتور پرداخت قلم مالکیتی ادوبی. چشم‌پوشی از سرنخ دهی بومی درون "
+"قلم،‌ایجاد سرنخ دهی به صورت خوارزمینه‌ای. استفاده شده به صورت پیش‌گزیده روی "
+"اوبونتو. توصیه شده. معنی medium و full بسته به قالب قلم (‪.ttf‬ ‪.otf‬ ‪.pfa/.pfb‬) و "
+"نگارش FreeType نصب شده متفاوت است. معمولاً تلاش می‌کنند گلیف‌ها را به هر دو بردار X "
+"و Y برازش کنند (جز برای ‪.otf‬: فقط Y). این کار می‌تواند بسته به کیفیت قلم، قالبش و "
 "وضعیت موتورهای قلم FreeType منجر به اعوجاج و یا پرداخت متناقض شود."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:293
@@ -1470,7 +1470,7 @@ msgstr "از کار انداختن تعویض کاربر"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is active."
+"Prevent the user from switching to another account while their session is active."
 msgstr "پیشگیری از تعویض کاربر به حسابی دیگر هنگام فعّال بودن نشستش."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
@@ -1478,7 +1478,7 @@ msgid "Disable lock screen"
 msgstr "از کار انداختن صفحهٔ قفل"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "پیشگیری از قفل کردن صفحه از سوی کاربر."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2398,6 +2398,46 @@ msgid ""
 msgstr ""
 "این که پیام وضعیت نشست هنگام قفل بودن صفحهنشان داده شود یا نه. منقضی:  این کلید "
 "منقضی شده و چشم‌پوشی می‌شود."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "به کار انداختن تاریخچهٔ زمان صفحه"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing history."
+msgstr ""
+"به کار انداختن ویژگی زمان صفحهٔ پایه. ضبط کردن داده‌های استفاده برای تاریخچهٔ تماشا."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "به کار انداختن محدودیت روزانهٔ زمان صفحه"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-seconds."
+msgstr ""
+"به کار انداختن محدودیت زمان صفحه برای کاربر که در daily-limit-seconds تنظیم "
+"می‌شود."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "محدودیت روزانهٔ زمان صفحه"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr "محدودیت مقدار زمان مجاز روزانهٔ صفحه به ثانیه."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "طیف خاکستری هنگام رسیدن به محدودیت"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr "این که پس از رسیدن به محدودیت زمان صفحهٔ کاربر، صفحه خاکستری شود یا نه."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
