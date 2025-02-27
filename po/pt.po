@@ -1,20 +1,20 @@
 # gsettings-desktop-schemas's Portuguese translation.
-# Copyright © 2012-2022 gsettings-desktop-schemas
+# Copyright © 2012-2025 gsettings-desktop-schemas
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2012, 2013, 2014.
 # Tiago Santos <tiagofsantos81@sapo.pt>, 2014 - 2016.
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015.
 # Juliano de Souza Camargo <julianosc@pm.me>, 2020.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2020, 2021, 2022, 2023, 2024.
-# João Carvalhinho <joao.carvalhinho@gmail.com>, 2024.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2020, 2021, 2022, 2023, 2024, 2025.
+# João Carvalhinho <joao.carvalhinho@gmail.com>, 2024, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.12\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-09-10 17:24+0000\n"
-"PO-Revision-Date: 2024-10-29 19:43+0000\n"
+"POT-Creation-Date: 2025-02-24 14:35+0000\n"
+"PO-Revision-Date: 2025-02-27 22:16+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (https://l10n.gnome.org/teams/pt/)\n"
 "Language: pt\n"
@@ -943,7 +943,7 @@ msgstr "Atualizar o fuso horário automaticamente"
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:7
 msgid "Whether to automatically update the timezone using geolocation."
 msgstr ""
-"Se actualizar automaticamente ou não o fuso horário com base na "
+"Se atualizar automaticamente ou não o fuso horário com base na "
 "geolocalização."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:14
@@ -1515,9 +1515,9 @@ msgid ""
 "and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
 "O tipo de suavização a ser usado ao renderizar fontes. Os valores possíveis "
-"são: \"nenhum\" para não suavização, \"escala de cinza\" para suavização em "
-"escala de cinza padrão e \"rgba\" para suavização subpixel (apenas ecrãs "
-"LCD)."
+"são: \"nenhum\" para não suavização, \"escala de cinzentos\" para suavização "
+"em escala de cinzentos padrão e \"rgba\" para suavização subpixel (apenas "
+"ecrãs LCD)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:286
 msgid "Hinting"
@@ -1665,7 +1665,7 @@ msgstr "Desativar a alternância de utilizadores"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Impedir o utilizador de alternar para outra conta enquanto esta sessão "
@@ -1676,7 +1676,7 @@ msgid "Disable lock screen"
 msgstr "Desativar o bloquear de ecrã"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Impedir o utilizador de bloquear o seu ecrã."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2775,6 +2775,52 @@ msgid ""
 msgstr ""
 "Permitir que seja apresentada a mensagem de estado da sessão quando o ecrã "
 "está bloqueado. OBSOLETA: esta chave é obsoleta e ignorada."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Ativar histórico de Tempo de Ecrã"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Ativa a funcionalidade básica de Tempo de Ecrã, registando os dados de "
+"utilização para efeitos de visualização de histórico."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Ativar um limitador diário de Tempo de Ecrã"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Imponha um limite ao tempo de ecrã de um utilizador, tal como definido em "
+"daily-limit-seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Limite diário de Tempo de Ecrã"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"O valor para atrasar a pausa, se o utilizador pedir um atraso, em segundos."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Ativa o modo Escala de cinzentos assim que o limite é atingido"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Escolha se o ecrã fica em tons de cinzento assim que o limite de tempo "
+"definido é atingido."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
