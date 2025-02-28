@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 13:50+0000\n"
-"PO-Revision-Date: 2024-08-31 23:07+0300\n"
+"POT-Creation-Date: 2025-02-19 19:23+0000\n"
+"PO-Revision-Date: 2025-02-28 23:24+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -811,7 +811,7 @@ msgstr "Kiekvienos pertraukos laikas"
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
 msgid "The duration of each rest break, in seconds."
-msgstr "Kiekvienos poilsio pertraukos laikas"
+msgstr "Kiekvienos poilsio pertraukos laikas sekundėmis."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
@@ -823,7 +823,7 @@ msgstr "Pertraukos pavėlinimo laikas, jei prašomas"
 msgid ""
 "The amount to delay taking the break by, if the user requests a delay, in "
 "seconds."
-msgstr "Kiek pavėlinti pertrauką, jei naudotojas to prašo, sekundėmis"
+msgstr "Kiek pavėlinti pertrauką, jei naudotojas to prašo, sekundėmis."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
@@ -1611,7 +1611,7 @@ msgstr "Išjungti naudojo keitimą"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Neleisti naudotojui persijungti į kitą paskyrą, kol jo seansas aktyvus."
@@ -1621,7 +1621,7 @@ msgid "Disable lock screen"
 msgstr "Išjungti ekrano rakinimą"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Neleisti naudotojui užrakinti jo ekrano."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -1717,7 +1717,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:21
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
-msgstr "x-content/* tipų sąrašas, kur paleidžiama pageidaujama programa"
+msgstr "x-content/* tipų sąrašas, kur paleidžiama pageidaujama programa."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:22
 msgid ""
@@ -2676,6 +2676,51 @@ msgid ""
 msgstr ""
 "Leisti rodyti seanso būsenos pranešimą, kai ekranas yra užrakintas. PASENĘS: "
 "šis raktas yra pasenęs ir jo nepaisoma."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Įjungti ekrano laiko istoriją"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Įjungti bazinį ekrano laiko funkcionalumą, įrašyti naudojimo laiką istorijos "
+"rodymui."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Įjungti kasdienį ekrano laiko ribojimą"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Leisti riboti ekrano laiką naudotojui, kaip nurodyta nuostatoje daily-limit-"
+"seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Kasdienė ekrano laiko riba"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr "Kiek leidžiama kasdien naudoti ekraną sekundėmis."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Juodai balta, kai pasiekiama riba"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Ar padaryti ekraną juodai baltą pasiekus naudotojo nustatytą ekrano laiko "
+"ribą."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
