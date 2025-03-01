@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2013, 2014, 2015, 2016, 2017.
-# Asier Sarasua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021, 2022, 2023, 2024.
+# Asier Saratsua Garmendia  <asiersarasua@ni.eus>, 2019, 2020, 2021, 2022, 2023, 2024, 2025.
 #
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 13:50+0000\n"
-"PO-Revision-Date: 2024-08-25 10:00+0100\n"
-"Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
+"POT-Creation-Date: 2025-02-19 19:23+0000\n"
+"PO-Revision-Date: 2025-03-01 10:00+0100\n"
+"Last-Translator: Asier Saratsua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
@@ -1416,17 +1416,17 @@ msgstr "Desgaitu erabiltzailez aldatzea"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
-msgstr "Honek erabiltzailea beste baten kontura aldatzea saihesten du saioa aktibo duen bitartean."
+msgstr "Eragotzi erabiltzailea beste baten kontura aldatu dadin saioa aktibo duen bitartean."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
 msgstr "Desgaitu pantaila blokeatzea"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
-msgstr "Erabiltzaileak pantaila hau blokeatzea saihesten du."
+msgid "Prevent the user from locking their screen."
+msgstr "Eragotzi erabiltzaileak pantaila blokeatu dezan."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -2322,6 +2322,45 @@ msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr "Baimendu saioaren egoeraren mezua bistaratzea pantaila blokeatuta dagoenean. ZAHARKITUTA: Gako hori zaharkituta dago eta ez ikusiarena egingo zaio."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Gaitu pantaila-denboraren historia"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr "Gaitu onarrizko pantaila-denboraren funtzionaltasuna, erabilera-datuak grabatuko dira historia ikusi ahal izateko."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Gaitu pantaila-denboraren eguneko muga"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr "Gaitu pantila-denboran muga bat ezartzea erabiltzaileari, 'daily-limit-seconds' aukeran ezarri den moduan."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Pantaila-denboraren eguneko muga"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr "Pantaila-denboraren muga zenbatean ezarriko zaioen erabiltzaileari, segundotan."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Gris-eskala mugara iritsitakoan"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr "Pantaila gris-eskalan erakutsiko den ala ez erabiltzailea pantaila-denboraren mugara iristen denean."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
