@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 13:50+0000\n"
-"PO-Revision-Date: 2024-08-31 15:26+0200\n"
+"POT-Creation-Date: 2025-02-19 19:23+0000\n"
+"PO-Revision-Date: 2025-03-02 01:16+0100\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1632,7 +1632,7 @@ msgstr "Zakázat přepínání uživatelů"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Zabránit uživateli přepínání na jiný účet, když je jeho sezení aktivní."
@@ -1642,7 +1642,7 @@ msgid "Disable lock screen"
 msgstr "Zakázat zamknutí obrazovky"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Zabránit uživateli zamknout jeho obrazovku."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2244,7 +2244,7 @@ msgstr "Činnost tlačítka"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
-"Činnost tlačítka stylusu. Toto tlačítko se nachází v místě úchoupu pera."
+"Činnost tlačítka stylusu. Toto tlačítko se nachází v místě úchopu pera."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
@@ -2712,6 +2712,53 @@ msgid ""
 msgstr ""
 "Umožnit zobrazit zprávu o stavu sezení, když je uzamknutá obrazovka. "
 "ZAVRŽENO: Tento klíč byl zavržen a je ignorován."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Povolit historii času stráveného u obrazovky"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Povolit základní funkci času stráveného u obrazovky, zaznamenávající údaje o "
+"využití pro zobrazení historie."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Povolit denní limit času stráveného u obrazovky"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Povolit stanovení limitu času stráveného uživatelem u obrazovky, jak je "
+"nastaveno v daily-limit-seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Denní limit času stráveného u obrazovky"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"Limit množství denního času stráveného u obrazovky, který má uživatel "
+"povolený, v sekundách."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Zšednout obrazovku po dosažení limitu"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Zda po dosažení limitu času stráveného u obrazovky uživatele zšednout "
+"obrazovku."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
