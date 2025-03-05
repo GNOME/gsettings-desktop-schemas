@@ -5,15 +5,15 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Nicolás Satragno <nicoymatu9@hotmail.com>, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2022-2024.
-# Daniel Mustieles García <daniel.mustieles@gmail.com>, 2024.
+# Daniel Mustieles García <daniel.mustieles@gmail.com>, 2024-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 13:50+0000\n"
-"PO-Revision-Date: 2024-09-09 12:33+0200\n"
+"POT-Creation-Date: 2025-03-02 10:08+0000\n"
+"PO-Revision-Date: 2025-03-05 16:24+0100\n"
 "Last-Translator: Daniel Mustieles García <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 46.1\n"
+"X-Generator: Gtranslator 47.1\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -283,10 +283,10 @@ msgid ""
 msgstr ""
 "Determina la posición de la imagen magnificada del ratón dentro de la vista "
 "magnificada y cómo reacciona al movimiento del ratón del sistema. Los "
-"valores son «none» (ninguno): sin seguimiento del ratón; "
-"«centered» (centrado): la imagen del ratón se muestra en el centro de la "
-"región ampliada (que también representa el punto bajo el ratón del sistema) "
-"y el contenido magnificado se desliza según se mueve el ratón del sistema; "
+"valores son «none» (ninguno): sin seguimiento del ratón; «centered» "
+"(centrado): la imagen del ratón se muestra en el centro de la región "
+"ampliada (que también representa el punto bajo el ratón del sistema) y el "
+"contenido magnificado se desliza según se mueve el ratón del sistema; "
 "«proporcional»: la posición del ratón magnificado en la región de ampliación "
 "es proporcionalmente la misma que la posición del ratón del sistema en el "
 "ratón; «push» (empujar): cuando el ratón magnificado cruza un límite de la "
@@ -308,10 +308,10 @@ msgid ""
 "the zoom region, the contents are scrolled into view"
 msgstr ""
 "Determina la posición del widget con el foco dentro de la vista magnificada. "
-"Los valores son: • «none» (ninguno): sin seguimiento del ratón • "
-"«centered» (centrado): la imagen con el foco se muestra en el centro de la "
-"región ampliada (que también representa el punto bajo el foco del sistema) y "
-"el contenido magnificado se desliza según se mueve el foco del sistema • "
+"Los valores son: • «none» (ninguno): sin seguimiento del ratón • «centered» "
+"(centrado): la imagen con el foco se muestra en el centro de la región "
+"ampliada (que también representa el punto bajo el foco del sistema) y el "
+"contenido magnificado se desliza según se mueve el foco del sistema • "
 "«proporcional»: la posición del foco magnificado en la región de ampliación "
 "es proporcionalmente la misma que la posición del foco del sistema en la "
 "pantalla • «push» (empujar): cuando el foco magnificado cruza un límite de "
@@ -1687,19 +1687,18 @@ msgstr "Desactivar selección de usuario"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
-"Previene que el usuario seleccione otra cuenta mientras su sesión está "
-"activa."
+"Evita que el usuario cambie a otra cuenta mientras su sesión está activa."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
 msgstr "Desactivar el bloqueo de la pantalla"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
-msgstr "Previene que el usuario bloquee su pantalla."
+msgid "Prevent the user from locking their screen."
+msgstr "Eita que el usuario bloquee su pantalla."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -2810,6 +2809,53 @@ msgstr ""
 "Permitir que se muestren los mensajes de estado de la sesión cuando la "
 "pantalla está bloqueada. OBSOLETO: esta clave está obsoleta y se ignorará."
 
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Activar el histórico de tiempo de pantalla"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Activar la funcionalidad básica de tiempo de pantalla, registrando datos de "
+"uso para el historial de visualización."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Activar el tiempo límite diario de pantalla"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Activar la imposición de un límite de tiempo de pantalla para el usuario, "
+"como se establece en daily-limit-seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Tiempo límite de pantalla diario"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"El límite de la cantidad de tiempo de pantalla diario que se le permite al "
+"usuario, en segundos."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Escala de grises una vez alcanzado el límite"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Indica sise debe pasar la pantalla a escala de grises una vez que se alcanza "
+"el límite de tiempo de pantalla del usuario."
+
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
 msgstr "Desactivar todos los proveedores de búsqueda externos"
@@ -3911,9 +3957,9 @@ msgstr ""
 #~ "\"edge-scrolling\", \"two-finger-scrolling\"."
 #~ msgstr ""
 #~ "Seleccionar el método de desplazamiento del panel táctil. Los valores "
-#~ "soportados son: «disabled» (desactivado), «edge-"
-#~ "scrolling» (desplazamiento en el borde) y «two-finger-"
-#~ "scrolling» (desplazamiento con dos dedos)."
+#~ "soportados son: «disabled» (desactivado), «edge-scrolling» "
+#~ "(desplazamiento en el borde) y «two-finger-scrolling» (desplazamiento con "
+#~ "dos dedos)."
 
 #~ msgid ""
 #~ "URI to use for the background image. Not that the backend only supports "
