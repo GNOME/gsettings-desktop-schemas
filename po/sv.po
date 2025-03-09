@@ -1,9 +1,9 @@
 # Swedish translation for gsettings-desktop-schemas.
-# Copyright © 2011-2024 Free Software Foundation, Inc.
+# Copyright © 2011-2025 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel Nylander <po@danielnylander.se>, 2011.
 # Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025.
 # Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
 #
 msgid ""
@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 15:09+0000\n"
-"PO-Revision-Date: 2024-09-09 13:02+0200\n"
+"POT-Creation-Date: 2025-02-25 21:11+0000\n"
+"PO-Revision-Date: 2025-03-09 13:04+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1639,18 +1639,18 @@ msgstr "Inaktivera användarväxling"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
-"Förhindra användaren från att växla till ett annan konto medan hennes "
-"session är aktiv."
+"Förhindra användaren från att växla till ett annat konto medan hens session "
+"är aktiv."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
 msgstr "Inaktivera skärmlåsning"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Förhindra användaren från att låsa skärmen."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2594,12 +2594,14 @@ msgstr "Aktivera när overksam"
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Sätt denna till TRUE (sant) för att aktivera skärmsläckaren när sessionen är "
-"inaktiv. FÖRÅLDRAD: Denna nyckel är föråldrad och ignorerad. Sätt org.gnome."
-"desktop.session idle-delay till 0 om du inte vill aktivera skärmsläckaren."
+"inaktiv. FÖRÅLDRAD: Denna nyckel är föråldrad och ignorerad. Sätt "
+"org.gnome.desktop.session idle-delay till 0 om du inte vill aktivera "
+"skärmsläckaren."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
 msgid "Lock on activation"
@@ -2733,6 +2735,51 @@ msgid ""
 msgstr ""
 "Låt sessionens statusmeddelande visas när skärmen är låst. FÖRÅLDRAD: Denna "
 "nyckel är föråldrad och ignorerad."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Aktivera skärmtidshistorik"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Aktivera grundläggande skärmtidsfunktionalitet, och lagra användningsdata "
+"för att visa historik."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Aktivera daglig skärmtidsgräns"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Aktivera att påtvinga användaren en skärmtidsgräns som satts i daily-limit-"
+"seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Daglig skärmtidsgräns"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr "Gränsen för daglig skärmtid som tillåts för användaren, i sekunder."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Gråskala när gränsen har uppnåtts"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Huruvida skärmen ska ändras till gråskala då användarens skärmtidsgräns har "
+"uppnåtts."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -3803,3 +3850,9 @@ msgid ""
 msgstr ""
 "Porten på maskinen som definierats av ”/system/proxy/socks/host” som din "
 "proxytrafik går via."
+
+#~ msgid "Step increment to use for the custom acceleration profile."
+#~ msgstr "Stegökning att använda för den anpassade accelerationsprofilen."
+
+#~ msgid "Speeds to use for each step of the system."
+#~ msgstr "Hastigheter att använda för varje steg i systemet."
