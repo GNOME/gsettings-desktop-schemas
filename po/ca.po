@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-12-01 12:14+0000\n"
-"PO-Revision-Date: 2025-01-04 23:32+0100\n"
+"POT-Creation-Date: 2025-03-02 10:08+0000\n"
+"PO-Revision-Date: 2025-03-10 19:12+0100\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -1309,8 +1309,8 @@ msgstr "Estil d'estat del mètode d'entrada de la GTK+"
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:147
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr ""
-"El nom de l'estil d'estat del mètode d'entrada de la GTK+ que utilitza la GTK"
-"+."
+"El nom de l'estil d'estat del mètode d'entrada de la GTK+ que utilitza la "
+"GTK+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:153
 msgid "GTK IM Module"
@@ -1606,9 +1606,9 @@ msgstr "Color de contrast"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:317
 msgid ""
-"The preferred accent color for the user interface. Valid values are \"blue"
-"\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", \"purple"
-"\", \"slate\"."
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
 msgstr ""
 "El color de contrast preferit per a la interfície d'usuari. Els valors "
 "vàlids són «blue», «teal», «green», «yellow», «orange», «red», «pink», "
@@ -1671,7 +1671,7 @@ msgstr "Inhabilita el canvi d'usuari"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "No permetis que l'usuari obri una altra sessió mentre la sessió estigui "
@@ -1682,7 +1682,7 @@ msgid "Disable lock screen"
 msgstr "Inhabilita el blocatge de la pantalla"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "No permetis que l'usuari bloquegi la pantalla."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2787,6 +2787,53 @@ msgid ""
 msgstr ""
 "Permet que es mostri el missatge d'estat de la sessió quan la pantalla està "
 "blocada. OBSOLETA: aquesta clau és obsoleta i s'ignora."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Habilita l'historial de temps de pantalla"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Habilita la funcionalitat bàsica del temps de pantalla i registra dades d'ús "
+"per a la visualització de l'historial."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Habilita el límit de temps diari de pantalla"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Activa la imposició d'un límit de temps de pantalla a l'usuari, tal com "
+"s'estableix a «daily-limit-seconds»."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Límit de temps de pantalla diari"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"El límit en la quantitat de temps diari de pantalla que es permet a "
+"l'usuari, en segons."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Escala de grisos un cop assolit el límit"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Si s'ha de fer l'escala de grisos de la pantalla una vegada que s'arribi al "
+"límit de temps de pantalla de l'usuari."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
