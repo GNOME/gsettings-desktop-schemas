@@ -1,7 +1,7 @@
 # Indonesian translation for gsettings-desktop-schemas.
 # Copyright (C) 2012 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Andika Triwidada <andika@gmail.com>, 2012, 2013, 2015, 2022, 2024.
+# Andika Triwidada <andika@gmail.com>, 2012, 2013, 2015, 2022, 2024, 2025.
 # Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2022, 2024.
 #
 msgid ""
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-31 13:50+0000\n"
-"PO-Revision-Date: 2024-09-09 14:52+0700\n"
+"POT-Creation-Date: 2025-03-10 22:45+0000\n"
+"PO-Revision-Date: 2025-03-12 18:29+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome@i15n.org>\n"
 "Language: id\n"
@@ -1644,18 +1644,19 @@ msgstr "Matikan perpindahan pengguna"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
-"Mencegah pemakai untuk berpindah ke akun lain ketika sesinya sedang aktif."
+"Mencegah pemakai untuk berpindah ke akun lain ketika sesi mereka sedang "
+"aktif."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
 msgstr "Matikan penguncian layar"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
-msgstr "Mencegah pemakai mengunci layarnya."
+msgid "Prevent the user from locking their screen."
+msgstr "Mencegah pemakai mengunci layar mereka."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -2738,6 +2739,52 @@ msgid ""
 msgstr ""
 "Membolehkan pesan status sesi tampil saat layar dalam keadaan dikunci. TAK "
 "BERLAKU LAGI: Kunci ini tak berlaku lagi dan diabaikan."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Memfungsikan riwayat waktu layar"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Memfungsikan fungsionalitas waktu layar dasar, merekam data penggunaan untuk "
+"riwayat melihat."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Memfungsikan batas waktu layar harian"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Memfungsikan penerapan batas waktu layar ke pengguna, sebagaimana ditata "
+"dalam daily-limit-seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Batas waktu layar harian"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"Batas banyaknya waktu layar harian yang diizinkan ke pengguna, dalam detik."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Skala kelabu begitu batas dicapai"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Apakah membuat layar menjadi skala kelabu sekali batas waktu layar pengguna "
+"tercapai."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
