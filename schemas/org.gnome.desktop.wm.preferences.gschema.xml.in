@@ -3,6 +3,14 @@
 
   <schema id="org.gnome.desktop.wm.preferences"
           path="/org/gnome/desktop/wm/preferences/">
+    <key name="attach-modal-dialogs" type="b">
+      <default>true</default>
+      <summary>Attach modal dialogs</summary>
+      <description>
+	When true, dialogs will appear attached to their parent window,
+	so that moving the dialog also moves the parent window.
+      </description>
+    </key>
     <key name="mouse-button-modifier" type="s">
       <default><![CDATA['<Super>']]></default>
       <summary>Modifier to use for modified window click actions</summary>
