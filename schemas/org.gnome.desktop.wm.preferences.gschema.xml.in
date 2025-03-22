@@ -3,6 +3,15 @@
 
   <schema id="org.gnome.desktop.wm.preferences"
           path="/org/gnome/desktop/wm/preferences/">
+    <key name="attach-modal-dialogs" type="b">
+      <default>false</default>
+      <summary>Attach modal dialogs</summary>
+      <description>
+        When true, instead of having independent titlebars, modal dialogs
+        appear attached to the titlebar of the parent window and are moved
+        together with the parent window.
+      </description>
+    </key>
     <key name="mouse-button-modifier" type="s">
       <default><![CDATA['<Super>']]></default>
       <summary>Modifier to use for modified window click actions</summary>
