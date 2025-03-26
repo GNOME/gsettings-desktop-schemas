@@ -46,6 +46,13 @@ pkg = configure_file(configuration: conf,
                      install: true,
                      install_dir: join_paths(datadir, 'pkgconfig'),
                      output: 'gsettings-desktop-schemas.pc')
+gsettings_desktop_schemas_dep = declare_dependency(
+    include_directories: include_directories('headers'),
+)
+meson.override_dependency(
+    'gsettings-desktop-schemas',
+    gsettings_desktop_schemas_dep,
+)
 
 glib_mkenums = find_program('glib-mkenums')
 
