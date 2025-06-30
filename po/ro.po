@@ -2,24 +2,25 @@
 # Copyright (C) 2015 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015, 2019.
+# Antonio Marin <gnmer.6qxyg@slmail.me>, 2025.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-07-21 14:32+0000\n"
-"PO-Revision-Date: 2024-08-05 20:40+0300\n"
-"Last-Translator: Florentina Mușat <florentina [dot] musat [dot] 28 [at] "
-"gmail [dot] com>\n"
-"Language-Team: Gnome Romanian Translation Team\n"
+"POT-Creation-Date: 2025-05-10 19:07+0000\n"
+"PO-Revision-Date: 2025-06-30 12:01+0200\n"
+"Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
-"n%100<=19) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
 "n%100<=19) ? 1: 2);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Gtranslator 48.0\n"
 "20)) ? 1: 2);;\n"
 "X-Project-Style: gnome\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -30,7 +31,7 @@ msgstr "Tastatură pe ecran"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:7
 msgid "Whether the on-screen keyboard is turned on."
-msgstr "Dacă tastatura pe ecran este pornită."
+msgstr "Dacă tastatura pe ecran să fie activată."
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:11
 msgid "Screen magnifier"
@@ -38,7 +39,7 @@ msgstr "Lupă pentru ecran"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:12
 msgid "Whether the screen magnifier is turned on."
-msgstr "Dacă lupa pentru ecran este pornită."
+msgstr "Dacă lupa pentru ecran să fie activată."
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:16
 msgid "Screen reader"
@@ -46,50 +47,50 @@ msgstr "Cititor de ecran"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:17
 msgid "Whether the screen reader is turned on."
-msgstr "Dacă cititorul de ecran este pornită."
+msgstr "Dacă cititorul de ecran să fie activat."
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:6
 msgid "Always show the Universal Access status icon"
-msgstr "Arată întotdeauna iconița de stare a accesului universal"
+msgstr "Arată mereu simbolul de Acces universal"
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:7
 msgid ""
 "This key overrides the automatic hiding of the Universal Access status icon "
 "when no accessibility features are enabled."
 msgstr ""
-"Această cheie înlocuiește ascunderea automată a iconiței de stare acces "
-"universal când nicio funcționalitate de accesibilitate nu este activată."
+"Această cheie face ca simbolul de Acces universal să apară mereu, chiar dacă "
+"nu sunt activate caracteristici de accesibilitate."
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:14
 msgid "Always show the text caret"
-msgstr "Arată întotdeauna cursorul de inserare al textului"
+msgstr "Arată mereu cursorul de text"
 
 #: schemas/org.gnome.desktop.a11y.gschema.xml.in:15
 msgid ""
 "This key overrides the hiding of the text caret in noneditable text in "
 "applications."
 msgstr ""
-"Această cheie suprascrie ascunderea caretului textului în textul non-"
-"editabil al aplicațiilor."
+"Această cheie face să apară mereu cursorul de text chiar dacă textul nu "
+"poate fi modificat."
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
 msgid "High contrast"
-msgstr "Contrast ridicat"
+msgstr "Contrast mărit"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:7
 msgid "Whether to use the high contrast style."
-msgstr "Dacă se utilizează stilul de contrast ridicat."
+msgstr "Dacă să se utilizeze contrastul mărit."
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:13
 msgid "Show status shapes"
-msgstr "Arată formele stării"
+msgstr "Arată forme de stare"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:14
 msgid ""
 "Whether to use shapes to indicate status in addition or instead of color."
 msgstr ""
-"Dacă să se utilizeze forme pentru a indica starea în plus sau în loc de "
-"culoare."
+"Dacă să se utilizeze forme vizuale pentru a indica starea în plus față de "
+"culoare sau în locul culorii."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -98,14 +99,14 @@ msgstr "Activează scurtăturile de tastatură pentru accesibilitate"
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:10
 msgid "Beep when a keyboard accessibility feature changes"
 msgstr ""
-"Redă un bip când o funcționalitate de accesibilitate pentru tastatură se "
-"modifică"
+"Dă un semnal sonor când se schimbă o caracteristică de accesibilitate pentru "
+"tastatură"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:11
 msgid ""
 "Whether to beep when a keyboard accessibility feature is enabled or disabled."
 msgstr ""
-"Dacă să se redea un bip când o funcționalitate de accesibilitate pentru "
+"Dacă să se emită un sunet când o caracteristică de accesibilitate pentru "
 "tastatură este activată sau dezactivată."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:15
@@ -117,28 +118,28 @@ msgid ""
 "Whether to disable keyboard accessibility after a timeout, useful for shared "
 "machines."
 msgstr ""
-"Dacă să se dezactiveze accesibilitatea pentru tastatură după o limită de "
-"timp, util pentru mașini partajate."
+"Dacă să se dezactiveze accesibilitatea pentru tastatură după o perioadă de "
+"timp, utilă cănd calculatorul este folosit de mai multe persoane."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:20
 msgid "Duration of the disabling timeout"
-msgstr "Durata limitei de timp pentru dezactivare"
+msgstr "Perioada de timp până la dezactivare"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:21
 msgid "Duration of the timeout before disabling the keyboard accessibility."
 msgstr ""
-"Durata limitei de timp dinaintea dezactivării accesibilității pentru "
+"Durata intervalului de timp dinaintea dezactivării accesibilității pentru "
 "tastatură."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:25
 msgid "Enable “Bounce Keys”"
-msgstr "Activează „taste fără repetiție”"
+msgstr "Activează „Taste cu întârziere”"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:26
 msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
 msgstr ""
-"Dacă funcționalitatea de accesibilitate pentru tastatură „taste fără "
-"repetiție” este pornită."
+"Dacă să se activeze caracteristica de prevenire a apăsării accidentale a "
+"tastelor."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:30
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:65
@@ -152,20 +153,20 @@ msgstr "Ignoră apăsările multiple ale aceleiași taste în atâtea milisecund
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:35
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:80
 msgid "Beep when a key is rejected"
-msgstr "Redă un bip când o tastă este respinsă"
+msgstr "Emite un sunet când o tastă este respinsă"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:36
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:81
 msgid "Whether to beep when a key is rejected."
-msgstr "Dacă să se redea un bip când o tastă este respinsă."
+msgstr "Dacă să se emită un sunet când o tastă este respinsă."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:40
 msgid "Enable “Mouse Keys”"
-msgstr "Activează „taste maus”"
+msgstr "Activează „Taste maus”"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:41
 msgid "Whether the “Mouse Keys” accessibility feature is turned on."
-msgstr "Dacă funcționalitatea de accesibilitate „taste maus” este pornită."
+msgstr "Dacă să fie controlat cursorul folosind tastatura."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:45
 msgid "Pixels per seconds"
@@ -173,7 +174,7 @@ msgstr "Pixeli pe secunde"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:46
 msgid "How many pixels per second to move at the maximum speed."
-msgstr "Câți pixeli pe secundă să se mute la viteza maximă."
+msgstr "Cu câți pixeli pe secundă să se mute cursorul la viteza maximă."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:50
 msgid "How long to accelerate in milliseconds"
@@ -191,16 +192,16 @@ msgstr "Întârzierea inițială în milisecunde"
 msgid ""
 "How many milliseconds to wait before mouse movement keys start to operate."
 msgstr ""
-"Câte milisecunde să se aștepte înainte ca tastele de mișcare ale mausului să "
-"înceapă să opereze."
+"Câte milisecunde să se aștepte înainte ca tastele cu care se mișcă cursorul "
+"să înceapă să opereze."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:60
 msgid "Enable “Slow Keys”"
-msgstr "Activează „taste lente”"
+msgstr "Activează „Taste lente”"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:61
 msgid "Whether the “Slow Keys” accessibility feature is turned on."
-msgstr "Dacă funcționalitatea de accesibilitate „taste lente” este pornită."
+msgstr "Dacă să se activeze caracteristica „Taste lente”."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:66
 msgid ""
@@ -817,6 +818,118 @@ msgid "If set to true, then file manager will draw the icons on the desktop."
 msgstr ""
 "Dacă este stabilit la adevărat, atunci gestionarul de fișiere va desena "
 "iconițe pe ecran."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:10
+msgid "List of breaks that are currently enabled"
+msgstr "Lista pauzelor care sunt activate în prezent"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
+msgid "Time between breaks"
+msgstr "Timpul dintre pauze"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
+msgid "The time between rest breaks, in seconds."
+msgstr "Timpul dintre pauzele de odihnă, în secunde."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:29
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:94
+msgid "Duration of each break"
+msgstr "Durata fiecărei pauze"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:30
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:95
+msgid "The duration of each rest break, in seconds."
+msgstr "Durata fiecărei pauze de odihnă, în secunde."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:36
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:101
+msgid "Amount to delay break if requested"
+msgstr "Amânarea pauzei dacă este solicitată"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:37
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:102
+msgid ""
+"The amount to delay taking the break by, if the user requests a delay, in "
+"seconds."
+msgstr ""
+"Perioada de întârziere pentru luarea pauzei, dacă utilizatorul solicită o "
+"amânare, în secunde."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
+msgid "Fade screen during breaks"
+msgstr "Întunecă ecranul în timpul pauzelor"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
+msgid "True to fade the screen during rest breaks."
+msgstr ""
+"True (adevărat) pentru a întuneca ecranul în timpul pauzelor de odihnă."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
+msgid "Lock screen during breaks"
+msgstr "Blochează ecranul în timpul pauzelor"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
+msgid "True to lock the screen during rest breaks."
+msgstr "True (adevărat) pentru a bloca ecranul în timpul pauzelor de odihnă."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
+msgid "Play sound when a break finishes"
+msgstr "Emite un sunet când o pauză se termină"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:56
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:121
+msgid "True to play a sound when a break finishes."
+msgstr "True (adevărat) pentru a emite un sunet când o pauză se termină."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:61
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:79
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:126
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:144
+msgid "Notify when a break is due"
+msgstr "Notifică când o pauză este iminentă"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:62
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:127
+msgid "True to emit a notification when a break is due to start."
+msgstr ""
+"True (adevărat) pentru a emite o notificare când o pauză este gata să "
+"înceapă."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:67
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:132
+msgid "Notify when a break is upcoming"
+msgstr "Notifică când urmează o pauză"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:68
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:133
+msgid "True to emit a notification a few minutes before a break is due."
+msgstr ""
+"True (adevărat) pentru a emite o notificare cu câteva minute înainte de o "
+"pauză."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:73
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:138
+msgid "Notify when a break is overdue"
+msgstr "Notifică când o pauză este amânată"
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:74
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:139
+msgid "True to emit a notification when a break is overdue."
+msgstr "True (adevărat) pentru a emite o notificare când o pauză este amânată."
+
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
+#: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
+msgid "True to show a prominent countdown shortly before a break is due."
+msgstr ""
+"True (adevărat) pentru a arăta o numărătoare inversă vizibilă cu puțin timp "
+"înainte de începerea unei pauze."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -1452,15 +1565,48 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:300
 msgid "Color scheme"
-msgstr "Schemă de culoare"
+msgstr "Combinația de culori"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:301
 msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
-"Schema de culori preferată pentru interfața cu utilizatorul. Valorile valide "
-"sunt „default”, „prefer-dark”, „prefer-light”."
+"Combinația de culori pentru interfața grafică. Valorile posibile sunt "
+"„default”, „prefer-dark”, „prefer-light”."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:307
+msgid "Font rendering"
+msgstr "Afișare tip de litere"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:308
+msgid ""
+"Preference to indicate whether font rendering should follow the low-level "
+"`font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or "
+"take environmental factors such as screen resolution and scaling into "
+"account. Possible values are: \"manual\" for respecting the low-level "
+"settings, or \"automatic\" for letting the toolkit make its own decisions."
+msgstr ""
+"Preferință pentru a indica dacă afișarea caracterelor ar trebui să urmeze "
+"reglările de bază „font-hinting”, „font-antialiasing” și „font-rgba-order” "
+"sau să ia în considerare alți factori precum rezoluția și mărimea ecranului. "
+"Valorile posibile sunt: „manual” pentru a respecta reglările de bază sau "
+"„automatic” pentru a se ține cont de rezoluția și mărimea ecranului."
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:316
+msgid "Accent color"
+msgstr "Culoare de evidențiere"
+
+#: schemas/org.gnome.desktop.interface.gschema.xml.in:317
+msgid ""
+"The preferred accent color for the user interface. Valid values are "
+"\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
+"\"purple\", \"slate\"."
+msgstr ""
+"Culorile de evidențiere disponibile pentru interfața grafică. Valorile "
+"posibile sunt „blue” (albastru), „teal” (turcoaz), „green” (verde), „yellow” "
+"(galben), „orange” (portocaliu), „red” (roșu), „pink” (roz), „purple” (mov), "
+"„slate” (gri)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1515,23 +1661,22 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
-msgstr "Dezactivează comutarea utilizatorilor"
+msgstr "Dezactivează schimbarea utilizatorului"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
-"Previne utilizatorul de la comutarea la alt cont când sesiunea lui este "
-"activă."
+"Împiedică utilizatorul să treacă la alt cont când sesiunea lui este activă."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
 msgstr "Dezactivează blocarea ecranului"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
-msgstr "Previne utilizatorul de la blocarea ecranului."
+msgid "Prevent the user from locking their screen."
+msgstr "Împiedică utilizatorul să-și blocheze ecranul."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -1864,8 +2009,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
 msgid "Acceleration profile"
 msgstr "Profil de accelerare"
 
@@ -1889,7 +2034,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:248
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Pointer speed"
 msgstr "Viteza cursorului"
 
@@ -1929,13 +2074,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid "Emulate middle click"
 msgstr "Emulează clic mijlociu"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2112,31 +2257,48 @@ msgstr ""
 "(stylus)."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+msgid "Stylus pressure range"
+msgstr "Intervalul de presiune a creionului electronic"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+msgid ""
+"Set this to the percentage of the physical pressure range that should map to "
+"the logical range."
+msgstr ""
+"Stabilește această valoare la procentul de presiune fizică care ar trebui să "
+"corespundă cu presiunea recunoscută de sistem."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 msgid "Eraser pressure curve"
 msgstr "Curba de presiune a gumei de șters"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Stabiliți aceasta la x1, y1 și x2, y2 din curba presiunii aplicate de guma "
 "de șters."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
-msgid "Button action"
-msgstr "Acțiune buton"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+msgid "Eraser pressure range"
+msgstr "Intervalul de presiune a gumei de șters"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+msgid "Button action"
+msgstr "Acțiunea butonului"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
-"Buton de acțiune stilou (stylus), acest buton este localizat dea-lungul "
-"mânerului stiloului."
+"Acțiunea butonului creionului electronic; acest buton se află pe mânerul "
+"creionului."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
 msgid "Secondary button action"
 msgstr "Acțiune buton secundar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2147,11 +2309,11 @@ msgstr ""
 "stilouri cum ar fi stilouri Airbursh sau stilouri Inking care au numai un "
 "buton, această configurare este neefectivă pe acestea."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
 msgid "Tertiary button action"
 msgstr "Acțiune buton terțiar"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2162,19 +2324,14 @@ msgstr ""
 "cum ar fi Grip Pen au numai două butoane, această configurare este "
 "neefectivă pe acestea."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
-msgid "Pad button action type"
-msgstr "Tip de acțiune buton tabletă"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+msgid "Key combination for the primary button"
+msgstr "Combinația de taste pentru butonul principal"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:208
-msgid "The type of action triggered by the button being pressed."
-msgstr "Tip de acțiune declanșată de butonul apăsat."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
-msgid "Key combination for the custom action"
-msgstr "Combinația de taste pentru acțiunea personalizată"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:213
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2182,11 +2339,31 @@ msgstr ""
 "Scurtătura de tastatură generată când butonul este apăsat pentru acțiuni "
 "personalizate."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+msgid "Key combination for the secondary button"
+msgstr "Combinația de taste pentru butonul secundar"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+msgid "Key combination for the tertiary button"
+msgstr "Combinația de taste pentru butonul al treilea"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+msgid "Pad button action type"
+msgstr "Tip de acțiune buton tabletă"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+msgid "The type of action triggered by the button being pressed."
+msgstr "Tip de acțiune declanșată de butonul apăsat."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+msgid "Key combination for the custom action"
+msgstr "Combinația de taste pentru acțiunea personalizată"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
 msgid "Touchscreen output mapping"
 msgstr "Maparea ieșirii ecranului tactil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2196,17 +2373,17 @@ msgstr ""
 "fie în formatul [furnizor, produs, serie]. [\"\",\"\",\"\"] depinde de "
 "maparea automată."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Butonul de emulare al rotiței mausului. 0 pentru a dezactiva "
 "funcționalitatea."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
 msgid "Mouse wheel emulation button lock"
 msgstr "Blocarea butonului de emulare a rotiței mausului"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2216,7 +2393,7 @@ msgstr ""
 "butonul de emulare a rotiței. Dacă este activată, primul clic al butonului "
 "activează derularea, al doilea clic dezactivează derularea din nou."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2232,7 +2409,7 @@ msgstr ""
 "(„adaptive”) care adaptează accelerația în funcție de mișcare. Dacă "
 "trackball-ul nu suportă profilul configurat, „default” va fi folosit."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2241,7 +2418,7 @@ msgstr ""
 "intervalul [-1..1] (de la „unaccelerated” la „fast”). O valoare de 0 este "
 "implicită în sistem."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2258,11 +2435,11 @@ msgstr ""
 "bastonul de indicare nu suportă profilul configurat, va fi utilizat "
 "„default”."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
 msgid "Scrolling method"
 msgstr "Metodă de derulare"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2453,8 +2630,9 @@ msgstr "Activează când se află în așteptare"
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Stabiliți la adevărat pentru a activa protectorul de ecran când sesiunea "
 "este inactiv. ÎNVECHITĂ: Această cheie este învechită și ignorată. Stabiliți "
@@ -2597,6 +2775,52 @@ msgid ""
 msgstr ""
 "Permite mesajul de stare al sesiunii să fie afișat când ecranul este blocat. "
 "ÎNVECHITĂ: Această cheie este învechită și ignorată."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr "Activează cronologia utilizării ecranului"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+"Activează caracteristica de bază a timpului petrecut la ecran, înregistrând "
+"datele de utilizare pentru a obține cronologia vizionării."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr "Activează limita zilnică de utilizare a ecranului"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+"Permite impunerea unei limite de timp pentru utilizarea ecranului de către "
+"utilizator, așa cum s-a stabilit în daily-limit-seconds."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr "Limita zilnică de utilizare a ecranului"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"Limita zilnică de utilizare a ecranului permisă utilizatorului, în secunde."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr "Ecran alb-negru la atingerea limitei"
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
+"Dacă ecranul trebuie să devină alb-negru odată ce limita de utilizare a "
+"ecranului a fost atinsă."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -3687,16 +3911,3 @@ msgid ""
 msgstr ""
 "Portul mașinii definit de „/system/proxy/socks/host” prin care se deleghează "
 "(proxy)."
-
-#~ msgid "'12h'"
-#~ msgstr "'24h'"
-
-#~ msgid "Toggle shaded state"
-#~ msgstr "Comută starea de umbrire"
-
-#~ msgid "This key is not used, and should not be read or modified."
-#~ msgstr ""
-#~ "Această cheie nu este folosită, și nu ar trebui citită sau modificată."
-
-#~ msgid "Show the activities overview"
-#~ msgstr "Arată prezentarea generală a activităților"
