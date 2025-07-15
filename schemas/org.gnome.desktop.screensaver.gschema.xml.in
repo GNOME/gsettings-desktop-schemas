@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="gsettings-desktop-schemas">
   <schema id="org.gnome.desktop.screensaver" path="/org/gnome/desktop/screensaver/">
+    <key name="restart-enabled" type="b">
+      <default>false</default>
+      <summary>Enable restart/shutdown</summary>
+      <description>
+        Allow shutdown and restart actions from the lock screen.
+      </description>
+    </key>
     <key name="idle-activation-enabled" type="b">
       <default>true</default>
       <summary>Activate when idle</summary>
