@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-01-28 09:59+0000\n"
-"PO-Revision-Date: 2025-01-28 17:38+0300\n"
+"POT-Creation-Date: 2025-07-14 16:55+0000\n"
+"PO-Revision-Date: 2025-07-15 13:34+0300\n"
 "Last-Translator: Artur So <arturios2005@mail.ru>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1: 2);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -722,12 +722,12 @@ msgstr ""
 "включены через категорию."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:97
 msgid "Picture Options"
 msgstr "Параметры изображения"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:7
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:91
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:98
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -738,13 +738,13 @@ msgstr ""
 "«spanned»."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:106
 msgid "Picture URI"
 msgstr "URI изображения"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
 #: schemas/org.gnome.desktop.background.gschema.xml.in:24
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:107
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -757,46 +757,46 @@ msgid "Picture URI (dark)"
 msgstr "URI изображения (темный)"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:32
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Picture Opacity"
 msgstr "Непрозрачность изображения"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:33
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Opacity with which to draw the background picture."
 msgstr "Непрозрачность изображения, используемого для фона рабочего стола."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:39
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Primary Color"
 msgstr "Основной цвет"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:40
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Начальный цвет градиента (начиная с левой или с верхней стороны) или цвет "
 "сплошной заливки."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Secondary Color"
 msgstr "Вспомогательный цвет"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:47
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Вспомогательный цвет градиента (начиная с правой или с нижней стороны), при "
 "сплошной заливке не используется."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:136
 msgid "Color Shading Type"
 msgstr "Тип цвета тени"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:54
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:137
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -1534,12 +1534,12 @@ msgstr ""
 "на оси Y, как в Microsoft ClearType, DirectWrite и проприетарном движке "
 "рендеринга шрифта компании Adobe. Игнорирует родной хинтинг в шрифте, "
 "генерирует оттенки алгоритмически. Используется в Ubuntu по умолчанию. "
-"Рекомендуется. Значения «medium» и «full» зависят от формата шрифта (.ttf, ."
-"otf, .pfa / .pfb) и установленной версии FreeType. Как правило, они пытаются "
-"подогнать глифы как к оси X, так и к оси Y (за исключением шрифтов .otf: "
-"только по оси Y). Это может привести к искажению и/или непоследовательному "
-"рендерингу в зависимости от качества шрифта, его формата и состояния движка "
-"шрифтов FreeType."
+"Рекомендуется. Значения «medium» и «full» зависят от формата шрифта "
+"(.ttf, .otf, .pfa / .pfb) и установленной версии FreeType. Как правило, они "
+"пытаются подогнать глифы как к оси X, так и к оси Y (за исключением "
+"шрифтов .otf: только по оси Y). Это может привести к искажению и/или "
+"непоследовательному рендерингу в зависимости от качества шрифта, его формата "
+"и состояния движка шрифтов FreeType."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
@@ -2613,45 +2613,54 @@ msgstr ""
 "бокового обзора."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
+msgid "Enable restart/shutdown"
+msgstr "Включить перезапуск/выключение"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+msgid "Allow shutdown and restart actions from the lock screen."
+msgstr "Разрешить действия по выключению и перезапуску с экрана блокировки."
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
 msgid "Activate when idle"
 msgstr "Включать при простое"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Установите значение TRUE, чтобы активировать заставку, когда сессия "
 "простаивает. УСТАРЕВШИЙ: Этот ключ устарел и игнорируется. Установите "
 "значение org.gnome.desktop.session idle-delay равным 0, если вы не хотите "
 "активировать заставку."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
 msgstr "Блокировать при включении"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:17
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:24
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
 "Установите этот ключ, чтобы включать блокировку экрана при включении "
 "хранителя экрана."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:28
 msgid "Time before locking"
 msgstr "Время срабатывания блокировки"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:22
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:29
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 "Количество секунд до блокировки экрана после включения хранителя экрана."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:33
 msgid "Show full name in the lock screen"
 msgstr "Показывать полное имя на заблокированном экране"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -2660,11 +2669,11 @@ msgstr ""
 "влияет только на экран блокировки, имя всегда отображается в диалоге "
 "разблокировки."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:31
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr "Разрешить использование встроенной в окно клавиатуры"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2674,11 +2683,11 @@ msgstr ""
 "попытке разблокировки. Ключ \"keyboard_command\" должен быть задан "
 "соответствующей командой. УСТАРЕЛО: Этот ключ устарел и игнорируется."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr "Команда встроенной клавиатуры"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:41
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2690,11 +2699,11 @@ msgstr ""
 "должна реализовать интерфейс XEMBED plug и вывести XID окна на стандартный "
 "вывод. УСТАРЕЛО: Этот ключ устарел и игнорируется."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Разрешить завершение сеанса"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
@@ -2705,11 +2714,11 @@ msgstr ""
 "Задержка указывается в ключе \"logout_delay\". УСТАРЕВШИЙ: Этот ключ устарел "
 "и игнорируется."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr "Время перед опцией завершения сеанса"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:59
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2721,11 +2730,11 @@ msgstr ""
 "если ключ \"logout_enable\" установлен в TRUE. УСТАРЕВШИЙ: Этот ключ устарел "
 "и игнорируется"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr "Команда завершения сеанса"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:68
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2737,11 +2746,11 @@ msgstr ""
 "взаимодействия. Этот ключ имеет силу, только если ключ \"logout_enable\" "
 "установлен в TRUE. УСТАРЕЛО: Этот ключ устарел и игнорируется."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
 msgstr "Разрешить переключение пользователей"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:77
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -2749,11 +2758,11 @@ msgstr ""
 "Установите этот ключ, чтобы в диалоговом окне разблокировке была опция "
 "переключения на другую учётную запись пользователя."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
 msgstr "Разрешить сообщения о состоянии сеанса"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
