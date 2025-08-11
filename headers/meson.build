@@ -22,11 +22,9 @@ enums_xml = custom_target(
 if get_option('introspection')
   gir_sources = headers
 
-  # Use a dummy .c source for Visual Studio builds-it is not enough
-  # to send in just a header file to build a dummy library on MSVC
-  if cc.get_id() == 'msvc'
-    gir_sources += ['dummy-msvc.c']
-  endif
+  # Use a dummy .c source; Visual Studio and meson 1.9.0 do not accept
+  # header-only sources to build a dummy library
+  gir_sources += ['dummy.c']
 
   noinst_lib = shared_library('noinst',
                               gir_sources,
