@@ -9,17 +9,17 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas 3.9.91\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-03-02 10:08+0000\n"
-"PO-Revision-Date: 2025-03-10 21:37+0200\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
+"POT-Creation-Date: 2025-08-30 11:21+0000\n"
+"PO-Revision-Date: 2025-08-30 19:13+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
-"2 : 3)\n"
-"X-Generator: Gtranslator 47.1\n"
+"2 : 3);\n"
+"X-Generator: Poedit 3.6\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -710,12 +710,12 @@ msgstr ""
 "be used to remove applications that would otherwise be included by category."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:97
 msgid "Picture Options"
 msgstr "Picture Options"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:7
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:91
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:98
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -726,13 +726,13 @@ msgstr ""
 "“spanned”."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:106
 msgid "Picture URI"
 msgstr "Picture URI"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
 #: schemas/org.gnome.desktop.background.gschema.xml.in:24
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:107
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -745,43 +745,43 @@ msgid "Picture URI (dark)"
 msgstr "Picture URI (dark)"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:32
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Picture Opacity"
 msgstr "Picture Opacity"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:33
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Opacity with which to draw the background picture."
 msgstr "Opacity with which to draw the background picture."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:39
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Primary Color"
 msgstr "Primary Color"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:40
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Left or Top color when drawing gradients, or the solid color."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Secondary Color"
 msgstr "Secondary Color"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:47
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Right or Bottom color when drawing gradients, not used for solid color."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:136
 msgid "Color Shading Type"
 msgstr "Color Shading Type"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:54
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:137
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -2545,42 +2545,53 @@ msgstr ""
 "view."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
+msgid "Enable restart/shutdown"
+msgstr "Enable restart/shutdown"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#| msgid "Show notifications in the lock screen"
+msgid "Allow shutdown and restart actions from the lock screen."
+msgstr "Allow shutdown and restart actions from the lock screen."
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
 msgid "Activate when idle"
 msgstr "Activate when idle"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
 msgstr "Lock on activation"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:17
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:24
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr "Set this to TRUE to lock the screen when the screensaver goes active."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:28
 msgid "Time before locking"
 msgstr "Time before locking"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:22
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:29
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 "The number of seconds after screensaver activation before locking the screen."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:33
 msgid "Show full name in the lock screen"
 msgstr "Show full name in the lock screen"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -2588,11 +2599,11 @@ msgstr ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:31
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr "Allow embedding a keyboard into the window"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2602,11 +2613,11 @@ msgstr ""
 "to unlock. The “keyboard_command” key must be set with the appropriate "
 "command. DEPRECATED: This key is deprecated and ignored."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr "Embedded keyboard command"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:41
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2618,11 +2629,11 @@ msgstr ""
 "implement an XEMBED plug interface and output a window XID on the standard "
 "output. DEPRECATED: This key is deprecated and ignored."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Allow logout"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
@@ -2632,11 +2643,11 @@ msgstr ""
 "out after a delay. The delay is specified in the “logout_delay” key. "
 "DEPRECATED: This key is deprecated and ignored."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr "Time before logout option"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:59
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2648,11 +2659,11 @@ msgstr ""
 "“logout_enable” key is set to TRUE. DEPRECATED: This key is deprecated and "
 "ignored"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr "Logout command"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:68
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2664,11 +2675,11 @@ msgstr ""
 "the “logout_enable” key is set to TRUE. DEPRECATED: This key is deprecated "
 "and ignored."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
 msgstr "Allow user switching"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:77
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -2676,11 +2687,11 @@ msgstr ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
 msgstr "Allow the session status message to be displayed"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
