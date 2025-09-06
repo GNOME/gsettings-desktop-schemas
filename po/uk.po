@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schema"
 "s/issues/\n"
-"POT-Creation-Date: 2025-02-19 19:23+0000\n"
-"PO-Revision-Date: 2025-02-24 16:34+0200\n"
+"POT-Creation-Date: 2025-09-06 07:48+0000\n"
+"PO-Revision-Date: 2025-09-06 18:36+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -720,12 +720,12 @@ msgstr ""
 "включені через категорію."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:97
 msgid "Picture Options"
 msgstr "Параметри малюнка"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:7
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:91
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:98
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -736,13 +736,13 @@ msgstr ""
 "«scaled», «stretched», «zoom», «spanned»."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:106
 msgid "Picture URI"
 msgstr "URI зображення"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
 #: schemas/org.gnome.desktop.background.gschema.xml.in:24
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:107
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -755,34 +755,34 @@ msgid "Picture URI (dark)"
 msgstr "URI зображення (темна тема)"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:32
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Picture Opacity"
 msgstr "Непрозорість зображення"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:33
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Opacity with which to draw the background picture."
 msgstr "Непрозорість зображення, що використовується для тла стільниці."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:39
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Primary Color"
 msgstr "Основний колір"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:40
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Початковий колір градієнта (починаючи з лівого або з верхнього боку) або "
 "колір суцільної заливки."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Secondary Color"
 msgstr "Допоміжний колір"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:47
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid ""
 "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
@@ -790,12 +790,12 @@ msgstr ""
 "суцільній заливці не використовується."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:136
 msgid "Color Shading Type"
 msgstr "Тип кольору тіні"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:54
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:137
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -1657,9 +1657,6 @@ msgid "Disable user switching"
 msgstr "Вимкнути перемикання користувачів"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
-#| msgid ""
-#| "Prevent the user from switching to another account while his session is "
-#| "active."
 msgid ""
 "Prevent the user from switching to another account while their session is "
 "active."
@@ -1672,7 +1669,6 @@ msgid "Disable lock screen"
 msgstr "Вимкнути блокування екрана"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-#| msgid "Prevent the user to lock his screen."
 msgid "Prevent the user from locking their screen."
 msgstr "Не давати користувачу можливості блокувати екран."
 
@@ -2612,44 +2608,55 @@ msgstr ""
 "спостереження збоку."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
+msgid "Enable restart/shutdown"
+msgstr "Дозволити перезапуск/вимикання"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#| msgid "Show notifications in the lock screen"
+msgid "Allow shutdown and restart actions from the lock screen."
+msgstr "Дозволити дії з вимикання і перезапуску з екрана блокування."
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
 msgid "Activate when idle"
 msgstr "Активувати при простої"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Встановіть цей ключ, щоб увімкнути зберігач екрана при простоюванні сеансу. "
-"ЗАСТАРІЛО: Цей ключ застарів та ігнорується. Встановіть ключ org.gnome."
-"session.idle-delay у значення 0, якщо ви не бажаєте вмикати зберігач екрана."
+"ЗАСТАРІЛО: Цей ключ застарів та ігнорується. Встановіть ключ "
+"org.gnome.session.idle-delay у значення 0, якщо ви не бажаєте вмикати "
+"зберігач екрана."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
 msgstr "Блокувати при активації"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:17
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:24
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
 "Встановіть цей ключ, щоб вмикати блокування екрана при увімкненні зберігача "
 "екрана."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:28
 msgid "Time before locking"
 msgstr "Час спрацьовування блокування"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:22
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:29
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 "Кількість секунд до блокування екрана після увімкнення зберігача екрана."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:33
 msgid "Show full name in the lock screen"
 msgstr "Показувати повне ім'я на заблокованому екрані"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -2658,11 +2665,11 @@ msgstr ""
 "Це стосується лише фонової частини екрана, ім'я буде безумовно показано у "
 "діалоговому вікні розблоковування."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:31
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr "Дозволити використання вбудованої у вікно клавіатури."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2672,11 +2679,11 @@ msgstr ""
 "при спробі розблоковування системи. Для ключа «keyboard_command» має бути "
 "встановлено відповідну команду. ЗАСТАРІЛО: цей ключ застарів та ігнорується."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr "Команда вбудованої клавіатури"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:41
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2688,11 +2695,11 @@ msgstr ""
 "команда має реалізовувати інтерфейс додатків XEMBED і виводити XID вікна до "
 "стандартного виведення. ЗАСТАРІЛО: цей ключ застарів та ігнорується."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Дозволити вихід"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
@@ -2703,11 +2710,11 @@ msgstr ""
 "можна визначити за допомогою ключа «logout_delay». ЗАСТАРІЛО: цей ключ "
 "застарів та ігнорується."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr "Час перед опцією завершення сеансу"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:59
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2719,11 +2726,11 @@ msgstr ""
 "працює, лише якщо для ключа «logout_enable» встановлено значення «true». "
 "ЗАСТАРІЛО: цей ключ застарів та ігнорується."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr "Команда виходу з сеансу"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:68
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2736,11 +2743,11 @@ msgstr ""
 "«logout_enable» встановлено значення «true». ЗАСТАРІЛО: цей ключ застарів та "
 "ігнорується."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
 msgstr "Дозволити перемикання користувачів"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:77
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -2748,11 +2755,11 @@ msgstr ""
 "Встановіть цей ключ, щоб у діалоговому вікні розблокування була опція "
 "перемикання на інший обліковий запис користувача."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
 msgstr "Дозволити повідомлення про стан сеансу"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
@@ -2769,8 +2776,8 @@ msgid ""
 "Enable basic screen time functionality, recording usage data for viewing "
 "history."
 msgstr ""
-"Увімкнути базові можливості запису екранного часу, даних щодо використання"
-" для перегляду журналу."
+"Увімкнути базові можливості запису екранного часу, даних щодо використання "
+"для перегляду журналу."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
 msgid "Enable daily screen time limit"
@@ -2781,18 +2788,14 @@ msgid ""
 "Enable imposing a screen time limit on the user, as set in daily-limit-"
 "seconds."
 msgstr ""
-"Увімкнути накладання обмеження на час за екраном для користувача, яке"
-" встановлено за допомогою daily-limit-"
-"seconds."
+"Увімкнути накладання обмеження на час за екраном для користувача, яке "
+"встановлено за допомогою daily-limit-seconds."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
 msgstr "Обмеження на щоденний час за екраном"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
-#| msgid ""
-#| "The amount to delay taking the break by, if the user requests a delay, in "
-#| "seconds."
 msgid ""
 "The limit on the amount of daily screen time the user is allowed, in seconds."
 msgstr ""
@@ -2807,8 +2810,8 @@ msgid ""
 "Whether to make the screen grayscale once the user’s screen time limit is "
 "reached."
 msgstr ""
-"Визначає, чи слід змінювати кольори не екрані на тони сірого, щойно буде"
-" досягнуто обмеження на час користувача за екраном."
+"Визначає, чи слід змінювати кольори не екрані на тони сірого, щойно буде "
+"досягнуто обмеження на час користувача за екраном."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -3361,9 +3364,9 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
-"Розташування кнопок у панелі заголовку. Значенням є рядок, наприклад «menu:"
-"minimize,maximize,spacer,close»; двокрапка відокремлює лівий кут вікна від "
-"правого, назви кнопок повинні відокремлюватися комами. Забороняється "
+"Розташування кнопок у панелі заголовку. Значенням є рядок, наприклад "
+"«menu:minimize,maximize,spacer,close»; двокрапка відокремлює лівий кут вікна "
+"від правого, назви кнопок повинні відокремлюватися комами. Забороняється "
 "дублювати кнопки. Невідомі кнопки ігноруються, ці кнопки можуть бути додані "
 "у новіших версіях metacity без конфліктів зі старішими версіями. Можна "
 "використовувати особливий тег заповнювача, щоб додати трохи простору між "
@@ -3757,8 +3760,8 @@ msgid ""
 msgstr ""
 "Цей ключ містить перелік вузлів, з'єднання з якими встановлюється "
 "безпосередньо, обминаючи проксі-службу (якщо вона активна). Значення можуть "
-"бути іменами вузлів, доменами (з використанням шаблонів подібних до *.foo."
-"com), IP адресами вузлів (як IPv4, так і IPv6) та адресами мереж з "
+"бути іменами вузлів, доменами (з використанням шаблонів подібних до "
+"*.foo.com), IP адресами вузлів (як IPv4, так і IPv6) та адресами мереж з "
 "використанням маски (щось схоже не, 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
