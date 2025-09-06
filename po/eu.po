@@ -8,8 +8,8 @@
 msgid ""
 msgstr "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/issues/\n"
-"POT-Creation-Date: 2025-02-19 19:23+0000\n"
-"PO-Revision-Date: 2025-03-01 10:00+0100\n"
+"POT-Creation-Date: 2025-09-04 16:11+0000\n"
+"PO-Revision-Date: 2025-09-06 10:00+0100\n"
 "Last-Translator: Asier Saratsua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -616,12 +616,12 @@ msgid ""
 msgstr "Karpeta honetatik kanpo utzitako aplikazioen IDen zerrenda. Bestela kategorien arabera txertatuta gera zitezkeen aplikazioak kentzeko erabil daiteke."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:97
 msgid "Picture Options"
 msgstr "Irudiaren aukerak"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:7
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:91
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:98
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -629,13 +629,13 @@ msgid ""
 msgstr "“wallpaper_filename“-k ezarritako irudia nola errendatzen den zehazten du. Balio posibleak hauek dira: “none“, “wallpaper“, “centered“, “scaled“, “stretched“, “zoom“, “spanned“."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:106
 msgid "Picture URI"
 msgstr "Irudiaren URIa"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
 #: schemas/org.gnome.desktop.background.gschema.xml.in:24
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:107
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -646,42 +646,42 @@ msgid "Picture URI (dark)"
 msgstr "Irudiaren URIa (iluna)"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:32
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Picture Opacity"
 msgstr "Irudiaren opakutasuna"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:33
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Opacity with which to draw the background picture."
 msgstr "Atzeko planoaren irudia marrazteko opakutasuna."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:39
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Primary Color"
 msgstr "Lehen mailako kolorea"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:40
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr "Ezkerreko edo goiko kolorea gradienteak marraztean, edo kolore lisoa."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Secondary Color"
 msgstr "Bigarren mailako kolorea"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:47
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "Eskuineko edo beheko kolorea gradienteak marraztean; ez da erabiltzen kolore lisoentzat."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:136
 msgid "Color Shading Type"
 msgstr "Koloreen itzaldura-mota"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:54
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:137
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -2208,59 +2208,68 @@ msgid ""
 msgstr "Azpiko hardwareak pribatutasun-pantailak onartzen baditu eta ezarpen hau gaituta badago, teknologia hori onartzen duten panelak ilundu egingo dira alboko ikuspegitik."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
+msgid "Enable restart/shutdown"
+msgstr "Gaitu berrabiaraztea/itzaltzea"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+msgid "Allow shutdown and restart actions from the lock screen."
+msgstr "Onartu blokeo-pantailatik itzaltzea eta berrabiaraztea."
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
 msgid "Activate when idle"
 msgstr "Aktibatu inaktibo dagoenean"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr "Ezarri TRUE (egia) pantaila-babeslea aktibatzeko saioa inaktibo dagoenean. ZAHARKITUTA: Gako hori zaharkituta dago eta ez ikusiarena egingo zaio. Ezarri org.gnome.session.idle-delay gakoa 0 balioarekin ez baduzu nahi pantaila-babeslea aktibatzea."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
 msgstr "Blokeatu aktibatzean"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:17
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:24
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr "Ezarri TRUE (egia) pantaila blokeatzeko pantaila-babeslea aktibatzera doanean."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:28
 msgid "Time before locking"
 msgstr "Denbora blokeatu aurretik"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:22
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:29
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr "Segundo kopurua, pantaila-babeslea aktibatu eta pantaila blokeatu bitartekoa."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:33
 msgid "Show full name in the lock screen"
 msgstr "Erakutsi izen osoa blokeatutako pantailan"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr "Erabiltzailearen izen osoa blokeatutako pantailan erakutsiko den edo ez. Honek blindatutako pantailari soilik eragiten dio, izena beti erakusten baita desblokeatzeko elkarrizketa-koadroan."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:31
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr "Baimendu teklatua leihoan kapsulatzea"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
 "command. DEPRECATED: This key is deprecated and ignored."
 msgstr "Ezarri TRUE (egia) teklatua leiho batean desblokeatzen saiatzean kapsulatzea baimentzeko. “keyboard_command” gakoa komando egokiarekin ezarrita egon behar du. ZAHARKITUTA: Gako hori zaharkituta dago eta ez ikusiarena egingo zaio."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr "Kapsulatutako teklatu komandoa"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:41
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2268,22 +2277,22 @@ msgid ""
 "output. DEPRECATED: This key is deprecated and ignored."
 msgstr "Exekutatu egingo den komandoa, “embedded_keyboard_enable” gakoa TRUE gisa ezartzen bada, teklatuaren trepeta bat leihoan kapsulatzeko. Komando honek XEMBED interfaze-osagaia garatuta eduki beharko luke, eta irteera estandarrean XID leihoa marraztu. ZAHARKITUTA: Gako hori zaharkituta dago eta ez ikusiarena egingo zaio."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Baimendu saio-amaiera"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr "Ezarri TRUE (egia) desblokeatzeko elkarrizketa-koadroan saioa amaitzeko aukera eskaintzeko, atzerapen baten ondoren. Atzerapena “logout_delay” gakoan zehaztuta dago. ZAHARKITUTA: Gako hori zaharkituta dago eta ez ikusiarena egingo zaio."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr "Denbora saioa amaitzeko aukeraren aurretik"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:59
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2291,11 +2300,11 @@ msgid ""
 "ignored"
 msgstr "Minutu kopurua, pantaila-babeslea aktibatu eta saioa amaitzeko aukera desblokeatzeko elkarrizketa-koadroan agertu bitartean. Gako honek “logout_enable” gakoan TRUE (egia)ezartzen bada bakarrik izango du eragina. ZAHARKITUTA: gako hau zaharkituta dago eta ez ikusi egiten zaio."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr "Saio-amaierako komandoa"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:68
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2303,21 +2312,21 @@ msgid ""
 "and ignored."
 msgstr "Komandoa, saioa amaitzeko botoian klik egitean erabiliko dena. Komando honek beste interakziorik gabe saioa amaitu beharko luke. Gako honek “logout_enable” gakoan TRUE (egia)ezartzen bada bakarrik izango du eragina. ZAHARKITUTA: Gako hori zaharkituta dago eta ez ikusiarena egingo zaio."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
 msgstr "Baimendu erabiltzaile-aldaketa"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:77
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr "Ezarri TRUE gisa desblokeatzeko elkarrizketa-koadroan aukera bat eskaintzeko, beste erabiltzaile batera aldatzeko."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
 msgstr "Baimendu saioaren egoeraren mezua bistaratzea"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
