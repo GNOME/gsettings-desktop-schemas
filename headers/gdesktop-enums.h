@@ -286,4 +286,9 @@ typedef enum
   G_DESKTOP_ACCENT_COLOR_SLATE
 } GDesktopAccentColor;
 
+typedef enum {
+  G_DESKTOP_REDUCED_MOTION_NO_PREFERENCE,
+  G_DESKTOP_REDUCED_MOTION_REDUCE
+} GDesktopReducedMotion;
+
 #endif /* __gdesktop_enums_h__ */
