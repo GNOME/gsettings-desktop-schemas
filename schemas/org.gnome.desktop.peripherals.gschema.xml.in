@@ -25,6 +25,12 @@
       <summary>Whether to disable the touchpad while typing</summary>
       <description>When enabled, touchpads will be disabled while typing on the keyboard.</description>
     </key>
+    <key name="disable-while-typing-timeout" type="u">
+      <default>500</default>
+      <summary>Timeout in milliseconds until the touchpad is enabled after typing</summary>
+      <description>Touchpads will be disabled for this many milliseconds after typing on the keyboard.</description>
+      <range min="100" max="5000"/>
+    </key>
     <key name="tap-to-click" type="b">
       <default>true</default>
       <summary>Enable mouse clicks with touchpad</summary>
