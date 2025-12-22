@@ -201,6 +201,21 @@
       <summary>Eraser pressure range</summary>
       <description>Set this to the percentage of the physical pressure range that should map to the logical range.</description>
     </key>
+    <key name="eraser-button-mode" enum="org.gnome.desktop.GDesktopStylusEraserButtonMode">
+      <default>'default'</default>
+      <summary>Eraser button mode</summary>
+      <description>Set this to change the behavior of the eraser button.</description>
+    </key>
+    <key name="eraser-button-action" enum="org.gnome.desktop.GDesktopStylusButtonAction">
+      <default>'default'</default>
+      <summary>Eraser button action</summary>
+      <description>Set this to the button action triggered if the eraser button is in 'button' mode.</description>
+    </key>
+    <key type="s" name="eraser-button-keybinding">
+      <default>''</default>
+      <summary>Key combination for the eraser button if in 'button' mode</summary>
+      <description>The keyboard shortcut generated when the button is pressed for custom actions.</description>
+    </key>
     <key name="button-action" enum="org.gnome.desktop.GDesktopStylusButtonAction">
       <default>'right'</default>
       <summary>Button action</summary>
