@@ -1,23 +1,23 @@
 # Georgian translation for gsettings-desktop-schemas.
 # Copyright (C) 2025, gsettings-desktop-schemas authors
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
-# Ekaterine Papava <papava.e@gtu.ge>, 2023-2025.
+# Ekaterine Papava <papava.e@gtu.ge>, 2023-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-09-04 09:42+0000\n"
-"PO-Revision-Date: 2025-09-04 12:12+0200\n"
+"POT-Creation-Date: 2026-01-09 10:47+0000\n"
+"PO-Revision-Date: 2026-01-25 11:18+0100\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -85,6 +85,14 @@ msgid ""
 msgstr ""
 "გამოვიყენო თუ არა მოხაზულობები სტატუსებს მაჩვენებლად ფერის მაგიერ თუ ფერთან "
 "ერთად."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr "შეზღუდული მოძრაობა"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr "შეზღუდული მოძრაობის ტიპი."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -921,6 +929,20 @@ msgstr "კალენდარში კვირის რიცხვის 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
 msgid "If true, display the ISO week date in the calendar."
 msgstr "თუ ჭეშმარიტია, კალენდარში ISO კვირის თარიღის ჩვენება."
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr "კვირის პირველი დღე"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
+msgstr ""
+"კვირის პირველი დღე. სწორი მნიშვნელობებია \"ნაგულისხმევი\", \"ორშაბათი\", "
+"\"სამშაბათი\", \"ოთხშაბათი\", \"ხუთშაბათი\", \"პარასკევი\", \"შაბათი\" და "
+"\"კვირა. \"ნაგულისხმევი\" სისტემის ენის პარამეტრებს ეყრდნობა."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1912,21 +1934,32 @@ msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr "როცა ჩართულია, თაჩპედები გაითიშება კლავიატურაზე კრეფისას."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+msgid "Timeout in milliseconds until the touchpad is enabled after typing"
+msgstr "დაყოვნება მილიწამებში, სანამ თაჩპედი ჩაირთვება აკრეფის შემდეგ"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+msgid ""
+"Touchpads will be disabled for this many milliseconds after typing on the "
+"keyboard."
+msgstr ""
+"თაჩპედები გაითიშება ამ რაოდენობის მილიწამით კლავიატურაზე აკრეფის შემდეგ."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
 msgstr "თაჩპედით თაგუნას დაწკაპუნების ჩართვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:37
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "დააყენეთ ეს ჭეშმარიტზე, რომ გქონდეთ საშუალება, მაუსის წკაპები თაჩპედზე "
 "დატყაპუნებით მოახდინოთ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
 msgstr "დასატყაპუნებელი ღილაკების რუკა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -1936,11 +1969,11 @@ msgstr ""
 "ნაგულისხმევია, რომ გქონდეთ 1, 2 და 3 თითიანი ტრაპები მარცხენა, მარჯვენა და "
 "შუა ღილაკზე (\"lrm\") შესაბამისად."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
 msgstr "თაჩპედით დატყაპუნების-და-გადათრევის ჩართვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1948,11 +1981,11 @@ msgstr ""
 "დააყენეთ ეს ჭეშმარიტზე, რომ შეგეძლოთ გადათრევა დატყაპუნებით და ეგრევე იმ "
 "თითის გადათრევით, რომელიც თაჩპედს დააჭირეთ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "თაჩპედით დატყაპუნების-და-გადათრევა-ჩაკეტვა ჩართვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -1960,32 +1993,32 @@ msgstr ""
 "დააყენეთ ეს ჭეშმარიტზე, რომ დაბლოკოთ გადათრევის მომენტი მოკლე დაყოვნებაში, "
 "როცა თითს აიღებთ თაჩპედიდან და პარამეტრი tap-and-drag ჩართულია."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
 msgstr "თაჩპედი ჩართულია"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "აღწერს სიტუაციებს, როცა თაჩპედი ჩართულია."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "თაჩპედის ღილაკის ორიენტაცია"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr "თაგუნას მარცხენა და მარჯვენა ღილაკების მიმოცვლა."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid "Acceleration profile"
 msgstr "აჩქარების პროფილი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2004,13 +2037,13 @@ msgstr ""
 "თუ თაჩპედს მითითებული პროფილის მხარდაჭერა რა გააჩნია, გამოყენებული იქნება "
 "'ნაგულისხმევი'."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Pointer speed"
 msgstr "მაჩვენებლის სიჩქარე"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2019,22 +2052,22 @@ msgstr ""
 "('აჩქარების გარეშედან' 'ჩქარამდე). ნულოვანი მნიშვნელობა სისტემის "
 "ნაგულისხმევია."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Natural scrolling"
 msgstr "ჩვეულებრივი გადახვევა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "დააყენეთ ეს ჭეშმარიტზე, თაჩპედისთვის რათა ნატურალური (უკუღმა) გადახვევა "
 "ჩართოთ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Click method"
 msgstr "დაწკაპუნების მეთოდი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2045,15 +2078,15 @@ msgstr ""
 "(\"თითები\") ან დატოვეთ აპარატურის ნაგულისხმევ მნიშვნელობაზე "
 "(\"ნაგულისხმევი\")."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Emulate middle click"
 msgstr "თაგუნას შუა ღილაკის ემულაცია"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2061,35 +2094,35 @@ msgstr ""
 "დააყენეთ ეს ჭეშმარიტზე, რათა ჩართოთ შუა ღილაკის ემულაცია მარცხენა და "
 "მარჯვენა ღილაკის ერთდროული წკაპით."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
 msgstr "კლავიატურის გამეორება"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "ააყენეთ ეს ჭეშმარიტზე, რათა კლავიატურის გამეორება ჩართოთ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Key Repeat Interval"
 msgstr "ღილაკის გამეორების ინტერვალი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Delay between repeats in milliseconds."
 msgstr "დაყოვნება გამეორებებს შორის, მილიწამებში."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Initial Key Repeat Delay"
 msgstr "საწყისი ღილაკის გამეორების დაყოვნება"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Initial key repeat delay in milliseconds."
 msgstr "საწყისი ღილაკის გამეორების დაყოვნება, მილიწამებში."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Remember NumLock state"
 msgstr "NumLock-ის მდგომარეობის დამახსოვრება"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2097,23 +2130,23 @@ msgstr ""
 "როცა დაყენებულია ჭეშმარიტზე, GNOME სესიებს შორის დაიმახსოვრებს NumLock LED-"
 "ის მდგომარეობას."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "NumLock state"
 msgstr "NumLock-ის მდგომარეობა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "The remembered state of the NumLock LED."
 msgstr "NumLock-ის LED-ის დამახსოვრებული მდგომარეობა."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Mouse button orientation"
 msgstr "თაგუნას ღილაკის ორიენტაცია"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "თაგუნას მარცხენა და მარჯვენა ღილაკების მიმოცვლა ცაციებისთვის."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2122,13 +2155,13 @@ msgstr ""
 "('აჩქარების გარეშედან' 'ჩქარამდე). ნულოვანი მნიშვნელობა სისტემის "
 "ნაგულისხმევია."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "დააყენეთ ეს ჭეშმარიტზე თაგუნებისთვის, რათა ნატურალური (უკუღმა) გადახვევა "
 "ჩართოთ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -2147,27 +2180,27 @@ msgstr ""
 "თუ თაგუნას მითითებული პროფილის მხარდაჭერა რა გააჩნია, გამოყენებული იქნება "
 "'ნაგულისხმევი'."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
 msgstr "ორმაგი წკაპის დრო"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Length of a double click in milliseconds."
 msgstr "ორმაგი წკაპის ხანგრძლივობა მილიწამებში."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Drag threshold"
 msgstr "გადათრევის ზღვარი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Distance before a drag is started."
 msgstr "მანძილი, სანამ გადათრევა დაიწყება."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Drawing tablet mapping"
 msgstr "ტაბლეტის ასახვის დახატვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2177,19 +2210,19 @@ msgstr ""
 "[მომწოდებელი, პროდუქტი, სერიული]. [\"\",\"\",\"\"\"] ავტომატურ ასახვას "
 "ეყრდნობა."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
 msgstr "ტაბლეტის ასახვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
 msgstr "როგორ მოქმედებს შეყვანა კურსორზე"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
 msgstr "ტაბლეტის რეგიონი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2197,11 +2230,11 @@ msgstr ""
 "მკვდარი ადგილის შევსება აქტიური ადგილის გარშემო, პროცენტებში. შესაბამისად "
 "გადატარდება მარცხენა, მარჯვენა, ზედა და ქვედა მხარეებზე."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
 msgstr "ტაბლეტის ასპექტის ფარდობა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2209,31 +2242,31 @@ msgstr ""
 "ჩართეთ, რომ შეზღუდოთ ტაბლეტის ადგილი ისე, რომ გამოტანის ზომის ფარდობას "
 "ემთხვეოდეს."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
 msgstr "ტაბლეტის ცაცია რეჟიმი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr "ჩართეთ, რომ დაუშვათ ტაბლეტის ფიზიკურად მობრუნება ცაციებისთვის"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
 msgstr "სტილუსის დაწოლის მრუდი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "დააყენეთ ეს x1, y1 და x2, y2-ზე დაწოლის მრუდისა, რომელიც სტილუსზე მოქმედებს."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
 msgstr "სტილუსის დაწოლის შუალედი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2241,33 +2274,69 @@ msgstr ""
 "დააყენეთ ეს ფიზიკური დაწყოლის პროცენტულ ნაწილზე, რომელიც ლოგიკურ შუალედზე "
 "გნებავთ, აისახოს."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
 msgstr "საშლელის დაწოლის მრუდი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "დააყენეთ ეს x1, y1 და x2,y2-ზე დაწოლის მრუდისა, რომელიც საშლელზე მოქმედებს."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
 msgstr "საშლელის დაწოლის შუალედი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+msgid "Eraser button mode"
+msgstr "საშლელი ღილაკის რეჟიმი"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr "დააყენეთ ეს საშლელი ღილაკის ქცევის შესაცვლელად."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid "Eraser button action"
+msgstr "საშლელი ღილაკის ქმედება"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr ""
+"დააყენეთ ამ ღილაკის ქმედება, რომელიც ტრიგერდება, თუ საშლელი ღილაკი 'ღილაკის' "
+"რეჟიმშია."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid "Key combination for the eraser button if in 'button' mode"
+msgstr "ღილაკების კომბინაცია საშლელი ღილაკისთვის, თუ ის 'ღილაკის' რეჟიმშია"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:247
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"კლავიატურის მალსახმობი, რომელიც შეიქმნა, როცა მომხმარებლის ქმედებისთვის "
+"ღილაკს დააწექით."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Button action"
 msgstr "ღილაკის ქმედება"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "სტილუსის ღილაკის ქმედება. ეს ღილაკი კალმის სახელურზეა მოთავსებული."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
 msgstr "დამხმარე ღილაკის ქმედება"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2278,11 +2347,11 @@ msgstr ""
 "მაგალითად Airbrush Pen ან Inking Pen ან Inking Pen, მხოლოდ, ერთი ღილაკი აქვთ "
 "და ეს პარამეტრი, მათზე, ეფექტური არაა."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
 msgstr "მესამე ღილაკის ქმედება"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2293,46 +2362,35 @@ msgstr ""
 "მაგალითად Grip Pen, მხოლოდ ორი ღილაკი აქვთ და მათზე ეს პარამეტრი არ "
 "მოქმედებს."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
 msgstr "ღილაკების მიმდევრობა ძირითადი ღილაკისთვის"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
-msgstr ""
-"კლავიატურის მალსახმობი, რომელიც შეიქმნა, როცა მომხმარებლის ქმედებისთვის "
-"ღილაკს დააწექით."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
 msgid "Key combination for the secondary button"
 msgstr "ღილაკების მიმდევრობა დამხმარე ღილაკისთვის"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Key combination for the tertiary button"
 msgstr "ღილაკების მიმდევრობა მესამეული ღილაკისთვის"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
 msgid "Pad button action type"
 msgstr "პანელის ღილაკის მოქმედების ტიპი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
 msgstr "იმ ქმედების ტიპი, რომელიც ამ ღილაკის დაწოლით დატრიგერდა."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
 msgstr "ღილაკების მიმდევრობა მომხმარებლის ქმედებისთვის"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
 msgid "Touchscreen output mapping"
 msgstr "სენსორული ეკრანის გამოტანის ასახვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2342,15 +2400,15 @@ msgstr ""
 "ფორმატით [მომწოდებელი, პროდუქტი, სერიული]. [\"\",\"\",\"\"\"] ავტომატურ "
 "ასახვას ეყრდნობა."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "თაგუნას ბორბლის ემულაცის ღილაკი. 0 ამ ფუნქციის გასათიშად."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Mouse wheel emulation button lock"
 msgstr "თაგუნას ბორბლის ემულაციის ღილაკის ჩაკეტვა"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2360,7 +2418,7 @@ msgstr ""
 "ღილაკისთვის. თუ ჩართულია, ღილაკზე პირველი წკაპი ჩართავს გადახვევას, მეორე კი "
 "გამორთავს მას."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2377,7 +2435,7 @@ msgstr ""
 "მითითებული პროფილის მხარდაჭერა არ გააჩნია, გამოყენებული იქნება "
 "\"ნაგულისხმევი\"."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2386,7 +2444,7 @@ msgstr ""
 "შუალედი ('აჩქარების გარეშედან' 'ჩქარამდე). ნულოვანი მნიშვნელობა სისტემის "
 "ნაგულისხმევია."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2403,11 +2461,11 @@ msgstr ""
 "მაჩვენებელ ჯოხს მითითებული პროფილის მხარდაჭერა არ გააჩნია, გამოყენებული "
 "იქნება \"ნაგულისხმევი\"."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
 msgstr "გადახვევის მეთოდი"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2766,9 +2824,11 @@ msgstr "ეკრანის ყოველდღიური დროის 
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
 msgid ""
-"Enable imposing a screen time limit on the user, as set in daily-limit-"
-"seconds."
-msgstr "მომხმარებელზე ეკრანის დროის შეზღუდვის დაწესება დღეში-წამებით."
+"Enable imposing a screen time limit on the user, as set in “daily-limit-"
+"seconds”."
+msgstr ""
+"მომხმარებლის ეკრანის დროის ზღვრის დაყენების ჩართვა, როგორც დაყენებულია "
+"ცვლადში \"daily-limit-seconds\"."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2866,6 +2926,18 @@ msgstr "სესიის ტიპი"
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "გამოსაყენებელი სესიის სახელი. ცნობილი მნიშვნელობაა \"gnome\"."
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:17
+msgid "Session save/restore enabled"
+msgstr "სესიის შენახვა/აღდგენა ჩართულია"
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr ""
+"როცა ჭეშმარიტია, გაშვებული აპები შენახული იქნება სესიიდან გასვლისას და "
+"აღდგენა შემდეგი შესვლისას."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
