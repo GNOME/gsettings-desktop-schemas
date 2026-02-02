@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-09-06 15:37+0000\n"
-"PO-Revision-Date: 2025-09-06 23:29+0300\n"
-"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
+"POT-Creation-Date: 2026-01-09 10:47+0000\n"
+"PO-Revision-Date: 2026-02-02 23:05+0200\n"
+"Last-Translator: Aurimas Černius <aurimas.cernius@mailo.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -85,6 +85,14 @@ msgstr "Rodyti būsenų figūras"
 msgid ""
 "Whether to use shapes to indicate status in addition or instead of color."
 msgstr "Ar naudoti figūras būsenai nurodyti kartu su arba vietoje spalvos."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr "Sumažintas judesys"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr "Sumažinto judesio tipas."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -900,6 +908,20 @@ msgstr "Kalendoriuje rodyti savaitės dieną"
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
 msgid "If true, display the ISO week date in the calendar."
 msgstr "Jei teigiama, rodyti ISO savaitės dieną kalendoriuje."
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr "Pirmoji savaitės diena"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
+msgstr ""
+"Pirmoji savaitės diena. Galimos vertės yra „default“, „monday“, „tuesday“, "
+"„wednesday“, „thursday“, „friday“, „saturday“, „sunday“. „default“ veikia "
+"kaip atsarginė sistemos lokalės nuostatoms."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1717,7 +1739,7 @@ msgstr ""
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:21
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
-msgstr "x-content/* tipų sąrašas, kur paleidžiama pageidaujama programa"
+msgstr "Sąrašas x-content/* tipų, kur bus paleidžiama pageidaujama programa"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:22
 msgid ""
@@ -1725,13 +1747,13 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
-"x-content/* tipų sąrašas, kuriems naudotojas pasirinko paleisti programą. "
+"Sąrašas x-content/* tipų, kuriems naudotojas pasirinko paleisti programą. "
 "Pageidaujama programa nurodytam tipui bus paleista laikmenos įdėjimo metu "
-"laikmenoms, atitinkančioms šiuos tipus"
+"laikmenoms, atitinkančioms šiuos tipus."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:26
 msgid "List of x-content/* types set to “Do Nothing”"
-msgstr "x-content/* tipų sąrašas, nustatytų į „Nieko nedaryti“"
+msgstr "Sąrašas x-content/* tipų, nustatytų į „Nieko nedaryti“"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:27
 msgid ""
@@ -1739,13 +1761,13 @@ msgid ""
 "preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
-"x-content/* tipų sąrašas, kuriems naudotojas pasirinko paleisti „Nieko "
+"Sąrašas x-content/* tipų, kuriems naudotojas pasirinko paleisti „Nieko "
 "nedaryti“. Laikmenos įdėjimo metu, laikmenoms, atitinkančioms šiuos tipus, "
-"nebus rodomas joks klausimas ir nebus paleidžiama jokia programa.\\"
+"nebus rodomas joks klausimas ir nebus paleidžiama jokia programa."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:31
 msgid "List of x-content/* types set to “Open Folder”"
-msgstr "x-content/* tipų sąrašas, nustatytų į „Atverti aplanką“"
+msgstr "Sąrašas x-content/* tipų, nustatytų į „Atverti aplanką“"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:32
 msgid ""
@@ -1753,7 +1775,7 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
-"x-content/* tipų sąrašas, kuriems naudotojas pasirinko „Atverti aplanką“. "
+"Sąrašas x-content/* tipų, kuriems naudotojas pasirinko „Atverti aplanką“. "
 "Aplanko langas bus atvertas laikmenos įdėjimo metu laikmenoms, "
 "atitinkančioms šiuos tipus."
 
@@ -1873,21 +1895,34 @@ msgstr ""
 "Kai įjungta, spaudinėjant klaviatūrą bus išjungti jutikliniai kilimėliai."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+msgid "Timeout in milliseconds until the touchpad is enabled after typing"
+msgstr ""
+"Laikas milisekundėmis iki jutiklinis kilimėlis yra įjungiamas po rašymo"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+msgid ""
+"Touchpads will be disabled for this many milliseconds after typing on the "
+"keyboard."
+msgstr ""
+"Tiek milisekundžių bus išjungti jutikliniai kilimėliai spaudinėjant "
+"klaviatūrą."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
 msgstr "Įjungti pelės paspaudimus jutikliniu kilimėliu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:37
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Nustatykite TEIGIAMĄ, kad galėtumėt siųsti pelės paspaudimus tapštelėdami "
 "jutiklinį kilimėjį."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
 msgstr "Mygtukų susiejimas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -1897,11 +1932,11 @@ msgstr ""
 "Numatyta paspaudimą 1, 2 arba 3 pirštais susieti su atitinkamai kairiu, "
 "dešinio bei viduriniu paspaudimais („lrm“)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Įjungti paspaudimą ir tempimą jutikliniu kilimėliu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1909,11 +1944,11 @@ msgstr ""
 "Nustatykite TEIGIAMĄ, kad galėtumėt pradėti tempimą paspausdami ir "
 "nedelsiant judindami nuspaustą pirštą jutikliniame kilimėlyje."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "Įjungti paspaudimą ir tempimą užrakinant jutikliniu kilimėliu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -1922,19 +1957,19 @@ msgstr ""
 "kai pirštas yra pakeliamas nuo kilimėlio ir tap-and-drag nustatymas yra "
 "įjungtas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
 msgstr "Jutiklinis kilimėlis įjungtas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Aprašo situacijas, kada jutiklinis kilimėlis yra įjungtas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "Jutiklinio kilimėlio mygtuko orientacija"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1942,14 +1977,14 @@ msgstr ""
 "Sukeiskite kairįjį ir dešinįjį pelės mygtukus kairiarankiui su „left“, "
 "„right“ naudojama dešiniarankiams, „mouse“ atkartoja pelės nustatymus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid "Acceleration profile"
 msgstr "Spartinimo profilis"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -1967,13 +2002,13 @@ msgstr ""
 "pelės judėjimą. Jei jutiklinis kilimėlis nepalaiko nustatyto profilio, bus "
 "naudojama vertė „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Pointer speed"
 msgstr "Rodyklės greitis"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1981,22 +2016,22 @@ msgstr ""
 "Rodyklės greitis jutikliniam kilimėliui. Galimos vertės yra rėžyje [-1..1] "
 "(nuo nespartinamo iki greito. Vertė 0 yra sistemos numatytoji."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Natural scrolling"
 msgstr "Natūrali slinktis"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Nustatykite TEIGIAMĄ natūraliai (atvirkštinei) slinkčiai jutikliniams "
 "kilimėliams."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Click method"
 msgstr "Paspaudimo metodas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2006,15 +2041,15 @@ msgstr ""
 "(„none“), per specifines sritis („areas“), pirštų skaičių („fingers“) arba "
 "aparatūros numatytą („default“)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Emulate middle click"
 msgstr "Emuliuoti vidurinį paspaudimą"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2022,58 +2057,58 @@ msgstr ""
 "Nustatyti į TEIGIAMĄ, kad būtų įjungtas vidurinis paspaudimas įvykus "
 "kairiajam ir dešiniajam tuo pat metu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
 msgstr "Klaviatūros pasikartojimai"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nustatykite TEIGIAMĄ klaviatūros pasikartojimams įjungti."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Key Repeat Interval"
 msgstr "Klavišų pasikartojimo intervalas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Delay between repeats in milliseconds."
 msgstr "Laiko tarpas tarp pasikartojimų milisekundėmis."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Initial Key Repeat Delay"
 msgstr "Pradinis klavišų pasikartojimo intervalas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Pradinis klavišų pasikartojimo intervalas milisekundėmis."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Remember NumLock state"
 msgstr "Įsiminti NumLock būseną"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
 "Jei nustatyta teigiama, GNOME įsimins NumLock lemputės būseną tarp seansų."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "NumLock state"
 msgstr "NumLock būsena"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "The remembered state of the NumLock LED."
 msgstr "Įsiminta NumLock lemputės būsena."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Mouse button orientation"
 msgstr "Pelės mygtukų orientacija"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Sukeisti kairįjį ir dešinįjį pelės mygtukus kairiarankio pelei."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2081,11 +2116,11 @@ msgstr ""
 "Rodyklės greitis pelei. Galimo vertės yra rėžyje [-1..1] (nuo nespartinamo "
 "iki greito). Sistemos numatytoji vertė yra 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Nustatyti TEIGIAMĄ natūraliai (atvirkštinei) slinkčiai pele."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -2102,27 +2137,27 @@ msgstr ""
 "adaptyviai („adaptive“), kai spartinimas pritaikomas pagal pelės judėjimą. "
 "Jei pelė nepalaiko nustatyto profilio, bus naudojama vertė „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
 msgstr "Dvigubo spustelėjimo laikas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Length of a double click in milliseconds."
 msgstr "Dvigubo spustelėjimo trukmė milisekundėmis."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Drag threshold"
 msgstr "Vilkimo slenkstis"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Distance before a drag is started."
 msgstr "Atstumas, po kurio pradedamas vilkimas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Drawing tablet mapping"
 msgstr "Piešimo planšetės susiejimai"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2131,19 +2166,19 @@ msgstr ""
 "EDID informacija, su kuria susieta planšetė. Turi būti formato [tiekėjas, "
 "produktas, serija]. [\"\",\"\",\"\"] išjungia susiejimą."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
 msgstr "Planšetės susiejimai"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
 msgstr "Kai įvestis paveikia rodyklę ekrane"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
 msgstr "Planšetės sritis"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2151,41 +2186,41 @@ msgstr ""
 "Neveiksni sritis aplink aktyvią sritį procentais. Atitinkamai pritaikoma "
 "kairei, dešinei, viršutinei ir apatinei pusėms."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
 msgstr "Planšetės proporcijos"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr "Įjunkite planšetės sričiai apriboti iki išvesties proporcijų."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
 msgstr "Planšetės kairiarankio veiksena"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Įjunkite, kad galėtumės fiziškai pasukti planšetę kairiarankio nustatymams"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
 msgstr "Pieštuko spaudimo kreivė"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Nustatykite į x1, y1 ir »č, y2 pieštukui taikomai spaudimo kreivei."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
 msgstr "Pieštuko spaudimo rėžiai"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2193,32 +2228,68 @@ msgstr ""
 "Nustatykite į procentą nuo fizinio paspaudimo, kuris turi atitikti loginį "
 "rėžį."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
 msgstr "Trintuko spaudimo kreivė"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Nustatykite į x1, y1 ir »č, y2 trintukui taikomai spaudimo kreivei."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
 msgstr "Trintuko spaudimo rėžiai"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+msgid "Eraser button mode"
+msgstr "Trynimo mygtuko veiksena"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr "Nustatykite šią trynimo mygtuko elgsenai pakeisti."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid "Eraser button action"
+msgstr "Trynimo mygtuko veiksmas"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr ""
+"Nustatykite šią į mygtuko veiksmą, sukeliamą, kai trynimo mygtukas yra "
+"„mygtuko“ veiksenoje."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid "Key combination for the eraser button if in 'button' mode"
+msgstr "Klavišų kombinacija trynimo mygtukui, jei „mygtuko“ veiksenoje"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:247
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Klaviatūros trumpinys, kuris yra sugeneruojamas paspaudus mygtuką "
+"pasirinktiniems veiksmams."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Button action"
 msgstr "Mygtuko veiksmas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Pieštuko mygtuko veiksmas, šis mygtukas yra pieštuko šone."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
 msgstr "Antrinio mygtuko veiksmas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2229,11 +2300,11 @@ msgstr ""
 "Airbrush Pen ar Inking Pen, turi tik vieną mygtuką, tad juos šis nustatymas "
 "neveikia."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
 msgstr "Trečiojo mygtuko veiksmas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2243,46 +2314,35 @@ msgstr ""
 "kuriuose pieštukuose, pavyzdžiui 3D Pen. Kiti pieštukai, tokie kaip Grip "
 "Pen, turi tik du mygtukus, tad juos šis nustatymas neveikia."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
 msgstr "Klavišų kombinacija pirminiam mygtukui"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
-msgstr ""
-"Klaviatūros trumpinys, kuris yra sugeneruojamas paspaudus mygtuką "
-"pasirinktiniems veiksmams."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
 msgid "Key combination for the secondary button"
 msgstr "Klavišų kombinacija antriniam mygtukui"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Key combination for the tertiary button"
 msgstr "Klavišų kombinacija tretiniam mygtukui"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
 msgid "Pad button action type"
 msgstr "Jutiklinio kilimėlio veiksmo tipas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
 msgstr "Veiksmo tipas, kurį sukelia paspaustas mygtukas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
 msgstr "Pasirinktinio veiksmo klavišų kombinacija"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
 msgid "Touchscreen output mapping"
 msgstr "Liečiamojo ekrano susiejimas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2291,15 +2351,15 @@ msgstr ""
 "EDID informacija, su kuria susietas liečiamasis ekranas. Turi būti formato "
 "[tiekėjas, produktas, serija]. [\"\", \"\", \"\"] išjungia susiejimą."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Pelės ratuko emuliacijos mygtukas. 0 savybei išjungti."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Mouse wheel emulation button lock"
 msgstr "Pelės ratuko emuliacijos mygtuko užrakinimas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2309,7 +2369,7 @@ msgstr ""
 "Jei įjungta, pirmasis paspaudimas leidžia slinkimą, antrasis paspaudimas vėl "
 "jį išjungia."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2325,7 +2385,7 @@ msgstr ""
 "spartinimą priklausomai nuo judėjimo. Jei valdymo rutuliukas nepalaiko "
 "nustatyto profilio, bus naudojama vertė „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2333,7 +2393,7 @@ msgstr ""
 "Žymeklio greitis valdymo lazdelėms. Galimo vertės yra rėžyje [-1..1] (nuo "
 "nespartinamo iki greito). Sistemos numatytoji vertė yra 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2349,11 +2409,11 @@ msgstr ""
 "spartinimą priklausomai nuo judėjimo. Jei valdymo lazdelė nepalaiko "
 "nustatyto profilio, bus naudojama vertė „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
 msgstr "Slinkties metodas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2705,11 +2765,11 @@ msgstr "Įjungti kasdienį ekrano laiko ribojimą"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
 msgid ""
-"Enable imposing a screen time limit on the user, as set in daily-limit-"
-"seconds."
+"Enable imposing a screen time limit on the user, as set in “daily-limit-"
+"seconds”."
 msgstr ""
-"Leisti riboti ekrano laiką naudotojui, kaip nurodyta nuostatoje daily-limit-"
-"seconds."
+"Leisti riboti ekrano laiką naudotojui, kaip nurodyta nuostatoje „daily-limit-"
+"seconds“."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2805,6 +2865,18 @@ msgstr "Seanso tipas"
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Naudotinas seanso pavadinimas. Žinoma vertė yra „gnome“."
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:17
+msgid "Session save/restore enabled"
+msgstr "Seanso įrašymas/atkūrimas įjungtas"
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr ""
+"Jei teigiama, veikiančios programos bus įsimintos atsijungiant bei atkurtos "
+"kitą kartą prisijungus."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
