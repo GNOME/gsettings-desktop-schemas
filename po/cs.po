@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
 "POT-Creation-Date: 2026-01-09 10:47+0000\n"
-"PO-Revision-Date: 2026-02-06 00:28+0100\n"
+"PO-Revision-Date: 2026-02-06 18:04+0100\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -86,11 +86,11 @@ msgstr "Zda použít tvary k označení stavu kromě barvy nebo místo ní."
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
 msgid "Reduced motion"
-msgstr ""
+msgstr "Redukovaný pohyb"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
 msgid "The type of reduced motion."
-msgstr ""
+msgstr "Typ redukovaného pohybu."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -925,7 +925,7 @@ msgstr "Když je zapnuto, zobrazují se v kalendáři čísla týdnů podle ISO.
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
 msgid "First day of the week"
-msgstr ""
+msgstr "První den v týdnu"
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
 msgid ""
@@ -933,6 +933,9 @@ msgid ""
 "\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
 "\"sunday\". The \"default\" acts as a fallback to the system locale settings."
 msgstr ""
+"První den v týdnu. Platné hodnoty jsou „default“, „monday“, „tuesday“, "
+"„wednesday“, „thursday“, „friday“, „saturday“, „sunday“. Hodnota „default“ "
+"slouží jako záložní nastavení jazyka systému."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1916,23 +1919,18 @@ msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr "Když je zapnuto, bude touchpad během psaní na klávesnici vypnutý."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
-#, fuzzy
-#| msgid ""
-#| "Timeout in milliseconds between repeated clicks when a button is left "
-#| "pressed."
 msgid "Timeout in milliseconds until the touchpad is enabled after typing"
 msgstr ""
-"Časový limit v milisekundách mezi opakováním kliknutí, když je zmáčknuto "
-"levým tlačítkem."
+"Časový limit v milisekundách, po kterém se při psaní na klávesnici aktivuje "
+"touchpad"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
-#, fuzzy
-#| msgid ""
-#| "When enabled, touchpads will be disabled while typing on the keyboard."
 msgid ""
 "Touchpads will be disabled for this many milliseconds after typing on the "
 "keyboard."
-msgstr "Když je zapnuto, bude touchpad během psaní na klávesnici vypnutý."
+msgstr ""
+"Touchpady budou při psaní na klávesnici na tento počet milisekund "
+"deaktivovány."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
@@ -2276,32 +2274,28 @@ msgid "Eraser pressure range"
 msgstr "Rozsah přítlaku gumy"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
-#, fuzzy
-#| msgid "Tertiary button action"
 msgid "Eraser button mode"
-msgstr "Činnost třetího tlačítka"
+msgstr "Režim tlačítka gumy"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid "Set this to change the behavior of the eraser button."
-msgstr ""
+msgstr "Nastavte pro změnu chování tlačítka gumy."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
-#, fuzzy
-#| msgid "Tertiary button action"
 msgid "Eraser button action"
-msgstr "Činnost třetího tlačítka"
+msgstr "Činnost tlačítka gumy"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
 msgstr ""
+"Nastavte na činnost tlačítka, která se spustí, pokud je tlačítko gumy v "
+"režimu „tlačítko“."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#, fuzzy
-#| msgid "Key combination for the tertiary button"
 msgid "Key combination for the eraser button if in 'button' mode"
-msgstr "Kombinace kláves pro třetí tlačítko"
+msgstr "Kombinace kláves pro tlačítko gumy v režimu „tlačítko“"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
@@ -2806,16 +2800,12 @@ msgid "Enable daily screen time limit"
 msgstr "Povolit denní limit času stráveného u obrazovky"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
-#, fuzzy
-#| msgid ""
-#| "Enable imposing a screen time limit on the user, as set in daily-limit-"
-#| "seconds."
 msgid ""
 "Enable imposing a screen time limit on the user, as set in “daily-limit-"
 "seconds”."
 msgstr ""
 "Povolit stanovení limitu času stráveného uživatelem u obrazovky, jak je "
-"nastaveno v daily-limit-seconds."
+"nastaveno v „daily-limit-seconds“."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2917,16 +2907,16 @@ msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Název sezení, které se má použít. Známá hodnota je „gnome“."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:17
-#, fuzzy
-#| msgid "Geolocation services are enabled."
 msgid "Session save/restore enabled"
-msgstr "Geolokační služba je povolena."
+msgstr "Ukládání/obnovení sezení povoleno"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:18
 msgid ""
 "When true, running apps will be saved at log-out time and restored on the "
 "next login."
 msgstr ""
+"Pokud je zapnuto, spuštěné aplikace se při odhlášení uloží a při dalším "
+"přihlášení se obnoví."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
