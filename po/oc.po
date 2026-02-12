@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
 "POT-Creation-Date: 2026-01-09 10:47+0000\n"
-"PO-Revision-Date: 2026-02-11 17:32+0100\n"
+"PO-Revision-Date: 2026-02-12 16:44+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -1560,6 +1560,9 @@ msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr ""
+"Se las barras de defilament devon èsser superpausadas coma d'indicators. "
+"Segon los periferics de picada utilizats, de barras de defilament "
+"permanentas pòdon encara èsser afichadas."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
@@ -1570,6 +1573,8 @@ msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
 msgstr ""
+"Se definit a « True » la pression d'una tòca metre en evidéncia la posicion "
+"actuala del ponchador a l'ecran."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
@@ -1640,6 +1645,8 @@ msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
+"Lo jòc de colors preferit per l'interfàcia utilizaire. Las valors validas "
+"son « default », « prefer-dark », « prefer-light »."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:307
 msgid "Font rendering"
@@ -1653,6 +1660,12 @@ msgid ""
 "account. Possible values are: \"manual\" for respecting the low-level "
 "settings, or \"automatic\" for letting the toolkit make its own decisions."
 msgstr ""
+"Preferéncia per indicar se lo rendut de la polissa deu seguir los reglatges "
+"de bas nivèl « font-hinting », « font-antialiasing » e « font-rgba-order », "
+"o predre en compte de factors environamentals coma la resolucion de l'ecran "
+"e la mesa a l'escala. Las valors possiblas son : « manual » per respectar "
+"los reglatges de bas nivèl, o « automatic » per daissar la bóstia d'aisinas "
+"prendre las sieunas decisions."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:316
 msgid "Accent color"
@@ -2006,6 +2019,8 @@ msgstr "Desactivar o pas lo pavat tactil pendent la picada"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:26
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
+"Quand l'opcion es activada, los pavats tactils seràn desactivats pendent la "
+"picada sul clavièr."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
 #, fuzzy
@@ -2022,6 +2037,8 @@ msgid ""
 "Touchpads will be disabled for this many milliseconds after typing on the "
 "keyboard."
 msgstr ""
+"Los pavats tactils seràn desactivats pendent aquesta durada en millisegondas "
+"aprèp aver picat sul clavièr."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
@@ -2036,7 +2053,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
-msgstr ""
+msgstr "Assignacion de botons de picada"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
@@ -2044,6 +2061,9 @@ msgid ""
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
+"Definís la correspondéncia entre lo nombre de dets e los botons del pavat "
+"tactil. Per defaut, un tustet d'1, 2 e 3 dets correspondon respectivament "
+"als botons esquèrra, drecha e del mièg (\"lrm\")."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
@@ -2066,6 +2086,9 @@ msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
+"Definir a « TRUE » per blocar lo procediment de lisar-depausar pendent un "
+"cort relambi quand lo det es levat del pavat tactil e que lo reglatge tocar-"
+"e-lisar es activat."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
@@ -2105,6 +2128,14 @@ msgid ""
 "movement. If a touchpad doesn’t support the configured profile, “default” "
 "will be used."
 msgstr ""
+"Perfil d'acceleracion utilizat pels pavats tactils connectats. Lo perfil "
+"d'acceleracion pòt èsser reglat siá sus per defaut (« default »), qu'utiliza "
+"lo perfil d'acceleracion per defaut per cada periferic, siá sus plat "
+"(« flat »), qu'accelèra per un factor constant especific al periferic "
+"derivat de la velocitat del pointeur configurada, siá sus adaptatiu "
+"(« adaptive »), qu'adapta l'acceleracion en foncion del movement de la "
+"mirga. Se un pavat tactil supòrta pas lo perfil configurat, « default » serà "
+"utilizat."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
@@ -2160,6 +2191,8 @@ msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
 msgstr ""
+"Definir a « TRUE » per activar lo clic mièg pendent un clic simultanèu "
+"esquèrra e drecha."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
@@ -2241,6 +2274,13 @@ msgid ""
 "movement. If a mouse doesn’t support the configured profile, “default” will "
 "be used."
 msgstr ""
+"Perfil d'acceleracion utilizat per las mirgas connectadas. Lo perfil "
+"d'acceleracion se pòt definir siá per defaut (« default »), qu'utiliza lo "
+"perfil d'acceleracion per defaut de cada periferic, siá plan (« flat »), "
+"qu'accelèra per un factor constant especific al periferic derivat de la "
+"velocitat configurada del ponchador, siá adaptatiu (« adaptive »), qu'adapta "
+"l'acceleracion en foncion del movement de la mirga. Se una mirga supòrta pas "
+"lo perfil configurat, lo perfil « default » serà utilizat."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
@@ -2283,7 +2323,7 @@ msgstr "Ligason de la tauleta grafica"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
-msgstr ""
+msgstr "Cossí l’entrada afècta lo ponchador a l’ecran"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
@@ -2294,6 +2334,8 @@ msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr ""
+"Marge de la zòna mòrta a l'entorn de la zòna activa, en percentatges. "
+"Aplicat respectivament als costats esquèrra, drecha, naut e bas."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
@@ -2304,6 +2346,8 @@ msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
+"Activar aquò per limitar la zòna de la tauleta per que corresponda al racio "
+"d'aspècte de la sortida."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
@@ -2313,6 +2357,8 @@ msgstr "Activar lo mòde esquerrièr"
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
+"Activar aquò per permetre de virar fisicament la tauleta per las "
+"configuracions de man esquèrra"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
@@ -2335,6 +2381,8 @@ msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr ""
+"Definir aquò al percentatge de la plaja de pression fisica que deu "
+"correspondre a la plaja logica."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
@@ -2352,26 +2400,24 @@ msgid "Eraser pressure range"
 msgstr "Plaja de pression de la goma"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
-#, fuzzy
-#| msgid "Tertiary button action"
 msgid "Eraser button mode"
-msgstr "Accion del tresen boton"
+msgstr "Mòde del boton d‘escafar"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid "Set this to change the behavior of the eraser button."
-msgstr ""
+msgstr "Definir aquò per cambiar lo compòrtament del boton d’escafar."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
-#, fuzzy
-#| msgid "Tertiary button action"
 msgid "Eraser button action"
-msgstr "Accion del tresen boton"
+msgstr "Accion del boton d‘escafar"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
 msgstr ""
+"Definir aquò coma l'accion del boton que se desencadena se lo boton de la "
+"goma es en mòde « boton »."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
 #, fuzzy
@@ -2398,6 +2444,8 @@ msgstr "Accion del boton"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
+"Accion del boton de l'estilet, aqueste boton se tròba long del margue del "
+"gredon."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
@@ -2409,6 +2457,10 @@ msgid ""
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr ""
+"Accion del boton segondari de l'estilet, aqueste boton se tròba long del "
+"margue de l'estilet sus d'unes estilets coma lo Grip Pen. D'autres estilets "
+"coma l'Airbrush Pen o l'Inking Pen an pas qu'un sol boton, aqueste reglatge "
+"es doncas ineficaç sus aqueles."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
@@ -2420,6 +2472,10 @@ msgid ""
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr ""
+"Accion del boton terciari de l'estilet, aqueste boton se tròba long del "
+"margue de l'estilet sus d'unes estilets coma lo 3D Pen. D'autres estilets "
+"coma lo Grip Pen an pas que dos botons, aqueste reglatge es ineficaç sus "
+"aqueles."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
@@ -2483,6 +2539,9 @@ msgid ""
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr ""
+"Definir aquò a « TRUE » per activar lo verrolhatge del boton per l'emulacion "
+"de la ròda. S'es activat, lo primièr clic sul boton activa lo defilament, lo "
+"segond clic lo desactiva tornarmai."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
@@ -2493,6 +2552,13 @@ msgid ""
 "adapts the acceleration depending on the movement. If the trackball doesn’t "
 "support the configured profile, “default” will be used."
 msgstr ""
+"Perfil d'acceleracion utilizat per la bola de seguiment. Lo perfil "
+"d'acceleracion se pòt definir siá per defaut (« default ») qu'utiliza lo "
+"perfil d'acceleracion per defaut, siá plat (« flat ») qu'accelèra per un "
+"factor constant especific al periferic derivat de la velocitat configurada, "
+"siá adaptatiu (« adaptive ») qu'adapta l'acceleracion en foncion del "
+"movement. Se la bola de seguiment supòrta pas lo perfil configurat, lo "
+"perfil per defaut (« default ») serà utilizat."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 #, fuzzy
@@ -2516,6 +2582,13 @@ msgid ""
 "adapts the acceleration depending on the movement. If the pointing stick "
 "doesn’t support the configured profile, “default” will be used."
 msgstr ""
+"Perfil d'acceleracion utilizat pel ponchador. Lo perfil d'acceleracion se "
+"pòt definir siá per defaut (« default »), qu'utiliza lo perfil "
+"d'acceleracion per defaut, siá plat (« flat »), qu'accelèra per un factor "
+"constant especific al periferic derivat de la velocitat configurada, siá "
+"adaptatiu (« adaptive »), qu'adapta l'acceleracion en foncion del movement. "
+"Se lo puntador supòrta pas lo perfil configurat, lo perfil per defaut "
+"(« default ») serà utilizat."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
@@ -2528,6 +2601,11 @@ msgid ""
 "which disables scrolling, or middle-button (“on-button-down”) which enables "
 "scrolling whilst the middle button is held down."
 msgstr ""
+"Metòde de defilament utilizat pels ponchadors. Lo metòde de defilament se "
+"pòt definir siá per defaut (« default ») qu'utiliza lo metòde per defaut, "
+"siá cap (« none ») que desactiva lo defilament, siá boton del mitan (« on-"
+"button-down ») qu'activa lo defilament del temps que lo boton del mitan es "
+"mantengut quichat."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:6
 msgid "Controls visibility of personal information"
@@ -2677,6 +2755,9 @@ msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
 msgstr ""
+"Se lo servici USBGuard es present e qu'aqueste paramètre es activat, los "
+"periferics USB seràn protegits coma configurat dins lo paramètre usb-"
+"protection-level."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
@@ -2688,6 +2769,10 @@ msgid ""
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
 msgstr ""
+"Se reglat sus « lockscreen » (ecran de verrolhatge), los periferics USB "
+"novèls seràn regetats sonque quand l'ecran de verrolhatge es present ; se "
+"reglat sus « always » (totjorn), totes los periferics USB novèls seràn "
+"totjorn regetats."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
 msgid "Whether the privacy screen is enabled"
@@ -2699,6 +2784,9 @@ msgid ""
 "enabled, the panels supporting this technology will be obscured from lateral "
 "view."
 msgstr ""
+"Se lo material sosjacent a la foncionalitat d'ecran de confidencialitat e "
+"qu'aqueste paramètre es activat, los panèls que prenon en carga aquesta "
+"tecnologia seràn amagats de la vista laterala."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Enable restart/shutdown"
@@ -2882,6 +2970,8 @@ msgid ""
 "Enable basic screen time functionality, recording usage data for viewing "
 "history."
 msgstr ""
+"Activar la foncionalitat de basa del temps d'ecran, en enregistrant las "
+"donadas d'utilizacion per consultar l'istoric."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
 msgid "Enable daily screen time limit"
@@ -2892,6 +2982,8 @@ msgid ""
 "Enable imposing a screen time limit on the user, as set in “daily-limit-"
 "seconds”."
 msgstr ""
+"Activar l'imposicion d'un limit de temps d'ecran a l'utilizaire, tal coma "
+"definit dins « daily-limit-seconds »."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2901,6 +2993,8 @@ msgstr "Limit de temps d’ecran jornalièr"
 msgid ""
 "The limit on the amount of daily screen time the user is allowed, in seconds."
 msgstr ""
+"Lo limit de la quantitat de temps d'ecran quotidian autorizat per "
+"l'utilizaire, en segondas."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
 msgid "Grayscale once limit is reached"
@@ -3005,6 +3099,8 @@ msgid ""
 "When true, running apps will be saved at log-out time and restored on the "
 "next login."
 msgstr ""
+"Quand es definit a « True », las aplicacions en cors d'execucion seràn "
+"enregistradas a la desconnexion e restauradas a la connexion seguenta."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
@@ -3037,6 +3133,8 @@ msgstr "Permetre lo volum al dessús de 100%"
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:22
 msgid "Whether volume can be set above 100%, using software amplification."
 msgstr ""
+"Se lo volum se pòt reglar a mai de 100 % en utilizant l'amplificacion "
+"logiciala."
 
 #: schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in:6
 msgid ""
