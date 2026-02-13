@@ -1962,58 +1962,48 @@ msgid "Whether edge scrolling is enabled"
 msgstr "Αν είναι ενεργοποιημένη η κύλιση άκρου"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:16
-#, fuzzy
-#| msgid ""
-#| "When disabled, touchpads that only support edge scrolling (and not 2-"
-#| "finger scrolling) will have that feature disabled."
 msgid ""
 "When enabled, touchpads that support edge scrolling will have that feature "
 "enabled."
 msgstr ""
-"Όταν είναι απενεργοποιημένη, οι πινακίδες αφής που υποστηρίζουν κύλιση άκρου "
-"(και όχι κύλιση με 2 δάκτυλα) θα έχουν αυτή τη λειτουργία απενεργοποιημένη."
+"Όταν είναι ενεργοποιημένη, οι πινακίδες αφής που υποστηρίζουν κύλιση άκρου "
+"θα έχουν αυτή τη λειτουργία ενεργοποιημένη."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:20
-#, fuzzy
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether two-finger scrolling is enabled"
-msgstr "Αν είναι ενεργοποιημένη η κύλιση άκρου"
+msgstr "Αν είναι ενεργοποιημένη η κύλιση με δύο δάκτυλα"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:21
-#, fuzzy
-#| msgid ""
-#| "When disabled, touchpads that only support edge scrolling (and not 2-"
-#| "finger scrolling) will have that feature disabled."
 msgid ""
 "When enabled, touchpads that support two-finger scrolling will have that "
 "feature enabled."
 msgstr ""
-"Όταν είναι απενεργοποιημένη, οι πινακίδες αφής που υποστηρίζουν κύλιση άκρου "
-"(και όχι κύλιση με 2 δάκτυλα) θα έχουν αυτή τη λειτουργία απενεργοποιημένη."
+"Όταν είναι ενεργοποιημένη, οι πινακίδες αφής που υποστηρίζουν κύλιση με δύο "
+"δάκτυλα θα έχουν αυτή τη λειτουργία ενεργοποιημένη."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:25
 msgid "Whether to disable the touchpad while typing"
-msgstr ""
+msgstr "Αν θα απενεργοποιείται η πινακίδα αφής κατά την πληκτρολόγηση"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:26
 msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
+"Όταν είναι ενεργοποιημένη, οι πινακίδες αφής θα απενεργοποιούνται κατά την "
+"πληκτρολόγηση στο πληκτρολόγιο."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
-#, fuzzy
-#| msgid ""
-#| "Timeout in milliseconds between repeated clicks when a button is left "
-#| "pressed."
 msgid "Timeout in milliseconds until the touchpad is enabled after typing"
 msgstr ""
-"Λήξη χρόνου σε χιλιοστά του δευτερολέπτου μεταξύ επαναλαμβανόμενων κλικ, "
-"όταν ένα κουμπί αφήνεται πατημένο."
+"Χρονικό όριο σε χιλιοστά του δευτερολέπτου μέχρι την ενεργοποίηση της "
+"πινακίδας αφής μετά την πληκτρολόγηση"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
 msgid ""
 "Touchpads will be disabled for this many milliseconds after typing on the "
 "keyboard."
 msgstr ""
+"Οι πινακίδες αφής θα απενεργοποιούνται για τόσα χιλιοστά του δευτερολέπτου "
+"μετά την πληκτρολόγηση στο πληκτρολόγιο."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
@@ -2028,7 +2018,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
-msgstr ""
+msgstr "Χαρτογράφηση κουμπιών χτυπήματος"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
@@ -2036,36 +2026,35 @@ msgid ""
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
+"Καθορίζει την αντιστοίχιση μεταξύ του αριθμού των δακτύλων και των κουμπιών "
+"της πινακίδας αφής. Η προεπιλογή είναι το χτύπημα με 1, 2 και 3 δάκτυλα να "
+"αντιστοιχεί στο αριστερό, δεξί και μεσαίο κουμπί («lrm»), αντίστοιχα."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
-#, fuzzy
-#| msgid "Enable mouse clicks with touchpad"
 msgid "Enable tap-and-drag with touchpad"
-msgstr "Ενεργοποίηση πατημάτων ποντικιού με πινακίδα αφής"
+msgstr "Ενεργοποίηση χτυπήματος και σύρσιματος με την πινακίδα αφής"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#| "touchpad."
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
-"Ορίστε αυτό σε ΑΛΗΘΕΣ (TRUE) για να μπορείτε να στέλνετε πατήματα ποντικιού "
-"πιέζοντας την πινακίδα αφής."
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να μπορείτε να ξεκινήσετε ένα σύρσιμο, "
+"χτυπώντας και μετακινώντας αμέσως το δάκτυλο που είναι πατημένο στην "
+"πινακίδας αφής."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
-#, fuzzy
-#| msgid "Enable mouse clicks with touchpad"
 msgid "Enable tap-and-drag-lock with touchpad"
-msgstr "Ενεργοποίηση πατημάτων ποντικιού με πινακίδα αφής"
+msgstr "Ενεργοποίηση tap-and-drag-lock με την πινακίδας αφής"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να κλειδώσετε τη διαδικασία συρσίματος για "
+"ένα σύντομο χρονικό διάστημα, όταν το δάκτυλο σηκώνεται από την πινακίδα "
+"αφής και η ρύθμιση «χτύπημα και σύρσιμο» είναι ενεργοποιημένη."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
@@ -2073,24 +2062,20 @@ msgstr "Ενεργοποιημένη η πινακίδα αφής"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
-msgstr "Ορίζει τις περιπτώσεις στις οποίες είναι ενεργή η πινακίδα αφής."
+msgstr "Ορίζει τις περιπτώσεις στις οποίες η πινακίδα αφής είναι ενεργοποιημένη."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "Προσανατολισμός κουμπιού πινακίδας αφής"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
-#, fuzzy
-#| msgid ""
-#| "Swap left and right mouse buttons for left-handed mice with 'left', "
-#| "'right' for right-handed, 'mouse' to follow the mouse setting."
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
-"Αντιμετάθεση αριστερού και δεξιού πλήκτρου του ποντικιού για αριστερόχειρα "
-"ποντίκια με 'αριστερό', 'δεξιό' για δεξιόχειρα και 'ποντίκι' για "
-"παρακολούθηση ορισμού του ποντικιού."
+"Αντιμετάθεση αριστερού και δεξιού κουμπιού για αριστερόχειρα ποντίκια με "
+"«left» (αριστερά), «right» (δεξιά) για δεξιόχειρα, και «mouse» (ποντίκι) για "
+"να ακολουθείται η ρύθμιση του ποντικιού."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
@@ -2109,6 +2094,14 @@ msgid ""
 "movement. If a touchpad doesn’t support the configured profile, “default” "
 "will be used."
 msgstr ""
+"Προφίλ επιτάχυνσης που χρησιμοποιείται για τις συνδεδεμένες πινακίδες αφής. "
+"Το προφίλ επιτάχυνσης μπορεί να οριστεί είτε σε προεπιλογή («default»), το "
+"οποίο χρησιμοποιεί το προεπιλεγμένο προφίλ επιτάχυνσης για κάθε συσκευή, "
+"επίπεδο («flat»), το οποίο επιταχύνει κατά έναν σταθερό παράγοντα ανάλογα με "
+"τη συσκευή που προκύπτει από τη ρυθμισμένη ταχύτητα του δείκτη, είτε "
+"προσαρμοστικό («adaptive»), το οποίο προσαρμόζει την επιτάχυνση ανάλογα με "
+"την κίνηση του ποντικιού. Αν μια πινακίδα αφής δεν υποστηρίζει το ρυθμισμένο "
+"προφίλ, θα χρησιμοποιηθεί το «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
@@ -2117,17 +2110,13 @@ msgid "Pointer speed"
 msgstr "Ταχύτητα δείκτη"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
-#, fuzzy
-#| msgid ""
-#| "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
-#| "(from \"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
-"Η ταχύτητα δείκτη για την πινακίδα αφής. Αποδεκτές τιμές είναι στην περιοχή "
-"[-1..1] (από \"χωρίς επιτάχυνση\" μέχρι \"γρήγορη\"). Η τιμή 0 είναι η "
-"προεπιλογή του συστήματος."
+"Η ταχύτητα δείκτη για την πινακίδα αφής. Οι αποδεκτές τιμές είναι στο εύρος "
+"[-1..1] (από «χωρίς επιτάχυνση» έως «γρήγορη»). Η τιμή 0 είναι η προεπιλογή "
+"του συστήματος."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
@@ -2145,27 +2134,21 @@ msgid "Click method"
 msgstr "Μέθοδος κλικ"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
-#, fuzzy
-#| msgid ""
-#| "How to generate software-emulated buttons, either disabled ('none'), "
-#| "through specific areas ('areas'), number of fingers ('fingers') or left "
-#| "as hardware default ('default')."
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
 "default (“default”)."
 msgstr ""
-"Πως να δημιουργήσετε προσομοιωμένα κουμπιά, είτε απενεργοποιημένα ('none'), "
-"μέσω συγκεκριμένων περιοχών ('areas'), αριθμός δακτύλων ('fingers') ή η "
-"προεπιλεγμένη επιλογή ως υλικό ('default')."
+"Πώς να δημιουργηθούν τα προσομοιωμένα κουμπιά λογισμικού, είτε "
+"απενεργοποιημένα («none»), μέσω συγκεκριμένων περιοχών («areas»), μέσω "
+"αριθμού δακτύλων («fingers») ή αφήνοντας την προεπιλογή του υλικού "
+"(«default»)."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
-#, fuzzy
-#| msgid "Enable dwell clicks"
 msgid "Emulate middle click"
-msgstr "Ενεργοποίηση κρατήματος κλικ"
+msgstr "Προσομοίωση μεσαίου κλικ"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
@@ -2174,6 +2157,8 @@ msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
 msgstr ""
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να ενεργοποιήσετε το μεσαίο κλικ κατά το "
+"ταυτόχρονο αριστερό και δεξί κλικ."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
@@ -2231,22 +2216,18 @@ msgstr ""
 "ποντίκια."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
-#, fuzzy
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
-"Η ταχύτητα δείκτη για τα ποντίκια. Αποδεκτές τιμές είναι στην περιοχή "
-"[-1..1] (από \"χωρίς επιτάχυνση\" μέχρι \"γρήγορη\"). Η τιμή 0 είναι η "
-"προεπιλογή του συστήματος."
+"Η ταχύτητα δείκτη για τα ποντίκια. Οι αποδεκτές τιμές είναι στο εύρος "
+"[-1..1] (από «χωρίς επιτάχυνση» έως «γρήγορη»). Η τιμή 0 είναι η προεπιλογή "
+"του συστήματος."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
-"Ορίστε αυτό σε ΑΛΗΘΕΣ (TRUE) για να ενεργοποιήσετε τη φυσική (αντίστροφη) "
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να ενεργοποιήσετε τη φυσική (αντίστροφη) "
 "κύλιση για ποντίκια."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
@@ -2259,6 +2240,14 @@ msgid ""
 "movement. If a mouse doesn’t support the configured profile, “default” will "
 "be used."
 msgstr ""
+"Προφίλ επιτάχυνσης που χρησιμοποιείται για τα συνδεδεμένα ποντίκια. Το "
+"προφίλ επιτάχυνσης μπορεί να οριστεί είτε σε προεπιλογή («default»), το "
+"οποίο χρησιμοποιεί το προεπιλεγμένο προφίλ επιτάχυνσης για κάθε συσκευή, "
+"επίπεδο («flat»), το οποίο επιταχύνει κατά έναν σταθερό παράγοντα ανάλογα με "
+"τη συσκευή που προκύπτει από τη ρυθμισμένη ταχύτητα του δείκτη, είτε "
+"προσαρμοστικό («adaptive»), το οποίο προσαρμόζει την επιτάχυνση ανάλογα με "
+"την κίνηση του ποντικιού. Αν ένα ποντίκι δεν υποστηρίζει το ρυθμισμένο "
+"προφίλ, θα χρησιμοποιηθεί το «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
@@ -2281,63 +2270,61 @@ msgid "Drawing tablet mapping"
 msgstr "Απεικόνιση πινακίδας σχεδίασης"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
-#, fuzzy
-#| msgid ""
-#| "EDID information of the monitor the tablet is mapped to. Must be in the "
-#| "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
-"Πληροφορίες EDID της οθόνης στην οποία αντιστοιχίζεται η πινακίδα. Πρέπει να "
-"είναι στη μορφή [πωλητής, προϊόν, σειριακός]. Το [\"\",\"\",\"\"] "
-"απενεργοποιεί την αντιστοίχιση."
+"Πληροφορίες EDID της εξόδου στην οποία αντιστοιχίζεται η πινακίδα. Πρέπει να "
+"είναι στη μορφή [κατασκευαστής, προϊόν, σειριακός]. Το [\"\",\"\",\"\"] "
+"βασίζεται στην αυτόματη αντιστοίχιση."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
-#, fuzzy
-#| msgid "Drawing tablet mapping"
 msgid "Tablet mapping"
-msgstr "Απεικόνιση πινακίδας σχεδίασης"
+msgstr "Αντιστοίχιση πινακίδας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
-msgstr ""
+msgstr "Πώς η είσοδος επηρεάζει τον δείκτη στην οθόνη"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
-msgstr ""
+msgstr "Περιοχή πινακίδας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr ""
+"Γέμισμα νεκρής περιοχής γύρω από την ενεργή περιοχή, σε ποσοστά. Εφαρμόζεται "
+"αντίστοιχα στην αριστερή, δεξιά, επάνω και κάτω πλευρά."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
-msgstr ""
+msgstr "Λόγος διαστάσεων πινακίδας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
+"Ενεργοποιήστε το για να περιορίσετε την περιοχή της πινακίδας ώστε να "
+"ταιριάζει με τον λόγο διαστάσεων της εξόδου."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
-#, fuzzy
-#| msgid "Enable lens mode"
 msgid "Tablet left-handed mode"
-msgstr "Ενεργοποίηση λειτουργίας φακών"
+msgstr "Λειτουργία αριστερόχειρα πινακίδας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
+"Ενεργοποιήστε το για να επιτρέψετε τη φυσική περιστροφή της πινακίδας για "
+"διατάξεις αριστερόχειρων"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
-msgstr ""
+msgstr "Καμπύλη πίεσης γραφίδας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
@@ -2348,7 +2335,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
-msgstr ""
+msgstr "Εύρος πίεσης γραφίδας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
@@ -2356,10 +2343,12 @@ msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr ""
+"Ορίστε το στο ποσοστό του φυσικού εύρους πίεσης που θα πρέπει να αντιστοιχεί "
+"στο λογικό εύρος."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
-msgstr ""
+msgstr "Καμπύλη πίεσης γόμας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
@@ -2370,35 +2359,31 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
-msgstr ""
+msgstr "Εύρος πίεσης γόμας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
-#, fuzzy
-#| msgid "Touchpad button orientation"
 msgid "Eraser button mode"
-msgstr "Προσανατολισμός κουμπιού πινακίδας αφής"
+msgstr "Λειτουργία κουμπιού γόμας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
 msgid "Set this to change the behavior of the eraser button."
-msgstr ""
+msgstr "Ορίστε το για να αλλάξετε τη συμπεριφορά του κουμπιού γόμας."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
-#, fuzzy
-#| msgid "Touchpad button orientation"
 msgid "Eraser button action"
-msgstr "Προσανατολισμός κουμπιού πινακίδας αφής"
+msgstr "Ενέργεια κουμπιού γόμας"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
 msgstr ""
+"Ορίστε το στην ενέργεια κουμπιού που ενεργοποιείται εάν το κουμπί γόμας "
+"είναι σε λειτουργία «κουμπιού»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#, fuzzy
-#| msgid "Key combination for the custom action"
 msgid "Key combination for the eraser button if in 'button' mode"
-msgstr "Ο συνδυασμός πλήκτρων για την προσαρμοσμένη ενέργεια"
+msgstr "Συνδυασμός πλήκτρων για το κουμπί γόμας εάν είναι σε λειτουργία «κουμπιού»"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
@@ -2413,20 +2398,18 @@ msgstr ""
 "προσαρμοσμένες ενέργειες."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#, fuzzy
-#| msgid "Buttons Have Icons"
 msgid "Button action"
-msgstr "Τα κουμπιά έχουν εικονίδια"
+msgstr "Ενέργεια κουμπιού"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
+"Ενέργεια κουμπιού γραφίδας, αυτό το κουμπί βρίσκεται κατά μήκος της λαβής "
+"της γραφίδας."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#, fuzzy
-#| msgid "Secondary Color"
 msgid "Secondary button action"
-msgstr "Δευτερεύον χρώμα"
+msgstr "Ενέργεια δευτερεύοντος κουμπιού"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
@@ -2434,12 +2417,14 @@ msgid ""
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr ""
+"Ενέργεια δευτερεύοντος κουμπιού γραφίδας, αυτό το κουμπί βρίσκεται κατά "
+"μήκος της λαβής της γραφίδας σε ορισμένες γραφίδες όπως το Grip Pen. Άλλες "
+"γραφίδες όπως το Airbrush Pen ή το Inking Pen έχουν μόνο ένα κουμπί, αυτή η "
+"ρύθμιση δεν έχει αποτέλεσμα σε αυτές."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
-#, fuzzy
-#| msgid "Touchpad button orientation"
 msgid "Tertiary button action"
-msgstr "Προσανατολισμός κουμπιού πινακίδας αφής"
+msgstr "Ενέργεια τριτεύοντος κουμπιού"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
@@ -2447,70 +2432,57 @@ msgid ""
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr ""
+"Ενέργεια τριτεύοντος κουμπιού γραφίδας, αυτό το κουμπί βρίσκεται κατά μήκος "
+"της λαβής της γραφίδας σε ορισμένες γραφίδες όπως το 3D Pen. Άλλες γραφίδες "
+"όπως το Grip Pen έχουν μόνο δύο κουμπιά, αυτή η ρύθμιση δεν έχει αποτέλεσμα "
+"σε αυτές."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
-#, fuzzy
-#| msgid "Key combination for the custom action"
 msgid "Key combination for the primary button"
-msgstr "Ο συνδυασμός πλήκτρων για την προσαρμοσμένη ενέργεια"
+msgstr "Συνδυασμός πλήκτρων για το πρωτεύον κουμπί"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
-#, fuzzy
-#| msgid "Key combination for the custom action"
 msgid "Key combination for the secondary button"
-msgstr "Ο συνδυασμός πλήκτρων για την προσαρμοσμένη ενέργεια"
+msgstr "Συνδυασμός πλήκτρων για το δευτερεύον κουμπί"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
-#, fuzzy
-#| msgid "Key combination for the custom action"
 msgid "Key combination for the tertiary button"
-msgstr "Ο συνδυασμός πλήκτρων για την προσαρμοσμένη ενέργεια"
+msgstr "Συνδυασμός πλήκτρων για το τριτεύον κουμπί"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
-#, fuzzy
-#| msgid "Touchpad button orientation"
 msgid "Pad button action type"
-msgstr "Προσανατολισμός κουμπιού πινακίδας αφής"
+msgstr "Τύπος ενέργειας κουμπιού pad"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
-msgstr "Το είδος της δράσης που ενεργοποιείται από το κουμπί που πιέζεται."
+msgstr "Το είδος της ενέργειας που ενεργοποιείται από το πάτημα του κουμπιού."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
 msgstr "Ο συνδυασμός πλήκτρων για την προσαρμοσμένη ενέργεια"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
-#, fuzzy
-#| msgid "Touchscreen display mapping"
 msgid "Touchscreen output mapping"
-msgstr "Χαρτογράφηση εμφάνισης οθόνης επαφής"
+msgstr "Αντιστοίχιση εξόδου οθόνης αφής"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
-#, fuzzy
-#| msgid ""
-#| "EDID information of the monitor the touchscreen is mapped to. Must be in "
-#| "the format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
-"Πληροφορίες EDID της οθόνης στην οποία αντιστοιχίζεται η οθόνη αφής. Πρέπει "
-"να είναι στη μορφή [πωλητής, προϊόν, σειριακός]. Το [\"\",\"\",\"\"] "
-"απενεργοποιεί την αντιστοίχιση."
+"Πληροφορίες EDID της εξόδου στην οποία αντιστοιχίζεται η οθόνη αφής. Πρέπει "
+"να είναι στη μορφή [κατασκευαστής, προϊόν, σειριακός]. Το [\"\",\"\",\"\"] "
+"βασίζεται στην αυτόματη αντιστοίχιση."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
-"Πλήκτρο προσομοίωσης τροχού του ποντικιού. Το 0 απενεργοποιεί το γνώρισμα."
+"Κουμπί προσομοίωσης τροχού του ποντικιού. Το 0 απενεργοποιεί τη λειτουργία."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
-#, fuzzy
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
-msgstr ""
-"Πλήκτρο προσομοίωσης τροχού του ποντικιού. Το 0 απενεργοποιεί το γνώρισμα."
+msgstr "Κλείδωμα κουμπιού προσομοίωσης τροχού ποντικιού"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
@@ -2518,6 +2490,9 @@ msgid ""
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr ""
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να ενεργοποιήσετε το κλείδωμα κουμπιού για το "
+"κουμπί προσομοίωσης τροχού. Εάν ενεργοποιηθεί, το πρώτο κλικ του κουμπιού "
+"ενεργοποιεί την κύλιση, το δεύτερο κλικ απενεργοποιεί την κύλιση ξανά."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
@@ -2528,19 +2503,22 @@ msgid ""
 "adapts the acceleration depending on the movement. If the trackball doesn’t "
 "support the configured profile, “default” will be used."
 msgstr ""
+"Προφίλ επιτάχυνσης που χρησιμοποιείται για το trackball. Το προφίλ "
+"επιτάχυνσης μπορεί να οριστεί είτε σε προεπιλογή («default»), το οποίο "
+"χρησιμοποιεί το προεπιλεγμένο προφίλ επιτάχυνσης, επίπεδο («flat»), το οποίο "
+"επιταχύνει κατά έναν σταθερό παράγοντα ανάλογα με τη συσκευή που προκύπτει "
+"από τη ρυθμισμένη ταχύτητα, είτε προσαρμοστικό («adaptive»), το οποίο "
+"προσαρμόζει την επιτάχυνση ανάλογα με την κίνηση. Αν το trackball δεν "
+"υποστηρίζει το ρυθμισμένο προφίλ, θα χρησιμοποιηθεί το «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
-#, fuzzy
-#| msgid ""
-#| "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
-#| "\"unaccelerated\" to \"fast\"). A value of 0 is the system default."
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
-"Η ταχύτητα δείκτη για τα ποντίκια. Αποδεκτές τιμές είναι στην περιοχή "
-"[-1..1] (από \"χωρίς επιτάχυνση\" μέχρι \"γρήγορη\"). Η τιμή 0 είναι η "
-"προεπιλογή του συστήματος."
+"Η ταχύτητα δείκτη για τους μοχλούς κατάδειξης (pointing sticks). Οι "
+"αποδεκτές τιμές είναι στο εύρος [-1..1] (από «χωρίς επιτάχυνση» έως "
+"«γρήγορη»). Η τιμή 0 είναι η προεπιλογή του συστήματος."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
@@ -2551,12 +2529,18 @@ msgid ""
 "adapts the acceleration depending on the movement. If the pointing stick "
 "doesn’t support the configured profile, “default” will be used."
 msgstr ""
+"Προφίλ επιτάχυνσης που χρησιμοποιείται για τον μοχλό κατάδειξης (pointing "
+"stick). Το προφίλ επιτάχυνσης μπορεί να οριστεί είτε σε προεπιλογή "
+"(«default»), το οποίο χρησιμοποιεί το προεπιλεγμένο προφίλ επιτάχυνσης, "
+"επίπεδο («flat»), το οποίο επιταχύνει κατά έναν σταθερό παράγοντα ανάλογα με "
+"τη συσκευή που προκύπτει από τη ρυθμισμένη ταχύτητα, είτε προσαρμοστικό "
+"(«adaptive»), το οποίο προσαρμόζει την επιτάχυνση ανάλογα με την κίνηση. Αν "
+"ο μοχλός κατάδειξης δεν υποστηρίζει το ρυθμισμένο προφίλ, θα χρησιμοποιηθεί "
+"το «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
-#, fuzzy
-#| msgid "Click method"
 msgid "Scrolling method"
-msgstr "Μέθοδος κλικ"
+msgstr "Μέθοδος κύλισης"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
@@ -2565,16 +2549,17 @@ msgid ""
 "which disables scrolling, or middle-button (“on-button-down”) which enables "
 "scrolling whilst the middle button is held down."
 msgstr ""
+"Μέθοδος κύλισης που χρησιμοποιείται για τους μοχλούς κατάδειξης. Η μέθοδος "
+"κύλισης μπορεί να οριστεί είτε σε προεπιλογή («default»), που χρησιμοποιεί "
+"την προεπιλεγμένη μέθοδο, καμία («none»), που απενεργοποιεί την κύλιση, "
+"είτε σε μεσαίο κουμπί («on-button-down»), που ενεργοποιεί την κύλιση ενώ το "
+"μεσαίο κουμπί είναι πατημένο."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:6
 msgid "Controls visibility of personal information"
 msgstr "Ελέγχει την ορατότητα των προσωπικών πληροφοριών"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:7
-#, fuzzy
-#| msgid ""
-#| "If set to true, the system will make an effort to not divulge the user's "
-#| "identity on screen or on the network."
 msgid ""
 "If set to true, the system will make an effort to not divulge the user’s "
 "identity on screen or on the network."
@@ -2595,32 +2580,24 @@ msgid "Whether to remove old files from the trash automatically"
 msgstr "Εάν θα αφαιρούνται τα παλιά αρχεία από τα απορρίμματα αυτόματα"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:18
-#, fuzzy
-#| msgid ""
-#| "If TRUE, automatically remove files from the trash when they are older "
-#| "than 'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
 msgstr ""
-"Εάν είναι ΑΛΗΘΕΣ, αφαιρούνται αυτόματα τα αρχεία από τα απορρίμματα όταν "
-"είναι παλιότερα από την 'ηλικία των παλιών αρχείων' σε ημέρες."
+"Εάν είναι ΑΛΗΘΕΣ (TRUE), αφαιρούνται αυτόματα τα αρχεία από τα απορρίμματα "
+"όταν είναι παλαιότερα από «old-files-age» ημέρες."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:23
 msgid "Whether to remove old temporary files automatically"
-msgstr "Εάν θα αφαιρούνται τα παλιά προσωρινά αρχεία αυτόματα"
+msgstr "Εάν θα αφαιρούνται αυτόματα τα παλιά προσωρινά αρχεία"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:24
-#, fuzzy
-#| msgid ""
-#| "If TRUE, automatically remove temporary files when they are older than "
-#| "'old-files-age' days."
 msgid ""
 "If TRUE, automatically remove temporary files when they are older than “old-"
 "files-age” days."
 msgstr ""
-"Εάν είναι ΑΛΗΘΕΣ, αφαιρούνται αυτόματα τα προσωρινά αρχεία, όταν είναι "
-"παλιότερα από την 'ηλικία των παλιών αρχείων' σε ημέρες."
+"Εάν είναι ΑΛΗΘΕΣ (TRUE), αφαιρούνται αυτόματα τα προσωρινά αρχεία όταν είναι "
+"παλαιότερα από «old-files-age» ημέρες."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:29
 msgid "Number of days to keep trash and temporary files"
@@ -2647,29 +2624,24 @@ msgid "Number of days to remember recently used files for"
 msgstr "Τα πρόσφατα χρησιμοποιημένα αρχεία θα κρατιούνται για τόσες ημέρες"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:42
-#, fuzzy
-#| msgid ""
-#| "Recently used files will be remembered for this many days. If set to 0, "
-#| "recent files will not be remembered; if set to -1, they will be retained "
-#| "indefinitively."
 msgid ""
 "Recently used files will be remembered for this many days. If set to 0, "
 "recent files will not be remembered; if set to -1, they will be retained "
 "indefinitely."
 msgstr ""
-"Πρόσφατα χρησιμοποιημένα αρχεία διατηρούνται για τόσες ημέρες. Εάν οριστεί "
-"σε 0, τα πρόσφατα αρχεία δεν διατηρούνται· εάν οριστεί σε -1, θα "
-"διατηρούνται απεριόριστα."
+"Τα πρόσφατα χρησιμοποιημένα αρχεία θα διατηρούνται για τόσες ημέρες. Εάν "
+"οριστεί σε 0, τα πρόσφατα αρχεία δεν θα διατηρούνται· εάν οριστεί σε -1, θα "
+"διατηρούνται επ' αόριστον."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:48
 msgid "Whether to remember application usage"
-msgstr "Εάν θα θυμάται την χρήση της εφαρμογής"
+msgstr "Εάν θα απομνημονεύεται η χρήση των εφαρμογών"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:49
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr ""
-"Εάν είναι ΨΕΥΔΕΣ, η χρήση της εφαρμογής δεν θα παρακολουθείται και δεν θα "
-"καταγράφεται."
+"Εάν είναι ΨΕΥΔΕΣ (FALSE), η χρήση της εφαρμογής δεν θα παρακολουθείται και "
+"δεν θα καταγράφεται."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:54
 msgid "Send statistics when applications are removed or installed"
@@ -2680,8 +2652,8 @@ msgid ""
 "If FALSE, no anonymous installation or removal information will be sent to "
 "the vendor."
 msgstr ""
-"Αν είναι ΨΕΥΔΕΣ, δεν θα σταλεί καμία ανώνυμη εγκατάσταση ή απομάκρυνση "
-"πληροφοριών προς τον πωλητή."
+"Αν είναι ΨΕΥΔΕΣ (FALSE), δεν θα αποστέλλονται ανώνυμες πληροφορίες "
+"εγκατάστασης ή αφαίρεσης στον πωλητή."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:59
 msgid "Send reports of technical problems to the vendor"
@@ -2689,49 +2661,54 @@ msgstr "Αποστολή αναφορών τεχνικών προβλημάτω�
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:60
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
-msgstr "Αν είναι ΑΛΗΘΕΣ, θα σταλούν αυτόματα ανώνυμες αναφορές στον πωλητή."
+msgstr ""
+"Αν είναι ΑΛΗΘΕΣ (TRUE), θα στέλνονται αυτόματα ανωνυμοποιημένες αναφορές "
+"στον πωλητή."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:64
 msgid "Don’t allow applications to access the microphone"
-msgstr ""
+msgstr "Να μην επιτρέπεται στις εφαρμογές η πρόσβαση στο μικρόφωνο"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:65
 msgid "If TRUE, applications should not use the microphone."
 msgstr ""
+"Αν είναι ΑΛΗΘΕΣ (TRUE), οι εφαρμογές δεν θα πρέπει να χρησιμοποιούν το "
+"μικρόφωνο."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:69
 msgid "Don’t allow applications to access the camera"
-msgstr ""
+msgstr "Να μην επιτρέπεται στις εφαρμογές η πρόσβαση στην κάμερα"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:70
-#, fuzzy
-#| msgid "If FALSE, application usage will not be monitored and recorded."
 msgid "If TRUE, applications should not use the camera."
 msgstr ""
-"Εάν είναι ΨΕΥΔΕΣ, η χρήση της εφαρμογής δεν θα παρακολουθείται και δεν θα "
-"καταγράφεται."
+"Αν είναι ΑΛΗΘΕΣ (TRUE), οι εφαρμογές δεν θα πρέπει να χρησιμοποιούν την "
+"κάμερα."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:74
 msgid "Don’t allow applications to output sound"
-msgstr ""
+msgstr "Να μην επιτρέπεται στις εφαρμογές η αναπαραγωγή ήχου"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
-msgstr ""
+msgstr "Αν είναι ΑΛΗΘΕΣ (TRUE), οι εφαρμογές δεν θα πρέπει να παράγουν ήχο."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
 msgid "Whether to protect USB devices"
-msgstr ""
+msgstr "Εάν θα προστατεύονται οι συσκευές USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:80
 msgid ""
 "If the USBGuard service is present and this setting is enabled, USB devices "
 "will be protected as configured in the usb-protection-level setting."
 msgstr ""
+"Εάν η υπηρεσία USBGuard είναι παρούσα και αυτή η ρύθμιση είναι "
+"ενεργοποιημένη, οι συσκευές USB θα προστατεύονται όπως έχει διαμορφωθεί στη "
+"ρύθμιση usb-protection-level."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:87
 msgid "When USB devices should be rejected"
-msgstr ""
+msgstr "Πότε θα πρέπει να απορρίπτονται οι συσκευές USB"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:88
 msgid ""
@@ -2739,12 +2716,13 @@ msgid ""
 "will be rejected; if set to “always”, all new USB devices will always be "
 "rejected."
 msgstr ""
+"Εάν οριστεί σε «lockscreen», οι νέες συσκευές USB θα απορρίπτονται μόνο όταν "
+"εμφανίζεται η οθόνη κλειδώματος· εάν οριστεί σε «always», όλες οι νέες "
+"συσκευές USB θα απορρίπτονται πάντα."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:95
-#, fuzzy
-#| msgid "Whether edge scrolling is enabled"
 msgid "Whether the privacy screen is enabled"
-msgstr "Αν είναι ενεργοποιημένη η κύλιση άκρου"
+msgstr "Εάν είναι ενεργοποιημένη η οθόνη απορρήτου"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:96
 msgid ""
@@ -2752,41 +2730,35 @@ msgid ""
 "enabled, the panels supporting this technology will be obscured from lateral "
 "view."
 msgstr ""
+"Εάν το υποκείμενο υλικό διαθέτει υποστήριξη οθόνης απορρήτου και αυτή η "
+"ρύθμιση είναι ενεργοποιημένη, τα πάνελ που υποστηρίζουν αυτήν την τεχνολογία "
+"θα είναι δυσδιάκριτα από πλάγια θέαση."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
 msgid "Enable restart/shutdown"
-msgstr ""
+msgstr "Ενεργοποίηση επανεκκίνησης/τερματισμού"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
-#, fuzzy
-#| msgid "Show notifications in the lock screen"
 msgid "Allow shutdown and restart actions from the lock screen."
-msgstr "Εμφάνιση ειδοποιήσεων στο κλείδωμα της οθόνης"
+msgstr ""
+"Να επιτρέπονται οι ενέργειες τερματισμού και επανεκκίνησης από την οθόνη "
+"κλειδώματος."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
 msgid "Activate when idle"
-msgstr "Ενεργοποίηση όταν είναι αδρανές"
+msgstr "Ενεργοποίηση κατά την αδράνεια"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to activate the screensaver when the session is idle.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored. Set "
-#| "org.gnome.desktop.session idle-delay to 0 if you do not want to activate "
-#| "the screensaver."
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
 "DEPRECATED: This key is deprecated and ignored. Set "
 "org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
 "screensaver."
 msgstr ""
-"Ορισμός αυτού σε ΑΛΗΘΕΣ για να ενεργοποιήσετε την προφύλαξη οθόνης, όταν η "
-"συνεδρία είναι αδρανής.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται. Ορίστε την "
-"org.gnome.session idle-delay σε 0 εάν δεν θέλετε να ενεργοποιήσετε την "
-"προφύλαξη οθόνης."
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να ενεργοποιήσετε την προφύλαξη οθόνης, όταν "
+"η συνεδρία είναι αδρανής. ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και "
+"αγνοείται. Ορίστε το org.gnome.desktop.session idle-delay σε 0 εάν δεν "
+"θέλετε να ενεργοποιήσετε την προφύλαξη οθόνης."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
@@ -2814,138 +2786,92 @@ msgid "Show full name in the lock screen"
 msgstr "Εμφάνιση πλήρους ονόματος στο κλείδωμα οθόνης"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
-#, fuzzy
-#| msgid ""
-#| "Whether the user's full name is shown in the lock screen or not. This "
-#| "only affects the screen shield, the name is always shown in the unlock "
-#| "dialog."
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Εάν θα εμφανίζεται το πλήρες όνομα του χρήστη στο κλείδωμα της οθόνης ή όχι. "
-"Αυτό επηρεάζει μόνο την θωράκιση της οθόνης, το όνομα εμφανίζεται πάντα στον "
-"ξεκλείδωτο διάλογο."
+"Εάν θα εμφανίζεται το πλήρες όνομα του χρήστη στην οθόνη κλειδώματος ή όχι. "
+"Αυτό επηρεάζει μόνο τη θωράκιση της οθόνης, το όνομα εμφανίζεται πάντα στον "
+"διάλογο ξεκλειδώματος."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr "Να επιτρέπεται η ενσωμάτωση πληκτρολογίου στο παράθυρο"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to allow embedding a keyboard into the window when "
-#| "trying to unlock. The \"keyboard_command\" key must be set with the "
-#| "appropriate command.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
 "command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Ορισμός αυτού σε ΑΛΗΘΕΣ για να επιτρέπεται η ενσωμάτωση πληκτρολογίου στο "
-"παράθυρο κατά την προσπάθεια ξεκλειδώματος. Το κλειδί \"keyboard_command\" "
-"πρέπει να οριστεί με την κατάλληλη εντολή.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το πλήκτρο είναι παρωχημένο και αγνοείται."
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να επιτρέπεται η ενσωμάτωση πληκτρολογίου στο "
+"παράθυρο κατά την προσπάθεια ξεκλειδώματος. Το κλειδί «keyboard_command» "
+"πρέπει να οριστεί με την κατάλληλη εντολή. ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι "
+"παρωχημένο και αγνοείται."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr "Εντολή ενσωματωμένου πληκτρολογίου"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
-#, fuzzy
-#| msgid ""
-#| "The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-#| "set to TRUE, to embed a keyboard widget into the window. This command "
-#| "should implement an XEMBED plug interface and output a window XID on the "
-#| "standard output.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
 "implement an XEMBED plug interface and output a window XID on the standard "
 "output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Αυτή η εντολή θα εκτελείται αν το κλειδί \"embedded_keyboard_enabled\" έχει "
-"οριστεί σε ΑΛΗΘΕΣ, ώστε να ενσωματωθεί το γραφικό συστατικό του "
-"πληκτρολογίου στο παράθυρο. Αυτή η εντολή θα πρέπει να εφαρμόζει μια διεπαφή "
-"προσθέτου XEMBED και να εξάγει ένα παράθυρο XID στην τυπική έξοδο.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το πλήκτρο είναι παρωχημένο και αγνοείται."
+"Η εντολή που θα εκτελεστεί, αν το κλειδί «embedded_keyboard_enabled» έχει "
+"οριστεί σε ΑΛΗΘΕΣ (TRUE), για την ενσωμάτωση ενός γραφικού στοιχείου "
+"πληκτρολογίου στο παράθυρο. Αυτή η εντολή θα πρέπει να υλοποιεί μια διεπαφή "
+"προσθέτου XEMBED και να εξάγει ένα XID παραθύρου στην τυπική έξοδο. "
+"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Να επιτρέπεται η αποσύνδεση"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
-#, fuzzy
-#| msgid ""
-#| "Set this to TRUE to offer an option in the unlock dialog to allow logging "
-#| "out after a delay. The delay is specified in the \"logout_delay\" key.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Ορισμός αυτού σε ΑΛΗΘΕΣ για να προσφέρεται μια επιλογή στο διάλογο "
-"ξεκλειδώματος για αποσύνδεση μετά από κάποια καθυστέρηση. Η καθυστέρηση "
-"καθορίζεται στο κλειδί \"logout_delay\".\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το πλήκτρο είναι παρωχημένο και αγνοείται."
+"Ορίστε το σε ΑΛΗΘΕΣ (TRUE) για να προσφέρεται μια επιλογή στον διάλογο "
+"ξεκλειδώματος για αποσύνδεση μετά από μια καθυστέρηση. Η καθυστέρηση "
+"καθορίζεται στο κλειδί «logout_delay». ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι "
+"παρωχημένο και αγνοείται."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr "Χρόνος πριν την επιλογή αποσύνδεσης"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
-#, fuzzy
-#| msgid ""
-#| "The number of seconds after the screensaver activation before a logout "
-#| "option will appear in the unlock dialog. This key has effect only if the "
-#| "\"logout_enable\" key is set to TRUE.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored"
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
 "“logout_enable” key is set to TRUE. DEPRECATED: This key is deprecated and "
 "ignored"
 msgstr ""
-"Ο αριθμός των δευτερολέπτων αφού ενεργοποιηθεί η προστασία οθόνης, πριν να "
-"εμφανιστεί η επιλογή αποσύνδεσης στο διάλογο ξεκλειδώματος. Αυτό το κλειδί "
-"επιδρά μόνο αν το κλειδί \"logout_enable\" έχει ορισθεί σε ΑΛΗΘΕΣ.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται"
+"Ο αριθμός των δευτερολέπτων μετά την ενεργοποίηση της προφύλαξης οθόνης, "
+"πριν εμφανιστεί η επιλογή αποσύνδεσης στον διάλογο ξεκλειδώματος. Αυτό το "
+"κλειδί έχει ισχύ μόνο αν το κλειδί «logout_enable» έχει οριστεί σε ΑΛΗΘΕΣ "
+"(TRUE). ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr "Εντολή αποσύνδεσης"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
-#, fuzzy
-#| msgid ""
-#| "The command to invoke when the logout button is clicked. This command "
-#| "should simply log the user out without any interaction. This key has "
-#| "effect only if the \"logout_enable\" key is set to TRUE.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
 "the “logout_enable” key is set to TRUE. DEPRECATED: This key is deprecated "
 "and ignored."
 msgstr ""
-"Η εντολή που θα κληθεί όταν πατιέται το κουμπί της αποσύνδεσης. Αυτή η "
-"εντολή θα πρέπει απλά να αποσυνδέει τον χρήστη χωρίς καμία άλλη "
-"αλληλεπίδραση. Αυτό το κλειδί δρα μόνο αν το κλειδί \"logout_enable\" "
-"ορισθεί σε ΑΛΗΘΕΣ.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι ξεπερασμένο και αγνοείται."
+"Η εντολή που θα κληθεί όταν πατηθεί το κουμπί της αποσύνδεσης. Αυτή η εντολή "
+"θα πρέπει απλά να αποσυνδέει τον χρήστη χωρίς καμία αλληλεπίδραση. Αυτό το "
+"κλειδί έχει ισχύ μόνο αν το κλειδί «logout_enable» έχει οριστεί σε ΑΛΗΘΕΣ "
+"(TRUE). ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
@@ -2964,59 +2890,59 @@ msgid "Allow the session status message to be displayed"
 msgstr "Να επιτρέπεται η εμφάνιση του μηνύματος κατάστασης συνεδρίας"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
-#, fuzzy
-#| msgid ""
-#| "Allow the session status message to be displayed when the screen is "
-#| "locked.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Να επιτρέπεται η εμφάνιση του μηνύματος κατάστασης συνεδρίας, όταν η οθόνη "
-"είναι κλειδωμένη.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι ξεπερασμένο και αγνοείται."
+"είναι κλειδωμένη. ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
 msgid "Enable screen time history"
-msgstr ""
+msgstr "Ενεργοποίηση ιστορικού χρόνου οθόνης"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
 msgid ""
 "Enable basic screen time functionality, recording usage data for viewing "
 "history."
 msgstr ""
+"Ενεργοποίηση βασικής λειτουργικότητας χρόνου οθόνης, με καταγραφή δεδομένων "
+"χρήσης για προβολή ιστορικού."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
 msgid "Enable daily screen time limit"
-msgstr ""
+msgstr "Ενεργοποίηση ημερήσιου ορίου χρόνου οθόνης"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
 msgid ""
 "Enable imposing a screen time limit on the user, as set in “daily-limit-"
 "seconds”."
 msgstr ""
+"Ενεργοποίηση επιβολής ορίου χρόνου οθόνης στον χρήστη, όπως ορίζεται στο "
+"«daily-limit-seconds»."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
-msgstr ""
+msgstr "Ημερήσιο όριο χρόνου οθόνης"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
 msgid ""
 "The limit on the amount of daily screen time the user is allowed, in seconds."
 msgstr ""
+"Το όριο του ημερήσιου χρόνου οθόνης που επιτρέπεται στον χρήστη, σε "
+"δευτερόλεπτα."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
 msgid "Grayscale once limit is reached"
-msgstr ""
+msgstr "Κλίμακα του γκρι μόλις συμπληρωθεί το όριο"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
 msgid ""
 "Whether to make the screen grayscale once the user’s screen time limit is "
 "reached."
 msgstr ""
+"Εάν θα μετατρέπεται η οθόνη σε κλίμακα του γκρι μόλις συμπληρωθεί το όριο "
+"χρόνου οθόνης του χρήστη."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -3098,26 +3024,21 @@ msgid "Session type"
 msgstr "Τύπος συνεδρίας"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
-#, fuzzy
-#| msgid ""
-#| "The name of the session to use. Known values are \"gnome\" and \"gnome-"
-#| "fallback\"."
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr ""
-"Το όνομα της συνεδρίας που θα χρησιμοποιηθεί. Γνωστές τιμές είναι \"gnome\" "
-"και \"gnome-fallback\"."
+"Το όνομα της συνεδρίας που θα χρησιμοποιηθεί. Γνωστή τιμή είναι η «gnome»."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:17
-#, fuzzy
-#| msgid "Geolocation services are enabled."
 msgid "Session save/restore enabled"
-msgstr "Είναι ενεργοποιημένες η υπηρεσίες γεωεντοπισμού."
+msgstr "Ενεργοποίηση αποθήκευσης/επαναφοράς συνεδρίας"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:18
 msgid ""
 "When true, running apps will be saved at log-out time and restored on the "
 "next login."
 msgstr ""
+"Όταν είναι αληθές, οι εκτελούμενες εφαρμογές θα αποθηκεύονται κατά την "
+"αποσύνδεση και θα επαναφέρονται στην επόμενη σύνδεση."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
@@ -3150,6 +3071,8 @@ msgstr "Να επιτρέπεται η ένταση μεγαλύτερη από 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:22
 msgid "Whether volume can be set above 100%, using software amplification."
 msgstr ""
+"Εάν η ένταση μπορεί να οριστεί πάνω από το 100%, χρησιμοποιώντας ενίσχυση "
+"λογισμικού."
 
 #: schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in:6
 msgid ""
@@ -3325,15 +3248,13 @@ msgstr "Απόκρυψη όλων των κανονικών παραθύρων"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:136
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr ""
+msgstr "ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και αγνοείται."
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:140
 msgid "Show the run command prompt"
 msgstr "Εμφάνιση προτροπής εντολής εκτέλεσης"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:144
-#, fuzzy
-#| msgid "Don't use"
 msgid "Don’t use"
 msgstr "Μην χρησιμοποιείτε"
 
@@ -3551,13 +3472,6 @@ msgstr ""
 "Μετατροπέας για χρήση στις τροποποιημένες ενέργειες πατήματος παραθύρων"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:9
-#, fuzzy
-#| msgid ""
-#| "Clicking a window while holding down this modifier key will move the "
-#| "window (left click), resize the window (middle click), or show the window "
-#| "menu (right click). The middle and right click operations may be swapped "
-#| "using the \"resize-with-right-button\" key. Modifier is expressed as <!"
-#| "[CDATA[\"<Alt>\"]]> or <![CDATA[\"<Super>\"]]> for example."
 msgid ""
 "Clicking a window while holding down this modifier key will move the window "
 "(left click), resize the window (middle click), or show the window menu "
@@ -3566,45 +3480,32 @@ msgid ""
 "“<Super>” for example."
 msgstr ""
 "Κάνοντας κλικ σε ένα παράθυρο ενώ κρατάτε πατημένο αυτό το τροποποιητικό "
-"πλήκτρο θα μετακινήσει το παράθυρο (αριστερό πάτημα), θα αυξομειώσει το "
-"παράθυρο (μεσαίο πάτημα) ή θα εμφανιστεί το μενού παραθύρου (δεξί πάτημα). "
-"Οι λειτουργίες για το μεσαίο και το δεξί πλήκτρο μπορούν να αντιμετατεθούν "
-"με χρήση του κλειδιού \"resize-with-right-button\". Ο μετατροπέας εκφράζεται "
-"για παράδειγμα ως <![CDATA[\"<Alt>\"]]> ή <![CDATA[\"<Super>\"]]>."
+"πλήκτρο θα μετακινήσει το παράθυρο (αριστερό κλικ), θα αυξομειώσει το "
+"παράθυρο (μεσαίο κλικ) ή θα εμφανίσει το μενού παραθύρου (δεξί κλικ). Οι "
+"λειτουργίες για το μεσαίο και το δεξί πλήκτρο μπορούν να αντιμετατεθούν με "
+"χρήση του κλειδιού «resize-with-right-button». Ο τροποποιητής εκφράζεται για "
+"παράδειγμα ως «<Alt>» ή «<Super>»."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:19
 msgid "Whether to resize with the right button"
 msgstr "Εάν θα αυξομειώνεται με το δεξί κουμπί"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:20
-#, fuzzy
-#| msgid ""
-#| "Set this to true to resize with the right button and show a menu with the "
-#| "middle button while holding down the key given in \"mouse-button-"
-#| "modifier\"; set it to false to make it work the opposite way around."
 msgid ""
 "Set this to true to resize with the right button and show a menu with the "
 "middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
-"Καθορίστε ως αληθές για αυξομείωση με το δεξί πλήκτρο και για εμφάνιση μενού "
-"με το μεσαίο πλήκτρο ενώ έχετε πατημένο το δοσμένο πλήκτρο στο \"mouse-"
-"button-modifier\"· ορίστε το σε ψευδές για να έχετε την αντίθετη συμπεριφορά."
+"Ορίστε το σε αληθές (true) για αυξομείωση με το δεξί κουμπί και για εμφάνιση "
+"μενού με το μεσαίο κουμπί ενώ έχετε πατημένο το πλήκτρο που δίνεται στο "
+"«mouse-button-modifier»· ορίστε το σε ψευδές (false) για να έχετε την "
+"αντίθετη συμπεριφορά."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:29
 msgid "Arrangement of buttons on the titlebar"
 msgstr "Διάταξη των κουμπιών στη γραμμή τίτλου"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:30
-#, fuzzy
-#| msgid ""
-#| "Arrangement of buttons on the titlebar. The value should be a string, "
-#| "such as \"menu:minimize,maximize,spacer,close\"; the colon separates the "
-#| "left corner of the window from the right corner, and the button names are "
-#| "comma-separated. Duplicate buttons are not allowed. Unknown button names "
-#| "are silently ignored so that buttons can be added in future metacity "
-#| "versions without breaking older versions. A special spacer tag can be "
-#| "used to insert some space between two adjacent buttons."
 msgid ""
 "Arrangement of buttons on the titlebar. The value should be a string, such "
 "as “menu:minimize,maximize,spacer,close”; the colon separates the left "
@@ -3615,26 +3516,19 @@ msgid ""
 "some space between two adjacent buttons."
 msgstr ""
 "Διάταξη των κουμπιών στη γραμμή τίτλου. Η τιμή θα πρέπει να είναι "
-"συμβολοσειρά, όπως \"menu:minimize,maximize, spacer, close\"· η άνω κάτω "
-"τελεία χωρίζει την αριστερή γωνία του παραθύρου από τη δεξιά γωνία και τα "
-"ονόματα κουμπιών χωρίζονται με κόμμα. Δεν επιτρέπονται διπλά κουμπιά. "
-"Άγνωστα ονόματα κουμπιών αγνοούνται σιωπηλά έτσι ώστε να μπορούν να "
-"προστεθούν κουμπιά σε μελλοντικές εκδόσεις του metacity, χωρίς να χαλάνε οι "
-"προηγούμενες εκδόσεις. Μια ειδική ετικέτα χώρου μπορεί να χρησιμοποιηθεί για "
-"να εισάγει κενό ανάμεσα σε δύο γειτονικά κουμπιά."
+"συμβολοσειρά, όπως «menu:minimize,maximize,spacer,close»· η άνω κάτω τελεία "
+"χωρίζει την αριστερή γωνία του παραθύρου από τη δεξιά γωνία και τα ονόματα "
+"κουμπιών χωρίζονται με κόμμα. Δεν επιτρέπονται διπλά κουμπιά. Άγνωστα "
+"ονόματα κουμπιών αγνοούνται σιωπηλά έτσι ώστε να μπορούν να προστεθούν "
+"κουμπιά σε μελλοντικές εκδόσεις του metacity, χωρίς να χαλάνε οι "
+"προηγούμενες εκδόσεις. Μια ειδική ετικέτα χώρου (spacer) μπορεί να "
+"χρησιμοποιηθεί για να εισάγει κενό ανάμεσα σε δύο γειτονικά κουμπιά."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:43
 msgid "Window focus mode"
 msgstr "Λειτουργία εστίασης παραθύρου"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:44
-#, fuzzy
-#| msgid ""
-#| "The window focus mode indicates how windows are activated. It has three "
-#| "possible values; \"click\" means windows must be clicked in order to "
-#| "focus them, \"sloppy\" means windows are focused when the mouse enters "
-#| "the window, and \"mouse\" means windows are focused when the mouse enters "
-#| "the window and unfocused when the mouse leaves the window."
 msgid ""
 "The window focus mode indicates how windows are activated. It has three "
 "possible values; “click” means windows must be clicked in order to focus "
@@ -3643,49 +3537,33 @@ msgid ""
 "unfocused when the mouse leaves the window."
 msgstr ""
 "Η λειτουργία εστίασης παραθύρου δείχνει τον τρόπο ενεργοποίησης των "
-"παραθύρων. Έχει τρεις πιθανές τιμές· \"πάτημα\" σημαίνει ότι πρέπει να "
-"πατηθεί στα παράθυρα για να εστιάζονται, \"πρόχειρο\" σημαίνει ότι τα "
-"παράθυρα εστιάζονται όταν το ποντίκι μπαίνει στο παράθυρο και \"ποντίκι\" "
-"σημαίνει ότι τα παράθυρα εστιάζονται όταν το ποντίκι μπαίνει στο παράθυρο "
-"και απεστιάζονται όταν το ποντίκι αφήνει το παράθυρο."
+"παραθύρων. Έχει τρεις πιθανές τιμές· «click» σημαίνει ότι πρέπει να γίνει "
+"κλικ στα παράθυρα για να εστιάζονται, «sloppy» σημαίνει ότι τα παράθυρα "
+"εστιάζονται όταν το ποντίκι μπαίνει στο παράθυρο και «mouse» σημαίνει ότι τα "
+"παράθυρα εστιάζονται όταν το ποντίκι μπαίνει στο παράθυρο και απεστιάζονται "
+"όταν το ποντίκι φεύγει από το παράθυρο."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:55
 msgid "Control how new windows get focus"
 msgstr "Έλεγχος λήψης εστίασης από νέα παράθυρα"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:56
-#, fuzzy
-#| msgid ""
-#| "This option provides additional control over how newly created windows "
-#| "get focus. It has two possible values; \"smart\" applies the user's "
-#| "normal focus mode, and \"strict\" results in windows started from a "
-#| "terminal not being given focus."
 msgid ""
 "This option provides additional control over how newly created windows get "
 "focus. It has two possible values; “smart” applies the user’s normal focus "
 "mode, and “strict” results in new windows not being given focus "
 "automatically."
 msgstr ""
-"Αυτή η επιλογή παρέχει πρόσθετο έλεγχο στο πώς τα νεοδημιουργούμενα παράθυρα "
-"εστιάζονται. Έχει δύο δυνατές τιμές· \"smart\" εφαρμόζει την κανονική "
-"λειτουργία εστίασης του χρήστη και \"strict\" που καταλήγει σε παράθυρα που "
-"ξεκίνησαν από τερματικό χωρίς εστίαση."
+"Αυτή η επιλογή παρέχει πρόσθετο έλεγχο στο πώς εστιάζονται τα "
+"νεοδημιουργούμενα παράθυρα. Έχει δύο δυνατές τιμές· «smart» εφαρμόζει την "
+"κανονική λειτουργία εστίασης του χρήστη και «strict» που έχει ως αποτέλεσμα "
+"τα νέα παράθυρα να μην λαμβάνουν εστίαση αυτόματα."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
 msgid "Whether windows should be raised when their client area is clicked"
-msgstr ""
-"Αν τα παράθυρα πρέπει να ανυψώνονται όταν η περιοχή πελάτη τους πατιέται"
+msgstr "Αν τα παράθυρα πρέπει να ανυψώνονται όταν γίνει κλικ στην περιοχή πελάτη"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:68
-#, fuzzy
-#| msgid ""
-#| "The default, true, indicates that a window will be raised whenever its "
-#| "client area or its frame is clicked.\n"
-#| "\n"
-#| "Setting this to false means that a window will not be raised if it is "
-#| "clicked on the client area. To raise it, one can click anywhere in the "
-#| "window's frame, or Super-click on any part of the window. This mode is "
-#| "useful if one uses many overlapping windows."
 msgid ""
 "The default, true, indicates that a window will be raised whenever its "
 "client area or its frame is clicked. Setting this to false means that a "
@@ -3693,31 +3571,19 @@ msgid ""
 "one can click anywhere in the window’s frame, or Super-click on any part of "
 "the window. This mode is useful if one uses many overlapping windows."
 msgstr ""
-"Η προεπιλογή, αληθές, δείχνει ότι ένα παράθυρο θα ανυψωθεί όποτε η περιοχή "
-"πελάτη του ή το πλαίσιο του πατηθεί.\n"
-"\n"
-"Ο ορισμός του σε ψευδές σημαίνει ότι ένα παράθυρο δεν θα ανυψωθεί, αν "
-"πατηθεί στην περιοχή πελάτη. Για να το ανυψώσετε, μπορείτε να πατήσετε "
-"οπουδήποτε στο πλαίσιο του παραθύρου, ή να πατήσετε το πλήκτρο λογότυπου σε "
-"οποιοδήποτε τμήμα του παραθύρου. Αυτή η κατάσταση είναι χρήσιμη αν κάποιος "
-"χρησιμοποιεί πολλά επικαλυπτόμενα παράθυρα."
+"Η προεπιλογή, αληθές (true), δείχνει ότι ένα παράθυρο θα ανυψωθεί όποτε "
+"γίνει κλικ στην περιοχή πελάτη του ή στο πλαίσιο του. Ο ορισμός του σε "
+"ψευδές (false) σημαίνει ότι ένα παράθυρο δεν θα ανυψωθεί, αν γίνει κλικ στην "
+"περιοχή πελάτη. Για να το ανυψώσετε, μπορείτε να κάνετε κλικ οπουδήποτε στο "
+"πλαίσιο του παραθύρου, ή Super-κλικ σε οποιοδήποτε τμήμα του παραθύρου. Αυτή "
+"η κατάσταση είναι χρήσιμη αν κάποιος χρησιμοποιεί πολλά επικαλυπτόμενα "
+"παράθυρα."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:82
 msgid "Action on title bar double-click"
 msgstr "Ενέργεια κατά το διπλό κλικ στη γραμμή τίτλου"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:83
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of double-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of double-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3727,34 +3593,19 @@ msgid ""
 "“lower” which will put the window behind all the others, and “none” which "
 "will not do anything."
 msgstr ""
-"Αυτή η επιλογή καθορίζει τα αποτελέσματα του διπλού πατήματος στη γραμμή "
-"τίτλου.\n"
-"\n"
-"Οι τρέχουσες έγκυρες επιλογές είναι 'toggle-shade', που θα σκιάζει/"
-"αποσκιάζει το παράθυρο, 'toggle-maximize' που θα μεγιστοποιεί/"
-"απομεγιστοποιεί το παράθυρο, 'toggle-maximize-horizontally' και 'toggle-"
-"maximize-vertically' που θα μεγιστοποιεί/απομεγιστοποιεί το παράθυρο μόνο σε "
-"αυτή την κατεύθυνση, 'minimize' που θα ελαχιστοποιεί το παράθυρο, 'shade' "
-"που θα κυλίσει το παράθυρο προς τα πάνω, 'menu' που θα εμφανίζει το μενού "
-"του παραθύρου, 'lower' που θα βάζει το παράθυρο πίσω από όλα τα άλλα και "
-"'none' που δεν θα κάνει τίποτα."
+"Αυτή η επιλογή καθορίζει τα αποτελέσματα του διπλού κλικ στη γραμμή τίτλου. "
+"Οι τρέχουσες έγκυρες επιλογές είναι «toggle-maximize» που θα μεγιστοποιεί/"
+"απομεγιστοποιεί το παράθυρο, «toggle-maximize-horizontally» και «toggle-"
+"maximize-vertically» που θα μεγιστοποιεί/απομεγιστοποιεί το παράθυρο μόνο σε "
+"αυτή την κατεύθυνση, «minimize» που θα ελαχιστοποιεί το παράθυρο, «menu» που "
+"θα εμφανίζει το μενού του παραθύρου, «lower» που θα βάζει το παράθυρο πίσω "
+"από όλα τα άλλα και «none» που δεν θα κάνει τίποτα."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:105
 msgid "Action on title bar middle-click"
 msgstr "Ενέργεια στο μεσαίο κλικ στη γραμμή τίτλου"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:106
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of middle-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of middle-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3764,34 +3615,19 @@ msgid ""
 "“lower” which will put the window behind all the others, and “none” which "
 "will not do anything."
 msgstr ""
-"Αυτή η επιλογή καθορίζει τα αποτελέσματα του μεσαίου πατήματος στη γραμμή "
-"τίτλου.\n"
-"\n"
-"Οι τρέχουσες έγκυρες επιλογές είναι 'toggle-shade', που θα σκιάζει/"
-"αποσκιάζει το παράθυρο, 'toggle-maximize' που θα μεγιστοποιεί/"
-"απομεγιστοποιεί το παράθυρο, 'toggle-maximize-horizontally' και 'toggle-"
-"maximize-vertically' που θα μεγιστοποιεί/απομεγιστοποιεί το παράθυρο μόνο σε "
-"αυτή την κατεύθυνση, 'minimize' που θα ελαχιστοποιεί το παράθυρο, 'shade' "
-"που θα κυλίσει το παράθυρο προς τα πάνω, 'menu' που θα εμφανίζει το μενού "
-"του παραθύρου, 'lower' που θα βάζει το παράθυρο πίσω από όλα τα άλλα, και "
-"'none' που δεν θα κάνει τίποτα."
+"Αυτή η επιλογή καθορίζει τα αποτελέσματα του μεσαίου κλικ στη γραμμή τίτλου. "
+"Οι τρέχουσες έγκυρες επιλογές είναι «toggle-maximize» που θα μεγιστοποιεί/"
+"απομεγιστοποιεί το παράθυρο, «toggle-maximize-horizontally» και «toggle-"
+"maximize-vertically» που θα μεγιστοποιεί/απομεγιστοποιεί το παράθυρο μόνο σε "
+"αυτή την κατεύθυνση, «minimize» που θα ελαχιστοποιεί το παράθυρο, «menu» που "
+"θα εμφανίζει το μενού του παραθύρου, «lower» που θα βάζει το παράθυρο πίσω "
+"από όλα τα άλλα και «none» που δεν θα κάνει τίποτα."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:129
 msgid "Action on title bar right-click"
 msgstr "Ενέργεια με δεξί κλικ στη γραμμή τίτλου"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:130
-#, fuzzy
-#| msgid ""
-#| "This option determines the effects of right-clicking on the title bar.\n"
-#| "\n"
-#| "Current valid options are 'toggle-shade', which will shade/unshade the "
-#| "window, 'toggle-maximize' which will maximize/unmaximize the window, "
-#| "'toggle-maximize-horizontally' and 'toggle-maximize-vertically' which "
-#| "will maximize/unmaximize the window in that direction only, 'minimize' "
-#| "which will minimize the window, 'shade' which will roll the window up, "
-#| "'menu' which will display the window menu, 'lower' which will put the "
-#| "window behind all the others, and 'none' which will not do anything."
 msgid ""
 "This option determines the effects of right-clicking on the title bar. "
 "Current valid options are “toggle-maximize” which will maximize/unmaximize "
@@ -3801,40 +3637,30 @@ msgid ""
 "“lower” which will put the window behind all the others, and “none” which "
 "will not do anything."
 msgstr ""
-"Αυτή η επιλογή καθορίζει τα αποτελέσματα του δεξιού πατήματος στη γραμμή "
-"τίτλου.\n"
-"\n"
-"Οι τρέχουσες έγκυρες επιλογές είναι 'toggle-shade', που θα σκιάζει/"
-"αποσκιάζει το παράθυρο, 'toggle-maximize' που θα μεγιστοποιεί/"
-"απομεγιστοποιεί το παράθυρο, 'toggle-maximize-horizontally' και 'toggle-"
-"maximize-vertically' που θα μεγιστοποιεί/απομεγιστοποιεί το παράθυρο μόνο σε "
-"αυτή την κατεύθυνση, 'minimize' που θα ελαχιστοποιεί το παράθυρο, 'shade' "
-"που θα κυλίσει το παράθυρο προς τα πάνω, 'menu' που θα εμφανίζει το μενού "
-"του παραθύρου, 'lower' που θα βάζει το παράθυρο πίσω από όλα τα άλλα, και "
-"'none' που δεν θα κάνει τίποτα."
+"Αυτή η επιλογή καθορίζει τα αποτελέσματα του δεξιού κλικ στη γραμμή τίτλου. "
+"Οι τρέχουσες έγκυρες επιλογές είναι «toggle-maximize» που θα μεγιστοποιεί/"
+"απομεγιστοποιεί το παράθυρο, «toggle-maximize-horizontally» και «toggle-"
+"maximize-vertically» που θα μεγιστοποιεί/απομεγιστοποιεί το παράθυρο μόνο σε "
+"αυτή την κατεύθυνση, «minimize» που θα ελαχιστοποιεί το παράθυρο, «menu» που "
+"θα εμφανίζει το μενού του παραθύρου, «lower» που θα βάζει το παράθυρο πίσω "
+"από όλα τα άλλα και «none» που δεν θα κάνει τίποτα."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:152
 msgid "Automatically raises the focused window"
 msgstr "Αυτόματη ανύψωση του εστιασμένου παράθυρου"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:153
-#, fuzzy
-#| msgid ""
-#| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-#| "the focused window will be automatically raised after a delay specified "
-#| "by the auto-raise-delay key. This is not related to clicking on a window "
-#| "to raise it, nor to entering a window during drag-and-drop."
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focused window will be automatically raised after a delay specified by the "
 "auto-raise-delay key. This is not related to clicking on a window to raise "
 "it, nor to entering a window during drag-and-drop."
 msgstr ""
-"Αν τεθεί σε αληθές και η λειτουργία εστίασης είναι \"sloppy\" ή \"mouse\", "
-"τότε το εστιασμένο παράθυρο να ανυψωθεί αυτόματα μετά από μια καθυστέρηση "
-"που καθορίζεται από το κλειδί auto-raise-delay. Αυτό δεν σχετίζεται με το "
-"πάτημα σε παράθυρο για ανύψωση του, ούτε με την είσοδο παραθύρου κατά τη "
-"μεταφορά και απόθεση."
+"Αν οριστεί σε αληθές (true) και η λειτουργία εστίασης είναι είτε «sloppy» "
+"είτε «mouse», τότε το εστιασμένο παράθυρο θα ανυψωθεί αυτόματα μετά από μια "
+"καθυστέρηση που καθορίζεται από το κλειδί auto-raise-delay. Αυτό δεν "
+"σχετίζεται με το κλικ σε παράθυρο για ανύψωσή του, ούτε με την είσοδο σε "
+"παράθυρο κατά τη μεταφορά και απόθεση."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:163
 msgid "Delay in milliseconds for the auto raise option"
@@ -3853,20 +3679,13 @@ msgid "Current theme"
 msgstr "Τρέχον θέμα"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:172
-#, fuzzy
-#| msgid ""
-#| "The theme determines the appearance of window borders, titlebar, and so "
-#| "forth.\n"
-#| "\n"
-#| "DEPRECATED: This key is deprecated and ignored."
 msgid ""
 "The theme determines the appearance of window borders, titlebar, and so "
 "forth. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
-"Το θέμα καθορίζει την εμφάνιση των περιγραμμάτων παραθύρου, της γραμμής "
-"τίτλου κοκ.\n"
-"\n"
-"ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και παραβλέπεται."
+"Το θέμα καθορίζει την εμφάνιση των περιγραμμάτων του παραθύρου, της γραμμής "
+"τίτλου και ούτω καθεξής. ΠΑΡΩΧΗΜΕΝΟ: Αυτό το κλειδί είναι παρωχημένο και "
+"αγνοείται."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:181
 msgid "Use standard system font in window titles"
@@ -3916,55 +3735,33 @@ msgid "System Bell is Audible"
 msgstr "Το κουδούνι συστήματος είναι ακουστό"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:210
-#, fuzzy
-#| msgid ""
-#| "Determines whether applications or the system can generate audible "
-#| "'beeps'; may be used in conjunction with 'visual bell' to allow silent "
-#| "'beeps'."
 msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
-"Καθορίζει αν οι εφαρμογές ή το σύστημα μπορούν να παράξουν ακουστούς ήχους "
-"'μπιπ'· μπορεί να χρησιμοποιηθεί σε συνδυασμό με το 'οπτικό κουδούνι' για να "
-"επιτρέπει σιωπηλά 'μπιπ'."
+"Καθορίζει αν οι εφαρμογές ή το σύστημα μπορούν να παράγουν ακουστά «μπιπ»· "
+"μπορεί να χρησιμοποιηθεί σε συνδυασμό με το «οπτικό κουδούνι» για να "
+"επιτρέπει σιωπηλά «μπιπ»."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
 msgstr "Ενεργοποίηση οπτικού κουδουνιού"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:219
-#, fuzzy
-#| msgid ""
-#| "Turns on a visual indication when an application or the system issues a "
-#| "'bell' or 'beep'; useful for the hard-of-hearing and for use in noisy "
-#| "environments."
 msgid ""
 "Turns on a visual indication when an application or the system issues a "
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
-"Ενεργοποιεί μια οπτική ένδειξη για το πότε η εφαρμογή ή το σύστημα παράγει "
-"ένα 'κουδούνισμα' ή 'μπιπ'· είναι χρήσιμο για όσους έχουν προβλήματα ακοής ή "
-"για όσους εργάζονται σε θορυβώδες περιβάλλον."
+"Ενεργοποιεί μια οπτική ένδειξη όταν μια εφαρμογή ή το σύστημα παράγει ένα "
+"«κουδούνισμα» ή «μπιπ»· χρήσιμο για όσους έχουν προβλήματα ακοής ή για χρήση "
+"σε θορυβώδη περιβάλλοντα."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
-msgstr "Οπτικό είδος κουδουνιού"
+msgstr "Τύπος οπτικού κουδουνιού"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
-#, fuzzy
-#| msgid ""
-#| "Tells the WM how to implement the visual indication that the system bell "
-#| "or another application 'bell' indicator has been rung.\n"
-#| "\n"
-#| "Currently there are two valid values, \"fullscreen-flash\", which causes "
-#| "a fullscreen white-black flash, and \"frame-flash\" which causes the "
-#| "titlebar of the application which sent the bell signal to flash.\n"
-#| "\n"
-#| "If the application which sent the bell is unknown (as is usually the case "
-#| "for the default \"system beep\"), the currently focused window's titlebar "
-#| "is flashed."
 msgid ""
 "Tells the WM how to implement the visual indication that the system bell or "
 "another application “bell” indicator has been rung. Currently there are two "
@@ -3974,17 +3771,14 @@ msgid ""
 "unknown (as is usually the case for the default “system beep”), the "
 "currently focused window’s titlebar is flashed."
 msgstr ""
-"Λέει στο WM τον τρόπο υλοποίησης της οπτικής ένδειξης που το κουδούνι του "
-"συστήματος ή άλλης εφαρμογής δείκτη 'κουδουνιού' έχει χτυπήσει.\n"
-"\n"
-"Αυτή τη στιγμή υπάρχουν δύο έγκυρες τιμές \"αναλαμπή πλήρους οθόνης\", που "
-"δημιουργεί μια ασπρόμαυρη αναλαμπή σε πλήρη οθόνη, και \"αναλαμπή πλαισίου\" "
-"που προκαλεί μία αναλαμπή της γραμμής τίτλου της εφαρμογής που έστειλε το "
-"σήμα του κουδουνιού.\n"
-"\n"
-"Αν η εφαρμογή που έστειλε το κουδούνισμα είναι άγνωστη (όπως συνήθως "
-"συμβαίνει για το προεπιλεγμένο \"μπιπ συστήματος\") αναβοσβήνει η γραμμή "
-"τίτλου του τρέχοντος εστιασμένου παραθύρου."
+"Λέει στον διαχειριστή παραθύρων (WM) πώς να υλοποιήσει την οπτική ένδειξη "
+"ότι το κουδούνι συστήματος ή κάποια άλλη ένδειξη «κουδουνιού» εφαρμογής έχει "
+"ηχήσει. Αυτή τη στιγμή υπάρχουν δύο έγκυρες τιμές, «fullscreen-flash», η "
+"οποία προκαλεί μια αναλαμπή άσπρου-μαύρου σε πλήρη οθόνη, και «frame-flash», "
+"η οποία προκαλεί αναλαμπή στη γραμμή τίτλου της εφαρμογής που έστειλε το "
+"σήμα κουδουνιού. Αν η εφαρμογή που έστειλε το κουδούνισμα είναι άγνωστη "
+"(όπως συμβαίνει συνήθως για το προεπιλεγμένο «μπιπ συστήματος»), αναβοσβήνει "
+"η γραμμή τίτλου του τρέχοντος εστιασμένου παραθύρου."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
