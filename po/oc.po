@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
 "POT-Creation-Date: 2026-01-09 10:47+0000\n"
-"PO-Revision-Date: 2026-02-12 16:44+0100\n"
+"PO-Revision-Date: 2026-02-13 16:55+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
 "Language: oc\n"
@@ -894,10 +894,8 @@ msgstr "Passir l’ecran pendent las pausas"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:44
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:109
-#, fuzzy
-#| msgid "Fade screen during breaks"
 msgid "True to fade the screen during rest breaks."
-msgstr "Passir l’ecran pendent las pausas"
+msgstr "«True » per passir l’ecran pendent las pausas."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:49
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:114
@@ -906,10 +904,8 @@ msgstr "Verrolhar l’ecran pendent las pausas"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:50
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:115
-#, fuzzy
-#| msgid "Lock screen during breaks"
 msgid "True to lock the screen during rest breaks."
-msgstr "Verrolhar l’ecran pendent las pausas"
+msgstr "« True » per verrolhar l’ecran pendent las pausas"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:55
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:120
@@ -1081,7 +1077,6 @@ msgid "Current input source"
 msgstr "Font d'entrada actuala"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:8
-#, fuzzy
 msgid ""
 "The zero-based index into the input sources list specifying the current one "
 "in effect. The value is automatically capped to remain in the range [0, "
@@ -1091,22 +1086,13 @@ msgstr ""
 "L'indici, començant a zèro, dins la lista de las fonts d'entrada spécifiant "
 "celle actualament en acion. La valor es automaticament limitada per demorar "
 "dins l'interval [0, sources_length) tant que la lista de las fonts es pas "
-"voida. "
+"voida. OBSOLÈT : aquesta clau es obsolèta e ignorada."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:19
 msgid "List of input sources"
 msgstr "Lista de las fonts d'entrada"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:20
-#, fuzzy
-#| msgid ""
-#| "List of input source identifiers available. Each source is specified as a "
-#| "tuple of 2 strings. The first string is the type and can be one of 'xkb' "
-#| "or 'ibus'. For 'xkb' sources the second string is "
-#| "'xkb_layout+xkb_variant' or just 'xkb_layout' if a XKB variant isn't "
-#| "needed. For 'ibus' sources the second string is the IBus engine name. An "
-#| "empty list means that the X server's current XKB layout and variant won't "
-#| "be touched and IBus won't be used."
 msgid ""
 "List of input source identifiers available. Each source is specified as a "
 "tuple of 2 strings. The first string is the type and can be one of “xkb” or "
@@ -1116,13 +1102,13 @@ msgid ""
 "server’s current XKB layout and variant won’t be touched and IBus won’t be "
 "used."
 msgstr ""
-"La lista dels identificants de font d'entrada disponible. Cada source es "
-"especificada coma un coble de 2 cadenas de caractèrs. La primièra es lo tipe "
-"e pòt èsser siá « xkb », siá « ibus ». Per las fonts « xkb », la segonda "
+"Lista dels identificants de font de picada disponibles. Cada font es "
+"especificada coma un n-uplet de 2 cadenas de tèxt. La primièra cadena es lo "
+"tipe e pòt èsser « xkb » o « ibus ». Per las fonts « xkb », la segonda "
 "cadena es « xkb_layout+xkb_variant » o simplament « xkb_layout » se una "
-"variante XKB es pas nécessaire. Per las fonts « ibus », la segonda cadena es "
+"varianta XKB es pas necessària. Per las fonts « ibus », la segonda cadena es "
 "lo nom del motor IBus. Una lista voida significa que la disposicion e la "
-"varianta XKB actuala del servidor X seràn pas cambiats e IBus serà pas "
+"varianta XKB actualas del servidor X seràn pas tocadas e qu'IBus serà pas "
 "utilizat."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:33
@@ -1154,16 +1140,12 @@ msgid "XKB model to use"
 msgstr "Modèl XKB d’utilizar"
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:50
-#, fuzzy
-#| msgid ""
-#| "List of XKB options. Each option is an XKB option string as defined by "
-#| "xkeyboard-config’s rules files."
 msgid ""
 "The XKB model to use. The value is the same identifier as defined by "
 "xkeyboard-config’s geometry files."
 msgstr ""
-"Lista de las options XKB. Caduna de las opcions es una cadena d'opcion tal "
-"coma definida dins los fichièrs de règlas de xkeyboard-config."
+"Lo modèl XKB d'utilizar. La valor es lo meteis identificant que lo definit "
+"pels fichièrs de geometria de xkeyboard-config."
 
 #: schemas/org.gnome.desktop.input-sources.gschema.xml.in:57
 msgid "Show all installed input sources"
@@ -1550,6 +1532,8 @@ msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
+"Se marcat, GTK+ utiliza lo pegatge de la seleccion principala, generalament "
+"provocat per un clic del boton del mièg de la mirga."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
@@ -1738,15 +1722,11 @@ msgid "Disable user switching"
 msgstr "Desactivar lo cambiament d'utilizaire"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
-#, fuzzy
-#| msgid ""
-#| "Prevent the user from switching to another account while his session is "
-#| "active."
 msgid ""
 "Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
-"Empacha l'utilizaire de cambiar de compte alara que sa session es activa."
+"Empachar l'utilizaire de cambiar de compte alara que sa session es activa."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
@@ -2023,14 +2003,10 @@ msgstr ""
 "picada sul clavièr."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
-#, fuzzy
-#| msgid ""
-#| "Timeout in milliseconds between repeated clicks when a button is left "
-#| "pressed."
 msgid "Timeout in milliseconds until the touchpad is enabled after typing"
 msgstr ""
-"Relambi d'espèra en millisegondas entre los clics repichons quand un boton "
-"es clicat amb lo boton esquèrra."
+"Relambi d'espèra en millisegondas dusca que lo pavat tactil siá activat "
+"aprèp picada"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
 msgid ""
@@ -2303,19 +2279,14 @@ msgid "Drawing tablet mapping"
 msgstr "Ligason de la tauleta grafica"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
-#, fuzzy
-#| msgid ""
-#| "EDID information of the monitor the tablet is mapped to. Must be in the "
-#| "format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
-"Informations EDID del monitor al qual es connectada la tauleta grafica. "
-"Devon respectar lo format [vendor (nom del provesidor), product (nom del "
-"produit), serial (seria)]. [\"\",\"\",\"\"] desactiva aquesta mesa en "
-"correspondéncia."
+"Informacions EDID de la sortida a la quala la tauleta es juntada. Deu èsser "
+"al format [fornidor, produch, serial]. [\"\",\"\",\"\"] repausa sul "
+"juntament automatic."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
@@ -2420,10 +2391,8 @@ msgstr ""
 "goma es en mòde « boton »."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#, fuzzy
-#| msgid "Key combination for the tertiary button"
 msgid "Key combination for the eraser button if in 'button' mode"
-msgstr "Combinason de tòcas pel boton terciari"
+msgstr "Combinason de tòcas pel boton de la goma se en mòde « boton »"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
@@ -2506,18 +2475,14 @@ msgid "Touchscreen output mapping"
 msgstr "Ligason d’entrada de l’ecran tactil"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
-#, fuzzy
-#| msgid ""
-#| "EDID information of the monitor the touchscreen is mapped to. Must be in "
-#| "the format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
-"Informacions EDID del monitor al qual es religat l'ecran tactil. Devon "
-"respectar lo format [vendor (nom del provesidor), product (nom del produit), "
-"serial (seria)]. [\"\",\"\",\"\"] desactiva aquesta mesa en correspondéncia."
+"Informacions EDID de la sortida a la quala l'ecran tactil es juntat. Deu "
+"èsser al format [fabricant, produch, serial]. [\"\",\"\",\"\"] se fisa al "
+"juntament automatic."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -2526,12 +2491,8 @@ msgstr ""
 "foncionalitat."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
-#, fuzzy
-#| msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgid "Mouse wheel emulation button lock"
-msgstr ""
-"Boton d'emulacion de la rodeta de la mirga. 0 per desactivar aquesta "
-"foncionalitat."
+msgstr "Verrolhatge del boton d'emulacion de la rodeta de la mirga"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
