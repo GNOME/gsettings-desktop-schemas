@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
 "POT-Creation-Date: 2026-01-09 10:47+0000\n"
-"PO-Revision-Date: 2026-02-05 14:39+0100\n"
+"PO-Revision-Date: 2026-02-14 12:35+0100\n"
 "Last-Translator: Jordi Mas i Hernàndez <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -89,6 +89,14 @@ msgid ""
 msgstr ""
 "Si s'han d'usar formes per indicar l'estat a més a més o en detriment del "
 "color."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr "Moviment reduït"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr "El tipus de moviment reduït."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -937,6 +945,20 @@ msgstr "Mostra la data de la setmana en el calendari"
 msgid "If true, display the ISO week date in the calendar."
 msgstr ""
 "Si és «true» (cert) es mostra la data de la setmana ISO en el calendari."
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr "Primer dia de la setmana"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
+msgstr ""
+"El primer dia de la setmana. Els valors vàlids són «default», «monday», "
+"«tuesday», «wednesday», «thursday», «friday», «saturday», «sunday». El "
+"«default» actua com a alternativa a la configuració regional del sistema."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -2319,9 +2341,21 @@ msgstr "Rang de pressió de la goma d'esborrar"
 msgid "Eraser button mode"
 msgstr "Mode de botó d'esborrar"
 
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr "Establiu-ho per a canviar el comportament del botó d'esborrar."
+
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
 msgid "Eraser button action"
 msgstr "Acció del botó d'esborrar"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr ""
+"Establiu això a l'acció del botó activada si el botó d'esborrar està en el "
+"mode «botó»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
 msgid "Key combination for the eraser button if in 'button' mode"
@@ -2959,6 +2993,14 @@ msgstr "El nom de la sessió a usar. El valor conegut és «gnome»."
 #: schemas/org.gnome.desktop.session.gschema.xml.in:17
 msgid "Session save/restore enabled"
 msgstr "Desament/restauració de la sessió activat"
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr ""
+"Quan sigui cert, les aplicacions en execució es desaran en el moment de "
+"sortir i es restauraran en el següent inici de sessió."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
