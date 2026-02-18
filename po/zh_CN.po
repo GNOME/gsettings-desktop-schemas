@@ -7,15 +7,15 @@
 # YunQiang Su <wzssyqa@gmail.com>, 2011, 2012.
 # Sphinx Jiang <yishanj13@gmail.com>, 2014.
 # Dingzhong Chen <wsxy162@gmail.com>, 2021.
-# lumingzh <lumingzh@qq.com>, 2022-2025.
+# lumingzh <lumingzh@qq.com>, 2022-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-09-02 08:48+0000\n"
-"PO-Revision-Date: 2025-09-04 17:41+0800\n"
+"POT-Creation-Date: 2026-02-17 16:48+0000\n"
+"PO-Revision-Date: 2026-02-18 09:56+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-03-22 14:16+0000\n"
-"X-Generator: Gtranslator 48.0\n"
+"X-Generator: Gtranslator 49.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -86,6 +86,14 @@ msgstr "显示状态形状"
 msgid ""
 "Whether to use shapes to indicate status in addition or instead of color."
 msgstr "是否使用形状作为附加或代替颜色来提示状态。"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr "减少动画"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr "减少动画的类型。"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -851,6 +859,20 @@ msgstr "在日历中显示周日历"
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
 msgid "If true, display the ISO week date in the calendar."
 msgstr "若为 true，则在日历中显示 ISO 周日历。"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr "每周首日"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
+msgstr ""
+"每周的第一天。有效值"
+"为“default”、“monday”、“tuesday”、“wednesday”、“thursday”、“friday”、“saturday”、“sunday”。“default”为"
+"系统本地化设置的回退选项。"
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1748,19 +1770,29 @@ msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr "启用后，在键盘上键入时将禁用触摸板。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+msgid "Timeout in milliseconds until the touchpad is enabled after typing"
+msgstr "键盘输入后直到启用触摸板之间延时的毫秒数"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+msgid ""
+"Touchpads will be disabled for this many milliseconds after typing on the "
+"keyboard."
+msgstr "在键盘上输入后会临时禁用触摸板该设定的毫秒时长。"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
 msgstr "用触摸板启用鼠标点击"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:37
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr "将此项设为 TRUE，能够通过点击触摸板发送鼠标点击事件。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
 msgstr "点击按钮地图"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -1769,21 +1801,21 @@ msgstr ""
 "定义手指数和触摸板按钮之间的映射。默认情况下，可以用 1、2 或 3 个手指点击分别"
 "映射到左、右和中键（“lrm”）。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
 msgstr "启用触摸板点击和拖动"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr "将此设置为 TRUE，可以通过点击并立即移动触摸板上的手指来开始拖动。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "启用触摸板点击和拖动锁定"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -1791,19 +1823,19 @@ msgstr ""
 "将此设置为 TRUE 以在触摸板上抬起手指并启用“点击并拖动”设置时，在短超时内锁定"
 "拖动过程。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
 msgstr "启用触摸板"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "定义启用触摸板的情况。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "触摸板按钮方向"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1811,14 +1843,14 @@ msgstr ""
 "交换鼠标的左右键。左手习惯鼠标为“left”，右手习惯鼠标为“right”，“mouse”表示要"
 "跟随鼠标设置。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid "Acceleration profile"
 msgstr "加速度曲线"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -1833,13 +1865,13 @@ msgstr ""
 "平坦（“flat”），或基于鼠标移动自适应加速的自适应（“adaptive”）。如果触摸板不"
 "支持配置的配置文件，则将使用“default”。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Pointer speed"
 msgstr "指针速度"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1847,20 +1879,20 @@ msgstr ""
 "触摸板指针速度。可接受的值在 [-1..1] 范围内，（从“不加速”到“快速”）。0 是系统"
 "默认值。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Natural scrolling"
 msgstr "自然滚动"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr "将此项设为 TRUE，启用触摸板自然（反向）滚动。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Click method"
 msgstr "点击方法"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -1869,71 +1901,71 @@ msgstr ""
 "如何生成软件模拟的按钮，禁用（“none“）、通过特定的区域（“areas”）、手指的数量"
 "（“fingers”）或使用硬件默认值（“default”）。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Emulate middle click"
 msgstr "模拟中键单击"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
 msgstr "将此设置为 TRUE 可在同时单击左键和右键时启用中键单击。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
 msgstr "键盘重复"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "将此项设为 TRUE 启用键盘重复。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Key Repeat Interval"
 msgstr "按键重复间隔"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Delay between repeats in milliseconds."
 msgstr "重复之间的延迟（毫秒）。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Initial Key Repeat Delay"
 msgstr "初始按键重复"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Initial key repeat delay in milliseconds."
 msgstr "初始按键重复延迟（毫秒）。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Remember NumLock state"
 msgstr "记住数字锁定键状态"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr "当设置为 true 时，GNOME 将记住会话之间数字锁定灯的状态。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "NumLock state"
 msgstr "数字锁定键状态"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "The remembered state of the NumLock LED."
 msgstr "记住的数字锁定灯的状态。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Mouse button orientation"
 msgstr "鼠标按钮方向"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "为左手习惯鼠标交换鼠标左右键。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -1941,11 +1973,11 @@ msgstr ""
 "鼠标的指针速度。可接受的值在 [-1..1] 范围内，（从 “不加速” 到 “快速”）。 0 是"
 "系统默认值。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "将此项设为 TRUE，启用鼠标自然（反向）滚动。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1960,27 +1992,27 @@ msgstr ""
 "坦（“flat”），或基于鼠标移动自适应加速的自适应（“adaptive”）。如果鼠标不支持"
 "配置的配置文件，则将使用“default”。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
 msgstr "双击时间"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Length of a double click in milliseconds."
 msgstr "识别为双击的最长时间，单位为毫秒。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Drag threshold"
 msgstr "拖动阈值"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Distance before a drag is started."
 msgstr "触发拖动的最小距离。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Drawing tablet mapping"
 msgstr "绘制平板映射"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -1989,89 +2021,121 @@ msgstr ""
 "平板映射到输出的 EDID 信息。格式必须是[厂商，产品，序列号]。[\"\",\"\",\"\"]"
 "依赖于自动映射。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
 msgstr "平板映射"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
 msgstr "输入如何影响屏幕上的指针"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
 msgstr "平板区域"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr "活动区域周围的死角填充，用百分比表示。 分别应用于左、右、顶部和底部。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
 msgstr "平板纵横比"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr "启用此选项可将平板区域限制为与输出的纵横比相匹配。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
 msgstr "启用左手习惯模式"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr "启用此选项可允许旋转平板来进行左手习惯设置"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
 msgstr "手写笔压力曲线"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "将其设为x1、y1和x2、y2，在适用于手写笔的压力曲线上。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
 msgstr "手写笔压力范围"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr "将该项设为物理压力范围应映射到逻辑范围的百分比。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
 msgstr "橡皮擦压力曲线"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "将其设为x1、y1和x2、y2，在适用于橡皮的压力曲线上。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
 msgstr "橡皮擦压力范围"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+msgid "Eraser button mode"
+msgstr "橡皮擦按钮模式"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr "用此设置更改橡皮擦按钮的行为。"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid "Eraser button action"
+msgstr "橡皮擦按钮操作"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr "如果橡皮擦按钮处于“按钮”模式则用此设置设定触发的按钮操作。"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid "Key combination for the eraser button if in 'button' mode"
+msgstr "用于“按钮”模式橡皮擦的按键组合"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:247
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr "当按钮按下时会为自定义操作生成键盘快捷方式。"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Button action"
 msgstr "按钮操作"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "手写笔按钮操作，该按钮位于笔杆上。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
 msgstr "次要按钮操作"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2080,11 +2144,11 @@ msgstr ""
 "次要手写笔按钮操作，对于一些手写笔该按钮位于笔杆上，如 Grip Pen。其他的一些手"
 "写笔比如 Airbrush Pen 或 Inking Pen 仅有一个按钮，此设置对它们无效。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
 msgstr "三级按钮操作"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2093,44 +2157,35 @@ msgstr ""
 "三级手写笔按钮操作，对于一些手写笔该按钮位于笔杆上，如 3D Pen。其他的一些手写"
 "笔比如 Grip Pen 仅有两个按钮，此设置对它们无效。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
 msgstr "主按钮的组合键"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
-msgstr "当按钮按下时会为自定义操作生成键盘快捷方式。"
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
 msgid "Key combination for the secondary button"
 msgstr "次按钮的组合键"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Key combination for the tertiary button"
 msgstr "第三按钮的组合键"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
 msgid "Pad button action type"
 msgstr "平板按钮操作类型"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
 msgstr "通过按下按钮触发的操作类型。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
 msgstr "自定义操作的组合键"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
 msgid "Touchscreen output mapping"
 msgstr "触摸屏输出映射"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2139,15 +2194,15 @@ msgstr ""
 "触摸屏映射到输出的 EDID 信息。格式必须是[厂商，产品，序列号]。[\"\",\"\","
 "\"\"]依赖于自动映射。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "鼠标滚轮模拟按钮。 0 代表禁用该功能。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Mouse wheel emulation button lock"
 msgstr "鼠标滚轮模拟按钮锁定"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2156,7 +2211,7 @@ msgstr ""
 "设置此值为 TRUE 以启用滚轮模拟按钮的按钮锁定。如启用此项，第一次点击将启用滚"
 "动，第二次点击将禁用滚动。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2170,7 +2225,7 @@ msgstr ""
 "于移动自适应加速的自适应（“adaptive”）。如果轨迹球不支持配置的配置文件，则将"
 "使用“default”。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2178,7 +2233,7 @@ msgstr ""
 "指点杆的指针速度。可接受的值在 [-1..1] 范围内（从 “不加速” 到 “快速”）。 0 是"
 "系统默认值。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2192,11 +2247,11 @@ msgstr ""
 "于移动自适应加速的自适应（“adaptive”）。如果轨迹球不支持配置的配置文件，则将"
 "使用“default”。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
 msgstr "滚动方法"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2377,8 +2432,9 @@ msgstr "空闲时激活"
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "设为 TRUE 会在会话空闲时激活屏幕保护程序。已废弃：此键已废弃并忽略。如果您不"
 "想激活屏幕保护程序，请将 org.gnome.desktop.session idle-delay 设为 0。"
@@ -2516,10 +2572,10 @@ msgstr "启用每天的屏幕使用时间限制"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
 msgid ""
-"Enable imposing a screen time limit on the user, as set in daily-limit-"
-"seconds."
+"Enable imposing a screen time limit on the user, as set in “daily-limit-"
+"seconds”."
 msgstr ""
-"启用对用户的强制性屏幕使用时间限制，限制时间在 daily-limit-seconds 中设定。"
+"启用对用户的强制性屏幕使用时间限制，限制时间在“daily-limit-seconds”中设定。"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2607,6 +2663,16 @@ msgstr "会话类型"
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "会话使用的名称。已知值为“gnome”。"
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:17
+msgid "Session save/restore enabled"
+msgstr "启用会话保存/恢复"
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr "设为 true 时，运行中的应用会在登出时保存并在下次登录时恢复。"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
@@ -3064,10 +3130,11 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
-"标题栏中按钮的排列方式。值应该为字符串，如“menu:minimize,maximize,spacer,"
-"close”；冒号分隔窗口的左上角和右上角，按钮名以逗号分隔。按钮不允许重复。未知"
-"的按钮名将直接忽略，以便将来的 metacity 版本增加按钮时不会破坏旧版本。可以使"
-"用特别的 spacer 标签在相邻按钮间增加一些空间。"
+"标题栏中按钮的排列方式。值应该为字符串，"
+"如“menu:minimize,maximize,spacer,close”；冒号分隔窗口的左上角和右上角，按钮名"
+"以逗号分隔。按钮不允许重复。未知的按钮名将直接忽略，以便将来的 metacity 版本"
+"增加按钮时不会破坏旧版本。可以使用特别的 spacer 标签在相邻按钮间增加一些空"
+"间。"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:43
 msgid "Window focus mode"
@@ -3348,10 +3415,10 @@ msgid ""
 "user’s location on their own using network resources (albeit with street-"
 "level accuracy at best)."
 msgstr ""
-"设置程序所允许查看的最高定位精度。有效的值包括“country”（国家）、“city”（城"
-"市“、“neighborhood”（街区）、“street”（街道）和“exact”（精确）（通常需要 GPS "
-"接收器）。请记住，这仅仅控制了程序通过 GeoClue 所能看到的位置，而各种应用程序"
-"还可以通过它自身的网络资源来定位用户（尽管往往最多只能精确到街道等级）。"
+"设置程序所允许查看的最高定位精度。有效的值包括“country”（国家）、“city”（城市"
+"“、“neighborhood”（街区）、“street”（街道）和“exact”（精确）（通常需要 GPS 接"
+"收器）。请记住，这仅仅控制了程序通过 GeoClue 所能看到的位置，而各种应用程序还"
+"可以通过它自身的网络资源来定位用户（尽管往往最多只能精确到街道等级）。"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:10
 msgid "Proxy configuration mode"
