@@ -1,9 +1,9 @@
 # Swedish translation for gsettings-desktop-schemas.
-# Copyright © 2011-2025 Free Software Foundation, Inc.
+# Copyright © 2011-2026 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Daniel Nylander <po@danielnylander.se>, 2011.
 # Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 # Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
 #
 msgid ""
@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2025-07-23 22:34+0000\n"
-"PO-Revision-Date: 2025-09-04 18:09+0200\n"
+"POT-Creation-Date: 2026-01-09 10:47+0000\n"
+"PO-Revision-Date: 2026-02-25 21:53+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -87,6 +87,14 @@ msgid ""
 msgstr ""
 "Huruvida former ska användas för att indikera status utöver eller i stället "
 "för färg."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr "Reducerad rörelse"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr "Typen av reducerad rörelse."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -917,6 +925,20 @@ msgstr "Visa veckonummer i kalendern"
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
 msgid "If true, display the ISO week date in the calendar."
 msgstr "Om satt till true (sant), visa veckonummer enligt ISO i kalendern."
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr "Första dag i veckan"
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
+msgstr ""
+"Första dagen på veckan. Giltiga värden är ”default”, ”monday”, ”tuesday”, "
+"”wednesday”, ”thursday”, ”friday”, ”saturday”, ”sunday”. ”default” faller "
+"tillbaka på systemets lokalinställningar."
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1905,21 +1927,33 @@ msgstr ""
 "tangentbordet."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+msgid "Timeout in milliseconds until the touchpad is enabled after typing"
+msgstr "Tidsgräns i millisekunder innan styrplattan aktiveras efter skrift"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+msgid ""
+"Touchpads will be disabled for this many milliseconds after typing on the "
+"keyboard."
+msgstr ""
+"Styrplattor kommer inaktiveras så här många millisekunder efter att du "
+"skrivit på tangentbordet."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
 msgstr "Aktivera musklick med styrplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:37
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Sätt denna till TRUE (sant) för att kunna skicka musklick genom att trycka "
 "på styrplattan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
 msgstr "Knappmappning för tryck"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -1929,11 +1963,11 @@ msgstr ""
 "är att en tryckning med 1, 2 och 3 fingrar mappas till den vänstra, högra "
 "respektive mittersta knappen (\"lrm\")."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Aktivera tryck-och-dra med styrplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
@@ -1941,11 +1975,11 @@ msgstr ""
 "Sätt denna till TRUE (sant) för att kunna starta en dragning genom att "
 "trycka ner och sedan förflytta fingret som nu är pressat mot styrplattan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "Aktivera lås för tryck-och-dra med styrplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -1954,19 +1988,19 @@ msgstr ""
 "tidsgräns när fingret lyfts från styrplattan och inställningen tryck-och-dra "
 "är aktiverad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
 msgstr "Styrplatta aktiverad"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Definiera i vilka situationer styrplattan är aktiverad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "Styrplattans knapporientering"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -1974,14 +2008,14 @@ msgstr ""
 "Byt vänster och höger musknappar för vänsterhänta möss med ”left”, ”right” "
 "för högerhänta, ”mouse” för att följa musinställningarna."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid "Acceleration profile"
 msgstr "Accelerationsprofil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -1999,13 +2033,13 @@ msgstr ""
 "vilket anpassar accelerationen beroende på musrörelsen. Om en styrplatta "
 "inte stöder den konfigurerade profilen kommer ”default” att användas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Pointer speed"
 msgstr "Markörhastighet"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2014,22 +2048,22 @@ msgstr ""
 "[-1..1] (från ”oaccelererad” till ”snabb”). Värdet 0 är systemets "
 "standardvärde."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Natural scrolling"
 msgstr "Naturlig rullning"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Sätt denna till TRUE (sant) för att aktivera naturlig (omvänd) rullning för "
 "styrplattor."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Click method"
 msgstr "Klickmetod"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2039,51 +2073,51 @@ msgstr ""
 "(”none”), genom specifika områden (”areas”), antal fingrar (”fingers”) eller "
 "lämnat som standard för hårdvaran (”default”)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Emulate middle click"
 msgstr "Emulera mellanklick"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
 msgstr ""
-"Ställ in denna till TRUE (sant) för att aktivera mellanklick under samtidiga "
+"Sätt denna till TRUE (sant) för att aktivera mellanklick under samtidiga "
 "vänster- och högerklick."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
 msgstr "Tangentbordsrepetition"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Sätt denna till TRUE (sant) för att aktivera tangentbordsrepetition."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Key Repeat Interval"
 msgstr "Tangentrepetitionsintervall"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Delay between repeats in milliseconds."
 msgstr "Fördröjning mellan repetitioner i millisekunder."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Initial Key Repeat Delay"
 msgstr "Initial fördröjning för tangentrepetition"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Initial fördröjning för tangentrepetition i millisekunder."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Remember NumLock state"
 msgstr "Kom ihåg NumLock-tillstånd"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2091,23 +2125,23 @@ msgstr ""
 "När inställd till true (sant) kommer GNOME att komma ihåg tillståndet för "
 "NumLock-lampan mellan sessioner."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "NumLock state"
 msgstr "NumLock-tillstånd"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "The remembered state of the NumLock LED."
 msgstr "Det ihågkomna tillståndet för NumLock-lampan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Mouse button orientation"
 msgstr "Musknappsorientering"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Byt vänster och höger musknappar för vänsterhänta möss."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2115,13 +2149,13 @@ msgstr ""
 "Markörhastighet för möss. Accepterade värden är de inom intervallet [-1..1] "
 "(från ”oaccelererad” till ”snabb”). Värdet 0 är systemets standardvärde."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Sätt denna till TRUE (sant) för att aktivera naturlig (omvänd) rullning för "
 "möss."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -2139,27 +2173,27 @@ msgstr ""
 "accelerationen beroende på musrörelsen. Om en mus inte stöder den "
 "konfigurerade profilen kommer ”default” att användas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
 msgstr "Tid för dubbelklick"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Length of a double click in milliseconds."
 msgstr "Längd för ett dubbelklick i millisekunder."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Drag threshold"
 msgstr "Tröskelvärde för dragning"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Distance before a drag is started."
 msgstr "Avstånd innan en dragning påbörjas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Drawing tablet mapping"
 msgstr "Mappning för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2169,19 +2203,19 @@ msgstr ""
 "på formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] förlitar "
 "sig på automatisk mappning."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
 msgstr "Mappning för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
 msgstr "Hur inmatning påverkar pekaren på skärmen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
 msgstr "Ritplatteområde"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2189,11 +2223,11 @@ msgstr ""
 "Inaktivt utfyllnadsområde kring den aktiva ytan, i procent. Tillämpas på "
 "vänster-, höger-, över- respektive underkanterna."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
 msgstr "Bildförhållande för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2201,70 +2235,104 @@ msgstr ""
 "Aktivera denna för att begränsa ritplattans area till att matcha "
 "utmatningens bildförhållande."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
 msgstr "Vänsterhänt läge för ritplatta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Aktivera denna för att möjliggöra att fysiskt rotera ritplattan för "
 "vänsterhänta konfigurationer"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
 msgstr "Tryckkurva för styluspenna"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
-"Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
-"pennan."
+"Sätt denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för pennan."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
 msgstr "Tryckintervall för styluspenna"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr ""
-"Ställ in detta till procentsatsen av det fysiska tryckintervallet som ska "
-"mappa till det logiska intervallet."
+"Sätt denna till procentsatsen av det fysiska tryckintervallet som ska mappa "
+"till det logiska intervallet."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
 msgstr "Tryckkurva för raderare"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
-"Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
+"Sätt denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
 "raderaren."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
 msgstr "Tryckintervall för raderare"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+msgid "Eraser button mode"
+msgstr "Suddknappsläge"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr "Ställ in detta för att ändra suddknappens beteende."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid "Eraser button action"
+msgstr "Åtgärd för suddknapp"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr ""
+"Sätt denna till knappåtgärden som utlöses om suddknappen är i ”knapp”-läge."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid "Key combination for the eraser button if in 'button' mode"
+msgstr "Tangentkombination för suddknappen om i ”knapp”-läge"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:247
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade "
+"åtgärder."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Button action"
 msgstr "Knappåtgärd"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Pennknappsåtgärd, denna knapp är placerad längs pennhandtaget."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
 msgstr "Åtgärd för sekundär knapp"
 
 # Modeller på Wacom-pennor
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2275,12 +2343,12 @@ msgstr ""
 "eller Inking Pen har bara en knapp, denna inställning har ingen effekt på "
 "dessa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
 msgstr "Åtgärd för tertiär knapp"
 
 # Modeller på Wacom-pennor
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2290,46 +2358,35 @@ msgstr ""
 "vissa styluspennor som 3D Pen. Andra styluspennor som Grip Pen har bara två "
 "knappar, denna inställning har ingen effekt på dessa."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
 msgstr "Tangentkombination för den primära knappen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
-msgstr ""
-"Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade "
-"åtgärder."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
 msgid "Key combination for the secondary button"
 msgstr "Tangentkombination för den sekundära knappen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Key combination for the tertiary button"
 msgstr "Tangentkombination för den tertiära knappen"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
 msgid "Pad button action type"
 msgstr "Åtgärdstyp för styrplatteknapp"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typen av åtgärd som utlöses av att knappen trycks ned."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
 msgstr "Tangentkombination för den anpassade åtgärden"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
 msgid "Touchscreen output mapping"
 msgstr "Mappning för pekskärmsutmatning"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2339,25 +2396,25 @@ msgstr ""
 "på formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] förlitar "
 "sig på automatisk mappning."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Mushjulsemuleringsknapp. 0 för att inaktivera funktionen."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Mouse wheel emulation button lock"
 msgstr "Knapplås för mushjulsemulering"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr ""
-"Ställ in detta till TRUE (sant) för att aktivera knapplåsning för knappen "
-"för mushjulsemulering. Om aktiverad så aktiverar det första klicket på "
-"knappen rullning, och det andra klicket inaktiverar rullning igen."
+"Sätt denna till TRUE (sant) för att aktivera knapplåsning för knappen för "
+"mushjulsemulering. Om aktiverad så aktiverar det första klicket på knappen "
+"rullning, och det andra klicket inaktiverar rullning igen."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2374,7 +2431,7 @@ msgstr ""
 "beroende på rörelsen. Om styrkulan inte stöder den konfigurerade profilen "
 "kommer ”default” att användas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2383,7 +2440,7 @@ msgstr ""
 "[-1..1] (från ”oaccelererad” till ”snabb”). Värdet 0 är systemets "
 "standardvärde."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2400,11 +2457,11 @@ msgstr ""
 "beroende på rörelsen. Om styrpinnen inte stöder den konfigurerade profilen "
 "kommer ”default” att användas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
 msgstr "Rullningsmetod"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2762,11 +2819,11 @@ msgstr "Aktivera daglig skärmtidsgräns"
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
 msgid ""
-"Enable imposing a screen time limit on the user, as set in daily-limit-"
-"seconds."
+"Enable imposing a screen time limit on the user, as set in “daily-limit-"
+"seconds”."
 msgstr ""
-"Aktivera att påtvinga användaren en skärmtidsgräns som satts i daily-limit-"
-"seconds."
+"Aktivera att påtvinga användaren en skärmtidsgräns som satts i ”daily-limit-"
+"seconds”."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2863,6 +2920,18 @@ msgstr "Sessionstyp"
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Namnet på sessionen som ska användas. Känt värde är ”gnome”."
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:17
+msgid "Session save/restore enabled"
+msgstr "Sparande/återställning av session aktiverat"
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr ""
+"När true (sant) kommer program som körs sparas vid utloggning och "
+"återställas vid nästa inloggning."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
