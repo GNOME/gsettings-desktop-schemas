@@ -265,6 +265,10 @@
       <summary>Touchscreen output mapping</summary>
       <description>EDID information of the output the touchscreen is mapped to. Must be in the format [vendor, product, serial]. ["","",""] relies on automatic mapping.</description>
     </key>
+    <key name="orientation-lock" type="b">
+      <default>false</default>
+      <summary>Whether the tablet’s orientation is locked, or rotated automatically.</summary>
+    </key>
   </schema>
   <schema id="org.gnome.desktop.peripherals.trackball" path="/org/gnome/desktop/peripherals/trackball/">
     <key name="scroll-wheel-emulation-button" type="i">
