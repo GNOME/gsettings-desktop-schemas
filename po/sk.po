@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-09-10 17:24+0000\n"
-"PO-Revision-Date: 2024-09-14 23:04+0200\n"
+"POT-Creation-Date: 2026-02-17 16:48+0000\n"
+"PO-Revision-Date: 2026-04-30 11:35+0200\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -91,6 +91,14 @@ msgstr "Zobraziť stavové tvary"
 msgid ""
 "Whether to use shapes to indicate status in addition or instead of color."
 msgstr "Či použiť tvary na označenie stavu okrem farby alebo miesto nej."
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr ""
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr ""
 
 # summary
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
@@ -773,8 +781,8 @@ msgid ""
 "uses the org.gnome.desktop.app-folders.folder schema."
 msgstr ""
 "Zoznam relatívne nastavených ciest, v ktorých sú uložené priečinky "
-"aplikácií. Každý priečinok používa schému „org.gnome.desktop.app-folders."
-"folder“."
+"aplikácií. Každý priečinok používa schému „org.gnome.desktop.app-"
+"folders.folder“."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:15
 msgid "Folder name"
@@ -834,13 +842,13 @@ msgstr ""
 
 # summary
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:97
 msgid "Picture Options"
 msgstr "Voľby obrázka"
 
 # description
 #: schemas/org.gnome.desktop.background.gschema.xml.in:7
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:91
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:98
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
@@ -852,13 +860,13 @@ msgstr ""
 "(zväčšený) , „spanned“ (rozprestrený)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:106
 msgid "Picture URI"
 msgstr "URI obrázka"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
 #: schemas/org.gnome.desktop.background.gschema.xml.in:24
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:107
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -872,36 +880,36 @@ msgstr "URI adresa obrázka (tmavého)"
 
 # summary
 #: schemas/org.gnome.desktop.background.gschema.xml.in:32
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Picture Opacity"
 msgstr "Krytie obrázka"
 
 # description
 #: schemas/org.gnome.desktop.background.gschema.xml.in:33
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Opacity with which to draw the background picture."
 msgstr "Určuje krytie, s ktorým bude vykreslený obrázok pozadia."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:39
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Primary Color"
 msgstr "Primárna farba"
 
 # description
 #: schemas/org.gnome.desktop.background.gschema.xml.in:40
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 "Určuje farbu ľavej alebo hornej strany pre vykresľovanie prechodu farieb "
 "alebo jednotnú farbu."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Secondary Color"
 msgstr "Sekundárna farba"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:47
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Určuje farbu pravej alebo dolnej strany pri vykresľovaní prechodu. Nebude "
@@ -909,12 +917,12 @@ msgstr ""
 
 # summary
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:136
 msgid "Color Shading Type"
 msgstr "Typ tieňovania farby"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:54
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:137
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -938,14 +946,12 @@ msgstr "Zoznam prestávok, ktoré sú aktuálne povolené"
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:22
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:87
-#| msgid "Timeout between click repeats"
 msgid "Time between breaks"
 msgstr "Čas medzi prestávkami"
 
 # summary
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:23
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:88
-#| msgid "Delay between repeats in milliseconds."
 msgid "The time between rest breaks, in seconds."
 msgstr "Čas medzi prestávkami na odpočinok, v sekundách."
 
@@ -970,8 +976,8 @@ msgid ""
 "The amount to delay taking the break by, if the user requests a delay, in "
 "seconds."
 msgstr ""
-"Hodnota v sekundách, o ktorú sa má posunúť prestávka v prípade, že používateľ "
-"o odklad požiada."
+"Hodnota v sekundách, o ktorú sa má posunúť prestávka v prípade, že "
+"používateľ o odklad požiada."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
@@ -1038,7 +1044,9 @@ msgstr "Zapnite pre zobrazenie upozornenia, keď je prestávka oneskorená."
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:80
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:145
 msgid "True to show a prominent countdown shortly before a break is due."
-msgstr "Zapnite pre zobrazenie výrazného odpočítavania krátko pred začiatkom prestávky."
+msgstr ""
+"Zapnite pre zobrazenie výrazného odpočítavania krátko pred začiatkom "
+"prestávky."
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:6
 msgid "Show the week date in the calendar"
@@ -1049,6 +1057,17 @@ msgid "If true, display the ISO week date in the calendar."
 msgstr ""
 "Ak je nastavené na true, bude v kalendári zobrazené dátum s číslom týždňa "
 "podľa štandardu ISO."
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr ""
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
+msgstr ""
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
 msgid "Automatically update timezone"
@@ -1674,11 +1693,11 @@ msgstr ""
 "podobne ako pri komerčných vykresľovacích jadrách ClearType, DirectWrite a "
 "Adobe. Ignoruje prirodzený hinting definovaný v písme a miesto toho ho "
 "generuje algoritmicky. Používa sa ako predvolený v Ubuntu. Odporúčané. "
-"Význam ďalších dvoch hodnôt „medium“ a „full“ závisí na formáte písma (."
-"ttf, .otf, .pba/pfb) a nainštalovanej verzii knižnice FreeType. Zvyčajne sa "
-"snaží napasovať glyfy v osi X aj Y (iba pri .otf iba v osi Y). To môže viesť "
-"k rušivému a nekonzistentnému vykresľovaniu v závislosti na kvalite alebo "
-"formáte písma a stavu vykresľovacieho jadra FreeType. "
+"Význam ďalších dvoch hodnôt „medium“ a „full“ závisí na formáte písma "
+"(.ttf, .otf, .pba/pfb) a nainštalovanej verzii knižnice FreeType. Zvyčajne "
+"sa snaží napasovať glyfy v osi X aj Y (iba pri .otf iba v osi Y). To môže "
+"viesť k rušivému a nekonzistentnému vykresľovaniu v závislosti na kvalite "
+"alebo formáte písma a stavu vykresľovacieho jadra FreeType. "
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:293
 msgid "RGBA order"
@@ -1721,19 +1740,17 @@ msgid ""
 "settings, or \"automatic\" for letting the toolkit make its own decisions."
 msgstr ""
 "Predvoľba, ktorá určuje, či sa má vykresľovanie písma riadiť nízkoúrovňovým "
-"nastavením `font-hinting`, `font-antialiasing` a `font-rgba-order` alebo "
-"sa majú zohľadňovať faktory prostredia, ako je rozlíšenie obrazovky a škálovanie. "
-"Možné hodnoty sú: „manual“ pre rešpektovanie nízkoúrovňových nastavení alebo "
-"„automatic“ pre ponechanie sade nástrojov, aby sa sama rozhodla."
+"nastavením `font-hinting`, `font-antialiasing` a `font-rgba-order` alebo sa "
+"majú zohľadňovať faktory prostredia, ako je rozlíšenie obrazovky a "
+"škálovanie. Možné hodnoty sú: „manual“ pre rešpektovanie nízkoúrovňových "
+"nastavení alebo „automatic“ pre ponechanie sade nástrojov, aby sa sama "
+"rozhodla."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:316
 msgid "Accent color"
 msgstr "Farebný odtieň"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:317
-#| msgid ""
-#| "The preferred color scheme for the user interface. Valid values are "
-#| "“default”, “prefer-dark”, “prefer-light”."
 msgid ""
 "The preferred accent color for the user interface. Valid values are "
 "\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
@@ -1800,8 +1817,12 @@ msgid "Disable user switching"
 msgstr "Zakázať prepínanie používateľov"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
+#, fuzzy
+#| msgid ""
+#| "Prevent the user from switching to another account while his session is "
+#| "active."
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Zakáže používateľovi prepnutie do iného účtu, pokiaľ je jeho relácia stále "
@@ -1812,7 +1833,9 @@ msgid "Disable lock screen"
 msgstr "Zakázať uzamykaciu obrazovku"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+#, fuzzy
+#| msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Zakáže používateľovi uzamknutie svojej obrazovky."
 
 # summary
@@ -2080,21 +2103,40 @@ msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr "Keď je povolené, tochpady budú počas písania na klávesnici zakázané."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
+#, fuzzy
+#| msgid ""
+#| "Timeout in milliseconds between repeated clicks when a button is left "
+#| "pressed."
+msgid "Timeout in milliseconds until the touchpad is enabled after typing"
+msgstr ""
+"Určuje časový limit medzi opakovanými kliknutiami pri stlačení tlačidla "
+"ľavým tlačidlom myši."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+#, fuzzy
+#| msgid ""
+#| "When enabled, touchpads will be disabled while typing on the keyboard."
+msgid ""
+"Touchpads will be disabled for this many milliseconds after typing on the "
+"keyboard."
+msgstr "Keď je povolené, tochpady budú počas písania na klávesnici zakázané."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
 msgid "Enable mouse clicks with touchpad"
 msgstr "Povoliť kliknutia touchpadom"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:37
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Nastavte na TRUE, keď chcete klepnutiami na touchpad odosielať kliknutia "
 "myši."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
 msgid "Tap Button Map"
 msgstr "Mapovanie klepnutí a tlačidiel"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
@@ -2103,23 +2145,23 @@ msgstr ""
 "Definuje mapovanie medzi počtom prstov a tlačidiel touchpadu. Predvolené je "
 "mapovanie 1, 2 a 3 prstov na ľavé, pravé a prostredné tlačidlo („lrm“)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
 msgstr "Povoliť kliknutie a ťahanie touchpadom"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
-"Nastavte na TRUE, keď chcete  ťahať klepnutím a následným presunom prsta, "
+"Nastavte na TRUE, keď chcete ťahať klepnutím a následným presunom prsta, "
 "ktorý teraz zatlačil na touchpad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr "Povoliť uzamknutie kliknutia a ťahania touchpadom"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
@@ -2128,19 +2170,19 @@ msgstr ""
 "kedy sa prsty zdvihnú nad touchpad a pritom je zapnuté nastavenie tap-and-"
 "drag."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
 msgstr "Touchpad povolený"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr "Určuje situácie, v ktorých je povolený touchpad."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "Orientácia tlačidiel touchpadu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -2148,14 +2190,14 @@ msgstr ""
 "Vymieňa ľavé a pravé tlačidlo. „left“ pre ľavákov, „right“ pre pravákov "
 "„mouse“ použije nastavenia myši."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid "Acceleration profile"
 msgstr "Profil zrýchlenia"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2172,13 +2214,13 @@ msgstr ""
 "zrýchlenie podľa pohybu. Ak tablet nepodporuje nastavený profil, použije sa "
 "hodnota „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Pointer speed"
 msgstr "Rýchlosť ukazovateľa"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2186,22 +2228,22 @@ msgstr ""
 "Rýchlosť ukazovateľa pre touchpad. Platné hodnoty sú v rozsahu [-1..1] (od "
 "„nezrýchlenej“ po „rýchlu“). Hodnota 0 je predvolená systémom."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Natural scrolling"
 msgstr "Prirodzené rolovanie"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Nastavte na TRUE, keď chcete pre touchpady použiť prirodzené (opačné) "
 "rolovanie."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Click method"
 msgstr "Metóda kliknutia"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2212,15 +2254,15 @@ msgstr ""
 "ponechá hardvérové prednastavenie („default“)."
 
 # summary
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Emulate middle click"
 msgstr "Emulovať kliknutie stredného tlačidla"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2228,37 +2270,37 @@ msgstr ""
 "Nastavte na TRUE, ak chcete zapnúť emuláciu stlačenia stredného tlačidla "
 "myši súčasným kliknutím ľavého a pravého tlačidla."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
 msgstr "Opakovanie klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nastavte na TRUE, keď chcete povoliť opakovanie klávesnice."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Key Repeat Interval"
 msgstr "Interval opakovania klávesov"
 
 # summary
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Delay between repeats in milliseconds."
 msgstr "Oneskorenie medzi opakovaniami v milisekundách."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Initial Key Repeat Delay"
 msgstr "Počiatočné oneskorenie opakovania klávesov"
 
 # summary
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Počiatočné oneskorenie opakovania klávesov v milisekundách."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Remember NumLock state"
 msgstr "Pamätať si stav Num Lock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2266,23 +2308,23 @@ msgstr ""
 "Keď nastavené na true, bude si GNOME pamätať stav kontrolky Num Lock medzi "
 "sedeniami."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "NumLock state"
 msgstr "Stav Num Lock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "The remembered state of the NumLock LED."
 msgstr "Zapamätaný stav kontrolky Num Lock."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Mouse button orientation"
 msgstr "Orientácia tlačidiel myši"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Prepína ľavé a pravé tlačidlo myši pre ľavákov."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2290,12 +2332,12 @@ msgstr ""
 "Rýchlosť ukazovateľa myši. Platné hodnoty sú v rozsahu [-1..1] (od "
 "„nezrýchlenej“ po „rýchlu“). Hodnota 0 je predvolená systémom."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Nastavte na TRUE, keď chcete pre myš použiť prirodzené (opačné) rolovanie."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -2312,27 +2354,27 @@ msgstr ""
 "zrýchlenie na základe pohybu myši. Ak myš nepodporuje nastavený profil, "
 "použije sa hodnota „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
 msgstr "Čas dvojitého kliknutia"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Length of a double click in milliseconds."
 msgstr "Dĺžka dvojitého kliknutia, v milisekundách."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Drag threshold"
 msgstr "Prah pre ťahanie"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Distance before a drag is started."
 msgstr "Vzdialenosť, ktorá spustí funkciu „ťahaj“"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Drawing tablet mapping"
 msgstr "Mapovanie grafického tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2342,19 +2384,19 @@ msgstr ""
 "byť vo formáte [výrobca, produkt, sériové_číslo]. [\"\",\"\",\"\"] ponechá "
 "mapovanie na automatike."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
 msgstr "Mapovanie tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
 msgstr "Ako vstup ovplyvňuje kurzor na obrazovke"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
 msgstr "Oblasť tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2362,11 +2404,11 @@ msgstr ""
 "Pomer mŕtvej oblasti voči aktívnej oblasti v percentách. Jednotlivo "
 "aplikovaný na ľavú, pravú, hornú a dolnú stranu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
 msgstr "Pomer strán tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2374,32 +2416,32 @@ msgstr ""
 "Toto povoľte, keď chcete obmedziť aby sa pomer strán oblasti tabletu "
 "zhodoval s výstupom."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
 msgstr "Režim tabletu pre ľavákov"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr "Toto povoľte, keď chcete umožniť fyzické otočenie tabletu pre ľavákov"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
 msgstr "Prítlaková krivka hrotu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
-"Toto nastavte na x1, y1 a x2, y2 prítlakovej krivky, ktorá sa aplikuje na hrot."
+"Toto nastavte na x1, y1 a x2, y2 prítlakovej krivky, ktorá sa aplikuje na "
+"hrot."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
-#| msgid "Stylus pressure curve"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
 msgstr "Rozsah prítlaku hrotu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2407,34 +2449,72 @@ msgstr ""
 "Toto nastavte na percento rozsahu fyzického tlaku, ktoré by sa malo mapovať "
 "do logického rozsahu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
 msgstr "Prítlaková krivky gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
-"Toto nastavte na x1, y1 a x2, y2 prítlakovej krivky, ktorá sa aplikuje na gumu."
+"Toto nastavte na x1, y1 a x2, y2 prítlakovej krivky, ktorá sa aplikuje na "
+"gumu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
-#| msgid "Eraser pressure curve"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
 msgstr "Rozsah prítlaku gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#, fuzzy
+#| msgid "Tertiary button action"
+msgid "Eraser button mode"
+msgstr "Akcia tretieho tlačidla"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#, fuzzy
+#| msgid "Tertiary button action"
+msgid "Eraser button action"
+msgstr "Akcia tretieho tlačidla"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#, fuzzy
+#| msgid "Key combination for the tertiary button"
+msgid "Key combination for the eraser button if in 'button' mode"
+msgstr "Kombinácia kláves pre tretie tlačidlo"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:247
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr "Klávesová skratka generovaná pri stlačení tlačidla pre vlastnú akciu."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Button action"
 msgstr "Akcia tlačidla"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Akcia tlačidla hrotu, toto tlačidlo je umiestnené na rúčke pera."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
 msgstr "Akcia sekundárneho tlačidla"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2444,11 +2524,11 @@ msgstr ""
 "na niektorých hrotoch ako je pero Grip. Ostatné hroty ako pero Airprush "
 "alebo pero Inking majú len jedno tlačidlo, toto nastavenie sa ich netýka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
 msgstr "Akcia tretieho tlačidla"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2459,47 +2539,35 @@ msgstr ""
 "Airbrush Grip Pen, majú len jedno tlačidlo a v takých prípadoch nemá toto "
 "nastavenie žiaden význam."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
-#| msgid "Key combination for the custom action"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
 msgstr "Kombinácia kláves pre hlavné tlačidlo"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
-msgstr "Klávesová skratka generovaná pri stlačení tlačidla pre vlastnú akciu."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
-#| msgid "Key combination for the custom action"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
 msgid "Key combination for the secondary button"
 msgstr "Kombinácia kláves pre sekundárne tlačidlo"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
-#| msgid "Key combination for the custom action"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Key combination for the tertiary button"
 msgstr "Kombinácia kláves pre tretie tlačidlo"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
 msgid "Pad button action type"
 msgstr "Typ akcie tlačidla podložky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typ akcie spustenej stlačením tlačidla."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
 msgstr "Kombinácia kláves pre vlastnú akciu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
 msgid "Touchscreen output mapping"
 msgstr "Mapovanie výstupu dotykovej obrazovky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2509,15 +2577,15 @@ msgstr ""
 "mapovaná. Musí byť vo formáte [výrobca, produkt, sériové_číslo]. [\"\",\"\","
 "\"\"] ponechá mapovanie na automatike."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Simulácia tlačidla kolieska myši. 0 túto funkcionalitu zakáže."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Mouse wheel emulation button lock"
 msgstr "Zamykanie emulácie kolieska myši tlačidlom"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2527,7 +2595,7 @@ msgstr ""
 "myši. Keď je zapnuté, prvé stlačenie tlačidla zapne rolovanie, druhé "
 "stlačenie ho zasa vypne."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2543,7 +2611,7 @@ msgstr ""
 "prispôsobuje zrýchlenie na základe pohybu myši. Ak trackball nepodporuje "
 "nastavený profil, použije sa hodnota „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2551,7 +2619,7 @@ msgstr ""
 "Rýchlosť ukazovateľa trackpointu. Platné hodnoty sú v rozsahu [-1..1] (od "
 "„nezrýchlenej“ po „rýchlu“). Hodnota 0 je predvolená systémom."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2567,11 +2635,11 @@ msgstr ""
 "základe pohybu. Ak trackpoint nepodporuje nastavený profil, použije sa "
 "hodnota „default“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
 msgstr "Metóda rolovania"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2768,14 +2836,25 @@ msgstr ""
 "pohľadom zboku."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
+msgid "Enable restart/shutdown"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#, fuzzy
+#| msgid "Show notifications in the lock screen"
+msgid "Allow shutdown and restart actions from the lock screen."
+msgstr "Zobraziť oznámenia na uzamknutej obrazovke"
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
 msgid "Activate when idle"
 msgstr "Spustiť pri nečinnosti"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
 msgid ""
 "Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
 msgstr ""
 "Nastavte na TRUE, ak sa má pri nečinnosti aktivovať šetrič obrazovky. "
 "ZAVRHNUTÉ: Tento kľúč je zavrhnutý a ignoruje sa. Ak nechcete aktivovať "
@@ -2783,34 +2862,34 @@ msgstr ""
 
 # DK: jedna sa o spustenie setrica obrazovky
 # summary
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
 msgstr "Uzamknúť pri spustení"
 
 # summary
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:17
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:24
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
 "Nastavte na true, ak sa má po spustení šetriča obrazovky uzamknúť obrazovka."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:28
 msgid "Time before locking"
 msgstr "Doba pred uzamknutím"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:22
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:29
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 "Určuje po koľkých sekundách sa po spustení šetriča obrazovky uzamkne "
 "obrazovka."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:33
 msgid "Show full name in the lock screen"
 msgstr "Zobraziť celé meno na uzamknutej obrazovke"
 
 # MČ: „štít“? Čo si mám pod tým predstaviť?
 #  PM: ja neviem ani čo si mám predstaviť pod screen shield
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
@@ -2819,11 +2898,11 @@ msgstr ""
 "Táto funkcia má vplyv iba na štít obrazovky, meno je vždy zobrazené v "
 "odomykacom dialógovom okne."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:31
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr "Povoliť zabudovanie klávesnice do okna"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
@@ -2834,12 +2913,12 @@ msgstr ""
 "príkaz. ZAVRHNUTÉ: Tento kľúč je zavrhnutý a ignoruje sa."
 
 # summary
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr "Príkaz zabudovanej klávesnice"
 
 # description
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:41
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2853,12 +2932,12 @@ msgstr ""
 "ignoruje sa."
 
 # summary
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Povoliť odhlásenie"
 
 # description
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
@@ -2870,12 +2949,12 @@ msgstr ""
 "sa."
 
 # summary
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr "Čas pred zobrazením voľby na odhlásenie"
 
 # description
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:59
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2887,11 +2966,11 @@ msgstr ""
 "„logout_enable“ nastavený na TRUE. ZAVRHNUTÉ: Tento kľúč je zavrhnutý a "
 "ignoruje sa."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr "Príkaz na odhlásenie"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:68
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2903,11 +2982,11 @@ msgstr ""
 "pozornosti. Tento kľúč sa dá použiť iba keď je kľúč „logout_enable“ "
 "nastavený na TRUE. ZAVRHNUTÉ: Tento kľúč je zavrhnutý a ignoruje sa."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
 msgstr "Povoliť prepínanie používateľov"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:77
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
@@ -2915,17 +2994,62 @@ msgstr ""
 "Ak je nastavené na true, bude v odomykacom dialógovom okne poskytnutá voľba "
 "prepnutia na iný účet používateľa."
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
 msgstr "Povoliť zobrazenie stavovej správy relácie"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 "Povolí zobrazenie stavovej správy relácie v uzamknutej obrazovke. ZAVRHNUTÉ: "
 "Tento kľúč je zavrhnutý a ignoruje sa."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in “daily-limit-"
+"seconds”."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+#, fuzzy
+#| msgid ""
+#| "The amount to delay taking the break by, if the user requests a delay, in "
+#| "seconds."
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"Hodnota v sekundách, o ktorú sa má posunúť prestávka v prípade, že "
+"používateľ o odklad požiada."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
 
 # MČ: „vyhľadávania“? Neviem čo sa teraz vlastne používa
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
@@ -3010,6 +3134,18 @@ msgstr "Typ relácie"
 #: schemas/org.gnome.desktop.session.gschema.xml.in:12
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Názov relácie, ktorá sa má použiť. Známa hodnota je „gnome“."
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:17
+#, fuzzy
+#| msgid "Geolocation services are enabled."
+msgid "Session save/restore enabled"
+msgstr "Služby pre určenie polohy sú povolené."
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr ""
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
@@ -3860,7 +3996,7 @@ msgstr ""
 "(štvrť), „street“ (ulica) a „exact“ (presná poloha) - zvyčajne vyžaduje GPS "
 "prijímač. Táto voľba ovláda iba to čo GeoClue povolí aplikáciam vidieť, tie "
 "však môžu nájsť polohu používateľa pomocou svojich vlastných sieťových "
-"zdrojov (hoci iba s presnosťou na ulicu).  "
+"zdrojov (hoci iba s presnosťou na ulicu)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:10
 msgid "Proxy configuration mode"
