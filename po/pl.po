@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
 "POT-Creation-Date: 2026-02-17 16:48+0000\n"
-"PO-Revision-Date: 2026-03-27 10:45+0100\n"
+"PO-Revision-Date: 2026-06-17 10:19+0200\n"
 "Last-Translator: Victoria Niedzielska <victorian@gnome.org>\n"
 "Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
 "Language: pl\n"
@@ -74,7 +74,7 @@ msgid ""
 "applications."
 msgstr ""
 "Ten klucz zastępuje ukrywanie karetki tekstu w niemodyfikowalnym tekście "
-"w programach."
+"w aplikacjach."
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:6
 msgid "High contrast"
@@ -127,7 +127,7 @@ msgid ""
 "machines."
 msgstr ""
 "Określa, czy wyłączać dostępność klawiatury po określonym czasie. Przydatne "
-"dla komputerów z wieloma osobami."
+"dla komputerów z wieloma użytkownikami."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:20
 msgid "Duration of the disabling timeout"
@@ -687,7 +687,7 @@ msgid ""
 "List of relative settings paths at which app-folders are stored. Each folder "
 "uses the org.gnome.desktop.app-folders.folder schema."
 msgstr ""
-"Lista względnych ścieżek ustawień, w których katalogi programów są "
+"Lista względnych ścieżek ustawień, w których katalogi aplikacji są "
 "przechowywane. Każdy katalog używa schematu „org.gnome.desktop.app-"
 "folders.folder”."
 
@@ -697,7 +697,7 @@ msgstr "Nazwa katalogu"
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:16
 msgid "The name of the application folder."
-msgstr "Nazwa katalogu programów."
+msgstr "Nazwa katalogu aplikacji."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:20
 msgid "Translate the name"
@@ -713,12 +713,12 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:26
 msgid "Applications"
-msgstr "Programy"
+msgstr "Aplikacje"
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:27
 msgid ""
 "The list of IDs of applications that are explicitly included in this folder."
-msgstr "Lista identyfikatorów programów, które są zawarte w tym katalogu."
+msgstr "Lista identyfikatorów aplikacji, które są zawarte w tym katalogu."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:32
 msgid "Categories"
@@ -729,20 +729,20 @@ msgid ""
 "A list of categories for which apps will be placed into this folder by "
 "default, in addition to the apps that are listed in the apps key."
 msgstr ""
-"Lista kategorii, z których programy będą domyślnie umieszczane w tym "
-"katalogu, jako dodatek do programów z klucza listy programów."
+"Lista kategorii, z których aplikacje będą domyślnie umieszczane w tym "
+"katalogu, jako dodatek do aplikacji z klucza listy aplikacji."
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:39
 msgid "Excluded applications"
-msgstr "Wykluczone programy"
+msgstr "Wykluczone aplikacje"
 
 #: schemas/org.gnome.desktop.app-folders.gschema.xml.in:40
 msgid ""
 "A list of IDs of applications that are excluded from this folder. This can "
 "be used to remove applications that would otherwise be included by category."
 msgstr ""
-"Lista identyfikatorów programów, które będą wykluczone z tego katalogu. Może "
-"to być używane do usuwania programów, które byłyby dołączone według "
+"Lista identyfikatorów aplikacji, które będą wykluczone z tego katalogu. Może "
+"to być używane do usuwania aplikacji, które byłyby dołączone według "
 "kategorii."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
@@ -870,7 +870,8 @@ msgstr "O ile opóźnić przerwę, jeśli się na to zdecydowano"
 msgid ""
 "The amount to delay taking the break by, if the user requests a delay, in "
 "seconds."
-msgstr "O ile opóźnić przerwę, jeśli osoba się na to zdecyduje (w sekundach)."
+msgstr ""
+"O ile opóźnić przerwę, jeśli użytkownik się na to zdecyduje (w sekundach)."
 
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:43
 #: schemas/org.gnome.desktop.break-reminders.gschema.xml.in:108
@@ -983,10 +984,10 @@ msgid ""
 "The preferred calendar application is the application handling the text/"
 "calendar mime type."
 msgstr ""
-"Domyślny program kalendarza\n"
+"Domyślna aplikacja kalendarza\n"
 "\n"
-"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Preferowany program "
-"kalendarza jest program obsługujący typ MIME „text/calendar”."
+"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Preferowaną "
+"aplikacją kalendarza jest aplikacja obsługująca typ MIME „text/calendar”."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:24
 msgid "Calendar needs terminal"
@@ -999,11 +1000,12 @@ msgid ""
 "application is the application handling the text/calendar mime type, whether "
 "it needs a terminal is taken from its desktop file."
 msgstr ""
-"Określa, czy domyślny program kalendarza wymaga terminala do uruchomienia.\n"
+"Określa, czy domyślna aplikacja kalendarza wymaga terminala do "
+"uruchomienia.\n"
 "\n"
-"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Preferowany program "
-"kalendarza jest program obsługujący typ MIME „text/calendar”, a wymaganie "
-"terminala jest pobierane z jego pliku .desktop."
+"PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Preferowaną "
+"aplikacją kalendarza jest aplikacja obsługująca typ MIME „text/calendar”, "
+"a wymaganie terminala jest pobierane z jego pliku .desktop."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:37
 msgid "Default tasks"
@@ -1011,7 +1013,7 @@ msgstr "Domyślne zadania"
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:38
 msgid "Default tasks application."
-msgstr "Domyślny program zadań."
+msgstr "Domyślna aplikacja zadań."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:44
 msgid "Tasks needs terminal"
@@ -1019,11 +1021,12 @@ msgstr "Zadania wymagają terminala"
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:45
 msgid "Whether the default tasks application needs a terminal to run."
-msgstr "Określa, czy domyślny program zadań wymaga terminala do uruchomienia."
+msgstr ""
+"Określa, czy domyślna aplikacja zadań wymaga terminala do uruchomienia."
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:53
 msgid "Terminal application"
-msgstr "Program terminala"
+msgstr "Aplikacja terminala"
 
 #: schemas/org.gnome.desktop.default-applications.gschema.xml.in:54
 msgid ""
@@ -1031,7 +1034,7 @@ msgid ""
 "DEPRECATED: This key is deprecated and ignored. The default terminal is "
 "handled in GIO."
 msgstr ""
-"Program terminala używany podczas uruchamiania programu go wymagającego.\n"
+"Program terminala używany podczas uruchamiania aplikacji go wymagającego.\n"
 "\n"
 "PRZESTARZAŁE: ten klucz jest przestarzały i ignorowany. Domyślny terminal "
 "jest obsługiwany przez bibliotekę GIO."
@@ -1188,8 +1191,8 @@ msgid ""
 "Whether the user can dynamically type a new accelerator when positioned over "
 "an active menuitem."
 msgstr ""
-"Określa, czy osoba może dynamicznie wpisywać nowe skróty po najechaniu na "
-"aktywny element menu."
+"Określa, czy użytkownik może dynamicznie wpisywać nowe skróty po najechaniu "
+"na aktywny element menu."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:36
 msgid "Toolbar Style"
@@ -1208,7 +1211,7 @@ msgstr "Odłączalne paski menu"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:45
 msgid "Whether the user can detach menubars and move them around."
-msgstr "Określa, czy osoba może odłączać paski menu i je przenosić."
+msgstr "Określa, czy użytkownik może odłączać paski menu i je przenosić."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:51
 msgid "Toolbar Detachable"
@@ -1216,7 +1219,8 @@ msgstr "Odłączalne paski narzędziowe"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:52
 msgid "Whether the user can detach toolbars and move them around."
-msgstr "Określa, czy osoba może odłączać paski narzędziowe i je przenosić."
+msgstr ""
+"Określa, czy użytkownik może odłączać paski narzędziowe i je przenosić."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:58
 msgid "Toolbar Icon Size"
@@ -1257,7 +1261,7 @@ msgstr "Motyw ikon"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:89
 msgid "Icon theme to use for the panel, nautilus etc."
-msgstr "Motyw ikon używany przez panel, program Nautilus itp."
+msgstr "Motyw ikon używany przez panel, aplikację Nautilus itp."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:95
 msgid "Gtk+ Theme"
@@ -1649,9 +1653,9 @@ msgid ""
 "be executed. For example, this would disable access to the panel’s “Run "
 "Application” dialog."
 msgstr ""
-"Uniemożliwia osobie uzyskanie dostępu do terminala lub wykonanie wiersza "
-"poleceń. Na przykład powoduje wyłączenie dostępu do okna „Uruchom program” "
-"panelu."
+"Uniemożliwia użytkownikowi uzyskanie dostępu do terminala lub wykonanie "
+"wiersza poleceń. Na przykład powoduje wyłączenie dostępu do okna „Uruchom "
+"aplikację” panelu."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:15
 msgid "Disable saving files to disk"
@@ -1662,8 +1666,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications’ “Save as” dialogs."
 msgstr ""
-"Uniemożliwia osobie zapisywanie plików na dysku. Na przykład powoduje "
-"wyłączenie dostępu do okien „Zapisz jako” wszystkich programów."
+"Uniemożliwia użytkownikowi zapisywanie plików na dysku. Na przykład powoduje "
+"wyłączenie dostępu do okien „Zapisz jako” wszystkich aplikacji."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:23
 msgid "Disable printing"
@@ -1674,8 +1678,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications’ “Print” dialogs."
 msgstr ""
-"Uniemożliwia osobie drukowanie. Na przykład powoduje wyłączenie dostępu do "
-"okien „Wydrukuj” wszystkich programów."
+"Uniemożliwia użytkownikowi drukowanie. Na przykład powoduje wyłączenie "
+"dostępu do okien „Wydrukuj” wszystkich aplikacji."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:31
 msgid "Disable print setup"
@@ -1686,19 +1690,21 @@ msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications’ “Print Setup” dialogs."
 msgstr ""
-"Uniemożliwia osobie modyfikowanie ustawień wydruku. Na przykład powoduje "
-"wyłączenie dostępu do okien „Ustawienia wydruku” wszystkich programów."
+"Uniemożliwia użytkownikowi modyfikowanie ustawień wydruku. Na przykład "
+"powoduje wyłączenie dostępu do okien „Ustawienia wydruku” wszystkich "
+"aplikacji."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
-msgstr "Wyłączenie przełączania osób"
+msgstr "Wyłączenie przełączania użytkowników"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
 "Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
-"Uniemożliwia osobie przełączanie na inne konto, kiedy jej sesja jest aktywna."
+"Uniemożliwia użytkownikowi przełączanie na inne konto, kiedy jego sesja jest "
+"aktywna."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:47
 msgid "Disable lock screen"
@@ -1706,7 +1712,7 @@ msgstr "Wyłączenie ekranu blokady"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
 msgid "Prevent the user from locking their screen."
-msgstr "Uniemożliwia osobie blokowanie ekranu."
+msgstr "Uniemożliwia użytkownikowi blokowanie ekranu."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -1715,7 +1721,7 @@ msgstr "Wyłączenie obsługi adresów URI i typów MIME"
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:55
 msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
-"Uniemożliwia uruchamianie programów obsługujących adresu URL lub typy MIME."
+"Uniemożliwia uruchamianie aplikacji obsługujących adresu URL lub typy MIME."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:61
 msgid "Disable log out"
@@ -1723,19 +1729,20 @@ msgstr "Wyłączenie wylogowywania"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:62
 msgid "Prevent the user from logging out."
-msgstr "Uniemożliwia osobie wylogowanie."
+msgstr "Uniemożliwia użytkownikowi wylogowanie."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:68
 msgid "Disable user administration"
-msgstr "Wyłączenie administracji osobami"
+msgstr "Wyłączenie administracji użytkownikami"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:69
 msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
-"Uniemożliwia osobom modyfikowanie kont innych osób. Domyślnie dozwolone jest "
-"dodawanie i usuwanie osób, a także zmienianie ustawień innych osób."
+"Uniemożliwia użytkownikom modyfikowanie kont użytkowników. Domyślnie "
+"dozwolone jest dodawanie i usuwanie użytkowników, a także zmienianie "
+"ustawień innych użytkowników."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
 msgid "Mount removable storage devices as read-only"
@@ -1748,7 +1755,7 @@ msgid ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 msgstr ""
-"Uniemożliwia osobom zapisywanie i modyfikowanie plików na wymiennych "
+"Uniemożliwia użytkownikom zapisywanie i modyfikowanie plików na wymiennych "
 "urządzeniach do przechowywania danych (tzn. dyskach USB, telefonach "
 "komórkowych, aparatach)."
 
@@ -1769,9 +1776,9 @@ msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
-"Jeśli jest ustawione na wartość „true”, to program Nautilus będzie "
-"automatycznie montował nośniki takie jak widoczne dla innych dyski twarde "
-"i nośniki wymienne podczas ich uruchamiania i wkładania."
+"Jeśli jest ustawione na wartość „true”, to aplikacja Nautilus będzie "
+"automatycznie montowała nośniki takie jak widoczne dla użytkownika dyski "
+"twarde i nośniki wymienne podczas ich uruchamiania i wkładania."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:11
 msgid "Whether to automatically open a folder for automounted media"
@@ -1786,8 +1793,8 @@ msgid ""
 "detected; for media where a known x-content type is detected, the user "
 "configurable action will be taken instead."
 msgstr ""
-"Jeśli jest ustawione na wartość „true”, to program Nautilus będzie "
-"automatycznie otwierał katalog po automatycznym zamontowaniu nośnika. Ma to "
+"Jeśli jest ustawione na wartość „true”, to aplikacja Nautilus będzie "
+"automatycznie otwierała katalog po automatycznym zamontowaniu nośnika. Ma to "
 "zastosowanie tylko dla nośników, dla których nie wykryto znanego typu x-"
 "content/*. Dla nośników, dla których wykryto znany typ x-content/, "
 "wykonywane będzie skonfigurowane działanie."
@@ -1802,14 +1809,14 @@ msgid ""
 "If set to true, then Nautilus will never prompt nor autorun/autostart "
 "programs when a medium is inserted."
 msgstr ""
-"Jeśli jest ustawione na wartość „true”, to program Nautilus nigdy nie będzie "
-"pytał ani automatycznie uruchamiał programów po włożeniu nośnika."
+"Jeśli jest ustawione na wartość „true”, to aplikacja Nautilus nigdy nie "
+"będzie pytała ani automatycznie uruchamiała programów po włożeniu nośnika."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:21
 msgid ""
 "List of x-content/* types where the preferred application will be launched"
 msgstr ""
-"Lista typów x-content/*, dla których będzie uruchamiany preferowany program"
+"Lista typów x-content/*, dla których będzie uruchamiana preferowana aplikacja"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:22
 msgid ""
@@ -1817,13 +1824,13 @@ msgid ""
 "application in the preference capplet. The preferred application for the "
 "given type will be started on insertion on media matching these types."
 msgstr ""
-"Lista typów x-content/*, dla których osoba wybrała uruchomienie programu "
-"w preferencjach. Po włożeniu nośnika pasującego do tych typów uruchomiony "
-"zostanie preferowany program dla danego typu."
+"Lista typów x-content/*, dla których użytkownik wybrał uruchomienie "
+"aplikacji w preferencjach. Po włożeniu nośnika pasującego do tych typów "
+"uruchomiona zostanie preferowana aplikacja dla danego typu."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:26
 msgid "List of x-content/* types set to “Do Nothing”"
-msgstr "Lista typów x-content/* ustawionych na „Nie robienie niczego”"
+msgstr "Lista typów x-content/* ustawionych na „Nie rób nic”"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:27
 msgid ""
@@ -1831,14 +1838,13 @@ msgid ""
 "preference capplet. No prompt will be shown nor will any matching "
 "application be started on insertion of media matching these types."
 msgstr ""
-"Lista typów x-content/*, dla których osoba wybrała opcję „Nie robienie "
-"niczego” w preferencjach. Żadne pytanie nie zostanie wyświetlone ani żaden "
-"program nie zostanie uruchomiony po włożeniu nośnika pasującego do tych "
-"typów."
+"Lista typów x-content/*, dla których użytkownik wybrał opcję „Nie rób nic” "
+"w preferencjach. Żadne pytanie nie zostanie wyświetlone ani żadna aplikacja "
+"nie zostanie uruchomiona po włożeniu nośnika pasującego do tych typów."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:31
 msgid "List of x-content/* types set to “Open Folder”"
-msgstr "Lista typów x-content/* ustawionych na „Otwarcie katalogu”"
+msgstr "Lista typów x-content/* ustawionych na „Otwórz katalog”"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:32
 msgid ""
@@ -1846,9 +1852,9 @@ msgid ""
 "the preferences capplet. A folder window will be opened on insertion of "
 "media matching these types."
 msgstr ""
-"Lista typów x-content/*, dla których osoba wybrała opcję „Otwarcie katalogu” "
-"w preferencjach. Po włożeniu nośnika pasującego do tych typów wyświetlone "
-"zostanie okno katalogu."
+"Lista typów x-content/*, dla których użytkownik wybrał opcję „Otwórz "
+"katalog” w preferencjach. Po włożeniu nośnika pasującego do tych typów "
+"wyświetlone zostanie okno katalogu."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:6
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:55
@@ -1857,7 +1863,7 @@ msgstr "Wyświetlanie banerów powiadomień"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:7
 msgid "Whether notification banners are visible for application notifications."
-msgstr "Określa, czy banery powiadomień są widoczne dla powiadomień programów."
+msgstr "Określa, czy banery powiadomień są widoczne dla powiadomień aplikacji."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:14
 msgid "Show notifications in the lock screen"
@@ -1869,11 +1875,11 @@ msgstr "Określa, czy powiadomienia są wyświetlane na ekranie blokady."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:31
 msgid "Application ID"
-msgstr "Identyfikator programu"
+msgstr "Identyfikator aplikacji"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:32
 msgid "The application that this policy is for."
-msgstr "Program, dla którego przeznaczona jest ta polityka."
+msgstr "Aplikacja, dla której przeznaczona jest ta polityka."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:39
 msgid "Enable notifications"
@@ -1881,7 +1887,7 @@ msgstr "Włączenie powiadomień"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:40
 msgid "Whether notifications are globally enabled for this application."
-msgstr "Określa, czy powiadomienia są globalnie włączone dla tego programu."
+msgstr "Określa, czy powiadomienia są globalnie włączone dla tej aplikacji."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:47
 msgid "Enable sound alerts"
@@ -1896,7 +1902,7 @@ msgid ""
 "Whether notification banners for this application are shown or not. Does not "
 "affect clicking on message tray buttons."
 msgstr ""
-"Określa, czy banery powiadomień są wyświetlane dla tego programu. Nie wpływa "
+"Określa, czy banery powiadomień są wyświetlane dla tej aplikacji. Nie wpływa "
 "na efekt kliknięcia przycisku obszaru powiadamiania."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:64
@@ -1908,7 +1914,7 @@ msgid ""
 "Whether notifications from this application are expanded automatically when "
 "in banner mode."
 msgstr ""
-"Określa, czy powiadomienia z tego programu są automatycznie rozwijane "
+"Określa, czy powiadomienia z tej aplikacji są automatycznie rozwijane "
 "w trybie baneru."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:72
@@ -1920,7 +1926,7 @@ msgid ""
 "Whether notifications from this application are shown when the screen is "
 "locked."
 msgstr ""
-"Określa, czy powiadomienia z tego programu są wyświetlane na ekranie blokady."
+"Określa, czy powiadomienia z tej aplikacji są wyświetlane na ekranie blokady."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:80
 msgid "Show details in the lock screen"
@@ -1931,7 +1937,7 @@ msgid ""
 "Whether the summary and body of notifications from this application will be "
 "visible in the locked screen."
 msgstr ""
-"Określa, czy podsumowanie i treść powiadomień z tego programu są widoczne na "
+"Określa, czy podsumowanie i treść powiadomień z tej aplikacji są widoczne na "
 "ekranie blokady."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
@@ -2526,15 +2532,16 @@ msgid ""
 "identity on screen or on the network."
 msgstr ""
 "Jeśli ustawiono na wartość „true”, to system postara się nie ujawniać "
-"tożsamości osoby na ekranie lub w sieci."
+"tożsamości użytkownika na ekranie lub w sieci."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:12
 msgid "Show full name in the user menu"
-msgstr "Wyświetlanie imienia i nazwiska w menu osoby"
+msgstr "Wyświetlanie imienia i nazwiska w menu użytkownika"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:13
 msgid "Whether the users full name is shown in the user menu or not."
-msgstr "Określa, czy imię i nazwisko osoby jest wyświetlane w menu osoby."
+msgstr ""
+"Określa, czy imię i nazwisko użytkownika jest wyświetlane w menu użytkownika."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:17
 msgid "Whether to remove old files from the trash automatically"
@@ -2575,7 +2582,7 @@ msgstr "Określa, czy pamiętać ostatnio używane pliki"
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:36
 msgid "If FALSE, applications will not remember recently used files."
 msgstr ""
-"Jeśli ustawiono na wartość „false”, to programy nie będą pamiętały ostatnio "
+"Jeśli ustawiono na wartość „false”, to aplikacje nie będą pamiętały ostatnio "
 "używanych plików."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:41
@@ -2594,17 +2601,17 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:48
 msgid "Whether to remember application usage"
-msgstr "Określa, czy pamiętać użycie programów"
+msgstr "Określa, czy pamiętać użycie aplikacji"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:49
 msgid "If FALSE, application usage will not be monitored and recorded."
 msgstr ""
-"Jeśli ustawiono na wartość „false”, to użycie programów nie będzie "
+"Jeśli ustawiono na wartość „false”, to użycie aplikacji nie będzie "
 "monitorowane i zapisywane."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:54
 msgid "Send statistics when applications are removed or installed"
-msgstr "Wysyłanie statystyk, kiedy programy są usuwane lub instalowane"
+msgstr "Wysyłanie statystyk, kiedy aplikacje są usuwane lub instalowane"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:55
 msgid ""
@@ -2626,29 +2633,30 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:64
 msgid "Don’t allow applications to access the microphone"
-msgstr "Bez zezwolenia programom na dostęp do mikrofonu"
+msgstr "Nie zezwalaj aplikacjom na dostęp do mikrofonu"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:65
 msgid "If TRUE, applications should not use the microphone."
 msgstr ""
-"Jeśli ustawiono na wartość „true”, to programy nie mogą używać mikrofonu."
+"Jeśli ustawiono na wartość „true”, to aplikacje nie mogą używać mikrofonu."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:69
 msgid "Don’t allow applications to access the camera"
-msgstr "Bez zezwolenia programom na dostęp do kamery"
+msgstr "Nie zezwalaj aplikacjom na dostęp do kamery"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:70
 msgid "If TRUE, applications should not use the camera."
-msgstr "Jeśli ustawiono na wartość „true”, to programy nie mogą używać kamery."
+msgstr ""
+"Jeśli ustawiono na wartość „true”, to aplikacje nie mogą używać kamery."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:74
 msgid "Don’t allow applications to output sound"
-msgstr "Bez zezwolenia programom na odtwarzanie dźwięku"
+msgstr "Nie zezwalaj aplikacjom na odtwarzanie dźwięku"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
 msgstr ""
-"Jeśli ustawiono na wartość „true”, to programy nie mogą odtwarzać dźwięku."
+"Jeśli ustawiono na wartość „true”, to aplikacje nie mogą odtwarzać dźwięku."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
 msgid "Whether to protect USB devices"
@@ -2746,9 +2754,9 @@ msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
-"Określa, czy imię i nazwisko osoby jest wyświetlane na ekranie blokady. "
-"Opcja ta wpływa tylko na powłokę ekranu, nazwisko jest zawsze wyświetlane "
-"w oknie dialogowym odblokowania."
+"Określa, czy imię i nazwisko użytkownika jest wyświetlane na ekranie "
+"blokady. Opcja ta wpływa tylko na powłokę ekranu, nazwisko jest zawsze "
+"wyświetlane w oknie dialogowym odblokowania."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
@@ -2829,7 +2837,7 @@ msgid ""
 "and ignored."
 msgstr ""
 "Polecenie wywoływane po kliknięciu przycisku wylogowania. To polecenie "
-"powinno po prostu wylogować osoby bez żadnych działań. Ten klucz jest "
+"powinno po prostu wylogować użytkownika bez żadnych działań. Ten klucz jest "
 "uwzględniany tylko, jeśli klucz „logout_enable” jest ustawiony na wartość "
 "„true”.\n"
 "\n"
@@ -2837,7 +2845,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
-msgstr "Zezwolenie na przełączanie osoby"
+msgstr "Zezwolenie na przełączanie użytkownika"
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
@@ -2845,7 +2853,7 @@ msgid ""
 "different user account."
 msgstr ""
 "Ustawienie tego na wartość „true” powoduje wyświetlenia opcji przełączenia "
-"na konto innej osoby w oknie odblokowania."
+"na inne konto użytkownika w oknie odblokowania."
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
@@ -2882,8 +2890,8 @@ msgid ""
 "Enable imposing a screen time limit on the user, as set in “daily-limit-"
 "seconds”."
 msgstr ""
-"Włącza narzucanie ograniczenia czasu korzystania z ekranu osobie, tak jak "
-"ustawiono w „daily-limit-seconds”."
+"Włącza narzucanie ograniczenia czasu korzystania z ekranu użytkownikowi, tak "
+"jak ustawiono w „daily-limit-seconds”."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
 msgid "Daily screen time limit"
@@ -2893,7 +2901,7 @@ msgstr "Dzienne ograniczenie czasu korzystania z ekranu"
 msgid ""
 "The limit on the amount of daily screen time the user is allowed, in seconds."
 msgstr ""
-"Ograniczenie czasu, przez jaki osoba może dziennie korzystać z ekranu "
+"Ograniczenie czasu, przez jaki użytkownik może dziennie korzystać z ekranu "
 "w sekundach."
 
 #: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
@@ -2906,7 +2914,7 @@ msgid ""
 "reached."
 msgstr ""
 "Czy wyszarzać ekran po osiągnięciu ograniczenia czasu korzystania z ekranu "
-"przez osobę."
+"przez użytkownika."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"
@@ -2920,7 +2928,7 @@ msgid ""
 msgstr ""
 "Ustawienie na wartość „true” wyłącza wszystkie zewnętrzne programy dostawców "
 "wyszukiwania, niezależnie czy są oddzielnie wyłączone, czy włączone. "
-"Zewnętrzni dostawcy wyszukiwania są instalowani przez programy w katalogu "
+"Zewnętrzni dostawcy wyszukiwania są instalowani przez aplikacje w katalogu "
 "$XDG_DATA_DIR/gnome-shell/search-providers."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:18
@@ -2936,7 +2944,7 @@ msgid ""
 "Results for applications contained in this list will not be displayed when "
 "searching."
 msgstr ""
-"Wyniki dla programów zawartych na tej liście nie będą wyświetlane podczas "
+"Wyniki dla aplikacji zawartych na tej liście nie będą wyświetlane podczas "
 "wyszukiwania."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:30
@@ -2952,7 +2960,7 @@ msgid ""
 "Results for applications contained in this list will be displayed when "
 "searching."
 msgstr ""
-"Wyniki dla programów zawartych na tej liście będą wyświetlane podczas "
+"Wyniki dla aplikacji zawartych na tej liście będą wyświetlane podczas "
 "wyszukiwania."
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:42
@@ -2967,8 +2975,8 @@ msgid ""
 "specified order. Results for applications not specified in this list will be "
 "displayed last, sorted alphabetically."
 msgstr ""
-"Wyniki dla programów zawartych na tej liście będą wyświetlane w podanej "
-"kolejności. Wyniki dla programów niezawartych na tej liście będą wyświetlane "
+"Wyniki dla aplikacji zawartych na tej liście będą wyświetlane w podanej "
+"kolejności. Wyniki dla aplikacji niezawartych na tej liście będą wyświetlane "
 "jako ostatnie, uporządkowane alfabetycznie."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:6
@@ -2990,14 +2998,14 @@ msgstr "Nazwa używanej sesji. Znana wartość to „gnome”."
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:17
 msgid "Session save/restore enabled"
-msgstr "Włączono zapisywanie i przywracanie sesji"
+msgstr "Włączenie zapisywania i przywracania sesji"
 
 #: schemas/org.gnome.desktop.session.gschema.xml.in:18
 msgid ""
 "When true, running apps will be saved at log-out time and restored on the "
 "next login."
 msgstr ""
-"Ustawienie na wartość „true” powoduje, że uruchomione programy zostaną "
+"Ustawienie na wartość „true” powoduje, że uruchomione aplikacje zostaną "
 "zapisane w momencie wylogowania i przywrócone po następnym zalogowaniu."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
@@ -3006,7 +3014,7 @@ msgstr "Dźwięki dla zdarzeń"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:7
 msgid "Whether to play sounds on user events."
-msgstr "Określa, czy odtwarzać dźwięki po zdarzeniach osoby."
+msgstr "Określa, czy odtwarzać dźwięki po zdarzeniach użytkownika."
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:11
 msgid "Sound theme name"
@@ -3146,19 +3154,19 @@ msgstr "Przełączenie na ostatni obszar roboczy"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:76
 msgid "Switch windows of an application"
-msgstr "Przełączenie między oknami programu"
+msgstr "Przełączenie między oknami aplikacji"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:80
 msgid "Reverse switch windows of an application"
-msgstr "Odwrotne przełączenie między oknami programu"
+msgstr "Odwrotne przełączenie między oknami aplikacji"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:84
 msgid "Switch applications"
-msgstr "Przełączenie programów"
+msgstr "Przełączenie aplikacji"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:88
 msgid "Reverse switch applications"
-msgstr "Odwrotne przełączenie programów"
+msgstr "Odwrotne przełączenie aplikacji"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:92
 msgid "Switch windows"
@@ -3178,11 +3186,11 @@ msgstr "Odwrotne przełączenie kontroli systemowej"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:108
 msgid "Switch windows of an app directly"
-msgstr "Bezpośrednie przełączenie między oknami programu"
+msgstr "Bezpośrednie przełączenie między oknami aplikacji"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:112
 msgid "Reverse switch windows of an app directly"
-msgstr "Odwrotne bezpośrednie przełączenie między oknami programu"
+msgstr "Odwrotne bezpośrednie przełączenie między oknami aplikacji"
 
 #: schemas/org.gnome.desktop.wm.keybindings.gschema.xml.in:116
 msgid "Switch windows directly"
@@ -3455,10 +3463,10 @@ msgid ""
 "middle button while holding down the key given in “mouse-button-modifier”; "
 "set it to false to make it work the opposite way around."
 msgstr ""
-"Po włączeniu osoba będzie mogła zmieniać rozmiar okna po wciśnięciu prawego "
-"przycisku myszy i wyświetlać menu za pomocą środkowego przycisku przy "
-"jednoczesnym wciśnięciu przycisku podanego w opcji „mouse-button-modifier”; "
-"po wyłączeniu, sytuacja będzie odwrotna."
+"Po włączeniu użytkownik będzie mógł zmieniać rozmiar okna po wciśnięciu "
+"prawego przycisku myszy i wyświetlać menu za pomocą środkowego przycisku "
+"przy jednoczesnym wciśnięciu przycisku podanego w opcji „mouse-button-"
+"modifier”; po wyłączeniu, sytuacja będzie odwrotna."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:29
 msgid "Arrangement of buttons on the titlebar"
@@ -3478,9 +3486,9 @@ msgstr ""
 "w postaci „menu:minimize,maximize,close”. Dwukropek rozdziela lewy róg okna "
 "od prawego, a nazwy przycisków są rozdzielone przecinkami. Nie można używać "
 "dwóch takich samych przycisków. Nieznane nazwy przycisków są ignorowane, aby "
-"w przyszłych wersjach programu mogły zostać dodane nowe przyciski nie "
-"powodując konfliktów. Aby rozdzielić dwa sąsiadujące ze sobą przyciski, "
-"można użyć specjalnego znacznika rozdzielenia."
+"w przyszłych wersjach programu Metacity mogły zostać dodane nowe przyciski "
+"nie powodując konfliktów z poprzednimi wersjami. Aby rozdzielić dwa "
+"sąsiadujące ze sobą przyciski, można użyć specjalnego znacznika rozdzielenia."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:43
 msgid "Window focus mode"
@@ -3515,7 +3523,7 @@ msgid ""
 msgstr ""
 "Ta opcja daje dodatkowe możliwości konfiguracji sposobu, w jaki nowo "
 "utworzone okna zostają uaktywnione. Dostępne są dwie wartości: „smart” — "
-"typowy tryb uaktywniania wg ustawień osoby i „strict” — nowe okna nie "
+"typowy tryb uaktywniania wg ustawień użytkownika i „strict” — nowe okna nie "
 "zostaną automatycznie uaktywnione."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:65
@@ -3662,7 +3670,7 @@ msgid ""
 msgstr ""
 "Ustawienie opcji powoduje ignorowanie opcji „titlebar-font” i używanie "
 "zamiast tego na paskach tytułowych standardowej czcionki systemowej używanej "
-"przez programy."
+"przez aplikacje."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:189
 msgid "Window title font"
@@ -3703,9 +3711,9 @@ msgid ""
 "Determines whether applications or the system can generate audible “beeps”; "
 "may be used in conjunction with “visual bell” to allow silent “beeps”."
 msgstr ""
-"Określa, czy programy lub system mogą generować słyszalne sygnały dźwiękowe; "
-"opcja może być używana razem z opcją „wizualne sygnały dźwiękowe”, "
-"przedstawiającą sygnały dźwiękowe w formie graficznej."
+"Określa, czy aplikacje lub system mogą generować słyszalne sygnały "
+"dźwiękowe; opcja może być używana razem z opcją „wizualne sygnały "
+"dźwiękowe”, przedstawiającą sygnały dźwiękowe w formie graficznej."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:218
 msgid "Enable Visual Bell"
@@ -3717,7 +3725,7 @@ msgid ""
 "“bell” or “beep”; useful for the hard-of-hearing and for use in noisy "
 "environments."
 msgstr ""
-"Włącza wizualny wskaźnik, kiedy program lub system używa sygnału "
+"Włącza wizualny wskaźnik, kiedy aplikacja lub system używa sygnału "
 "dźwiękowego. Jest to przydatne dla osób niedosłyszących lub w głośnych "
 "środowiskach."
 
@@ -3736,20 +3744,20 @@ msgid ""
 "currently focused window’s titlebar is flashed."
 msgstr ""
 "Opcja określa, w jaki sposób menedżer okien ma graficznie przedstawić "
-"odtworzenie dźwięku przez brzęczyk systemowy lub program, który z niego "
+"odtworzenie dźwięku przez brzęczyk systemowy lub aplikację, która z niego "
 "korzysta.\n"
 "\n"
 "Obecnie obsługiwane są dwie wartości: „fullscreen-flash”, która powoduje "
 "mignięcie całego ekranu na czarno i biało oraz „frame-flash”, która powoduje "
-"mignięcie paska tytułowego programu podczas wydawania dźwięku.\n"
+"mignięcie paska tytułowej aplikacji podczas wydawania dźwięku.\n"
 "\n"
-"Jeśli program, który wysłał sygnał dźwiękowy będzie nieznany (jak to ma "
+"Jeśli aplikacja, która wysłała sygnał dźwiękowy będzie nieznana (jak to ma "
 "zwykle miejsce przy domyślnym „dźwięku systemowym”), pasek tytułowy "
 "aktywnego okna zamigocze."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:250
 msgid "Disable misfeatures that are required by old or broken applications"
-msgstr "Wyłącza funkcje wymagane przez stare lub błędne programy"
+msgstr "Wyłącza funkcje wymagane przez stare lub błędne aplikacje"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:253
 msgid ""
@@ -3758,10 +3766,10 @@ msgid ""
 "which gives a more consistent user interface, provided one does not need to "
 "run any misbehaving applications."
 msgstr ""
-"Niektóre programy nie stosują się do specyfikacji, co może powodować "
+"Niektóre aplikacje nie stosują się do specyfikacji, co może powodować "
 "nieprawidłowe zachowanie menedżera okien. Ta opcja przestawia menedżera "
 "okien w tryb ściśle prawidłowy, w którym interfejs jest bardziej spójny, "
-"o ile nie są uruchamiane żadne programy łamiące specyfikacje."
+"o ile nie są uruchamiane żadne aplikacje łamiące specyfikacje."
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:263
 msgid "The names of the workspaces"
@@ -3796,7 +3804,7 @@ msgstr "Usługi geolokalizacji są włączone."
 #: schemas/org.gnome.system.location.gschema.xml.in:8
 msgid "If true, applications are allowed to access location information."
 msgstr ""
-"Jeśli wynosi „true”, to programy mogą uzyskiwać dostęp do informacji "
+"Jeśli wynosi „true”, to aplikacje mogą uzyskiwać dostęp do informacji "
 "o położeniu."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:14
@@ -3813,16 +3821,16 @@ msgid ""
 "level accuracy at best)."
 msgstr ""
 "Konfiguruje maksymalny poziom dokładności położenia, jaki mogą widzieć "
-"programy. Prawidłowe opcje to „country” (kraj), „city” (miasto), "
+"aplikacje. Prawidłowe opcje to „country” (kraj), „city” (miasto), "
 "„neighborhood” (dzielnica), „street” (ulica) i „exact” (dokładne położenie, "
 "zwykle wymaga odbiornika GPS). Proszę pamiętać, że ta opcja kontroluje tylko "
-"to, co usługa GeoClue udostępnia programom, i mogą one odnajdywać położenie "
-"osoby samodzielnie za pomocą zasobów sieciowych (aczkolwiek w najlepszym "
-"przypadku z dokładnością co do ulicy)."
+"to, co usługa GeoClue udostępnia aplikacjom, i mogą one odnajdywać położenie "
+"użytkownika samodzielnie za pomocą zasobów sieciowych (aczkolwiek "
+"w najlepszym przypadku z dokładnością co do ulicy)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:10
 msgid "Proxy configuration mode"
-msgstr "Tryb konfiguracji proxy"
+msgstr "Tryb konfiguracji pośrednika"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:11
 msgid ""
@@ -3837,42 +3845,42 @@ msgid ""
 "configured, it is used for all protocols, except that the http, https, and "
 "ftp proxy settings override it for those protocols only."
 msgstr ""
-"Wybór trybu konfiguracji proxy. Obsługiwane wartości to „none”, „manual”, "
-"„auto”.\n"
+"Wybór trybu konfiguracji pośrednika. Obsługiwane wartości to „none”, "
+"„manual”, „auto”.\n"
 "\n"
-"Jeśli wynosi „none”, to proxy nie jest używane.\n"
+"Jeśli wynosi „none”, to pośrednik nie jest używany.\n"
 "\n"
-"Jeśli wynosi „auto”, to używany jest adres URL automatycznej konfiguracji "
+"Jeśli wynosi „auto”, to używany jest adresu URL automatycznej konfiguracji "
 "określony w kluczu „autoconfig-url”.\n"
 "\n"
-"Jeśli wynosi „manual”, to używane będzie proxy określone w kluczach „/system/"
-"proxy/http”, „/system/proxy/https”, „/system/proxy/ftp” i „/system/proxy/"
-"socks”. Każdy z czterech typów proxy jest włączony, jeśli jego klucz „host” "
-"nie jest pusty, a klucz „port” nie wynosi 0.\n"
+"Jeśli wynosi „manual”, to używany będzie pośrednik określony w kluczach „/"
+"system/proxy/http”, „/system/proxy/https”, „/system/proxy/ftp” i „/system/"
+"proxy/socks”. Każdy z czterech typów pośrednika jest włączony, jeśli jego "
+"klucz „host” nie jest pusty, a klucz „port” nie wynosi 0.\n"
 "\n"
-"Jeśli HTTP proxy jest skonfigurowany, ale HTTPS proxy nie jest, to HTTP "
-"proxy jest używany także dla HTTPS.\n"
+"Jeśli pośrednik HTTP jest skonfigurowany, ale pośrednik HTTPS nie jest, to "
+"pośrednik HTTP jest używany także dla HTTPS.\n"
 "\n"
-"Jeśli SOCKS proxy jest skonfigurowany, to jest używany dla wszystkich "
-"protokołów. Ustawienie HTTP proxy, HTTPS lub FTP pomija użycie SOCKS proxy "
-"dla danego protokołu."
+"Jeśli pośrednik SOCKS jest skonfigurowany, to jest używany dla wszystkich "
+"protokołów. Ustawienie pośrednika HTTP, HTTPS lub FTP pomija użycie "
+"pośrednika SOCKS dla danego protokołu."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:36
 msgid "Automatic proxy configuration URL"
-msgstr "Adres URL automatycznej konfiguracji proxy"
+msgstr "Adres URL automatycznej konfiguracji pośrednika"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:37
 msgid ""
 "URL that provides proxy configuration values. When mode is “auto”, this URL "
 "is used to look up proxy information for all protocols."
 msgstr ""
-"Adres URL dostarczający wartości konfiguracji proxy. Jeśli trybem jest "
-"„auto”, to ten adres URL jest używany do wyszukania informacji o proxy dla "
-"wszystkich protokołów."
+"Adres URL dostarczający wartości konfiguracji pośrednika. Jeśli trybem jest "
+"„auto”, to ten adres URL jest używany do wyszukania informacji o pośredniku "
+"dla wszystkich protokołów."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:45
 msgid "Non-proxy hosts"
-msgstr "Komputery nieprzechodzące przez proxy"
+msgstr "Komputery nieprzechodzące przez pośrednika"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:46
 msgid ""
@@ -3882,18 +3890,18 @@ msgid ""
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
 "Ten klucz zawiera listę komputerów, z którymi łączyć bezpośrednio, zamiast "
-"przez proxy (jeśli jest aktywny). Wartościami mogą być nazwy komputerów, "
-"domeny (za pomocą wieloznacznika na początku, np. *.example.com), adresy IP "
-"komputerów (zarówno IPv4, jak i IPv6) oraz adresy sieciowe z maską sieci "
-"(np. 192.168.0.0/24)."
+"przez pośrednika (jeśli jest aktywny). Wartościami mogą być nazwy "
+"komputerów, domeny (za pomocą wieloznacznika na początku, np. "
+"*.example.com), adresy IP komputerów (zarówno IPv4, jak i IPv6) oraz adresy "
+"sieciowe z maską sieci (np. 192.168.0.0/24)."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:56
 msgid "Use HTTP proxy for all protocols"
-msgstr "Użycie HTTP proxy do wszystkich protokołów"
+msgstr "Użycie pośrednika HTTP do wszystkich protokołów"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:57
 msgid "Whether to use the HTTP proxy for all protocols or not."
-msgstr "Czy używać HTTP proxy do wszystkich protokołów."
+msgstr "Czy używać pośrednika HTTP do wszystkich protokołów."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:65
 msgid "Unused; ignore"
@@ -3904,20 +3912,20 @@ msgid ""
 "This key is not used; HTTP proxying is enabled when the host key is non-"
 "empty and the port is non-0."
 msgstr ""
-"Ten klucz nie jest używany. HTTP proxy jest włączone, kiedy klucz komputera "
-"nie jest pusty, a port nie wynosi 0."
+"Ten klucz nie jest używany. Pośrednik HTTP jest włączony, kiedy klucz "
+"komputera nie jest pusty, a port nie wynosi 0."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:73
 msgid "HTTP proxy host name"
-msgstr "Nazwa komputera HTTP proxy"
+msgstr "Nazwa komputera pośrednika HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:74
 msgid "The machine name to proxy HTTP through."
-msgstr "Nazwa komputera, która będzie używana dla HTTP proxy."
+msgstr "Nazwa komputera, przez który ma przechodzić ruch HTTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:81
 msgid "HTTP proxy port"
-msgstr "Port HTTP proxy"
+msgstr "Port pośrednika HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:82
 msgid ""
@@ -3929,7 +3937,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:89
 msgid "Authenticate proxy server connections"
-msgstr "Uwierzytelnianie połączeń serwera proxy"
+msgstr "Uwierzytelnianie połączeń serwera pośrednika"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:90
 msgid ""
@@ -3939,26 +3947,27 @@ msgid ""
 "the http proxy; when using a separate https proxy, there is currently no way "
 "to specify that it should use authentication."
 msgstr ""
-"Jeśli wynosi „true”, to połączenia przez serwer proxy wymagają "
-"uwierzytelnienia. Nazwa osoby i hasło są określane przez klucze „/system/"
-"proxy/http/authentication-user” i „/system/proxy/http/authentication-"
+"Jeśli wynosi „true”, to połączenia przez serwer pośrednika wymagają "
+"uwierzytelnienia. Nazwa użytkownika i hasło są określane przez klucze „/"
+"system/proxy/http/authentication-user” i „/system/proxy/http/authentication-"
 "password”.\n"
 "\n"
-"Ma to zastosowanie tylko do poxy HTTP. Obecnie nie ma sposobu na określenie "
-"wymagania uwierzytelnienia dla oddzielnego poxy HTTPS."
+"Ma to zastosowanie tylko do pośrednika HTTP. Obecnie nie ma sposobu na "
+"określenie wymagania uwierzytelnienia dla oddzielnego pośrednika HTTPS."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:103
 msgid "HTTP proxy username"
-msgstr "Nazwa osoby HTTP proxy"
+msgstr "Nazwa użytkownika pośrednika HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:104
 msgid "User name to pass as authentication when doing HTTP proxying."
 msgstr ""
-"Nazwa osoby do przekazania jako uwierzytelnienie podczas pośredniczenia HTTP."
+"Nazwa użytkownika do przekazania jako uwierzytelnienie podczas "
+"pośredniczenia HTTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:110
 msgid "HTTP proxy password"
-msgstr "Hasło HTTP proxy"
+msgstr "Hasło pośrednika HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:111
 msgid "Password to pass as authentication when doing HTTP proxying."
@@ -3967,15 +3976,15 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:119
 msgid "Secure HTTP proxy host name"
-msgstr "Nazwa komputera HTTPS proxy"
+msgstr "Nazwa komputera pośrednika HTTPS"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:120
 msgid "The machine name to proxy secure HTTP through."
-msgstr "Nazwa komputera, która będzie używana dla HTTPS proxy."
+msgstr "Nazwa komputera, przez który ma przechodzić ruch HTTPS."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:127
 msgid "Secure HTTP proxy port"
-msgstr "Port HTTPS proxy"
+msgstr "Port pośrednika HTTPS"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:128
 msgid ""
@@ -3987,15 +3996,15 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:137
 msgid "FTP proxy host name"
-msgstr "Nazwa komputera FTP proxy"
+msgstr "Nazwa komputera pośrednika FTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:138
 msgid "The machine name to proxy FTP through."
-msgstr "Nazwa komputera, która będzie używana dla FTP proxy."
+msgstr "Nazwa komputera, przez który ma przechodzić ruch FTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:145
 msgid "FTP proxy port"
-msgstr "Port FTP proxy"
+msgstr "Port pośrednika FTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:146
 msgid ""
@@ -4007,15 +4016,15 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:155
 msgid "SOCKS proxy host name"
-msgstr "Nazwa komputera SOCKS proxy"
+msgstr "Nazwa komputera pośrednika SOCKS"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:156
 msgid "The machine name to use as a SOCKS proxy."
-msgstr "Nazwa komputera używanego jako SOCKS proxy."
+msgstr "Nazwa komputera używanego jako pośrednik SOCKS."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:163
 msgid "SOCKS proxy port"
-msgstr "Port SOCKS proxy"
+msgstr "Port pośrednika SOCKS"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:164
 msgid ""
