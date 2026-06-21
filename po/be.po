@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-08-09 13:58+0000\n"
-"PO-Revision-Date: 2024-08-15 23:43+0300\n"
-"Last-Translator: Yuras Shumovich <<shumovichy@gmail.com>>\n"
+"POT-Creation-Date: 2026-02-17 16:48+0000\n"
+"PO-Revision-Date: 2026-06-21 18:10+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.8\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
 msgid "On-screen keyboard"
@@ -85,6 +85,14 @@ msgid ""
 "Whether to use shapes to indicate status in addition or instead of color."
 msgstr ""
 
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:20
+msgid "Reduced motion"
+msgstr ""
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:21
+msgid "The type of reduced motion."
+msgstr ""
+
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
 msgstr ""
@@ -118,7 +126,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:25
 msgid "Enable “Bounce Keys”"
-msgstr ""
+msgstr "Уключыць «Пругкія клавішы»"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:26
 msgid "Whether the “Bounce Keys” keyboard accessibility feature is turned on."
@@ -136,12 +144,12 @@ msgstr ""
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:35
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:80
 msgid "Beep when a key is rejected"
-msgstr ""
+msgstr "Гукавы сігнал, калі клавіша не прынята"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:36
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:81
 msgid "Whether to beep when a key is rejected."
-msgstr ""
+msgstr "Ці ўключаны гукавы сігнал, калі клавіша не прынята."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:40
 msgid "Enable “Mouse Keys”"
@@ -180,7 +188,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:60
 msgid "Enable “Slow Keys”"
-msgstr ""
+msgstr "Уключыць «Павольныя клавішы»"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:61
 msgid "Whether the “Slow Keys” accessibility feature is turned on."
@@ -205,11 +213,11 @@ msgstr "Гукавы сігнал, калі клавіша прынята"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:76
 msgid "Whether to beep when a key is accepted."
-msgstr ""
+msgstr "Ці ўключаны гукавы сігнал, калі клавіша прынята."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:85
 msgid "Enable sticky keys"
-msgstr ""
+msgstr "Уключыць «Ліпкія клавішы»"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:86
 msgid "Whether the sticky keys accessibility feature is turned on."
@@ -653,27 +661,30 @@ msgid ""
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:6
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:90
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:97
 msgid "Picture Options"
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:7
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:91
-#, fuzzy
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:98
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
 "values are “none”, “wallpaper”, “centered”, “scaled”, “stretched”, “zoom”, "
 "“spanned”."
-msgstr "Вызначае якім чынам выява ўжываецца ў якасці шпалер."
+msgstr ""
+"Вызначае якім чынам выводзіцца відарыс з wallpaper_filename у якасці фона "
+"працоўнага стала. Магчымыя значэнні: «none» (няма), «wallpaper» (шпалера), "
+"«centered» (па цэнтры), «scaled» (упісаць), «stretched» (расцягнуць), «zoom» "
+"(павялічыць), «spanned» (запоўніць)."
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:15
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:99
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:106
 msgid "Picture URI"
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:16
 #: schemas/org.gnome.desktop.background.gschema.xml.in:24
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:100
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:107
 msgid ""
 "URI to use for the background image. Note that the backend only supports "
 "local (file://) URIs."
@@ -684,42 +695,42 @@ msgid "Picture URI (dark)"
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:32
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:108
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
 msgid "Picture Opacity"
-msgstr "Празрыстасць выявы"
+msgstr "Празрыстасць відарыса"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:33
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:109
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
 msgid "Opacity with which to draw the background picture."
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:39
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:115
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
 msgid "Primary Color"
 msgstr "Асноўны колер"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:40
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:116
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
 msgid "Left or Top color when drawing gradients, or the solid color."
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:46
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:122
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
 msgid "Secondary Color"
 msgstr "Дадатковы колер"
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:47
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:123
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
 msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:53
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:129
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:136
 msgid "Color Shading Type"
 msgstr ""
 
 #: schemas/org.gnome.desktop.background.gschema.xml.in:54
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:130
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:137
 msgid ""
 "How to shade the background color. Possible values are “horizontal”, "
 "“vertical”, and “solid”."
@@ -842,6 +853,17 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.calendar.gschema.xml.in:7
 msgid "If true, display the ISO week date in the calendar."
+msgstr ""
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:11
+msgid "First day of the week"
+msgstr ""
+
+#: schemas/org.gnome.desktop.calendar.gschema.xml.in:12
+msgid ""
+"The first day of the week. Valid values are \"default\", \"monday\", "
+"\"tuesday\", \"wednesday\", \"thursday\", \"friday\", \"saturday\", "
+"\"sunday\". The \"default\" acts as a fallback to the system locale settings."
 msgstr ""
 
 #: schemas/org.gnome.desktop.datetime.gschema.xml.in:6
@@ -1027,12 +1049,15 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:36
 msgid "Toolbar Style"
-msgstr ""
+msgstr "Стыль панэлі інструментаў"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:37
 msgid ""
 "Toolbar Style. Valid values are “both”, “both-horiz”, “icons”, and “text”."
 msgstr ""
+"Стыль панэлі інструментаў. Магчымыя значэнні: «both» (значкі і тэкст), «both-"
+"horiz» (значкі і тэкст размешчаны гарызантальна), «icons» (значкі), «text» "
+"\"(тэкст)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:44
 msgid "Menubar Detachable"
@@ -1052,35 +1077,36 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:58
 msgid "Toolbar Icon Size"
-msgstr ""
+msgstr "Памер значкоў на панэлі інструментаў"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:59
 msgid "Size of icons in toolbars, either “small” or “large”."
 msgstr ""
+"Памер значкоў на панэлі інструментаў «small» (маленькі) або «large» (вялікі)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:65
 msgid "Cursor Blink"
-msgstr ""
+msgstr "Мільганне курсора"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:66
 msgid "Whether the cursor should blink."
-msgstr ""
+msgstr "Ці павінен курсор мільгаць."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:73
 msgid "Cursor Blink Time"
-msgstr ""
+msgstr "Час мільгання курсора"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:74
 msgid "Length of the cursor blink cycle, in milliseconds."
-msgstr ""
+msgstr "Працягласць цыкла мільгання курсора ў мілісекундах."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:81
 msgid "Cursor Blink Timeout"
-msgstr ""
+msgstr "Затрымка мільгання курсора"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:82
 msgid "Time after which the cursor stops blinking, in seconds."
-msgstr ""
+msgstr "Час у секундах, пасля якога курсор перастае мільгаць."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:88
 msgid "Icon Theme"
@@ -1088,7 +1114,7 @@ msgstr "Тэма значкоў"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:89
 msgid "Icon theme to use for the panel, nautilus etc."
-msgstr ""
+msgstr "Тэма значкоў для панэлі, Nautilus і г.д."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:95
 msgid "Gtk+ Theme"
@@ -1096,15 +1122,17 @@ msgstr "Тэма GTK+"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:96
 msgid "Basename of the default theme used by gtk+."
-msgstr ""
+msgstr "Базавая назва прадвызначанай тэмы, якая выкарыстоўваецца gtk+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:102
 msgid "Gtk+ Keybinding Theme"
-msgstr ""
+msgstr "Тэма спалучэнняў клавіш GTK+"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:103
 msgid "Basename of the default keybinding theme used by gtk+."
 msgstr ""
+"Базавая назва прадвызначанай тэмы спалучэнняў клавіш, якая выкарыстоўваецца "
+"gtk+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:109
 msgid "Default font"
@@ -1112,7 +1140,7 @@ msgstr "Прадвызначаны шрыфт"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:110
 msgid "Name of the default font used by gtk+."
-msgstr ""
+msgstr "Назва прадвызначанага шрыфту, які выкарыстоўваецца gtk+."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:116
 msgid "Directories with avatar faces"
@@ -1293,6 +1321,8 @@ msgid ""
 "If true, the activities overview can be accessed by moving the mouse to the "
 "top-left corner."
 msgstr ""
+"Калі значэнне «true», меню Агляд дзейнасці можна адкрыць, перамясціўшы "
+"ўказальнік мышы ў левы верхні кут."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:249
 msgid "Show battery percentage"
@@ -1318,23 +1348,28 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:263
 msgid "Allow overlay scrolling"
-msgstr ""
+msgstr "Дазволіць накладанне палос прагортвання"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:264
 msgid ""
 "Whether scrollbars should be overlayed as indicators. Depending on input "
 "devices in use, permanent scrollbars may still be displayed."
 msgstr ""
+"Ці павінны палосы прагортвання адлюстроўвацца ўмоўна, як лініі. У залежнасці "
+"ад выкарыстанай прылады ўводу, палосы прагортвання ўсё роўна могуць "
+"паказвацца пастаянна."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:272
 msgid "Highlights the current location of the pointer."
-msgstr ""
+msgstr "Падсвечванне бягучага месцазнаходжанне ўказальніка."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:273
 msgid ""
 "If true, pressing a key will highlight the current pointer location on "
 "screen."
 msgstr ""
+"Калі значэнне «true», пры націсканне клавішы падсвечваецца бягучае "
+"месцазнаходжанне ўказальніка на экране."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:279
 msgid "Antialiasing"
@@ -1389,6 +1424,8 @@ msgid ""
 "The preferred color scheme for the user interface. Valid values are "
 "“default”, “prefer-dark”, “prefer-light”."
 msgstr ""
+"Пераважная схема колераў для інтэрфейсу карыстальніка. Магчымыя значэнні: "
+"«default» (прадвызначаная), «prefer-dark» (цёмная), «prefer-light» (светлая)."
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:307
 msgid "Font rendering"
@@ -1405,7 +1442,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:316
 msgid "Accent color"
-msgstr ""
+msgstr "Акцэнтны колер"
 
 #: schemas/org.gnome.desktop.interface.gschema.xml.in:317
 msgid ""
@@ -1413,6 +1450,10 @@ msgid ""
 "\"blue\", \"teal\", \"green\", \"yellow\", \"orange\", \"red\", \"pink\", "
 "\"purple\", \"slate\"."
 msgstr ""
+"Пераважны акцэнтны колер для інтэрфейсу карыстальніка. Магчымыя значэнні: "
+"«blue» (сіні), «teal» (сіне-зялёны), «green» (зялёны), «yellow» (жоўты), "
+"«orange» (аранжавы), «red» (чырвоны), «pink» (ружовы), «purple» (фіялетавы), "
+"«slate» (сіне-шэры)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:6
 msgid "Disable command line"
@@ -1424,6 +1465,9 @@ msgid ""
 "be executed. For example, this would disable access to the panel’s “Run "
 "Application” dialog."
 msgstr ""
+"Забараніць карыстальніку доступ да тэрмінала або ўказання каманды для "
+"выканання. Напрыклад, гэта адключыць доступ да дыялогавага акна «Запуск "
+"праграмы»."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:15
 msgid "Disable saving files to disk"
@@ -1434,6 +1478,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications’ “Save as” dialogs."
 msgstr ""
+"Забараніць карыстальніку захаванне файлаў на дыск. Напрыклад, гэта адключыць "
+"доступ да дыялогавых акон «Захаваць як» ва ўсіх праграмах."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:23
 msgid "Disable printing"
@@ -1444,6 +1490,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications’ “Print” dialogs."
 msgstr ""
+"Забараніць карыстальніку друк. Напрыклад, гэта адключыць доступ да "
+"дыялогавых акон «Друк» ва ўсіх праграмах."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:31
 msgid "Disable print setup"
@@ -1454,6 +1502,8 @@ msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications’ “Print Setup” dialogs."
 msgstr ""
+"Забараніць карыстальніку друк. Напрыклад, гэта адключыць доступ да "
+"дыялогавых акон «Налады друку» ва ўсіх праграмах."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:39
 msgid "Disable user switching"
@@ -1461,7 +1511,7 @@ msgstr "Адключыць пераключэнне карыстальнікаў
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 
@@ -1470,8 +1520,8 @@ msgid "Disable lock screen"
 msgstr "Адключыць блакіраванне экрана"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
-msgstr ""
+msgid "Prevent the user from locking their screen."
+msgstr "Забараніць карыстальніку блакіраваць экран."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
 msgid "Disable URL and MIME type handlers"
@@ -1487,49 +1537,57 @@ msgstr "Адключыць выхад з сеанса"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:62
 msgid "Prevent the user from logging out."
-msgstr ""
+msgstr "Забараніць карыстальніку выхад з сеанса."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:68
 msgid "Disable user administration"
-msgstr ""
+msgstr "Адключыць кіраванне ўліковымі запісамі"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:69
 msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
+"Забараніць карыстальніку змяняць уліковыя запісы карыстальнікаў. "
+"Прадвызначана дазваляецца дадаваць і выдаляць карыстальнікаў, а таксама "
+"змяняць налады іншых карыстальнікаў."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
 msgid "Mount removable storage devices as read-only"
-msgstr ""
+msgstr "Мантаваць здымныя носьбіты ў рэжыме толькі для чытання"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:77
 msgid ""
 "Prevent users from writing or modifying files on removable storage devices "
 "(i.e. flash disks, mobile phones, cameras)."
 msgstr ""
+"Забараніць карыстальнікам запісваць і змяняць файлы на здымных носьбітах "
+"(флэшках, мабільных тэлефонах, камерах)."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:84
 msgid "Disable password showing"
-msgstr ""
+msgstr "Адключыць паказ пароля"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:85
 msgid "Disable the \"Show Password\" menu item in password entries."
-msgstr ""
+msgstr "Адключыць пункт меню «Паказаць пароль» у палях уводу пароля."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:6
 msgid "Whether to automatically mount media"
-msgstr ""
+msgstr "Аўтаматычнае мантаванне носьбітаў"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:7
 msgid ""
 "If set to true, then Nautilus will automatically mount media such as user-"
 "visible hard disks and removable media on start-up and media insertion."
 msgstr ""
+"Калі значэнне «true», пры падлучэнні носьбітаў і падчас запуску сістэмы, "
+"Nautilus будзе іх аўтаматычна мантаваць, як бачныя карыстальніку цвёрдыя "
+"дыскі і здымныя носьбіты."
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:11
 msgid "Whether to automatically open a folder for automounted media"
-msgstr ""
+msgstr "Аўтаматычнае адкрыццё папкі пасля аўтамантавання носьбіта"
 
 #: schemas/org.gnome.desktop.media-handling.gschema.xml.in:12
 msgid ""
@@ -1617,13 +1675,12 @@ msgid "Whether notifications are globally enabled for this application."
 msgstr ""
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:47
-#, fuzzy
 msgid "Enable sound alerts"
 msgstr "Уключыць гукавыя сігналы"
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:48
 msgid "Whether notifications should be accompanied by sound alerts."
-msgstr ""
+msgstr "Ці суправаджаць апавяшчэнні гукавым сігналам."
 
 #: schemas/org.gnome.desktop.notifications.gschema.xml.in:56
 msgid ""
@@ -1690,71 +1747,81 @@ msgid "When enabled, touchpads will be disabled while typing on the keyboard."
 msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:30
-msgid "Enable mouse clicks with touchpad"
+msgid "Timeout in milliseconds until the touchpad is enabled after typing"
 msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:31
 msgid ""
-"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:35
-msgid "Tap Button Map"
+"Touchpads will be disabled for this many milliseconds after typing on the "
+"keyboard."
 msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:36
+msgid "Enable mouse clicks with touchpad"
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:37
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+msgid "Tap Button Map"
+msgstr ""
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:42
 msgid ""
 "Defines the mapping between the number of fingers and touchpad buttons. The "
 "default is to have a 1, 2 and 3 finger tap to map to the left, right and "
 "middle button (\"lrm\"), respectively."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:40
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
 msgid "Enable tap-and-drag with touchpad"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:41
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:47
 msgid ""
 "Set this to TRUE to be able to start a drag by tapping and immediately "
 "moving the finger that’s now pressed on the touchpad."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:45
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
 msgid "Enable tap-and-drag-lock with touchpad"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:46
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:52
 msgid ""
 "Set this to TRUE to lock the dragging process within a short timeout when "
 "the finger is lifted on the touchpad and the tap-and-drag setting is enabled."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:50
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
 msgid "Touchpad enabled"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:51
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:57
 msgid "Defines the situations in which the touchpad is enabled."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:55
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
 msgid "Touchpad button orientation"
 msgstr "Арыентацыя кнопак сэнсарнай панэлі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:56
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:62
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:60
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:279
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid "Acceleration profile"
 msgstr "Профіль паскарэння"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:61
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:67
 msgid ""
 "Acceleration profile used for connected touchpads. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -1765,113 +1832,113 @@ msgid ""
 "will be used."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:65
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:120
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Pointer speed"
 msgstr "Хуткасць указальніка мышы"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:66
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:71
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:126
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
 msgid "Natural scrolling"
 msgstr "Натуральная прагортка"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:72
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:78
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:76
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
 msgid "Click method"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:77
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:83
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
 "default (“default”)."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:81
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:87
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Emulate middle click"
 msgstr "Эмуляцыя сярэдняй кнопкі мышы"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:82
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:137
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:143
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:88
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
 msgid "Keyboard repeat"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:89
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:93
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 msgid "Key Repeat Interval"
 msgstr "Інтэрвал паўтарэння націскання клавішы"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:94
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
 msgid "Delay between repeats in milliseconds."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:98
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
 msgid "Initial Key Repeat Delay"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:105
 msgid "Initial key repeat delay in milliseconds."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
 msgid "Remember NumLock state"
 msgstr "Запамінаць стан NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:104
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:110
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:114
 msgid "NumLock state"
 msgstr "Стан NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:109
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
 msgid "The remembered state of the NumLock LED."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:115
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
 msgid "Mouse button orientation"
 msgstr "Арыентацыя кнопак мышы"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:116
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:121
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:127
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:133
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:132
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:138
 msgid ""
 "Acceleration profile used for connected mice. The acceleration profile can "
 "be set to either default (“default”) which uses the default acceleration "
@@ -1882,197 +1949,238 @@ msgid ""
 "be used."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Double click time"
 msgstr "Час на падвойнае націсканне"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:142
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Length of a double click in milliseconds."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Drag threshold"
-msgstr ""
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
-msgid "Distance before a drag is started."
-msgstr ""
+msgstr "Парог перацягвання"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
+msgid "Distance before a drag is started."
+msgstr "Адлегласць да пачатку перацягвання."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
 msgid "Drawing tablet mapping"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:154
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
 msgid "Tablet mapping"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:159
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:165
 msgid "How input affects the pointer on the screen"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
 msgid "Tablet area"
-msgstr ""
+msgstr "Вобласць планшэта"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:164
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
 msgstr ""
+"Мёртвая зона навокал актыўнай вобласці, у працэнтах. Адпаведна ўжываецца да "
+"левага, правага, верхняга і ніжняга бакоў."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Tablet aspect ratio"
-msgstr ""
+msgstr "Прапорцыі планшэта"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:169
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
 msgstr ""
+"Уключыце, каб абмежаваць вобласць планшэта ў адпаведнасці з прапорцыямі "
+"выведзенага відарыса."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:173
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
 msgid "Tablet left-handed mode"
-msgstr ""
+msgstr "Рэжым планшэта для левай рукі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
+"Уключыце, каб дазволіць апаратна пераварочваць планшэт для працы левай рукой"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Stylus pressure curve"
 msgstr "Крывая націску пяра"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:181
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
+"Задайце пункты (x1, y1 і x2, y2) крывой націску, ужытай у дачыненні да пяра."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
-#, fuzzy
-#| msgid "Stylus pressure curve"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 msgid "Stylus pressure range"
-msgstr "Крывая націску пяра"
+msgstr "Вобласць націску пяра"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:202
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
 msgstr ""
+"Задайце які працэнт фізічнай вобласці націску павінен адпавядаць лагічнай "
+"вобласці."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:196
 msgid "Eraser pressure curve"
 msgstr "Крывая націску для сціркі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
+"Задайце пункты (x1, y1 і x2, y2) крывой націску, ужытай у дачыненні да "
+"сціркі."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:195
-#, fuzzy
-#| msgid "Eraser pressure curve"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
 msgid "Eraser pressure range"
-msgstr "Крывая націску для сціркі"
+msgstr "Вобласць націску для сціркі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:200
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+msgid "Eraser button mode"
+msgstr "Рыжым кнопкі «Сцірка»"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:207
+msgid "Set this to change the behavior of the eraser button."
+msgstr "Задайце параметр, каб змяніць паводзіны кнопкі «Сцірка»."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+msgid "Eraser button action"
+msgstr "Дзеянне кнопкі «Сцірка»"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:212
+msgid ""
+"Set this to the button action triggered if the eraser button is in 'button' "
+"mode."
+msgstr ""
+"Задайце параметр, каб змяніць дзеянне кнопкі «Сцірка» у рэжыме «кнопка»."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+msgid "Key combination for the eraser button if in 'button' mode"
+msgstr "Спалучэнне клавіш для кнопкі «Сцірка» у рэжыме «кнопка»"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:217
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:242
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:247
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+"Спалучэнне клавіш для ўласнага дзеяння, якое генеруецца пры націскання "
+"кнопкі."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
 msgid "Button action"
 msgstr "Дзеянне кнопкі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:201
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:222
 msgid "Stylus button action, this button is located along the pen handle."
-msgstr ""
+msgstr "Дзеянне кнопкі пяра, гэтая кнопка размешчана на ручцы."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
 msgid "Secondary button action"
 msgstr "Дзеянне другой кнопкі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:206
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:227
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
 "Inking Pen only have one button, this setting is ineffective on those."
 msgstr ""
+"Дзеянне другой кнопкі пяра. кнопка размешчана на ручцы некаторых прылад, "
+"напрыклад Grip Pen. Іншыя пёры накшталт Airbrush Pen або Inking Pen, маюць "
+"толькі адну кнопку, таму гэты параметр для іх не дзейнічае."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:231
 msgid "Tertiary button action"
 msgstr "Дзеянне трэцяй кнопкі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:211
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
 "buttons, this setting is ineffective on those."
 msgstr ""
+"Дзеянне трэцяй кнопкі пяра. кнопка размешчана на ручцы некаторых прылад, "
+"напрыклад 3D Pen. Іншыя пёры накшталт Grip Pen, маюць толькі дзве кнопкі, "
+"таму гэты параметр для іх не дзейнічае."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:236
 msgid "Key combination for the primary button"
-msgstr ""
+msgstr "Спалучэнне клавіш для асноўнай кнопкі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:221
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:226
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:238
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
-msgstr ""
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
 msgid "Key combination for the secondary button"
-msgstr ""
+msgstr "Спалучэнне клавіш для другой кнопкі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Key combination for the tertiary button"
-msgstr ""
+msgstr "Спалучэнне клавіш для трэцяй кнопкі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:232
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:253
 msgid "Pad button action type"
-msgstr ""
+msgstr "Тып дзеяння кнопак панэлі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:233
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
 msgid "The type of action triggered by the button being pressed."
-msgstr ""
+msgstr "Тып дзеяння пры націсканні кнопкі."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:237
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:258
 msgid "Key combination for the custom action"
-msgstr ""
+msgstr "Спалучэнне клавіш для ўласнага дзеяння"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
 msgid "Touchscreen output mapping"
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:266
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
 "mapping."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:252
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "Кнопка эмуляцыі кола мышы. Значэнне 0 адключае функцыю."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Mouse wheel emulation button lock"
-msgstr ""
+msgstr "Фіксацыя кнопкі эмуляцыі кола мышы"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:257
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
 "disables scrolling again."
 msgstr ""
+"Задайце значэнне TRUE, каб уключыць фіксацыю кнопкі эмуляцыі кола мышы. Калі "
+"функцыя ўключана, пры першым націсканні кнопкі ўключаецца прагортка, пры "
+"другім націсканні зноў адключаецца."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:262
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2082,13 +2190,13 @@ msgid ""
 "support the configured profile, “default” will be used."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:274
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:280
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2098,11 +2206,11 @@ msgid ""
 "doesn’t support the configured profile, “default” will be used."
 msgstr ""
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid "Scrolling method"
-msgstr ""
+msgstr "Метад прагорткі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:285
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -2122,51 +2230,59 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:12
 msgid "Show full name in the user menu"
-msgstr ""
+msgstr "Паказваць поўнае імя ў меню карыстальніка"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:13
 msgid "Whether the users full name is shown in the user menu or not."
-msgstr ""
+msgstr "Ці паказваць поўнае імя карыстальніка ў меню."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:17
 msgid "Whether to remove old files from the trash automatically"
-msgstr ""
+msgstr "Аўтаматычнае выдаленне старых файлаў у сметніцы"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:18
 msgid ""
 "If TRUE, automatically remove files from the trash when they are older than "
 "“old-files-age” days."
 msgstr ""
+"Калі значэнне TRUE, файлы ў сметніцы будуць аўтаматычна выдаляцца праз "
+"колькасць дзён, якая зададзена ў ключы «old-files-age»."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:23
 msgid "Whether to remove old temporary files automatically"
-msgstr ""
+msgstr "Аўтаматычнае выдаленне старых часовых файлаў"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:24
 msgid ""
 "If TRUE, automatically remove temporary files when they are older than “old-"
 "files-age” days."
 msgstr ""
+"Калі значэнне TRUE, часовыя файлы будуць аўтаматычна выдаляцца праз "
+"колькасць дзён, якая зададзена ў ключы «old-files-age»."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:29
 msgid "Number of days to keep trash and temporary files"
-msgstr ""
+msgstr "Колькасць дзён захоўвання файлаў у сметніцы і часовых файлаў"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:30
 msgid "Consider trash and temporary files old after this many days."
 msgstr ""
+"Пасля гэтай колькасці дзён файлы ў сметніцы і часовыя файлы лічацца "
+"састарэлымі."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:35
 msgid "Whether to remember recently used files"
-msgstr ""
+msgstr "Ці запамінаць нядаўна выкарыстаныя файлы"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:36
 msgid "If FALSE, applications will not remember recently used files."
 msgstr ""
+"Калі значэнне FALSE, праграмы не будуць запамінаць нядаўна выкарыстаныя "
+"файлы."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:41
 msgid "Number of days to remember recently used files for"
-msgstr ""
+msgstr "Колькасць дзён захавання спісу нядаўна выкарыстаных файлаў"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:42
 msgid ""
@@ -2174,6 +2290,9 @@ msgid ""
 "recent files will not be remembered; if set to -1, they will be retained "
 "indefinitely."
 msgstr ""
+"Нядаўна выкарыстаныя файлы будуць захоўвацца на працягу гэтай колькасці "
+"дзён. Пры значэнні «0» нядаўна выкарыстаныя файлы не захоўваюцца, пры "
+"значэнні «-1» захоўваюцца бестэрмінова."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:48
 msgid "Whether to remember application usage"
@@ -2195,35 +2314,37 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:59
 msgid "Send reports of technical problems to the vendor"
-msgstr ""
+msgstr "Адпраўляць вытворцу справаздачы пра памылкі"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:60
 msgid "If TRUE, anonymized reports will be sent automatically to the vendor."
 msgstr ""
+"Калі значэнне «true», вытворцу будуць аўтаматычна адпраўляцца ананімныя "
+"справаздачы."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:64
 msgid "Don’t allow applications to access the microphone"
-msgstr ""
+msgstr "Не даваць праграмам доступ да мікрафона"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:65
 msgid "If TRUE, applications should not use the microphone."
-msgstr ""
+msgstr "Калі значэнне «true», праграмы не будуць выкарыстоўваць мікрафон."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:69
 msgid "Don’t allow applications to access the camera"
-msgstr ""
+msgstr "Не даваць праграмам доступ да камеры"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:70
 msgid "If TRUE, applications should not use the camera."
-msgstr ""
+msgstr "Калі значэнне «true», праграмы не будуць выкарыстоўваць камеру."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:74
 msgid "Don’t allow applications to output sound"
-msgstr ""
+msgstr "Не даваць праграмам доступ на вывад гуку"
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:75
 msgid "If TRUE, applications should not make sound."
-msgstr ""
+msgstr "Калі значэнне «true», праграмы не будуць выводзіць гук."
 
 #: schemas/org.gnome.desktop.privacy.gschema.xml.in:79
 msgid "Whether to protect USB devices"
@@ -2258,59 +2379,68 @@ msgid ""
 msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:6
-msgid "Activate when idle"
+msgid "Enable restart/shutdown"
 msgstr ""
 
 #: schemas/org.gnome.desktop.screensaver.gschema.xml.in:7
-msgid ""
-"Set this to TRUE to activate the screensaver when the session is idle. "
-"DEPRECATED: This key is deprecated and ignored. Set org.gnome.desktop."
-"session idle-delay to 0 if you do not want to activate the screensaver."
+msgid "Allow shutdown and restart actions from the lock screen."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:16
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:13
+msgid "Activate when idle"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:14
+msgid ""
+"Set this to TRUE to activate the screensaver when the session is idle. "
+"DEPRECATED: This key is deprecated and ignored. Set "
+"org.gnome.desktop.session idle-delay to 0 if you do not want to activate the "
+"screensaver."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:23
 msgid "Lock on activation"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:17
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:24
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:21
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:28
 msgid "Time before locking"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:22
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:29
 msgid ""
 "The number of seconds after screensaver activation before locking the screen."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:26
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:33
 msgid "Show full name in the lock screen"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:27
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:34
 msgid ""
 "Whether the user’s full name is shown in the lock screen or not. This only "
 "affects the screen shield, the name is always shown in the unlock dialog."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:31
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:38
 msgid "Allow embedding a keyboard into the window"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:32
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:39
 msgid ""
 "Set this to TRUE to allow embedding a keyboard into the window when trying "
 "to unlock. The “keyboard_command” key must be set with the appropriate "
 "command. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:40
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:47
 msgid "Embedded keyboard command"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:41
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:48
 msgid ""
 "The command that will be run, if the “embedded_keyboard_enabled” key is set "
 "to TRUE, to embed a keyboard widget into the window. This command should "
@@ -2318,22 +2448,22 @@ msgid ""
 "output. DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:49
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:56
 msgid "Allow logout"
 msgstr "Дазволіць выхад з сеанса"
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:50
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:57
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to allow logging "
 "out after a delay. The delay is specified in the “logout_delay” key. "
 "DEPRECATED: This key is deprecated and ignored."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:58
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:65
 msgid "Time before logout option"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:59
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:66
 msgid ""
 "The number of seconds after the screensaver activation before a logout "
 "option will appear in the unlock dialog. This key has effect only if the "
@@ -2341,11 +2471,11 @@ msgid ""
 "ignored"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:67
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:74
 msgid "Logout command"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:68
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:75
 msgid ""
 "The command to invoke when the logout button is clicked. This command should "
 "simply log the user out without any interaction. This key has effect only if "
@@ -2353,24 +2483,63 @@ msgid ""
 "and ignored."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:76
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:83
 msgid "Allow user switching"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:77
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:84
 msgid ""
 "Set this to TRUE to offer an option in the unlock dialog to switch to a "
 "different user account."
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:81
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:88
 msgid "Allow the session status message to be displayed"
 msgstr ""
 
-#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:82
+#: schemas/org.gnome.desktop.screensaver.gschema.xml.in:89
 msgid ""
 "Allow the session status message to be displayed when the screen is locked. "
 "DEPRECATED: This key is deprecated and ignored."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in “daily-limit-"
+"seconds”."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
 msgstr ""
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
@@ -2436,9 +2605,19 @@ msgstr "Тып сеанса"
 msgid "The name of the session to use. Known value is “gnome”."
 msgstr "Назва выкарыстанага сеанса. Агульнавядомае значэнне «gnome»."
 
+#: schemas/org.gnome.desktop.session.gschema.xml.in:17
+msgid "Session save/restore enabled"
+msgstr ""
+
+#: schemas/org.gnome.desktop.session.gschema.xml.in:18
+msgid ""
+"When true, running apps will be saved at log-out time and restored on the "
+"next login."
+msgstr ""
+
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:6
 msgid "Sounds for events"
-msgstr ""
+msgstr "Гукі для падзей"
 
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:7
 msgid "Whether to play sounds on user events."
@@ -2467,6 +2646,8 @@ msgstr "Дазволіць узмацненне гучнасці звыш 100%"
 #: schemas/org.gnome.desktop.sound.gschema.xml.in:22
 msgid "Whether volume can be set above 100%, using software amplification."
 msgstr ""
+"Ці можна з дапамогай праграмнага ўзмацнення павялічваць гучнасць вышэй за "
+"100%."
 
 #: schemas/org.gnome.desktop.thumbnail-cache.gschema.xml.in:6
 msgid ""
@@ -3059,7 +3240,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:228
 msgid "Visual Bell Type"
-msgstr ""
+msgstr "Тып візуальнага сігналу"
 
 #: schemas/org.gnome.desktop.wm.preferences.gschema.xml.in:229
 msgid ""
@@ -3108,11 +3289,13 @@ msgstr ""
 
 #: schemas/org.gnome.system.location.gschema.xml.in:7
 msgid "Geolocation services are enabled."
-msgstr ""
+msgstr "Сэрвісы месцазнаходжання ўключаны."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:8
 msgid "If true, applications are allowed to access location information."
 msgstr ""
+"Калі значэнне «true», праграмы маюць доступ да інфармацыі пра "
+"месцазнаходжанне."
 
 #: schemas/org.gnome.system.location.gschema.xml.in:14
 msgid "The maximum accuracy level of location."
@@ -3196,7 +3379,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:81
 msgid "HTTP proxy port"
-msgstr ""
+msgstr "Порт проксі-сервера НТТР"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:82
 msgid ""
@@ -3219,7 +3402,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:103
 msgid "HTTP proxy username"
-msgstr ""
+msgstr "Імя карыстальніка для проксі-сервера НТТР"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:104
 msgid "User name to pass as authentication when doing HTTP proxying."
@@ -3227,11 +3410,11 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:110
 msgid "HTTP proxy password"
-msgstr ""
+msgstr "Пароль проксі HTTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:111
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
+msgstr "Пароль для выканання аўтэнтыфікацыі на проксі-сервере HTTP."
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:119
 msgid "Secure HTTP proxy host name"
@@ -3261,7 +3444,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:145
 msgid "FTP proxy port"
-msgstr ""
+msgstr "Порт проксі-сервера FTP"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:146
 msgid ""
@@ -3279,7 +3462,7 @@ msgstr ""
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:163
 msgid "SOCKS proxy port"
-msgstr ""
+msgstr "Порт проксі-сервера SOCKS"
 
 #: schemas/org.gnome.system.proxy.gschema.xml.in:164
 msgid ""
