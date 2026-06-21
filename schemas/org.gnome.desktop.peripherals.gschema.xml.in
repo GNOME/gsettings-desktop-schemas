@@ -71,8 +71,53 @@
     </key>
     <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
       <default>'default'</default>
-      <summary>Acceleration profile</summary>
-      <description>Acceleration profile used for connected touchpads. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile for each device, flat (“flat”), which accelerates by a device specific constant factor derived from the configured pointer speed, or adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement. If a touchpad doesn’t support the configured profile, “default” will be used.</description>
+      <summary>Pointer acceleration profile</summary>
+      <description>
+        Acceleration profile used for the connected devices of this type's pointers.
+        The pointer acceleration profile can be set to either:
+
+          - default (“default”) which uses the default acceleration profile for each device.
+
+          - flat (“flat”), which accelerates by a device specific constant factor derived
+            from the configured pointer speed.
+
+          - adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement.
+
+          - custom ("custom") which accelerates by a provided acceleration curve defined with
+            `pointer-step` and `pointer-speeds` in `custom-accel-config`.
+
+        If a device doesn’t support the configured profile, “default” will be used.
+      </description>
+    </key>
+    <key name="custom-accel-config" type="a{sv}">
+      <default>
+      {
+        "pointer-step": &lt;@d 1.0&gt;,
+        "pointer-speeds": &lt;@ad [0.0, 1.0]&gt;
+      }
+      </default>
+      <summary>Custom acceleration configuration</summary>
+      <description>
+        A dictionary storing custom device acceleration settings.
+        Currently, valid entries are as follows:
+
+          - `pointer-step` (d): The increment of an "x axis" of the pointer
+                                acceleration curve, the "input" pointer speed,
+                                in device units per millisecond.
+
+          - `pointer-speeds` (ad): Every increment (N) of `pointer-step`,
+                                   the Nth value is selected from this array as
+                                   that point on the "y axis" of the pointer
+                                   acceleration curve, the "output" pointer
+                                   speed in device units per ms.
+
+
+        Where input pointer speed doesn't lie on any single point in `pointer-step`
+        and `pointer-speeds`, a linear interpolation of the two closest points will be calculated.
+
+        Additional details can be found in libinput documentation ("The custom acceleration profile").
+        More entries may be added later.
+      </description>
     </key>
     <key name="speed" type="d">
       <default>0</default>
@@ -142,8 +187,53 @@
     </key>
     <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
       <default>'default'</default>
-      <summary>Acceleration profile</summary>
-      <description>Acceleration profile used for connected mice. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile for each device, flat (“flat”), which accelerates by a device specific constant factor derived from the configured pointer speed, or adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement. If a mouse doesn’t support the configured profile, “default” will be used.</description>
+      <summary>Pointer acceleration profile</summary>
+      <description>
+        Acceleration profile used for the connected devices of this type's pointers.
+        The pointer acceleration profile can be set to either:
+
+          - default (“default”) which uses the default acceleration profile for each device.
+
+          - flat (“flat”), which accelerates by a device specific constant factor derived
+            from the configured pointer speed.
+
+          - adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement.
+
+          - custom ("custom") which accelerates by a provided acceleration curve defined with
+            `pointer-step` and `pointer-speeds` in `custom-accel-config`.
+
+        If a device doesn’t support the configured profile, “default” will be used.
+      </description>
+    </key>
+    <key name="custom-accel-config" type="a{sv}">
+      <default>
+      {
+        "pointer-step": &lt;@d 1.0&gt;,
+        "pointer-speeds": &lt;@ad [0.0, 1.0]&gt;
+      }
+      </default>
+      <summary>Custom acceleration configuration</summary>
+      <description>
+        A dictionary storing custom device acceleration settings.
+        Currently, valid entries are as follows:
+
+          - `pointer-step` (d): The increment of an "x axis" of the pointer
+                                acceleration curve, the "input" pointer speed,
+                                in device units per millisecond.
+
+          - `pointer-speeds` (ad): Every increment (N) of `pointer-step`,
+                                   the Nth value is selected from this array as
+                                   that point on the "y axis" of the pointer
+                                   acceleration curve, the "output" pointer
+                                   speed in device units per ms.
+
+
+        Where input pointer speed doesn't lie on any single point in `pointer-step`
+        and `pointer-speeds`, a linear interpolation of the two closest points will be calculated.
+
+        Additional details can be found in libinput documentation ("The custom acceleration profile").
+        More entries may be added later.
+      </description>
     </key>
     <key name="middle-click-emulation" type="b">
       <default>false</default>
@@ -301,8 +391,53 @@
     </key>
     <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
       <default>'default'</default>
-      <summary>Acceleration profile</summary>
-      <description>Acceleration profile used for the trackball. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile, flat (“flat”), which accelerates by a device specific constant factor derived from the configured speed, or adaptive (“adaptive”) which adapts the acceleration depending on the movement. If the trackball doesn’t support the configured profile, “default” will be used.</description>
+      <summary>Pointer acceleration profile</summary>
+      <description>
+        Acceleration profile used for the connected devices of this type's pointers.
+        The pointer acceleration profile can be set to either:
+
+          - default (“default”) which uses the default acceleration profile for each device.
+
+          - flat (“flat”), which accelerates by a device specific constant factor derived
+            from the configured pointer speed.
+
+          - adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement.
+
+          - custom ("custom") which accelerates by a provided acceleration curve defined with
+            `pointer-step` and `pointer-speeds` in `custom-accel-config`.
+
+        If a device doesn’t support the configured profile, “default” will be used.
+      </description>
+    </key>
+    <key name="custom-accel-config" type="a{sv}">
+      <default>
+      {
+        "pointer-step": &lt;@d 1.0&gt;,
+        "pointer-speeds": &lt;@ad [0.0, 1.0]&gt;
+      }
+      </default>
+      <summary>Custom acceleration configuration</summary>
+      <description>
+        A dictionary storing custom device acceleration settings.
+        Currently, valid entries are as follows:
+
+          - `pointer-step` (d): The increment of an "x axis" of the pointer
+                                acceleration curve, the "input" pointer speed,
+                                in device units per millisecond.
+
+          - `pointer-speeds` (ad): Every increment (N) of `pointer-step`,
+                                   the Nth value is selected from this array as
+                                   that point on the "y axis" of the pointer
+                                   acceleration curve, the "output" pointer
+                                   speed in device units per ms.
+
+
+        Where input pointer speed doesn't lie on any single point in `pointer-step`
+        and `pointer-speeds`, a linear interpolation of the two closest points will be calculated.
+
+        Additional details can be found in libinput documentation ("The custom acceleration profile").
+        More entries may be added later.
+      </description>
     </key>
     <key name="middle-click-emulation" type="b">
       <default>false</default>
@@ -319,8 +454,53 @@
     </key>
     <key name="accel-profile" enum="org.gnome.desktop.GDesktopPointerAccelProfile">
       <default>'default'</default>
-      <summary>Acceleration profile</summary>
-      <description>Acceleration profile used for the pointing stick. The acceleration profile can be set to either default (“default”) which uses the default acceleration profile, flat (“flat”), which accelerates by a device specific constant factor derived from the configured speed, or adaptive (“adaptive”) which adapts the acceleration depending on the movement. If the pointing stick doesn’t support the configured profile, “default” will be used.</description>
+      <summary>Pointer acceleration profile</summary>
+      <description>
+        Acceleration profile used for the connected devices of this type's pointers.
+        The pointer acceleration profile can be set to either:
+
+          - default (“default”) which uses the default acceleration profile for each device.
+
+          - flat (“flat”), which accelerates by a device specific constant factor derived
+            from the configured pointer speed.
+
+          - adaptive (“adaptive”) which adapts the acceleration depending on the mouse movement.
+
+          - custom ("custom") which accelerates by a provided acceleration curve defined with
+            `pointer-step` and `pointer-speeds` in `custom-accel-config`.
+
+        If a device doesn’t support the configured profile, “default” will be used.
+      </description>
+    </key>
+    <key name="custom-accel-config" type="a{sv}">
+      <default>
+      {
+        "pointer-step": &lt;@d 1.0&gt;,
+        "pointer-speeds": &lt;@ad [0.0, 1.0]&gt;
+      }
+      </default>
+      <summary>Custom acceleration configuration</summary>
+      <description>
+        A dictionary storing custom device acceleration settings.
+        Currently, valid entries are as follows:
+
+          - `pointer-step` (d): The increment of an "x axis" of the pointer
+                                acceleration curve, the "input" pointer speed,
+                                in device units per millisecond.
+
+          - `pointer-speeds` (ad): Every increment (N) of `pointer-step`,
+                                   the Nth value is selected from this array as
+                                   that point on the "y axis" of the pointer
+                                   acceleration curve, the "output" pointer
+                                   speed in device units per ms.
+
+
+        Where input pointer speed doesn't lie on any single point in `pointer-step`
+        and `pointer-speeds`, a linear interpolation of the two closest points will be calculated.
+
+        Additional details can be found in libinput documentation ("The custom acceleration profile").
+        More entries may be added later.
+      </description>
     </key>
     <key name="scroll-method" enum="org.gnome.desktop.GDesktopPointingStickScrollMethod">
       <default>'default'</default>
