@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2026-06-28 21:32+0000\n"
-"PO-Revision-Date: 2026-06-29 18:53+0200\n"
+"POT-Creation-Date: 2026-07-07 15:26+0000\n"
+"PO-Revision-Date: 2026-07-08 11:33+0200\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -100,6 +100,20 @@ msgstr "Mișcare redusă"
 msgid "The type of reduced motion."
 msgstr "Tipul de mișcare redusă."
 
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:27
+msgid "Keyboard navigation focus timeout"
+msgstr "Durata evidențierii unui element cu tasta Tab"
+
+#: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:28
+msgid ""
+"How many seconds should the navigation focus remains visible when navigating "
+"with the keyboard. 0 means \"forever\", and a negative value means \"use the "
+"default toolkit value\"."
+msgstr ""
+"Câte secunde trebuie să rămână evidențiat elementul selecționat în timpul "
+"navigării cu tastatura. Valoarea 0 înseamnă „nelimitat”, iar o valoare "
+"negativă utilizează valoarea prestabilită a sistemului."
+
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
 msgstr "Activează scurtăturile de tastatură pentru accesibilitate"
@@ -178,7 +192,7 @@ msgstr "Dacă să fie controlat cursorul folosind tastatura."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:45
 msgid "Pixels per seconds"
-msgstr "Pixeli pe secunde"
+msgstr "Pixeli pe secundă"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:46
 msgid "How many pixels per second to move at the maximum speed."
@@ -241,7 +255,7 @@ msgstr "Activează tastele persistente"
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:86
 msgid "Whether the sticky keys accessibility feature is turned on."
 msgstr ""
-"Dacă funcționalitatea de accesibilitate „taste persistente” este pornită."
+"Dacă caracteristica de accesibilitate „taste persistente” este pornită."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:90
 msgid "Disable when two keys are pressed at the same time"
@@ -264,16 +278,16 @@ msgstr "Dacă să se redea un bip când o tastă modificatoare este apăsată."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:100
 msgid "Enable “Toggle Keys”"
-msgstr "Activează „taste de comutare”"
+msgstr "Activează „Taste de comutare”"
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:101
 msgid "Whether the “Toggle Keys” accessibility feature is turned on."
 msgstr ""
-"Dacă funcționalitatea de accesibilitate „taste de comutare” este pornită."
+"Dacă caracteristica de accesibilitate „Taste de comutare” este pornită."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:8
 msgid "Mouse Tracking Mode"
-msgstr "Modul de urmărire a mausului"
+msgstr "Urmărirea indicatorului"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:9
 msgid ""
@@ -287,19 +301,19 @@ msgid ""
 "push: when the magnified mouse intersects a boundary of the zoom region, the "
 "contents are scrolled into view."
 msgstr ""
-"Determină poziția imaginii mausului mărite în cadrul vizualizării mărite și "
-"cum reacționează la mișcarea mausului sistemului. Valorile sunt • niciuna: "
-"fără monitorizare a mausului; • centrată: imaginea mausului este afișată în "
-"centru regiunii de zoom (care reprezintă de asemenea punctul de sub mausul "
-"sistemului) și conținutul mărit este derulat în timp ce mausul sistemului se "
-"mișcă; • proporțional: poziția mausului mărit în regiunea de zoom este "
-"proporțional la fel cu regiunea mausului sistemului pe ecran; • împinge: "
-"când mausul mărit intersectează limita regiunii de zoom, conținutul este "
-"derulat în spațiul vizual."
+"Stabilește poziția indicatorului mărit în cadrul zonei de mărire și modul în "
+"care aceasta reacționează la mișcările indicatorului sistemului. Valorile "
+"sunt: • « none » (niciunul): fără urmărire; • « centered » (centrat): "
+"indicatorul este afișat în centrul zonei de mărire (care coincide cu poziția "
+"indicatorului în sistem), iar conținutul mărit este deplasat pe măsură ce se "
+"mișcă indicatorul; • « proportional » (proporțional): poziția indicatorului "
+"în zona de mărire este proporțională cu poziția indicatorului sistemului pe "
+"ecran; • « push » (împingere): atunci când indicatorul atinge marginea zonei "
+"de mărire, o împinge pentru a mări ce este în afara ei."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:26
 msgid "Focus Tracking Mode"
-msgstr "Modul de urmărire a focusului"
+msgstr "Urmărirea elementului activ"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:27
 msgid ""
@@ -312,18 +326,19 @@ msgid ""
 "focus on screen • push: when the magnified focus intersects a boundary of "
 "the zoom region, the contents are scrolled into view"
 msgstr ""
-"Determină poziția widgetului focusat în cadrul vizualizării mărite. Valorile "
-"sunt: • niciuna: fără monitorizare focusului • centrată: imaginea focusată "
-"este afișată în centru regiunii de zoom (care reprezintă de asemenea punctul "
-"de sub focusul sistemului) și conținutul mărit este derulat în timp ce "
-"focusul sistemului se mișcă • proporționată: poziția focusului mărit în "
-"regiunea de zoom este proporțională la fel cu poziția focusului sistemului "
-"pe ecran • împinge: când focusul mărit intersectează limita regiunii de "
-"zoom, conținutul este derulat în spațiul vizual"
+"Stabilește poziția elementului activ în cadrul zonei de mărire. Valorile "
+"sunt: • « none » (niciunul): fără urmărire; • « centered » (centrat): "
+"imaginea elementului activ este afișată în centrul zonei de mărire (care "
+"coincide cu poziția elementului activ în sistem), iar conținutul mărit este "
+"deplasat pe măsură ce se schimbă elementul activ; • « proportional » "
+"(proporțional): poziția elementului activ în zona de mărire este "
+"proporțională cu poziția acestuia pe ecran; • « push » (împingere): atunci "
+"când elementul activ atinge marginea zonei de mărire, o împinge pentru a "
+"mări ce este în afara ei."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:46
 msgid "Caret Tracking Mode"
-msgstr "Modul de urmărire al caretului"
+msgstr "Urmărirea cursorului de text"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:47
 msgid ""
@@ -336,26 +351,27 @@ msgid ""
 "push: when the magnified caret intersects a boundary of the zoom region, the "
 "contents are scrolled into view"
 msgstr ""
-"Determină poziția caretului mărit în cadrul vizualizării mărite. Valorile "
-"sunt: • niciuna: fără monitorizare caretului • centrată: imaginea caretului "
-"este afișată în centru regiunii de zoom (care reprezintă de asemenea punctul "
-"de sub caretul sistemului) și conținutul mărit este derulat în timp ce "
-"caretul sistemului se mișcă • proporțional: poziția caretului mărit în "
-"regiunea de zoom este proporțional la fel cu poziția caretului sistemului pe "
-"ecran • împinge: când caretul mărit intersectează limita regiunii de zoom, "
-"conținutul este derulat în spațiul vizual"
+"Stabilește poziția cursorului de text în cadrul zonei de mărire. Valorile "
+"sunt: • « none » (niciunul): fără urmărire; • « centered » (centrat): "
+"imaginea cursorului de text este afișată în centrul zonei de mărire (care "
+"coincide cu poziția cursorului de text în sistem), iar conținutul mărit este "
+"deplasat pe măsură ce se mișcă cursorul de text; • « proportional » "
+"(proporțional): poziția cursorului de text în zona de mărire este "
+"proporțională cu poziția acestuia pe ecran; • « push » (împingere): atunci "
+"când cursorul de text atinge marginea zonei de mărire, o împinge pentru a "
+"mări ce este în afara ei."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:64
 msgid "Screen position"
-msgstr "Poziția ecranului"
+msgstr "Poziția pe ecran"
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:65
 msgid ""
 "The magnified view either fills the entire screen, or occupies the top-half, "
 "bottom-half, left-half, or right-half of the screen."
 msgstr ""
-"Vizualizarea mărită fie umple întregul ecran, sau ocupă jumătatea de sus, "
-"jumătatea de jos, jumătatea stângă sau jumătatea dreaptă a ecranului."
+"Zona de mărire fie umple întregul ecran, fie ocupă jumătatea de sus, "
+"jumătatea de jos, jumătatea din stânga sau jumătatea din dreapta a ecranului."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:73
 msgid "Magnification factor"
@@ -378,8 +394,8 @@ msgid ""
 "Whether the magnified view should be centered over the location of the "
 "system mouse and move with it."
 msgstr ""
-"Dacă vizualizarea mărită ar trebui să fie centrată deasupra locației "
-"mausului sistemului și să se miște o dată cu ea."
+"Dacă zona de mărire ar trebui să fie centrată deasupra locului indicatorului "
+"sistemului și să se miște o dată cu el."
 
 #: schemas/org.gnome.desktop.a11y.magnifier.gschema.xml.in:89
 msgid "Scroll magnified contents beyond the edges of the desktop"
