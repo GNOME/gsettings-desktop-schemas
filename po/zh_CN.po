@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2026-07-07 15:26+0000\n"
-"PO-Revision-Date: 2026-07-31 13:27+0800\n"
+"POT-Creation-Date: 2026-08-03 09:26+0000\n"
+"PO-Revision-Date: 2026-08-04 09:13+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1576,7 +1576,7 @@ msgid ""
 "Stop the user from modifying user accounts. By default, we allow adding and "
 "removing users, as well as changing other users settings."
 msgstr ""
-"阻止用户更改用户账号。默认情况下，我们允许添加和移除用户，也允许更改其它用户"
+"阻止用户更改用户账户。默认情况下，我们允许添加和移除用户，也允许更改其他用户"
 "设置。"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:76
@@ -1871,8 +1871,8 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:74
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:318
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:322
 msgid "Acceleration profile"
 msgstr "加速度曲线"
 
@@ -1893,7 +1893,7 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:79
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:312
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:316
 msgid "Pointer speed"
 msgstr "指针速度"
 
@@ -1929,13 +1929,13 @@ msgstr ""
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
 msgid "Emulate middle click"
 msgstr "模拟中键单击"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:151
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:306
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2035,17 +2035,17 @@ msgid "Distance before a drag is started."
 msgstr "触发拖动的最小距离。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:291
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "鼠标滚轮模拟按钮。 0 代表禁用该功能。"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
 msgid "Mouse wheel emulation button lock"
 msgstr "鼠标滚轮模拟按钮锁定"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:171
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:296
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2240,7 +2240,11 @@ msgstr ""
 "触摸屏映射到输出的 EDID 信息。格式必须是[厂商，产品，序列号]。[\"\",\"\","
 "\"\"]依赖于自动映射。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:301
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
+msgid "Whether the tablet’s orientation is locked, or rotated automatically."
+msgstr "数位板的方向是锁定的还是自动旋转的。"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid ""
 "Acceleration profile used for the trackball. The acceleration profile can be "
 "set to either default (“default”) which uses the default acceleration "
@@ -2254,7 +2258,7 @@ msgstr ""
 "于移动自适应加速的自适应（“adaptive”）。如果轨迹球不支持配置的配置文件，则将"
 "使用“default”。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:313
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:317
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2262,7 +2266,7 @@ msgstr ""
 "指点杆的指针速度。可接受的值在 [-1..1] 范围内（从 “不加速” 到 “快速”）。 0 是"
 "系统默认值。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:319
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:323
 msgid ""
 "Acceleration profile used for the pointing stick. The acceleration profile "
 "can be set to either default (“default”) which uses the default acceleration "
@@ -2276,11 +2280,11 @@ msgstr ""
 "于移动自适应加速的自适应（“adaptive”）。如果轨迹球不支持配置的配置文件，则将"
 "使用“default”。"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:323
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:327
 msgid "Scrolling method"
 msgstr "滚动方法"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:324
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:328
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
