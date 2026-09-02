@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schema"
 "s/issues/\n"
-"POT-Creation-Date: 2026-08-03 09:26+0000\n"
-"PO-Revision-Date: 2026-08-03 20:48+0300\n"
+"POT-Creation-Date: 2026-09-01 21:27+0000\n"
+"PO-Revision-Date: 2026-09-02 20:56+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -2059,38 +2059,92 @@ msgstr ""
 "«right» — для правої руки, «mouse» — відповідно до налаштувань миші."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:74
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:322
-msgid "Acceleration profile"
-msgstr "Профіль прискорення"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:394
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:457
+#| msgid "Acceleration profile"
+msgid "Pointer acceleration profile"
+msgstr "Профіль прискорення вказівника"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:395
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:458
+#| msgid ""
+#| "Acceleration profile used for connected mice. The acceleration profile "
+#| "can be set to either default (“default”) which uses the default "
+#| "acceleration profile for each device, flat (“flat”), which accelerates by "
+#| "a device specific constant factor derived from the configured pointer "
+#| "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
+#| "on the mouse movement. If a mouse doesn’t support the configured profile, "
+#| "“default” will be used."
 msgid ""
-"Acceleration profile used for connected touchpads. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device "
-"specific constant factor derived from the configured pointer speed, or "
-"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
-"movement. If a touchpad doesn’t support the configured profile, “default” "
-"will be used."
+"Acceleration profile used for the connected devices of this type's pointers. "
+"The pointer acceleration profile can be set to either: - default (“default”) "
+"which uses the default acceleration profile for each device. - flat "
+"(“flat”), which accelerates by a device specific constant factor derived "
+"from the configured pointer speed. - adaptive (“adaptive”) which adapts the "
+"acceleration depending on the mouse movement. - custom (\"custom\") which "
+"accelerates by a provided acceleration curve defined with `pointer-step` and "
+"`pointer-speeds` in `custom-accel-config`. If a device doesn’t support the "
+"configured profile, “default” will be used."
 msgstr ""
-"Профіль прискорення для з'єднаних із комп'ютером сенсорних панелей. Можна "
-"встановити для профілю прискорення типове значення («default»), тобто "
-"типовий профіль прискорення для кожного з пристроїв, плаский («flat»), коли "
-"прискорення відбувається зі сталим коефіцієнтом, який визначається для "
-"кожного пристрою на основі налаштованої швидкості руху вказівника, або "
-"адаптивним («adaptive»), коли прискорення адаптується до руху миші. Якщо для "
-"сенсорної панелі не передбачено підтримки налаштованого профілю, буде "
-"використано профіль «default»."
+"Профіль прискорення для з'єднаних із комп'ютером пристроїв із цим типом вказі"
+"вника. Можна встановити для "
+"профілю прискорення вказівника типове значення («default»), тобто типовий про"
+"філь "
+"прискорення для кожного з пристроїв, плаский («flat»), коли прискорення "
+"відбувається зі сталим коефіцієнтом, який визначається для кожного пристрою "
+"на основі налаштованої швидкості руху вказівника, або адаптивним "
+"(«adaptive»), коли прискорення адаптується до руху миші. - нетиповий («custom"
+"»), де прискорення відбувається на основі наданої кривої прискорення, визначе"
+"ної за допомогою `pointer-step` та"
+"`pointer-speeds` у `custom-accel-config`. Якщо у пристрої не передбачено підт"
+"римки налаштованого профілю, буде використано «default»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:79
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:316
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:419
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:482
+#| msgid "Automatic proxy configuration URL"
+msgid "Custom acceleration configuration"
+msgstr "Нетипові налаштування прискорення"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:420
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:483
+msgid ""
+"A dictionary storing custom device acceleration settings. Currently, valid "
+"entries are as follows: - `pointer-step` (d): The increment of an \"x axis\" "
+"of the pointer acceleration curve, the \"input\" pointer speed, in device "
+"units per millisecond. - `pointer-speeds` (ad): Every increment (N) of "
+"`pointer-step`, the Nth value is selected from this array as that point on "
+"the \"y axis\" of the pointer acceleration curve, the \"output\" pointer "
+"speed in device units per ms. Where input pointer speed doesn't lie on any "
+"single point in `pointer-step` and `pointer-speeds`, a linear interpolation "
+"of the two closest points will be calculated. Additional details can be "
+"found in libinput documentation (\"The custom acceleration profile\"). More "
+"entries may be added later."
+msgstr ""
+"Словник, що зберігає нетипові налаштування прискорення пристроїв. У поточній "
+"версії чинними є такі записи: - `pointer-step` (d): Приріст «осі x» кривої пр"
+"искорення вказівника, «вхідна» швидкість вказівника, в одиницях пристрою за м"
+"ілісекунду. - `pointer-speeds` (ad): Кожен приріст (N) `pointer-step`, буде в"
+"зяте N-те значення з цього масиву як точка на «осі y» кривої прискорення вказ"
+"івника, «вихідна» швидкість вказівника в одиницях пристрою за мілісекунду. Як"
+"що вхідна швидкість вказівника не лежить в жодній окремій точці `pointer-step"
+"` та `pointer-speeds`, буде розраховано лінійну інтерполяцію двох найближчих "
+"точок. Додаткові відомості можна знайти у документації до libinput («Нетипови"
+"й профіль прискорення»). Пізніше можуть бути додані додаткові записи."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:124
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:451
 msgid "Pointer speed"
 msgstr "Швидкість руху вказівника"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:80
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2099,22 +2153,22 @@ msgstr ""
 "діапазоні [-1..1] (від «без прискорення» до «швидко»). Типове значення "
 "системи - 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Natural scrolling"
 msgstr "Природне гортання"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:86
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Встановіть тут значення «TRUE», щоб увімкнути природне (обернене) гортання "
 "для сенсорних панелей."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
 msgid "Click method"
 msgstr "Метод клацання"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:91
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2124,15 +2178,15 @@ msgstr ""
 "певні області («areas»), або через кількість пальців («fingers»), або типове "
 "для пристрою («default»)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:444
 msgid "Emulate middle click"
 msgstr "Увімкнути клацання середньою кнопкою"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:151
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:445
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2140,35 +2194,35 @@ msgstr ""
 "Встановіть значення «true», щоб увімкнути клацання середньою кнопкою миші на "
 "допомогою одночасного клацання лівою і правою кнопками миші."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Keyboard repeat"
 msgstr "Клавіатурні повтори"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Позначте, щоб увімкнути повторні натискання клавіш на клавіатурі."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Key Repeat Interval"
 msgstr "Інтервал повторення клавіш"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Delay between repeats in milliseconds."
 msgstr "Затримка між повтореннями у мілісекундах."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Initial Key Repeat Delay"
 msgstr "Початкова затримка повторення клавіш"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Початкова затримка повторення клавіші у мілісекундах."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Remember NumLock state"
 msgstr "Запам'ятовувати стан NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2176,23 +2230,23 @@ msgstr ""
 "Якщо встановлено значення «true», GNOME запам'ятовуватиме стан перемикача "
 "NumLock між сеансами."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "NumLock state"
 msgstr "Стан NumLock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "The remembered state of the NumLock LED."
 msgstr "Запам'ятований стан індикатора NumLock."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:129
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Mouse button orientation"
 msgstr "Орієнтація кнопок миші"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Поміняти місцями ліву і праву кнопки для створення миші для шульги."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2200,57 +2254,38 @@ msgstr ""
 "Швидкість руху вказівника миші. Прийнятні значення знаходяться в діапазоні "
 "[-1..1] (від «без прискорення» до «швидко»). Типове значення системи - 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr "Позначте, щоб увімкнути зворотне (природне) гортання для миші."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
-msgid ""
-"Acceleration profile used for connected mice. The acceleration profile can "
-"be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device "
-"specific constant factor derived from the configured pointer speed, or "
-"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
-"movement. If a mouse doesn’t support the configured profile, “default” will "
-"be used."
-msgstr ""
-"Профіль прискорення для з'єднаних із комп'ютером мишей. Можна встановити для "
-"профілю прискорення типове значення («default»), тобто типовий профіль "
-"прискорення для кожного з пристроїв, плаский («flat»), коли прискорення "
-"відбувається зі сталим коефіцієнтом, який визначається для кожного пристрою "
-"на основі налаштованої швидкості руху вказівника, або адаптивним "
-"(«adaptive»), коли прискорення адаптується до руху миші. Якщо для миші не "
-"передбачено підтримки налаштованого профілю, буде використано профіль "
-"«default»."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid "Double click time"
 msgstr "Час подвійного клацання"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:156
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Length of a double click in milliseconds."
 msgstr "Тривалість подвійного клацання у мілісекундах."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
 msgid "Drag threshold"
 msgstr "Поріг перетягування"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:251
 msgid "Distance before a drag is started."
 msgstr "Відстань перед початком перетягування."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:385
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Кнопка емуляції коліщатка миші. 0 — вимкнути емуляцію."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:389
 msgid "Mouse wheel emulation button lock"
 msgstr "Блокування кнопкою емуляції коліщатка миші"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:171
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:390
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2260,11 +2295,11 @@ msgstr ""
 "блокування кнопкою для кнопки емуляції коліщатка миші. Якщо увімкнено, перше "
 "клацання кнопкою вмикає гортання, а друге клацання знову його вимикає."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:177
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid "Drawing tablet mapping"
 msgstr "Зіставлення графічного планшету"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:178
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:268
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2274,19 +2309,19 @@ msgstr ""
 "[виробник, продукт, серійний номер]. [\"\",\"\",\"\"] — автоматична "
 "прив'язка."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
 msgid "Tablet mapping"
 msgstr "Зіставлення планшета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:183
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "How input affects the pointer on the screen"
 msgstr "Як введення впливає на вказівник на екрані"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Tablet area"
 msgstr "Область планшета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:188
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2294,11 +2329,11 @@ msgstr ""
 "Відступи мертвої зони навколо активної області, у відсотках. Відповідно "
 "застосовуються для лівого, правого, верхнього та нижнього боків."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
 msgid "Tablet aspect ratio"
 msgstr "Співвідношення сторін планшета"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2306,32 +2341,32 @@ msgstr ""
 "Увімкніть це, щоб обмежити область планшета відповідно до співвідношення "
 "сторін виведення."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Tablet left-handed mode"
 msgstr "Планшет у режимі шульги"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:198
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Увімкніть це, щоб дозволити фізично обертати планшет для налаштувань під "
 "ліву руку"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Stylus pressure curve"
 msgstr "Крива натиску стила"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для стилуса."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:209
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
 msgid "Stylus pressure range"
 msgstr "Діапазон натиску стила"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2339,32 +2374,32 @@ msgstr ""
 "Встановіть значення частки діапазону фізичного тиску, яку слід відобразити "
 "на логічний діапазон."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
 msgid "Eraser pressure curve"
 msgstr "Крива натиску гумки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для гумки."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
 msgid "Eraser pressure range"
 msgstr "Діапазон натиску гумки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:224
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:314
 msgid "Eraser button mode"
 msgstr "Режим кнопки гумки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:315
 msgid "Set this to change the behavior of the eraser button."
 msgstr "Встановіть, щоб змінити поведінку кнопки гумки."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:229
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:319
 msgid "Eraser button action"
 msgstr "Дія кнопки гумки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:320
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
@@ -2372,15 +2407,15 @@ msgstr ""
 "Встановіть значення дії у відповідь на натискання кнопки, якщо кнопка гумки "
 "перебуває у режимі «button»."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:234
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:324
 msgid "Key combination for the eraser button if in 'button' mode"
 msgstr "Комбінація клавіш для кнопки гумки у режимі «button»"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:325
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:345
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:350
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:355
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:367
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2388,19 +2423,19 @@ msgstr ""
 "Клавіатурне скорочення було породжено, коли клавішу натиснуто для власної "
 "дії.   "
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:239
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:329
 msgid "Button action"
 msgstr "Дія кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:330
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "Дія натискання кнопки, ця кнопка розташована уздовж тримача пера."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:334
 msgid "Secondary button action"
 msgstr "Дія вторинної кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:335
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2410,11 +2445,11 @@ msgstr ""
 "деяких стилах на кшталт Grip Pen. Інші стила на зразок Airbrush Pen або "
 "Inking Pen, мають лише одну кнопку, це налаштування для них не працює."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:339
 msgid "Tertiary button action"
 msgstr "Дія третьої кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:340
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2424,35 +2459,35 @@ msgstr ""
 "деяких стилах на кшталт 3D Pen. Інші стила на зразок Grip Pen, мають лише "
 "дві кнопки, це налаштування для них не працює."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:344
 msgid "Key combination for the primary button"
 msgstr "Комбінація клавіш для основної кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:349
 msgid "Key combination for the secondary button"
 msgstr "Комбінація клавіш для другої кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:264
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:354
 msgid "Key combination for the tertiary button"
 msgstr "Комбінація клавіш для третинної кнопки"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:271
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:361
 msgid "Pad button action type"
 msgstr "Тип дії кнопки панелі"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:362
 msgid "The type of action triggered by the button being pressed."
 msgstr "Тип дій викликаних кнопками, натискаючи їх."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:276
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:366
 msgid "Key combination for the custom action"
 msgstr "Комбінація клавіш для власних дій"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:373
 msgid "Touchscreen output mapping"
 msgstr "Прив'язка виведення даних сенсорного екрана"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:374
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2462,30 +2497,13 @@ msgstr ""
 "форматі [виробник, продукт, серійний номер]. [\"\",\"\",\"\"] — автоматична "
 "прив'язка."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:378
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
-"Чи орієнтацію планшетів заблоковано, чи поворот здійснюватиметься автоматично"
-"."
+"Чи орієнтацію планшетів заблоковано, чи поворот здійснюватиметься "
+"автоматично."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
-msgid ""
-"Acceleration profile used for the trackball. The acceleration profile can be "
-"set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive (“adaptive”) which "
-"adapts the acceleration depending on the movement. If the trackball doesn’t "
-"support the configured profile, “default” will be used."
-msgstr ""
-"Профіль прискорення для кульового маніпулятора (трекбола). Можна встановити "
-"для профілю прискорення типове значення («default»), тобто типовий профіль "
-"прискорення для пристрою, плаский («flat»), коли прискорення відбувається зі "
-"сталим коефіцієнтом, який визначається для кожного пристрою на основі "
-"налаштованої швидкості руху, або адаптивним («adaptive»), коли прискорення "
-"адаптується до руху. Якщо для кульового маніпулятора не передбачено "
-"підтримки налаштованого профілю, буде використано профіль «default»."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:317
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:452
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2493,28 +2511,11 @@ msgstr ""
 "Швидкість руху для джойстиків. Прийнятні значення знаходяться в діапазоні "
 "[-1..1] (від «без прискорення» до «швидко»). Типове значення системи - 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:323
-msgid ""
-"Acceleration profile used for the pointing stick. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive (“adaptive”) which "
-"adapts the acceleration depending on the movement. If the pointing stick "
-"doesn’t support the configured profile, “default” will be used."
-msgstr ""
-"Профіль прискорення для джойстика. Можна встановити для профілю прискорення "
-"типове значення («default»), тобто типовий профіль прискорення для пристрою, "
-"плаский («flat»), коли прискорення відбувається зі сталим коефіцієнтом, який "
-"визначається для кожного пристрою на основі налаштованої швидкості руху, або "
-"адаптивним («adaptive»), коли прискорення адаптується до руху. Якщо для "
-"джойстика не передбачено підтримки налаштованого профілю, буде використано "
-"профіль «default»."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:327
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:507
 msgid "Scrolling method"
 msgstr "Спосіб гортання"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:328
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:508
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -4008,6 +4009,58 @@ msgid ""
 msgstr ""
 "Порт на машині, визначений у “/system/proxy/socks/host”, що ви "
 "використовуєте як проксі."
+
+#~ msgid ""
+#~ "Acceleration profile used for connected touchpads. The acceleration "
+#~ "profile can be set to either default (“default”) which uses the default "
+#~ "acceleration profile for each device, flat (“flat”), which accelerates by "
+#~ "a device specific constant factor derived from the configured pointer "
+#~ "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
+#~ "on the mouse movement. If a touchpad doesn’t support the configured "
+#~ "profile, “default” will be used."
+#~ msgstr ""
+#~ "Профіль прискорення для з'єднаних із комп'ютером сенсорних панелей. Можна "
+#~ "встановити для профілю прискорення типове значення («default»), тобто "
+#~ "типовий профіль прискорення для кожного з пристроїв, плаский («flat»), "
+#~ "коли прискорення відбувається зі сталим коефіцієнтом, який визначається "
+#~ "для кожного пристрою на основі налаштованої швидкості руху вказівника, "
+#~ "або адаптивним («adaptive»), коли прискорення адаптується до руху миші. "
+#~ "Якщо для сенсорної панелі не передбачено підтримки налаштованого профілю, "
+#~ "буде використано профіль «default»."
+
+#~ msgid ""
+#~ "Acceleration profile used for the trackball. The acceleration profile can "
+#~ "be set to either default (“default”) which uses the default acceleration "
+#~ "profile, flat (“flat”), which accelerates by a device specific constant "
+#~ "factor derived from the configured speed, or adaptive (“adaptive”) which "
+#~ "adapts the acceleration depending on the movement. If the trackball "
+#~ "doesn’t support the configured profile, “default” will be used."
+#~ msgstr ""
+#~ "Профіль прискорення для кульового маніпулятора (трекбола). Можна "
+#~ "встановити для профілю прискорення типове значення («default»), тобто "
+#~ "типовий профіль прискорення для пристрою, плаский («flat»), коли "
+#~ "прискорення відбувається зі сталим коефіцієнтом, який визначається для "
+#~ "кожного пристрою на основі налаштованої швидкості руху, або адаптивним "
+#~ "(«adaptive»), коли прискорення адаптується до руху. Якщо для кульового "
+#~ "маніпулятора не передбачено підтримки налаштованого профілю, буде "
+#~ "використано профіль «default»."
+
+#~ msgid ""
+#~ "Acceleration profile used for the pointing stick. The acceleration "
+#~ "profile can be set to either default (“default”) which uses the default "
+#~ "acceleration profile, flat (“flat”), which accelerates by a device "
+#~ "specific constant factor derived from the configured speed, or adaptive "
+#~ "(“adaptive”) which adapts the acceleration depending on the movement. If "
+#~ "the pointing stick doesn’t support the configured profile, “default” will "
+#~ "be used."
+#~ msgstr ""
+#~ "Профіль прискорення для джойстика. Можна встановити для профілю "
+#~ "прискорення типове значення («default»), тобто типовий профіль "
+#~ "прискорення для пристрою, плаский («flat»), коли прискорення відбувається "
+#~ "зі сталим коефіцієнтом, який визначається для кожного пристрою на основі "
+#~ "налаштованої швидкості руху, або адаптивним («adaptive»), коли "
+#~ "прискорення адаптується до руху. Якщо для джойстика не передбачено "
+#~ "підтримки налаштованого профілю, буде використано профіль «default»."
 
 #~ msgid "'12h'"
 #~ msgstr "'24h'"
