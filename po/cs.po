@@ -2,16 +2,16 @@
 # Copyright (C) 2011 gsettings-desktop-schemas's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gsettings-desktop-schemas package.
 # Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
-# Patrik Sivek <sivekpatrik@gmail.com>, 2026.
+# Patrik Sivek <patriksivek@gnome.org>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2026-08-03 09:26+0000\n"
-"PO-Revision-Date: 2026-08-05 21:09+0200\n"
-"Last-Translator: Patrik Sivek <sivekpatrik@gmail.com>\n"
+"POT-Creation-Date: 2026-09-01 21:27+0000\n"
+"PO-Revision-Date: 2026-09-03 13:51+0200\n"
+"Last-Translator: Patrik Sivek <patriksivek@gnome.org>\n"
 "Language-Team: Czech\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -2030,36 +2030,79 @@ msgstr ""
 "„right“ pro praváky a „mouse“ se řídí podle nastavení u myši."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:74
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:322
-msgid "Acceleration profile"
-msgstr "Profil zrychlení"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:394
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:457
+msgid "Pointer acceleration profile"
+msgstr "Profil zrychlení ukazatele"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:395
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:458
 msgid ""
-"Acceleration profile used for connected touchpads. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device "
-"specific constant factor derived from the configured pointer speed, or "
-"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
-"movement. If a touchpad doesn’t support the configured profile, “default” "
-"will be used."
+"Acceleration profile used for the connected devices of this type's pointers. "
+"The pointer acceleration profile can be set to either: - default (“default”) "
+"which uses the default acceleration profile for each device. - flat "
+"(“flat”), which accelerates by a device specific constant factor derived "
+"from the configured pointer speed. - adaptive (“adaptive”) which adapts the "
+"acceleration depending on the mouse movement. - custom (\"custom\") which "
+"accelerates by a provided acceleration curve defined with `pointer-step` and "
+"`pointer-speeds` in `custom-accel-config`. If a device doesn’t support the "
+"configured profile, “default” will be used."
 msgstr ""
-"Profil zrychlení používaný pro připojené touchpady. Profil zrychlení může "
-"být nastaven buď na výchozí („default“), kdy se použije výchozí profil pro "
-"jednotlivá zařízení, stejnoměrný („flat“), kdy se zrychluje konstantním "
-"faktorem odvozeným pro jednotlivá zařízení z nastavené rychlosti ukazatele, "
-"nebo adaptivní („adaptive“), kdy se zrychlení přizpůsobuje podle pohybů. "
-"Pokud touchpad nastavený profil nepodporuje, použije se výchozí."
+"Profil zrychlení ukazatele používaný pro zařízení tohoto typu. Profil "
+"zrychlení ukazatele může být nastaven na: - výchozí („default“), kdy se "
+"použije výchozí profil pro jednotlivá zařízení. - stejnoměrný („flat“), kdy "
+"se zrychluje konstantním faktorem odvozeným pro jednotlivá zařízení z "
+"nastavené rychlosti ukazatele. - adaptivní („adaptive“), kdy se zrychlení "
+"přizpůsobuje podle pohybů myši. - vlastní („custom“), kdy se zrychluje podle "
+"poskytnuté křivky zrychlení, která je definována „pointer-step“ a „pointer-"
+"speeds“ v „custom-accel-config“. Pokud dané zařízení nastavený profil "
+"nepodporuje, použije se výchozí („default“)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:79
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:316
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:419
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:482
+msgid "Custom acceleration configuration"
+msgstr "Vlastní nastavení zrychlení"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:420
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:483
+msgid ""
+"A dictionary storing custom device acceleration settings. Currently, valid "
+"entries are as follows: - `pointer-step` (d): The increment of an \"x axis\" "
+"of the pointer acceleration curve, the \"input\" pointer speed, in device "
+"units per millisecond. - `pointer-speeds` (ad): Every increment (N) of "
+"`pointer-step`, the Nth value is selected from this array as that point on "
+"the \"y axis\" of the pointer acceleration curve, the \"output\" pointer "
+"speed in device units per ms. Where input pointer speed doesn't lie on any "
+"single point in `pointer-step` and `pointer-speeds`, a linear interpolation "
+"of the two closest points will be calculated. Additional details can be "
+"found in libinput documentation (\"The custom acceleration profile\"). More "
+"entries may be added later."
+msgstr ""
+"Slovník obsahují vlastní nastavení zrychlení zařízení. Podporované záznamy "
+"jsou: - `pointer-step` (d): přírůstek osy X křivky zrychlení ukazatele, "
+"„vstupní“ rychlost ukazatele v jednotkách zařízení za milisekundu. - "
+"`pointer-speeds` (ad): každý přírůstek (N) `pointer-step`, n-tá hodnota je "
+"vybrána z tohoto seznamu jako bod na ose Y křivky zrychlení ukazatele, "
+"„výstupní“ rychlost ukazatele v jednotkách zařízení za milisekundu. Když "
+"vstupní rychlost ukazatele neleží na žádném bodu v `pointer-step` a `pointer-"
+"speeds`, vypočítá se lineární interpolace dvou nejbližších bodů. Více "
+"informací naleznete v příručce libinput („The custom acceleration profile“). "
+"Další záznamy mohou být přidány později."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:124
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:451
 msgid "Pointer speed"
 msgstr "Rychlost ukazatele"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:80
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2067,22 +2110,22 @@ msgstr ""
 "Rychlost ukazatele touchpadu. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Natural scrolling"
 msgstr "Přirozené posouvání"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:86
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Když je nastaveno na ZAPNUTO, bude posuv pomocí touchpadu fungovat v "
 "přirozeném (obráceném) směru."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
 msgid "Click method"
 msgstr "Metoda klikání"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:91
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2092,15 +2135,15 @@ msgstr ""
 "přes určené oblasti („areas“), dané počtem prstů („fingers“) nebo ponecháno "
 "na výchozím nastavení hardwaru („default“)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:444
 msgid "Emulate middle click"
 msgstr "Emulovat kliknutí prostředním tlačítkem"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:151
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:445
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2108,37 +2151,37 @@ msgstr ""
 "Když je zapnuto, bude souběžné zmáčknutí levého a pravého tlačítka myši "
 "bráno jako zmáčknutí prostředního tlačítka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Keyboard repeat"
 msgstr "Opakování klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Nastavte na ZAPNUTO, pokud má klávesnice opakovat zmáčknutí kláves."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Key Repeat Interval"
 msgstr "Četnost opakování klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Delay between repeats in milliseconds."
 msgstr "Prodleva mezi opakováním zmáčknutí kláves, v milisekundách"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Initial Key Repeat Delay"
 msgstr "Počáteční prodleva opakování klávesnice"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Initial key repeat delay in milliseconds."
 msgstr ""
 "Počáteční zpoždění v milisekundách, než začně klávesnice opakovat zmáčknutí "
 "kláves."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Remember NumLock state"
 msgstr "Pamatovat si stav Num Lock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2146,23 +2189,23 @@ msgstr ""
 "Když je zapnuto, bude si GNOME pamatovat stav kontrolky Num Lock napříč "
 "sezeními."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "NumLock state"
 msgstr "Stav Num Lock"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "The remembered state of the NumLock LED."
 msgstr "Zapamatovaný stav kontrolky Num Lock."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:129
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Mouse button orientation"
 msgstr "Uspořádání tlačítek myši"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "Prohodit levé a pravé tlačítko myši, určeno pro leváky."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2170,57 +2213,40 @@ msgstr ""
 "Rychlost ukazatele myší. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Když je nastaveno na ZAPNUTO, bude posuv pomocí myši fungovat v přirozeném "
 "(obráceném) směru."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
-msgid ""
-"Acceleration profile used for connected mice. The acceleration profile can "
-"be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device "
-"specific constant factor derived from the configured pointer speed, or "
-"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
-"movement. If a mouse doesn’t support the configured profile, “default” will "
-"be used."
-msgstr ""
-"Profil zrychlení používaný pro připojené myši. Profil zrychlení může být "
-"nastaven buď na výchozí („default“), kdy se použije výchozí profil pro "
-"jednotlivá zařízení, stejnoměrný („flat“), kdy se zrychluje konstantním "
-"faktorem odvozeným pro jednotlivá zařízení z nastavené rychlosti ukazatele, "
-"nebo adaptivní („adaptive“), kdy se zrychlení přizpůsobuje podle pohybů "
-"myši. Pokud myš nastavený profil nepodporuje, použije se výchozí."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid "Double click time"
 msgstr "Čas dvojitého kliknutí"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:156
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Length of a double click in milliseconds."
 msgstr "Délka dvojitého kliknutí, v milisekundách"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
 msgid "Drag threshold"
 msgstr "Práh pro přetahování"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:251
 msgid "Distance before a drag is started."
 msgstr "Vzdálenost, která spustí funkci „táhni“"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:385
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Tlačítko emulace kolečka myši. 0 tuto funkci vypne."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:389
 msgid "Mouse wheel emulation button lock"
 msgstr "Zamykání emulace kolečka myši tlačítkem"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:171
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:390
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2229,11 +2255,11 @@ msgstr ""
 "Nastavením na ZAPNUTO povolíte zamykání tlačítkem pro emulaci kolečka myši. "
 "Když je povoleno, první kliknutí tlačítka zapne posuv, druhé jej zase vypne."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:177
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid "Drawing tablet mapping"
 msgstr "Mapování kreslícího tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:178
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:268
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2243,19 +2269,19 @@ msgstr ""
 "[výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] ponechá mapování na "
 "automatice."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
 msgid "Tablet mapping"
 msgstr "Mapování tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:183
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "How input affects the pointer on the screen"
 msgstr "Jak vstup ovlivňuje ukazatel na obrazovce"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Tablet area"
 msgstr "Oblast tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:188
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2263,11 +2289,11 @@ msgstr ""
 "Mrtvá oblast obklopující aktivní oblast, v procentech. Jednotlivě se použije "
 "na levou, pravou, horní a dolní stranu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
 msgid "Tablet aspect ratio"
 msgstr "Poměr stran tabletu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2275,32 +2301,32 @@ msgstr ""
 "Zapněte, když chcete omezit oblast tabletu tak, aby odpovídal poměru stran "
 "výstupu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Tablet left-handed mode"
 msgstr "Režim tabletu pro leváky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:198
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Zapněte, když chcete umožnit fyzické otočení tabletu, aby šel nastavit pro "
 "leváky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Stylus pressure curve"
 msgstr "Přítlaková křivka stylusu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Nastavte na x1, y1 a x2, y2 přítlakové křivky použité na stylus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:209
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
 msgid "Stylus pressure range"
 msgstr "Rozsah přítlaku stylusu"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2308,32 +2334,32 @@ msgstr ""
 "Toto nastavte na procento rozsahu fyzického tlaku, které by se mělo mapovat "
 "do logického rozsahu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
 msgid "Eraser pressure curve"
 msgstr "Přítlaková křivka gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Nastavte na x1, y1 a x2, y2 přítlakové křivky použité na gumu."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
 msgid "Eraser pressure range"
 msgstr "Rozsah přítlaku gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:224
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:314
 msgid "Eraser button mode"
 msgstr "Režim tlačítka gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:315
 msgid "Set this to change the behavior of the eraser button."
 msgstr "Nastavte pro změnu chování tlačítka gumy."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:229
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:319
 msgid "Eraser button action"
 msgstr "Činnost tlačítka gumy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:320
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
@@ -2341,15 +2367,15 @@ msgstr ""
 "Nastavte na činnost tlačítka, která se spustí, pokud je tlačítko gumy v "
 "režimu „tlačítko“."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:234
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:324
 msgid "Key combination for the eraser button if in 'button' mode"
 msgstr "Kombinace kláves pro tlačítko gumy v režimu „tlačítko“"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:325
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:345
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:350
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:355
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:367
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2357,20 +2383,20 @@ msgstr ""
 "Klávesová zkratka vygenerovaná, když je tlačítko zmáčknuto pro vlastní "
 "činnost."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:239
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:329
 msgid "Button action"
 msgstr "Činnost tlačítka"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:330
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Činnost tlačítka stylusu. Toto tlačítko se nachází v místě úchopu pera."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:334
 msgid "Secondary button action"
 msgstr "Činnost druhého tlačítka"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:335
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2381,11 +2407,11 @@ msgstr ""
 "Airbrush Pen nebo Inking Pen mají jen jedno tlačítko, a v tom případě nemá "
 "toto nastavení žádný význam."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:339
 msgid "Tertiary button action"
 msgstr "Činnost třetího tlačítka"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:340
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2396,35 +2422,35 @@ msgstr ""
 "Pen nebo Inking Pen mají jen jedno tlačítko, a v tom případě nemá toto "
 "nastavení žádný význam."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:344
 msgid "Key combination for the primary button"
 msgstr "Kombinace kláves pro hlavní tlačítko"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:349
 msgid "Key combination for the secondary button"
 msgstr "Kombinace kláves pro vedlejší tlačítko"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:264
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:354
 msgid "Key combination for the tertiary button"
 msgstr "Kombinace kláves pro třetí tlačítko"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:271
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:361
 msgid "Pad button action type"
 msgstr "Typ činnosti tlačítka plochy"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:362
 msgid "The type of action triggered by the button being pressed."
 msgstr "Typ činnosti spuštěné zmáčknutím tlačítka."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:276
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:366
 msgid "Key combination for the custom action"
 msgstr "Kombinace kláves pro vlastní činnost"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:373
 msgid "Touchscreen output mapping"
 msgstr "Mapování výstupu dotykové obrazovky"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:374
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2434,27 +2460,11 @@ msgstr ""
 "ve formátu [výrobce, produkt, sériové číslo]. [\"\",\"\",\"\"] ponechá "
 "mapování na automatice vypne."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:378
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "Zda je orientace tabletu zamčena nebo se má otáčet automaticky."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
-msgid ""
-"Acceleration profile used for the trackball. The acceleration profile can be "
-"set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive (“adaptive”) which "
-"adapts the acceleration depending on the movement. If the trackball doesn’t "
-"support the configured profile, “default” will be used."
-msgstr ""
-"Profil zrychlení používaný pro trackball. Profil zrychlení může být nastaven "
-"buď na výchozí („default“), kdy se použije výchozí profil zrychlení, "
-"stejnoměrný („flat“), kdy se zrychluje konstantním faktorem odvozeným pro "
-"jednotlivá zařízení z nastavené rychlosti, nebo adaptivní („adaptive“), kdy "
-"se zrychlení přizpůsobuje podle pohybů. Pokud trackball nastavený profil "
-"nepodporuje, použije se výchozí."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:317
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:452
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2462,27 +2472,11 @@ msgstr ""
 "Rychlost ukazatele trackpoint. Platné hodnoty jsou v rozsahu [-1‥1] (od „bez "
 "zrychlení“ po „nejrychlejší“). Hodnota 0 je brána jako systémová výchozí."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:323
-msgid ""
-"Acceleration profile used for the pointing stick. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive (“adaptive”) which "
-"adapts the acceleration depending on the movement. If the pointing stick "
-"doesn’t support the configured profile, “default” will be used."
-msgstr ""
-"Profil zrychlení používaný pro trackpoint. Profil zrychlení může být "
-"nastaven buď na výchozí („default“), kdy se použije výchozí profil "
-"zrychlení, stejnoměrný („flat“), kdy se zrychluje konstantním faktorem "
-"odvozeným pro jednotlivá zařízení z nastavené rychlosti, nebo adaptivní "
-"(„adaptive“), kdy se zrychlení přizpůsobuje podle pohybů. Pokud "
-"tracktracpoint nastavený profil nepodporuje, použije se výchozí."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:327
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:507
 msgid "Scrolling method"
 msgstr "Metoda posouvání"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:328
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:508
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -3950,6 +3944,54 @@ msgid ""
 msgstr ""
 "Port na počítači poskytujícím proxy a definovaném v klíči „/system/proxy/"
 "socks/host“."
+
+#~ msgid ""
+#~ "Acceleration profile used for connected touchpads. The acceleration "
+#~ "profile can be set to either default (“default”) which uses the default "
+#~ "acceleration profile for each device, flat (“flat”), which accelerates by "
+#~ "a device specific constant factor derived from the configured pointer "
+#~ "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
+#~ "on the mouse movement. If a touchpad doesn’t support the configured "
+#~ "profile, “default” will be used."
+#~ msgstr ""
+#~ "Profil zrychlení používaný pro připojené touchpady. Profil zrychlení může "
+#~ "být nastaven buď na výchozí („default“), kdy se použije výchozí profil "
+#~ "pro jednotlivá zařízení, stejnoměrný („flat“), kdy se zrychluje "
+#~ "konstantním faktorem odvozeným pro jednotlivá zařízení z nastavené "
+#~ "rychlosti ukazatele, nebo adaptivní („adaptive“), kdy se zrychlení "
+#~ "přizpůsobuje podle pohybů. Pokud touchpad nastavený profil nepodporuje, "
+#~ "použije se výchozí."
+
+#~ msgid ""
+#~ "Acceleration profile used for the trackball. The acceleration profile can "
+#~ "be set to either default (“default”) which uses the default acceleration "
+#~ "profile, flat (“flat”), which accelerates by a device specific constant "
+#~ "factor derived from the configured speed, or adaptive (“adaptive”) which "
+#~ "adapts the acceleration depending on the movement. If the trackball "
+#~ "doesn’t support the configured profile, “default” will be used."
+#~ msgstr ""
+#~ "Profil zrychlení používaný pro trackball. Profil zrychlení může být "
+#~ "nastaven buď na výchozí („default“), kdy se použije výchozí profil "
+#~ "zrychlení, stejnoměrný („flat“), kdy se zrychluje konstantním faktorem "
+#~ "odvozeným pro jednotlivá zařízení z nastavené rychlosti, nebo adaptivní "
+#~ "(„adaptive“), kdy se zrychlení přizpůsobuje podle pohybů. Pokud trackball "
+#~ "nastavený profil nepodporuje, použije se výchozí."
+
+#~ msgid ""
+#~ "Acceleration profile used for the pointing stick. The acceleration "
+#~ "profile can be set to either default (“default”) which uses the default "
+#~ "acceleration profile, flat (“flat”), which accelerates by a device "
+#~ "specific constant factor derived from the configured speed, or adaptive "
+#~ "(“adaptive”) which adapts the acceleration depending on the movement. If "
+#~ "the pointing stick doesn’t support the configured profile, “default” will "
+#~ "be used."
+#~ msgstr ""
+#~ "Profil zrychlení používaný pro trackpoint. Profil zrychlení může být "
+#~ "nastaven buď na výchozí („default“), kdy se použije výchozí profil "
+#~ "zrychlení, stejnoměrný („flat“), kdy se zrychluje konstantním faktorem "
+#~ "odvozeným pro jednotlivá zařízení z nastavené rychlosti, nebo adaptivní "
+#~ "(„adaptive“), kdy se zrychlení přizpůsobuje podle pohybů. Pokud "
+#~ "tracktracpoint nastavený profil nepodporuje, použije se výchozí."
 
 #~ msgid "'12h'"
 #~ msgstr "'24h'"
