@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas/"
 "issues/\n"
-"POT-Creation-Date: 2026-08-03 09:26+0000\n"
-"PO-Revision-Date: 2026-08-12 13:46-0400\n"
+"POT-Creation-Date: 2026-09-01 21:27+0000\n"
+"PO-Revision-Date: 2026-09-06 13:19-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
@@ -1997,35 +1997,51 @@ msgstr ""
 "(ئوڭ) قىممەتنى تەڭشەيدۇ، «mouse» (چاشقىنەك) چاشقىنەك تەڭشىكىگە ئەگىشىدۇ."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:74
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:322
-msgid "Acceleration profile"
-msgstr "تېزلىتىش سەپلىمە ھۆججىتى"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:394
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:457
+msgid "Pointer acceleration profile"
+msgstr "نىشانلىغۇچ تېزلىتىش سەپلىمە ھۆججىتى"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:395
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:458
 msgid ""
-"Acceleration profile used for connected touchpads. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device specific "
-"constant factor derived from the configured pointer speed, or adaptive "
-"(“adaptive”) which adapts the acceleration depending on the mouse movement. If "
-"a touchpad doesn’t support the configured profile, “default” will be used."
+"Acceleration profile used for the connected devices of this type's pointers. "
+"The pointer acceleration profile can be set to either: - default (“default”) "
+"which uses the default acceleration profile for each device. - flat (“flat”), "
+"which accelerates by a device specific constant factor derived from the "
+"configured pointer speed. - adaptive (“adaptive”) which adapts the "
+"acceleration depending on the mouse movement. - custom (\"custom\") which "
+"accelerates by a provided acceleration curve defined with `pointer-step` and "
+"`pointer-speeds` in `custom-accel-config`. If a device doesn’t support the "
+"configured profile, “default” will be used."
 msgstr ""
-"باغلانغان سەزگۈر تاختىغا ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. تېزلىتىش "
-"سەپلىمە ھۆججىتى ھەر بىر ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە ھۆججىتىنىڭ "
-"كۆڭۈلدىكى («default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن نىشانلىغۇچ سۈرئىتىدىن "
-"ئېرىشكەن ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن تەكشىلىك(«flat») ياكى چاشقىنەك "
-"يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش («adaptive»). ئەگەر سەزگۈر تاختا "
-"سەپلەنگەن سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى كۆڭۈلدىكى ئىشلىتىلىدۇ."
+"بۇ خىلدىكى نىشانلىغۇچنىڭ باغلانغان ئۈسكۈنىگە ئىشلىتىدىغان تېزلىتىش سەپلىمە "
+"ھۆججىتى. تېزلىتىش سەپلىمە ھۆججىتى ھەر بىر ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش "
+"سەپلىمە ھۆججىتىنىڭ كۆڭۈلدىكى («default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن "
+"نىشانلىغۇچ سۈرئىتىدىن ئېرىشكەن ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن "
+"تەكشىلىك(«flat») ياكى چاشقىنەك يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش "
+"(«adaptive»). - ئىختىيارى («custom»)، ئۇ «custom-accel-config» دىكى «pointer-"
+"step» نىشانلىغۇچ قەدىمى ۋە «pointer-speeds» نىشانلىغۇچ سۈرئىتىدە ئېنىقلىما "
+"بېرىلگەن تېزلىتىش ئەگرى سىزىقى بويىچە تېزلىتىدۇ. ئەگەر چاشقىنەك سەپلەنگەن "
+"سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى كۆڭۈلدىكى ئىشلىتىلىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:79
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:316
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:419
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:482
+msgid "Custom acceleration configuration"
+msgstr "ئىختىيارى تېزلىتىش سەپلىمىسى"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:124
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:451
 msgid "Pointer speed"
 msgstr "نىشانلىغۇچ سۈرئىتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:80
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2033,22 +2049,22 @@ msgstr ""
 "سەزگۈر تاختىنىڭ نىشانلىغۇچ سۈرئىتى. قوبۇل قىلالايدىغان قىممەت دائىرىسى (-1..1) "
 "ئىچىدە، («تېزلەتمىگەن» دىن «تېز» غىچە). سىستېمىنىڭ كۆڭۈلدىكى قىممىتى 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Natural scrolling"
 msgstr "تەبىئىي سىيرىلىش"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:86
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "بۇ TRUE (راست) بولسا بارلىق سەزگۈر تاختىلارغا تەبىئىي (ئەكسىچە) سىيرىلىش "
 "قوزغىتىلىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
 msgid "Click method"
 msgstr "چېكىلىش ئۇسۇلى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:91
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2058,15 +2074,15 @@ msgstr ""
 "بەلگىلەنگەن دائىرە («areas»)، بارماق سانى («fingers») ياكى قاتتىق دېتال "
 "كۆڭۈلدىكى قىممىتى («default»)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:444
 msgid "Emulate middle click"
 msgstr "ئوتتۇرا چېكىشنى تەقلىدلە"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:151
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:445
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2074,35 +2090,35 @@ msgstr ""
 "بۇ TRUE يەنى راستقا تەڭشەلسە، بىرلا ۋاقىتتا ئوڭ ۋە سول توپچە چېكىلسە ئوتتۇرا "
 "چېكىلىشنى قوزغىتىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Keyboard repeat"
 msgstr "ھەرپتاختا تەكرارلاش"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "بۇ TRUE يەنى راستقا تەڭشەلسە، ھەرپتاختا تەكرارلاشنى قوزغىتىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Key Repeat Interval"
 msgstr "كۇنۇپكا تەكرارلاش ئارىلىقى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Delay between repeats in milliseconds."
 msgstr "تەكرارلاش ئارىسىدىكى كېچىكتۈرۈش ئارىلىقى بىرلىكى مىللىسېكۇنت."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Initial Key Repeat Delay"
 msgstr "دەسلەپكى كۇنۇپكا تەكرارلاشنى كېچىكتۈرۈش ئارىلىقى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Initial key repeat delay in milliseconds."
 msgstr "دەسلەپكى كۇنۇپكا تەكرارلاشنى كېچىكتۈرۈش ئارىلىقى بىرلىكى مىللىسېكۇنت."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Remember NumLock state"
 msgstr "NumLock ھالىتىنى ئەستە تۇت"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2110,23 +2126,23 @@ msgstr ""
 "ئەگەر true تەڭشەلسە، GNOME ئوخشاش بولمىغان جەريانچاقلەر ئارىسىدا NumLock "
 "چىرىغىنىڭ ھالىتىنى ئەستە تۇتىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "NumLock state"
 msgstr "NumLock ھالىتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "The remembered state of the NumLock LED."
 msgstr "NumLock چىرىغىنىڭ ھالىتىنى ئەستە تۇتىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:129
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Mouse button orientation"
 msgstr "چاشقىنەك توپچە يۆنىلىشى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr "سولخاي چاشقىنەككە ئوڭ سول توپچىنى ئالماشتۇرىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2134,56 +2150,40 @@ msgstr ""
 "چاشقىنەكنىڭ نىشانلىغۇچ سۈرئىتى. قوبۇل قىلالايدىغان قىممەت دائىرىسى (-1..1) "
 "ئىچىدە، («تېزلەتمىگەن» دىن «تېز» غىچە). سىستېمىنىڭ كۆڭۈلدىكى قىممىتى 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "بۇ TRUE يەنى راستقا تەڭشەلسە چاشقىنەككە تەبىئىي (ئەكسىچە) سىيرىلىش قوزغىتىلىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
-msgid ""
-"Acceleration profile used for connected mice. The acceleration profile can be "
-"set to either default (“default”) which uses the default acceleration profile "
-"for each device, flat (“flat”), which accelerates by a device specific "
-"constant factor derived from the configured pointer speed, or adaptive "
-"(“adaptive”) which adapts the acceleration depending on the mouse movement. If "
-"a mouse doesn’t support the configured profile, “default” will be used."
-msgstr ""
-"باغلانغان چاشقىنەككە ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. تېزلىتىش سەپلىمە "
-"ھۆججىتى ھەر بىر ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە ھۆججىتىنىڭ كۆڭۈلدىكى "
-"(«default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن نىشانلىغۇچ سۈرئىتىدىن ئېرىشكەن "
-"ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن تەكشىلىك(«flat») ياكى چاشقىنەك يۆتكىلىشى "
-"ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش («adaptive»). ئەگەر چاشقىنەك سەپلەنگەن "
-"سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى كۆڭۈلدىكى ئىشلىتىلىدۇ."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid "Double click time"
 msgstr "قوش چېكىش ۋاقتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:156
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Length of a double click in milliseconds."
 msgstr "قوش چېكىش ۋاقتى(بىرلىكى مىللىسېكۇنت)"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
 msgid "Drag threshold"
 msgstr "سۆرەشنىڭ بوسۇغا قىممىتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:251
 msgid "Distance before a drag is started."
 msgstr "سۆرەشنى باشلىغۇچە بولغان ئارىلىق."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:385
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "چاشقىنەك غالتىكىنى تەقلىدلەش توپچىسى. 0 گە تەڭشەلسە بۇ ئىقتىدارنى چەكلەيدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:389
 msgid "Mouse wheel emulation button lock"
 msgstr "چاشقىنەك چاقىنى تەقلىد قىلىش توپچە قۇلۇپى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:171
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:390
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2197,11 +2197,11 @@ msgstr ""
 "ئارقىلىق چوڭلۇقىنى ئۆزگەرتىپ، ئوتتۇرا توپچە ئارقىلىق تىزىملىكنى كۆرسىتىشكە "
 "بولىدۇ. ئەگەر FALSE بولسا ئەكسىچە بولىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:177
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid "Drawing tablet mapping"
 msgstr "سىزىش تاختا كومپيۇتېر خەرىتىلەش"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:178
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:268
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the format "
 "[vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic mapping."
@@ -2210,19 +2210,19 @@ msgstr ""
 "مەھسۇلات، تەرتىپ نومۇرى] بولىدۇ. [\"\",\"\",\"\"] ئۆزلۈكىدىن خەرىتىلەشكە "
 "تايىنىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
 msgid "Tablet mapping"
 msgstr "تاختا كومپيۇتېر خەرىتىلەش"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:183
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "How input affects the pointer on the screen"
 msgstr "كىرگۈزۈش ئېكراندىكى نىشانلىغۇچقا قانداق تەسىر كۆرسىتىدۇ"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Tablet area"
 msgstr "تاختا كومپيۇتېر دائىرىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:188
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively applied "
 "to left,right,top and bottom sides."
@@ -2231,11 +2231,11 @@ msgstr ""
 "ئىپادىلىنىدۇ. ئايرىم-ئايرىم ھالدا ئوڭ، سول، ئۈستى ۋە ئاستى تەرىپىگە "
 "قوللىنىلىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
 msgid "Tablet aspect ratio"
 msgstr "تاختا كومپيۇتېر تەرەپ نىسبىتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2243,32 +2243,32 @@ msgstr ""
 "بۇ چىقىرىشنىڭ تەرەپ نىسبىتى بىلەن تاختا كومپيۇتېرنىڭ تەرەپ نىسبىتىنى "
 "ماسلاشتۇرۇش ئارىلىق سەزگۈر تاختىنىڭ دائىرىسىگە چەكلىمە قويىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Tablet left-handed mode"
 msgstr "سەزگۈر تاختا سولخاي ھالىتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:198
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "بۇ تاللانما قوزغىتىلسا تاختا كومپيۇتېرنى ئايلاندۇرۇش ئارقىلىق سولخاي ھالەتنى "
 "تەڭشەشكە يول قويىدۇ"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Stylus pressure curve"
 msgstr "قەلەم بىسىم ئەگرى سىزىقى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "بۇ قىممەت x1، y1 ۋە x2، y2 غا تەڭشىلىپ قەلەم بېسىم سىزىقىغا ئىشلىتىلىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:209
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
 msgid "Stylus pressure range"
 msgstr "قەلەم بىسىم دائىرىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2276,33 +2276,33 @@ msgstr ""
 "بۇ تۈر فىزىكىلىق بېسىم دائىرىسىنى لوگىكىلىق دائىرىنىڭ پىرسەنتىگە خەرىتىلەشكە "
 "تەڭشەيدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
 msgid "Eraser pressure curve"
 msgstr "ئۆچۈرگۈچ بىسىم ئەگرى سىزىقى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "بۇ قىممەت x1، y1 ۋە x2، y2 غا تەڭشىلىپ ئۆچۈرۈش بېسىم سىزىقىغا ئىشلىتىلىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
 msgid "Eraser pressure range"
 msgstr "ئۆچۈرگۈچ بىسىم دائىرىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:224
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:314
 msgid "Eraser button mode"
 msgstr "ئۆچۈرگۈچ توپچە ھالىتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:315
 msgid "Set this to change the behavior of the eraser button."
 msgstr "بۇ تەڭشەلسە ئۆچۈرگۈچ توپچىنىڭ قىلمىشىنى ئۆزگەرتىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:229
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:319
 msgid "Eraser button action"
 msgstr "ئۆچۈرگۈچ توپچە مەشغۇلاتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:320
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
@@ -2310,32 +2310,32 @@ msgstr ""
 "بۇ تەڭشەلسە ئەگەر ئۆچۈرگۈچ توپچە «توپچە» ھالىتىدە بولسا قوزغىتىلىدىغان توپچە "
 "مەشغۇلاتى."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:234
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:324
 msgid "Key combination for the eraser button if in 'button' mode"
 msgstr "ئەگەر «توپچە» ھالىتىدە بولسا ئۆچۈرگۈچ توپچىسىنىڭ بىرىكمە كۇنۇپكىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:325
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:345
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:350
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:355
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:367
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom actions."
 msgstr "كۇنۇپكا تېزلەتمىسى كۇنۇپكا ئىختىيارى مەشغۇلاتتا بېسىلغاندا پەيدا بولىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:239
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:329
 msgid "Button action"
 msgstr "توپچە مەشغۇلاتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:330
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr "قەلەم توپچە مەشغۇلاتى، بۇ توپچە قەلەمنىڭ تۇتقۇچىغا جايلاشقان."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:334
 msgid "Secondary button action"
 msgstr "ئىككىنچى توپچە مەشغۇلاتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:335
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle on "
 "some styli like the Grip Pen. Other styli like the Airbrush Pen or the Inking "
@@ -2345,11 +2345,11 @@ msgstr ""
 "مەسىلەن، Grip Pen.  باشقا بىر قىسىم قەلەم مەسىلەن ، Airbrush Pen ياكى Inking "
 "Pen نىڭ پەقەت بىرلا توپچەسى بار، بۇ تەڭشەك ئۇلارغا تەسىر كۆرسەتمەيدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:339
 msgid "Tertiary button action"
 msgstr "ئۈچىنچى توپچە مەشغۇلاتى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:340
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle on "
 "some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2359,35 +2359,35 @@ msgstr ""
 "مەسىلەن، 3D Pen.  باشقا بىر قىسىم قەلەم مەسىلەن، Grip Pen نىڭ پەقەت ئىككىلا "
 "توپچەسى بار، بۇ تەڭشەك ئۇلارغا تەسىر كۆرسەتمەيدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:344
 msgid "Key combination for the primary button"
 msgstr "ئاساسىي توپچىنىڭ بىرىكمە كۇنۇپكىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:349
 msgid "Key combination for the secondary button"
 msgstr "ئىككىنچى توپچىنىڭ بىرىكمە كۇنۇپكىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:264
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:354
 msgid "Key combination for the tertiary button"
 msgstr "ئۈچىنچى توپچىنىڭ بىرىكمە كۇنۇپكىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:271
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:361
 msgid "Pad button action type"
 msgstr "سەزگۈر تاختا توپچە مەشغۇلات تۈرى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:362
 msgid "The type of action triggered by the button being pressed."
 msgstr "بۇ تىپتىكى مەشغۇلاتنى بېسىلىپ قالغان توپچە كەلتۈرۈپ چىقىرىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:276
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:366
 msgid "Key combination for the custom action"
 msgstr "ئىختىيارى مەشغۇلاتنىڭ بىرىكمە كۇنۇپكىسى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:373
 msgid "Touchscreen output mapping"
 msgstr "سەزگۈر تاختا چىقىرىش خەرىتىلەش"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:374
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic mapping."
@@ -2396,23 +2396,7 @@ msgstr ""
 "مەھسۇلات، تەرتىپ نومۇرى] بولىدۇ. [\"\",\"\",\"\"] ئۆزلۈكىدىن خەرىتىلەشكە "
 "تايىنىدۇ."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
-msgid ""
-"Acceleration profile used for the trackball. The acceleration profile can be "
-"set to either default (“default”) which uses the default acceleration profile, "
-"flat (“flat”), which accelerates by a device specific constant factor derived "
-"from the configured speed, or adaptive (“adaptive”) which adapts the "
-"acceleration depending on the movement. If the trackball doesn’t support the "
-"configured profile, “default” will be used."
-msgstr ""
-"باغلانغان ئىزلىغۇچ شارغا ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. تېزلىتىش "
-"سەپلىمە ھۆججىتى ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە ھۆججىتىنىڭ كۆڭۈلدىكى "
-"(«default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن نىشانلىغۇچ سۈرئىتىدىن ئېرىشكەن "
-"ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن تەكشىلىك(«flat») ياكى ئىزلىغۇچ شار "
-"يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش («adaptive»). ئەگەر ئىزلىغۇچ شارى "
-"سەپلەنگەن سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى كۆڭۈلدىكى ئىشلىتىلىدۇ."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:317
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:452
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2420,28 +2404,11 @@ msgstr ""
 "نىشانلىغۇچ تايىقىنىڭ نىشانلىغۇچ سۈرئىتى. قوبۇل قىلالايدىغان قىممەت دائىرىسى "
 "(-1..1) ئىچىدە، («تېزلەتمىگەن» دىن «تېز» غىچە). سىستېمىنىڭ كۆڭۈلدىكى قىممىتى 0."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:323
-msgid ""
-"Acceleration profile used for the pointing stick. The acceleration profile can "
-"be set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant factor "
-"derived from the configured speed, or adaptive (“adaptive”) which adapts the "
-"acceleration depending on the movement. If the pointing stick doesn’t support "
-"the configured profile, “default” will be used."
-msgstr ""
-"باغلانغان نىشانلىغۇچ تاياققا ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. تېزلىتىش "
-"سەپلىمە ھۆججىتى ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە ھۆججىتىنىڭ كۆڭۈلدىكى "
-"(«default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن نىشانلىغۇچ سۈرئىتىدىن ئېرىشكەن "
-"ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن تەكشىلىك(«flat») ياكى ئىزلىغۇچ شار "
-"يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش («adaptive»). ئەگەر نىشانلىغۇچ "
-"تاياق سەپلەنگەن سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى كۆڭۈلدىكى "
-"ئىشلىتىلىدۇ."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:327
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:507
 msgid "Scrolling method"
 msgstr "سىيرىش ئۇسۇلى"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:328
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:508
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set to "
 "either default (“default”) which uses the default method, none (“none”), which "
@@ -3909,6 +3876,55 @@ msgid ""
 msgstr ""
 "ۋاكالەتچى ئىشلىتىدىغان كومپيۇتېردىكى «/system/proxy/socks/host» دا ئېنىقلانغان "
 "ئېغىز."
+
+#~ msgid ""
+#~ "Acceleration profile used for connected touchpads. The acceleration profile "
+#~ "can be set to either default (“default”) which uses the default "
+#~ "acceleration profile for each device, flat (“flat”), which accelerates by a "
+#~ "device specific constant factor derived from the configured pointer speed, "
+#~ "or adaptive (“adaptive”) which adapts the acceleration depending on the "
+#~ "mouse movement. If a touchpad doesn’t support the configured profile, "
+#~ "“default” will be used."
+#~ msgstr ""
+#~ "باغلانغان سەزگۈر تاختىغا ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. تېزلىتىش "
+#~ "سەپلىمە ھۆججىتى ھەر بىر ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە ھۆججىتىنىڭ "
+#~ "كۆڭۈلدىكى («default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن نىشانلىغۇچ "
+#~ "سۈرئىتىدىن ئېرىشكەن ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن تەكشىلىك(«flat») "
+#~ "ياكى چاشقىنەك يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش («adaptive»). "
+#~ "ئەگەر سەزگۈر تاختا سەپلەنگەن سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى "
+#~ "كۆڭۈلدىكى ئىشلىتىلىدۇ."
+
+#~ msgid ""
+#~ "Acceleration profile used for the trackball. The acceleration profile can "
+#~ "be set to either default (“default”) which uses the default acceleration "
+#~ "profile, flat (“flat”), which accelerates by a device specific constant "
+#~ "factor derived from the configured speed, or adaptive (“adaptive”) which "
+#~ "adapts the acceleration depending on the movement. If the trackball doesn’t "
+#~ "support the configured profile, “default” will be used."
+#~ msgstr ""
+#~ "باغلانغان ئىزلىغۇچ شارغا ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. تېزلىتىش "
+#~ "سەپلىمە ھۆججىتى ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە ھۆججىتىنىڭ "
+#~ "كۆڭۈلدىكى («default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن نىشانلىغۇچ "
+#~ "سۈرئىتىدىن ئېرىشكەن ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن تەكشىلىك(«flat») "
+#~ "ياكى ئىزلىغۇچ شار يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى ماسلاشتۇرۇش («adaptive»). "
+#~ "ئەگەر ئىزلىغۇچ شارى سەپلەنگەن سەپلىمە ھۆججەتنى قوللىمىسا، «default» يەنى "
+#~ "كۆڭۈلدىكى ئىشلىتىلىدۇ."
+
+#~ msgid ""
+#~ "Acceleration profile used for the pointing stick. The acceleration profile "
+#~ "can be set to either default (“default”) which uses the default "
+#~ "acceleration profile, flat (“flat”), which accelerates by a device specific "
+#~ "constant factor derived from the configured speed, or adaptive (“adaptive”) "
+#~ "which adapts the acceleration depending on the movement. If the pointing "
+#~ "stick doesn’t support the configured profile, “default” will be used."
+#~ msgstr ""
+#~ "باغلانغان نىشانلىغۇچ تاياققا ئىشلىتىدىغان تېزلىتىش سەپلىمە ھۆججىتى. "
+#~ "تېزلىتىش سەپلىمە ھۆججىتى ئۈسكۈنە ئۈچۈن كۆڭۈلدىكى تېزلىتىش سەپلىمە "
+#~ "ھۆججىتىنىڭ كۆڭۈلدىكى («default») تەڭشىكىنى سەپلىيەلەيدۇ. سەپلەنگەن "
+#~ "نىشانلىغۇچ سۈرئىتىدىن ئېرىشكەن ئۈسكۈنىنىڭ مۇتلەق قىممىتى تېزلەتكەن "
+#~ "تەكشىلىك(«flat») ياكى ئىزلىغۇچ شار يۆتكىلىشى ئاساسىدىكى تېزلىتىشنى "
+#~ "ماسلاشتۇرۇش («adaptive»). ئەگەر نىشانلىغۇچ تاياق سەپلەنگەن سەپلىمە ھۆججەتنى "
+#~ "قوللىمىسا، «default» يەنى كۆڭۈلدىكى ئىشلىتىلىدۇ."
 
 #~ msgid "Menus Have Icons"
 #~ msgstr "تىزىملىكتىكى سىنبەلگە"
