@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas.po.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2026-08-03 09:26+0000\n"
-"PO-Revision-Date: 2026-09-07 12:43+0200\n"
+"POT-Creation-Date: 2026-09-01 21:27+0000\n"
+"PO-Revision-Date: 2026-09-07 13:34+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish <l10n-es@gnome.org>\n"
 "Language: es\n"
@@ -2107,37 +2107,84 @@ msgstr ""
 "configuración del ratón."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:74
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:145
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:322
-msgid "Acceleration profile"
-msgstr "Perfil de aceleración"
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:394
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:457
+msgid "Pointer acceleration profile"
+msgstr "Perfil de aceleración del puntero"
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:75
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:395
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:458
 msgid ""
-"Acceleration profile used for connected touchpads. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device "
-"specific constant factor derived from the configured pointer speed, or "
-"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
-"movement. If a touchpad doesn’t support the configured profile, “default” "
-"will be used."
+"Acceleration profile used for the connected devices of this type's pointers. "
+"The pointer acceleration profile can be set to either: - default (“default”) "
+"which uses the default acceleration profile for each device. - flat "
+"(“flat”), which accelerates by a device specific constant factor derived "
+"from the configured pointer speed. - adaptive (“adaptive”) which adapts the "
+"acceleration depending on the mouse movement. - custom (\"custom\") which "
+"accelerates by a provided acceleration curve defined with `pointer-step` and "
+"`pointer-speeds` in `custom-accel-config`. If a device doesn’t support the "
+"configured profile, “default” will be used."
 msgstr ""
-"Perfil de aceleración usado para «touchpads» conectado. El perfil de "
-"aceleración puede ser el predeterminado ('default'), que usa el perfil de "
-"aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
-"basa en un factor constante de aceleración específico del dispositivo, "
-"derivado de la configuración de la velocidad del puntero, o adaptativo "
-"('adaptive'), que adapta la aceleración dependiendo del movimiento del "
-"ratón. Si un ratón no soporta el perfil configurado, se usara el 'default'."
+"Perfil de aceleración utilizado para los dispositivos conectados de punteros "
+"de este tipo. El perfil de aceleración del puntero se puede configurar en: - "
+"predeterminado (“default”) que utiliza el perfil de aceleración "
+"predeterminado para cada dispositivo. - plano (“flat”), que acelera mediante "
+"un factor constante específico del dispositivo derivado de la velocidad del "
+"puntero configurada. - adaptativo (“adaptative”) que adapta la aceleración "
+"en función del movimiento del ratón. - personalizado (\"custom\") que "
+"acelera mediante un proporcionado curva de aceleración definida con `pointer-"
+"step` y `pointer-speeds` en `custom-accel-config`. Si un dispositivo no "
+"admite el perfil configurado, se utilizará \"predeterminado\"."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:79
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:134
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:316
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:419
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:482
+msgid "Custom acceleration configuration"
+msgstr "Configuración de aceleración personalizada"
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:100
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:216
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:420
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:483
+msgid ""
+"A dictionary storing custom device acceleration settings. Currently, valid "
+"entries are as follows: - `pointer-step` (d): The increment of an \"x axis\" "
+"of the pointer acceleration curve, the \"input\" pointer speed, in device "
+"units per millisecond. - `pointer-speeds` (ad): Every increment (N) of "
+"`pointer-step`, the Nth value is selected from this array as that point on "
+"the \"y axis\" of the pointer acceleration curve, the \"output\" pointer "
+"speed in device units per ms. Where input pointer speed doesn't lie on any "
+"single point in `pointer-step` and `pointer-speeds`, a linear interpolation "
+"of the two closest points will be calculated. Additional details can be "
+"found in libinput documentation (\"The custom acceleration profile\"). More "
+"entries may be added later."
+msgstr ""
+"Un diccionario que almacena configuraciones personalizadas de aceleración "
+"del dispositivo. Actualmente, las entradas válidas son las siguientes: - "
+"\"paso del puntero\" (d): el incremento de un \"eje x\" de la curva de "
+"aceleración del puntero, la velocidad del puntero \"de entrada\", en "
+"unidades del dispositivo por milisegundo. - `velocidades del puntero` (ad): "
+"Cada incremento (N) de `paso del puntero`, el enésimo valor se selecciona de "
+"esta matriz como ese punto en el \"eje y\" de la curva de aceleración del "
+"puntero, la velocidad del puntero de \"salida\" en unidades del dispositivo "
+"por ms. donde entrada La velocidad del puntero no se encuentra en ningún "
+"punto en \"paso del puntero\" y \"velocidades del puntero\", se calculará "
+"una interpolación lineal de los dos puntos más cercanos. Se pueden encontrar "
+"detalles adicionales en la documentación de libinput (\"El perfil de "
+"aceleración personalizado\"). Es posible que se agreguen más entradas más "
+"adelante."
+
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:124
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:451
 msgid "Pointer speed"
 msgstr "Velocidad del puntero"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:80
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:125
 msgid ""
 "Pointer speed for the touchpad. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2146,22 +2193,22 @@ msgstr ""
 "[-1..1] (desde «no acelerado» hasta «rápido»). El valor 0 es el "
 "predeterminado del sistema."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:85
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:185
 msgid "Natural scrolling"
 msgstr "Desplazamiento natural"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:86
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:131
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Establezca esto a verdadero para activar el desplazamiento natural (hacia "
 "atrás) para paneles táctiles."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:90
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
 msgid "Click method"
 msgstr "Método de pulsación"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:91
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:136
 msgid ""
 "How to generate software-emulated buttons, either disabled (“none”), through "
 "specific areas (“areas”), number of fingers (“fingers”) or left as hardware "
@@ -2171,15 +2218,15 @@ msgstr ""
 "mediante áreas específicas («areas»), número de dedos («fingers») o dejar el "
 "valor hardware predeterminado («default»)."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:95
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:150
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:140
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:444
 msgid "Emulate middle click"
 msgstr "Simular pulsación central"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:96
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:151
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:241
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:445
 msgid ""
 "Set this to TRUE to enable middle click during simultaneous left and right "
 "click."
@@ -2187,35 +2234,35 @@ msgstr ""
 "Establecer a cierto para activar la pulsación central al pulsar "
 "simultáneamente los botones derecho e izquierdo."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:102
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:147
 msgid "Keyboard repeat"
 msgstr "Repetición del teclado"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:103
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:148
 msgid "Set this to TRUE to enable keyboard repeat."
 msgstr "Establecer esto a cierto para activar la repetición del teclado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:107
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:152
 msgid "Key Repeat Interval"
 msgstr "Intervalo de repetición de teclas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:108
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:153
 msgid "Delay between repeats in milliseconds."
 msgstr "Retardo entre repeticiones, en milisegundos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:112
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:157
 msgid "Initial Key Repeat Delay"
 msgstr "Intervalo inicial de repetición de teclas"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:113
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:158
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Retardo inicial de repetición de teclas, en milisegundos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:117
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:162
 msgid "Remember NumLock state"
 msgstr "Recordar el estado del BloqNum"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:118
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:163
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -2223,25 +2270,25 @@ msgstr ""
 "Cuando es cierto, GNOME recordará el estado del led del BloqNum entre "
 "sesiones."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:122
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:167
 msgid "NumLock state"
 msgstr "Estado del BloqNum"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:123
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:168
 msgid "The remembered state of the NumLock LED."
 msgstr "El estado que se recuerda del LED del BloqNum."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:129
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:174
 msgid "Mouse button orientation"
 msgstr "Orientación del botón del ratón"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:130
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:175
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Intercambiar los botones izquierdo y derecho del ratón para ratones para "
 "zurdos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:135
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:180
 msgid ""
 "Pointer speed for mice. Accepted values are in the [-1..1] range (from "
 "“unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2250,60 +2297,42 @@ msgstr ""
 "(desde «no acelerado» hasta «rápido»). El valor 0 es el predeterminado del "
 "sistema."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:141
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:186
 msgid "Set this to TRUE to enable natural (reverse) scrolling for mice."
 msgstr ""
 "Establezca esto a verdadero para activar el desplazamiento natural (hacia "
 "atrás) del ratón."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:146
-msgid ""
-"Acceleration profile used for connected mice. The acceleration profile can "
-"be set to either default (“default”) which uses the default acceleration "
-"profile for each device, flat (“flat”), which accelerates by a device "
-"specific constant factor derived from the configured pointer speed, or "
-"adaptive (“adaptive”) which adapts the acceleration depending on the mouse "
-"movement. If a mouse doesn’t support the configured profile, “default” will "
-"be used."
-msgstr ""
-"Perfil de aceleración usado para el ratón conectado. El perfil de "
-"aceleración puede ser el predeterminado ('default'), que usa el perfil de "
-"aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
-"basa en un factor constante de aceleración específico del dispositivo, "
-"derivado de la configuración de la velocidad del puntero, o adaptativo "
-"('adaptive'), que adapta la aceleración dependiendo del movimiento del "
-"ratón. Si un ratón no soporta el perfil configurado, se usara el 'default'."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:155
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
 msgid "Double click time"
 msgstr "Tiempo de la doble pulsación"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:156
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:246
 msgid "Length of a double click in milliseconds."
 msgstr "Longitud de la doble pulsación, en milisegundos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:160
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
 msgid "Drag threshold"
 msgstr "Umbral de arrastre"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:161
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:251
 msgid "Distance before a drag is started."
 msgstr "Distancia antes de iniciar el arrastre."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:166
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:256
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:385
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Emulación del botón con la rueda del ratón. 0 para desactivar esta "
 "característica."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:170
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:389
 msgid "Mouse wheel emulation button lock"
 msgstr "Bloqueo de la emulación del botón con la rueda del ratón"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:171
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:261
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:390
 msgid ""
 "Set this to TRUE to enable button locking for the wheel emulation button. If "
 "enabled, the first click of the button enables scrolling, the second click "
@@ -2313,11 +2342,11 @@ msgstr ""
 "con la rueda del ratón. Si está activado, la primera pulsación activa el "
 "desplazamiento y la segunda la desactiva de nuevo."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:177
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:267
 msgid "Drawing tablet mapping"
 msgstr "Mapeado de tableta de dibujo"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:178
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:268
 msgid ""
 "EDID information of the output the tablet is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2326,19 +2355,19 @@ msgstr ""
 "Información EDID de la salida de la tableta que tiene mapeada. Debe estar en "
 "formato [fabricante, producto, serie]. [\"\",\"\",\"\"] desactiva el mapeado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:182
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
 msgid "Tablet mapping"
 msgstr "Mapeado de la tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:183
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:273
 msgid "How input affects the pointer on the screen"
 msgstr "Cómo afecta la entrada al puntero en la pantalla"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:187
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
 msgid "Tablet area"
 msgstr "Área de la tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:188
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:278
 msgid ""
 "Dead area padding around the active area, in percentages. Respectively "
 "applied to left,right,top and bottom sides."
@@ -2346,11 +2375,11 @@ msgstr ""
 "Área de relleno inútil en el área activa, en porcentajes. Aplicada "
 "despectivamente a la izquierda, derecha, arriba y abajo."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:192
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:282
 msgid "Tablet aspect ratio"
 msgstr "Relación de aspecto de la tableta"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:193
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
 msgid ""
 "Enable this to restrict the tablet area to match the aspect ratio of the "
 "output."
@@ -2358,34 +2387,34 @@ msgstr ""
 "Active esto para restringir el área de la tableta para que coincida con la "
 "relación de aspecto de la salida."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:197
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:287
 msgid "Tablet left-handed mode"
 msgstr "Modo de tableta para zurdos"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:198
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
 msgid ""
 "Enable this to allow physically rotating the tablet for left-handed setups"
 msgstr ""
 "Active esto para permitir la rotación física de la tableta para "
 "configuraciones para zurdos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:204
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:294
 msgid "Stylus pressure curve"
 msgstr "Curva de presión de la Stylus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:205
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:295
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Establezca esto a x1, y1 y x2, y2 de la curva de presión aplicada a la "
 "Stylus."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:209
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:299
 msgid "Stylus pressure range"
 msgstr "Rango de presión de la Stylus"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:210
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:220
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:300
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:310
 msgid ""
 "Set this to the percentage of the physical pressure range that should map to "
 "the logical range."
@@ -2393,34 +2422,34 @@ msgstr ""
 "Establecer esto al porcentaje del rango de presión física que debe "
 "corresponder al rango lógico."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:214
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:304
 msgid "Eraser pressure curve"
 msgstr "Curva de presión del borrador"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Establezca esto a x1, y1 y x2, y2 de la curva de presión aplicada al "
 "borrador."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:219
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:309
 msgid "Eraser pressure range"
 msgstr "Rango de presión del borrador"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:224
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:314
 msgid "Eraser button mode"
 msgstr "Modo de botón de borrador"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:225
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:315
 msgid "Set this to change the behavior of the eraser button."
 msgstr "Configure esto para cambiar el comportamiento del botón del borrador."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:229
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:319
 msgid "Eraser button action"
 msgstr "Acción del botón del borrador"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:230
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:320
 msgid ""
 "Set this to the button action triggered if the eraser button is in 'button' "
 "mode."
@@ -2428,16 +2457,16 @@ msgstr ""
 "Configure esto en la acción del botón que se activa si el botón del borrador "
 "está en modo 'button'."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:234
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:324
 msgid "Key combination for the eraser button if in 'button' mode"
 msgstr ""
 "Combinación de teclas para el botón del borrador si está en modo 'button'"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:235
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:255
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:260
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:265
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:277
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:325
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:345
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:350
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:355
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:367
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -2445,20 +2474,20 @@ msgstr ""
 "El atajo del teclado generado cuando se pulsa el botón para acciones "
 "personalizadas."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:239
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:329
 msgid "Button action"
 msgstr "Acción del botón"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:240
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:330
 msgid "Stylus button action, this button is located along the pen handle."
 msgstr ""
 "Acción del botón de la Stylus. Este botón se encuentra a lo largo del lápiz."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:244
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:334
 msgid "Secondary button action"
 msgstr "Acción del botón secundario"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:245
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:335
 msgid ""
 "Secondary stylus button action, this button is located along the pen handle "
 "on some styli like the Grip Pen. Other styli like the Airbrush Pen or the "
@@ -2468,11 +2497,11 @@ msgstr ""
 "de algunos lápices como el Grip Pen. Otros como el Airbrush Pen o el Inking "
 "Pen sólo tienen un botón, por lo que esta opción no tiene efecto en ellos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:249
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:339
 msgid "Tertiary button action"
 msgstr "Acción del botón terciario"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:250
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:340
 msgid ""
 "Tertiary stylus button action, this button is located along the pen handle "
 "on some styli like the 3D Pen. Other styli like the Grip Pen only have two "
@@ -2482,35 +2511,35 @@ msgstr ""
 "de algunos lápices como el Grip Pen. Otros como el Airbrush Pen o el Inking "
 "Pen sólo tienen un botón, por lo que esta opción no tiene efecto en ellos."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:254
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:344
 msgid "Key combination for the primary button"
 msgstr "Atajo del teclado para el botón primario"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:259
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:349
 msgid "Key combination for the secondary button"
 msgstr "Atajo del teclado para el botón secundario"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:264
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:354
 msgid "Key combination for the tertiary button"
 msgstr "Atajo del teclado para el botón terciario"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:271
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:361
 msgid "Pad button action type"
 msgstr "Tipo de acción para el botón del panel táctil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:272
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:362
 msgid "The type of action triggered by the button being pressed."
 msgstr "El tipo de acción que ejecutar cuando se pulsa el botón."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:276
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:366
 msgid "Key combination for the custom action"
 msgstr "Atajo del teclado para la acción personalizada"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:283
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:373
 msgid "Touchscreen output mapping"
 msgstr "Mapeado de salida de la pantalla táctil"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:284
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:374
 msgid ""
 "EDID information of the output the touchscreen is mapped to. Must be in the "
 "format [vendor, product, serial]. [\"\",\"\",\"\"] relies on automatic "
@@ -2520,30 +2549,13 @@ msgstr ""
 "estar en formato [fabricante, producto, serie]. [\"\",\"\",\"\"] desactiva "
 "el mapeado."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:288
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:378
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
 "Indica si la orientación de la tableta está bloqueada o girada "
 "automáticamente."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:305
-msgid ""
-"Acceleration profile used for the trackball. The acceleration profile can be "
-"set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive (“adaptive”) which "
-"adapts the acceleration depending on the movement. If the trackball doesn’t "
-"support the configured profile, “default” will be used."
-msgstr ""
-"Perfil de aceleración usado para el «trackball» conectado. El perfil de "
-"aceleración puede ser el predeterminado ('default'), que usa el perfil de "
-"aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
-"basa en un factor constante de aceleración específico del dispositivo, "
-"derivado de la configuración de la velocidad del puntero, o adaptativo "
-"('adaptive'), que adapta la aceleración dependiendo del movimiento. Si el "
-"«trackball» no soporta el perfil configurado, se usara el 'default'."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:317
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:452
 msgid ""
 "Pointer speed for pointing sticks. Accepted values are in the [-1..1] range "
 "(from “unaccelerated” to “fast”). A value of 0 is the system default."
@@ -2552,28 +2564,11 @@ msgstr ""
 "(desde «no acelerado» hasta «rápido»). El valor 0 es el predeterminado del "
 "sistema."
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:323
-msgid ""
-"Acceleration profile used for the pointing stick. The acceleration profile "
-"can be set to either default (“default”) which uses the default acceleration "
-"profile, flat (“flat”), which accelerates by a device specific constant "
-"factor derived from the configured speed, or adaptive (“adaptive”) which "
-"adapts the acceleration depending on the movement. If the pointing stick "
-"doesn’t support the configured profile, “default” will be used."
-msgstr ""
-"Perfil de aceleración usado para el lápiz conectado. El perfil de "
-"aceleración puede ser el predeterminado ('default'), que usa el perfil de "
-"aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
-"basa en un factor constante de aceleración específico del dispositivo, "
-"derivado de la configuración de la velocidad del puntero, o adaptativo "
-"('adaptive'), que adapta la aceleración dependiendo del movimiento. Si el "
-"lápiz no soporta el perfil configurado, se usara el 'default'."
-
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:327
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:507
 msgid "Scrolling method"
 msgstr "Método de desplazamiento"
 
-#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:328
+#: schemas/org.gnome.desktop.peripherals.gschema.xml.in:508
 msgid ""
 "Scrolling method used for pointing sticks. The scrolling method can be set "
 "to either default (“default”) which uses the default method, none (“none”), "
@@ -4061,6 +4056,57 @@ msgid ""
 msgstr ""
 "El puerto de la máquina definida por «/system/proxy/socks/host» que hace de "
 "proxy."
+
+#~ msgid ""
+#~ "Acceleration profile used for connected touchpads. The acceleration "
+#~ "profile can be set to either default (“default”) which uses the default "
+#~ "acceleration profile for each device, flat (“flat”), which accelerates by "
+#~ "a device specific constant factor derived from the configured pointer "
+#~ "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
+#~ "on the mouse movement. If a touchpad doesn’t support the configured "
+#~ "profile, “default” will be used."
+#~ msgstr ""
+#~ "Perfil de aceleración usado para «touchpads» conectado. El perfil de "
+#~ "aceleración puede ser el predeterminado ('default'), que usa el perfil de "
+#~ "aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
+#~ "basa en un factor constante de aceleración específico del dispositivo, "
+#~ "derivado de la configuración de la velocidad del puntero, o adaptativo "
+#~ "('adaptive'), que adapta la aceleración dependiendo del movimiento del "
+#~ "ratón. Si un ratón no soporta el perfil configurado, se usara el "
+#~ "'default'."
+
+#~ msgid ""
+#~ "Acceleration profile used for the trackball. The acceleration profile can "
+#~ "be set to either default (“default”) which uses the default acceleration "
+#~ "profile, flat (“flat”), which accelerates by a device specific constant "
+#~ "factor derived from the configured speed, or adaptive (“adaptive”) which "
+#~ "adapts the acceleration depending on the movement. If the trackball "
+#~ "doesn’t support the configured profile, “default” will be used."
+#~ msgstr ""
+#~ "Perfil de aceleración usado para el «trackball» conectado. El perfil de "
+#~ "aceleración puede ser el predeterminado ('default'), que usa el perfil de "
+#~ "aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
+#~ "basa en un factor constante de aceleración específico del dispositivo, "
+#~ "derivado de la configuración de la velocidad del puntero, o adaptativo "
+#~ "('adaptive'), que adapta la aceleración dependiendo del movimiento. Si el "
+#~ "«trackball» no soporta el perfil configurado, se usara el 'default'."
+
+#~ msgid ""
+#~ "Acceleration profile used for the pointing stick. The acceleration "
+#~ "profile can be set to either default (“default”) which uses the default "
+#~ "acceleration profile, flat (“flat”), which accelerates by a device "
+#~ "specific constant factor derived from the configured speed, or adaptive "
+#~ "(“adaptive”) which adapts the acceleration depending on the movement. If "
+#~ "the pointing stick doesn’t support the configured profile, “default” will "
+#~ "be used."
+#~ msgstr ""
+#~ "Perfil de aceleración usado para el lápiz conectado. El perfil de "
+#~ "aceleración puede ser el predeterminado ('default'), que usa el perfil de "
+#~ "aceleración predeterminado para cada dispositivo, plano ('flat'), que se "
+#~ "basa en un factor constante de aceleración específico del dispositivo, "
+#~ "derivado de la configuración de la velocidad del puntero, o adaptativo "
+#~ "('adaptive'), que adapta la aceleración dependiendo del movimiento. Si el "
+#~ "lápiz no soporta el perfil configurado, se usara el 'default'."
 
 #, fuzzy
 #~ msgid "Toggle shaded state"
