@@ -11,15 +11,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
 "POT-Creation-Date: 2026-09-01 21:27+0000\n"
-"PO-Revision-Date: 2024-05-07 22:32+0300\n"
-"Last-Translator: Efstathios Iosifidis <eiosifidis@gnome.org>\n"
+"PO-Revision-Date: 2026-10-03 14:00+0300\n"
+"Last-Translator: Efstathios Iosifidis <eiosifidis@gmail.com>\n"
 "Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.9\n"
 "X-Project-Style: gnome\n"
 
 #: schemas/org.gnome.desktop.a11y.applications.gschema.xml.in:6
@@ -98,7 +98,7 @@ msgstr "Ο τύπος της μειωμένης κίνησης."
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:27
 msgid "Keyboard navigation focus timeout"
-msgstr ""
+msgstr "Χρονικό όριο εστίασης κατά την πλοήγηση με το πληκτρολόγιο"
 
 #: schemas/org.gnome.desktop.a11y.interface.gschema.xml.in:28
 msgid ""
@@ -106,6 +106,9 @@ msgid ""
 "with the keyboard. 0 means \"forever\", and a negative value means \"use the "
 "default toolkit value\"."
 msgstr ""
+"Πόσα δευτερόλεπτα πρέπει να παραμένει ορατό το εστιακό σημείο πλοήγησης κατά "
+"την πλοήγηση με το πληκτρολόγιο. Το 0 σημαίνει «για πάντα», ενώ μια αρνητική "
+"τιμή σημαίνει «χρήση της προεπιλεγμένης τιμής του toolkit»."
 
 #: schemas/org.gnome.desktop.a11y.keyboard.gschema.xml.in:6
 msgid "Enable accessibility keyboard shortcuts"
@@ -1966,7 +1969,6 @@ msgstr ""
 "εμφανίζονται στην κλειδωμένη οθόνη."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:15
-#| msgid "Touchpad enabled"
 msgid "Touchpad scroll speed"
 msgstr "Ταχύτητα κύλισης πινακίδας αφής"
 
@@ -1976,9 +1978,9 @@ msgid ""
 "lower than 1.0 make scrolling slower, values higher than 1.0 make scrolling "
 "faster."
 msgstr ""
-"Ρυθμίζει τη μεταβολή κύλισης (delta) που παράγεται από την κύλιση με το δάχτυλο "
-"στην πινακίδα αφής. Τιμές μικρότερες από 1.0 καθιστούν την κύλιση πιο αργή, "
-"ενώ τιμές μεγαλύτερες από 1.0 την καθιστούν πιο γρήγορη."
+"Ρυθμίζει τη μεταβολή κύλισης (delta) που παράγεται από την κύλιση με το "
+"δάχτυλο στην πινακίδα αφής. Τιμές μικρότερες από 1.0 καθιστούν την κύλιση "
+"πιο αργή, ενώ τιμές μεγαλύτερες από 1.0 την καθιστούν πιο γρήγορη."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:23
 msgid "Whether edge scrolling is enabled"
@@ -2105,7 +2107,6 @@ msgstr ""
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:190
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:394
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:457
-#| msgid "Acceleration profile"
 msgid "Pointer acceleration profile"
 msgstr "Προφίλ επιτάχυνσης δείκτη"
 
@@ -2113,14 +2114,6 @@ msgstr "Προφίλ επιτάχυνσης δείκτη"
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:191
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:395
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:458
-#| msgid ""
-#| "Acceleration profile used for connected mice. The acceleration profile "
-#| "can be set to either default (“default”) which uses the default "
-#| "acceleration profile for each device, flat (“flat”), which accelerates by "
-#| "a device specific constant factor derived from the configured pointer "
-#| "speed, or adaptive (“adaptive”) which adapts the acceleration depending "
-#| "on the mouse movement. If a mouse doesn’t support the configured profile, "
-#| "“default” will be used."
 msgid ""
 "Acceleration profile used for the connected devices of this type's pointers. "
 "The pointer acceleration profile can be set to either: - default (“default”) "
@@ -2132,22 +2125,22 @@ msgid ""
 "`pointer-speeds` in `custom-accel-config`. If a device doesn’t support the "
 "configured profile, “default” will be used."
 msgstr ""
-"Προφίλ επιτάχυνσης που χρησιμοποιείται για τους δείκτες των συνδεδεμένων συσκευών "
-"αυτού του τύπου. Το προφίλ επιτάχυνσης δείκτη μπορεί να οριστεί είτε σε: "
-"- προεπιλογή («default»), το οποίο χρησιμοποιεί το προεπιλεγμένο προφίλ επιτάχυνσης "
-"για κάθε συσκευή. - επίπεδο («flat»), το οποίο επιταχύνει κατά έναν σταθερό συντελεστή "
-"ανάλογα με τη συσκευή που προκύπτει από τη ρυθμισμένη ταχύτητα του δείκτη. "
-"- προσαρμοστικό («adaptive»), το οποίο προσαρμόζει την επιτάχυνση ανάλογα με την "
-"κίνηση του ποντικιού. - προσαρμοσμένο (\"custom\"), το οποίο επιταχύνει βάσει μιας "
-"παρεχόμενης καμπύλης επιτάχυνσης που ορίζεται με τα `pointer-step` και `pointer-speeds` "
-"στο `custom-accel-config`. Αν μια συσκευή δεν υποστηρίζει το ρυθμισμένο προφίλ, "
-"θα χρησιμοποιηθεί το «default»."
+"Προφίλ επιτάχυνσης που χρησιμοποιείται για τους δείκτες των συνδεδεμένων "
+"συσκευών αυτού του τύπου. Το προφίλ επιτάχυνσης δείκτη μπορεί να οριστεί "
+"είτε σε: - προεπιλογή («default»), το οποίο χρησιμοποιεί το προεπιλεγμένο "
+"προφίλ επιτάχυνσης για κάθε συσκευή. - επίπεδο («flat»), το οποίο επιταχύνει "
+"κατά έναν σταθερό συντελεστή ανάλογα με τη συσκευή που προκύπτει από τη "
+"ρυθμισμένη ταχύτητα του δείκτη. - προσαρμοστικό («adaptive»), το οποίο "
+"προσαρμόζει την επιτάχυνση ανάλογα με την κίνηση του ποντικιού. - "
+"προσαρμοσμένο (\"custom\"), το οποίο επιταχύνει βάσει μιας παρεχόμενης "
+"καμπύλης επιτάχυνσης που ορίζεται με τα `pointer-step` και `pointer-speeds` "
+"στο `custom-accel-config`. Αν μια συσκευή δεν υποστηρίζει το ρυθμισμένο "
+"προφίλ, θα χρησιμοποιηθεί το «default»."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:99
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:215
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:419
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:482
-#| msgid "Automatic proxy configuration URL"
 msgid "Custom acceleration configuration"
 msgstr "Προσαρμοσμένη ρύθμιση επιτάχυνσης"
 
@@ -2168,6 +2161,19 @@ msgid ""
 "found in libinput documentation (\"The custom acceleration profile\"). More "
 "entries may be added later."
 msgstr ""
+"Ένα λεξικό που αποθηκεύει προσαρμοσμένες ρυθμίσεις επιτάχυνσης της συσκευής. "
+"Προς το παρόν, οι έγκυρες καταχωρήσεις είναι οι εξής: - `pointer-step` (d): "
+"Το βήμα του «άξονα x» της καμπύλης επιτάχυνσης του δείκτη, δηλαδή η ταχύτητα "
+"«εισόδου» του δείκτη, σε μονάδες συσκευής ανά χιλιοστό του δευτερολέπτου. - "
+"`pointer-speeds` (ad): Για κάθε βήμα (N) του `pointer-step`, η N-οστή τιμή "
+"επιλέγεται από αυτόν τον πίνακα ως το αντίστοιχο σημείο στον «άξονα y» της "
+"καμπύλης επιτάχυνσης του δείκτη, δηλαδή η ταχύτητα «εξόδου» του δείκτη σε "
+"μονάδες της συσκευής ανά ms. Όταν η ταχύτητα εισόδου του δείκτη δεν "
+"αντιστοιχεί σε κανένα συγκεκριμένο σημείο των `pointer-step` και `pointer-"
+"speeds`, υπολογίζεται μια γραμμική παρεμβολή των δύο πλησιέστερων σημείων. "
+"Περισσότερες λεπτομέρειες μπορείτε να βρείτε στην τεκμηρίωση του libinput "
+"(«Το προσαρμοσμένο προφίλ επιτάχυνσης»). Ενδέχεται να προστεθούν "
+"περισσότερες καταχωρήσεις αργότερα."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:124
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:179
@@ -2548,6 +2554,8 @@ msgstr ""
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:378
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
+"Είτε ο προσανατολισμός του tablet είναι κλειδωμένος, είτε περιστρέφεται "
+"αυτόματα."
 
 #: schemas/org.gnome.desktop.peripherals.gschema.xml.in:452
 msgid ""
